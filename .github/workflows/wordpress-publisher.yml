@@ -24,6 +24,7 @@ on:
     - cron: '17 * * * *'
 permissions:
   contents: read
+  actions: write
 concurrency:
   group: wp-aiwriter-publisher
   cancel-in-progress: false
@@ -41,6 +42,7 @@ jobs:
       - name: Validate exact Excel source and all authored files
         run: python scripts/engine.py --mode qa
       - name: Safe dry run or publish (up to 2)
+        id: sync
         env:
           WP_USERNAME: ${{ secrets.WP_USERNAME }}
           WP_APPLICATION_PASSWORD: ${{ secrets.WP_APPLICATION_PASSWORD }}
@@ -56,3 +58,8 @@ jobs:
           else
             python scripts/engine.py --mode sync --limit "${BATCH_SIZE:-2}" --live
           fi
+      - name: Continue 2-by-2 when a full batch was created
+        if: steps.sync.outputs.created == '2'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run wordpress-publisher.yml --ref main -f live=true -f batch_size=2
