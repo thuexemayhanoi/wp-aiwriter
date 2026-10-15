@@ -132,6 +132,10 @@ def run(args):
         print(f"CREATED #{article['id']} WP:{result['id']} status={status} category_id={category_id} URL={result.get('link')}")
         created+=1
     print(f"COMPLETE created={created} preexisting_skipped={skipped}")
+    output_path=os.getenv("GITHUB_OUTPUT")
+    if output_path:
+        with open(output_path,"a",encoding="utf-8") as out:
+            out.write(f"created={created}\n")
     return 0
 
 if __name__=="__main__":
