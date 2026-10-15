@@ -1,0 +1,58 @@
+name: Excel Matrix WP Publisher
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'posts/**'
+      - 'data/topics.json'
+      - 'scripts/engine.py'
+      - '.github/workflows/wordpress-publisher.yml'
+  workflow_dispatch:
+    inputs:
+      live:
+        description: 'Actually create WordPress posts'
+        required: true
+        type: boolean
+        default: true
+      batch_size:
+        description: 'Maximum new posts in this run'
+        required: true
+        type: choice
+        options: ['2', '1']
+        default: '2'
+  schedule:
+    - cron: '17 * * * *'
+permissions:
+  contents: read
+concurrency:
+  group: wp-aiwriter-publisher
+  cancel-in-progress: false
+jobs:
+  qa-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Python environment
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate exact Excel source and all authored files
+        run: python scripts/engine.py --mode qa
+      - name: Safe dry run or publish (up to 2)
+        env:
+          WP_USERNAME: ${{ secrets.WP_USERNAME }}
+          WP_APPLICATION_PASSWORD: ${{ secrets.WP_APPLICATION_PASSWORD }}
+          LIVE: ${{ github.event.inputs.live }}
+          BATCH_SIZE: ${{ github.event.inputs.batch_size }}
+        shell: bash
+        run: |
+          if [[ "$LIVE" == 'false' ]]; then
+            python scripts/engine.py --mode sync --limit "${BATCH_SIZE:-2}"
+          elif [[ -z "$WP_USERNAME" || -z "$WP_APPLICATION_PASSWORD" ]]; then
+            echo 'GitHub Secrets missing; publication safely disabled.'
+            python scripts/engine.py --mode sync --limit 2
+          else
+            python scripts/engine.py --mode sync --limit "${BATCH_SIZE:-2}" --live
+          fi
