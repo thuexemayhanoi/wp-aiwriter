@@ -1031,14 +1031,16 @@
     "247": {
       "title": "Ứng dụng ghi chú nào tiện để lưu thông tin hợp đồng thuê xe?",
       "source_hash": "18a58639e5939744435f8780a1108af423182451dfa1c100c9fbbb6e88f6e788",
-      "checked_at": "2026-10-16T14:29:30.099671+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T14:29:32.810472+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 17,
       "slug": "excel-247-ung-dung-ghi-chu-nao-tien-de-luu-thong-tin-hop-dong-thue-xe",
       "reason": null,
-      "wp_id": 937
+      "wp_id": 937,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-247-ung-dung-ghi-chu-nao-tien-de-luu-thong-tin-hop-dong-thue-xe/"
     }
   },
-  "updated_at": "2026-10-16T14:29:30.099689+00:00"
+  "updated_at": "2026-10-16T14:29:32.810488+00:00"
 }
