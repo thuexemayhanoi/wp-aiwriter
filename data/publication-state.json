@@ -355,14 +355,16 @@
     "195": {
       "title": "Cách phân biệt các đời Honda Vision khi nhìn ngoại hình",
       "source_hash": "5e238c108bc1914b12d92afb28c97c631c942717616944b1ccf4b90173883440",
-      "checked_at": "2026-10-16T07:45:19.722824+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T07:45:22.329252+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 20,
       "slug": "excel-195-cach-phan-biet-cac-doi-honda-vision-khi-nhin-ngoai-hinh",
       "reason": null,
-      "wp_id": 873
+      "wp_id": 873,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-195-cach-phan-biet-cac-doi-honda-vision-khi-nhin-ngoai-hinh/"
     }
   },
-  "updated_at": "2026-10-16T07:45:19.722840+00:00"
+  "updated_at": "2026-10-16T07:45:22.329269+00:00"
 }
