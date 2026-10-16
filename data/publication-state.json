@@ -949,7 +949,17 @@
       "wp_id": 930,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-240-cach-chia-se-vi-tri-truc-tiep-khi-di-xe-may-mot-minh/"
+    },
+    "241": {
+      "title": "Cách ghim vị trí bãi gửi xe trên điện thoại để dễ tìm lại",
+      "source_hash": "bf08e27d5865b7cd8b4ea309afee89deb219eb2ec43eeb2affd27258adb6d35c",
+      "checked_at": "2026-10-16T13:11:43.461095+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 17,
+      "slug": "excel-241-cach-ghim-vi-tri-bai-gui-xe-tren-dien-thoai-de-de-tim-lai",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T13:11:41.888260+00:00"
+  "updated_at": "2026-10-16T13:11:43.461112+00:00"
 }
