@@ -689,7 +689,17 @@
       "wp_id": 910,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-220-cac-hang-xe-dien-dang-giai-quyet-bai-toan-sac-pin-theo-nhung-cach-nao/"
+    },
+    "221": {
+      "title": "Vì sao hệ sinh thái trạm sạc quan trọng với người sử dụng xe điện?",
+      "source_hash": "5063d04fda5dedd68b738a5a969b8fb909623bbffc1106d2a3e50b5bb47db219",
+      "checked_at": "2026-10-16T10:04:40.365785+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 21,
+      "slug": "excel-221-vi-sao-he-sinh-thai-tram-sac-quan-trong-voi-nguoi-su-dung-xe-dien",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T10:04:38.752427+00:00"
+  "updated_at": "2026-10-16T10:04:40.365800+00:00"
 }
