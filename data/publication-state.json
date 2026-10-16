@@ -4316,7 +4316,17 @@
       "wp_id": 1190,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-499-di-xe-may-tu-long-bien-sang-gia-lam-nhung-tuyen-ngan-de-di/"
+    },
+    "500": {
+      "title": "Đi xe máy ở Long Biên khi mưa lớn: nên lưu ý đoạn đường và cầu nào?",
+      "source_hash": "7b9d4c4351e260b670e0860e5a9e09e1934702560b0ddaeedde2ffcb3fcd613a",
+      "checked_at": "2026-10-16T17:11:01.377774+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 12,
+      "slug": "excel-500-di-xe-may-o-long-bien-khi-mua-lon-nen-luu-y-doan-duong-va-cau-nao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T17:10:59.644242+00:00"
+  "updated_at": "2026-10-16T17:11:01.377787+00:00"
 }
