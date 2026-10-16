@@ -170,7 +170,15 @@ def main(argv=None):
             result = [fixes.rollback(cfg, wp, args.fix_id, confirm=confirm)]
         write_json(common.path('reports/fix-plan.json'), {'action': args.action, 'at': common.iso(), 'results': result})
         print(json.dumps(result, ensure_ascii=False, indent=2))
-        return 0 if all(r.get('status', 'VALID') == 'VALID' or r.get('applied') or r.get('phase') for r in result) else 1
+        # A validated fix is not necessarily an applied fix.  A failed REST write must
+        # fail the Actions job even if preflight validation passed.
+        if args.action == 'apply':
+            return 1 if any(r.get('status') == 'INVALID' or r.get('error')
+                            or (r.get('status') == 'VALID' and not r.get('applied')
+                                and r.get('reason') != 'max_fixes_limit')
+                            for r in result) else 0
+        return 1 if any(r.get('status') == 'INVALID' or r.get('error')
+                        for r in result) else 0
     return 2
 
 
