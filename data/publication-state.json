@@ -797,13 +797,14 @@
     "229": {
       "title": "Màn hình điện tử trên xe máy điện thường hiển thị những thông tin gì?",
       "source_hash": "7265f2c13456ee958cbb2cf0ee01b4c8fc968ca118e9ac024f791997e5531693",
-      "checked_at": "2026-10-16T11:54:39.944915+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T11:54:41.892760+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 21,
       "slug": "excel-229-man-hinh-dien-tu-tren-xe-may-dien-thuong-hien-thi-nhung-thong-tin-gi",
-      "reason": null
+      "reason": null,
+      "wp_id": 919
     }
   },
-  "updated_at": "2026-10-16T11:54:39.944950+00:00"
+  "updated_at": "2026-10-16T11:54:41.892777+00:00"
 }
