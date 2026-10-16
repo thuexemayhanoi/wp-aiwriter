@@ -442,7 +442,17 @@
       "wp_id": 890,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-201-vinfast-co-nhung-dong-xe-may-dien-nao-phu-hop-di-lai-trong-do-thi/"
+    },
+    "202": {
+      "title": "VinFast Evo series khác nhau ở những điểm nào?",
+      "source_hash": "f8c2fbafcab813e1b7defaa5e5e066a6675dd36e8cdf08a3027207e6f1ee1ec4",
+      "checked_at": "2026-10-16T08:10:00.824918+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 21,
+      "slug": "excel-202-vinfast-evo-series-khac-nhau-o-nhung-diem-nao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T08:09:59.154875+00:00"
+  "updated_at": "2026-10-16T08:10:00.824930+00:00"
 }
