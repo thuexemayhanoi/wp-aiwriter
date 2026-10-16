@@ -38,7 +38,7 @@ def now():
 
 
 def normalized(value):
-    return ' '.join(unicodedata.normalize('NFC', html.unescape(value)).casefold().split())
+    return ' '.join(unicodedata.normalize('NFC', html.unescape(value)).replace('\u2026', '...').casefold().split())
 
 
 def matrix():
