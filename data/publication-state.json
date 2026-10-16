@@ -2032,13 +2032,14 @@
     "324": {
       "title": "Thuê xe số theo tuần nên chọn theo tiêu chí nào?",
       "source_hash": "0ff6c1ca371f41335e4388e820cc78b901f21e7634d3a9cb8b368d2c01b932dd",
-      "checked_at": "2026-10-16T16:27:33.541391+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:27:35.532371+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 6,
       "slug": "excel-324-thue-xe-so-theo-tuan-nen-chon-theo-tieu-chi-nao",
-      "reason": null
+      "reason": null,
+      "wp_id": 1015
     }
   },
-  "updated_at": "2026-10-16T16:27:33.541404+00:00"
+  "updated_at": "2026-10-16T16:27:35.532387+00:00"
 }
