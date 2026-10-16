@@ -3800,14 +3800,16 @@
     "460": {
       "title": "Một ngày đi xe máy từ Gia Lâm khám phá trung tâm Hà Nội",
       "source_hash": "b85d2b575d83cb4fedc60317ef0a90b4bd64fdaba70d5bbabf1717f4a953dbb6",
-      "checked_at": "2026-10-16T16:58:56.075680+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:58:58.828232+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 14,
       "slug": "excel-460-mot-ngay-di-xe-may-tu-gia-lam-kham-pha-trung-tam-ha-noi",
       "reason": null,
-      "wp_id": 1151
+      "wp_id": 1151,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-460-mot-ngay-di-xe-may-tu-gia-lam-kham-pha-trung-tam-ha-noi/"
     }
   },
-  "updated_at": "2026-10-16T16:58:56.075696+00:00"
+  "updated_at": "2026-10-16T16:58:58.828251+00:00"
 }
