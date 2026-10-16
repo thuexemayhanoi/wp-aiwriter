@@ -3605,13 +3605,14 @@
     "445": {
       "title": "Đi xe máy qua Đội Cấn: lưu ý khi đường đông và nhiều ngõ nhỏ",
       "source_hash": "ee6dcac08345d497258bcf0588befc30f8edad610288d7a05eb998ce9b146a4e",
-      "checked_at": "2026-10-16T16:54:34.837100+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:54:36.796306+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 13,
       "slug": "excel-445-di-xe-may-qua-doi-can-luu-y-khi-duong-dong-va-nhieu-ngo-nho",
-      "reason": null
+      "reason": null,
+      "wp_id": 1136
     }
   },
-  "updated_at": "2026-10-16T16:54:34.837112+00:00"
+  "updated_at": "2026-10-16T16:54:36.796321+00:00"
 }
