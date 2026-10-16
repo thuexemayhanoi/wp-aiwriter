@@ -167,7 +167,17 @@
       "wp_id": 857,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-180-grande-va-lead-so-sanh-theo-nhu-cau-di-lam-hang-ngay/"
+    },
+    "181": {
+      "title": "FreeGo và Air Blade: khác biệt nào đáng chú ý khi đi phố?",
+      "source_hash": "7161645e363eda7d0b0c13bd7599c19f37390d59464b0caa9a396e451435e7a5",
+      "checked_at": "2026-10-16T07:35:40.208838+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 20,
+      "slug": "excel-181-freego-va-air-blade-khac-biet-nao-dang-chu-y-khi-di-pho",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T07:35:38.390296+00:00"
+  "updated_at": "2026-10-16T07:35:40.208856+00:00"
 }
