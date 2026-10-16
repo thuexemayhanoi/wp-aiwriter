@@ -390,7 +390,17 @@
       "wp_id": 875,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-197-cach-nhan-biet-cac-phien-ban-yamaha-sirius-pho-bien/"
+    },
+    "198": {
+      "title": "Cách nhận biết các thế hệ Honda Wave phổ biến trên đường phố",
+      "source_hash": "6966fe287a022410de39c0dd11eac7e4682d9c332c73bcb3feac8c78d8f3cd73",
+      "checked_at": "2026-10-16T07:45:37.693336+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 20,
+      "slug": "excel-198-cach-nhan-biet-cac-the-he-honda-wave-pho-bien-tren-duong-pho",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T07:45:35.964538+00:00"
+  "updated_at": "2026-10-16T07:45:37.693349+00:00"
 }
