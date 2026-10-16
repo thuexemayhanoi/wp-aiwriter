@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T19:04:15+00:00",
+  "generated_at": "2026-10-16T19:16:04+00:00",
   "issues": {
     "A-AI-CRAWLER-POLICY|https://blog.rentbikehanoi.com/|robots": "P3",
     "A-AUTHOR-GENERIC|https://blog.rentbikehanoi.com/|author": "P2",
@@ -1599,7 +1599,6 @@
     "L-ORPHAN|post:997": "P2",
     "L-ORPHAN|post:998": "P2",
     "L-ORPHAN|post:999": "P2",
-    "T-ARCHIVE-NO-DESCRIPTION|https://blog.rentbikehanoi.com/category/uncategorized/": "P3",
     "T-ARCHIVE-NOINDEX|https://blog.rentbikehanoi.com/category/cam-nang/ung-dung/": "P2",
     "T-ARCHIVE-NOINDEX|https://blog.rentbikehanoi.com/category/dich-vu/": "P2",
     "T-ARCHIVE-NOINDEX|https://blog.rentbikehanoi.com/category/khu-vuc/": "P2",
@@ -3068,6 +3067,7 @@
     "T-TITLE-LONG|post:995": "P3",
     "T-TITLE-LONG|post:996": "P3",
     "T-TITLE-LONG|post:997": "P3",
-    "T-TITLE-LONG|post:999": "P3"
+    "T-TITLE-LONG|post:999": "P3",
+    "T-UNCATEGORIZED|post:256": "P2"
   }
 }

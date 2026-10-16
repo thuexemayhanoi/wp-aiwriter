@@ -7,7 +7,7 @@
     "tags": 4
   },
   "discovery": {
-    "checked_at": "2026-10-16T18:56:01+00:00",
+    "checked_at": "2026-10-16T19:07:48+00:00",
     "description": "Thuê xe máy, xe 50cc và xe điện tại Hà Nội",
     "gmt_offset": 7,
     "home": "https://blog.rentbikehanoi.com",
@@ -36,16 +36,16 @@
     "yoast_rest_namespace": true
   },
   "external_links": {
-    "checked_at": "2026-10-16T19:03:42+00:00",
+    "checked_at": "2026-10-16T19:15:31+00:00",
     "checked_now": 110,
     "external_unique": 506,
     "failed_after_check": 110,
     "skipped_cap": 0
   },
-  "last_crawl": "2026-10-16T18:59:41+00:00",
-  "last_full_crawl": "2026-10-16T18:59:41+00:00",
-  "last_full_sync": "2026-10-16T18:56:01+00:00",
-  "last_sync": "2026-10-16T18:56:01+00:00",
+  "last_crawl": "2026-10-16T19:11:25+00:00",
+  "last_full_crawl": "2026-10-16T19:11:25+00:00",
+  "last_full_sync": "2026-10-16T19:07:47+00:00",
+  "last_sync": "2026-10-16T19:07:47+00:00",
   "ledger_verified_missing_from_wordpress": [],
   "requests": 23,
   "rest_warnings": [],

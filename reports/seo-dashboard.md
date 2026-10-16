@@ -1,6 +1,6 @@
 # SEO Dashboard — https://blog.rentbikehanoi.com
 
-Cập nhật: **2026-10-16T19:04:15+00:00** · Lần chạy: https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38951091568 · Chế độ: `matrix` · **Chỉ đọc**: engine không ghi vào WordPress.
+Cập nhật: **2026-10-16T19:16:04+00:00** · Lần chạy: https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38952580306 · Chế độ: `matrix` · **Chỉ đọc**: engine không ghi vào WordPress.
 
 ## Tổng quan inventory
 
@@ -16,10 +16,10 @@ Crawl: 525 bài/trang tải mới, 0 dùng lại, 175 trang chuyên mục/lưu t
 |---|---|---|---|---|---|
 | P0 | 0 | 0 | 0 | 0 | 0 |
 | P1 | 8 | 43 | 0 | 0 | 51 |
-| P2 | 1150 | 432 | 0 | 0 | 1582 |
-| P3 | 981 | 340 | 111 | 3 | 1435 |
+| P2 | 1151 | 432 | 0 | 0 | 1583 |
+| P3 | 981 | 340 | 110 | 3 | 1434 |
 
-So với lần trước: **1 mới**, **0 đã hết**.
+So với lần trước: **1 mới**, **1 đã hết**.
 
 ## Mã lỗi phổ biến
 
@@ -43,13 +43,13 @@ So với lần trước: **1 mới**, **0 đã hết**.
 | T-ARCHIVE-NOINDEX | P2 | NEEDS_REVIEW | 7 |
 | T-IMG-HEAVY | P2 | VERIFIED | 2 |
 | T-SCHEMA-NON-YOAST | P2 | NEEDS_REVIEW | 2 |
+| T-UNCATEGORIZED | P2 | VERIFIED | 1 |
 | A-AUTHOR-GENERIC | P2 | NEEDS_REVIEW | 1 |
 | T-OG-IMAGE-MISSING | P3 | VERIFIED | 492 |
 | T-TITLE-LONG | P3 | VERIFIED | 461 |
 | L-EXTERNAL-UNVERIFIED | P3 | NEEDS_REVIEW | 125 |
 | C-TIME-SENSITIVE | P3 | NEEDS_REVIEW | 121 |
 | A-NO-STRUCTURE | P3 | INFO | 102 |
-| A-NO-DIRECT-ANSWER | P3 | NEEDS_REVIEW | 94 |
 
 ## Cần chủ sở hữu quyết định (engine không tự sửa)
 
@@ -60,7 +60,7 @@ So với lần trước: **1 mới**, **0 đã hết**.
   - WP 825 https://blog.rentbikehanoi.com/0166-4/ — trùng nội dung với WP 815 https://blog.rentbikehanoi.com/0166-2/ (Excel #166); chuyên mục bản này: Cẩm nang > Hãng xe
   - WP 826 https://blog.rentbikehanoi.com/0167-4/ — trùng nội dung với WP 823 https://blog.rentbikehanoi.com/0167-3/ (Excel #167); chuyên mục bản này: Cẩm nang > Hãng xe
   - WP 829 https://blog.rentbikehanoi.com/0167-5/ — trùng nội dung với WP 823 https://blog.rentbikehanoi.com/0167-3/ (Excel #167); chuyên mục bản này: Cẩm nang > Hãng xe
-- **Tên doanh nghiệp**: schema/site: "Thuê xe máy Nguyễn Hà"; nội dung: "Nguyễn Tú" (51 URL, ví dụ https://blog.rentbikehanoi.com/excel-282-honda-wave-phu-hop-voi-quang-duong-di-lam-ngan-hay-dai/; 16 URL liên kết tới domain chứa "nguyentu"); "Nguyễn Hà Địa" (3 URL, ví dụ https://blog.rentbikehanoi.com/bao-mat/); "Nguyễn Hà
+- **Tên doanh nghiệp**: schema/site: "Thuê xe máy Nguyễn Hà"; nội dung: "Nguyễn Tú" (51 URL, ví dụ https://blog.rentbikehanoi.com/excel-282-honda-wave-phu-hop-voi-quang-duong-di-lam-ngan-hay-dai/; 16 URL liên kết tới domain chứa "nguyentu"); "Nguyễn Hà" (14 URL)
 - **NAP/liên hệ**: nhiều số điện thoại khác nhau: 0942467674 (49 trang, ví dụ https://blog.rentbikehanoi.com/excel-282-honda-wave-phu-hop-voi-quang-duong-di-lam-ngan-hay-dai/); 0334699969 (10 trang, ví dụ https://blog.rentbikehanoi.com/bao-mat/)
 - **Tác giả**: 501 bài có schema Person (tác giả) tên chung chung: "admin" (501); ví dụ: https://blog.rentbikehanoi.com/thue-xe-may-theo-ngay-ha-noi/, https://blog.rentbikehanoi.com/thue-xe-may-theo-tuan-ha-noi/
 - **Nguồn meta description**: 478/525 bài/trang: yoast_head_json không có description nhưng HTML có thẻ meta description (nguồn khác Yoast in ra); ví dụ: https://blog.rentbikehanoi.com/bao-mat/, https://blog.rentbikehanoi.com/cam-nang/, https://blog.rentbikehanoi.com/hoi-dap/
