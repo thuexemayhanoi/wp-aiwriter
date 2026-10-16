@@ -1642,13 +1642,14 @@
     "294": {
       "title": "Xe số có phù hợp với người thường xuyên đi qua đường nhỏ và ngõ hẹp?",
       "source_hash": "277a7e588350a76819821cd1e5b5a39616d22ee49968b332e7bf61d82056b5d9",
-      "checked_at": "2026-10-16T16:22:24.511928+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:22:26.553557+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 6,
       "slug": "excel-294-xe-so-co-phu-hop-voi-nguoi-thuong-xuyen-di-qua-duong-nho-va-ngo-hep",
-      "reason": null
+      "reason": null,
+      "wp_id": 985
     }
   },
-  "updated_at": "2026-10-16T16:22:24.511941+00:00"
+  "updated_at": "2026-10-16T16:22:26.553578+00:00"
 }
