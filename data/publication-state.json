@@ -2409,13 +2409,14 @@
     "353": {
       "title": "Người thấp nên chọn xe ga theo chiều cao yên thế nào?",
       "source_hash": "503c2f355f0ffc496e75267146e475a5790bd7bec84cfb6455a482e3743bf104",
-      "checked_at": "2026-10-16T16:34:16.166646+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:34:18.132315+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-353-nguoi-thap-nen-chon-xe-ga-theo-chieu-cao-yen-the-nao",
-      "reason": null
+      "reason": null,
+      "wp_id": 1044
     }
   },
-  "updated_at": "2026-10-16T16:34:16.166660+00:00"
+  "updated_at": "2026-10-16T16:34:18.132332+00:00"
 }
