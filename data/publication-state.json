@@ -498,13 +498,14 @@
     "206": {
       "title": "Dat Bike khác xe máy điện phổ thông ở những điểm nào?",
       "source_hash": "6a9e3a85698c15c14cac683b6c2a47c3d1857e278ce11c1cddb7d871b658a091",
-      "checked_at": "2026-10-16T08:15:46.299576+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T08:15:48.268126+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 21,
       "slug": "excel-206-dat-bike-khac-xe-may-dien-pho-thong-o-nhung-diem-nao",
-      "reason": null
+      "reason": null,
+      "wp_id": 895
     }
   },
-  "updated_at": "2026-10-16T08:15:46.299594+00:00"
+  "updated_at": "2026-10-16T08:15:48.268147+00:00"
 }
