@@ -3826,14 +3826,16 @@
     "462": {
       "title": "Ở Gia Lâm và đi làm trong nội đô bằng xe máy: cách tính thời gian di chuyển",
       "source_hash": "499c7a2dc7e533c7a7d2762a14e45c2da18a24d5e32859db65023b3d4080de60",
-      "checked_at": "2026-10-16T16:59:28.027257+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:59:30.838869+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 14,
       "slug": "excel-462-o-gia-lam-va-di-lam-trong-noi-do-bang-xe-may-cach-tinh-thoi-gian-di-chuyen",
       "reason": null,
-      "wp_id": 1153
+      "wp_id": 1153,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-462-o-gia-lam-va-di-lam-trong-noi-do-bang-xe-may-cach-tinh-thoi-gian-di-chuyen/"
     }
   },
-  "updated_at": "2026-10-16T16:59:28.027274+00:00"
+  "updated_at": "2026-10-16T16:59:30.838886+00:00"
 }
