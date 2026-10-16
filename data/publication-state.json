@@ -819,7 +819,17 @@
       "wp_id": 920,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-230-khoa-thong-minh-tren-xe-dien-khac-khoa-co-truyen-thong-nhu-the-nao/"
+    },
+    "231": {
+      "title": "Ứng dụng điện thoại của hãng xe điện có thể hỗ trợ những chức năng gì?",
+      "source_hash": "cc39660910e63e8531a5f10e2700d66ad8dc3c318952dfeaf68fe5aa0433340f",
+      "checked_at": "2026-10-16T11:54:52.193982+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 21,
+      "slug": "excel-231-ung-dung-dien-thoai-cua-hang-xe-dien-co-the-ho-tro-nhung-chuc-nang-gi",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T11:54:50.914575+00:00"
+  "updated_at": "2026-10-16T11:54:52.193996+00:00"
 }
