@@ -35,8 +35,13 @@ def now():
     return datetime.now(timezone.utc).isoformat()
 
 
+TYPOGRAPHIC = str.maketrans({'\u201c': '"', '\u201d': '"', '\u2018': "'", '\u2019': "'"})
+
+
 def normalized(value):
-    return ' '.join(unicodedata.normalize('NFC', html.unescape(value)).replace('\u2026', '...').casefold().split())
+    # WordPress wptexturize renders ... and straight quotes as typographic characters; treat them as equal.
+    text = unicodedata.normalize('NFC', html.unescape(value)).replace('\u2026', '...').translate(TYPOGRAPHIC)
+    return ' '.join(text.casefold().split())
 
 
 def matrix():

@@ -72,6 +72,12 @@ class PublicationSafety(unittest.TestCase):
         rendered = '<p>Yamaha bản &#8230; và xe &#8230; đang được kiểm tra.</p>'
         self.assertEqual(e.visible(original), e.visible(rendered))
 
+    def test_wordpress_typographic_quotes_have_equivalent_visible_text(self):
+        original = '<p>Con số "tối đa bốn giờ" và \'ví dụ\' trong thông báo.</p>'
+        rendered = '<p>Con số &#8220;tối đa bốn giờ&#8221; và &#8216;ví dụ&#8217; trong thông báo.</p>'
+        self.assertEqual(e.visible(original), e.visible(rendered))
+        self.assertNotEqual(e.visible(original), e.visible('<p>Con số khác hẳn.</p>'))
+
     def test_category_ancestry_missing_parent_and_duplicate(self):
         cats = [{'id': 1, 'name': 'A', 'parent': 0}, {'id': 2, 'name': 'B', 'parent': 1},
                 {'id': 3, 'name': 'B', 'parent': 1}, {'id': 4, 'name': 'C', 'parent': 99}]
