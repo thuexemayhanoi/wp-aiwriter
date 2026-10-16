@@ -546,7 +546,17 @@
       "wp_id": 898,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-209-vinfast-va-yadea-khac-nhau-the-nao-ve-cach-xay-dung-he-sinh-thai-xe-dien/"
+    },
+    "210": {
+      "title": "VinFast và Dat Bike: hai hướng tiếp cận xe máy điện khác nhau ra sao?",
+      "source_hash": "21d6dd9eb4baeff6708e4772809ec6cbeb722d9351a75049fe8f11824e6705c2",
+      "checked_at": "2026-10-16T09:03:58.408973+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 21,
+      "slug": "excel-210-vinfast-va-dat-bike-hai-huong-tiep-can-xe-may-dien-khac-nhau-ra-sao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T09:03:56.963879+00:00"
+  "updated_at": "2026-10-16T09:03:58.408986+00:00"
 }
