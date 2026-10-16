@@ -106,14 +106,16 @@
     "176": {
       "title": "Honda Vision có phù hợp với người mới chuyển từ xe số sang xe ga?",
       "source_hash": "6127db4dbfa36765898f536995150765a7030b9c1e22b651859b8fb04dee4b53",
-      "checked_at": "2026-10-16T07:33:08.931809+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T07:33:11.509154+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 20,
       "slug": "excel-176-honda-vision-co-phu-hop-voi-nguoi-moi-chuyen-tu-xe-so-sang-xe-ga",
       "reason": null,
-      "wp_id": 853
+      "wp_id": 853,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-176-honda-vision-co-phu-hop-voi-nguoi-moi-chuyen-tu-xe-so-sang-xe-ga/"
     }
   },
-  "updated_at": "2026-10-16T07:33:08.931826+00:00"
+  "updated_at": "2026-10-16T07:33:11.509184+00:00"
 }
