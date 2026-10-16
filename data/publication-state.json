@@ -628,13 +628,14 @@
     "216": {
       "title": "Cách phân biệt các dòng VinFast Evo khi nhìn ngoại hình",
       "source_hash": "cf912c7a6e6d295be223e1b5494d60a1a8732b63b3afe5e9ecebdf64e90add05",
-      "checked_at": "2026-10-16T09:32:50.453967+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T09:32:52.517234+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 21,
       "slug": "excel-216-cach-phan-biet-cac-dong-vinfast-evo-khi-nhin-ngoai-hinh",
-      "reason": null
+      "reason": null,
+      "wp_id": 906
     }
   },
-  "updated_at": "2026-10-16T09:32:50.453980+00:00"
+  "updated_at": "2026-10-16T09:32:52.517252+00:00"
 }
