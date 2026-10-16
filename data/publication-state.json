@@ -2552,14 +2552,16 @@
     "364": {
       "title": "FreeGo có phù hợp với người cần xe thực dụng và cốp rộng không?",
       "source_hash": "c744e962b58040352485db51e56d91d46a7f87954a519138b6e8fd1b644b6939",
-      "checked_at": "2026-10-16T16:36:08.035559+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:36:10.807902+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-364-freego-co-phu-hop-voi-nguoi-can-xe-thuc-dung-va-cop-rong-khong",
       "reason": null,
-      "wp_id": 1055
+      "wp_id": 1055,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-364-freego-co-phu-hop-voi-nguoi-can-xe-thuc-dung-va-cop-rong-khong/"
     }
   },
-  "updated_at": "2026-10-16T16:36:08.035577+00:00"
+  "updated_at": "2026-10-16T16:36:10.807924+00:00"
 }
