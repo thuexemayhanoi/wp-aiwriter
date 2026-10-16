@@ -1902,14 +1902,16 @@
     "314": {
       "title": "Xe số có phù hợp để chở thêm một người thường xuyên?",
       "source_hash": "3f3d696d85ed7d042a474bc9191805d7e6fc61d5073976fe3da6c81afa4d77ab",
-      "checked_at": "2026-10-16T16:25:53.055890+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:25:55.821719+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 6,
       "slug": "excel-314-xe-so-co-phu-hop-de-cho-them-mot-nguoi-thuong-xuyen",
       "reason": null,
-      "wp_id": 1005
+      "wp_id": 1005,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-314-xe-so-co-phu-hop-de-cho-them-mot-nguoi-thuong-xuyen/"
     }
   },
-  "updated_at": "2026-10-16T16:25:53.055906+00:00"
+  "updated_at": "2026-10-16T16:25:55.821738+00:00"
 }
