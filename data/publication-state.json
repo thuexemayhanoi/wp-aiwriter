@@ -2327,7 +2327,17 @@
       "wp_id": 1037,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-346-xe-ga-150cc-co-can-thiet-neu-chu-yeu-di-trong-noi-do-khong/"
+    },
+    "347": {
+      "title": "Xe ga có tốn xăng nhiều hơn xe số khi chạy giờ cao điểm không?",
+      "source_hash": "3843c48afbf09d37314b4e3bb1cfae0faa1c7e96c700fbdd1ba506fe72813664",
+      "checked_at": "2026-10-16T16:33:17.167298+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 7,
+      "slug": "excel-347-xe-ga-co-ton-xang-nhieu-hon-xe-so-khi-chay-gio-cao-diem-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:33:15.741084+00:00"
+  "updated_at": "2026-10-16T16:33:17.167314+00:00"
 }
