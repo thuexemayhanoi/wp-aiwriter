@@ -171,13 +171,14 @@
     "181": {
       "title": "FreeGo và Air Blade: khác biệt nào đáng chú ý khi đi phố?",
       "source_hash": "7161645e363eda7d0b0c13bd7599c19f37390d59464b0caa9a396e451435e7a5",
-      "checked_at": "2026-10-16T07:35:40.208838+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T07:35:42.312655+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 20,
       "slug": "excel-181-freego-va-air-blade-khac-biet-nao-dang-chu-y-khi-di-pho",
-      "reason": null
+      "reason": null,
+      "wp_id": 858
     }
   },
-  "updated_at": "2026-10-16T07:35:40.208856+00:00"
+  "updated_at": "2026-10-16T07:35:42.312676+00:00"
 }
