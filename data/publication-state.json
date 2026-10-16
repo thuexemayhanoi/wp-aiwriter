@@ -485,13 +485,14 @@
     "205": {
       "title": "Yadea có những mẫu xe điện nào đáng chú ý tại Việt Nam?",
       "source_hash": "fefcd9f98ba0683ce1586ba52228b198d3b63b3bb180a9f1ec15e32936e7d801",
-      "checked_at": "2026-10-16T08:15:40.095288+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T08:15:42.060038+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 21,
       "slug": "excel-205-yadea-co-nhung-mau-xe-dien-nao-dang-chu-y-tai-viet-nam",
-      "reason": null
+      "reason": null,
+      "wp_id": 894
     }
   },
-  "updated_at": "2026-10-16T08:15:40.095319+00:00"
+  "updated_at": "2026-10-16T08:15:42.060060+00:00"
 }
