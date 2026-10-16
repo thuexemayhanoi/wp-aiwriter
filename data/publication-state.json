@@ -780,7 +780,17 @@
       "wp_id": 917,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-227-che-do-lai-eco-tren-xe-dien-phu-hop-khi-nao/"
+    },
+    "228": {
+      "title": "Chế độ Sport trên xe điện nên dùng trong tình huống nào?",
+      "source_hash": "e4f23cf4cdefc2ae90eb47e942914ba2d128280e57435a3e0a438a68ff59049f",
+      "checked_at": "2026-10-16T10:54:36.553589+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 21,
+      "slug": "excel-228-che-do-sport-tren-xe-dien-nen-dung-trong-tinh-huong-nao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T10:54:35.190866+00:00"
+  "updated_at": "2026-10-16T10:54:36.553602+00:00"
 }
