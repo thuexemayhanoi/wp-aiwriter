@@ -511,14 +511,16 @@
     "207": {
       "title": "Selex Motors tập trung vào kiểu sử dụng xe điện nào?",
       "source_hash": "9a37f67782564b10862569eec55d90ef3501e36b8259a674226d98becc7b9dfd",
-      "checked_at": "2026-10-16T08:15:54.295693+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T08:15:57.067426+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 21,
       "slug": "excel-207-selex-motors-tap-trung-vao-kieu-su-dung-xe-dien-nao",
       "reason": null,
-      "wp_id": 896
+      "wp_id": 896,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-207-selex-motors-tap-trung-vao-kieu-su-dung-xe-dien-nao/"
     }
   },
-  "updated_at": "2026-10-16T08:15:54.295713+00:00"
+  "updated_at": "2026-10-16T08:15:57.067447+00:00"
 }
