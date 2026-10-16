@@ -2717,7 +2717,17 @@
       "wp_id": 1067,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-376-thue-xe-ga-dai-han-nen-uu-tien-cop-muc-xang-hay-su-thoai-mai/"
+    },
+    "377": {
+      "title": "Vision đời khác nhau có ảnh hưởng nhiều đến trải nghiệm đi phố không?",
+      "source_hash": "0ad3911835dba3028d99c913c7949177f251abf247529f4c58d740532fe5a69c",
+      "checked_at": "2026-10-16T16:38:27.512450+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 7,
+      "slug": "excel-377-vision-doi-khac-nhau-co-anh-huong-nhieu-den-trai-nghiem-di-pho-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:38:26.243823+00:00"
+  "updated_at": "2026-10-16T16:38:27.512465+00:00"
 }
