@@ -693,13 +693,14 @@
     "221": {
       "title": "Vì sao hệ sinh thái trạm sạc quan trọng với người sử dụng xe điện?",
       "source_hash": "5063d04fda5dedd68b738a5a969b8fb909623bbffc1106d2a3e50b5bb47db219",
-      "checked_at": "2026-10-16T10:04:40.365785+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T10:04:42.585784+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 21,
       "slug": "excel-221-vi-sao-he-sinh-thai-tram-sac-quan-trong-voi-nguoi-su-dung-xe-dien",
-      "reason": null
+      "reason": null,
+      "wp_id": 911
     }
   },
-  "updated_at": "2026-10-16T10:04:40.365800+00:00"
+  "updated_at": "2026-10-16T10:04:42.585800+00:00"
 }
