@@ -468,7 +468,17 @@
       "wp_id": 892,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-203-vinfast-feliz-phu-hop-voi-kieu-nguoi-dung-nao/"
+    },
+    "204": {
+      "title": "VinFast Klara hướng đến nhu cầu sử dụng ra sao?",
+      "source_hash": "61a7a61446884bdda9953b7730180f0b34a07c051e0ce2b0a06884f37cce8e91",
+      "checked_at": "2026-10-16T08:10:14.206383+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 21,
+      "slug": "excel-204-vinfast-klara-huong-den-nhu-cau-su-dung-ra-sao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T08:10:12.471696+00:00"
+  "updated_at": "2026-10-16T08:10:14.206396+00:00"
 }
