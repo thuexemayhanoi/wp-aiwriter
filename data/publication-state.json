@@ -2682,13 +2682,14 @@
     "374": {
       "title": "Xe ga phù hợp hơn xe số trong trường hợp nào?",
       "source_hash": "d21677f934e27400c2104b0a1352308b246d8590912c9514a98c03bf33b7eafc",
-      "checked_at": "2026-10-16T16:37:49.157278+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:37:50.945365+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-374-xe-ga-phu-hop-hon-xe-so-trong-truong-hop-nao",
-      "reason": null
+      "reason": null,
+      "wp_id": 1065
     }
   },
-  "updated_at": "2026-10-16T16:37:49.157292+00:00"
+  "updated_at": "2026-10-16T16:37:50.945382+00:00"
 }
