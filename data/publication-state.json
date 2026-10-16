@@ -953,13 +953,14 @@
     "241": {
       "title": "Cách ghim vị trí bãi gửi xe trên điện thoại để dễ tìm lại",
       "source_hash": "bf08e27d5865b7cd8b4ea309afee89deb219eb2ec43eeb2affd27258adb6d35c",
-      "checked_at": "2026-10-16T13:11:43.461095+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T13:11:45.237561+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 17,
       "slug": "excel-241-cach-ghim-vi-tri-bai-gui-xe-tren-dien-thoai-de-de-tim-lai",
-      "reason": null
+      "reason": null,
+      "wp_id": 931
     }
   },
-  "updated_at": "2026-10-16T13:11:43.461112+00:00"
+  "updated_at": "2026-10-16T13:11:45.237582+00:00"
 }
