@@ -1209,7 +1209,17 @@
       "wp_id": 950,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-258-cach-tiet-kiem-pin-dien-thoai-khi-bat-ban-do-lien-tuc/"
+    },
+    "261": {
+      "title": "Ứng dụng xe điện thường hiển thị những thông tin pin nào?",
+      "source_hash": "c4418fc7c5f1158813fef26ecaad80c83d1161b74be41fce96da25cae16897bd",
+      "checked_at": "2026-10-16T15:53:49.940774+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 18,
+      "slug": "excel-261-ung-dung-xe-dien-thuong-hien-thi-nhung-thong-tin-pin-nao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T15:40:13.497012+00:00"
+  "updated_at": "2026-10-16T15:53:49.940791+00:00"
 }
