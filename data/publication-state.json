@@ -2249,7 +2249,17 @@
       "wp_id": 1031,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-340-air-blade-va-vision-mau-nao-phu-hop-nguoi-cao-hon/"
+    },
+    "341": {
+      "title": "Janus và Grande: khác nhau thế nào về trọng lượng và cảm giác lái?",
+      "source_hash": "652246ef2705b8b763d6c1c0232cec8f515b16942fa57e23d61d2ab32cf04510",
+      "checked_at": "2026-10-16T16:32:17.738409+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 7,
+      "slug": "excel-341-janus-va-grande-khac-nhau-the-nao-ve-trong-luong-va-cam-giac-lai",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:31:56.867471+00:00"
+  "updated_at": "2026-10-16T16:32:17.738428+00:00"
 }
