@@ -1720,14 +1720,16 @@
     "300": {
       "title": "Xe số có phù hợp với người mang ít hành lý không?",
       "source_hash": "d5146c0dc1109cb28340ff0ff3b49ac839c5dc739ec3df1d1806c71b34a589d5",
-      "checked_at": "2026-10-16T16:23:25.552416+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:23:28.502249+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 6,
       "slug": "excel-300-xe-so-co-phu-hop-voi-nguoi-mang-it-hanh-ly-khong",
       "reason": null,
-      "wp_id": 991
+      "wp_id": 991,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-300-xe-so-co-phu-hop-voi-nguoi-mang-it-hanh-ly-khong/"
     }
   },
-  "updated_at": "2026-10-16T16:23:25.552471+00:00"
+  "updated_at": "2026-10-16T16:23:28.502267+00:00"
 }
