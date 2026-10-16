@@ -2548,7 +2548,17 @@
       "wp_id": 1054,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-363-grande-co-phu-hop-voi-nguoi-uu-tien-su-nhe-nhang-khi-van-hanh-khong/"
+    },
+    "364": {
+      "title": "FreeGo có phù hợp với người cần xe thực dụng và cốp rộng không?",
+      "source_hash": "c744e962b58040352485db51e56d91d46a7f87954a519138b6e8fd1b644b6939",
+      "checked_at": "2026-10-16T16:36:06.190466+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 7,
+      "slug": "excel-364-freego-co-phu-hop-voi-nguoi-can-xe-thuc-dung-va-cop-rong-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:36:04.825007+00:00"
+  "updated_at": "2026-10-16T16:36:06.190479+00:00"
 }
