@@ -3705,7 +3705,17 @@
       "wp_id": 1143,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-452-di-xe-may-tu-ben-xe-gia-lam-den-ho-hoan-kiem-goi-y-lo-trinh-de-di/"
+    },
+    "453": {
+      "title": "Đi xe máy quanh Ngọc Lâm: những tuyến đường thuận tiện cho người mới",
+      "source_hash": "367523b35317cc3dadf1d838198f01d5d8c9b7a6430a9cbf77dac46c2ca1204a",
+      "checked_at": "2026-10-16T16:57:51.511063+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 14,
+      "slug": "excel-453-di-xe-may-quanh-ngoc-lam-nhung-tuyen-duong-thuan-tien-cho-nguoi-moi",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:57:50.030037+00:00"
+  "updated_at": "2026-10-16T16:57:51.511077+00:00"
 }
