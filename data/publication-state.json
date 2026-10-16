@@ -3293,14 +3293,16 @@
     "421": {
       "title": "Xe ga 50cc có phù hợp với người thấp không?",
       "source_hash": "900995d3b0558bc1e4243822dacd7b8ea6490e2a57575992da45ac507fbdc67d",
-      "checked_at": "2026-10-16T16:48:57.413991+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:49:00.676996+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 5,
       "slug": "excel-421-xe-ga-50cc-co-phu-hop-voi-nguoi-thap-khong",
       "reason": null,
-      "wp_id": 1112
+      "wp_id": 1112,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-421-xe-ga-50cc-co-phu-hop-voi-nguoi-thap-khong/"
     }
   },
-  "updated_at": "2026-10-16T16:48:57.414013+00:00"
+  "updated_at": "2026-10-16T16:49:00.677015+00:00"
 }
