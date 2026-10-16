@@ -2539,14 +2539,16 @@
     "363": {
       "title": "Grande có phù hợp với người ưu tiên sự nhẹ nhàng khi vận hành không?",
       "source_hash": "58028b46f112a2c48406c1ee9f0a10eca4a312b358dc0122e0342d57482d0ab9",
-      "checked_at": "2026-10-16T16:36:01.720093+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:36:04.824990+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-363-grande-co-phu-hop-voi-nguoi-uu-tien-su-nhe-nhang-khi-van-hanh-khong",
       "reason": null,
-      "wp_id": 1054
+      "wp_id": 1054,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-363-grande-co-phu-hop-voi-nguoi-uu-tien-su-nhe-nhang-khi-van-hanh-khong/"
     }
   },
-  "updated_at": "2026-10-16T16:36:01.720110+00:00"
+  "updated_at": "2026-10-16T16:36:04.825007+00:00"
 }
