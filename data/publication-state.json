@@ -1044,14 +1044,16 @@
     "248": {
       "title": "Cách lưu ảnh hiện trạng xe theo album riêng trên điện thoại",
       "source_hash": "c219ccfeb1e053aff0a21b06ce659ea1cd10775f3a2137497130434e4f66882e",
-      "checked_at": "2026-10-16T14:31:50.957581+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T14:31:53.799497+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 17,
       "slug": "excel-248-cach-luu-anh-hien-trang-xe-theo-album-rieng-tren-dien-thoai",
       "reason": null,
-      "wp_id": 938
+      "wp_id": 938,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-248-cach-luu-anh-hien-trang-xe-theo-album-rieng-tren-dien-thoai/"
     }
   },
-  "updated_at": "2026-10-16T14:31:50.957595+00:00"
+  "updated_at": "2026-10-16T14:31:53.799527+00:00"
 }
