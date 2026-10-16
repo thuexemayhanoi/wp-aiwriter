@@ -2418,7 +2418,17 @@
       "wp_id": 1044,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-353-nguoi-thap-nen-chon-xe-ga-theo-chieu-cao-yen-the-nao/"
+    },
+    "354": {
+      "title": "Người cao nên chọn xe ga theo tư thế ngồi ra sao?",
+      "source_hash": "24231ffb185d3468baf80df4f6015f2b96ceabe6ecf7ca0df91e4f33a8afc19f",
+      "checked_at": "2026-10-16T16:34:22.304884+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 7,
+      "slug": "excel-354-nguoi-cao-nen-chon-xe-ga-theo-tu-the-ngoi-ra-sao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:34:20.925709+00:00"
+  "updated_at": "2026-10-16T16:34:22.304898+00:00"
 }
