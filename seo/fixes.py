@@ -12,6 +12,7 @@ import html as html_lib
 import json
 import os
 import re
+import subprocess
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -104,6 +105,39 @@ def static_checks(fix, cfg, index_by_url):
     return problems
 
 
+def require_trusted_operator(fix=None):
+    """Production writes are owner-only; a free-form approved_by field is not authorization."""
+    if os.environ.get('GITHUB_ACTIONS') != 'true':
+        return  # Unit tests use a fake WordPress; CI is the production entry point.
+    actor = os.environ.get('GITHUB_ACTOR')
+    owner = os.environ.get('GITHUB_REPOSITORY_OWNER')
+    branch = os.environ.get('GITHUB_REF_NAME')
+    if not actor or not owner or actor != owner or branch != 'main':
+        raise RuntimeError('BLOCKED: only repository owner may write WordPress from main')
+    if fix is not None and fix.get('approved_by') != actor:
+        raise RuntimeError('BLOCKED: approved_by must exactly match the authenticated GitHub owner')
+
+
+def persist_prewrite_backup(backup_file):
+    """Push the backup and write-ahead receipt BEFORE any WordPress POST.
+
+    If GitHub cannot persist the safety checkpoint, abort without changing WordPress.
+    A crash after the POST leaves APPLY_INTENT on the remote branch and prohibits blind retry.
+    """
+    if os.environ.get('GITHUB_ACTIONS') != 'true':
+        return
+    relative = str(backup_file.relative_to(common.root()))
+    for command in (
+        ['git', 'add', '--', relative, 'data/seo/applied-fixes.json'],
+        ['git', 'commit', '-m', 'chore(seo): durable pre-write backup and intent [skip ci]'],
+        ['git', 'push', 'origin', 'HEAD:main'],
+    ):
+        result = subprocess.run(command, cwd=common.root(), capture_output=True, text=True)
+        if result.returncode:
+            raise RuntimeError('BLOCKED: could not persist pre-write backup on GitHub; WordPress unchanged: '
+                               + (result.stderr or result.stdout)[-300:])
+
+
 class WordPress:
     """Minimal REST client for the fix pipeline (the only code path that may write)."""
 
@@ -192,11 +226,16 @@ def apply(cfg, wp, max_fixes=1, confirm=False):
     applied = read_json(applied_path(), {'fixes': {}}) or {'fixes': {}}
     fixes = {f.get('id'): f for f in load_fixes()}
     results = []
+    require_trusted_operator()
     for res in validate(cfg, wp):
-        if res['status'] != 'VALID' or len([r for r in results if r.get('applied')]) >= max_fixes:
-            results.append({**res, 'applied': False})
+        if res['status'] != 'VALID':
+            results.append({**res, 'applied': False, 'reason': 'validation_failed'})
+            continue
+        if len([r for r in results if r.get('applied')]) >= max_fixes:
+            results.append({**res, 'applied': False, 'reason': 'max_fixes_limit'})
             continue
         fix = fixes[res['id']]
+        require_trusted_operator(fix)
         entry = {'post_id': fix['post_id'], 'target_url': fix['target_url'], 'anchor_text': fix['anchor_text'],
                  'approved_by': fix['approved_by'], 'approved_at': fix['approved_at']}
         try:
@@ -213,6 +252,8 @@ def apply(cfg, wp, max_fixes=1, confirm=False):
             entry.update({'phase': 'APPLY_INTENT', 'backup': str(backup_file.relative_to(common.root())), 'at': iso()})
             applied['fixes'][fix['id']] = entry
             write_json(applied_path(), applied)
+            # The backup and intent must be visible remotely before the REST update.
+            persist_prewrite_backup(backup_file)
             entry['phase'] = 'POST_SENT'
             write_json(applied_path(), applied)
             wp.update_content(fix['post_id'], after)
@@ -241,12 +282,22 @@ def rollback(cfg, wp, fix_id, confirm=False):
     if not confirm:
         raise RuntimeError('rollback requires explicit confirmation (SEO_APPLY_CONFIRM=yes)')
     applied = read_json(applied_path(), {'fixes': {}}) or {'fixes': {}}
+    require_trusted_operator()
     entry = applied['fixes'].get(fix_id)
     if not entry or not entry.get('backup'):
         raise RuntimeError(f'no backup recorded for {fix_id}')
+    # NEVER roll back an uncertain/unfinished POST; a concurrent edit could be lost.
+    if entry.get('phase') != 'VERIFIED' or not entry.get('modified_gmt_after'):
+        raise RuntimeError('BLOCKED: prior write not fully verified; reconcile manually before rollback')
     backup = read_json(common.root() / entry['backup'])
+    if (backup.get('fix_id') != fix_id or backup.get('post_id') != entry['post_id']):
+        raise RuntimeError('BLOCKED: rollback backup identity mismatch')
     current = wp.raw_post(entry['post_id'])
-    if entry.get('modified_gmt_after') and current.get('modified_gmt') != entry['modified_gmt_after']:
+    if (current.get('status') != 'publish'
+            or current.get('slug') != backup.get('slug')
+            or current.get('link') != backup.get('link')):
+        raise RuntimeError('BLOCKED: source URL, slug or publication status changed')
+    if current.get('modified_gmt') != entry['modified_gmt_after']:
         raise RuntimeError('post edited after the fix; manual rollback required to avoid overwriting newer edits')
     wp.update_content(entry['post_id'], backup['content_raw_before'])
     check = wp.raw_post(entry['post_id'])
