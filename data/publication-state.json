@@ -3475,13 +3475,14 @@
     "435": {
       "title": "Xe 50cc và xe điện: loại nào phù hợp hơn cho quãng đường ngắn?",
       "source_hash": "c1855fef9e545aa8d6f8481b849e01b04b8b7aceb46f33e6e1169ea78156439e",
-      "checked_at": "2026-10-16T16:51:08.294851+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:51:10.694525+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 5,
       "slug": "excel-435-xe-50cc-va-xe-dien-loai-nao-phu-hop-hon-cho-quang-duong-ngan",
-      "reason": null
+      "reason": null,
+      "wp_id": 1126
     }
   },
-  "updated_at": "2026-10-16T16:51:08.294865+00:00"
+  "updated_at": "2026-10-16T16:51:10.694544+00:00"
 }
