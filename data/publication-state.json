@@ -3904,14 +3904,16 @@
     "468": {
       "title": "Đi xe máy đến Tràng Tiền: cách tránh vòng lại vì đường một chiều",
       "source_hash": "78e9ac57f7fa5124d189defdf9148a30d636d0f1a7a31a87ec94d2be2546b978",
-      "checked_at": "2026-10-16T17:02:23.279015+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T17:02:26.008166+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 10,
       "slug": "excel-468-di-xe-may-den-trang-tien-cach-tranh-vong-lai-vi-duong-mot-chieu",
       "reason": null,
-      "wp_id": 1159
+      "wp_id": 1159,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-468-di-xe-may-den-trang-tien-cach-tranh-vong-lai-vi-duong-mot-chieu/"
     }
   },
-  "updated_at": "2026-10-16T17:02:23.279032+00:00"
+  "updated_at": "2026-10-16T17:02:26.008184+00:00"
 }
