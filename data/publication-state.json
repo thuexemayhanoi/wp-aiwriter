@@ -3159,7 +3159,17 @@
       "wp_id": 1101,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-410-xe-dien-co-phu-hop-voi-lich-trinh-thay-doi-nhieu-trong-ngay-khong/"
+    },
+    "411": {
+      "title": "Đi xe điện ban đêm cần chú ý gì về đèn và mức pin?",
+      "source_hash": "07909528bf5b44cded7f0a1bc040d69da3214ad7f4930bf673aa8641d0b87d6c",
+      "checked_at": "2026-10-16T16:46:41.109629+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 8,
+      "slug": "excel-411-di-xe-dien-ban-dem-can-chu-y-gi-ve-den-va-muc-pin",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:46:19.177574+00:00"
+  "updated_at": "2026-10-16T16:46:41.109656+00:00"
 }
