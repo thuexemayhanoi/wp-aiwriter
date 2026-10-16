@@ -745,14 +745,16 @@
     "225": {
       "title": "Khả năng chống nước của xe điện nên được hiểu như thế nào?",
       "source_hash": "80a690e5bee49d86bc57cd5b9ef79fcefc4ad423fcaf9dd4559cdde493a61314",
-      "checked_at": "2026-10-16T10:21:34.071753+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T10:21:36.854343+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 21,
       "slug": "excel-225-kha-nang-chong-nuoc-cua-xe-dien-nen-duoc-hieu-nhu-the-nao",
       "reason": null,
-      "wp_id": 915
+      "wp_id": 915,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-225-kha-nang-chong-nuoc-cua-xe-dien-nen-duoc-hieu-nhu-the-nao/"
     }
   },
-  "updated_at": "2026-10-16T10:21:34.071771+00:00"
+  "updated_at": "2026-10-16T10:21:36.854362+00:00"
 }
