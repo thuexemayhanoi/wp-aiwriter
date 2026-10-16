@@ -628,14 +628,16 @@
     "216": {
       "title": "Cách phân biệt các dòng VinFast Evo khi nhìn ngoại hình",
       "source_hash": "cf912c7a6e6d295be223e1b5494d60a1a8732b63b3afe5e9ecebdf64e90add05",
-      "checked_at": "2026-10-16T09:32:52.517234+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T09:32:55.398973+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 21,
       "slug": "excel-216-cach-phan-biet-cac-dong-vinfast-evo-khi-nhin-ngoai-hinh",
       "reason": null,
-      "wp_id": 906
+      "wp_id": 906,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-216-cach-phan-biet-cac-dong-vinfast-evo-khi-nhin-ngoai-hinh/"
     }
   },
-  "updated_at": "2026-10-16T09:32:52.517252+00:00"
+  "updated_at": "2026-10-16T09:32:55.398992+00:00"
 }
