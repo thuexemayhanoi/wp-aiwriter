@@ -1681,14 +1681,16 @@
     "297": {
       "title": "Khi nào nên về số thấp khi đi xe số trong phố?",
       "source_hash": "0a940d52eef7a170c51b631f6e870a949b6f20f1a347f284af1d7fa22350ed60",
-      "checked_at": "2026-10-16T16:23:02.969956+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:23:05.681816+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 6,
       "slug": "excel-297-khi-nao-nen-ve-so-thap-khi-di-xe-so-trong-pho",
       "reason": null,
-      "wp_id": 988
+      "wp_id": 988,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-297-khi-nao-nen-ve-so-thap-khi-di-xe-so-trong-pho/"
     }
   },
-  "updated_at": "2026-10-16T16:23:02.969973+00:00"
+  "updated_at": "2026-10-16T16:23:05.681835+00:00"
 }
