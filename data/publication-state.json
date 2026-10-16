@@ -1872,7 +1872,17 @@
       "wp_id": 1002,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-311-honda-blade-co-phu-hop-voi-nguoi-can-xe-nhe-de-xoay-tro-khong/"
+    },
+    "312": {
+      "title": "Honda Future phù hợp với người ưu tiên cốp và sự thoải mái ra sao?",
+      "source_hash": "33306fc6cdff217414ec8c5c3a8f92ef593e44284aaedf0d9c2590af478ce8b4",
+      "checked_at": "2026-10-16T16:25:37.605632+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 6,
+      "slug": "excel-312-honda-future-phu-hop-voi-nguoi-uu-tien-cop-va-su-thoai-mai-ra-sao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:25:35.454084+00:00"
+  "updated_at": "2026-10-16T16:25:37.605645+00:00"
 }
