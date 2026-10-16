@@ -3133,7 +3133,17 @@
       "wp_id": 1099,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-408-xe-dien-co-phu-hop-de-di-tu-long-bien-vao-trung-tam-moi-ngay-khong/"
+    },
+    "409": {
+      "title": "Đi xe điện qua cầu ở Hà Nội cần lưu ý gì về pin và tốc độ?",
+      "source_hash": "7749872adf3fac0832a8268a4c687b0d16d8fab1670069b96c58cda2e4cf48af",
+      "checked_at": "2026-10-16T16:46:04.274069+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 8,
+      "slug": "excel-409-di-xe-dien-qua-cau-o-ha-noi-can-luu-y-gi-ve-pin-va-toc-do",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:46:02.614375+00:00"
+  "updated_at": "2026-10-16T16:46:04.274082+00:00"
 }
