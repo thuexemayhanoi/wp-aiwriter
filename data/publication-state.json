@@ -1434,14 +1434,16 @@
     "273": {
       "title": "Ứng dụng nào hữu ích khi cần tìm ổ cắm hoặc điểm sạc quanh Hà Nội?",
       "source_hash": "cd6748729fd679fc626fcc7e3f13a17619b07684afe4782549205aa2f0e72135",
-      "checked_at": "2026-10-16T16:11:37.235442+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:11:40.148933+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 18,
       "slug": "excel-273-ung-dung-nao-huu-ich-khi-can-tim-o-cam-hoac-diem-sac-quanh-ha-noi",
       "reason": null,
-      "wp_id": 969
+      "wp_id": 969,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-273-ung-dung-nao-huu-ich-khi-can-tim-o-cam-hoac-diem-sac-quanh-ha-noi/"
     }
   },
-  "updated_at": "2026-10-16T16:11:37.235456+00:00"
+  "updated_at": "2026-10-16T16:11:40.148946+00:00"
 }
