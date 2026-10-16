@@ -3302,7 +3302,17 @@
       "wp_id": 1112,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-421-xe-ga-50cc-co-phu-hop-voi-nguoi-thap-khong/"
+    },
+    "422": {
+      "title": "Xe 50cc có tiện khi đi trong ngõ nhỏ và phố đông không?",
+      "source_hash": "6f9fd35b752b138f90c3dd780f15127ec338489b7d67b7b2dcccfeb413f302a8",
+      "checked_at": "2026-10-16T16:49:02.368846+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 5,
+      "slug": "excel-422-xe-50cc-co-tien-khi-di-trong-ngo-nho-va-pho-dong-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:49:00.677015+00:00"
+  "updated_at": "2026-10-16T16:49:02.368859+00:00"
 }
