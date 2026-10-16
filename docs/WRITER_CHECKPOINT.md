@@ -1,3 +1,19 @@
+# Current production checkpoint — 2026-10-16 through Excel #207
+
+- Owner explicitly authorized publishing 3–5 articles per batch directly to the unique matching WordPress parent/child taxonomy from `data/topics.json`. User will manage WordPress Trash themselves; **do not touch or purge the Trash**.
+- Target: `https://blog.rentbikehanoi.com/`; repository `thuexemayhanoi/wp-aiwriter` on `main`.
+- Category #146–200 `Cẩm nang > Hãng xe > Hãng xe máy`: completed 55/55 on WordPress; original posts #165–167 were corrected to matching child category 20 using authenticated WordPress REST, preserving URLs.
+- Current publication scope in `scripts/engine.py`: `APPROVED_CATEGORY = 'Cẩm nang > Hãng xe > Hãng xe điện'`, `APPROVED_LAST_ID = 235`. WordPress category 21, parent term 19, grandparent term 15, was verified to match this exact ancestry.
+- **Excel #201–207: seven published and fully VERIFIED** by GitHub Actions, WP IDs #890–896 inclusive, categories [21], `status=publish`; zero publishing errors, zero duplicate groups in the latest run.
+- GitHub contains **43 source posts #165–207**, all QA PASS. Newly authored in this session: #204 VinFast Klara, #205 Yadea, #206 Dat Bike and #207 Selex Motors; each uses exact Excel title/category, source references and unique substantive editorial content.
+- **No source files yet for #208–500 (293 topics).** Within current category #201–235, 28 source articles #208–235 remain unwritten, and the publisher does not generate text. An active writer must author them in batches, QA and push; then the live REST publisher can publish 3–5 per approved batch.
+- GitHub Actions `Excel Matrix WP Publisher`: `workflow_dispatch` only; no cron or push publishing, no chained runs. Connector-triggered latest completed job for run 38867887824 returned SUCCESS: **43 authored, 43 QA PASS, 0 QA FAIL; 3 newly created and verified #205–207; 62 of 355 Excel titles published.** The preceding batch published #201–204 with matching category 21. Git it Write remains disabled.
+- A transient GitHub-hosted WordPress network failure caused a single blocked run with zero WordPress writes; immediate retry succeeded. Authentication is verified working. Never invent publication when an attempt fails.
+- Keep exact Excel `data/topics.json` bytes/checksum; do not change existing slugs, URLs, canonical, themes or older posts. If a category full ancestry is missing or ambiguous, create **draft** with reported reason rather than guessing or publishing in Uncategorized. Skip duplicates; do not delete older content automatically.
+- NEXT CONTENT: #208 (`Pega có những dòng xe điện đô thị nào dễ gặp?`) and #209 onward: read exact next titles from `data/topics.json`; create one `posts/NNNN.md` per ID, pass `python scripts/engine.py --mode qa` and all safety tests. Do not cross #235 without reporting category completion.
+
+---
+
 ## WordPress taxonomy correction verified — 2026-10-16
 
 - Authenticated WordPress REST updated **only** post categories for #165 (WP 814), #166 (WP 815), #167 (WP 823) from parent term **19** to Excel-required leaf term **20** (`Cẩm nang > Hãng xe > Hãng xe máy`).
