@@ -1014,7 +1014,17 @@
       "wp_id": 935,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-245-cach-dung-lich-tren-dien-thoai-de-nhac-gio-tra-xe/"
+    },
+    "246": {
+      "title": "Cách đặt nhắc giờ đổ xăng khi dùng xe thuê nhiều ngày",
+      "source_hash": "40bcd16132b935d99a102767da813cfe3dbb32a5c39f2d9f9b38ad98d1141a77",
+      "checked_at": "2026-10-16T13:48:15.990261+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 17,
+      "slug": "excel-246-cach-dat-nhac-gio-do-xang-khi-dung-xe-thue-nhieu-ngay",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T13:48:14.028737+00:00"
+  "updated_at": "2026-10-16T13:48:15.990277+00:00"
 }
