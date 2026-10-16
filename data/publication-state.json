@@ -3371,14 +3371,16 @@
     "427": {
       "title": "Xe 50cc có tiết kiệm xăng khi đi nội đô không?",
       "source_hash": "bc816b1a379a731e2bea9c4fc66b36a51d20a57cf86c08a3364b8aa84061032e",
-      "checked_at": "2026-10-16T16:49:56.837265+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:50:00.074795+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 5,
       "slug": "excel-427-xe-50cc-co-tiet-kiem-xang-khi-di-noi-do-khong",
       "reason": null,
-      "wp_id": 1118
+      "wp_id": 1118,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-427-xe-50cc-co-tiet-kiem-xang-khi-di-noi-do-khong/"
     }
   },
-  "updated_at": "2026-10-16T16:49:56.837285+00:00"
+  "updated_at": "2026-10-16T16:50:00.074814+00:00"
 }
