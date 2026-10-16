@@ -3410,14 +3410,16 @@
     "430": {
       "title": "Xe 50cc đi dưới mưa cần chú ý gì về phanh và lốp?",
       "source_hash": "9fd7ff91b1226265db943195d19487d1f746a51b97d719a4967d8e6205320e93",
-      "checked_at": "2026-10-16T16:50:18.537408+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:50:21.661403+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 5,
       "slug": "excel-430-xe-50cc-di-duoi-mua-can-chu-y-gi-ve-phanh-va-lop",
       "reason": null,
-      "wp_id": 1121
+      "wp_id": 1121,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-430-xe-50cc-di-duoi-mua-can-chu-y-gi-ve-phanh-va-lop/"
     }
   },
-  "updated_at": "2026-10-16T16:50:18.537427+00:00"
+  "updated_at": "2026-10-16T16:50:21.661425+00:00"
 }
