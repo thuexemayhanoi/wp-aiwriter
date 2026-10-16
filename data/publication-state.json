@@ -2630,13 +2630,14 @@
     "370": {
       "title": "Đi xe ga dưới mưa lớn cần chú ý gì ở lốp và phanh?",
       "source_hash": "6dc668705a953ad7e02429c6d00a0a097f7c1f89f27b0d1e8f2f9a1677d2bafb",
-      "checked_at": "2026-10-16T16:37:03.430097+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:37:05.556896+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-370-di-xe-ga-duoi-mua-lon-can-chu-y-gi-o-lop-va-phanh",
-      "reason": null
+      "reason": null,
+      "wp_id": 1061
     }
   },
-  "updated_at": "2026-10-16T16:37:03.430114+00:00"
+  "updated_at": "2026-10-16T16:37:05.556913+00:00"
 }
