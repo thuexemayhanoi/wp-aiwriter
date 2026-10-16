@@ -1,0 +1,110 @@
+name: SEO Engine (reusable, read-only)
+# Shared runner for every SEO workflow. Reads public WordPress data only (no WP secrets),
+# writes reports into the repository and uploads them as artifacts.
+on:
+  workflow_call:
+    inputs:
+      args:
+        description: 'Arguments for python -m seo'
+        required: true
+        type: string
+      label:
+        description: 'Short name used in commit messages and artifacts'
+        required: true
+        type: string
+      persist:
+        description: 'Commit refreshed data/seo + reports to the triggering branch'
+        required: false
+        type: boolean
+        default: true
+      install_gsc:
+        description: 'Install the optional google-auth dependency for Search Console'
+        required: false
+        type: boolean
+        default: false
+    secrets:
+      GSC_SERVICE_ACCOUNT_JSON:
+        required: false
+      GSC_PROPERTY:
+        required: false
+      PSI_API_KEY:
+        required: false
+permissions:
+  contents: write
+jobs:
+  seo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    steps:
+      - name: Checkout (PR head branch for pull requests, otherwise the triggering ref)
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event_name == 'pull_request' && github.head_ref || github.ref }}
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Optional Search Console dependency
+        if: ${{ inputs.install_gsc }}
+        run: python -m pip install -r requirements-seo-gsc.txt
+      - name: Offline engine tests (no network)
+        run: |
+          python -m pip install -r requirements.txt
+          python -m unittest tests.test_seo_engine -v
+      - name: Restore content/link cache
+        uses: actions/cache@v4
+        with:
+          path: data/seo/cache
+          key: seo-cache-${{ github.run_id }}
+          restore-keys: |
+            seo-cache-
+      - name: Run SEO engine (read-only)
+        env:
+          GSC_SERVICE_ACCOUNT_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
+          GSC_PROPERTY: ${{ secrets.GSC_PROPERTY }}
+          PSI_API_KEY: ${{ secrets.PSI_API_KEY }}
+        run: python -m seo ${{ inputs.args }}
+      - name: Upload reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: seo-${{ inputs.label }}-${{ github.run_id }}
+          path: |
+            reports/seo-matrix.csv
+            reports/internal-link-matrix.csv
+            reports/cannibalization.csv
+            reports/content-gaps.csv
+            reports/technical-audit.json
+            reports/seo-dashboard.md
+            reports/change-log.md
+            reports/gsc-pages.csv
+            data/posts-index.jsonl
+            data/seo/
+            !data/seo/cache/
+          if-no-files-found: ignore
+          retention-days: 30
+      - name: Persist reports to the triggering branch
+        if: ${{ inputs.persist }}
+        env:
+          BRANCH: ${{ github.event_name == 'pull_request' && github.head_ref || github.ref_name }}
+          LABEL: ${{ inputs.label }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          paths=(data/posts-index.jsonl data/seo reports/seo-matrix.csv reports/internal-link-matrix.csv
+                 reports/cannibalization.csv reports/content-gaps.csv reports/technical-audit.json
+                 reports/seo-dashboard.md reports/change-log.md reports/gsc-pages.csv)
+          for p in "${paths[@]}"; do [ -e "$p" ] && git add -- "$p"; done
+          if git diff --cached --quiet; then echo "No report changes"; exit 0; fi
+          git commit -q -m "chore(seo): ${LABEL} report $(date -u +%F)"
+          for attempt in 1 2 3; do
+            if git pull --rebase -q origin "$BRANCH" && git push -q origin "HEAD:$BRANCH"; then
+              echo "Persisted to $BRANCH"; exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((attempt * 5))
+          done
+          echo "::error::Could not persist SEO reports; artifact upload still contains them"
+          exit 1

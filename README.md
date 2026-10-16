@@ -35,3 +35,16 @@ python scripts/engine.py --mode sync --limit 5  # safe preview only
 GitHub Actions Secrets: `WP_USERNAME` (or `WP_USER`) and `WP_APPLICATION_PASSWORD`. Missing credentials fail visibly instead of falsely reporting success. Never paste secrets into chat, commits or repo. Keep parallel WordPress-sync plugins inactive.
 
 **Baseline before this workflow change:** 98/355 Excel posts published, 250 total WordPress posts, category `App xe máy` 8/25 (#236–243); confirm live state for future counts.
+
+## SEO Engine (read-only audits of the live site)
+
+`seo/` audits the published WordPress site without writing to it: REST inventory, HTML crawl, robots/sitemaps,
+technical SEO, internal-link graph and suggestions, duplication/cannibalization, AEO/GEO checks, optional
+PageSpeed and Search Console. Reports are committed under `reports/` and `data/seo/`. Only
+`approved-seo-fixes.yml` can change WordPress, and only for owner-approved fixes. Runbook: `docs/SEO_ENGINE.md`.
+
+```bash
+python -m unittest tests.test_seo_engine -v      # offline
+python -m seo run --full --external --psi        # needs network access to the site
+```
+

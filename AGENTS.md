@@ -65,3 +65,13 @@ Full operational instructions: `docs/PUBLISHER_OPERATIONS.md`.
 - **Never touch WordPress Trash.** Owner handles it. No auto-delete, restore, or forced overwrites. Duplicates are skipped and reported. Keep the old Git it Write sync inactive; do not run multiple publishers.
 - **Old ledger repairs:** Excel #169 currently WP 880; #173 WP 838, both VERIFIED. Preserve their URLs; do not recreate from scratch.
 - Source writer is separate. GitHub Actions does not generate missing article prose by itself. Writers should follow `docs/PUBLISHER_OPERATIONS.md` and update `docs/WRITER_CHECKPOINT.md` after small pushes.
+
+## SEO Engine (audit-first)
+
+- `seo/` + `docs/SEO_ENGINE.md`. Audits are read-only: GET/HEAD only, no WordPress credentials, single host.
+- Do not change URLs, slugs, canonicals, redirects, noindex, Yoast metadata or bulk content from audit results.
+  Matrix rows marked NEEDS HUMAN REVIEW are signals, not decisions.
+- WordPress changes only via `approved-seo-fixes.yml` for entries in `data/seo/approved-fixes.json` with
+  approval fields; validate first, apply one fix at a time, keep the backup and verification receipts.
+- Never fabricate GSC, CWV, ranking, price or NAP data; missing data stays BLOCKED.
+

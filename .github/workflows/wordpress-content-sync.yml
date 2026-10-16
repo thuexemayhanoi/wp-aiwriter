@@ -1,0 +1,21 @@
+name: WordPress Content Sync (daily incremental, read-only)
+on:
+  schedule:
+    - cron: '23 1 * * *'    # 01:23 UTC = 08:23 Asia/Ho_Chi_Minh
+  workflow_dispatch:
+    inputs:
+      full:
+        description: 'Full REST re-sync instead of incremental'
+        type: boolean
+        default: false
+permissions:
+  contents: write
+concurrency:
+  group: seo-engine-${{ github.ref_name }}
+  cancel-in-progress: false
+jobs:
+  sync:
+    uses: ./.github/workflows/seo-engine.yml
+    with:
+      label: content-sync
+      args: run --no-crawl --mode content-sync ${{ inputs.full && '--full' || '' }}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "notes": "Only owner-approved fixes go here. Supported type: insert_internal_link. Copy a row from reports/internal-link-matrix.csv that has an anchor present in the source text, fill expected_modified_gmt from data/posts-index.jsonl, approved_by and approved_at, then run Approved SEO Fixes with action=validate before apply.",
+  "example": {
+    "id": "FIX-0001",
+    "type": "insert_internal_link",
+    "post_id": 0,
+    "target_url": "https://blog.rentbikehanoi.com/...",
+    "anchor_text": "exact phrase that already exists once in the source post",
+    "expected_modified_gmt": "YYYY-MM-DDTHH:MM:SS",
+    "approved_by": "",
+    "approved_at": "",
+    "status": "approved"
+  },
+  "fixes": []
+}
