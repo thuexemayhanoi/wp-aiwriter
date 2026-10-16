@@ -3861,7 +3861,17 @@
       "wp_id": 1155,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-464-di-xe-may-den-ho-hoan-kiem-cuoi-tuan-nen-kiem-tra-phan-luong-the-nao/"
+    },
+    "465": {
+      "title": "Đi xe máy từ Long Biên sang Hoàn Kiếm: nên chọn cầu nào?",
+      "source_hash": "8208d3a3b79b4385d6fa8719369e1d452c5c58cf0eac6439ba86390edea03313",
+      "checked_at": "2026-10-16T17:01:42.468268+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 10,
+      "slug": "excel-465-di-xe-may-tu-long-bien-sang-hoan-kiem-nen-chon-cau-nao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T17:01:40.699091+00:00"
+  "updated_at": "2026-10-16T17:01:42.468281+00:00"
 }
