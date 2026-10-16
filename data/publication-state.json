@@ -4177,13 +4177,14 @@
     "489": {
       "title": "Đi xe máy qua cầu Chương Dương từ Long Biên: nên đi khung giờ nào?",
       "source_hash": "a2b3a947974b415e361fe37a4224ed9e7168125beb3c06b4135727b904c88756",
-      "checked_at": "2026-10-16T17:09:13.436466+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T17:09:15.584340+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 12,
       "slug": "excel-489-di-xe-may-qua-cau-chuong-duong-tu-long-bien-nen-di-khung-gio-nao",
-      "reason": null
+      "reason": null,
+      "wp_id": 1180
     }
   },
-  "updated_at": "2026-10-16T17:09:13.436479+00:00"
+  "updated_at": "2026-10-16T17:09:15.584357+00:00"
 }
