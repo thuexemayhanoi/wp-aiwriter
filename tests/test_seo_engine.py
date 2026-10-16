@@ -32,6 +32,7 @@ def post(i, title, body, cat=20, modified='2026-10-16T10:00:00', slug=None, extr
 class FakeSite:
     def __init__(self):
         self.calls = []
+        self.org_name = 'Thuê Xe'
         long_text = ' '.join([LOREM] * 25)
         dup_text = ('Bài này hướng dẫn cách gửi xe máy ở trung tâm Hà Nội, chọn bãi có vé, ghi biển số và chụp ảnh vị trí. '
                     * 30)
@@ -86,7 +87,7 @@ class FakeSite:
                 'excerpt': {'rendered': ''}, 'author': 1, 'featured_media': 0, 'parent': 0, 'yoast_head_json': None}
 
     def html(self, title, body, canonical, description='', robots='index, follow', h1s=None, schema=None, extra=''):
-        graph = schema if schema is not None else [{'@type': 'WebPage'}, {'@type': 'Organization', 'name': 'Thuê Xe'}]
+        graph = schema if schema is not None else [{'@type': 'WebPage'}, {'@type': 'Organization', 'name': self.org_name}]
         head = (f'<title>{title}</title><meta name="viewport" content="width=device-width">'
                 f'<meta name="robots" content="{robots}">'
                 + (f'<meta name="description" content="{description}">' if description else '')
@@ -152,7 +153,7 @@ class FakeSite:
             if path == f"/{p['slug']}/":
                 schema = [{'@type': 'WebPage'}, {'@type': 'Article', 'headline': p['title'], 'datePublished': 'x',
                                                   'author': {'name': 'A'}}, {'@type': 'BreadcrumbList', 'itemListElement': [1]},
-                          {'@type': 'Organization', 'name': 'Thuê Xe'}, {'@type': 'Person', 'name': 'admin'}]
+                          {'@type': 'Organization', 'name': self.org_name}, {'@type': 'Person', 'name': 'admin'}]
                 extra = p['extra_head'] + ('<script type="application/ld+json">{"@type":"Article","headline":"theme"}</script>'
                                            if p['theme_schema'] else '')
                 return self.response(200, self.html(p['title'] + ' - Blog', p['body'], p['canonical'] or self.url_of(p),
@@ -339,6 +340,18 @@ class SEOEngineTest(unittest.TestCase):
         self.assertFalse([r for r in links if '107' in (r['source_post_id'], r['target_post_id'])])
         dashboard = (pathlib.Path(self.tmp) / 'reports/seo-dashboard.md').read_text()
         self.assertIn('bản sao trùng lặp đang xuất bản', dashboard)
+
+    def test_brand_in_content_differs_from_site_identity(self):
+        self.site.org_name = 'Thuê xe máy Nguyễn Hà'
+        self.site.posts[0]['body'] += ('<p>Cho Thuê Xe Máy Nguyễn Tú tại 112 Nguyễn Văn Cừ nhận đặt xe. '
+                                       'Xem <a href="https://thuexemaynguyentu.com/">website cửa hàng</a>.</p>')
+        self.site.posts[2]['body'] += '<p>Thuê xe máy Hà Nội cần chuẩn bị giấy tờ.</p>'
+        cli.main(['run', '--full'])
+        rows = [r for r in self.matrix() if r['Issue Code'] == 'A-BRAND-MISMATCH']
+        self.assertEqual(len(rows), 1)
+        self.assertIn('"Nguyễn Tú" (1 URL', rows[0]['Evidence'])
+        self.assertIn('nguyentu', rows[0]['Evidence'])
+        self.assertNotIn('Hà Nội"', rows[0]['Evidence'])  # a city after "thuê xe máy" is not a brand
 
     def test_noindex_page_skips_tag_checks(self):
         self.site.posts[1]['description'] = ''

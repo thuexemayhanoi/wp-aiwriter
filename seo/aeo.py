@@ -3,12 +3,61 @@
 No ranking or AI-answer inclusion is promised; these checks only make content easier to
 crawl, understand and quote accurately.
 """
-from collections import Counter
+from collections import Counter, defaultdict
+import re
 
+from . import common
 from .issues import make
-from .textutil import STOPWORDS, norm, syllables, word_count
+from .textutil import STOPWORDS, ascii_fold, norm, syllables, word_count
 
 QUESTION_HINTS = ('?', 'câu hỏi', 'hỏi đáp', 'faq', 'thắc mắc')
+BRAND_LEAD = re.compile(r'thuê\s+xe\s+máy\s+', re.I)
+BRAND_PREFIX = re.compile(r'^(cho\s+)?thuê\s+xe\s+máy\s+', re.I)
+
+
+def brand_mentions(text, first_word):
+    """Business names written as "(Cho) Thuê Xe Máy <Name>" whose first word matches the site brand's."""
+    found = Counter()
+    for m in BRAND_LEAD.finditer(text):
+        words = []
+        for tok in text[m.end():m.end() + 40].split()[:3]:
+            word = tok.strip('.,;:!?()[]"“”')
+            if not (word[:1].isupper() and word.isalpha()):
+                break
+            words.append(word)
+            if word != tok:
+                break
+        if words and words[0] == first_word:
+            found[' '.join(words)] += 1
+    return found
+
+
+def brand_audit(cfg, corpus, copies, brand):
+    """Compare the brand in schema/site settings with business names written in the content."""
+    core = BRAND_PREFIX.sub('', (brand or '').strip()).strip()
+    if not core:
+        return None
+    names = defaultdict(set)
+    for key, r in corpus.records.items():
+        if key in copies:
+            continue
+        for name in brand_mentions(corpus.text.get(key, ''), core.split()[0]):
+            names[name].add(r['url'])
+    others = {n: urls for n, urls in names.items() if norm(n) != norm(core) and not norm(core).startswith(norm(n))}
+    if not others:
+        return None
+    parts = []
+    for name, urls in sorted(others.items(), key=lambda kv: -len(kv[1])):
+        slug = ascii_fold(name).replace(' ', '')
+        linking = {r['url'] for r in corpus.records.values()
+                   if any(slug in common.host(l['href']) for l in r.get('external_links', []))}
+        parts.append(f'"{name}" ({len(urls)} URL, ví dụ {sorted(urls)[0]}'
+                     + (f'; {len(linking)} URL liên kết tới domain chứa "{slug}"' if linking else '') + ')')
+    same = len(names.get(core, ()))
+    return make('A-BRAND-MISMATCH', {'url': cfg['site_url'].rstrip('/') + '/', 'type': 'site'}, key_extra='brand',
+                impact=sum(len(u) for u in others.values()),
+                evidence=f'schema/site: "{brand}"; nội dung: ' + '; '.join(parts)
+                         + (f'; "{core}" ({same} URL)' if same else f'; "{core}" không xuất hiện trong nội dung'))
 GENERIC_AUTHORS = {'admin', 'administrator', 'quản trị viên', 'editor', 'author', 'user', 'webmaster', 'root', 'test'}
 
 
@@ -72,6 +121,10 @@ def audit(cfg, corpus, records, site, discovery, duplicates=None):
     if len(website_names) > 1:
         issues.append(make('A-ENTITY-INCONSISTENT', site_target, key_extra='website',
                            evidence='WebSite names: ' + '; '.join(f'{k} ({v})' for k, v in website_names.most_common(5))))
+    brand = (org_names.most_common(1)[0][0] if org_names else None) or (discovery or {}).get('name')
+    mismatch = brand_audit(cfg, corpus, copies, brand)
+    if mismatch:
+        issues.append(mismatch)
     if org_nodes and not org_sameas:
         issues.append(make('A-ORG-SAMEAS-MISSING', site_target, key_extra='org',
                            evidence=f'{org_nodes} node Organization, không node nào có sameAs'))

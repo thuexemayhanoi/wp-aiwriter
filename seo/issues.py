@@ -178,6 +178,9 @@ CATALOG = {
     'A-SCHEMA-DATE-MISSING': ('P2', 'VERIFIED', 'LOW', 'Schema bài viết thiếu ngày xuất bản/cập nhật', 'Kiểm tra cấu hình Yoast.'),
     'A-ENTITY-INCONSISTENT': ('P2', 'NEEDS_REVIEW', 'MEDIUM', 'Tên tổ chức/website không nhất quán trong schema',
                               'Thống nhất tên tổ chức trong Yoast > Site representation.'),
+    'A-BRAND-MISMATCH': ('P1', 'NEEDS_REVIEW', 'MEDIUM', 'Tên doanh nghiệp trong nội dung khác tên website/schema',
+                         'Chủ sở hữu xác nhận thực thể đúng (tên, địa chỉ, điện thoại, website) rồi thống nhất nội dung, '
+                         'Yoast Site representation và trang liên hệ. Engine không tự đổi tên/NAP.'),
     'A-ORG-SAMEAS-MISSING': ('P3', 'INFO', 'LOW', 'Schema Organization không có sameAs', 'Khai báo hồ sơ mạng xã hội chính thức trong Yoast.'),
     'A-AI-CRAWLER-POLICY': ('P3', 'INFO', 'LOW', 'Chính sách robots.txt với crawler AI/tìm kiếm', 'Chủ sở hữu quyết định cho phép hoặc chặn.'),
     'A-YOAST-REST-MISSING': ('P1', 'VERIFIED', 'LOW', 'REST không trả yoast_head_json', 'Kiểm tra Yoast còn hoạt động/REST API của Yoast bật.'),

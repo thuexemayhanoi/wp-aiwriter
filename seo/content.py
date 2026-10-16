@@ -198,8 +198,11 @@ def cluster_subtopics(token_lists, titles, global_share, max_len=5, bind=0.6, mi
     khảo" occurs everywhere), then grown along dominant neighbours so fragments such as
     "nguồn tham" or "hiểm cài" become whole phrases ("nguồn tham khảo", "mũ bảo hiểm cài quai").
     """
+    def extendable(tok):  # one-letter syllables are real words when growing a phrase ("ô tô")
+        return tok[:1].isalnum() and tok not in STOPWORDS and not tok.isdigit()
+
     def usable(tok):
-        return tok[:1].isalnum() and tok not in STOPWORDS and not tok.isdigit() and len(tok) > 1
+        return extendable(tok) and len(tok) > 1
     size = max(1, len(token_lists))
     doc_bigrams = Counter()
     for toks in token_lists:
@@ -228,14 +231,14 @@ def cluster_subtopics(token_lists, titles, global_share, max_len=5, bind=0.6, mi
         while len(phrase) < max_len:
             right = Counter(token_lists[d][s + len(phrase)] for d, s in occ if s + len(phrase) < len(token_lists[d]))
             tok, cnt = right.most_common(1)[0] if right else ('', 0)
-            if not usable(tok) or cnt < bind * len(occ):
+            if not extendable(tok) or cnt < bind * len(occ):
                 break
             occ = [(d, s) for d, s in occ if s + len(phrase) < len(token_lists[d]) and token_lists[d][s + len(phrase)] == tok]
             phrase.append(tok)
         while len(phrase) < max_len:
             left = Counter(token_lists[d][s - 1] for d, s in occ if s > 0)
             tok, cnt = left.most_common(1)[0] if left else ('', 0)
-            if not usable(tok) or cnt < bind * len(occ):
+            if not extendable(tok) or cnt < bind * len(occ):
                 break
             occ = [(d, s - 1) for d, s in occ if s > 0 and token_lists[d][s - 1] == tok]
             phrase.insert(0, tok)

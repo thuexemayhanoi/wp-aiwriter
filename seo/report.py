@@ -231,8 +231,8 @@ def render_dashboard(cfg, tech, issues, suggestions, cannibal_rows, gap_rows, de
     return re.sub(r'^(#{1,6} [^\n]*)\n(?!\n)', r'\1\n\n', text, flags=re.M)
 
 
-DECISION_CODES = ('T-DUPLICATE-COPY', 'C-NAP-INCONSISTENT', 'A-ENTITY-INCONSISTENT', 'A-AUTHOR-GENERIC',
-                  'C-FINE-AMOUNT', 'T-ARCHIVE-NOINDEX', 'T-META-DESC-NOT-YOAST')
+DECISION_CODES = ('T-DUPLICATE-COPY', 'A-BRAND-MISMATCH', 'C-NAP-INCONSISTENT', 'A-ENTITY-INCONSISTENT',
+                  'A-AUTHOR-GENERIC', 'C-FINE-AMOUNT', 'T-ARCHIVE-NOINDEX', 'T-META-DESC-NOT-YOAST')
 
 
 def owner_decisions(issues, tech, context):
@@ -248,7 +248,8 @@ def owner_decisions(issues, tech, context):
     if copies:
         md.append(f'- **{len(copies)} bản sao trùng lặp đang xuất bản** (giữ bản gốc, bản thừa xử lý thủ công/301):\n')
         md.extend(f'  - WP {i.post_id} {i.url} — {i.evidence[:160]}\n' for i in copies[:12])
-    for code, label in (('C-NAP-INCONSISTENT', 'NAP/liên hệ'), ('A-ENTITY-INCONSISTENT', 'Tên thương hiệu trong schema'),
+    for code, label in (('A-BRAND-MISMATCH', 'Tên doanh nghiệp'), ('C-NAP-INCONSISTENT', 'NAP/liên hệ'),
+                        ('A-ENTITY-INCONSISTENT', 'Tên thương hiệu trong schema'),
                         ('A-AUTHOR-GENERIC', 'Tác giả'), ('T-META-DESC-NOT-YOAST', 'Nguồn meta description')):
         for item in by_code.get(code, []):
             md.append(f'- **{label}**: {item.evidence[:300]}\n')
