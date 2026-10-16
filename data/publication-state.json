@@ -3267,13 +3267,14 @@
     "419": {
       "title": "Cub 50cc có phù hợp để đi học và đi làm hằng ngày không?",
       "source_hash": "f0228f6b2bfe3e0660a3129f2081f11d7abf70a257966c0f11bad78feda2e5df",
-      "checked_at": "2026-10-16T16:48:24.283296+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:48:26.453226+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 5,
       "slug": "excel-419-cub-50cc-co-phu-hop-de-di-hoc-va-di-lam-hang-ngay-khong",
-      "reason": null
+      "reason": null,
+      "wp_id": 1110
     }
   },
-  "updated_at": "2026-10-16T16:48:24.283310+00:00"
+  "updated_at": "2026-10-16T16:48:26.453246+00:00"
 }
