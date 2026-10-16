@@ -2769,7 +2769,17 @@
       "wp_id": 1071,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-380-janus-vision-hay-grande-cach-chon-theo-voc-dang-nguoi-lai/"
+    },
+    "381": {
+      "title": "Xe máy điện có phù hợp để đi làm hằng ngày ở Hà Nội không?",
+      "source_hash": "94986f74d0c3457931671be59aaf36c044e9ad8d765850d7d7cd036c6fefa991",
+      "checked_at": "2026-10-16T16:41:00.056724+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 8,
+      "slug": "excel-381-xe-may-dien-co-phu-hop-de-di-lam-hang-ngay-o-ha-noi-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:38:51.192877+00:00"
+  "updated_at": "2026-10-16T16:41:00.056742+00:00"
 }
