@@ -1330,13 +1330,14 @@
     "280": {
       "title": "Cách kết hợp ứng dụng bản đồ và ứng dụng xe điện để tránh hết pin giữa đường",
       "source_hash": "945139b88d554282e92b8e08b89cb7ecfda632c4e24b1e0724544ee45d083778",
-      "checked_at": "2026-10-16T15:55:28.630204+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T15:55:30.703651+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 18,
       "slug": "excel-280-cach-ket-hop-ung-dung-ban-do-va-ung-dung-xe-dien-de-tranh-het-pin-giua-duon",
-      "reason": null
+      "reason": null,
+      "wp_id": 960
     }
   },
-  "updated_at": "2026-10-16T15:55:28.630217+00:00"
+  "updated_at": "2026-10-16T15:55:30.703667+00:00"
 }
