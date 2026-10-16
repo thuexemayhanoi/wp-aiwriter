@@ -1170,7 +1170,17 @@
       "wp_id": 947,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-257-gia-do-dien-thoai-va-ung-dung-dan-duong-dung-the-nao-cho-an-toan/"
+    },
+    "259": {
+      "title": "Ứng dụng dịch thuật hữu ích thế nào với khách nước ngoài thuê xe máy?",
+      "source_hash": "e3794dc19f8adce2dcf43a8c4bfd62924ee0bdbd2a689ca0811ba27028562c29",
+      "checked_at": "2026-10-16T15:16:15.361333+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 17,
+      "slug": "excel-259-ung-dung-dich-thuat-huu-ich-the-nao-voi-khach-nuoc-ngoai-thue-xe-may",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T15:12:17.261740+00:00"
+  "updated_at": "2026-10-16T15:16:15.361350+00:00"
 }
