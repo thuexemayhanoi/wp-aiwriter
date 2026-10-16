@@ -4268,14 +4268,16 @@
     "496": {
       "title": "Ở Long Biên và đi làm trong nội đô: cách dự trù thời gian bằng xe máy",
       "source_hash": "6756559c227bdc1e570a6357df4ba5372d1060cece2623d5b5ccc6d3881e6995",
-      "checked_at": "2026-10-16T17:10:36.949024+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T17:10:39.891663+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 12,
       "slug": "excel-496-o-long-bien-va-di-lam-trong-noi-do-cach-du-tru-thoi-gian-bang-xe-may",
       "reason": null,
-      "wp_id": 1187
+      "wp_id": 1187,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-496-o-long-bien-va-di-lam-trong-noi-do-cach-du-tru-thoi-gian-bang-xe-may/"
     }
   },
-  "updated_at": "2026-10-16T17:10:36.949042+00:00"
+  "updated_at": "2026-10-16T17:10:39.891681+00:00"
 }
