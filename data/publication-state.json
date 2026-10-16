@@ -2873,7 +2873,17 @@
       "wp_id": 1079,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-388-troi-nong-co-anh-huong-den-pin-xe-may-dien-khong/"
+    },
+    "389": {
+      "title": "Đi xe điện dưới mưa cần lưu ý những gì?",
+      "source_hash": "539ae230f9b51bb4e66f87a3ca44ea868cc343d97b51df38b660435c6a5b47f7",
+      "checked_at": "2026-10-16T16:42:19.277458+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 8,
+      "slug": "excel-389-di-xe-dien-duoi-mua-can-luu-y-nhung-gi",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:42:17.711741+00:00"
+  "updated_at": "2026-10-16T16:42:19.277473+00:00"
 }
