@@ -3111,14 +3111,16 @@
     "407": {
       "title": "Thuê xe điện dài hạn cần hỏi rõ những điều gì về sạc và pin?",
       "source_hash": "a748adfb5d87de0007b054975f364c7c6e32b3caa5eaa82bfc5f66ea8f764440",
-      "checked_at": "2026-10-16T16:45:52.318900+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:45:55.609415+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 8,
       "slug": "excel-407-thue-xe-dien-dai-han-can-hoi-ro-nhung-dieu-gi-ve-sac-va-pin",
       "reason": null,
-      "wp_id": 1098
+      "wp_id": 1098,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-407-thue-xe-dien-dai-han-can-hoi-ro-nhung-dieu-gi-ve-sac-va-pin/"
     }
   },
-  "updated_at": "2026-10-16T16:45:52.318920+00:00"
+  "updated_at": "2026-10-16T16:45:55.609436+00:00"
 }
