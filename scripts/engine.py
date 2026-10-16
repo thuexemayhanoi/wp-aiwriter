@@ -450,6 +450,12 @@ def write_report(report):
                f"- Excel #146–500 published: {len(report['excel_published_ids']) if 'excel_published_ids' in report else 'UNVERIFIED'}\n"
                f"- Duplicate groups requiring review: {len(report['duplicates'])}; errors: {len(report['errors'])}; "
                f"next ready: {report.get('remaining_ready_ids', [])[:5]}\n")
+    if report.get('category_boundary') and not report.get('category_progress'):
+        cat = report['category_boundary']
+        summary += (f"\n#### Approved Excel category: {cat['category']} — #{cat['first_id']}–#{cat['last_id']}\n"
+                    f"- QA-ready in the current group: {cat['total'] - len(report.get('source_queue', []))}/{cat['total']}\n"
+                    f"- Writer queue, still missing or failing QA: {report.get('source_queue', [])}\n"
+                    f"- Next category (blocked): {cat['next_category']}\n")
     if report.get('category_progress'):
         cat = report['category_progress']
         summary += (f"\n#### Excel category: {cat['category']} — #{cat['first_id']}–{cat['last_id']}\n"
