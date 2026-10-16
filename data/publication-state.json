@@ -3709,13 +3709,14 @@
     "453": {
       "title": "Đi xe máy quanh Ngọc Lâm: những tuyến đường thuận tiện cho người mới",
       "source_hash": "367523b35317cc3dadf1d838198f01d5d8c9b7a6430a9cbf77dac46c2ca1204a",
-      "checked_at": "2026-10-16T16:57:51.511063+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:57:53.389770+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 14,
       "slug": "excel-453-di-xe-may-quanh-ngoc-lam-nhung-tuyen-duong-thuan-tien-cho-nguoi-moi",
-      "reason": null
+      "reason": null,
+      "wp_id": 1144
     }
   },
-  "updated_at": "2026-10-16T16:57:51.511077+00:00"
+  "updated_at": "2026-10-16T16:57:53.389787+00:00"
 }
