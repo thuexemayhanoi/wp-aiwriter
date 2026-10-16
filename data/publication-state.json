@@ -2448,14 +2448,16 @@
     "356": {
       "title": "Xe ga nào có cốp rộng phù hợp người mang laptop và đồ cá nhân?",
       "source_hash": "d89ca3e032b152069eb15dbf17ffe12bb0b9214e858e46d2f6a957553bc50697",
-      "checked_at": "2026-10-16T16:34:57.002218+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:35:00.008597+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-356-xe-ga-nao-co-cop-rong-phu-hop-nguoi-mang-laptop-va-do-ca-nhan",
       "reason": null,
-      "wp_id": 1047
+      "wp_id": 1047,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-356-xe-ga-nao-co-cop-rong-phu-hop-nguoi-mang-laptop-va-do-ca-nhan/"
     }
   },
-  "updated_at": "2026-10-16T16:34:57.002237+00:00"
+  "updated_at": "2026-10-16T16:35:00.008618+00:00"
 }
