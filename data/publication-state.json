@@ -936,7 +936,17 @@
       "wp_id": 929,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-239-cach-tai-ban-do-ngoai-tuyen-de-dung-khi-mang-yeu/"
+    },
+    "240": {
+      "title": "Cách chia sẻ vị trí trực tiếp khi đi xe máy một mình",
+      "source_hash": "eca1f55da3c65bd9169c90f2f86db2c986f73c3e71e293dcc56e78704a49fd7d",
+      "checked_at": "2026-10-16T13:11:37.319525+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 17,
+      "slug": "excel-240-cach-chia-se-vi-tri-truc-tiep-khi-di-xe-may-mot-minh",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T13:11:36.078467+00:00"
+  "updated_at": "2026-10-16T13:11:37.319542+00:00"
 }
