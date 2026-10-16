@@ -2747,13 +2747,14 @@
     "379": {
       "title": "Lead đời khác nhau có thay đổi nhiều về cốp và tư thế lái không?",
       "source_hash": "0ef94cab05f7e67606971c0bf9fc6fc23df70429d3d2471c26b0668b7ed70733",
-      "checked_at": "2026-10-16T16:38:40.520577+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:38:42.321222+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-379-lead-doi-khac-nhau-co-thay-doi-nhieu-ve-cop-va-tu-the-lai-khong",
-      "reason": null
+      "reason": null,
+      "wp_id": 1070
     }
   },
-  "updated_at": "2026-10-16T16:38:40.520590+00:00"
+  "updated_at": "2026-10-16T16:38:42.321240+00:00"
 }
