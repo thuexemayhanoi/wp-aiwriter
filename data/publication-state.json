@@ -3575,7 +3575,17 @@
       "wp_id": 1133,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-442-di-xe-may-den-van-mieu-tu-ba-dinh-cach-chon-tuyen-tranh-gio-dong/"
+    },
+    "443": {
+      "title": "Đi xe máy quanh Hồ Tây từ phía Ba Đình: gợi ý lộ trình ngắn",
+      "source_hash": "3aba4fbc304b7517272278cefd00b5e25e537c6ba94a96d1c0c68e7d2a572cca",
+      "checked_at": "2026-10-16T16:54:22.807723+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 13,
+      "slug": "excel-443-di-xe-may-quanh-ho-tay-tu-phia-ba-dinh-goi-y-lo-trinh-ngan",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:54:21.480852+00:00"
+  "updated_at": "2026-10-16T16:54:22.807735+00:00"
 }
