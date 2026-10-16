@@ -2084,13 +2084,14 @@
     "328": {
       "title": "Honda Air Blade phù hợp với người đi nhiều kilomet mỗi ngày không?",
       "source_hash": "d1de23ad94c4fc61512e562c728caa0323aa23112b6b0f89448d97c84b767f26",
-      "checked_at": "2026-10-16T16:29:57.962384+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:29:59.887620+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-328-honda-air-blade-phu-hop-voi-nguoi-di-nhieu-kilomet-moi-ngay-khong",
-      "reason": null
+      "reason": null,
+      "wp_id": 1019
     }
   },
-  "updated_at": "2026-10-16T16:29:57.962396+00:00"
+  "updated_at": "2026-10-16T16:29:59.887636+00:00"
 }
