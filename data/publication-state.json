@@ -69,13 +69,15 @@
     "173": {
       "title": "Phụ tùng Yamaha có dễ tìm khi đi lại ở Hà Nội không?",
       "source_hash": "129020aae324aacb58a742d449bf382e91e20ec6f4f94f18f1201fbf3429f8fb",
-      "checked_at": "2026-10-16T07:20:29.954002+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T07:43:48.707686+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 20,
       "slug": "excel-173-phu-tung-yamaha-co-de-tim-khi-di-lai-o-ha-noi-khong",
       "reason": null,
-      "wp_id": 838
+      "wp_id": 838,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-173-phu-tung-yamaha-co-de-tim-khi-di-lai-o-ha-noi-khong/"
     },
     "174": {
       "title": "Vì sao Honda Wave thường xuất hiện nhiều trong nhóm xe đi lại hằng ngày?",
@@ -273,5 +275,5 @@
       "url": "https://blog.rentbikehanoi.com/excel-188-xe-ga-yamaha-co-nhung-dac-diem-chung-nao-de-nhan-biet/"
     }
   },
-  "updated_at": "2026-10-16T07:42:41.065864+00:00"
+  "updated_at": "2026-10-16T07:43:48.707703+00:00"
 }
