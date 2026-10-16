@@ -2964,7 +2964,17 @@
       "wp_id": 1086,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-395-cach-len-ke-hoach-sac-khi-thue-xe-dien-nhieu-ngay/"
+    },
+    "396": {
+      "title": "Khi nào nên sạc xe điện thay vì chờ pin gần cạn?",
+      "source_hash": "7f96a1f259adf66f8e80533af34d6db4b89c028bdde8c24a558c925718813eea",
+      "checked_at": "2026-10-16T16:43:49.181113+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 8,
+      "slug": "excel-396-khi-nao-nen-sac-xe-dien-thay-vi-cho-pin-gan-can",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:43:28.074314+00:00"
+  "updated_at": "2026-10-16T16:43:49.181132+00:00"
 }
