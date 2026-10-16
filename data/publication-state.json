@@ -927,14 +927,16 @@
     "239": {
       "title": "Cách tải bản đồ ngoại tuyến để dùng khi mạng yếu",
       "source_hash": "a61c4eb200b6790b1efd5d2cda86ba1e9519105b66f8ca6301a300a476f1170c",
-      "checked_at": "2026-10-16T13:11:33.339853+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T13:11:36.078446+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 17,
       "slug": "excel-239-cach-tai-ban-do-ngoai-tuyen-de-dung-khi-mang-yeu",
       "reason": null,
-      "wp_id": 929
+      "wp_id": 929,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-239-cach-tai-ban-do-ngoai-tuyen-de-dung-khi-mang-yeu/"
     }
   },
-  "updated_at": "2026-10-16T13:11:33.339877+00:00"
+  "updated_at": "2026-10-16T13:11:36.078467+00:00"
 }
