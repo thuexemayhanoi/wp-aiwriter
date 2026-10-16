@@ -2799,13 +2799,14 @@
     "383": {
       "title": "Xe điện phù hợp với quãng đường ngắn trong nội đô như thế nào?",
       "source_hash": "4c0f3e9149a9038507d3ec4835df52896c6e9652a6f9c9ebec86ade7407e691c",
-      "checked_at": "2026-10-16T16:41:14.975899+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:41:17.323996+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 8,
       "slug": "excel-383-xe-dien-phu-hop-voi-quang-duong-ngan-trong-noi-do-nhu-the-nao",
-      "reason": null
+      "reason": null,
+      "wp_id": 1074
     }
   },
-  "updated_at": "2026-10-16T16:41:14.975914+00:00"
+  "updated_at": "2026-10-16T16:41:17.324014+00:00"
 }
