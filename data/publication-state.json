@@ -2136,14 +2136,16 @@
     "332": {
       "title": "Yamaha Grande phù hợp với người ưu tiên sự êm ái như thế nào?",
       "source_hash": "544fc2fa6da9d1401612aeb3144f3d6e35e9e150be96f0c7aa324649911b7d64",
-      "checked_at": "2026-10-16T16:30:45.818346+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:30:48.564976+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-332-yamaha-grande-phu-hop-voi-nguoi-uu-tien-su-em-ai-nhu-the-nao",
       "reason": null,
-      "wp_id": 1023
+      "wp_id": 1023,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-332-yamaha-grande-phu-hop-voi-nguoi-uu-tien-su-em-ai-nhu-the-nao/"
     }
   },
-  "updated_at": "2026-10-16T16:30:45.818362+00:00"
+  "updated_at": "2026-10-16T16:30:48.565000+00:00"
 }
