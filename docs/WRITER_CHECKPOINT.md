@@ -1,3 +1,16 @@
+# Production checkpoint — 2026-10-16 through #213
+
+- Owner approved one new WordPress batch of 3 posts. No scheduled auto-publishing, no change in active category, no interaction with WordPress Trash.
+- Newly authored and committed to `main`: `posts/0211.md` (VinFast short intra-city itineraries), `posts/0212.md` (YADEA onboarding for first-time riders), `posts/0213.md` (Dat Bike long-distance trip practicality). All exact titles and parent/child paths from `data/topics.json`.
+- Manufacturer sources for each: VinFast product and battery policy, YADEA catalog and warranty, Dat Bike Quantum S technical information and specific 285 km reference conditions. No fictional user reviews, unverified inventory or assumed pricing.
+- Latest code/content QA Actions run [38878718455](https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38878718455): **SUCCESS**, 49/49 authored Markdown QA PASS, **18/18 regression tests PASS**.
+- Latest owner-approved publication batch: [Excel Matrix WP Publisher](https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38867887824) latest job **SUCCESS**; all **three new WordPress posts VERIFIED and published in leaf term #21**: Excel #211 → WP 901, #212 → WP 902, #213 → WP 903. Errors=0 and duplicate groups=0.
+- Excel progress **68/355** published. Category `Cẩm nang > Hãng xe > Hãng xe điện`, Excel #201–235, now **13/35** correctly published, **22 IDs #214–235** require drafting/publishing. Whole matrix **287 files #214–500** have not been authored; published first category #146–200 remains 55/55.
+- **NEXT WRITER** #214 and #215, then #216, using exact Excel titles and category; write in small batches, QA and push promptly. Do not bypass `data/publication-policy.json`, unpause #236+, or claim background AI article generation.
+- Preserve existing site URL, post URLs, taxonomy, canonical, sitemap, and all WordPress Trash. No blind retries for uncertain prior WordPress writes.
+
+---
+
 # Writer and WordPress checkpoint — 2026-10-16 through Excel #210
 
 - Owner approved continuation of one 3–5-post batch, staying within the current Excel category `Cẩm nang > Hãng xe > Hãng xe điện` (#201–235), matching WordPress child category ID 21, and leaving Trash untouched.
