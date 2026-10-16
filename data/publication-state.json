@@ -2691,7 +2691,17 @@
       "wp_id": 1065,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-374-xe-ga-phu-hop-hon-xe-so-trong-truong-hop-nao/"
+    },
+    "375": {
+      "title": "Thuê xe ga theo tuần nên chọn theo tiêu chí nào?",
+      "source_hash": "ce9c42e3128f4f076dcf1898b521a51f41cb867c59b02c35dce7b14644efd438",
+      "checked_at": "2026-10-16T16:37:56.040376+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 7,
+      "slug": "excel-375-thue-xe-ga-theo-tuan-nen-chon-theo-tieu-chi-nao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:37:53.734471+00:00"
+  "updated_at": "2026-10-16T16:37:56.040388+00:00"
 }
