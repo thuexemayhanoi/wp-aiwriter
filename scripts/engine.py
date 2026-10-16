@@ -28,9 +28,7 @@ MATRIX_PATH = ROOT / 'data/topics.json'
 STATE_PATH = ROOT / 'data/publication-state.json'
 WP_URL = 'https://blog.rentbikehanoi.com'
 MATRIX_SHA256 = '01192fc9ae78d7ddced2b9c7afa85b0794081269c11b028fdcf56e18aba4ca60'
-# Owner-approved publication boundary; do not cross into the next Excel category without review.
-APPROVED_CATEGORY = 'Cẩm nang > Hãng xe > Hãng xe điện'
-APPROVED_LAST_ID = 235
+POLICY_PATH = ROOT / 'data/publication-policy.json'
 
 
 def now():
@@ -49,6 +47,27 @@ def matrix():
     if len(rows) != 355 or [r[0] for r in rows] != list(range(146, 501)):
         raise ValueError('Expected exact Excel IDs 146..500')
     return {i: {'id': i, 'title': title, 'category': category} for i, title, category in rows}
+
+
+def publication_scope(topics):
+    """Derive the category boundary and following group from the immutable Excel rows."""
+    policy = json.loads(POLICY_PATH.read_text(encoding='utf-8'))
+    if (policy.get('publication_mode') != 'owner_approved_batches'
+            or policy.get('batch_choices') != [3, 4, 5]
+            or policy.get('pause_at_category_end') is not True
+            or policy.get('on_missing_or_ambiguous_category') != 'draft'
+            or policy.get('on_trashed_posts') != 'do_not_touch'):
+        raise ValueError('Publication policy violates approved safeguards')
+    unique = list(dict.fromkeys(row['category'] for row in topics.values()))
+    selected = policy.get('active_category')
+    if selected not in unique:
+        raise ValueError('Active category does not match the immutable Excel')
+    ids = [i for i, row in topics.items() if row['category'] == selected]
+    if ids != list(range(ids[0], ids[-1] + 1)):
+        raise ValueError('Active Excel category rows are not contiguous')
+    k = unique.index(selected)
+    return {'category': selected, 'first_id': ids[0], 'last_id': ids[-1],
+            'total': len(ids), 'next_category': unique[k + 1] if k + 1 < len(unique) else None}
 
 
 def markdown_to_html(text):
@@ -307,7 +326,7 @@ def verify(client, article, post_id, expected_status, category_id, slug):
     return post
 
 
-def sync(client, ready, ledger, limit, report):
+def sync(client, ready, ledger, limit, report, scope=None):
     client.get('users/me?context=edit&_fields=id')  # validate credentials before all writes
     paths = category_paths(client.all('categories', hide_empty='false', _fields='id,name,parent'))
     inventory = client.all('posts', context='edit', status='any', _fields='id,title,slug,status,link,categories,content')
@@ -383,6 +402,40 @@ def sync(client, ready, ledger, limit, report):
     report['has_more'] = bool(remaining)
     report['site_published'] += sum(x['status'] == 'publish' for x in report['created'])
     report['excel_published_ids'] += [x['id'] for x in report['created'] if x['status'] == 'publish']
+    if scope is not None:
+        expected_ids = range(scope['first_id'], scope['last_id'] + 1)
+        matched_term = paths.get(scope['category'], [])
+        term_id = matched_term[0] if len(matched_term) == 1 else None
+        complete, wrong_category, drafts, duplicates_in_category = [], [], [], []
+        missing_posts = []
+        for i in expected_ids:
+            matched = duplicates(topics[i], inventory)
+            if len(matched) > 1:
+                duplicates_in_category.append({'id': i, 'wp_ids': [p['id'] for p in matched]})
+            elif len(matched) == 1:
+                p = matched[0]
+                if p['status'] == 'publish' and term_id is not None and p['categories'] == [term_id]:
+                    complete.append(i)
+                elif p['status'] == 'publish':
+                    wrong_category.append({'id': i, 'wp_id': p['id'], 'categories': p['categories'],
+                                           'expected_category_id': term_id})
+                else:
+                    drafts.append({'id': i, 'wp_id': p['id'], 'status': p['status']})
+            else:
+                missing_posts.append(i)
+        source_ids = {article['id'] for article in ready}
+        authored_ids = [i for i in expected_ids if i in source_ids]
+        report['category_progress'] = {
+            **scope, 'expected_wordpress_category_id': term_id,
+            'published_correct_category': len(complete), 'published_ids': complete,
+            'source_ready': len(authored_ids),
+            'source_missing_ids': [i for i in expected_ids if i not in source_ids],
+            'unpublished_ids': missing_posts, 'wrong_category': wrong_category,
+            'draft_or_pending': drafts, 'duplicate_wp_titles': duplicates_in_category,
+        }
+        report['category_complete'] = len(complete) == scope['total']
+        report['category_review_required'] = (report['category_complete']
+                                              or bool(wrong_category) or bool(duplicates_in_category))
 
 
 def write_report(report):
@@ -397,6 +450,22 @@ def write_report(report):
                f"- Excel #146–500 published: {len(report['excel_published_ids']) if 'excel_published_ids' in report else 'UNVERIFIED'}\n"
                f"- Duplicate groups requiring review: {len(report['duplicates'])}; errors: {len(report['errors'])}; "
                f"next ready: {report.get('remaining_ready_ids', [])[:5]}\n")
+    if report.get('category_progress'):
+        cat = report['category_progress']
+        summary += (f"\n#### Excel category: {cat['category']} — #{cat['first_id']}–{cat['last_id']}\n"
+                    f"- Correctly published in child category: {cat['published_correct_category']}/{cat['total']}\n"
+                    f"- Source articles QA-ready: {cat['source_ready']}/{cat['total']}; "
+                    f"unwritten/unready IDs: {cat['source_missing_ids'][:30]}\n"
+                    f"- Wrong category: {len(cat['wrong_category'])}; drafts: {len(cat['draft_or_pending'])}; "
+                    f"duplicate live titles: {len(cat['duplicate_wp_titles'])}\n"
+                    f"- Category complete, requires owner review before advancing: {report.get('category_complete', False)}\n"
+                    f"- Next Excel category: {cat['next_category']}\n")
+        if cat['wrong_category'] or cat['draft_or_pending'] or cat['duplicate_wp_titles']:
+            summary += '\nCategory issues:\n```json\n' + json.dumps({
+                'wrong_category': cat['wrong_category'],
+                'draft_or_pending': cat['draft_or_pending'],
+                'duplicate_wp_titles': cat['duplicate_wp_titles'],
+            }, ensure_ascii=False, indent=2) + '\n```\n'
     for key in ['created', 'existing', 'duplicates', 'errors', 'qa_errors']:
         if report[key]:
             summary += '\n' + key + ':\n```json\n' + json.dumps(report[key], ensure_ascii=False, indent=2) + '\n```\n'
@@ -407,8 +476,12 @@ def write_report(report):
             out.write(summary)
     if os.getenv('GITHUB_OUTPUT'):
         with open(os.environ['GITHUB_OUTPUT'], 'a') as out:
-            for key in ['has_more', 'auth_ok']:
+            for key in ['has_more', 'auth_ok', 'category_complete']:
                 out.write(f'{key}={str(report.get(key, False)).lower()}\n')
+            if report.get('category_complete'):
+                cat = report['category_progress']
+                out.write(f"category_first_id={cat['first_id']}\n")
+                out.write(f"category_last_id={cat['last_id']}\n")
 
 
 def run(args):
@@ -417,27 +490,25 @@ def run(args):
     report = {'at': now(), 'mode': args.mode, 'live': args.live, 'authored': len(all_items),
               'qa_pass': len(ready), 'qa_errors': errors, 'created': [], 'existing': [], 'duplicates': [], 'errors': [], 'has_more': False}
     try:
+        scope = publication_scope(topics)
+        report['category_boundary'] = scope
+        approved = [a for a in ready if scope['first_id'] <= a['id'] <= scope['last_id']
+                    and a['category'] == scope['category']]
+        report['blocked_other_categories'] = len(ready) - len(approved)
+        report['source_queue'] = [i for i in range(scope['first_id'], scope['last_id'] + 1)
+                                  if i not in {a['id'] for a in approved}]
         if args.mode == 'sync':
             if not args.live:
-                report['remaining_ready_ids'] = [x['id'] for x in ready]
+                report['remaining_ready_ids'] = [x['id'] for x in approved]
                 report['notice'] = 'DRY RUN — no WordPress authentication or writes'
             else:
+                if errors:
+                    raise ValueError('QA errors present; publishing aborted with zero new WordPress writes')
                 user, password = os.getenv('WP_USERNAME'), os.getenv('WP_APPLICATION_PASSWORD')
                 if not user or not password:
                     raise RuntimeError('BLOCKED: missing WP_USERNAME / WP_APPLICATION_PASSWORD GitHub Secrets; zero WordPress writes')
                 ledger = Ledger(args.persist_state)
-                approved = [a for a in ready if a['id'] <= APPROVED_LAST_ID and a['category'] == APPROVED_CATEGORY]
-                report['category_boundary'] = {'category': APPROVED_CATEGORY, 'last_id': APPROVED_LAST_ID}
-                report['blocked_other_categories'] = len(ready) - len(approved)
-                sync(WPClient(user, password), approved, ledger, args.limit, report)
-                all_ids = set(report.get('excel_published_ids', []))
-                category_ids = [i for i, row in topics.items()
-                                if i <= APPROVED_LAST_ID and row['category'] == APPROVED_CATEGORY]
-                published_ids = [i for i in category_ids if i in all_ids]
-                report['category_progress'] = {'published': len(published_ids),
-                                               'total': len(category_ids),
-                                               'next_category': 'Cẩm nang > Hãng xe > Hãng xe điện'}
-                report['category_complete'] = len(published_ids) == len(category_ids)
+                sync(WPClient(user, password), approved, ledger, args.limit, report, scope=scope)
     except (RuntimeError, ValueError) as exc:
         report['errors'].append({'reason': str(exc)})
     finally:
