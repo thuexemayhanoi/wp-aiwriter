@@ -3358,13 +3358,14 @@
     "426": {
       "title": "Xe 50cc có phù hợp để chở thêm một người không?",
       "source_hash": "61c4ad3596280cb1001505277cfec7301b633ed797d5501c1b3d7539983b85ee",
-      "checked_at": "2026-10-16T16:49:47.641433+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:49:49.879431+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 5,
       "slug": "excel-426-xe-50cc-co-phu-hop-de-cho-them-mot-nguoi-khong",
-      "reason": null
+      "reason": null,
+      "wp_id": 1117
     }
   },
-  "updated_at": "2026-10-16T16:49:47.641452+00:00"
+  "updated_at": "2026-10-16T16:49:49.879450+00:00"
 }
