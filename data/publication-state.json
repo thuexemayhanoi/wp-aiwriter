@@ -676,7 +676,17 @@
       "wp_id": 909,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-219-xe-dien-dung-pin-roi-va-pin-co-dinh-khac-nhau-the-nao-trong-thuc-te/"
+    },
+    "220": {
+      "title": "Các hãng xe điện đang giải quyết bài toán sạc pin theo những cách nào?",
+      "source_hash": "a1717e0d8f7d486e23925a081f9fa8d80651a5a0d5c7f402ec7a7aa60aec82c4",
+      "checked_at": "2026-10-16T10:04:34.208066+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 21,
+      "slug": "excel-220-cac-hang-xe-dien-dang-giai-quyet-bai-toan-sac-pin-theo-nhung-cach-nao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T09:55:11.445730+00:00"
+  "updated_at": "2026-10-16T10:04:34.208084+00:00"
 }
