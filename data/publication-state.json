@@ -1707,14 +1707,16 @@
     "299": {
       "title": "Xe số đi cầu dốc cần chú ý gì khi chuyển số?",
       "source_hash": "3022368535626f8bda69889482888fc8cf3112391a166d908eb1d642db8571dc",
-      "checked_at": "2026-10-16T16:23:17.815964+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:23:20.651877+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 6,
       "slug": "excel-299-xe-so-di-cau-doc-can-chu-y-gi-khi-chuyen-so",
       "reason": null,
-      "wp_id": 990
+      "wp_id": 990,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-299-xe-so-di-cau-doc-can-chu-y-gi-khi-chuyen-so/"
     }
   },
-  "updated_at": "2026-10-16T16:23:17.815980+00:00"
+  "updated_at": "2026-10-16T16:23:20.651895+00:00"
 }
