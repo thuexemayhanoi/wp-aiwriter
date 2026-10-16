@@ -2197,7 +2197,17 @@
       "wp_id": 1027,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-336-honda-lead-va-yamaha-grande-mau-nao-tien-hon-khi-can-cop-rong/"
+    },
+    "337": {
+      "title": "Air Blade và FreeGo: nên so sánh những tiêu chí nào khi đi phố?",
+      "source_hash": "89e5dabcc1e146762af0339c33fc954d31666ed5eed7b7c1fccf9cbef43c1b48",
+      "checked_at": "2026-10-16T16:31:33.694543+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 7,
+      "slug": "excel-337-air-blade-va-freego-nen-so-sanh-nhung-tieu-chi-nao-khi-di-pho",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:31:32.365431+00:00"
+  "updated_at": "2026-10-16T16:31:33.694557+00:00"
 }
