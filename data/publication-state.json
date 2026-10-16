@@ -1369,14 +1369,16 @@
     "268": {
       "title": "Cách theo dõi lịch sử sạc pin bằng ứng dụng",
       "source_hash": "04d27e4fe42d06b2d0162de5236fe72dc235fe055aa95f883bba6b293b7efe44",
-      "checked_at": "2026-10-16T16:06:38.364128+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:06:41.177100+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 18,
       "slug": "excel-268-cach-theo-doi-lich-su-sac-pin-bang-ung-dung",
       "reason": null,
-      "wp_id": 964
+      "wp_id": 964,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-268-cach-theo-doi-lich-su-sac-pin-bang-ung-dung/"
     }
   },
-  "updated_at": "2026-10-16T16:06:38.364141+00:00"
+  "updated_at": "2026-10-16T16:06:41.177116+00:00"
 }
