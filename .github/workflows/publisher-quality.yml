@@ -1,0 +1,43 @@
+name: WP AIWriter QA (No WordPress Writes)
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/engine.py'
+      - 'tests/**'
+      - 'data/publication-policy.json'
+      - '.github/workflows/publisher-quality.yml'
+      - 'posts/**'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: wp-aiwriter-qa
+  cancel-in-progress: true
+jobs:
+  static-qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install pinned dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Compile publisher and tests
+        run: python -m compileall -q scripts tests
+      - name: Publisher regression tests
+        run: python -m unittest discover -s tests -v
+      - name: Validate all Markdown against exact Excel
+        run: python scripts/engine.py --mode qa
+      - name: Preview current category and writer queue without WP secrets
+        run: python scripts/engine.py --mode sync --limit 5
+      - name: Save QA and queue receipts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: qa-receipt-${{ github.run_id }}
+          path: reports/
+          if-no-files-found: ignore
+          retention-days: 14
