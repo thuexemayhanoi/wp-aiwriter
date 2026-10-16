@@ -1118,7 +1118,17 @@
       "wp_id": 943,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-253-cach-bat-canh-bao-mua-truoc-khi-bat-dau-hanh-trinh-bang-xe-may/"
+    },
+    "254": {
+      "title": "Ứng dụng nào giúp tìm cây xăng gần vị trí hiện tại?",
+      "source_hash": "0cfe0f1669555fdcdcf818b2ca470b0ec442c92aff2f9f3220948486f4be2c6f",
+      "checked_at": "2026-10-16T14:50:09.260743+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 17,
+      "slug": "excel-254-ung-dung-nao-giup-tim-cay-xang-gan-vi-tri-hien-tai",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T14:47:55.204261+00:00"
+  "updated_at": "2026-10-16T14:50:09.260760+00:00"
 }
