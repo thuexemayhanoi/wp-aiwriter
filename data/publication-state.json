@@ -3332,14 +3332,16 @@
     "424": {
       "title": "Đi xe 50cc giờ cao điểm cần lưu ý gì?",
       "source_hash": "09dbeafd7538cf5613708c4d84fd163c695194eef7335ec8eacd0bac4e6d260b",
-      "checked_at": "2026-10-16T16:49:19.364149+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:49:22.457668+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 5,
       "slug": "excel-424-di-xe-50cc-gio-cao-diem-can-luu-y-gi",
       "reason": null,
-      "wp_id": 1115
+      "wp_id": 1115,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-424-di-xe-50cc-gio-cao-diem-can-luu-y-gi/"
     }
   },
-  "updated_at": "2026-10-16T16:49:19.364169+00:00"
+  "updated_at": "2026-10-16T16:49:22.457686+00:00"
 }
