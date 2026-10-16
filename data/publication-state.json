@@ -3250,7 +3250,17 @@
       "wp_id": 1108,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-417-xe-50cc-co-de-dieu-khien-voi-nguoi-moi-khong/"
+    },
+    "418": {
+      "title": "Xe 50cc số và xe ga 50cc khác nhau thế nào khi đi phố?",
+      "source_hash": "dcd6cf8572cd3acc661144a6296a34ecf0a688bd6bdad2d1c50e0dbcae48b476",
+      "checked_at": "2026-10-16T16:48:17.288461+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 5,
+      "slug": "excel-418-xe-50cc-so-va-xe-ga-50cc-khac-nhau-the-nao-khi-di-pho",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:48:15.845996+00:00"
+  "updated_at": "2026-10-16T16:48:17.288475+00:00"
 }
