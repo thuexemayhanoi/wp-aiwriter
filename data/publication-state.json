@@ -1261,7 +1261,17 @@
       "wp_id": 954,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-264-cach-luu-cac-diem-sac-thuong-dung-tren-ban-do/"
+    },
+    "265": {
+      "title": "Cách lập kế hoạch hành trình xe điện dựa trên mức pin còn lại",
+      "source_hash": "13cfbb16ff2199315a792f7004fb78f80ac9daff3b0eb5f4f6268fbb4d35efb6",
+      "checked_at": "2026-10-16T15:54:18.008519+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 18,
+      "slug": "excel-265-cach-lap-ke-hoach-hanh-trinh-xe-dien-dua-tren-muc-pin-con-lai",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T15:54:16.353271+00:00"
+  "updated_at": "2026-10-16T15:54:18.008532+00:00"
 }
