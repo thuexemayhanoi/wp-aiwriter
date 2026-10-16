@@ -3644,13 +3644,14 @@
     "448": {
       "title": "Đi xe máy quanh Quán Thánh và Trúc Bạch: lưu ý về phố nhỏ và một chiều",
       "source_hash": "2181f3bc2aa9cfde935dd528d2d47b667126e541befeb83cd0547dd1c1425c00",
-      "checked_at": "2026-10-16T16:55:12.564295+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:55:14.548921+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 13,
       "slug": "excel-448-di-xe-may-quanh-quan-thanh-va-truc-bach-luu-y-ve-pho-nho-va-mot-chieu",
-      "reason": null
+      "reason": null,
+      "wp_id": 1139
     }
   },
-  "updated_at": "2026-10-16T16:55:12.564308+00:00"
+  "updated_at": "2026-10-16T16:55:14.548937+00:00"
 }
