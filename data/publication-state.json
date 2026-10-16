@@ -69,13 +69,14 @@
     "173": {
       "title": "Phụ tùng Yamaha có dễ tìm khi đi lại ở Hà Nội không?",
       "source_hash": "129020aae324aacb58a742d449bf382e91e20ec6f4f94f18f1201fbf3429f8fb",
-      "checked_at": "2026-10-16T07:20:28.125555+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T07:20:29.954002+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 20,
       "slug": "excel-173-phu-tung-yamaha-co-de-tim-khi-di-lai-o-ha-noi-khong",
-      "reason": null
+      "reason": null,
+      "wp_id": 838
     }
   },
-  "updated_at": "2026-10-16T07:20:28.125570+00:00"
+  "updated_at": "2026-10-16T07:20:29.954020+00:00"
 }
