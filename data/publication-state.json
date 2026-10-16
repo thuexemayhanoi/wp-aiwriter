@@ -3761,13 +3761,14 @@
     "457": {
       "title": "Đi xe máy từ Gia Lâm đến Hồ Tây: nên đi theo hướng nào?",
       "source_hash": "97ccaa75d515bc4d666537c671420e242f72fe866d1be27333cecefb7a3c040b",
-      "checked_at": "2026-10-16T16:58:35.935460+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:58:37.741193+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 14,
       "slug": "excel-457-di-xe-may-tu-gia-lam-den-ho-tay-nen-di-theo-huong-nao",
-      "reason": null
+      "reason": null,
+      "wp_id": 1148
     }
   },
-  "updated_at": "2026-10-16T16:58:35.935472+00:00"
+  "updated_at": "2026-10-16T16:58:37.741207+00:00"
 }
