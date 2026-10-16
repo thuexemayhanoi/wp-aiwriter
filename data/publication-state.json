@@ -3488,13 +3488,14 @@
     "436": {
       "title": "Xe 50cc và xe số phổ thông khác nhau thế nào về cảm giác lái?",
       "source_hash": "5c0533dbcdaef596f479b4b2d2644276bf5072ec0975d788cc49f152437f565f",
-      "checked_at": "2026-10-16T16:51:31.889387+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:51:34.223353+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 5,
       "slug": "excel-436-xe-50cc-va-xe-so-pho-thong-khac-nhau-the-nao-ve-cam-giac-lai",
-      "reason": null
+      "reason": null,
+      "wp_id": 1127
     }
   },
-  "updated_at": "2026-10-16T16:51:31.889406+00:00"
+  "updated_at": "2026-10-16T16:51:34.223373+00:00"
 }
