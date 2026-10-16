@@ -2626,7 +2626,17 @@
       "wp_id": 1060,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-369-di-xe-ga-vao-mua-dong-ha-noi-can-luu-y-gi/"
+    },
+    "370": {
+      "title": "Đi xe ga dưới mưa lớn cần chú ý gì ở lốp và phanh?",
+      "source_hash": "6dc668705a953ad7e02429c6d00a0a097f7c1f89f27b0d1e8f2f9a1677d2bafb",
+      "checked_at": "2026-10-16T16:37:03.430097+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 7,
+      "slug": "excel-370-di-xe-ga-duoi-mua-lon-can-chu-y-gi-o-lop-va-phanh",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:37:02.053080+00:00"
+  "updated_at": "2026-10-16T16:37:03.430114+00:00"
 }
