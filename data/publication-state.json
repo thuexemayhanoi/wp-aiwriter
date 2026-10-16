@@ -3731,7 +3731,17 @@
       "wp_id": 1145,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-454-di-xe-may-tu-gia-lam-sang-long-bien-cach-chon-tuyen-ngan/"
+    },
+    "455": {
+      "title": "Đi xe máy qua Nguyễn Văn Cừ giờ cao điểm: nên lưu ý gì?",
+      "source_hash": "b55b70a7fc57fb1ce29ff1852c07ec0645d179c21f6c1a93fc5e66b8bc448974",
+      "checked_at": "2026-10-16T16:58:03.470303+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 14,
+      "slug": "excel-455-di-xe-may-qua-nguyen-van-cu-gio-cao-diem-nen-luu-y-gi",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:58:02.196824+00:00"
+  "updated_at": "2026-10-16T16:58:03.470316+00:00"
 }
