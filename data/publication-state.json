@@ -2344,13 +2344,14 @@
     "348": {
       "title": "Xe ga có phù hợp với người thường xuyên đi ngõ nhỏ không?",
       "source_hash": "a44acfc47a9d0fb038957ca155fe6891bedf742e2de67c6f6f1e0139194a898b",
-      "checked_at": "2026-10-16T16:33:23.113068+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:33:24.960933+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-348-xe-ga-co-phu-hop-voi-nguoi-thuong-xuyen-di-ngo-nho-khong",
-      "reason": null
+      "reason": null,
+      "wp_id": 1039
     }
   },
-  "updated_at": "2026-10-16T16:33:23.113082+00:00"
+  "updated_at": "2026-10-16T16:33:24.960951+00:00"
 }
