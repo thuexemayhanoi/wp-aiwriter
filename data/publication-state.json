@@ -3943,13 +3943,14 @@
     "471": {
       "title": "Đi xe máy đến ga Hà Nội từ Hoàn Kiếm: những tuyến ngắn dễ nhớ",
       "source_hash": "249d29a3925238a65c871e9f518a07156ac5b00a8d7d6714e07a2688aa8aa6b9",
-      "checked_at": "2026-10-16T17:02:42.447356+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T17:02:44.541404+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 10,
       "slug": "excel-471-di-xe-may-den-ga-ha-noi-tu-hoan-kiem-nhung-tuyen-ngan-de-nho",
-      "reason": null
+      "reason": null,
+      "wp_id": 1162
     }
   },
-  "updated_at": "2026-10-16T17:02:42.447369+00:00"
+  "updated_at": "2026-10-16T17:02:44.541419+00:00"
 }
