@@ -1664,7 +1664,17 @@
       "wp_id": 986,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-295-xe-so-co-de-dieu-khien-khi-troi-mua-khong/"
+    },
+    "296": {
+      "title": "Cách làm quen với chuyển số khi mới thuê xe số",
+      "source_hash": "614dfa2ab487458427d9a49f260a7708542a09b495d991b7bbd9b3798344a121",
+      "checked_at": "2026-10-16T16:22:54.578787+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 6,
+      "slug": "excel-296-cach-lam-quen-voi-chuyen-so-khi-moi-thue-xe-so",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:22:35.775118+00:00"
+  "updated_at": "2026-10-16T16:22:54.578804+00:00"
 }
