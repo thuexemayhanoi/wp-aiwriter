@@ -3670,13 +3670,14 @@
     "450": {
       "title": "Đi xe máy ở Ba Đình cuối tuần: cách sắp xếp lộ trình và chỗ gửi xe",
       "source_hash": "0423c0b45c81c66e71bc32942fe4f934f18c8596bb09e9e5aacf43629281547f",
-      "checked_at": "2026-10-16T16:55:25.181018+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:55:27.101619+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 13,
       "slug": "excel-450-di-xe-may-o-ba-dinh-cuoi-tuan-cach-sap-xep-lo-trinh-va-cho-gui-xe",
-      "reason": null
+      "reason": null,
+      "wp_id": 1141
     }
   },
-  "updated_at": "2026-10-16T16:55:25.181031+00:00"
+  "updated_at": "2026-10-16T16:55:27.101637+00:00"
 }
