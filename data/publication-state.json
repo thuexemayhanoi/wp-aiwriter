@@ -1486,13 +1486,14 @@
     "282": {
       "title": "Honda Wave phù hợp với quãng đường đi làm ngắn hay dài?",
       "source_hash": "f9afa9b6049156b17007ebcb663f601f53e433e0f5c2ffb84ef82c9fc6f399b5",
-      "checked_at": "2026-10-16T16:15:09.471267+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:15:12.595152+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 6,
       "slug": "excel-282-honda-wave-phu-hop-voi-quang-duong-di-lam-ngan-hay-dai",
-      "reason": null
+      "reason": null,
+      "wp_id": 973
     }
   },
-  "updated_at": "2026-10-16T16:15:09.471284+00:00"
+  "updated_at": "2026-10-16T16:15:12.595170+00:00"
 }
