@@ -4073,13 +4073,14 @@
     "481": {
       "title": "Đi xe máy quanh Tạ Hiện buổi tối: nên gửi xe trước khi vào phố nhỏ",
       "source_hash": "b85cd720e55a3feeee2a4fa36e7a45cb52e5593495ca085982155041b25c28c0",
-      "checked_at": "2026-10-16T17:05:58.884098+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T17:06:00.903138+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 11,
       "slug": "excel-481-di-xe-may-quanh-ta-hien-buoi-toi-nen-gui-xe-truoc-khi-vao-pho-nho",
-      "reason": null
+      "reason": null,
+      "wp_id": 1172
     }
   },
-  "updated_at": "2026-10-16T17:05:58.884110+00:00"
+  "updated_at": "2026-10-16T17:06:00.903155+00:00"
 }
