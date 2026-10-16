@@ -4060,13 +4060,14 @@
     "480": {
       "title": "Đi xe máy đến Chợ Đồng Xuân: cách chọn tuyến và điểm dừng hợp lý",
       "source_hash": "173370ecbc72de2556267165e19877f937f6e5a97858ca1fdcfadb02e80097d5",
-      "checked_at": "2026-10-16T17:05:51.724321+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T17:05:53.589106+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 11,
       "slug": "excel-480-di-xe-may-den-cho-dong-xuan-cach-chon-tuyen-va-diem-dung-hop-ly",
-      "reason": null
+      "reason": null,
+      "wp_id": 1171
     }
   },
-  "updated_at": "2026-10-16T17:05:51.724333+00:00"
+  "updated_at": "2026-10-16T17:05:53.589124+00:00"
 }
