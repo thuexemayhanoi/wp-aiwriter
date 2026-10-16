@@ -2912,7 +2912,17 @@
       "wp_id": 1082,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-391-o-nha-tro-va-dung-xe-dien-nen-kiem-tra-cho-sac-the-nao/"
+    },
+    "392": {
+      "title": "Xe điện dùng pin rời có tiện hơn khi ở tầng cao không?",
+      "source_hash": "6631f695211540a56c89670c9c007516ac7e2967b735e4690b15fc8fdaeb7bc6",
+      "checked_at": "2026-10-16T16:43:00.572014+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 8,
+      "slug": "excel-392-xe-dien-dung-pin-roi-co-tien-hon-khi-o-tang-cao-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:42:59.007376+00:00"
+  "updated_at": "2026-10-16T16:43:00.572029+00:00"
 }
