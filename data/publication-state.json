@@ -1391,7 +1391,17 @@
       "wp_id": 965,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-269-cach-kiem-tra-quang-duong-da-di-cua-xe-dien-tren-dien-thoai/"
+    },
+    "270": {
+      "title": "Ứng dụng xe điện có thể giúp theo dõi tiêu thụ năng lượng ra sao?",
+      "source_hash": "cbb7fbcad6b0e58bc453fd8a64f3df6311dbf80709909e1bfd9362a167b9c581",
+      "checked_at": "2026-10-16T16:06:49.768061+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 18,
+      "slug": "excel-270-ung-dung-xe-dien-co-the-giup-theo-doi-tieu-thu-nang-luong-ra-sao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:06:47.984965+00:00"
+  "updated_at": "2026-10-16T16:06:49.768075+00:00"
 }
