@@ -39,6 +39,24 @@ jobs:
           python-version: '3.12'
       - name: Offline tests
         run: python -m unittest tests.test_seo_engine -v
+      - name: Authorize production WordPress changes
+        if: ${{ inputs.action != 'validate' }}
+        env:
+          ACTOR: ${{ github.actor }}
+          OWNER: ${{ github.repository_owner }}
+          CONFIRM: ${{ inputs.confirm }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ "${GITHUB_REF_NAME}" != "main" || "$ACTOR" != "$OWNER" || "$CONFIRM" != "APPLY" ]]; then
+            echo "::error::Blocked: only the repository owner can explicitly approve a WordPress write from main."
+            exit 1
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          # The Python apply routine pushes the original raw-content backup and
+          # APPLY_INTENT receipt before the first WordPress POST, failing closed
+          # if the backup cannot be committed on main.
       - name: Validate / apply / rollback
         env:
           ACTION: ${{ inputs.action }}
