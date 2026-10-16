@@ -3774,13 +3774,14 @@
     "458": {
       "title": "Đi xe máy từ Gia Lâm đến Ba Đình: gợi ý tuyến dễ nhớ",
       "source_hash": "ef32a0b7174045c34feccde1b854cdf626f582ff28dbf721729a02a77dc2f75b",
-      "checked_at": "2026-10-16T16:58:42.088237+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:58:43.869007+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 14,
       "slug": "excel-458-di-xe-may-tu-gia-lam-den-ba-dinh-goi-y-tuyen-de-nho",
-      "reason": null
+      "reason": null,
+      "wp_id": 1149
     }
   },
-  "updated_at": "2026-10-16T16:58:42.088250+00:00"
+  "updated_at": "2026-10-16T16:58:43.869026+00:00"
 }
