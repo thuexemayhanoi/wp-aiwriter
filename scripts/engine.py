@@ -268,9 +268,20 @@ def git(*args, env=None, input_text=None):
 
 class Ledger:
     def __init__(self, persist_remote=False):
-        self.data = json.loads(STATE_PATH.read_text()) if STATE_PATH.exists() else {'version': 1, 'posts': {}}
         self.remote = persist_remote
-        self.expected_blob = git('rev-parse', 'HEAD:data/publication-state.json') if persist_remote and STATE_PATH.exists() else None
+        self.expected_blob = None
+        if persist_remote:
+            # Every drain iteration is a new process while earlier iterations checkpoint straight to origin/main
+            # (the local checkout is never advanced). Adopt the latest remote ledger so the next iteration starts
+            # from its own previous checkpoints; save() still rejects any change made during an iteration.
+            git('fetch', 'origin', 'main')
+            shown = subprocess.run(['git', 'show', 'origin/main:data/publication-state.json'], cwd=ROOT,
+                                   capture_output=True, text=True)
+            if shown.returncode == 0:
+                STATE_PATH.parent.mkdir(exist_ok=True)
+                STATE_PATH.write_text(shown.stdout)
+                self.expected_blob = git('rev-parse', 'origin/main:data/publication-state.json')
+        self.data = json.loads(STATE_PATH.read_text()) if STATE_PATH.exists() else {'version': 1, 'posts': {}}
 
     def save(self):
         self.data['updated_at'] = now()

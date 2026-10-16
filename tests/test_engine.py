@@ -218,6 +218,35 @@ class PublicationSafety(unittest.TestCase):
                 ledger.save()
                 self.assertIn('VERIFIED', run('show', 'origin/main:data/publication-state.json', cwd=work))
 
+    def test_next_drain_iteration_adopts_checkpoints_pushed_by_previous_iteration(self):
+        import subprocess
+        def run(*args, cwd):
+            return subprocess.run(['git', *args], cwd=cwd, check=True, capture_output=True, text=True).stdout.strip()
+        with tempfile.TemporaryDirectory() as tmp:
+            root = pathlib.Path(tmp)
+            origin, work = root / 'origin.git', root / 'work'
+            run('init', '--bare', '--initial-branch=main', str(origin), cwd=root)
+            run('clone', str(origin), str(work), cwd=root)
+            for key, value in [('user.name', 'Test'), ('user.email', 'test@example.com')]:
+                run('config', key, value, cwd=work)
+            (work / 'data').mkdir()
+            (work / 'data/publication-state.json').write_text('{"version": 1, "posts": {}}\n')
+            run('add', '.', cwd=work)
+            run('commit', '-m', 'initial', cwd=work)
+            run('push', 'origin', 'main', cwd=work)
+            with patch.object(e, 'ROOT', work), patch.object(e, 'STATE_PATH', work / 'data/publication-state.json'):
+                first = e.Ledger(persist_remote=True)  # iteration 1
+                first.data['posts']['172'] = {'phase': 'VERIFIED'}
+                first.save()
+                # Local HEAD is intentionally not advanced, exactly like the workflow checkout.
+                second = e.Ledger(persist_remote=True)  # iteration 2 (new process)
+                self.assertEqual(second.data['posts']['172']['phase'], 'VERIFIED')
+                second.data['posts']['173'] = {'phase': 'POST_INTENT'}
+                second.save()
+                remote = run('show', 'origin/main:data/publication-state.json', cwd=work)
+                self.assertIn('"172"', remote)
+                self.assertIn('"173"', remote)
+
     def test_publisher_category_scope_follows_immutable_excel(self):
         # Category changes are owner-approved. Guard the active *policy* category
         # against immutable Excel rows, rather than pinning one completed category.
