@@ -277,13 +277,14 @@
     "189": {
       "title": "Xe số Honda thường khác xe số Yamaha ở những điểm nào?",
       "source_hash": "8cec7fc8ffe27d9c3ac68267d54d11b263c03427b169dfc5069d8dfd367018d6",
-      "checked_at": "2026-10-16T07:43:50.541275+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T07:43:53.184695+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 20,
       "slug": "excel-189-xe-so-honda-thuong-khac-xe-so-yamaha-o-nhung-diem-nao",
-      "reason": null
+      "reason": null,
+      "wp_id": 867
     }
   },
-  "updated_at": "2026-10-16T07:43:50.541292+00:00"
+  "updated_at": "2026-10-16T07:43:53.184712+00:00"
 }
