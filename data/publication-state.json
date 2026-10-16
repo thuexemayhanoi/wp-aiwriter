@@ -2578,13 +2578,14 @@
     "366": {
       "title": "Xe ga dùng khóa thông minh có thuận tiện với người thuê không?",
       "source_hash": "236dae6723360947a3a1df7cca800a13a6de740fcb63fc2c02839aa604f1d618",
-      "checked_at": "2026-10-16T16:36:38.051347+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:36:39.979677+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-366-xe-ga-dung-khoa-thong-minh-co-thuan-tien-voi-nguoi-thue-khong",
-      "reason": null
+      "reason": null,
+      "wp_id": 1057
     }
   },
-  "updated_at": "2026-10-16T16:36:38.051367+00:00"
+  "updated_at": "2026-10-16T16:36:39.979695+00:00"
 }
