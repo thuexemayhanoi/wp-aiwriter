@@ -1638,7 +1638,17 @@
       "wp_id": 984,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-293-di-xe-so-gio-cao-diem-co-bat-tien-khong/"
+    },
+    "294": {
+      "title": "Xe số có phù hợp với người thường xuyên đi qua đường nhỏ và ngõ hẹp?",
+      "source_hash": "277a7e588350a76819821cd1e5b5a39616d22ee49968b332e7bf61d82056b5d9",
+      "checked_at": "2026-10-16T16:22:24.511928+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 6,
+      "slug": "excel-294-xe-so-co-phu-hop-voi-nguoi-thuong-xuyen-di-qua-duong-nho-va-ngo-hep",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:22:23.105403+00:00"
+  "updated_at": "2026-10-16T16:22:24.511941+00:00"
 }
