@@ -35,11 +35,12 @@ def now():
     return datetime.now(timezone.utc).isoformat()
 
 
-TYPOGRAPHIC = str.maketrans({'\u201c': '"', '\u201d': '"', '\u2018': "'", '\u2019': "'"})
+TYPOGRAPHIC = str.maketrans({'\u201c': '"', '\u201d': '"', '\u2018': "'", '\u2019': "'",
+                               '\u2013': '-', '\u2014': '-', '\u00d7': 'x'})
 
 
 def normalized(value):
-    # WordPress wptexturize renders ... and straight quotes as typographic characters; treat them as equal.
+    # WordPress wptexturize renders ..., quotes, dashes and digit-x-digit typographically; treat them as equal.
     text = unicodedata.normalize('NFC', html.unescape(value)).replace('\u2026', '...').translate(TYPOGRAPHIC)
     return ' '.join(text.casefold().split())
 

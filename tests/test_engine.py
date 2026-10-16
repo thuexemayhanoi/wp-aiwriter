@@ -77,6 +77,8 @@ class PublicationSafety(unittest.TestCase):
         rendered = '<p>Con số &#8220;tối đa bốn giờ&#8221; và &#8216;ví dụ&#8217; trong thông báo.</p>'
         self.assertEqual(e.visible(original), e.visible(rendered))
         self.assertNotEqual(e.visible(original), e.visible('<p>Con số khác hẳn.</p>'))
+        self.assertEqual(e.visible('<p>Đi 10x15 cm - rất gần ổn.</p>'),
+                         e.visible('<p>Đi 10&#215;15 cm &#8211; rất gần ổn.</p>'))
 
     def test_category_ancestry_missing_parent_and_duplicate(self):
         cats = [{'id': 1, 'name': 'A', 'parent': 0}, {'id': 2, 'name': 'B', 'parent': 1},

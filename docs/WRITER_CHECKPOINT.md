@@ -1,3 +1,12 @@
+# Checkpoint — 2026-10-16: App xe máy COMPLETE 25/25; owner ordered non-stop continuation
+
+- **Category `Cẩm nang > Ứng dụng > App xe máy` (#236–260) is complete: 25/25 VERIFIED**, all `publish`, WordPress category ID 17. Final item **#258 → WP 950** (https://blog.rentbikehanoi.com/excel-258-cach-tiet-kiem-pin-dien-thoai-khi-bat-ban-do-lien-tuc/). Publisher run [38925758874](https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38925758874) SUCCESS and opened the completion issue #2. Verified IDs for #256–260: 946, 947, 950, 948, 949.
+- #258 root cause of the first publisher failure (run 38925482831, `Public REST verification failed`, post WP 950 already created and kept as `VERIFY_PENDING`): WordPress `wptexturize` turns straight quotes into curly quotes in the public rendering. Fixed ONLY the comparison in `scripts/engine.py` (`normalized()` now treats typographic quotes, en/em dash and `×` as equal) with a regression test; no second POST, no ledger edit, source `posts/0258.md` untouched so its sha256 marker still matches.
+- **Owner instruction (latest, 2026-10-16): "Viết hết workflow này luôn, chỉ ngừng đến khi tôi ngừng thủ công; không ngừng hỏi".** This supersedes the earlier "stop before changing category". Active category advanced one group at a time by editing only `data/publication-policy.json`: now `Cẩm nang > Ứng dụng > App xe điện` (#261–280). Remaining after it: Xe số #281–325, Xe ga #326–380, Dịch vụ > Xe điện #381–415, Xe 50cc #416–440, Ba Đình #441–450, Gia Lâm #451–462, Hoàn Kiếm #463–477, Phố Cổ #478–485, Long Biên #486–500. Each switch happens only after the previous category is 100% VERIFIED. Never touch Trash, older URLs, canonicals or prior posts.
+- Writers work in parallel in separate worktrees (one `posts/NNNN.md` per push, local QA before push); the QA-success → Publisher pipeline publishes only the active category.
+
+---
+
 # Checkpoint — Excel #256–260 attempted, 4/5 verified on 2026-10-16
 
 - Owner approved finishing active Excel category `Cẩm nang > Ứng dụng > App xe máy` (#236–260; WordPress term ID **17**) in repo `thuexemayhanoi/wp-aiwriter`. Production is QA-success auto-publish, create-only, serialized. Never change the next category without explicit owner approval.
