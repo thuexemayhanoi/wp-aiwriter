@@ -1768,7 +1768,17 @@
       "wp_id": 994,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-303-nguoi-cao-di-xe-so-pho-thong-co-thoai-mai-khong/"
+    },
+    "304": {
+      "title": "Xe số phù hợp hơn xe ga trong trường hợp nào?",
+      "source_hash": "103740a370a5fb509c7d9e996890d82597619421159c3ba21eb23312b12de017",
+      "checked_at": "2026-10-16T16:24:09.414470+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 6,
+      "slug": "excel-304-xe-so-phu-hop-hon-xe-ga-trong-truong-hop-nao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:24:06.645811+00:00"
+  "updated_at": "2026-10-16T16:24:09.414484+00:00"
 }
