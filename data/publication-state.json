@@ -2656,13 +2656,14 @@
     "372": {
       "title": "Xe ga đi ngoại thành trong ngày có phù hợp không?",
       "source_hash": "4b5263c9f63121641f7289f425bf169b47afcf16da2b9d75d7da2329bc734fc2",
-      "checked_at": "2026-10-16T16:37:36.872438+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:37:38.892560+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-372-xe-ga-di-ngoai-thanh-trong-ngay-co-phu-hop-khong",
-      "reason": null
+      "reason": null,
+      "wp_id": 1063
     }
   },
-  "updated_at": "2026-10-16T16:37:36.872451+00:00"
+  "updated_at": "2026-10-16T16:37:38.892576+00:00"
 }
