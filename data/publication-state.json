@@ -641,14 +641,16 @@
     "217": {
       "title": "VinFast Feliz và Klara khác nhau thế nào về kiểu dáng và tư thế lái?",
       "source_hash": "08a55c0511b47b9558462c799798549c549b21599f9ffb80a7bba8ad046519a5",
-      "checked_at": "2026-10-16T09:54:51.340917+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T09:54:54.979126+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 21,
       "slug": "excel-217-vinfast-feliz-va-klara-khac-nhau-the-nao-ve-kieu-dang-va-tu-the-lai",
       "reason": null,
-      "wp_id": 907
+      "wp_id": 907,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-217-vinfast-feliz-va-klara-khac-nhau-the-nao-ve-kieu-dang-va-tu-the-lai/"
     }
   },
-  "updated_at": "2026-10-16T09:54:51.340939+00:00"
+  "updated_at": "2026-10-16T09:54:54.979145+00:00"
 }
