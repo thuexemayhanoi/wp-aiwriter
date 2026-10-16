@@ -2344,14 +2344,16 @@
     "348": {
       "title": "Xe ga có phù hợp với người thường xuyên đi ngõ nhỏ không?",
       "source_hash": "a44acfc47a9d0fb038957ca155fe6891bedf742e2de67c6f6f1e0139194a898b",
-      "checked_at": "2026-10-16T16:33:24.960933+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:33:28.844438+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-348-xe-ga-co-phu-hop-voi-nguoi-thuong-xuyen-di-ngo-nho-khong",
       "reason": null,
-      "wp_id": 1039
+      "wp_id": 1039,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-348-xe-ga-co-phu-hop-voi-nguoi-thuong-xuyen-di-ngo-nho-khong/"
     }
   },
-  "updated_at": "2026-10-16T16:33:24.960951+00:00"
+  "updated_at": "2026-10-16T16:33:28.844459+00:00"
 }
