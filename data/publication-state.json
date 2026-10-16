@@ -1443,7 +1443,17 @@
       "wp_id": 969,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-273-ung-dung-nao-huu-ich-khi-can-tim-o-cam-hoac-diem-sac-quanh-ha-noi/"
+    },
+    "274": {
+      "title": "Cách kiểm tra tình trạng trạm sạc trước khi di chuyển",
+      "source_hash": "e3485c0d4cce8abda8aceb9a4b04110c242325002d6956b842aa616c2206c27c",
+      "checked_at": "2026-10-16T16:11:41.561548+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 18,
+      "slug": "excel-274-cach-kiem-tra-tinh-trang-tram-sac-truoc-khi-di-chuyen",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:11:40.148946+00:00"
+  "updated_at": "2026-10-16T16:11:41.561560+00:00"
 }
