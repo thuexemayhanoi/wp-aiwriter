@@ -1846,7 +1846,17 @@
       "wp_id": 1000,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-309-honda-wave-di-duong-hon-hop-noi-do-va-ngoai-thanh-ra-sao/"
+    },
+    "310": {
+      "title": "Yamaha Sirius đi đường hỗn hợp có gì đáng chú ý?",
+      "source_hash": "cc3d20c24f7778f20ed1029fc591a28906289377f94a9d944b57a946adc405c6",
+      "checked_at": "2026-10-16T16:25:06.315367+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 6,
+      "slug": "excel-310-yamaha-sirius-di-duong-hon-hop-co-gi-dang-chu-y",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:25:04.874773+00:00"
+  "updated_at": "2026-10-16T16:25:06.315381+00:00"
 }
