@@ -559,7 +559,17 @@
       "wp_id": 899,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-210-vinfast-va-dat-bike-hai-huong-tiep-can-xe-may-dien-khac-nhau-ra-sao/"
+    },
+    "211": {
+      "title": "Xe điện VinFast phù hợp với người thường xuyên đi trong nội đô như thế nào?",
+      "source_hash": "d2b8ff53e01ceb5e4fa08fbd6e20e5d6fb6fb1c825639de5d1feed8fb759830d",
+      "checked_at": "2026-10-16T09:12:11.179300+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 21,
+      "slug": "excel-211-xe-dien-vinfast-phu-hop-voi-nguoi-thuong-xuyen-di-trong-noi-do-nhu-the-nao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T09:04:03.054656+00:00"
+  "updated_at": "2026-10-16T09:12:11.179317+00:00"
 }
