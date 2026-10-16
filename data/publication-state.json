@@ -4238,7 +4238,17 @@
       "wp_id": 1184,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-493-di-xe-may-tu-long-bien-den-ga-ha-noi-goi-y-lo-trinh-de-nho/"
+    },
+    "494": {
+      "title": "Đi xe máy từ Bồ Đề đến Phố Cổ: cách chọn tuyến ngắn",
+      "source_hash": "c3aabf66cee7c71f89639da138dc037f1346afeb8af50c1b3ebcd4509bc8a43e",
+      "checked_at": "2026-10-16T17:10:04.560084+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 12,
+      "slug": "excel-494-di-xe-may-tu-bo-de-den-pho-co-cach-chon-tuyen-ngan",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T17:10:02.887779+00:00"
+  "updated_at": "2026-10-16T17:10:04.560097+00:00"
 }
