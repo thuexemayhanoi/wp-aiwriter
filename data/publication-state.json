@@ -325,7 +325,17 @@
       "wp_id": 870,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-192-piaggio-va-vespa-khac-nhau-the-nao-trong-cach-dinh-vi-san-pham/"
+    },
+    "193": {
+      "title": "Những dòng xe Honda có cốp rộng đáng chú ý cho người đi phố",
+      "source_hash": "bfd9e86bc490e041171c558b6081ed542ce216399a8a35d000da436b25db84a9",
+      "checked_at": "2026-10-16T07:44:18.831316+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 20,
+      "slug": "excel-193-nhung-dong-xe-honda-co-cop-rong-dang-chu-y-cho-nguoi-di-pho",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T07:44:17.176647+00:00"
+  "updated_at": "2026-10-16T07:44:18.831329+00:00"
 }
