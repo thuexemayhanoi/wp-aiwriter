@@ -589,13 +589,14 @@
     "213": {
       "title": "Dat Bike phù hợp với người cần quãng đường di chuyển dài ra sao?",
       "source_hash": "d78dbe858554c44f4fc738543c49d8cbda0dfcfa5f0a48bd1ea0275fc45feb44",
-      "checked_at": "2026-10-16T09:12:22.775708+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T09:12:24.561445+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 21,
       "slug": "excel-213-dat-bike-phu-hop-voi-nguoi-can-quang-duong-di-chuyen-dai-ra-sao",
-      "reason": null
+      "reason": null,
+      "wp_id": 903
     }
   },
-  "updated_at": "2026-10-16T09:12:22.775721+00:00"
+  "updated_at": "2026-10-16T09:12:24.561462+00:00"
 }
