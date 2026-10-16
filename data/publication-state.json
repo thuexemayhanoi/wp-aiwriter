@@ -119,14 +119,16 @@
     "177": {
       "title": "Air Blade và Vision khác nhau thế nào về kích thước và tư thế lái?",
       "source_hash": "52b8f0536cddfa146099871a96be2ffd29d1c7812b3b8226c030ede8a614e74c",
-      "checked_at": "2026-10-16T07:33:14.535433+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T07:33:17.310391+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 20,
       "slug": "excel-177-air-blade-va-vision-khac-nhau-the-nao-ve-kich-thuoc-va-tu-the-lai",
       "reason": null,
-      "wp_id": 854
+      "wp_id": 854,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-177-air-blade-va-vision-khac-nhau-the-nao-ve-kich-thuoc-va-tu-the-lai/"
     }
   },
-  "updated_at": "2026-10-16T07:33:14.535450+00:00"
+  "updated_at": "2026-10-16T07:33:17.310408+00:00"
 }
