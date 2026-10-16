@@ -4225,7 +4225,17 @@
       "wp_id": 1183,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-492-di-xe-may-tu-long-bien-den-ho-tay-nen-di-qua-cau-nao/"
+    },
+    "493": {
+      "title": "Đi xe máy từ Long Biên đến ga Hà Nội: gợi ý lộ trình dễ nhớ",
+      "source_hash": "a300d48742577a086ff0b24c5a6c0028834d09886d49727fe8412f8a8d75965f",
+      "checked_at": "2026-10-16T17:09:57.978121+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 12,
+      "slug": "excel-493-di-xe-may-tu-long-bien-den-ga-ha-noi-goi-y-lo-trinh-de-nho",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T17:09:56.295364+00:00"
+  "updated_at": "2026-10-16T17:09:57.978135+00:00"
 }
