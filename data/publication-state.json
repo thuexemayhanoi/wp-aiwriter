@@ -3215,14 +3215,16 @@
     "415": {
       "title": "Thuê xe điện: cách chọn mẫu xe dựa trên nơi ở, quãng đường và khả năng sạc",
       "source_hash": "157810e17db128e29a3aeae6e290a1b05fc84306306f914d4aebddfa1d804b6b",
-      "checked_at": "2026-10-16T16:47:13.836750+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:47:17.025165+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 8,
       "slug": "excel-415-thue-xe-dien-cach-chon-mau-xe-dua-tren-noi-o-quang-duong-va-kha-nang-sac",
       "reason": null,
-      "wp_id": 1106
+      "wp_id": 1106,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-415-thue-xe-dien-cach-chon-mau-xe-dua-tren-noi-o-quang-duong-va-kha-nang-sac/"
     }
   },
-  "updated_at": "2026-10-16T16:47:13.836769+00:00"
+  "updated_at": "2026-10-16T16:47:17.025185+00:00"
 }
