@@ -2812,13 +2812,14 @@
     "384": {
       "title": "Xe điện có phù hợp với người thường xuyên đi nhiều điểm trong ngày không?",
       "source_hash": "de8afc2e3ec1aae466f89a497f0375de4f115ba0043db8f9af16e68b631244a5",
-      "checked_at": "2026-10-16T16:41:23.108925+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:41:25.365589+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 8,
       "slug": "excel-384-xe-dien-co-phu-hop-voi-nguoi-thuong-xuyen-di-nhieu-diem-trong-ngay-khong",
-      "reason": null
+      "reason": null,
+      "wp_id": 1075
     }
   },
-  "updated_at": "2026-10-16T16:41:23.108941+00:00"
+  "updated_at": "2026-10-16T16:41:25.365608+00:00"
 }
