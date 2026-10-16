@@ -1625,7 +1625,17 @@
       "wp_id": 983,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-292-xe-so-co-tiet-kiem-xang-hon-xe-ga-trong-dieu-kien-pho-dong-khong/"
+    },
+    "293": {
+      "title": "Đi xe số giờ cao điểm có bất tiện không?",
+      "source_hash": "db77ba570fb22c86699cea6e6dc5ff595b454e667ffb956da34ee7333fba7476",
+      "checked_at": "2026-10-16T16:22:18.147806+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 6,
+      "slug": "excel-293-di-xe-so-gio-cao-diem-co-bat-tien-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:22:16.614403+00:00"
+  "updated_at": "2026-10-16T16:22:18.147819+00:00"
 }
