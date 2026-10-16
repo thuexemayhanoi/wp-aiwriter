@@ -598,7 +598,17 @@
       "wp_id": 903,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-213-dat-bike-phu-hop-voi-nguoi-can-quang-duong-di-chuyen-dai-ra-sao/"
+    },
+    "214": {
+      "title": "Những dòng xe điện có thiết kế gần giống xe ga truyền thống",
+      "source_hash": "fcb8ac4fc4d7b566b79d8f2e005386700eae08110f1ea54eeb57dbb84d33ce25",
+      "checked_at": "2026-10-16T09:32:37.096123+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 21,
+      "slug": "excel-214-nhung-dong-xe-dien-co-thiet-ke-gan-giong-xe-ga-truyen-thong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T09:12:27.299159+00:00"
+  "updated_at": "2026-10-16T09:32:37.096143+00:00"
 }
