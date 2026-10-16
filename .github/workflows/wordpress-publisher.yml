@@ -1,5 +1,11 @@
 name: Excel Matrix WP Publisher
 on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/wordpress-publisher.yml'
+  schedule:
+    - cron: '17 * * * *'
   workflow_dispatch:
     inputs:
       live:
@@ -44,13 +50,13 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-      - name: Publish an owner-approved batch only
+      - name: Publish up to 5 articles per hourly run
         id: sync
         env:
           WP_USERNAME: ${{ secrets.WP_USERNAME || secrets.WP_USER }}
           WP_APPLICATION_PASSWORD: ${{ secrets.WP_APPLICATION_PASSWORD }}
-          LIVE: ${{ inputs.live }}
-          BATCH_SIZE: ${{ inputs.batch_size }}
+          LIVE: ${{ (github.event_name == 'schedule' || github.event_name == 'push') && 'true' || inputs.live }}
+          BATCH_SIZE: ${{ (github.event_name == 'schedule' || github.event_name == 'push') && '5' || inputs.batch_size }}
         shell: bash
         run: |
           if [[ "$LIVE" == 'true' ]]; then
