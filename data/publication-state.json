@@ -702,7 +702,17 @@
       "wp_id": 911,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-221-vi-sao-he-sinh-thai-tram-sac-quan-trong-voi-nguoi-su-dung-xe-dien/"
+    },
+    "222": {
+      "title": "Xe điện thương hiệu Việt có những lợi thế nào khi sử dụng trong nước?",
+      "source_hash": "650ec4b8dd2adad862b0247524aa0a48889548e1327458fa10c931fe6f7a79ae",
+      "checked_at": "2026-10-16T10:04:46.566354+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 21,
+      "slug": "excel-222-xe-dien-thuong-hieu-viet-co-nhung-loi-the-nao-khi-su-dung-trong-nuoc",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T10:04:45.229707+00:00"
+  "updated_at": "2026-10-16T10:04:46.566367+00:00"
 }
