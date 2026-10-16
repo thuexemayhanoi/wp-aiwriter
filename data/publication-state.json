@@ -2318,13 +2318,14 @@
     "346": {
       "title": "Xe ga 150cc có cần thiết nếu chủ yếu đi trong nội đô không?",
       "source_hash": "44c543045f6b80166f060fc568451c60ba6b78da1999474ce4567da3cd622718",
-      "checked_at": "2026-10-16T16:33:11.001782+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:33:12.936257+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-346-xe-ga-150cc-co-can-thiet-neu-chu-yeu-di-trong-noi-do-khong",
-      "reason": null
+      "reason": null,
+      "wp_id": 1037
     }
   },
-  "updated_at": "2026-10-16T16:33:11.001801+00:00"
+  "updated_at": "2026-10-16T16:33:12.936274+00:00"
 }
