@@ -3787,13 +3787,14 @@
     "459": {
       "title": "Đi xe máy quanh khu vực Bến xe Gia Lâm: lưu ý khi nhập làn và quay đầu",
       "source_hash": "5dd9a05d01fe0772f2c828cd2c02ec344f5057fa0d11c3ed25e9c561df5eb5bd",
-      "checked_at": "2026-10-16T16:58:47.992812+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:58:50.167349+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 14,
       "slug": "excel-459-di-xe-may-quanh-khu-vuc-ben-xe-gia-lam-luu-y-khi-nhap-lan-va-quay-dau",
-      "reason": null
+      "reason": null,
+      "wp_id": 1150
     }
   },
-  "updated_at": "2026-10-16T16:58:47.992824+00:00"
+  "updated_at": "2026-10-16T16:58:50.167365+00:00"
 }
