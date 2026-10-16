@@ -1590,14 +1590,16 @@
     "290": {
       "title": "Xe số 110cc có đủ dùng cho nhu cầu đi lại trong Hà Nội không?",
       "source_hash": "a0ad6ca94557809d7e105dd85bda92b9065c7fa23f8579fe9bff24a5902d6247",
-      "checked_at": "2026-10-16T16:19:28.712156+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:19:31.414038+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 6,
       "slug": "excel-290-xe-so-110cc-co-du-dung-cho-nhu-cau-di-lai-trong-ha-noi-khong",
       "reason": null,
-      "wp_id": 981
+      "wp_id": 981,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-290-xe-so-110cc-co-du-dung-cho-nhu-cau-di-lai-trong-ha-noi-khong/"
     }
   },
-  "updated_at": "2026-10-16T16:19:28.712172+00:00"
+  "updated_at": "2026-10-16T16:19:31.414055+00:00"
 }
