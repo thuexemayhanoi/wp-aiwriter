@@ -1616,13 +1616,14 @@
     "292": {
       "title": "Xe số có tiết kiệm xăng hơn xe ga trong điều kiện phố đông không?",
       "source_hash": "e4acafbd0722db5467ba1de8c814adf4725c224ac71d154822ce636b69578287",
-      "checked_at": "2026-10-16T16:22:11.719641+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:22:13.649062+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 6,
       "slug": "excel-292-xe-so-co-tiet-kiem-xang-hon-xe-ga-trong-dieu-kien-pho-dong-khong",
-      "reason": null
+      "reason": null,
+      "wp_id": 983
     }
   },
-  "updated_at": "2026-10-16T16:22:11.719654+00:00"
+  "updated_at": "2026-10-16T16:22:13.649080+00:00"
 }
