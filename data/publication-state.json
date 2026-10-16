@@ -4281,13 +4281,14 @@
     "497": {
       "title": "Một ngày khám phá Long Biên bằng xe máy: gợi ý điểm dừng gần nhau",
       "source_hash": "67dc0cbb9085ab1cc691c36d153b7d33b5bd0255084e0f56f31cc1cd453324da",
-      "checked_at": "2026-10-16T17:10:41.615358+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T17:10:43.798496+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 12,
       "slug": "excel-497-mot-ngay-kham-pha-long-bien-bang-xe-may-goi-y-diem-dung-gan-nhau",
-      "reason": null
+      "reason": null,
+      "wp_id": 1188
     }
   },
-  "updated_at": "2026-10-16T17:10:41.615369+00:00"
+  "updated_at": "2026-10-16T17:10:43.798513+00:00"
 }
