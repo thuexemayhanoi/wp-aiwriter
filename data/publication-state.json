@@ -3228,14 +3228,16 @@
     "416": {
       "title": "Xe 50cc phù hợp với nhu cầu đi lại nào trong Hà Nội?",
       "source_hash": "ac3f5fe0a2d132598098fd3c8b62b458d247dad70f8e6bf46facc621753d5ccb",
-      "checked_at": "2026-10-16T16:48:04.536555+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:48:08.392001+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 5,
       "slug": "excel-416-xe-50cc-phu-hop-voi-nhu-cau-di-lai-nao-trong-ha-noi",
       "reason": null,
-      "wp_id": 1107
+      "wp_id": 1107,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-416-xe-50cc-phu-hop-voi-nhu-cau-di-lai-nao-trong-ha-noi/"
     }
   },
-  "updated_at": "2026-10-16T16:48:04.536576+00:00"
+  "updated_at": "2026-10-16T16:48:08.392023+00:00"
 }
