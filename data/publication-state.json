@@ -1434,13 +1434,14 @@
     "273": {
       "title": "Ứng dụng nào hữu ích khi cần tìm ổ cắm hoặc điểm sạc quanh Hà Nội?",
       "source_hash": "cd6748729fd679fc626fcc7e3f13a17619b07684afe4782549205aa2f0e72135",
-      "checked_at": "2026-10-16T16:11:34.931387+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:11:37.235442+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 18,
       "slug": "excel-273-ung-dung-nao-huu-ich-khi-can-tim-o-cam-hoac-diem-sac-quanh-ha-noi",
-      "reason": null
+      "reason": null,
+      "wp_id": 969
     }
   },
-  "updated_at": "2026-10-16T16:11:34.931399+00:00"
+  "updated_at": "2026-10-16T16:11:37.235456+00:00"
 }
