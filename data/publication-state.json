@@ -1057,13 +1057,14 @@
     "249": {
       "title": "Cách quét và lưu bản sao giấy tờ thuê xe trên điện thoại",
       "source_hash": "2ea5fb5e36f115e5744fb6c5ecf995e13b7e12318f2fffdfa42a8d4750c35683",
-      "checked_at": "2026-10-16T14:34:14.831004+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T14:34:18.045621+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 17,
       "slug": "excel-249-cach-quet-va-luu-ban-sao-giay-to-thue-xe-tren-dien-thoai",
-      "reason": null
+      "reason": null,
+      "wp_id": 939
     }
   },
-  "updated_at": "2026-10-16T14:34:14.831019+00:00"
+  "updated_at": "2026-10-16T14:34:18.045635+00:00"
 }
