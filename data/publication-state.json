@@ -273,7 +273,17 @@
       "wp_id": 865,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-188-xe-ga-yamaha-co-nhung-dac-diem-chung-nao-de-nhan-biet/"
+    },
+    "189": {
+      "title": "Xe số Honda thường khác xe số Yamaha ở những điểm nào?",
+      "source_hash": "8cec7fc8ffe27d9c3ac68267d54d11b263c03427b169dfc5069d8dfd367018d6",
+      "checked_at": "2026-10-16T07:43:50.541275+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 20,
+      "slug": "excel-189-xe-so-honda-thuong-khac-xe-so-yamaha-o-nhung-diem-nao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T07:43:48.707703+00:00"
+  "updated_at": "2026-10-16T07:43:50.541292+00:00"
 }
