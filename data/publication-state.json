@@ -4138,14 +4138,16 @@
     "486": {
       "title": "Đi xe máy từ Long Biên vào Hồ Hoàn Kiếm: nên chọn cầu nào?",
       "source_hash": "74c3e57d79eea9855c038db512215aa0446c68fd8b78c6550e294bc557d248f0",
-      "checked_at": "2026-10-16T17:08:52.993420+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T17:08:55.770160+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 12,
       "slug": "excel-486-di-xe-may-tu-long-bien-vao-ho-hoan-kiem-nen-chon-cau-nao",
       "reason": null,
-      "wp_id": 1177
+      "wp_id": 1177,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-486-di-xe-may-tu-long-bien-vao-ho-hoan-kiem-nen-chon-cau-nao/"
     }
   },
-  "updated_at": "2026-10-16T17:08:52.993438+00:00"
+  "updated_at": "2026-10-16T17:08:55.770177+00:00"
 }
