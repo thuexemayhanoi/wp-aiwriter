@@ -3718,7 +3718,17 @@
       "wp_id": 1144,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-453-di-xe-may-quanh-ngoc-lam-nhung-tuyen-duong-thuan-tien-cho-nguoi-moi/"
+    },
+    "454": {
+      "title": "Đi xe máy từ Gia Lâm sang Long Biên: cách chọn tuyến ngắn",
+      "source_hash": "471c69d99044cfd13c519740ffb80f955807b00c8962f22c125d05873dc0aa5b",
+      "checked_at": "2026-10-16T16:57:57.393855+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 14,
+      "slug": "excel-454-di-xe-may-tu-gia-lam-sang-long-bien-cach-chon-tuyen-ngan",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:57:56.065627+00:00"
+  "updated_at": "2026-10-16T16:57:57.393869+00:00"
 }
