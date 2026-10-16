@@ -3679,7 +3679,17 @@
       "wp_id": 1141,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-450-di-xe-may-o-ba-dinh-cuoi-tuan-cach-sap-xep-lo-trinh-va-cho-gui-xe/"
+    },
+    "451": {
+      "title": "Đi xe máy từ Gia Lâm vào trung tâm Hà Nội: nên chọn cầu nào?",
+      "source_hash": "a95fac45d7d949eac9fbda6940dad6946f0978803e6e2f716d785c8211fba919",
+      "checked_at": "2026-10-16T16:57:38.839820+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 14,
+      "slug": "excel-451-di-xe-may-tu-gia-lam-vao-trung-tam-ha-noi-nen-chon-cau-nao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:55:29.871760+00:00"
+  "updated_at": "2026-10-16T16:57:38.839838+00:00"
 }
