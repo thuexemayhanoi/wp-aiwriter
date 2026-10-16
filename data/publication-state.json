@@ -4307,13 +4307,14 @@
     "499": {
       "title": "Đi xe máy từ Long Biên sang Gia Lâm: những tuyến ngắn dễ đi",
       "source_hash": "2518707a30aa1d0e3058b5fa9381ae57252e90e3bc1f235274e3503e22a48144",
-      "checked_at": "2026-10-16T17:10:54.932817+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T17:10:56.939435+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 12,
       "slug": "excel-499-di-xe-may-tu-long-bien-sang-gia-lam-nhung-tuyen-ngan-de-di",
-      "reason": null
+      "reason": null,
+      "wp_id": 1190
     }
   },
-  "updated_at": "2026-10-16T17:10:54.932828+00:00"
+  "updated_at": "2026-10-16T17:10:56.939452+00:00"
 }
