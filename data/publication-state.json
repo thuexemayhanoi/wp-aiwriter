@@ -3098,14 +3098,16 @@
     "406": {
       "title": "Thuê xe điện theo tuần nên kiểm tra pin và bộ sạc thế nào?",
       "source_hash": "cbbc3c71b1553e8e660eb7e88026b49af193f5bec3f3ed19169ab399fb1705a2",
-      "checked_at": "2026-10-16T16:45:45.448260+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:45:48.632972+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 8,
       "slug": "excel-406-thue-xe-dien-theo-tuan-nen-kiem-tra-pin-va-bo-sac-the-nao",
       "reason": null,
-      "wp_id": 1097
+      "wp_id": 1097,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-406-thue-xe-dien-theo-tuan-nen-kiem-tra-pin-va-bo-sac-the-nao/"
     }
   },
-  "updated_at": "2026-10-16T16:45:45.448280+00:00"
+  "updated_at": "2026-10-16T16:45:48.632992+00:00"
 }
