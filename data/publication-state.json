@@ -102,7 +102,17 @@
       "wp_id": 852,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-175-vi-sao-yamaha-sirius-duoc-nhieu-nguoi-chon-cho-quang-duong-hon-hop/"
+    },
+    "176": {
+      "title": "Honda Vision có phù hợp với người mới chuyển từ xe số sang xe ga?",
+      "source_hash": "6127db4dbfa36765898f536995150765a7030b9c1e22b651859b8fb04dee4b53",
+      "checked_at": "2026-10-16T07:33:07.221737+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 20,
+      "slug": "excel-176-honda-vision-co-phu-hop-voi-nguoi-moi-chuyen-tu-xe-so-sang-xe-ga",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T07:33:06.006794+00:00"
+  "updated_at": "2026-10-16T07:33:07.221750+00:00"
 }
