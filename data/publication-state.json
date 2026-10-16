@@ -2864,14 +2864,16 @@
     "388": {
       "title": "Trời nóng có ảnh hưởng đến pin xe máy điện không?",
       "source_hash": "5481fe621fe7de0c9136f2bef9eab6888914e527fd87d9cfcc7c0c8431f12933",
-      "checked_at": "2026-10-16T16:42:14.285536+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:42:17.711720+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 8,
       "slug": "excel-388-troi-nong-co-anh-huong-den-pin-xe-may-dien-khong",
       "reason": null,
-      "wp_id": 1079
+      "wp_id": 1079,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-388-troi-nong-co-anh-huong-den-pin-xe-may-dien-khong/"
     }
   },
-  "updated_at": "2026-10-16T16:42:14.285556+00:00"
+  "updated_at": "2026-10-16T16:42:17.711741+00:00"
 }
