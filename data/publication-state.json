@@ -3744,7 +3744,17 @@
       "wp_id": 1146,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-455-di-xe-may-qua-nguyen-van-cu-gio-cao-diem-nen-luu-y-gi/"
+    },
+    "456": {
+      "title": "Đi xe máy từ Gia Lâm đến ga Hà Nội: cách tránh tuyến quá đông",
+      "source_hash": "10ba26652a46110e53cf481db523cea36fa22ab3177194af9451b9ca1065db5d",
+      "checked_at": "2026-10-16T16:58:29.757103+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 14,
+      "slug": "excel-456-di-xe-may-tu-gia-lam-den-ga-ha-noi-cach-tranh-tuyen-qua-dong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:58:08.406631+00:00"
+  "updated_at": "2026-10-16T16:58:29.757121+00:00"
 }
