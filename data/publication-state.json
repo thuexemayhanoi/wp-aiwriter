@@ -992,13 +992,14 @@
     "244": {
       "title": "Cách lưu địa chỉ cửa hàng thuê xe trong ứng dụng bản đồ",
       "source_hash": "e70897486646780c4c1983bf4466e7f93179033273d543ba93ed230f6adfe130",
-      "checked_at": "2026-10-16T13:48:01.182583+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T13:48:03.470369+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 17,
       "slug": "excel-244-cach-luu-dia-chi-cua-hang-thue-xe-trong-ung-dung-ban-do",
-      "reason": null
+      "reason": null,
+      "wp_id": 934
     }
   },
-  "updated_at": "2026-10-16T13:48:01.182604+00:00"
+  "updated_at": "2026-10-16T13:48:03.470391+00:00"
 }
