@@ -3722,13 +3722,14 @@
     "454": {
       "title": "Đi xe máy từ Gia Lâm sang Long Biên: cách chọn tuyến ngắn",
       "source_hash": "471c69d99044cfd13c519740ffb80f955807b00c8962f22c125d05873dc0aa5b",
-      "checked_at": "2026-10-16T16:57:57.393855+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:57:59.328787+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 14,
       "slug": "excel-454-di-xe-may-tu-gia-lam-sang-long-bien-cach-chon-tuyen-ngan",
-      "reason": null
+      "reason": null,
+      "wp_id": 1145
     }
   },
-  "updated_at": "2026-10-16T16:57:57.393869+00:00"
+  "updated_at": "2026-10-16T16:57:59.328803+00:00"
 }
