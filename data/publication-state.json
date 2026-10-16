@@ -3995,13 +3995,14 @@
     "475": {
       "title": "Đi xe máy từ Hoàn Kiếm sang Ba Đình: gợi ý tuyến tránh phố quá đông",
       "source_hash": "b49638f4741b2f7bd9d20741bf51340b5f317cc5c53ca0c48cd09f2c2f4432b4",
-      "checked_at": "2026-10-16T17:03:29.227136+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T17:03:31.469341+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 10,
       "slug": "excel-475-di-xe-may-tu-hoan-kiem-sang-ba-dinh-goi-y-tuyen-tranh-pho-qua-dong",
-      "reason": null
+      "reason": null,
+      "wp_id": 1166
     }
   },
-  "updated_at": "2026-10-16T17:03:29.227149+00:00"
+  "updated_at": "2026-10-16T17:03:31.469357+00:00"
 }
