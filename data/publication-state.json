@@ -4060,14 +4060,16 @@
     "480": {
       "title": "Đi xe máy đến Chợ Đồng Xuân: cách chọn tuyến và điểm dừng hợp lý",
       "source_hash": "173370ecbc72de2556267165e19877f937f6e5a97858ca1fdcfadb02e80097d5",
-      "checked_at": "2026-10-16T17:05:53.589106+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T17:05:57.467763+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 11,
       "slug": "excel-480-di-xe-may-den-cho-dong-xuan-cach-chon-tuyen-va-diem-dung-hop-ly",
       "reason": null,
-      "wp_id": 1171
+      "wp_id": 1171,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-480-di-xe-may-den-cho-dong-xuan-cach-chon-tuyen-va-diem-dung-hop-ly/"
     }
   },
-  "updated_at": "2026-10-16T17:05:53.589124+00:00"
+  "updated_at": "2026-10-16T17:05:57.467780+00:00"
 }
