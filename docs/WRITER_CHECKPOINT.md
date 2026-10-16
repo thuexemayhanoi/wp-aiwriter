@@ -1,3 +1,18 @@
+# Publication milestone — 2026-10-16, Excel category 1 reviewed for owner
+
+- WordPress target: https://blog.rentbikehanoi.com/ ; repository: `thuexemayhanoi/wp-aiwriter`.
+- Category boundary is hard-coded in `scripts/engine.py`: `APPROVED_CATEGORY = Cẩm nang > Hãng xe > Hãng xe máy`, `APPROVED_LAST_ID = 200`. Do **not** remove/advance gate without owner review after each category.
+- **First category #146–200: 55/55 Excel titles published and discoverable**, latest GitHub Actions job status SUCCESS. Publishing is manually triggered (no cron/push). #184–200 were verified in the latest continuation.
+- All 39 existing source Markdown files #165–203 pass publisher QA; #201–203 are **not published**, because they belong to the next category. #204–500 (**297 subjects**) are not yet authored. GitHub Actions publishes files but **does not generate AI articles**; authors must write and QA the missing 297 files in later writer sessions.
+- Legacy category mismatches to report to the owner for manual reclassification: WordPress posts **814 (#165)**, **815 (#166)** and **823 (#167)** are in parent category 19 `Cẩm nang > Hãng xe`, whereas Excel requires leaf category 20 `Cẩm nang > Hãng xe > Hãng xe máy`. Change category only, do not change slug/canonical.
+- Original WP post 816 for #167 and URL `/0167-2/` are missing from WordPress. Currently existing unique live content is WP **823**, URL `/0167-3/`. Owner should review SEO redirect from missing original permalink to the retained version, without blindly changing URLs.
+- Missing WP post #169 ID 834 was independently confirmed deleted and then safely restored with new WP **880** using the same article title, body, category 20 and original `/excel-169-.../` permalink. The one-time recovery exception and tests have been removed after successful verification. #173 WP **838** verified after normalizing WordPress ellipsis rendering.
+- Proven duplicate copies of #165–167 were moved to WordPress Trash, not permanently deleted. Several copies later appeared again in Published; six more exact-body copies 821,824,827,825,826,829 were returned to Trash. No external cause has been confirmed. Before further bulk work, recheck live inventory for concurrent modifications and keep Git it Write disabled.
+- **NEXT STEP**: notify owner that category #146–200 has finished and ask them to review taxonomy of 814,815,823. Only after approval should the category gate advance to `#201–235 Cẩm nang > Hãng xe > Hãng xe điện`. Write missing files starting #204, maintain original `data/topics.json` checksum and QA.
+- Keep all existing URLs, titles, canonical, sitemap, categories, plugin state and old posts unchanged except explicitly reviewed corrections. Do not automatically move to new category while owner is reviewing.
+
+---
+
 # Writer continuation checkpoint — updated 2026-10-16 (through #203)
 
 ## Latest verified writer progress
