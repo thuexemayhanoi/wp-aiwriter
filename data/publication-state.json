@@ -1131,7 +1131,17 @@
       "wp_id": 944,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-254-ung-dung-nao-giup-tim-cay-xang-gan-vi-tri-hien-tai/"
+    },
+    "255": {
+      "title": "Cách tìm bãi gửi xe gần điểm đến bằng ứng dụng bản đồ",
+      "source_hash": "cd4cca46168cef1fb0f25d5f90723edcce6c83a6b65ec2b47925318f398e0f4d",
+      "checked_at": "2026-10-16T14:52:10.178501+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 17,
+      "slug": "excel-255-cach-tim-bai-gui-xe-gan-diem-den-bang-ung-dung-ban-do",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T14:50:17.465595+00:00"
+  "updated_at": "2026-10-16T14:52:10.178522+00:00"
 }
