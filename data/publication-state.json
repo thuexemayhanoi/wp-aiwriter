@@ -3982,13 +3982,14 @@
     "474": {
       "title": "Đi xe máy quanh Hồ Gươm ngày lễ: những điều nên kiểm tra trước",
       "source_hash": "475573213118415ae4e2c05f90eed5eb126c19906c310c24bc40281384a202dc",
-      "checked_at": "2026-10-16T17:03:21.674140+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T17:03:24.553795+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 10,
       "slug": "excel-474-di-xe-may-quanh-ho-guom-ngay-le-nhung-dieu-nen-kiem-tra-truoc",
-      "reason": null
+      "reason": null,
+      "wp_id": 1165
     }
   },
-  "updated_at": "2026-10-16T17:03:21.674154+00:00"
+  "updated_at": "2026-10-16T17:03:24.553811+00:00"
 }
