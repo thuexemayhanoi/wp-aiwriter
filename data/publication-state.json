@@ -4082,7 +4082,17 @@
       "wp_id": 1172,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-481-di-xe-may-quanh-ta-hien-buoi-toi-nen-gui-xe-truoc-khi-vao-pho-nho/"
+    },
+    "482": {
+      "title": "Đi xe máy qua Hàng Ngang – Hàng Đào: lưu ý khi khu vực đông người đi bộ",
+      "source_hash": "f68dec099ccc2544c1910fc38ceb9d5b59532cd0500efba3b9f440b09e0f4ad2",
+      "checked_at": "2026-10-16T17:06:05.643694+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 11,
+      "slug": "excel-482-di-xe-may-qua-hang-ngang-hang-dao-luu-y-khi-khu-vuc-dong-nguoi-di-bo",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T17:06:04.188005+00:00"
+  "updated_at": "2026-10-16T17:06:05.643706+00:00"
 }
