@@ -1963,7 +1963,17 @@
       "wp_id": 1009,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-318-xe-so-va-xe-50cc-khac-nhau-the-nao-ve-cam-giac-van-hanh/"
+    },
+    "319": {
+      "title": "Xe số có phù hợp với người thuê lần đầu tại Hà Nội không?",
+      "source_hash": "f0d06d1ddd0da9c5cfbb54068e05a044471d434b523a5547debb8275813846e8",
+      "checked_at": "2026-10-16T16:26:41.986689+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 6,
+      "slug": "excel-319-xe-so-co-phu-hop-voi-nguoi-thue-lan-dau-tai-ha-noi-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:26:39.198842+00:00"
+  "updated_at": "2026-10-16T16:26:41.986704+00:00"
 }
