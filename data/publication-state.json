@@ -2795,7 +2795,17 @@
       "wp_id": 1073,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-382-thue-xe-dien-de-di-hoc-hang-ngay-can-quan-tam-nhung-thong-so-nao/"
+    },
+    "383": {
+      "title": "Xe điện phù hợp với quãng đường ngắn trong nội đô như thế nào?",
+      "source_hash": "4c0f3e9149a9038507d3ec4835df52896c6e9652a6f9c9ebec86ade7407e691c",
+      "checked_at": "2026-10-16T16:41:14.975899+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 8,
+      "slug": "excel-383-xe-dien-phu-hop-voi-quang-duong-ngan-trong-noi-do-nhu-the-nao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:41:13.264012+00:00"
+  "updated_at": "2026-10-16T16:41:14.975914+00:00"
 }
