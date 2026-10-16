@@ -1733,14 +1733,16 @@
     "301": {
       "title": "Cốp xe số thường đủ cho những vật dụng nào?",
       "source_hash": "80d95f6a0e3f9281c7a78168f91fd49e3f463035d3fb6f352cd9937e5416da24",
-      "checked_at": "2026-10-16T16:23:51.039059+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:23:54.016331+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 6,
       "slug": "excel-301-cop-xe-so-thuong-du-cho-nhung-vat-dung-nao",
       "reason": null,
-      "wp_id": 992
+      "wp_id": 992,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-301-cop-xe-so-thuong-du-cho-nhung-vat-dung-nao/"
     }
   },
-  "updated_at": "2026-10-16T16:23:51.039076+00:00"
+  "updated_at": "2026-10-16T16:23:54.016348+00:00"
 }
