@@ -2721,13 +2721,14 @@
     "377": {
       "title": "Vision đời khác nhau có ảnh hưởng nhiều đến trải nghiệm đi phố không?",
       "source_hash": "0ad3911835dba3028d99c913c7949177f251abf247529f4c58d740532fe5a69c",
-      "checked_at": "2026-10-16T16:38:27.512450+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:38:29.532988+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-377-vision-doi-khac-nhau-co-anh-huong-nhieu-den-trai-nghiem-di-pho-khong",
-      "reason": null
+      "reason": null,
+      "wp_id": 1068
     }
   },
-  "updated_at": "2026-10-16T16:38:27.512465+00:00"
+  "updated_at": "2026-10-16T16:38:29.533006+00:00"
 }
