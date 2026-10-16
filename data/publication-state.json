@@ -1352,7 +1352,17 @@
       "wp_id": 962,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-266-ung-dung-hang-xe-dien-co-the-ho-tro-tim-xe-trong-bai-nhu-the-nao/"
+    },
+    "267": {
+      "title": "Cách bật thông báo sạc đầy trên ứng dụng xe điện",
+      "source_hash": "2fe8e41ce155b3528d1b87ccdf728ceee956a6ab6b33f6eedd265f5c5aa04af8",
+      "checked_at": "2026-10-16T16:06:28.320671+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 18,
+      "slug": "excel-267-cach-bat-thong-bao-sac-day-tren-ung-dung-xe-dien",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:06:26.369134+00:00"
+  "updated_at": "2026-10-16T16:06:28.320684+00:00"
 }
