@@ -524,13 +524,14 @@
     "208": {
       "title": "Pega có những dòng xe điện đô thị nào dễ gặp?",
       "source_hash": "ebcc19e6d1e5bac908accca677b2558707102440660d5383794906edd8d54eb1",
-      "checked_at": "2026-10-16T09:03:46.346440+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T09:03:48.245939+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 21,
       "slug": "excel-208-pega-co-nhung-dong-xe-dien-do-thi-nao-de-gap",
-      "reason": null
+      "reason": null,
+      "wp_id": 897
     }
   },
-  "updated_at": "2026-10-16T09:03:46.346454+00:00"
+  "updated_at": "2026-10-16T09:03:48.245953+00:00"
 }
