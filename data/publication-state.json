@@ -2019,14 +2019,16 @@
     "323": {
       "title": "Xe số dùng khóa cơ hay khóa từ thuận tiện hơn với người thuê?",
       "source_hash": "aaa8cc5dcabcc3e6b3ee71d667cc44e6211e713b1b3cea3f2ad65751135d1ece",
-      "checked_at": "2026-10-16T16:27:27.303278+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:27:31.011660+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 6,
       "slug": "excel-323-xe-so-dung-khoa-co-hay-khoa-tu-thuan-tien-hon-voi-nguoi-thue",
       "reason": null,
-      "wp_id": 1014
+      "wp_id": 1014,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-323-xe-so-dung-khoa-co-hay-khoa-tu-thuan-tien-hon-voi-nguoi-thue/"
     }
   },
-  "updated_at": "2026-10-16T16:27:27.303294+00:00"
+  "updated_at": "2026-10-16T16:27:31.011678+00:00"
 }
