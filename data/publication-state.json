@@ -2496,7 +2496,17 @@
       "wp_id": 1050,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-359-honda-vision-di-pho-co-co-de-xoay-tro-khong/"
+    },
+    "360": {
+      "title": "Honda Lead có phù hợp với người ở căn hộ và cần mang nhiều đồ không?",
+      "source_hash": "54e37643d991a96a1c168e98bf4f8e93359d6631a281d3c563082a6769126d4d",
+      "checked_at": "2026-10-16T16:35:21.695544+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 7,
+      "slug": "excel-360-honda-lead-co-phu-hop-voi-nguoi-o-can-ho-va-can-mang-nhieu-do-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:35:19.429610+00:00"
+  "updated_at": "2026-10-16T16:35:21.695558+00:00"
 }
