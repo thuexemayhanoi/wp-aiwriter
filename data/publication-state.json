@@ -1122,13 +1122,14 @@
     "254": {
       "title": "Ứng dụng nào giúp tìm cây xăng gần vị trí hiện tại?",
       "source_hash": "0cfe0f1669555fdcdcf818b2ca470b0ec442c92aff2f9f3220948486f4be2c6f",
-      "checked_at": "2026-10-16T14:50:09.260743+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T14:50:12.230655+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 17,
       "slug": "excel-254-ung-dung-nao-giup-tim-cay-xang-gan-vi-tri-hien-tai",
-      "reason": null
+      "reason": null,
+      "wp_id": 944
     }
   },
-  "updated_at": "2026-10-16T14:50:09.260760+00:00"
+  "updated_at": "2026-10-16T14:50:12.230673+00:00"
 }
