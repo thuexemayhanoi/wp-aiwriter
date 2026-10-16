@@ -2903,14 +2903,16 @@
     "391": {
       "title": "Ở nhà trọ và dùng xe điện: nên kiểm tra chỗ sạc thế nào?",
       "source_hash": "b40f6a59b3cae7b8fcdbc74cc91d5c3da188c779a03aaa9d3ee7a5230e96dc1e",
-      "checked_at": "2026-10-16T16:42:55.595998+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:42:59.007353+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 8,
       "slug": "excel-391-o-nha-tro-va-dung-xe-dien-nen-kiem-tra-cho-sac-the-nao",
       "reason": null,
-      "wp_id": 1082
+      "wp_id": 1082,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-391-o-nha-tro-va-dung-xe-dien-nen-kiem-tra-cho-sac-the-nao/"
     }
   },
-  "updated_at": "2026-10-16T16:42:55.596018+00:00"
+  "updated_at": "2026-10-16T16:42:59.007376+00:00"
 }
