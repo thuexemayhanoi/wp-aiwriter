@@ -2483,7 +2483,17 @@
       "wp_id": 1049,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-358-xe-ga-co-thuan-tien-khi-phai-dung-va-di-lien-tuc-trong-pho-dong-khong/"
+    },
+    "359": {
+      "title": "Honda Vision đi phố cổ có dễ xoay trở không?",
+      "source_hash": "db77ace8ae674f8d1069060e931915679618cdb51e3ca1874ba675666fc8a775",
+      "checked_at": "2026-10-16T16:35:14.917336+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 7,
+      "slug": "excel-359-honda-vision-di-pho-co-co-de-xoay-tro-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:35:13.578745+00:00"
+  "updated_at": "2026-10-16T16:35:14.917349+00:00"
 }
