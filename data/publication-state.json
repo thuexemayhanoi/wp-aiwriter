@@ -171,14 +171,16 @@
     "181": {
       "title": "FreeGo và Air Blade: khác biệt nào đáng chú ý khi đi phố?",
       "source_hash": "7161645e363eda7d0b0c13bd7599c19f37390d59464b0caa9a396e451435e7a5",
-      "checked_at": "2026-10-16T07:35:42.312655+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T07:35:45.331739+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 20,
       "slug": "excel-181-freego-va-air-blade-khac-biet-nao-dang-chu-y-khi-di-pho",
       "reason": null,
-      "wp_id": 858
+      "wp_id": 858,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-181-freego-va-air-blade-khac-biet-nao-dang-chu-y-khi-di-pho/"
     }
   },
-  "updated_at": "2026-10-16T07:35:42.312676+00:00"
+  "updated_at": "2026-10-16T07:35:45.331759+00:00"
 }
