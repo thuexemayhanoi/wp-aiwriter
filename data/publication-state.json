@@ -223,13 +223,14 @@
     "185": {
       "title": "Blade và Sirius: đâu là những điểm người mới dùng dễ nhận ra?",
       "source_hash": "8730ce02d3c8d5d44a95227ffc0a373c62673b62fe1705d479b255ebcb679b9d",
-      "checked_at": "2026-10-16T07:42:17.031807+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T07:42:18.986068+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 20,
       "slug": "excel-185-blade-va-sirius-dau-la-nhung-diem-nguoi-moi-dung-de-nhan-ra",
-      "reason": null
+      "reason": null,
+      "wp_id": 862
     }
   },
-  "updated_at": "2026-10-16T07:42:17.031824+00:00"
+  "updated_at": "2026-10-16T07:42:18.986089+00:00"
 }
