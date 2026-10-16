@@ -3423,14 +3423,16 @@
     "431": {
       "title": "Xe 50cc đi cầu ở Hà Nội cần lưu ý gì?",
       "source_hash": "0e48450fb9b15fed17be92550a43ca25baac98c9fd24248d48e97e13d684669a",
-      "checked_at": "2026-10-16T16:50:42.044680+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:50:45.581234+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 5,
       "slug": "excel-431-xe-50cc-di-cau-o-ha-noi-can-luu-y-gi",
       "reason": null,
-      "wp_id": 1122
+      "wp_id": 1122,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-431-xe-50cc-di-cau-o-ha-noi-can-luu-y-gi/"
     }
   },
-  "updated_at": "2026-10-16T16:50:42.044717+00:00"
+  "updated_at": "2026-10-16T16:50:45.581254+00:00"
 }
