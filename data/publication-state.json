@@ -2149,13 +2149,14 @@
     "333": {
       "title": "Yamaha FreeGo có phù hợp với người đi làm hằng ngày không?",
       "source_hash": "d03098691271fa8fe1eebeb1dfb430377f5e3fb32e47fdaa4bec1cce5a8246aa",
-      "checked_at": "2026-10-16T16:30:49.937490+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:30:51.967835+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-333-yamaha-freego-co-phu-hop-voi-nguoi-di-lam-hang-ngay-khong",
-      "reason": null
+      "reason": null,
+      "wp_id": 1024
     }
   },
-  "updated_at": "2026-10-16T16:30:49.937505+00:00"
+  "updated_at": "2026-10-16T16:30:51.967853+00:00"
 }
