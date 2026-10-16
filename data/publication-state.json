@@ -3085,13 +3085,14 @@
     "405": {
       "title": "Xe điện có phù hợp với người cần mang nhiều đồ hằng ngày không?",
       "source_hash": "51e91d539dea713bb29575df63473a58b3261df01b336e2027b5811b4654a0f3",
-      "checked_at": "2026-10-16T16:45:14.171127+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:45:16.331621+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 8,
       "slug": "excel-405-xe-dien-co-phu-hop-voi-nguoi-can-mang-nhieu-do-hang-ngay-khong",
-      "reason": null
+      "reason": null,
+      "wp_id": 1096
     }
   },
-  "updated_at": "2026-10-16T16:45:14.171143+00:00"
+  "updated_at": "2026-10-16T16:45:16.331640+00:00"
 }
