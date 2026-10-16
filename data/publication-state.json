@@ -650,7 +650,17 @@
       "wp_id": 907,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-217-vinfast-feliz-va-klara-khac-nhau-the-nao-ve-kieu-dang-va-tu-the-lai/"
+    },
+    "218": {
+      "title": "Yadea và VinFast: nên so sánh những tiêu chí nào trước khi chọn xe?",
+      "source_hash": "8be8411ab97eada5cc650ec7fb11c9e2d71cc376ddb45b0722e28b9eb52e1300",
+      "checked_at": "2026-10-16T09:54:56.557749+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 21,
+      "slug": "excel-218-yadea-va-vinfast-nen-so-sanh-nhung-tieu-chi-nao-truoc-khi-chon-xe",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T09:54:54.979145+00:00"
+  "updated_at": "2026-10-16T09:54:56.557762+00:00"
 }
