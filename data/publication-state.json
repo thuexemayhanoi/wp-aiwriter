@@ -2899,7 +2899,17 @@
       "wp_id": 1081,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-390-xe-dien-co-phu-hop-voi-nguoi-o-chung-cu-khong/"
+    },
+    "391": {
+      "title": "Ở nhà trọ và dùng xe điện: nên kiểm tra chỗ sạc thế nào?",
+      "source_hash": "b40f6a59b3cae7b8fcdbc74cc91d5c3da188c779a03aaa9d3ee7a5230e96dc1e",
+      "checked_at": "2026-10-16T16:42:52.923302+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 8,
+      "slug": "excel-391-o-nha-tro-va-dung-xe-dien-nen-kiem-tra-cho-sac-the-nao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:42:32.194556+00:00"
+  "updated_at": "2026-10-16T16:42:52.923322+00:00"
 }
