@@ -2461,13 +2461,14 @@
     "357": {
       "title": "Xe ga nhỏ gọn phù hợp với bãi gửi xe chật như thế nào?",
       "source_hash": "ad4d9831f7de39d3ffa3c8ef3bd9547c87be2f17ba601d7cf80756e17a610685",
-      "checked_at": "2026-10-16T16:35:01.406973+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:35:04.634190+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-357-xe-ga-nho-gon-phu-hop-voi-bai-gui-xe-chat-nhu-the-nao",
-      "reason": null
+      "reason": null,
+      "wp_id": 1048
     }
   },
-  "updated_at": "2026-10-16T16:35:01.406986+00:00"
+  "updated_at": "2026-10-16T16:35:04.634207+00:00"
 }
