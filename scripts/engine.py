@@ -1,151 +1,439 @@
 #!/usr/bin/env python3
-"""Excel SEO queue -> strictly categorized WordPress posts. No AI model dependency."""
-import argparse, html, json, os, pathlib, re, sys, unicodedata, urllib.error, urllib.parse, urllib.request
+"""Deterministic QA and create-only WordPress publisher; never generates prose."""
+import argparse
+import base64
+from collections import defaultdict
+from datetime import datetime, timezone
+import hashlib
+import html
+from html.parser import HTMLParser
+import json
+import os
+import pathlib
+import re
+import socket
+import subprocess
+import sys
+import tempfile
+import time
+import unicodedata
+import urllib.error
+import urllib.parse
+import urllib.request
+
+import markdown
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-MATRIX_PATH = ROOT / "data/topics.json"
-WP_URL = "https://blog.rentbikehanoi.com"
+MATRIX_PATH = ROOT / 'data/topics.json'
+STATE_PATH = ROOT / 'data/publication-state.json'
+WP_URL = 'https://blog.rentbikehanoi.com'
+MATRIX_SHA256 = '01192fc9ae78d7ddced2b9c7afa85b0794081269c11b028fdcf56e18aba4ca60'
+
+
+def now():
+    return datetime.now(timezone.utc).isoformat()
+
+
+def normalized(value):
+    return ' '.join(unicodedata.normalize('NFC', html.unescape(value)).casefold().split())
+
 
 def matrix():
-    rows = json.loads(MATRIX_PATH.read_text(encoding="utf-8"))
-    ids = [r[0] for r in rows]
-    if len(rows) != 355 or ids != list(range(146,501)):
-        raise ValueError("Unexpected Excel Matrix; expected IDs 146..500 without gaps")
-    return {i: {"id":i,"title":title,"category":category} for i,title,category in rows}
+    raw = MATRIX_PATH.read_bytes()
+    if hashlib.sha256(raw).hexdigest() != MATRIX_SHA256:
+        raise ValueError('Excel source checksum changed; restore the original data/topics.json')
+    rows = json.loads(raw)
+    if len(rows) != 355 or [r[0] for r in rows] != list(range(146, 501)):
+        raise ValueError('Expected exact Excel IDs 146..500')
+    return {i: {'id': i, 'title': title, 'category': category} for i, title, category in rows}
 
-def read_post(path, topics):
-    raw = path.read_text(encoding="utf-8")
-    m = re.match(r"\A---\n(.*?)\n---\n(.*)\Z",raw,re.S)
-    if not m: raise ValueError(f"{path}: missing front matter")
-    metadata = {}
-    for line in m.group(1).splitlines():
-        if not line.strip(): continue
-        key, sep, val = line.partition(":")
-        if not sep: raise ValueError(f"{path}: malformed front matter")
-        metadata[key.strip()] = val.strip().strip('"').strip("'")
-    try: i = int(metadata["matrix_id"])
-    except (KeyError, ValueError): raise ValueError(f"{path}: invalid matrix_id")
-    if i < 165 or i not in topics: raise ValueError(f"{path}: ID outside remaining 165..500")
-    if metadata.get("title") != topics[i]["title"] or metadata.get("category_path") != topics[i]["category"]:
-        raise ValueError(f"{path}: title/category mismatch with Excel row {i}")
-    if metadata.get("ready","false").lower() != "true":
-        return {"id":i,"ready":False,"status":"WAIT_WRITER"}
-    body = m.group(2).strip()
-    words = len(re.findall(r"\w+",body,flags=re.UNICODE))
-    h2 = len(re.findall(r"^## .+",body,re.M))
-    if words < 350 or h2 < 3 or re.search(r"TODO|TBD|Lorem ipsum",body,re.I):
-        raise ValueError(f"{path}: QA FAIL (words={words}, h2={h2})")
-    return {"id":i,"ready":True,"status":"QA_PASS","words":words,
-            "title":topics[i]["title"],"category":topics[i]["category"],"body":body}
-
-def slugify(text):
-    text = unicodedata.normalize("NFKD",text.lower().replace("đ","d"))
-    text = "".join(ch for ch in text if not unicodedata.combining(ch))
-    return re.sub(r"-+","-",re.sub(r"[^a-z0-9]+","-",text)).strip("-")[:75]
 
 def markdown_to_html(text):
-    output=[]
-    for paragraph in re.split(r"\n\s*\n",text):
-        block=paragraph.strip()
-        if not block: continue
-        heading=re.match(r"^(#{1,3}) (.+)$",block)
-        if heading:
-            level=len(heading.group(1))
-            output.append(f"<h{level}>{html.escape(heading.group(2))}</h{level}>")
-        elif block.startswith("- "):
-            output.append("<ul>"+"".join("<li>"+html.escape(x[2:].strip())+"</li>" for x in block.splitlines() if x.startswith("- "))+"</ul>")
-        else:
-            output.append("<p>"+html.escape(" ".join(block.splitlines()))+"</p>")
-    return "\n".join(output)
+    return markdown.markdown(text, extensions=['tables', 'sane_lists'], output_format='html')
 
-def wp(path, user, password, method="GET", payload=None):
-    url=WP_URL+"/wp-json"+path
-    data=None if payload is None else json.dumps(payload,ensure_ascii=False).encode("utf-8")
-    headers={"Accept":"application/json","User-Agent":"wp-aiwriter/1.0"}
-    if data is not None: headers["Content-Type"]="application/json; charset=utf-8"
-    import base64
-    headers["Authorization"]="Basic "+base64.b64encode(f"{user}:{password}".encode()).decode()
-    req=urllib.request.Request(url,method=method,data=data,headers=headers)
+
+class TextParser(HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.parts = []
+    def handle_data(self, data):
+        self.parts.append(data)
+
+
+def visible(text):
+    parser = TextParser()
+    parser.feed(text)
+    return normalized(' '.join(parser.parts))
+
+
+def read_post(path, topics):
+    match = re.fullmatch(r'---\n(.*?)\n---\n(.*)', path.read_text(encoding='utf-8'), re.S)
+    if not match:
+        raise ValueError('Missing front matter')
+    metadata = {}
+    for line in match[1].splitlines():
+        if not line.strip():
+            continue
+        key, sep, val = line.partition(':')
+        if not sep or key.strip() in metadata:
+            raise ValueError('Malformed or duplicate front matter key')
+        metadata[key.strip()] = val.strip().strip('"').strip("'")
     try:
-        with urllib.request.urlopen(req,timeout=40) as response: return json.load(response)
-    except urllib.error.HTTPError as exc:
-        raise RuntimeError(f"WordPress HTTP {exc.code} at {path}: "+exc.read(600).decode(errors="replace")) from exc
+        i = int(metadata['matrix_id'])
+    except (KeyError, ValueError):
+        raise ValueError('Invalid matrix_id')
+    if i < 165 or i not in topics or path.name != f'{i:04}.md':
+        raise ValueError('ID/filename must match remaining Excel row 165..500')
+    topic = topics[i]
+    if metadata.get('title') != topic['title'] or metadata.get('category_path') != topic['category']:
+        raise ValueError(f'Title/category mismatch with Excel #{i}')
+    if metadata.get('ready', 'false').lower() != 'true':
+        return {'id': i, 'ready': False}
+    body = match[2].strip()
+    words = len(re.findall(r'\w+', visible(markdown_to_html(body))))
+    minimum = 1000 if i >= 172 else 350  # preserve the seven pre-existing authored files
+    if words < minimum or len(re.findall(r'^## .+', body, re.M)) < 3:
+        raise ValueError(f'Insufficient substance/structure: {words} words; minimum {minimum}')
+    if re.search(r'\b(TODO|TBD|Lorem ipsum)\b|^# |<\s*(script|iframe|style)\b|javascript:', body, re.I | re.M):
+        raise ValueError('Placeholder, duplicate H1, or unsafe markup')
+    paragraphs = [normalized(p) for p in re.split(r'\n\s*\n', body) if len(p) > 140]
+    if len(set(paragraphs)) != len(paragraphs):
+        raise ValueError('Repeated paragraph')
+    return {**topic, 'ready': True, 'words': words, 'body': body,
+            'hash': hashlib.sha256(body.encode()).hexdigest()}
 
-def categories(user,password):
-    cats=wp("/wp/v2/categories?per_page=100&hide_empty=false&_fields=id,name,parent",user,password)
-    by_id={c["id"]:c for c in cats}
-    paths={}
+
+def shingles(body):
+    words = re.findall(r'\w+', visible(markdown_to_html(body)))
+    return set(zip(*(words[n:] for n in range(7))))
+
+
+def load_posts(topics):
+    articles, errors = [], []
+    for path in sorted((ROOT / 'posts').glob('[0-9][0-9][0-9][0-9].md')):
+        try:
+            articles.append(read_post(path, topics))
+        except ValueError as exc:
+            errors.append({'file': str(path.relative_to(ROOT)), 'reason': str(exc)})
+    accepted, signatures = [], []
+    for article in articles:
+        if not article['ready']:
+            continue
+        sig = shingles(article['body'])
+        duplicate = next((other for other, prior in signatures
+                          if len(sig & prior) / max(1, min(len(sig), len(prior))) > .70), None)
+        if duplicate is not None:
+            errors.append({'id': article['id'], 'reason': f'Near-duplicate content of #{duplicate}'})
+            continue
+        signatures.append((article['id'], sig))
+        accepted.append(article)
+    return articles, accepted, errors
+
+
+def slugify(text):
+    text = unicodedata.normalize('NFKD', text.lower().replace('đ', 'd'))
+    text = ''.join(ch for ch in text if not unicodedata.combining(ch))
+    return re.sub(r'[^a-z0-9]+', '-', text).strip('-')[:75].rstrip('-')
+
+
+def article_slug(article):
+    return f"excel-{article['id']}-{slugify(article['title'])}"
+
+
+class SafeRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        if urllib.parse.urlsplit(newurl).netloc != urllib.parse.urlsplit(WP_URL).netloc or not newurl.startswith('https://'):
+            raise RuntimeError('Refused WordPress redirect to a different origin')
+        return super().redirect_request(req, fp, code, msg, headers, newurl)
+
+
+class WPClient:
+    def __init__(self, user=None, password=None):
+        self.auth = None if not user else base64.b64encode(f'{user}:{password}'.encode()).decode()
+        self.opener = urllib.request.build_opener(SafeRedirect())
+
+    def request(self, path, payload=None, public=False, webpage=False):
+        url = path if webpage else WP_URL + '/wp-json/wp/v2/' + path
+        if urllib.parse.urlsplit(url).netloc != urllib.parse.urlsplit(WP_URL).netloc or not url.startswith('https://'):
+            raise ValueError('Only the configured WordPress origin is allowed')
+        headers = {'Accept': 'text/html' if webpage else 'application/json',
+                   'User-Agent': 'wp-aiwriter/2.0', 'Cache-Control': 'no-cache'}
+        if self.auth and not public:
+            headers['Authorization'] = 'Basic ' + self.auth
+        data = None
+        if payload is not None:
+            headers['Content-Type'] = 'application/json; charset=utf-8'
+            data = json.dumps(payload, ensure_ascii=False).encode()
+        for attempt in range(3 if payload is None else 1):
+            try:
+                req = urllib.request.Request(url, data=data, headers=headers)
+                with self.opener.open(req, timeout=25) as response:
+                    raw = response.read()
+                    return (raw.decode('utf-8') if webpage else json.loads(raw)), response.headers
+            except urllib.error.HTTPError as exc:
+                # Never print response bodies: plugins may echo confidential fields.
+                if payload is not None or exc.code not in (429, 500, 502, 503, 504) or attempt == 2:
+                    raise RuntimeError(f'WordPress HTTP {exc.code}; method {"POST" if payload else "GET"}') from None
+            except (urllib.error.URLError, TimeoutError, socket.timeout, OSError):
+                if payload is not None or attempt == 2:
+                    raise RuntimeError(f'WordPress network failure; {"POST outcome UNKNOWN" if payload else "GET failed"}') from None
+            time.sleep(attempt + 1)
+
+    def get(self, path, public=False):
+        return self.request(path, public=public)[0]
+
+    def all(self, resource, **params):
+        results, page = [], 1
+        while True:
+            query = urllib.parse.urlencode({**params, 'per_page': 100, 'page': page})
+            rows, headers = self.request(resource + '?' + query, public=not self.auth)
+            if not isinstance(rows, list):
+                raise RuntimeError('WordPress collection is not an array')
+            results.extend(rows)
+            total_pages = int(headers.get('X-WP-TotalPages', page))
+            if page >= total_pages:
+                return results
+            page += 1
+
+
+def category_paths(cats):
+    by_id = {c['id']: c for c in cats}
+    paths = defaultdict(list)
     for cat in cats:
-        parts=[];cur=cat;seen=set()
-        while cur and cur["id"] not in seen:
-            seen.add(cur["id"])
-            parts.append(html.unescape(cur["name"]).strip())
-            cur=by_id.get(cur.get("parent",0))
-        paths[" > ".join(reversed(parts))]=cat["id"]
-    return paths
+        parts, seen, cur, valid = [], set(), cat, True
+        while cur:
+            if cur['id'] in seen:
+                valid = False
+                break
+            seen.add(cur['id'])
+            parts.append(html.unescape(cur['name']).strip())
+            parent = cur.get('parent', 0)
+            if parent and parent not in by_id:
+                valid = False
+                break
+            cur = by_id.get(parent)
+        if valid:
+            paths[' > '.join(reversed(parts))].append(cat['id'])
+    # Duplicate ancestry is deliberately ambiguous, never last-entry-wins.
+    return dict(paths)
 
-def exists(title,user,password):
-    query=urllib.parse.urlencode({"search":title,"status":"any","context":"edit","per_page":100,"_fields":"id,title,status"})
-    result=wp("/wp/v2/posts?"+query,user,password)
-    for p in result:
-        t=html.unescape(p.get("title",{}).get("raw",p.get("title",{}).get("rendered",""))).strip()
-        if t.casefold()==title.strip().casefold(): return p
-    return None
+
+def title_of(post):
+    return html.unescape(post.get('title', {}).get('raw', post.get('title', {}).get('rendered', '')))
+
+
+def duplicates(article, inventory):
+    slug = article_slug(article)
+    marker = f"wp-aiwriter:matrix_id={article['id']};"
+    return [p for p in inventory if normalized(title_of(p)) == normalized(article['title'])
+            or p['slug'] in (slug, slugify(article['title']))
+            or marker in p.get('content', {}).get('raw', '')]
+
+
+def git(*args, env=None, input_text=None):
+    result = subprocess.run(['git', *args], cwd=ROOT, env=env, input=input_text,
+                            text=True, capture_output=True)
+    if result.returncode:
+        raise RuntimeError('Checkpoint Git operation failed: ' + args[0])
+    return result.stdout.strip()
+
+
+class Ledger:
+    def __init__(self, persist_remote=False):
+        self.data = json.loads(STATE_PATH.read_text()) if STATE_PATH.exists() else {'version': 1, 'posts': {}}
+        self.remote = persist_remote
+        self.expected_blob = git('rev-parse', 'HEAD:data/publication-state.json') if persist_remote and STATE_PATH.exists() else None
+
+    def save(self):
+        self.data['updated_at'] = now()
+        STATE_PATH.parent.mkdir(exist_ok=True)
+        STATE_PATH.write_text(json.dumps(self.data, ensure_ascii=False, indent=2) + '\n')
+        if not self.remote:
+            return
+        # Commit only the ledger onto latest main, without resetting writer changes.
+        for attempt in range(3):
+            git('fetch', 'origin', 'main')
+            base = git('rev-parse', 'origin/main')
+            current = subprocess.run(['git', 'rev-parse', f'{base}:data/publication-state.json'], cwd=ROOT,
+                                     capture_output=True, text=True)
+            remote_blob = current.stdout.strip() if current.returncode == 0 else None
+            if remote_blob != self.expected_blob:
+                raise RuntimeError('Checkpoint changed outside this serialized publisher; reconcile before any POST')
+            blob = git('hash-object', '-w', str(STATE_PATH))
+            with tempfile.TemporaryDirectory() as tmp:
+                env = {**os.environ, 'GIT_INDEX_FILE': str(pathlib.Path(tmp) / 'index')}
+                git('read-tree', base, env=env)
+                git('update-index', '--add', '--cacheinfo', f'100644,{blob},data/publication-state.json', env=env)
+                tree = git('write-tree', env=env)
+                commit = git('commit-tree', tree, '-p', base, input_text='chore: checkpoint WordPress publication\n')
+            result = subprocess.run(['git', 'push', 'origin', f'{commit}:refs/heads/main'], cwd=ROOT,
+                                    capture_output=True, text=True)
+            if result.returncode == 0:
+                self.expected_blob = blob
+                return
+        raise RuntimeError('Could not persist remote checkpoint; no further POST allowed')
+
+
+def record(ledger, article, **fields):
+    previous = ledger.data['posts'].get(str(article['id']), {})
+    ledger.data['posts'][str(article['id'])] = {**previous, 'title': article['title'],
+            'source_hash': article['hash'], 'checked_at': now(), **fields}
+    ledger.save()
+
+
+def verify(client, article, post_id, expected_status, category_id, slug):
+    post = client.get(f'posts/{post_id}?context=edit')
+    expected_html = markdown_to_html(article['body'])
+    raw = post.get('content', {}).get('raw', '')
+    marker = f"wp-aiwriter:matrix_id={article['id']};sha256={article['hash']}"
+    if (post.get('status') != expected_status or post.get('slug') != slug
+        or title_of(post) != article['title'] or marker not in raw
+        or visible(raw) != visible(expected_html)
+        or (category_id is not None and post.get('categories') != [category_id])):
+        raise RuntimeError('Post-readback verification failed; preserve existing post and investigate')
+    if expected_status == 'publish':
+        public = client.get(f'posts/{post_id}', public=True)
+        if (public.get('status') != 'publish' or public.get('categories') != [category_id]
+            or visible(public.get('content', {}).get('rendered', '')) != visible(expected_html)):
+            raise RuntimeError('Public REST verification failed')
+        page, _ = client.request(post['link'], public=True, webpage=True)
+        # The public page must contain the first substantive paragraph as well as the title.
+        first = next((p for p in expected_html.split('\n') if p.startswith('<p>')), '')
+        if visible(first) not in visible(page) or normalized(article['title']) not in visible(page):
+            raise RuntimeError('Public permalink does not display expected title/content')
+    return post
+
+
+def sync(client, ready, ledger, limit, report):
+    client.get('users/me?context=edit&_fields=id')  # validate credentials before all writes
+    paths = category_paths(client.all('categories', hide_empty='false', _fields='id,name,parent'))
+    inventory = client.all('posts', context='edit', status='any', _fields='id,title,slug,status,link,categories,content')
+    report['auth_ok'] = True
+    report['site_published'] = sum(p['status'] == 'publish' for p in inventory)
+    topics = matrix()
+    report['excel_published_ids'] = [i for i, row in topics.items() if any(
+        p['status'] == 'publish' and normalized(title_of(p)) == normalized(row['title']) for p in inventory)]
+    attempts, created, eligible = 0, 0, []
+    for article in ready:
+        matches = duplicates(article, inventory)
+        old = ledger.data['posts'].get(str(article['id']), {})
+        if len(matches) > 1:
+            report['errors'].append({'id': article['id'], 'reason': 'Multiple matching WordPress posts; no write'})
+            continue
+        if matches:
+            post = matches[0]
+            marker = f"wp-aiwriter:matrix_id={article['id']};"
+            if marker in post.get('content', {}).get('raw', '') and old.get('phase') in ('POST_INTENT', 'VERIFY_PENDING'):
+                try:
+                    verified = verify(client, article, post['id'], old['expected_status'], old.get('category_id'), old['slug'])
+                    record(ledger, article, phase='VERIFIED', wp_id=verified['id'], status=verified['status'], url=verified['link'])
+                except RuntimeError as exc:
+                    report['errors'].append({'id': article['id'], 'reason': str(exc)})
+            report['existing'].append({'id': article['id'], 'wp_id': post['id'], 'status': post['status'], 'url': post['link']})
+            continue
+        if old.get('phase') in ('POST_INTENT', 'VERIFY_PENDING', 'VERIFIED'):
+            # An interrupted POST may still complete, or a user may have removed the post.
+            # Absence is never authorization to issue a second POST automatically.
+            report['errors'].append({'id': article['id'], 'reason': 'Unresolved prior POST; reconcile ledger instead of reposting'})
+            continue
+        eligible.append(article)
+    remaining = []
+    published_links = {p.get('link', '').rstrip('/') for p in inventory if p['status'] == 'publish'}
+    for article in eligible:
+        if attempts >= limit:
+            remaining.append(article['id'])
+            continue
+        attempts += 1
+        try:
+            internal = re.findall(r'\]\((https://blog\.rentbikehanoi\.com[^\s)]*)\)', article['body'])
+            if any(url.rstrip('/') not in published_links for url in internal):
+                raise ValueError('Internal link is not a verified published post URL')
+            # Full ancestry must resolve uniquely; do not infer a similarly named leaf.
+            ids = paths.get(article['category'], [])
+            category_id = ids[0] if len(ids) == 1 else None
+            status = 'publish' if category_id is not None else 'draft'
+            reason = None if category_id else 'Missing or ambiguous full Excel category ancestry'
+            slug = article_slug(article)
+            payload = {'title': article['title'], 'slug': slug, 'status': status,
+                       'content': f"<!-- wp-aiwriter:matrix_id={article['id']};sha256={article['hash']} -->\n" + markdown_to_html(article['body'])}
+            if category_id is not None:
+                payload['categories'] = [category_id]
+            # Durable write-ahead intent: a crash, timeout, or verification error never causes blind POST retry.
+            record(ledger, article, phase='POST_INTENT', expected_status=status,
+                   category_id=category_id, slug=slug, reason=reason)
+            result = client.request('posts', payload=payload)[0]  # exactly one attempt
+            record(ledger, article, phase='VERIFY_PENDING', wp_id=result['id'])
+            post = verify(client, article, result['id'], status, category_id, slug)
+            record(ledger, article, phase='VERIFIED', wp_id=post['id'], status=post['status'], url=post['link'])
+            inventory.append(post)
+            report['created'].append({'id': article['id'], 'wp_id': post['id'], 'status': status,
+                                      'category_id': category_id, 'url': post['link'], 'reason': reason})
+            created += 1
+        except (RuntimeError, ValueError, KeyError) as exc:
+            report['errors'].append({'id': article['id'], 'reason': str(exc)})
+            # Git persistence errors must halt before another potentially uncheckpointed write.
+            if 'Checkpoint' in str(exc) or 'checkpoint' in str(exc):
+                raise
+    report['created_count'] = created
+    report['remaining_ready_ids'] = remaining
+    report['has_more'] = bool(remaining)
+    report['site_published'] += sum(x['status'] == 'publish' for x in report['created'])
+    report['excel_published_ids'] += [x['id'] for x in report['created'] if x['status'] == 'publish']
+
+
+def write_report(report):
+    directory = ROOT / 'reports'
+    directory.mkdir(exist_ok=True)
+    (directory / 'latest.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
+    summary = (f"### WP AIWriter — {report['mode']}\n\n"
+               f"- Authored: {report['authored']}; QA PASS: {report['qa_pass']}; QA FAIL: {len(report['qa_errors'])}\n"
+               f"- WordPress auth verified: {report.get('auth_ok', False)}\n"
+               f"- Newly created and verified: {len(report['created'])}\n"
+               f"- Site published: {report.get('site_published', 'UNVERIFIED')}\n"
+               f"- Excel #146–500 published: {len(report['excel_published_ids']) if 'excel_published_ids' in report else 'UNVERIFIED'}\n"
+               f"- Errors: {len(report['errors'])}; next ready: {report.get('remaining_ready_ids', [])[:2]}\n")
+    for key in ['created', 'existing', 'errors', 'qa_errors']:
+        if report[key]:
+            summary += '\n' + key + ':\n```json\n' + json.dumps(report[key], ensure_ascii=False, indent=2) + '\n```\n'
+    (directory / 'summary.md').write_text(summary)
+    print(summary)
+    if os.getenv('GITHUB_STEP_SUMMARY'):
+        with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as out:
+            out.write(summary)
+    if os.getenv('GITHUB_OUTPUT'):
+        with open(os.environ['GITHUB_OUTPUT'], 'a') as out:
+            for key in ['has_more', 'auth_ok']:
+                out.write(f'{key}={str(report.get(key, False)).lower()}\n')
+
 
 def run(args):
-    topics=matrix()
-    print("Matrix verified: 355 rows, IDs 146–500. Remaining: IDs 165–500 (336).")
-    items=[];seen=set()
-    for path in sorted((ROOT/"posts").glob("[0-9][0-9][0-9][0-9].md")):
-        article=read_post(path,topics)
-        if article["id"] in seen: raise ValueError(f"Repeated ID {article['id']}")
-        seen.add(article["id"]);items.append(article)
-    print("Authored files:",len(items),"QA PASS:",sum(x["ready"] for x in items))
-    if args.mode=="qa": return 0
-    ready=sorted([x for x in items if x["ready"]],key=lambda x:x["id"])
-    if not args.live:
-        print("DRY RUN:",[(x["id"],x["category"]) for x in ready[:args.limit]])
-        return 0
-    user=os.getenv("WP_USERNAME");password=os.getenv("WP_APPLICATION_PASSWORD")
-    if not user or not password:
-        print("Missing WP_USERNAME / WP_APPLICATION_PASSWORD secrets; no WordPress writes.")
-        return 2
-    paths=categories(user,password)
-    print("WordPress hierarchies available:",len(paths))
-    created=0;skipped=0
-    for article in ready:
-        if created>=args.limit: break
-        old=exists(article["title"],user,password)
-        if old:
-            skipped+=1
-            print(f"SKIP #{article['id']}: existing WP ID {old['id']} ({old['status']})")
-            continue
-        category_id=paths.get(article["category"])
-        status="publish" if category_id is not None else "draft"
-        payload={"title":article["title"],
-                 "slug":f"excel-{article['id']}-{slugify(article['title'])}",
-                 "status":status,
-                 "content":markdown_to_html(article["body"])}
-        if category_id is not None: payload["categories"]=[category_id]
-        result=wp("/wp/v2/posts",user,password,method="POST",payload=payload)
-        if result.get("status")!=status: raise RuntimeError("WordPress status mismatch")
-        print(f"CREATED #{article['id']} WP:{result['id']} status={status} category_id={category_id} URL={result.get('link')}")
-        created+=1
-    print(f"COMPLETE created={created} preexisting_skipped={skipped}")
-    output_path=os.getenv("GITHUB_OUTPUT")
-    if output_path:
-        with open(output_path,"a",encoding="utf-8") as out:
-            out.write(f"created={created}\n")
-    return 0
+    topics = matrix()
+    all_items, ready, errors = load_posts(topics)
+    report = {'at': now(), 'mode': args.mode, 'live': args.live, 'authored': len(all_items),
+              'qa_pass': len(ready), 'qa_errors': errors, 'created': [], 'existing': [], 'errors': [], 'has_more': False}
+    try:
+        if args.mode == 'sync':
+            if not args.live:
+                report['remaining_ready_ids'] = [x['id'] for x in ready]
+                report['notice'] = 'DRY RUN — no WordPress authentication or writes'
+            else:
+                user, password = os.getenv('WP_USERNAME'), os.getenv('WP_APPLICATION_PASSWORD')
+                if not user or not password:
+                    raise RuntimeError('BLOCKED: missing WP_USERNAME / WP_APPLICATION_PASSWORD GitHub Secrets; zero WordPress writes')
+                ledger = Ledger(args.persist_state)
+                sync(WPClient(user, password), ready, ledger, args.limit, report)
+    except (RuntimeError, ValueError) as exc:
+        report['errors'].append({'reason': str(exc)})
+    finally:
+        write_report(report)
+    return 1 if errors or report['errors'] else 0
 
-if __name__=="__main__":
-    parser=argparse.ArgumentParser()
-    parser.add_argument("--mode",choices=["qa","sync"],default="qa")
-    parser.add_argument("--limit",type=int,default=2)
-    parser.add_argument("--live",action="store_true")
-    args=parser.parse_args()
-    if not (1<=args.limit<=10):parser.error("limit must be 1..10")
-    try:sys.exit(run(args))
-    except (RuntimeError,ValueError) as e:
-        print("FAIL:",e,file=sys.stderr)
-        sys.exit(1)
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--mode', choices=['qa', 'sync'], default='qa')
+    parser.add_argument('--limit', type=int, choices=[1, 2], default=2)
+    parser.add_argument('--live', action='store_true')
+    parser.add_argument('--persist-state', action='store_true')
+    args = parser.parse_args()
+    sys.exit(run(args))

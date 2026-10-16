@@ -35,3 +35,11 @@ ready: true
 ```
 
 Each article needs at least 350 words and 3 level-2 sections. This is only a mechanical minimum; writers must provide actual substance. For SEO, improve contents with supporting images, authoritative references, links and structured data later through separate QA-reviewed changes.
+## Continuation and stronger QA
+- User's current target is 1,000–1,800 useful Vietnamese words per new article when the subject supports it. The publisher enforces at least 1,000 words for #172 onward; the earlier seven authored files are preserved.
+- Always select the two smallest IDs without complete authored files. Push each validated pair immediately. Do not mark an article published merely because it was pushed.
+- Install `requirements.txt` before QA. Use `python -m unittest discover -s tests -v` after modifying publisher code.
+- Do not edit `data/topics.json`: its original bytes are checksum protected.
+- Inspect `data/publication-state.json` and Actions receipts on resume. Never clear a POST_INTENT/VERIFY_PENDING record to make the publisher retry. Reconcile any uncertain WordPress write first.
+- Exact-title/slug checks are mechanical. The active writer must additionally compare search intent against the full Excel list and live WordPress inventory before writing. Do not invent fresh topics or a replacement Matrix.
+- Record session checkpoint in `docs/WRITER_CHECKPOINT.md`, including the content commit, QA, verified publication counts and the next two IDs. Secrets must never appear there.

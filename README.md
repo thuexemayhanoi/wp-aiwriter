@@ -23,3 +23,18 @@ This repository preserves the user's Excel SEO topic list **exactly** in [data/t
 - With no ready article, GitHub Actions does not generate prose. GitHub Actions is a publisher and deterministic QA runner; content generation requires an **active external AI writer session**, not a background LLM that has not been connected.
 
 Run QA manually: `python scripts/engine.py --mode qa`.
+
+## Verified publisher behavior (2026-10-16)
+
+- Missing authentication is a visible **BLOCKED / failed live run**, never a green dry run. Manual `live=false` remains available.
+- The complete category tree and post inventory are paginated. An exact, unique full category ancestry permits publication; missing/ambiguous ancestry creates a draft and records the reason.
+- New content from #172 onward must pass a 1,000-word mechanical floor, exact metadata, structure, placeholder, repeated-paragraph and near-duplicate-content checks. These checks supplement the active writer's factual and search-intent checks; they do not prove content quality automatically.
+- Markdown tables, emphasis and HTTPS links are rendered by the small Python-Markdown package. Actions does not author articles.
+- At most two new article attempts occur per run. A failed article does not prevent another valid article being processed. Remaining ready articles trigger another serialized run even if one attempted article failed.
+- `data/publication-state.json` is a durable write-ahead publication ledger, not a replacement Matrix. The original `data/topics.json` is protected by its original SHA-256 checksum.
+- Before a POST, the ledger is committed to latest main. After a POST, the WordPress ID is checkpointed. Readback checks the authenticated post, public REST content and public permalink. A successful HTTP response alone is insufficient.
+- A timed-out POST is **not blindly retried**. Later runs reconcile the exact title/slug and embedded matrix marker. An unresolved intent without a matching post remains blocked until investigated. Existing posts and drafts are always preserved; this publisher has no update/delete path.
+- Run receipts appear in the Actions summary and downloadable `publication-receipt-*` artifact, including failures. Count `VERIFIED` publish receipts separately from authored GitHub files.
+- Only the publisher uses WordPress Application Password secrets. No AI provider credentials or WPVibe/WP Agent calls are used.
+
+Validation: `python -m pip install -r requirements.txt`, `python -m unittest discover -s tests -v`, then `python scripts/engine.py --mode qa`.
