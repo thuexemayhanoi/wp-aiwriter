@@ -1313,7 +1313,17 @@
       "wp_id": 958,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-278-cach-bao-ve-tai-khoan-ung-dung-xe-dien-khi-dung-xe-khong-phai-cua-minh/"
+    },
+    "279": {
+      "title": "Ứng dụng thời tiết có ích thế nào khi lên kế hoạch đi xe điện?",
+      "source_hash": "f8a443b41b701caa132ba75b13cf2aa47a4fff35975faabcf49d1e79f8062914",
+      "checked_at": "2026-10-16T15:55:22.091139+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 18,
+      "slug": "excel-279-ung-dung-thoi-tiet-co-ich-the-nao-khi-len-ke-hoach-di-xe-dien",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T15:55:18.567541+00:00"
+  "updated_at": "2026-10-16T15:55:22.091154+00:00"
 }
