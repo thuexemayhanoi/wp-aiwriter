@@ -299,7 +299,17 @@
       "wp_id": 868,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-190-cac-dong-xe-50cc-cua-sym-co-gi-dang-chu-y-voi-nguoi-dung-do-thi/"
+    },
+    "191": {
+      "title": "Kymco 50cc phù hợp với nhóm người dùng nào?",
+      "source_hash": "142b53b2d9fcbf4012eb75b62ba179b7507aa606c5c97bf37197209628015b1f",
+      "checked_at": "2026-10-16T07:44:06.050694+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 20,
+      "slug": "excel-191-kymco-50cc-phu-hop-voi-nhom-nguoi-dung-nao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T07:44:04.296864+00:00"
+  "updated_at": "2026-10-16T07:44:06.050708+00:00"
 }
