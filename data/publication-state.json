@@ -1824,13 +1824,14 @@
     "308": {
       "title": "Xe số có phù hợp với người cần đi nhiều khu vực trong một ngày?",
       "source_hash": "fa01d296cf31c6c8144aed8f74269a14f82c363c541b5d79f1ff06fb61ebd765",
-      "checked_at": "2026-10-16T16:24:53.797551+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:24:55.683198+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 6,
       "slug": "excel-308-xe-so-co-phu-hop-voi-nguoi-can-di-nhieu-khu-vuc-trong-mot-ngay",
-      "reason": null
+      "reason": null,
+      "wp_id": 999
     }
   },
-  "updated_at": "2026-10-16T16:24:53.797564+00:00"
+  "updated_at": "2026-10-16T16:24:55.683214+00:00"
 }
