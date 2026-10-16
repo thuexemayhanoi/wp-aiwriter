@@ -1898,7 +1898,17 @@
       "wp_id": 1004,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-313-yamaha-jupiter-co-phu-hop-voi-nguoi-di-lam-moi-ngay-khong/"
+    },
+    "314": {
+      "title": "Xe số có phù hợp để chở thêm một người thường xuyên?",
+      "source_hash": "3f3d696d85ed7d042a474bc9191805d7e6fc61d5073976fe3da6c81afa4d77ab",
+      "checked_at": "2026-10-16T16:25:51.245637+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 6,
+      "slug": "excel-314-xe-so-co-phu-hop-de-cho-them-mot-nguoi-thuong-xuyen",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:25:49.908953+00:00"
+  "updated_at": "2026-10-16T16:25:51.245651+00:00"
 }
