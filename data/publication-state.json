@@ -862,13 +862,14 @@
     "234": {
       "title": "Dung lượng pin và quãng đường công bố: nên đọc thông số thế nào?",
       "source_hash": "8ac345c99dd73e3ae9b5bd311cbc384d4eb5fa91a7adabbd6bff4345ef00e430",
-      "checked_at": "2026-10-16T12:10:56.896383+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T12:10:58.751047+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 21,
       "slug": "excel-234-dung-luong-pin-va-quang-duong-cong-bo-nen-doc-thong-so-the-nao",
-      "reason": null
+      "reason": null,
+      "wp_id": 924
     }
   },
-  "updated_at": "2026-10-16T12:10:56.896396+00:00"
+  "updated_at": "2026-10-16T12:10:58.751063+00:00"
 }
