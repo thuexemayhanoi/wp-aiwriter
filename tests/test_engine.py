@@ -211,21 +211,34 @@ class PublicationSafety(unittest.TestCase):
                 self.assertIn('VERIFIED', run('show', 'origin/main:data/publication-state.json', cwd=work))
 
     def test_publisher_category_scope_follows_immutable_excel(self):
-        scope = e.publication_scope(e.matrix())
-        self.assertEqual(scope['category'], 'Cẩm nang > Hãng xe > Hãng xe điện')
-        self.assertEqual((scope['first_id'], scope['last_id'], scope['total']), (201, 235, 35))
-        self.assertEqual(scope['next_category'], 'Cẩm nang > Ứng dụng > App xe máy')
+        # Category changes are owner-approved. Guard the active *policy* category
+        # against immutable Excel rows, rather than pinning one completed category.
+        topics = e.matrix()
+        scope = e.publication_scope(topics)
+        policy = e.json.loads(e.POLICY_PATH.read_text(encoding='utf-8'))
+        self.assertEqual(scope['category'], policy['active_category'])
+        ids = [i for i, row in topics.items() if row['category'] == scope['category']]
+        self.assertTrue(ids)
+        self.assertEqual(ids, list(range(ids[0], ids[-1] + 1)))
+        self.assertEqual((scope['first_id'], scope['last_id'], scope['total']),
+                         (ids[0], ids[-1], len(ids)))
+        categories = list(dict.fromkeys(row['category'] for row in topics.values()))
+        idx = categories.index(scope['category'])
+        self.assertEqual(scope['next_category'],
+                         categories[idx + 1] if idx + 1 < len(categories) else None)
 
     def test_scope_produces_writer_queue_and_draft_when_taxonomy_absent(self):
         scope = e.publication_scope(e.matrix())
         ledger = FakeLedger()
         client = FakeWP(ledger)
+        # A fixture must not accidentally contain the new active leaf ancestry.
+        self.assertNotIn(scope['category'], e.category_paths(client.cats))
         r = report()
-        e.sync(client, [sample(201)], ledger, 5, r, scope=scope)
+        e.sync(client, [sample(scope['first_id'])], ledger, 5, r, scope=scope)
         self.assertEqual(r['created'][0]['status'], 'draft')
         self.assertEqual(r['category_progress']['expected_wordpress_category_id'], None)
         self.assertEqual(r['category_progress']['source_ready'], 1)
-        self.assertEqual(len(r['category_progress']['source_missing_ids']), 34)
+        self.assertEqual(len(r['category_progress']['source_missing_ids']), scope['total'] - 1)
         self.assertFalse(r['category_complete'])
         self.assertEqual(len(r['category_progress']['draft_or_pending']), 1)
 
