@@ -3592,13 +3592,14 @@
     "444": {
       "title": "Đi xe máy qua Kim Mã giờ cao điểm: những đoạn dễ ùn tắc",
       "source_hash": "377e6f0e3a95d50847eeef97235e70e0f32f2c41dd666fc2a7caf54338a2e752",
-      "checked_at": "2026-10-16T16:54:28.719606+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:54:30.573348+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 13,
       "slug": "excel-444-di-xe-may-qua-kim-ma-gio-cao-diem-nhung-doan-de-un-tac",
-      "reason": null
+      "reason": null,
+      "wp_id": 1135
     }
   },
-  "updated_at": "2026-10-16T16:54:28.719621+00:00"
+  "updated_at": "2026-10-16T16:54:30.573365+00:00"
 }
