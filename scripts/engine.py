@@ -29,8 +29,8 @@ STATE_PATH = ROOT / 'data/publication-state.json'
 WP_URL = 'https://blog.rentbikehanoi.com'
 MATRIX_SHA256 = '01192fc9ae78d7ddced2b9c7afa85b0794081269c11b028fdcf56e18aba4ca60'
 # Owner-approved publication boundary; do not cross into the next Excel category without review.
-APPROVED_CATEGORY = 'Cẩm nang > Hãng xe > Hãng xe máy'
-APPROVED_LAST_ID = 200
+APPROVED_CATEGORY = 'Cẩm nang > Hãng xe > Hãng xe điện'
+APPROVED_LAST_ID = 235
 
 
 def now():
