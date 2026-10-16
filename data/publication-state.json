@@ -1482,7 +1482,17 @@
       "wp_id": 972,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-281-xe-so-co-phu-hop-de-di-lam-hang-ngay-trong-noi-do-ha-noi-khong/"
+    },
+    "282": {
+      "title": "Honda Wave phù hợp với quãng đường đi làm ngắn hay dài?",
+      "source_hash": "f9afa9b6049156b17007ebcb663f601f53e433e0f5c2ffb84ef82c9fc6f399b5",
+      "checked_at": "2026-10-16T16:15:09.471267+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 6,
+      "slug": "excel-282-honda-wave-phu-hop-voi-quang-duong-di-lam-ngan-hay-dai",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:15:07.695864+00:00"
+  "updated_at": "2026-10-16T16:15:09.471284+00:00"
 }
