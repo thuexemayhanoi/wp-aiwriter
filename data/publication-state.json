@@ -2240,13 +2240,14 @@
     "340": {
       "title": "Air Blade và Vision: mẫu nào phù hợp người cao hơn?",
       "source_hash": "2f04c6a0c271d39f9cd40fc2aae300ebc606012491abaad26d907ce82302e982",
-      "checked_at": "2026-10-16T16:31:52.280960+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:31:54.143628+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-340-air-blade-va-vision-mau-nao-phu-hop-nguoi-cao-hon",
-      "reason": null
+      "reason": null,
+      "wp_id": 1031
     }
   },
-  "updated_at": "2026-10-16T16:31:52.280975+00:00"
+  "updated_at": "2026-10-16T16:31:54.143645+00:00"
 }
