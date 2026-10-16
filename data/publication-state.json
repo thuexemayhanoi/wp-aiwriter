@@ -1863,14 +1863,16 @@
     "311": {
       "title": "Honda Blade có phù hợp với người cần xe nhẹ, dễ xoay trở không?",
       "source_hash": "07451740f83e35df643376d3cb5054b3d14050f2d4a811cddd1c3f7fbcb8918d",
-      "checked_at": "2026-10-16T16:25:32.698023+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:25:35.454067+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 6,
       "slug": "excel-311-honda-blade-co-phu-hop-voi-nguoi-can-xe-nhe-de-xoay-tro-khong",
       "reason": null,
-      "wp_id": 1002
+      "wp_id": 1002,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-311-honda-blade-co-phu-hop-voi-nguoi-can-xe-nhe-de-xoay-tro-khong/"
     }
   },
-  "updated_at": "2026-10-16T16:25:32.698040+00:00"
+  "updated_at": "2026-10-16T16:25:35.454084+00:00"
 }
