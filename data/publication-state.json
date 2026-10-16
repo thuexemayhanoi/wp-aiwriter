@@ -507,7 +507,17 @@
       "wp_id": 895,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-206-dat-bike-khac-xe-may-dien-pho-thong-o-nhung-diem-nao/"
+    },
+    "207": {
+      "title": "Selex Motors tập trung vào kiểu sử dụng xe điện nào?",
+      "source_hash": "9a37f67782564b10862569eec55d90ef3501e36b8259a674226d98becc7b9dfd",
+      "checked_at": "2026-10-16T08:15:52.478242+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 21,
+      "slug": "excel-207-selex-motors-tap-trung-vao-kieu-su-dung-xe-dien-nao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T08:15:51.047590+00:00"
+  "updated_at": "2026-10-16T08:15:52.478258+00:00"
 }
