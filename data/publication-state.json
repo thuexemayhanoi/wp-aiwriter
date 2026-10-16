@@ -1525,13 +1525,14 @@
     "285": {
       "title": "Honda Future có thoải mái khi đi quãng đường dài trong ngày không?",
       "source_hash": "d99476d0964cf951a478cae92c397ed1e45d17f36a06fd51b37bb974f3b5469c",
-      "checked_at": "2026-10-16T16:15:35.221066+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:15:37.237821+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 6,
       "slug": "excel-285-honda-future-co-thoai-mai-khi-di-quang-duong-dai-trong-ngay-khong",
-      "reason": null
+      "reason": null,
+      "wp_id": 976
     }
   },
-  "updated_at": "2026-10-16T16:15:35.221081+00:00"
+  "updated_at": "2026-10-16T16:15:37.237839+00:00"
 }
