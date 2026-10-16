@@ -719,13 +719,14 @@
     "223": {
       "title": "Xe điện thương hiệu quốc tế có điểm mạnh gì về mẫu mã và công nghệ?",
       "source_hash": "799540a29ac5ad0bee372fbd28a7b4cff406ab02c2b282c27277b5d18f470b67",
-      "checked_at": "2026-10-16T10:21:19.988333+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T10:21:22.031708+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 21,
       "slug": "excel-223-xe-dien-thuong-hieu-quoc-te-co-diem-manh-gi-ve-mau-ma-va-cong-nghe",
-      "reason": null
+      "reason": null,
+      "wp_id": 913
     }
   },
-  "updated_at": "2026-10-16T10:21:19.988352+00:00"
+  "updated_at": "2026-10-16T10:21:22.031730+00:00"
 }
