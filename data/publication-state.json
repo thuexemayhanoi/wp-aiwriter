@@ -1469,7 +1469,17 @@
       "wp_id": 971,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-275-cach-xu-ly-khi-ung-dung-xe-dien-khong-dong-bo-du-lieu-pin/"
+    },
+    "281": {
+      "title": "Xe số có phù hợp để đi làm hằng ngày trong nội đô Hà Nội không?",
+      "source_hash": "1424731e7225df9c440e4eb7266de30d695b92ecff84f9d2b5abe66555cb170a",
+      "checked_at": "2026-10-16T16:15:02.117859+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 6,
+      "slug": "excel-281-xe-so-co-phu-hop-de-di-lam-hang-ngay-trong-noi-do-ha-noi-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:11:53.307933+00:00"
+  "updated_at": "2026-10-16T16:15:02.117877+00:00"
 }
