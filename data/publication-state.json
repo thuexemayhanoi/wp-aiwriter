@@ -2405,7 +2405,17 @@
       "wp_id": 1043,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-352-cach-lam-quen-voi-ga-va-phanh-khi-moi-dung-xe-tay-ga/"
+    },
+    "353": {
+      "title": "Người thấp nên chọn xe ga theo chiều cao yên thế nào?",
+      "source_hash": "503c2f355f0ffc496e75267146e475a5790bd7bec84cfb6455a482e3743bf104",
+      "checked_at": "2026-10-16T16:34:16.166646+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 7,
+      "slug": "excel-353-nguoi-thap-nen-chon-xe-ga-theo-chieu-cao-yen-the-nao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:34:14.815253+00:00"
+  "updated_at": "2026-10-16T16:34:16.166660+00:00"
 }
