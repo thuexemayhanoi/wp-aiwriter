@@ -3241,13 +3241,14 @@
     "417": {
       "title": "Xe 50cc có dễ điều khiển với người mới không?",
       "source_hash": "5ca246b41281541057bf3362d93801ab6d35d6a942edeb41f47d1744392f8036",
-      "checked_at": "2026-10-16T16:48:09.900165+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:48:12.561687+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 5,
       "slug": "excel-417-xe-50cc-co-de-dieu-khien-voi-nguoi-moi-khong",
-      "reason": null
+      "reason": null,
+      "wp_id": 1108
     }
   },
-  "updated_at": "2026-10-16T16:48:09.900179+00:00"
+  "updated_at": "2026-10-16T16:48:12.561740+00:00"
 }
