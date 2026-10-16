@@ -1950,7 +1950,17 @@
       "wp_id": 1008,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-317-xe-so-dung-phanh-dia-va-phanh-co-khac-nhau-the-nao-khi-di-pho/"
+    },
+    "318": {
+      "title": "Xe số và xe 50cc khác nhau thế nào về cảm giác vận hành?",
+      "source_hash": "1223a1e7add516990c9987c6af214a87e73c1d14b18fba713a5cd0d23ed854d0",
+      "checked_at": "2026-10-16T16:26:34.228311+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 6,
+      "slug": "excel-318-xe-so-va-xe-50cc-khac-nhau-the-nao-ve-cam-giac-van-hanh",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:26:32.827039+00:00"
+  "updated_at": "2026-10-16T16:26:34.228323+00:00"
 }
