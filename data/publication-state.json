@@ -2392,7 +2392,17 @@
       "wp_id": 1042,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-351-xe-ga-co-phu-hop-voi-nguoi-moi-chuyen-tu-xe-so-sang-khong/"
+    },
+    "352": {
+      "title": "Cách làm quen với ga và phanh khi mới dùng xe tay ga",
+      "source_hash": "71994604441e6c9ec40c0f8fb41d323141c66bc5b08e1c8e8dda2ec053a50f17",
+      "checked_at": "2026-10-16T16:34:10.117228+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 7,
+      "slug": "excel-352-cach-lam-quen-voi-ga-va-phanh-khi-moi-dung-xe-tay-ga",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:34:08.761425+00:00"
+  "updated_at": "2026-10-16T16:34:10.117243+00:00"
 }
