@@ -2084,14 +2084,16 @@
     "328": {
       "title": "Honda Air Blade phù hợp với người đi nhiều kilomet mỗi ngày không?",
       "source_hash": "d1de23ad94c4fc61512e562c728caa0323aa23112b6b0f89448d97c84b767f26",
-      "checked_at": "2026-10-16T16:29:59.887620+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:30:02.758932+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-328-honda-air-blade-phu-hop-voi-nguoi-di-nhieu-kilomet-moi-ngay-khong",
       "reason": null,
-      "wp_id": 1019
+      "wp_id": 1019,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-328-honda-air-blade-phu-hop-voi-nguoi-di-nhieu-kilomet-moi-ngay-khong/"
     }
   },
-  "updated_at": "2026-10-16T16:29:59.887636+00:00"
+  "updated_at": "2026-10-16T16:30:02.758952+00:00"
 }
