@@ -2266,14 +2266,16 @@
     "342": {
       "title": "FreeGo và Janus: mẫu nào phù hợp đường phố đông hơn?",
       "source_hash": "9a165dc3ee14a46f943787b65bfc17fd4aa68d21cbeb226ddeabaa9a4e592a5a",
-      "checked_at": "2026-10-16T16:32:26.029775+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:32:28.904701+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-342-freego-va-janus-mau-nao-phu-hop-duong-pho-dong-hon",
       "reason": null,
-      "wp_id": 1033
+      "wp_id": 1033,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-342-freego-va-janus-mau-nao-phu-hop-duong-pho-dong-hon/"
     }
   },
-  "updated_at": "2026-10-16T16:32:26.029792+00:00"
+  "updated_at": "2026-10-16T16:32:28.904734+00:00"
 }
