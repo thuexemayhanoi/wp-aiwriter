@@ -1083,14 +1083,16 @@
     "251": {
       "title": "Cách theo dõi chi phí đi lại hằng ngày bằng ứng dụng ngân sách",
       "source_hash": "92a3be15fa9a27ff3337eb76946ffe7c233128f2a212657d6583664569394826",
-      "checked_at": "2026-10-16T14:44:00.934526+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T14:44:04.199644+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 17,
       "slug": "excel-251-cach-theo-doi-chi-phi-di-lai-hang-ngay-bang-ung-dung-ngan-sach",
       "reason": null,
-      "wp_id": 941
+      "wp_id": 941,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-251-cach-theo-doi-chi-phi-di-lai-hang-ngay-bang-ung-dung-ngan-sach/"
     }
   },
-  "updated_at": "2026-10-16T14:44:00.934542+00:00"
+  "updated_at": "2026-10-16T14:44:04.199660+00:00"
 }
