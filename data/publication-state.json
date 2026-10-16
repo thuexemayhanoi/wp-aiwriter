@@ -1174,13 +1174,14 @@
     "259": {
       "title": "Ứng dụng dịch thuật hữu ích thế nào với khách nước ngoài thuê xe máy?",
       "source_hash": "e3794dc19f8adce2dcf43a8c4bfd62924ee0bdbd2a689ca0811ba27028562c29",
-      "checked_at": "2026-10-16T15:16:15.361333+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T15:16:17.190994+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 17,
       "slug": "excel-259-ung-dung-dich-thuat-huu-ich-the-nao-voi-khach-nuoc-ngoai-thue-xe-may",
-      "reason": null
+      "reason": null,
+      "wp_id": 948
     }
   },
-  "updated_at": "2026-10-16T15:16:15.361350+00:00"
+  "updated_at": "2026-10-16T15:16:17.191011+00:00"
 }
