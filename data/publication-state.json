@@ -4320,13 +4320,14 @@
     "500": {
       "title": "Đi xe máy ở Long Biên khi mưa lớn: nên lưu ý đoạn đường và cầu nào?",
       "source_hash": "7b9d4c4351e260b670e0860e5a9e09e1934702560b0ddaeedde2ffcb3fcd613a",
-      "checked_at": "2026-10-16T17:11:01.377774+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T17:11:03.520089+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 12,
       "slug": "excel-500-di-xe-may-o-long-bien-khi-mua-lon-nen-luu-y-doan-duong-va-cau-nao",
-      "reason": null
+      "reason": null,
+      "wp_id": 1191
     }
   },
-  "updated_at": "2026-10-16T17:11:01.377787+00:00"
+  "updated_at": "2026-10-16T17:11:03.520108+00:00"
 }
