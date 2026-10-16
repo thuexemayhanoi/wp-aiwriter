@@ -2838,13 +2838,14 @@
     "386": {
       "title": "Đi xe điện giờ cao điểm có ảnh hưởng nhiều đến mức pin không?",
       "source_hash": "0a846e5ff54301039f69c1c195d14dd2acbe2075bc171ae2da305371e1b0348e",
-      "checked_at": "2026-10-16T16:41:56.425436+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:41:58.859504+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 8,
       "slug": "excel-386-di-xe-dien-gio-cao-diem-co-anh-huong-nhieu-den-muc-pin-khong",
-      "reason": null
+      "reason": null,
+      "wp_id": 1077
     }
   },
-  "updated_at": "2026-10-16T16:41:56.425456+00:00"
+  "updated_at": "2026-10-16T16:41:58.859523+00:00"
 }
