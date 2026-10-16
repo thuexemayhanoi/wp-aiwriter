@@ -966,14 +966,16 @@
     "242": {
       "title": "Ứng dụng bản đồ nào hữu ích khi cần tránh đường tắc ở Hà Nội?",
       "source_hash": "b121b14121b1fcdb96b42aef27afa1a526686f8a8395a6d5329b94b1648a71ff",
-      "checked_at": "2026-10-16T13:11:50.785351+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T13:11:53.676199+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 17,
       "slug": "excel-242-ung-dung-ban-do-nao-huu-ich-khi-can-tranh-duong-tac-o-ha-noi",
       "reason": null,
-      "wp_id": 932
+      "wp_id": 932,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-242-ung-dung-ban-do-nao-huu-ich-khi-can-tranh-duong-tac-o-ha-noi/"
     }
   },
-  "updated_at": "2026-10-16T13:11:50.785370+00:00"
+  "updated_at": "2026-10-16T13:11:53.676221+00:00"
 }
