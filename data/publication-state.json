@@ -966,13 +966,14 @@
     "242": {
       "title": "Ứng dụng bản đồ nào hữu ích khi cần tránh đường tắc ở Hà Nội?",
       "source_hash": "b121b14121b1fcdb96b42aef27afa1a526686f8a8395a6d5329b94b1648a71ff",
-      "checked_at": "2026-10-16T13:11:49.029945+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T13:11:50.785351+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 17,
       "slug": "excel-242-ung-dung-ban-do-nao-huu-ich-khi-can-tranh-duong-tac-o-ha-noi",
-      "reason": null
+      "reason": null,
+      "wp_id": 932
     }
   },
-  "updated_at": "2026-10-16T13:11:49.029961+00:00"
+  "updated_at": "2026-10-16T13:11:50.785370+00:00"
 }
