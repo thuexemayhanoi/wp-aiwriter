@@ -547,7 +547,7 @@
   },
   "crawl": {
     "archives_crawled": 175,
-    "at": "2026-10-16T19:30:15+00:00",
+    "at": "2026-10-16T20:06:40+00:00",
     "full": true,
     "images_checked": 1,
     "internal_targets_checked": 9,
@@ -557,11 +557,11 @@
     "requests": 748
   },
   "delta_vs_previous": {
-    "new": 0,
+    "new": 4,
     "resolved": 0
   },
   "discovery": {
-    "checked_at": "2026-10-16T19:26:34+00:00",
+    "checked_at": "2026-10-16T20:03:11+00:00",
     "description": "Thuê xe máy, xe 50cc và xe điện tại Hà Nội",
     "gmt_offset": 7,
     "home": "https://blog.rentbikehanoi.com",
@@ -590,15 +590,15 @@
     "yoast_rest_namespace": true
   },
   "external_links": {
-    "checked_at": "2026-10-16T19:34:22+00:00",
+    "checked_at": "2026-10-16T20:10:41+00:00",
     "checked_now": 110,
     "external_unique": 506,
     "failed_after_check": 110,
     "skipped_cap": 0
   },
-  "generated_at": "2026-10-16T19:34:41+00:00",
+  "generated_at": "2026-10-16T20:11:11+00:00",
   "gsc": {
-    "checked_at": "2026-10-16T19:34:22+00:00",
+    "checked_at": "2026-10-16T20:10:56+00:00",
     "reason": "GSC_SERVICE_ACCOUNT_JSON / GSC_PROPERTY not configured",
     "status": "BLOCKED"
   },
@@ -773,6 +773,12 @@
         "verification": "INFO"
       },
       {
+        "code": "T-SLOW-RESPONSE",
+        "count": 4,
+        "priority": "P3",
+        "verification": "INFO"
+      },
+      {
         "code": "T-META-DESC-SHORT",
         "count": 1,
         "priority": "P3",
@@ -824,7 +830,7 @@
     "by_priority": {
       "P1": 51,
       "P2": 1583,
-      "P3": 1434
+      "P3": 1438
     },
     "by_priority_and_verification": {
       "P1/NEEDS_REVIEW": 43,
@@ -832,7 +838,7 @@
       "P2/NEEDS_REVIEW": 432,
       "P2/VERIFIED": 1151,
       "P3/BLOCKED": 3,
-      "P3/INFO": 110,
+      "P3/INFO": 114,
       "P3/NEEDS_REVIEW": 340,
       "P3/VERIFIED": 981
     }
@@ -863,32 +869,32 @@
   "pagespeed": [
     {
       "error": "HTTP 429",
-      "measured_at": "2026-10-16T19:15:34+00:00",
+      "measured_at": "2026-10-16T20:10:45+00:00",
       "status": 429,
       "url": "https://blog.rentbikehanoi.com/"
     },
     {
       "error": "HTTP 429",
-      "measured_at": "2026-10-16T19:15:38+00:00",
+      "measured_at": "2026-10-16T20:10:48+00:00",
       "status": 429,
       "url": "https://blog.rentbikehanoi.com/dich-vu-cho-thue-xe-may-ha-noi-gia-thu-tuc-dia-chi-kinh-nghiem/"
     },
     {
       "error": "HTTP 429",
-      "measured_at": "2026-10-16T19:15:41+00:00",
+      "measured_at": "2026-10-16T20:10:52+00:00",
       "status": 429,
       "url": "https://blog.rentbikehanoi.com/cach-doc-bien-cam-xe-may-thuong-gap-trong-noi-do-ha-noi/"
     },
     {
       "error": "HTTP 429",
-      "measured_at": "2026-10-16T19:15:44+00:00",
+      "measured_at": "2026-10-16T20:10:56+00:00",
       "status": 429,
       "url": "https://blog.rentbikehanoi.com/category/cam-nang/kinh-nghiem/"
     }
   ],
   "probes": {
     "core_wp_sitemap": {
-      "elapsed_ms": 744,
+      "elapsed_ms": 564,
       "error": "",
       "final_url": "https://blog.rentbikehanoi.com/sitemap_index.xml",
       "redirects": [
@@ -901,7 +907,7 @@
       "status": 200
     },
     "http_to_https": {
-      "elapsed_ms": 624,
+      "elapsed_ms": 460,
       "error": "",
       "final_url": "https://blog.rentbikehanoi.com/",
       "redirects": [
@@ -918,7 +924,7 @@
       "status": 404
     },
     "no_trailing_slash_probe": {
-      "elapsed_ms": 692,
+      "elapsed_ms": 459,
       "error": "",
       "final_url": "https://blog.rentbikehanoi.com/thue-xe-may-theo-ngay-ha-noi/",
       "redirects": [
@@ -932,12 +938,12 @@
       "url": "https://blog.rentbikehanoi.com/thue-xe-may-theo-ngay-ha-noi"
     },
     "not_found_probe": {
-      "elapsed_ms": 454,
+      "elapsed_ms": 422,
       "error": "",
-      "final_url": "https://blog.rentbikehanoi.com/seo-audit-probe-d7d26cb689ae-not-a-page/",
+      "final_url": "https://blog.rentbikehanoi.com/seo-audit-probe-afa09bc591db-not-a-page/",
       "redirects": [],
       "status": 404,
-      "url": "https://blog.rentbikehanoi.com/seo-audit-probe-d7d26cb689ae-not-a-page/"
+      "url": "https://blog.rentbikehanoi.com/seo-audit-probe-afa09bc591db-not-a-page/"
     },
     "robots_disallow_all": false,
     "robots_sitemaps": [
@@ -978,7 +984,7 @@
     "sitemap_url_count": 548
   },
   "read_only": true,
-  "run": "https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38954915709",
+  "run": "https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38959382562",
   "site": "https://blog.rentbikehanoi.com",
   "stack": {
     "generator": "WordPress 7.1.3",

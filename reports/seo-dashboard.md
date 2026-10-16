@@ -1,6 +1,6 @@
 # SEO Dashboard — https://blog.rentbikehanoi.com
 
-Cập nhật: **2026-10-16T19:34:41+00:00** · Lần chạy: https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38954915709 · Chế độ: `matrix` · **Chỉ đọc**: engine không ghi vào WordPress.
+Cập nhật: **2026-10-16T20:11:11+00:00** · Lần chạy: https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38959382562 · Chế độ: `matrix` · **Chỉ đọc**: engine không ghi vào WordPress.
 
 ## Tổng quan inventory
 
@@ -17,9 +17,9 @@ Crawl: 525 bài/trang tải mới, 0 dùng lại, 175 trang chuyên mục/lưu t
 | P0 | 0 | 0 | 0 | 0 | 0 |
 | P1 | 8 | 43 | 0 | 0 | 51 |
 | P2 | 1151 | 432 | 0 | 0 | 1583 |
-| P3 | 981 | 340 | 110 | 3 | 1434 |
+| P3 | 981 | 340 | 114 | 3 | 1438 |
 
-So với lần trước: **0 mới**, **0 đã hết**.
+So với lần trước: **4 mới**, **0 đã hết**.
 
 ## Mã lỗi phổ biến
 
