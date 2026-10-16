@@ -602,13 +602,14 @@
     "214": {
       "title": "Những dòng xe điện có thiết kế gần giống xe ga truyền thống",
       "source_hash": "fcb8ac4fc4d7b566b79d8f2e005386700eae08110f1ea54eeb57dbb84d33ce25",
-      "checked_at": "2026-10-16T09:32:37.096123+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T09:32:39.355561+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 21,
       "slug": "excel-214-nhung-dong-xe-dien-co-thiet-ke-gan-giong-xe-ga-truyen-thong",
-      "reason": null
+      "reason": null,
+      "wp_id": 904
     }
   },
-  "updated_at": "2026-10-16T09:32:37.096143+00:00"
+  "updated_at": "2026-10-16T09:32:39.355580+00:00"
 }
