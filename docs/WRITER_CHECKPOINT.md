@@ -1,3 +1,14 @@
+# Verified production checkpoint — 2026-10-16 through Excel #216
+
+- Authorized current batch: **#214–216**, written and pushed individually to `main` as `posts/0214.md`, `posts/0215.md`, `posts/0216.md`. Original Excel IDs, exact titles and full taxonomy path `Cẩm nang > Hãng xe > Hãng xe điện` preserved, researched against relevant official VinFast manufacturer product pages.
+- QA workflow [38881064994](https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38881064994) = SUCCESS: **52 authored posts, 52 QA PASS, 0 QA FAIL, 18/18 safety regression tests PASS**.
+- Live WordPress publisher [38867887824](https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38867887824) latest re-run = **SUCCESS**, all three created, publicly verified and committed to ledger as `VERIFIED`: **#214 → WP 904**, **#215 → WP 905**, **#216 → WP 906**, `status=publish`, category **21**, no duplicates or errors. URLs are recorded in `data/publication-state.json`.
+- Excel progress **71/355 published**, first category #146–200 finished 55/55, current #201–235 published **16/35**, **19 missing #217–235**. Current authored total 52 files #165–216, **284 files #217–500 not yet authored**.
+- NEXT WRITE: **#217–219**, exact titles/category from `data/topics.json`. Preserve 3–5 per owner-approved batch; QA before publishing. Do not proceed to category #236+ until full current group completes and is reported for review. No WordPress Trash interaction, no duplicate or legacy re-creation.
+- GitHub workflows publish existing Markdown files only; do not claim an unsupervised AI writer is running.
+
+---
+
 # Production checkpoint — 2026-10-16 through #213
 
 - Owner approved one new WordPress batch of 3 posts. No scheduled auto-publishing, no change in active category, no interaction with WordPress Trash.
