@@ -381,13 +381,14 @@
     "197": {
       "title": "Cách nhận biết các phiên bản Yamaha Sirius phổ biến",
       "source_hash": "10ea5b804e3a9320510fe1e0ea58e3530c7abf731a304a5ac97cfcf4aa9419db",
-      "checked_at": "2026-10-16T07:45:30.895769+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T07:45:33.124682+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 20,
       "slug": "excel-197-cach-nhan-biet-cac-phien-ban-yamaha-sirius-pho-bien",
-      "reason": null
+      "reason": null,
+      "wp_id": 875
     }
   },
-  "updated_at": "2026-10-16T07:45:30.895782+00:00"
+  "updated_at": "2026-10-16T07:45:33.124699+00:00"
 }
