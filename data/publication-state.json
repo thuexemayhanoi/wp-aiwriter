@@ -1447,14 +1447,16 @@
     "274": {
       "title": "Cách kiểm tra tình trạng trạm sạc trước khi di chuyển",
       "source_hash": "e3485c0d4cce8abda8aceb9a4b04110c242325002d6956b842aa616c2206c27c",
-      "checked_at": "2026-10-16T16:11:43.449165+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:11:46.284639+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 18,
       "slug": "excel-274-cach-kiem-tra-tinh-trang-tram-sac-truoc-khi-di-chuyen",
       "reason": null,
-      "wp_id": 970
+      "wp_id": 970,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-274-cach-kiem-tra-tinh-trang-tram-sac-truoc-khi-di-chuyen/"
     }
   },
-  "updated_at": "2026-10-16T16:11:43.449181+00:00"
+  "updated_at": "2026-10-16T16:11:46.284655+00:00"
 }
