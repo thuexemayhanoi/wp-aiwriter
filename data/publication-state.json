@@ -3657,13 +3657,14 @@
     "449": {
       "title": "Một ngày khám phá Ba Đình bằng xe máy: gợi ý các điểm dừng gần nhau",
       "source_hash": "1e3e612c970eda71c02e6312867cce6c7bd6a3c42923218a4c9bd1f351d53972",
-      "checked_at": "2026-10-16T16:55:18.875203+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:55:20.864899+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 13,
       "slug": "excel-449-mot-ngay-kham-pha-ba-dinh-bang-xe-may-goi-y-cac-diem-dung-gan-nhau",
-      "reason": null
+      "reason": null,
+      "wp_id": 1140
     }
   },
-  "updated_at": "2026-10-16T16:55:18.875216+00:00"
+  "updated_at": "2026-10-16T16:55:20.864917+00:00"
 }
