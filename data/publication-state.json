@@ -446,13 +446,14 @@
     "202": {
       "title": "VinFast Evo series khác nhau ở những điểm nào?",
       "source_hash": "f8c2fbafcab813e1b7defaa5e5e066a6675dd36e8cdf08a3027207e6f1ee1ec4",
-      "checked_at": "2026-10-16T08:10:00.824918+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T08:10:03.551300+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 21,
       "slug": "excel-202-vinfast-evo-series-khac-nhau-o-nhung-diem-nao",
-      "reason": null
+      "reason": null,
+      "wp_id": 891
     }
   },
-  "updated_at": "2026-10-16T08:10:00.824930+00:00"
+  "updated_at": "2026-10-16T08:10:03.551316+00:00"
 }
