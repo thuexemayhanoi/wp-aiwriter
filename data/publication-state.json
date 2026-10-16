@@ -1785,14 +1785,16 @@
     "305": {
       "title": "Đi nhiều kilomet mỗi ngày có nên ưu tiên xe số?",
       "source_hash": "3ab728598b3b8b648d9e8a39f9b682a4a1292aee280840db152472a3f7e98b3b",
-      "checked_at": "2026-10-16T16:24:17.510633+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:24:20.360176+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 6,
       "slug": "excel-305-di-nhieu-kilomet-moi-ngay-co-nen-uu-tien-xe-so",
       "reason": null,
-      "wp_id": 996
+      "wp_id": 996,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-305-di-nhieu-kilomet-moi-ngay-co-nen-uu-tien-xe-so/"
     }
   },
-  "updated_at": "2026-10-16T16:24:17.510649+00:00"
+  "updated_at": "2026-10-16T16:24:20.360193+00:00"
 }
