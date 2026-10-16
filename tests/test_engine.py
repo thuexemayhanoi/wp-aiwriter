@@ -210,6 +210,47 @@ class PublicationSafety(unittest.TestCase):
                 ledger.save()
                 self.assertIn('VERIFIED', run('show', 'origin/main:data/publication-state.json', cwd=work))
 
+    def test_publisher_category_scope_follows_immutable_excel(self):
+        scope = e.publication_scope(e.matrix())
+        self.assertEqual(scope['category'], 'Cẩm nang > Hãng xe > Hãng xe điện')
+        self.assertEqual((scope['first_id'], scope['last_id'], scope['total']), (201, 235, 35))
+        self.assertEqual(scope['next_category'], 'Cẩm nang > Ứng dụng > App xe máy')
+
+    def test_scope_produces_writer_queue_and_draft_when_taxonomy_absent(self):
+        scope = e.publication_scope(e.matrix())
+        ledger = FakeLedger()
+        client = FakeWP(ledger)
+        r = report()
+        e.sync(client, [sample(201)], ledger, 5, r, scope=scope)
+        self.assertEqual(r['created'][0]['status'], 'draft')
+        self.assertEqual(r['category_progress']['expected_wordpress_category_id'], None)
+        self.assertEqual(r['category_progress']['source_ready'], 1)
+        self.assertEqual(len(r['category_progress']['source_missing_ids']), 34)
+        self.assertFalse(r['category_complete'])
+        self.assertEqual(len(r['category_progress']['draft_or_pending']), 1)
+
+    def test_invalid_category_is_rejected_not_guessed(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            policy = pathlib.Path(tmp) / 'policy.json'
+            policy.write_text('{"active_category":"Unverified","publication_mode":"owner_approved_batches",'
+                              '"batch_choices":[3,4,5],"pause_at_category_end":true,'
+                              '"on_missing_or_ambiguous_category":"draft",'
+                              '"on_trashed_posts":"do_not_touch"}', encoding='utf8')
+            with patch.object(e, 'POLICY_PATH', policy):
+                with self.assertRaisesRegex(ValueError, 'does not match'):
+                    e.publication_scope(e.matrix())
+
+    def test_qa_fail_blocks_live_sync_before_wordpress(self):
+        args = type('Args', (), {'mode': 'sync', 'live': True, 'limit': 3, 'persist_state': False})()
+        error = [{'file': 'posts/0999.md', 'reason': 'Test QA failure'}]
+        with patch.object(e, 'load_posts', return_value=([], [], error)), \
+             patch.object(e, 'write_report') as writer, \
+             patch.object(e, 'WPClient') as client, \
+             patch.dict(e.os.environ, {'WP_USERNAME': 'fake', 'WP_APPLICATION_PASSWORD': 'fake'}):
+            self.assertEqual(e.run(args), 1)
+            self.assertIn('QA errors present', writer.call_args[0][0]['errors'][0]['reason'])
+            client.assert_not_called()
+
     def test_missing_secrets_is_failure_not_successful_dry_run(self):
         args = type('Args', (), {'mode': 'sync', 'live': True, 'limit': 2, 'persist_state': False})()
         with patch.dict(e.os.environ, {'WP_USERNAME': '', 'WP_APPLICATION_PASSWORD': ''}), patch.object(e, 'write_report') as writer:
