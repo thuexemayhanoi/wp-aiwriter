@@ -1612,7 +1612,17 @@
       "wp_id": 982,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-291-xe-so-125cc-khac-xe-so-pho-thong-o-diem-nao-khi-van-hanh/"
+    },
+    "292": {
+      "title": "Xe số có tiết kiệm xăng hơn xe ga trong điều kiện phố đông không?",
+      "source_hash": "e4acafbd0722db5467ba1de8c814adf4725c224ac71d154822ce636b69578287",
+      "checked_at": "2026-10-16T16:22:11.719641+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 6,
+      "slug": "excel-292-xe-so-co-tiet-kiem-xang-hon-xe-ga-trong-dieu-kien-pho-dong-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:22:10.159515+00:00"
+  "updated_at": "2026-10-16T16:22:11.719654+00:00"
 }
