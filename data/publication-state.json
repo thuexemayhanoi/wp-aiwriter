@@ -2604,13 +2604,14 @@
     "368": {
       "title": "Thuê xe ga dài ngày cần kiểm tra những bộ phận nào thường xuyên?",
       "source_hash": "e25be848377de7727d64b8e5f882cfd1d11e51a2b44eb83f6f5c55ca02cf68c6",
-      "checked_at": "2026-10-16T16:36:50.853694+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:36:52.856844+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-368-thue-xe-ga-dai-ngay-can-kiem-tra-nhung-bo-phan-nao-thuong-xuyen",
-      "reason": null
+      "reason": null,
+      "wp_id": 1059
     }
   },
-  "updated_at": "2026-10-16T16:36:50.853707+00:00"
+  "updated_at": "2026-10-16T16:36:52.856861+00:00"
 }
