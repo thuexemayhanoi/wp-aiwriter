@@ -3926,7 +3926,17 @@
       "wp_id": 1160,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-469-di-xe-may-quanh-khu-vuc-hang-bai-nen-luu-y-gi-vao-gio-cao-diem/"
+    },
+    "470": {
+      "title": "Đi xe máy qua Trần Hưng Đạo và Lý Thường Kiệt: cách chọn tuyến dễ đi",
+      "source_hash": "21dd4c932b70488f96248bef432ca778519f7b98a330a1ef962a5ac6f1578e76",
+      "checked_at": "2026-10-16T17:02:34.578121+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 10,
+      "slug": "excel-470-di-xe-may-qua-tran-hung-dao-va-ly-thuong-kiet-cach-chon-tuyen-de-di",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T17:02:32.757403+00:00"
+  "updated_at": "2026-10-16T17:02:34.578134+00:00"
 }
