@@ -2825,13 +2825,14 @@
     "385": {
       "title": "Quãng đường thực tế của xe điện phụ thuộc vào những yếu tố nào?",
       "source_hash": "5add633d9c29af8d3e3b88438e95b6d283a7a1ff520242ac3ff135ea367b1fdb",
-      "checked_at": "2026-10-16T16:41:30.631437+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:41:32.867919+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 8,
       "slug": "excel-385-quang-duong-thuc-te-cua-xe-dien-phu-thuoc-vao-nhung-yeu-to-nao",
-      "reason": null
+      "reason": null,
+      "wp_id": 1076
     }
   },
-  "updated_at": "2026-10-16T16:41:30.631453+00:00"
+  "updated_at": "2026-10-16T16:41:32.867939+00:00"
 }
