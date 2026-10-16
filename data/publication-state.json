@@ -2994,14 +2994,16 @@
     "398": {
       "title": "Cách đọc phần trăm pin để tránh hết điện giữa đường",
       "source_hash": "a84fa7e5b82fbc021d4ccaaf95ec1f7f9313ce51abb21838d11e53618c836a1b",
-      "checked_at": "2026-10-16T16:44:05.944000+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:44:09.653322+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 8,
       "slug": "excel-398-cach-doc-phan-tram-pin-de-tranh-het-dien-giua-duong",
       "reason": null,
-      "wp_id": 1089
+      "wp_id": 1089,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-398-cach-doc-phan-tram-pin-de-tranh-het-dien-giua-duong/"
     }
   },
-  "updated_at": "2026-10-16T16:44:05.944020+00:00"
+  "updated_at": "2026-10-16T16:44:09.653344+00:00"
 }
