@@ -3380,7 +3380,17 @@
       "wp_id": 1118,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-427-xe-50cc-co-tiet-kiem-xang-khi-di-noi-do-khong/"
+    },
+    "428": {
+      "title": "Cách chọn xe 50cc theo chiều cao và vóc dáng người lái",
+      "source_hash": "c77ffced0d3de1509c8cc7189ca21b9dde1e9bd2e194f7344aed3ffdbd134dfe",
+      "checked_at": "2026-10-16T16:50:01.751942+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 5,
+      "slug": "excel-428-cach-chon-xe-50cc-theo-chieu-cao-va-voc-dang-nguoi-lai",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:50:00.074814+00:00"
+  "updated_at": "2026-10-16T16:50:01.751958+00:00"
 }
