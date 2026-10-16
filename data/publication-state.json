@@ -2903,13 +2903,14 @@
     "391": {
       "title": "Ở nhà trọ và dùng xe điện: nên kiểm tra chỗ sạc thế nào?",
       "source_hash": "b40f6a59b3cae7b8fcdbc74cc91d5c3da188c779a03aaa9d3ee7a5230e96dc1e",
-      "checked_at": "2026-10-16T16:42:52.923302+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:42:55.595998+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 8,
       "slug": "excel-391-o-nha-tro-va-dung-xe-dien-nen-kiem-tra-cho-sac-the-nao",
-      "reason": null
+      "reason": null,
+      "wp_id": 1082
     }
   },
-  "updated_at": "2026-10-16T16:42:52.923322+00:00"
+  "updated_at": "2026-10-16T16:42:55.596018+00:00"
 }
