@@ -57,6 +57,10 @@
         "sample_size": 25
       }
     },
+    "author_names": {
+      "admin": 501
+    },
+    "generic_author_posts": 501,
     "llms_txt_status": 404,
     "organization_names": {
       "Thuê xe máy Nguyễn Hà": 525
@@ -453,30 +457,6 @@
         }
       },
       {
-        "category_id": 19,
-        "cluster_archive": "https://blog.rentbikehanoi.com/category/cam-nang/hang-xe/",
-        "contextual_links_inside_cluster": 0,
-        "hub": {
-          "name": "Hãng xe",
-          "url": "https://blog.rentbikehanoi.com/category/cam-nang/hang-xe/"
-        },
-        "orphans": 6,
-        "path": "Cẩm nang > Hãng xe",
-        "pillar": {
-          "name": "Cẩm nang",
-          "url": "https://blog.rentbikehanoi.com/category/cam-nang/"
-        },
-        "posts": 6,
-        "proposed_cluster_lead": {
-          "centroid_similarity": 0.839,
-          "post_id": 827,
-          "source": "computed (needs approval)",
-          "title": "SYM có những mẫu xe nào đáng chú ý cho nhu cầu đi lại cơ bản?",
-          "url": "https://blog.rentbikehanoi.com/0165-5/"
-        },
-        "silo": null
-      },
-      {
         "category_id": 15,
         "cluster_archive": "https://blog.rentbikehanoi.com/category/cam-nang/",
         "contextual_links_inside_cluster": 0,
@@ -501,7 +481,8 @@
     "homepage": "https://blog.rentbikehanoi.com/"
   },
   "content": {
-    "cannibalization_pairs": 10,
+    "cannibalization_pairs": 0,
+    "duplicate_copies": 6,
     "gap_rows": 23,
     "nap": {
       "configured_business": false,
@@ -538,7 +519,24 @@
         ]
       }
     },
-    "near_duplicate_pairs": 0
+    "near_duplicate_pairs": 0,
+    "top_external_domains": {
+      "baoxaydung.vn": 14,
+      "bocongan.gov.vn": 16,
+      "cdn.honda.com.vn": 48,
+      "dat.bike": 30,
+      "selex.vn": 15,
+      "support.apple.com": 31,
+      "support.google.com": 45,
+      "thanglong.chinhphu.vn": 17,
+      "thuexemaynguyentu.com": 16,
+      "vinfastauto.com": 75,
+      "www.honda.com.vn": 133,
+      "www.vietnamplus.vn": 17,
+      "www.yadea.com.vn": 33,
+      "xaydungchinhsach.chinhphu.vn": 83,
+      "yamaha-motor.com.vn": 114
+    }
   },
   "counts": {
     "categories": 22,
@@ -549,7 +547,7 @@
   },
   "crawl": {
     "archives_crawled": 175,
-    "at": "2026-10-16T17:58:28+00:00",
+    "at": "2026-10-16T18:25:00+00:00",
     "full": true,
     "images_checked": 1,
     "internal_targets_checked": 9,
@@ -558,9 +556,12 @@
     "posts_pages_reused": 0,
     "requests": 748
   },
-  "delta_vs_previous": null,
+  "delta_vs_previous": {
+    "new": 40,
+    "resolved": 532
+  },
   "discovery": {
-    "checked_at": "2026-10-16T17:54:35+00:00",
+    "checked_at": "2026-10-16T18:21:16+00:00",
     "description": "Thuê xe máy, xe 50cc và xe điện tại Hà Nội",
     "gmt_offset": 7,
     "home": "https://blog.rentbikehanoi.com",
@@ -589,14 +590,14 @@
     "yoast_rest_namespace": true
   },
   "external_links": {
-    "checked_at": "2026-10-16T18:04:23+00:00",
-    "checked_now": 506,
+    "checked_at": "2026-10-16T18:25:00+00:00",
+    "checked_now": 0,
     "external_unique": 506,
     "skipped_cap": 0
   },
-  "generated_at": "2026-10-16T18:04:54+00:00",
+  "generated_at": "2026-10-16T18:25:27+00:00",
   "gsc": {
-    "checked_at": "2026-10-16T18:04:38+00:00",
+    "checked_at": "2026-10-16T18:25:14+00:00",
     "reason": "GSC_SERVICE_ACCOUNT_JSON / GSC_PROPERTY not configured",
     "status": "BLOCKED"
   },
@@ -609,14 +610,14 @@
         "verification": "NEEDS_REVIEW"
       },
       {
-        "code": "T-TITLE-DUPLICATE",
-        "count": 11,
+        "code": "T-DUPLICATE-COPY",
+        "count": 6,
         "priority": "P1",
         "verification": "VERIFIED"
       },
       {
-        "code": "T-CANONICAL-MISSING",
-        "count": 7,
+        "code": "T-TITLE-DUPLICATE",
+        "count": 2,
         "priority": "P1",
         "verification": "VERIFIED"
       },
@@ -628,37 +629,31 @@
       },
       {
         "code": "T-FEATURED-IMAGE-MISSING",
-        "count": 480,
-        "priority": "P2",
-        "verification": "VERIFIED"
-      },
-      {
-        "code": "A-SCHEMA-DATE-MISSING",
-        "count": 389,
+        "count": 474,
         "priority": "P2",
         "verification": "VERIFIED"
       },
       {
         "code": "L-ORPHAN",
-        "count": 386,
+        "count": 380,
         "priority": "P2",
         "verification": "VERIFIED"
       },
       {
         "code": "L-NO-OUTBOUND",
-        "count": 173,
+        "count": 167,
         "priority": "P2",
         "verification": "VERIFIED"
       },
       {
         "code": "C-NO-SOURCES",
-        "count": 160,
+        "count": 154,
         "priority": "P2",
         "verification": "NEEDS_REVIEW"
       },
       {
         "code": "C-LEGAL-NO-OFFICIAL-SOURCE",
-        "count": 159,
+        "count": 154,
         "priority": "P2",
         "verification": "NEEDS_REVIEW"
       },
@@ -670,31 +665,19 @@
       },
       {
         "code": "L-DEEP-PAGE",
-        "count": 80,
+        "count": 74,
         "priority": "P2",
         "verification": "VERIFIED"
       },
       {
         "code": "L-BROKEN-EXTERNAL",
-        "count": 80,
+        "count": 35,
         "priority": "P2",
         "verification": "VERIFIED"
       },
       {
         "code": "T-META-DESC-MISSING",
-        "count": 26,
-        "priority": "P2",
-        "verification": "VERIFIED"
-      },
-      {
-        "code": "C-CANNIBALIZATION",
-        "count": 10,
-        "priority": "P2",
-        "verification": "NEEDS_REVIEW"
-      },
-      {
-        "code": "T-META-DESC-DUPLICATE",
-        "count": 9,
+        "count": 19,
         "priority": "P2",
         "verification": "VERIFIED"
       },
@@ -717,14 +700,20 @@
         "verification": "NEEDS_REVIEW"
       },
       {
+        "code": "A-AUTHOR-GENERIC",
+        "count": 1,
+        "priority": "P2",
+        "verification": "NEEDS_REVIEW"
+      },
+      {
         "code": "T-OG-IMAGE-MISSING",
-        "count": 498,
+        "count": 492,
         "priority": "P3",
         "verification": "VERIFIED"
       },
       {
         "code": "T-TITLE-LONG",
-        "count": 467,
+        "count": 461,
         "priority": "P3",
         "verification": "VERIFIED"
       },
@@ -736,19 +725,19 @@
       },
       {
         "code": "L-EXTERNAL-UNVERIFIED",
-        "count": 127,
+        "count": 159,
         "priority": "P3",
         "verification": "NEEDS_REVIEW"
       },
       {
         "code": "C-TIME-SENSITIVE",
-        "count": 123,
+        "count": 121,
         "priority": "P3",
         "verification": "NEEDS_REVIEW"
       },
       {
         "code": "A-NO-STRUCTURE",
-        "count": 108,
+        "count": 102,
         "priority": "P3",
         "verification": "INFO"
       },
@@ -777,16 +766,16 @@
         "verification": "VERIFIED"
       },
       {
-        "code": "L-WEAK-ANCHOR",
+        "code": "T-IMG-NO-DIMENSIONS",
         "count": 1,
         "priority": "P3",
         "verification": "VERIFIED"
       },
       {
-        "code": "T-IMG-NO-DIMENSIONS",
+        "code": "T-META-DESC-NOT-YOAST",
         "count": 1,
         "priority": "P3",
-        "verification": "VERIFIED"
+        "verification": "INFO"
       },
       {
         "code": "A-AI-CRAWLER-POLICY",
@@ -826,19 +815,19 @@
       }
     ],
     "by_priority": {
-      "P1": 60,
-      "P2": 2070,
-      "P3": 1683
+      "P1": 50,
+      "P2": 1576,
+      "P3": 1695
     },
     "by_priority_and_verification": {
       "P1/NEEDS_REVIEW": 42,
-      "P1/VERIFIED": 18,
-      "P2/NEEDS_REVIEW": 445,
-      "P2/VERIFIED": 1625,
+      "P1/VERIFIED": 8,
+      "P2/NEEDS_REVIEW": 425,
+      "P2/VERIFIED": 1151,
       "P3/BLOCKED": 3,
-      "P3/INFO": 116,
-      "P3/NEEDS_REVIEW": 344,
-      "P3/VERIFIED": 1220
+      "P3/INFO": 111,
+      "P3/NEEDS_REVIEW": 374,
+      "P3/VERIFIED": 1207
     }
   },
   "linking": {
@@ -849,48 +838,52 @@
       "2": 148,
       "3": 183,
       "4": 101,
-      "5": 39,
-      "6": 18,
+      "5": 34,
+      "6": 17,
       "7": 18,
       "8": 5,
       "unknown": 1
     },
+    "excluded_duplicate_copies": 6,
     "graph_complete": true,
-    "max_depth": 26,
-    "orphans": 386,
+    "max_depth": 8,
+    "orphans": 380,
     "published": 525,
-    "suggestions": 678
+    "suggestions": 683,
+    "suspicious_external_hosts": [
+      "support.google.com"
+    ]
   },
   "mode": "matrix",
   "pagespeed": [
     {
       "error": "HTTP 429",
-      "measured_at": "2026-10-16T18:04:26+00:00",
+      "measured_at": "2026-10-16T18:25:03+00:00",
       "status": 429,
       "url": "https://blog.rentbikehanoi.com/"
     },
     {
       "error": "HTTP 429",
-      "measured_at": "2026-10-16T18:04:30+00:00",
+      "measured_at": "2026-10-16T18:25:07+00:00",
       "status": 429,
       "url": "https://blog.rentbikehanoi.com/dich-vu-cho-thue-xe-may-ha-noi-gia-thu-tuc-dia-chi-kinh-nghiem/"
     },
     {
       "error": "HTTP 429",
-      "measured_at": "2026-10-16T18:04:34+00:00",
+      "measured_at": "2026-10-16T18:25:10+00:00",
       "status": 429,
       "url": "https://blog.rentbikehanoi.com/cach-doc-bien-cam-xe-may-thuong-gap-trong-noi-do-ha-noi/"
     },
     {
       "error": "HTTP 429",
-      "measured_at": "2026-10-16T18:04:37+00:00",
+      "measured_at": "2026-10-16T18:25:14+00:00",
       "status": 429,
       "url": "https://blog.rentbikehanoi.com/category/cam-nang/kinh-nghiem/"
     }
   ],
   "probes": {
     "core_wp_sitemap": {
-      "elapsed_ms": 820,
+      "elapsed_ms": 768,
       "error": "",
       "final_url": "https://blog.rentbikehanoi.com/sitemap_index.xml",
       "redirects": [
@@ -903,7 +896,7 @@
       "status": 200
     },
     "http_to_https": {
-      "elapsed_ms": 677,
+      "elapsed_ms": 756,
       "error": "",
       "final_url": "https://blog.rentbikehanoi.com/",
       "redirects": [
@@ -920,7 +913,7 @@
       "status": 404
     },
     "no_trailing_slash_probe": {
-      "elapsed_ms": 880,
+      "elapsed_ms": 790,
       "error": "",
       "final_url": "https://blog.rentbikehanoi.com/thue-xe-may-theo-ngay-ha-noi/",
       "redirects": [
@@ -934,12 +927,12 @@
       "url": "https://blog.rentbikehanoi.com/thue-xe-may-theo-ngay-ha-noi"
     },
     "not_found_probe": {
-      "elapsed_ms": 498,
+      "elapsed_ms": 556,
       "error": "",
-      "final_url": "https://blog.rentbikehanoi.com/seo-audit-probe-b16a0dcce42c-not-a-page/",
+      "final_url": "https://blog.rentbikehanoi.com/seo-audit-probe-e279e1993c2c-not-a-page/",
       "redirects": [],
       "status": 404,
-      "url": "https://blog.rentbikehanoi.com/seo-audit-probe-b16a0dcce42c-not-a-page/"
+      "url": "https://blog.rentbikehanoi.com/seo-audit-probe-e279e1993c2c-not-a-page/"
     },
     "robots_disallow_all": false,
     "robots_sitemaps": [
@@ -980,7 +973,7 @@
     "sitemap_url_count": 548
   },
   "read_only": true,
-  "run": "https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38943256617",
+  "run": "https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38946656489",
   "site": "https://blog.rentbikehanoi.com",
   "stack": {
     "generator": "WordPress 7.1.3",
@@ -997,7 +990,7 @@
     "page": {
       "fetched": 18,
       "listed": 18,
-      "new": 18,
+      "new": 0,
       "removed": [],
       "reused": 0,
       "updated": 0
@@ -1005,7 +998,7 @@
     "post": {
       "fetched": 507,
       "listed": 507,
-      "new": 507,
+      "new": 0,
       "removed": [],
       "reused": 0,
       "updated": 0
