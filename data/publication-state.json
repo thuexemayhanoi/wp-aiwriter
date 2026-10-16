@@ -1300,7 +1300,17 @@
       "wp_id": 957,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-277-co-nen-bat-dinh-vi-lien-tuc-cho-ung-dung-xe-dien-khong/"
+    },
+    "278": {
+      "title": "Cách bảo vệ tài khoản ứng dụng xe điện khi dùng xe không phải của mình",
+      "source_hash": "be267875d88a018aa7ba9d011cfb28bc03ef39b2243e61a2345817c0982a4d6e",
+      "checked_at": "2026-10-16T15:55:13.602703+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 18,
+      "slug": "excel-278-cach-bao-ve-tai-khoan-ung-dung-xe-dien-khi-dung-xe-khong-phai-cua-minh",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T15:55:11.824162+00:00"
+  "updated_at": "2026-10-16T15:55:13.602716+00:00"
 }
