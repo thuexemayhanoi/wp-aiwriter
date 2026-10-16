@@ -3137,14 +3137,16 @@
     "409": {
       "title": "Đi xe điện qua cầu ở Hà Nội cần lưu ý gì về pin và tốc độ?",
       "source_hash": "7749872adf3fac0832a8268a4c687b0d16d8fab1670069b96c58cda2e4cf48af",
-      "checked_at": "2026-10-16T16:46:06.627947+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:46:10.003120+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 8,
       "slug": "excel-409-di-xe-dien-qua-cau-o-ha-noi-can-luu-y-gi-ve-pin-va-toc-do",
       "reason": null,
-      "wp_id": 1100
+      "wp_id": 1100,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-409-di-xe-dien-qua-cau-o-ha-noi-can-luu-y-gi-ve-pin-va-toc-do/"
     }
   },
-  "updated_at": "2026-10-16T16:46:06.627968+00:00"
+  "updated_at": "2026-10-16T16:46:10.003140+00:00"
 }
