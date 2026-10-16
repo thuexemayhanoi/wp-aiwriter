@@ -1122,14 +1122,16 @@
     "254": {
       "title": "Ứng dụng nào giúp tìm cây xăng gần vị trí hiện tại?",
       "source_hash": "0cfe0f1669555fdcdcf818b2ca470b0ec442c92aff2f9f3220948486f4be2c6f",
-      "checked_at": "2026-10-16T14:50:12.230655+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T14:50:17.465578+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 17,
       "slug": "excel-254-ung-dung-nao-giup-tim-cay-xang-gan-vi-tri-hien-tai",
       "reason": null,
-      "wp_id": 944
+      "wp_id": 944,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-254-ung-dung-nao-giup-tim-cay-xang-gan-vi-tri-hien-tai/"
     }
   },
-  "updated_at": "2026-10-16T14:50:12.230673+00:00"
+  "updated_at": "2026-10-16T14:50:17.465595+00:00"
 }
