@@ -1,3 +1,14 @@
+# WordPress production checkpoint — 2026-10-16 through Excel #222
+
+- Owner approved exactly the next batch of 3. Source Markdown `posts/0220.md`, `posts/0221.md`, `posts/0222.md` was authored, pushed individually and matches the immutable Excel title/ID/full taxonomy `Cẩm nang > Hãng xe > Hãng xe điện`. Research compared official VinFast, Selex and Dat Bike sources; #220 is charger strategies, #221 is station-network access/reliability, #222 is conditional advantages of Vietnamese brands.
+- Independent QA workflow [38884687655](https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38884687655) **SUCCESS**: **58/58 authored QA PASS**, **18/18 regression tests PASS**, no QA failure.
+- Owner-authorized live publisher [38867887824](https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38867887824) latest job **SUCCESS**; **three new WordPress posts created and verified** with exact Excel taxonomy category **21**, status `publish`: #220 → WP **910**, #221 → WP **911**, #222 → WP **912**. `VERIFIED` ledger receipts and public URLs in `data/publication-state.json`. Duplicate groups=0, errors=0.
+- Progress: **77/355** Excel titles published, first category #146–200 **55/55** completed, active #201–235 Hãng xe điện **22/35** correctly published. **13 IDs #223–235** still need source and publication; full matrix remaining source **278 IDs #223–500**.
+- **NEXT WRITER BATCH:** #223, #224, #225; obtain exact IDs, titles and ancestry from `data/topics.json`. Write small, unique researched posts, run no-write QA, obtain explicit owner approval for 3–5 posts, then publish with verification. Do not advance to next Excel category #236+ without end-of-category report and approval.
+- Keep `data/publication-policy.json` active category unchanged. Preserve older post URLs, slugs, canonicals, all old published posts, and WordPress Trash; no deletions or unattended self-writer assumed.
+
+---
+
 # Production checkpoint — 2026-10-16, Excel #217–219 published
 
 - Owner approved writing and publishing the next 3 posts in current active Excel category `Cẩm nang > Hãng xe > Hãng xe điện` (#201–235); WordPress child category ID **21**.
