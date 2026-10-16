@@ -3839,13 +3839,14 @@
     "463": {
       "title": "Đi xe máy quanh Hồ Hoàn Kiếm: những tuyến một chiều cần chú ý",
       "source_hash": "4b4efe645d0def2b12c37ddd8ac08be70bd7585b9c32dd27fe2fc0e80d914fba",
-      "checked_at": "2026-10-16T17:01:28.878080+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T17:01:31.024873+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 10,
       "slug": "excel-463-di-xe-may-quanh-ho-hoan-kiem-nhung-tuyen-mot-chieu-can-chu-y",
-      "reason": null
+      "reason": null,
+      "wp_id": 1154
     }
   },
-  "updated_at": "2026-10-16T17:01:28.878098+00:00"
+  "updated_at": "2026-10-16T17:01:31.024890+00:00"
 }
