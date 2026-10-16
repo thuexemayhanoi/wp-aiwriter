@@ -4164,13 +4164,14 @@
     "488": {
       "title": "Đi xe máy quanh Nguyễn Văn Cừ: lưu ý khi nhập làn giờ cao điểm",
       "source_hash": "774ee9848521b1b53f85c97a63d8e1305e5fbca3567c64b364b347d681bb30ef",
-      "checked_at": "2026-10-16T17:09:04.224616+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T17:09:08.437300+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 12,
       "slug": "excel-488-di-xe-may-quanh-nguyen-van-cu-luu-y-khi-nhap-lan-gio-cao-diem",
-      "reason": null
+      "reason": null,
+      "wp_id": 1179
     }
   },
-  "updated_at": "2026-10-16T17:09:04.224630+00:00"
+  "updated_at": "2026-10-16T17:09:08.437318+00:00"
 }
