@@ -1,3 +1,15 @@
+# Writer and WordPress checkpoint — 2026-10-16 through Excel #210
+
+- Owner approved continuation of one 3–5-post batch, staying within the current Excel category `Cẩm nang > Hãng xe > Hãng xe điện` (#201–235), matching WordPress child category ID 21, and leaving Trash untouched.
+- Authored and pushed `posts/0208.md` (Pega), `posts/0209.md` (VinFast–YADEA), and `posts/0210.md` (VinFast–Dat Bike). Titles, IDs and full taxonomy paths exactly match `data/topics.json`. Articles use official manufacturer pages and avoid invented field testing, prices and unsupported details.
+- Independent GitHub quality workflow [38877775274](https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38877775274) returned **SUCCESS**: 46 authored, 46 QA PASS, 0 QA FAIL; **18/18 regression tests PASS**.
+- Owner-approved WordPress publisher [38867887824](https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38867887824) latest rerun returned **SUCCESS**. New WordPress posts **#208 → 897; #209 → 898; #210 → 899**, all `VERIFIED`, `status=publish`, `category_id=21`, public URLs recorded in `data/publication-state.json`.
+- **Excel publication progress: 65/355** (#146–200 completed 55/55, #201–210 published 10/35). **Current category #201–235: 25 subjects #211–235 still need authoring/publishing**. Total **290 source topics #211–500 not authored**.
+- **NEXT WRITER**: #211 and #212, then #213 according to exact immutable Excel. Follow `docs/PUBLISHER_OPERATIONS.md`, author 3–5 posts per active writing batch, commit promptly, validate QA and use manually approved GitHub publisher only when ready. Do not assert unattended AI content generation.
+- The category gate remains fixed at #201–235. Do not publish #236+ or change `data/publication-policy.json` without reporting completion of #235 for owner review. If full WordPress category ancestry is absent, publish to draft and report; never guess Uncategorized. Never delete, restore, or modify Trash.
+
+---
+
 # Current production checkpoint — 2026-10-16 through Excel #207
 
 - Owner explicitly authorized publishing 3–5 articles per batch directly to the unique matching WordPress parent/child taxonomy from `data/topics.json`. User will manage WordPress Trash themselves; **do not touch or purge the Trash**.
