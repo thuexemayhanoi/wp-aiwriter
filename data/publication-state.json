@@ -1746,14 +1746,16 @@
     "302": {
       "title": "Người thấp có dễ chống chân trên Honda Wave và Yamaha Sirius không?",
       "source_hash": "b8eec3f38a57139d4a14252adb28272f24bd051a402d96a686796fb4985e98e9",
-      "checked_at": "2026-10-16T16:23:57.363675+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:24:00.351984+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 6,
       "slug": "excel-302-nguoi-thap-co-de-chong-chan-tren-honda-wave-va-yamaha-sirius-khong",
       "reason": null,
-      "wp_id": 993
+      "wp_id": 993,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-302-nguoi-thap-co-de-chong-chan-tren-honda-wave-va-yamaha-sirius-khong/"
     }
   },
-  "updated_at": "2026-10-16T16:23:57.363691+00:00"
+  "updated_at": "2026-10-16T16:24:00.352000+00:00"
 }
