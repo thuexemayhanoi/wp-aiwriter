@@ -2695,13 +2695,14 @@
     "375": {
       "title": "Thuê xe ga theo tuần nên chọn theo tiêu chí nào?",
       "source_hash": "ce9c42e3128f4f076dcf1898b521a51f41cb867c59b02c35dce7b14644efd438",
-      "checked_at": "2026-10-16T16:37:56.040376+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:37:57.846706+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-375-thue-xe-ga-theo-tuan-nen-chon-theo-tieu-chi-nao",
-      "reason": null
+      "reason": null,
+      "wp_id": 1066
     }
   },
-  "updated_at": "2026-10-16T16:37:56.040388+00:00"
+  "updated_at": "2026-10-16T16:37:57.846766+00:00"
 }
