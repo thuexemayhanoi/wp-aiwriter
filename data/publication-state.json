@@ -3189,14 +3189,16 @@
     "413": {
       "title": "Xe điện nhỏ gọn có lợi thế gì khi gửi xe ở trung tâm?",
       "source_hash": "f63b54c948097f8103e5d10e33b90c0c36fe912caf5250536352b12e46320f7f",
-      "checked_at": "2026-10-16T16:46:59.147171+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:47:02.561172+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 8,
       "slug": "excel-413-xe-dien-nho-gon-co-loi-the-gi-khi-gui-xe-o-trung-tam",
       "reason": null,
-      "wp_id": 1104
+      "wp_id": 1104,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-413-xe-dien-nho-gon-co-loi-the-gi-khi-gui-xe-o-trung-tam/"
     }
   },
-  "updated_at": "2026-10-16T16:46:59.147190+00:00"
+  "updated_at": "2026-10-16T16:47:02.561192+00:00"
 }
