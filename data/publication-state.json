@@ -158,13 +158,14 @@
     "180": {
       "title": "Grande và Lead: so sánh theo nhu cầu đi làm hằng ngày",
       "source_hash": "501b2ae6a65b3285cc4ada58a914bab840e9a4abdd6ba3e1ee05a4c5b1d395aa",
-      "checked_at": "2026-10-16T07:35:33.109692+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T07:35:35.299826+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 20,
       "slug": "excel-180-grande-va-lead-so-sanh-theo-nhu-cau-di-lam-hang-ngay",
-      "reason": null
+      "reason": null,
+      "wp_id": 857
     }
   },
-  "updated_at": "2026-10-16T07:35:33.109706+00:00"
+  "updated_at": "2026-10-16T07:35:35.299847+00:00"
 }
