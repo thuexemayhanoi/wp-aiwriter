@@ -1417,7 +1417,17 @@
       "wp_id": 967,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-271-cach-dung-ban-do-de-tinh-khoang-cach-giua-hai-diem-sac/"
+    },
+    "272": {
+      "title": "Cách lưu vị trí nhận và trả xe điện trên điện thoại",
+      "source_hash": "5f6b8963493e947585e34423bdba9fa41ff22280b0aaabc14b3fd3fb396515c4",
+      "checked_at": "2026-10-16T16:11:26.994328+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 18,
+      "slug": "excel-272-cach-luu-vi-tri-nhan-va-tra-xe-dien-tren-dien-thoai",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:11:25.668293+00:00"
+  "updated_at": "2026-10-16T16:11:26.994341+00:00"
 }
