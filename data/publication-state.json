@@ -3094,7 +3094,17 @@
       "wp_id": 1096,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-405-xe-dien-co-phu-hop-voi-nguoi-can-mang-nhieu-do-hang-ngay-khong/"
+    },
+    "406": {
+      "title": "Thuê xe điện theo tuần nên kiểm tra pin và bộ sạc thế nào?",
+      "source_hash": "cbbc3c71b1553e8e660eb7e88026b49af193f5bec3f3ed19169ab399fb1705a2",
+      "checked_at": "2026-10-16T16:45:42.165046+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 8,
+      "slug": "excel-406-thue-xe-dien-theo-tuan-nen-kiem-tra-pin-va-bo-sac-the-nao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:45:19.689378+00:00"
+  "updated_at": "2026-10-16T16:45:42.165065+00:00"
 }
