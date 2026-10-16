@@ -3419,7 +3419,17 @@
       "wp_id": 1121,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-430-xe-50cc-di-duoi-mua-can-chu-y-gi-ve-phanh-va-lop/"
+    },
+    "431": {
+      "title": "Xe 50cc đi cầu ở Hà Nội cần lưu ý gì?",
+      "source_hash": "0e48450fb9b15fed17be92550a43ca25baac98c9fd24248d48e97e13d684669a",
+      "checked_at": "2026-10-16T16:50:39.671870+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 5,
+      "slug": "excel-431-xe-50cc-di-cau-o-ha-noi-can-luu-y-gi",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:50:21.661425+00:00"
+  "updated_at": "2026-10-16T16:50:39.671892+00:00"
 }
