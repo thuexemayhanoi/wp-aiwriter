@@ -3410,13 +3410,14 @@
     "430": {
       "title": "Xe 50cc đi dưới mưa cần chú ý gì về phanh và lốp?",
       "source_hash": "9fd7ff91b1226265db943195d19487d1f746a51b97d719a4967d8e6205320e93",
-      "checked_at": "2026-10-16T16:50:16.199829+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:50:18.537408+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 5,
       "slug": "excel-430-xe-50cc-di-duoi-mua-can-chu-y-gi-ve-phanh-va-lop",
-      "reason": null
+      "reason": null,
+      "wp_id": 1121
     }
   },
-  "updated_at": "2026-10-16T16:50:16.199844+00:00"
+  "updated_at": "2026-10-16T16:50:18.537427+00:00"
 }
