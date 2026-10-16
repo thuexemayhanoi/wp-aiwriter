@@ -115,7 +115,17 @@
       "wp_id": 853,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-176-honda-vision-co-phu-hop-voi-nguoi-moi-chuyen-tu-xe-so-sang-xe-ga/"
+    },
+    "177": {
+      "title": "Air Blade và Vision khác nhau thế nào về kích thước và tư thế lái?",
+      "source_hash": "52b8f0536cddfa146099871a96be2ffd29d1c7812b3b8226c030ede8a614e74c",
+      "checked_at": "2026-10-16T07:33:12.856597+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 20,
+      "slug": "excel-177-air-blade-va-vision-khac-nhau-the-nao-ve-kich-thuoc-va-tu-the-lai",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T07:33:11.509184+00:00"
+  "updated_at": "2026-10-16T07:33:12.856609+00:00"
 }
