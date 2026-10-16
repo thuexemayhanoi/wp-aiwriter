@@ -76,7 +76,17 @@
       "slug": "excel-173-phu-tung-yamaha-co-de-tim-khi-di-lai-o-ha-noi-khong",
       "reason": null,
       "wp_id": 838
+    },
+    "174": {
+      "title": "Vì sao Honda Wave thường xuất hiện nhiều trong nhóm xe đi lại hằng ngày?",
+      "source_hash": "76b45ea14a55eb7bd12365ddbafc9c9bdc189ff31e2f05ba3db68665f799f04f",
+      "checked_at": "2026-10-16T07:32:55.134175+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 20,
+      "slug": "excel-174-vi-sao-honda-wave-thuong-xuat-hien-nhieu-trong-nhom-xe-di-lai-hang-ngay",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T07:20:29.954020+00:00"
+  "updated_at": "2026-10-16T07:32:55.134193+00:00"
 }
