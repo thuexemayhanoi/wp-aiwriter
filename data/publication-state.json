@@ -2210,7 +2210,17 @@
       "wp_id": 1028,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-337-air-blade-va-freego-nen-so-sanh-nhung-tieu-chi-nao-khi-di-pho/"
+    },
+    "338": {
+      "title": "SH Mode và Grande: hai mẫu xe ga đô thị khác nhau thế nào?",
+      "source_hash": "2516e6bf0ba56d4e231c47188295075ed7712079753917e0ac3c30df2be90c3a",
+      "checked_at": "2026-10-16T16:31:39.796406+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 7,
+      "slug": "excel-338-sh-mode-va-grande-hai-mau-xe-ga-do-thi-khac-nhau-the-nao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:31:38.417139+00:00"
+  "updated_at": "2026-10-16T16:31:39.796422+00:00"
 }
