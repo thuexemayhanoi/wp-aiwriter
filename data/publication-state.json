@@ -2002,7 +2002,17 @@
       "wp_id": 1012,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-321-di-xe-so-duoi-mua-lon-can-chu-y-gi-o-bo-phan-phanh-va-lop/"
+    },
+    "322": {
+      "title": "Xe số có dễ gửi ở bãi xe chật không?",
+      "source_hash": "3cb5cdbf436e1119db2280184d8dc54f6783fa01eefae4197da5bd7fab52e631",
+      "checked_at": "2026-10-16T16:27:19.404903+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 6,
+      "slug": "excel-322-xe-so-co-de-gui-o-bai-xe-chat-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:27:18.016081+00:00"
+  "updated_at": "2026-10-16T16:27:19.404916+00:00"
 }
