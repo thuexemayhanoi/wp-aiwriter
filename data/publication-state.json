@@ -1876,13 +1876,14 @@
     "312": {
       "title": "Honda Future phù hợp với người ưu tiên cốp và sự thoải mái ra sao?",
       "source_hash": "33306fc6cdff217414ec8c5c3a8f92ef593e44284aaedf0d9c2590af478ce8b4",
-      "checked_at": "2026-10-16T16:25:37.605632+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:25:39.512151+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 6,
       "slug": "excel-312-honda-future-phu-hop-voi-nguoi-uu-tien-cop-va-su-thoai-mai-ra-sao",
-      "reason": null
+      "reason": null,
+      "wp_id": 1003
     }
   },
-  "updated_at": "2026-10-16T16:25:37.605645+00:00"
+  "updated_at": "2026-10-16T16:25:39.512167+00:00"
 }
