@@ -2474,14 +2474,16 @@
     "358": {
       "title": "Xe ga có thuận tiện khi phải dừng và đi liên tục trong phố đông không?",
       "source_hash": "73206134c2a41f48169d26f2e9435c83442c72cf5c72fc6c9195ebea58bccdf4",
-      "checked_at": "2026-10-16T16:35:10.751911+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:35:13.578713+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-358-xe-ga-co-thuan-tien-khi-phai-dung-va-di-lien-tuc-trong-pho-dong-khong",
       "reason": null,
-      "wp_id": 1049
+      "wp_id": 1049,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-358-xe-ga-co-thuan-tien-khi-phai-dung-va-di-lien-tuc-trong-pho-dong-khong/"
     }
   },
-  "updated_at": "2026-10-16T16:35:10.751928+00:00"
+  "updated_at": "2026-10-16T16:35:13.578745+00:00"
 }
