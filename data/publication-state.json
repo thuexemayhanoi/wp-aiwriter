@@ -849,14 +849,16 @@
     "233": {
       "title": "Những thông số pin nào quan trọng nhất khi tìm hiểu một mẫu xe điện?",
       "source_hash": "e71c79225e8940b45483399d38cda6bad51c2fe505ebbb131688b828197d5ec2",
-      "checked_at": "2026-10-16T12:10:52.805283+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T12:10:55.515397+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 21,
       "slug": "excel-233-nhung-thong-so-pin-nao-quan-trong-nhat-khi-tim-hieu-mot-mau-xe-dien",
       "reason": null,
-      "wp_id": 923
+      "wp_id": 923,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-233-nhung-thong-so-pin-nao-quan-trong-nhat-khi-tim-hieu-mot-mau-xe-dien/"
     }
   },
-  "updated_at": "2026-10-16T12:10:52.805299+00:00"
+  "updated_at": "2026-10-16T12:10:55.515414+00:00"
 }
