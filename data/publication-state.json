@@ -2535,7 +2535,17 @@
       "wp_id": 1053,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-362-janus-co-phu-hop-voi-lich-hoc-va-di-lam-hang-ngay-khong/"
+    },
+    "363": {
+      "title": "Grande có phù hợp với người ưu tiên sự nhẹ nhàng khi vận hành không?",
+      "source_hash": "58028b46f112a2c48406c1ee9f0a10eca4a312b358dc0122e0342d57482d0ab9",
+      "checked_at": "2026-10-16T16:35:59.836488+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 7,
+      "slug": "excel-363-grande-co-phu-hop-voi-nguoi-uu-tien-su-nhe-nhang-khi-van-hanh-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:35:58.566642+00:00"
+  "updated_at": "2026-10-16T16:35:59.836501+00:00"
 }
