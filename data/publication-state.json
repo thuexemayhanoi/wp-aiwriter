@@ -1040,7 +1040,17 @@
       "wp_id": 937,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-247-ung-dung-ghi-chu-nao-tien-de-luu-thong-tin-hop-dong-thue-xe/"
+    },
+    "248": {
+      "title": "Cách lưu ảnh hiện trạng xe theo album riêng trên điện thoại",
+      "source_hash": "c219ccfeb1e053aff0a21b06ce659ea1cd10775f3a2137497130434e4f66882e",
+      "checked_at": "2026-10-16T14:31:48.925991+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 17,
+      "slug": "excel-248-cach-luu-anh-hien-trang-xe-theo-album-rieng-tren-dien-thoai",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T14:29:32.810488+00:00"
+  "updated_at": "2026-10-16T14:31:48.926007+00:00"
 }
