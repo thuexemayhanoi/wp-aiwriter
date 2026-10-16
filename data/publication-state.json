@@ -338,7 +338,17 @@
       "wp_id": 871,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-193-nhung-dong-xe-honda-co-cop-rong-dang-chu-y-cho-nguoi-di-pho/"
+    },
+    "194": {
+      "title": "Những dòng xe Yamaha có trọng lượng dễ làm quen cho người mới",
+      "source_hash": "51c8b36b5240b216c7198fc21db92bf29097d457a02859bcd375c5c064cf5c33",
+      "checked_at": "2026-10-16T07:45:10.270066+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 20,
+      "slug": "excel-194-nhung-dong-xe-yamaha-co-trong-luong-de-lam-quen-cho-nguoi-moi",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T07:44:23.547719+00:00"
+  "updated_at": "2026-10-16T07:45:10.270084+00:00"
 }
