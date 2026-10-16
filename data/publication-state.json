@@ -3354,7 +3354,17 @@
       "wp_id": 1116,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-425-xe-50cc-co-du-dung-cho-quang-duong-10-15-km-moi-ngay-khong/"
+    },
+    "426": {
+      "title": "Xe 50cc có phù hợp để chở thêm một người không?",
+      "source_hash": "61c4ad3596280cb1001505277cfec7301b633ed797d5501c1b3d7539983b85ee",
+      "checked_at": "2026-10-16T16:49:47.641433+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 5,
+      "slug": "excel-426-xe-50cc-co-phu-hop-de-cho-them-mot-nguoi-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:49:29.577523+00:00"
+  "updated_at": "2026-10-16T16:49:47.641452+00:00"
 }
