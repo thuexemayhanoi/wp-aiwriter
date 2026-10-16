@@ -810,14 +810,16 @@
     "230": {
       "title": "Khóa thông minh trên xe điện khác khóa cơ truyền thống như thế nào?",
       "source_hash": "5b4bb994e71397467aa424aff3fdf88bce4d0ccf8cd71976e3ca56cc70fa9fec",
-      "checked_at": "2026-10-16T11:54:48.206477+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T11:54:50.914558+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 21,
       "slug": "excel-230-khoa-thong-minh-tren-xe-dien-khac-khoa-co-truyen-thong-nhu-the-nao",
       "reason": null,
-      "wp_id": 920
+      "wp_id": 920,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-230-khoa-thong-minh-tren-xe-dien-khac-khoa-co-truyen-thong-nhu-the-nao/"
     }
   },
-  "updated_at": "2026-10-16T11:54:48.206493+00:00"
+  "updated_at": "2026-10-16T11:54:50.914575+00:00"
 }
