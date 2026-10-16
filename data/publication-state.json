@@ -2305,14 +2305,16 @@
     "345": {
       "title": "Xe ga 125cc phù hợp với kiểu hành trình nào?",
       "source_hash": "7c6f3e3f090b37eab6fcca8d8463782e975d7577f0cff0fcf245a1a82cf3ec17",
-      "checked_at": "2026-10-16T16:32:46.639526+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:32:49.715767+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-345-xe-ga-125cc-phu-hop-voi-kieu-hanh-trinh-nao",
       "reason": null,
-      "wp_id": 1036
+      "wp_id": 1036,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-345-xe-ga-125cc-phu-hop-voi-kieu-hanh-trinh-nao/"
     }
   },
-  "updated_at": "2026-10-16T16:32:46.639542+00:00"
+  "updated_at": "2026-10-16T16:32:49.715784+00:00"
 }
