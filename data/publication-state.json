@@ -1772,13 +1772,14 @@
     "304": {
       "title": "Xe số phù hợp hơn xe ga trong trường hợp nào?",
       "source_hash": "103740a370a5fb509c7d9e996890d82597619421159c3ba21eb23312b12de017",
-      "checked_at": "2026-10-16T16:24:09.414470+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:24:11.338548+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 6,
       "slug": "excel-304-xe-so-phu-hop-hon-xe-ga-trong-truong-hop-nao",
-      "reason": null
+      "reason": null,
+      "wp_id": 995
     }
   },
-  "updated_at": "2026-10-16T16:24:09.414484+00:00"
+  "updated_at": "2026-10-16T16:24:11.338563+00:00"
 }
