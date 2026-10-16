@@ -537,13 +537,14 @@
     "209": {
       "title": "VinFast và Yadea khác nhau thế nào về cách xây dựng hệ sinh thái xe điện?",
       "source_hash": "d332cb3de3e16357ab9c23798273230aa5dfb4de7466427f347db1809cf455b4",
-      "checked_at": "2026-10-16T09:03:52.326853+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T09:03:54.242623+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 21,
       "slug": "excel-209-vinfast-va-yadea-khac-nhau-the-nao-ve-cach-xay-dung-he-sinh-thai-xe-dien",
-      "reason": null
+      "reason": null,
+      "wp_id": 898
     }
   },
-  "updated_at": "2026-10-16T09:03:52.326865+00:00"
+  "updated_at": "2026-10-16T09:03:54.242635+00:00"
 }
