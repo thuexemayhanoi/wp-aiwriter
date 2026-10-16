@@ -2093,7 +2093,17 @@
       "wp_id": 1019,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-328-honda-air-blade-phu-hop-voi-nguoi-di-nhieu-kilomet-moi-ngay-khong/"
+    },
+    "329": {
+      "title": "Honda Lead có tiện cho người thường xuyên mang nhiều đồ không?",
+      "source_hash": "1da7a1a3fbc40c3f7e9f76f8fd5de77654717768884d1a532fc2a044a84bcd99",
+      "checked_at": "2026-10-16T16:30:04.187490+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 7,
+      "slug": "excel-329-honda-lead-co-tien-cho-nguoi-thuong-xuyen-mang-nhieu-do-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:30:02.758952+00:00"
+  "updated_at": "2026-10-16T16:30:04.187503+00:00"
 }
