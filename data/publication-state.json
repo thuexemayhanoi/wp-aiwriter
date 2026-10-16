@@ -3432,7 +3432,17 @@
       "wp_id": 1122,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-431-xe-50cc-di-cau-o-ha-noi-can-luu-y-gi/"
+    },
+    "432": {
+      "title": "Xe 50cc có phù hợp với người ở khu vực trung tâm không?",
+      "source_hash": "9c2187c50ebdaf0f08cafbb05587b781775f813b090eff5b1929973368cc7550",
+      "checked_at": "2026-10-16T16:50:47.077459+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 5,
+      "slug": "excel-432-xe-50cc-co-phu-hop-voi-nguoi-o-khu-vuc-trung-tam-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:50:45.581254+00:00"
+  "updated_at": "2026-10-16T16:50:47.077473+00:00"
 }
