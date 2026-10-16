@@ -3007,13 +3007,14 @@
     "399": {
       "title": "Xe điện có phù hợp với người mới lái không?",
       "source_hash": "496f1224998055b6d2f30fb4ff5a821d87b94582838b6b63bc4b81804cbe40ca",
-      "checked_at": "2026-10-16T16:44:11.216821+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:44:13.551132+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 8,
       "slug": "excel-399-xe-dien-co-phu-hop-voi-nguoi-moi-lai-khong",
-      "reason": null
+      "reason": null,
+      "wp_id": 1090
     }
   },
-  "updated_at": "2026-10-16T16:44:11.216835+00:00"
+  "updated_at": "2026-10-16T16:44:13.551153+00:00"
 }
