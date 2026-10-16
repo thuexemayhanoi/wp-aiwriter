@@ -784,13 +784,14 @@
     "228": {
       "title": "Chế độ Sport trên xe điện nên dùng trong tình huống nào?",
       "source_hash": "e4f23cf4cdefc2ae90eb47e942914ba2d128280e57435a3e0a438a68ff59049f",
-      "checked_at": "2026-10-16T10:54:36.553589+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T10:54:38.638602+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 21,
       "slug": "excel-228-che-do-sport-tren-xe-dien-nen-dung-trong-tinh-huong-nao",
-      "reason": null
+      "reason": null,
+      "wp_id": 918
     }
   },
-  "updated_at": "2026-10-16T10:54:36.553602+00:00"
+  "updated_at": "2026-10-16T10:54:38.638618+00:00"
 }
