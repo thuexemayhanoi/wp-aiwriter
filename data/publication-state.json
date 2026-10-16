@@ -1070,14 +1070,16 @@
     "250": {
       "title": "Ứng dụng theo dõi chi tiêu giúp quản lý tiền xăng và gửi xe thế nào?",
       "source_hash": "e0babb5e9e2bd84d0b69ab86523ea17e103b505f81e1fb807998ab16fe8e6985",
-      "checked_at": "2026-10-16T14:36:31.718214+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T14:36:34.974593+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 17,
       "slug": "excel-250-ung-dung-theo-doi-chi-tieu-giup-quan-ly-tien-xang-va-gui-xe-the-nao",
       "reason": null,
-      "wp_id": 940
+      "wp_id": 940,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-250-ung-dung-theo-doi-chi-tieu-giup-quan-ly-tien-xang-va-gui-xe-the-nao/"
     }
   },
-  "updated_at": "2026-10-16T14:36:31.718233+00:00"
+  "updated_at": "2026-10-16T14:36:34.974608+00:00"
 }
