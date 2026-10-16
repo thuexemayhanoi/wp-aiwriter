@@ -3367,7 +3367,17 @@
       "wp_id": 1117,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-426-xe-50cc-co-phu-hop-de-cho-them-mot-nguoi-khong/"
+    },
+    "427": {
+      "title": "Xe 50cc có tiết kiệm xăng khi đi nội đô không?",
+      "source_hash": "bc816b1a379a731e2bea9c4fc66b36a51d20a57cf86c08a3364b8aa84061032e",
+      "checked_at": "2026-10-16T16:49:54.560404+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 5,
+      "slug": "excel-427-xe-50cc-co-tiet-kiem-xang-khi-di-noi-do-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:49:53.077366+00:00"
+  "updated_at": "2026-10-16T16:49:54.560416+00:00"
 }
