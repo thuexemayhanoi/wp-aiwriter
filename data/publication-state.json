@@ -455,7 +455,17 @@
       "wp_id": 891,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-202-vinfast-evo-series-khac-nhau-o-nhung-diem-nao/"
+    },
+    "203": {
+      "title": "VinFast Feliz phù hợp với kiểu người dùng nào?",
+      "source_hash": "64ff9a982847d2a3444f1712c7041640e6210add54018eeabac98cb9d4b96276",
+      "checked_at": "2026-10-16T08:10:07.794343+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 21,
+      "slug": "excel-203-vinfast-feliz-phu-hop-voi-kieu-nguoi-dung-nao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T08:10:06.183420+00:00"
+  "updated_at": "2026-10-16T08:10:07.794355+00:00"
 }
