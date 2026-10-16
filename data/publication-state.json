@@ -2864,13 +2864,14 @@
     "388": {
       "title": "Trời nóng có ảnh hưởng đến pin xe máy điện không?",
       "source_hash": "5481fe621fe7de0c9136f2bef9eab6888914e527fd87d9cfcc7c0c8431f12933",
-      "checked_at": "2026-10-16T16:42:11.978351+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:42:14.285536+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 8,
       "slug": "excel-388-troi-nong-co-anh-huong-den-pin-xe-may-dien-khong",
-      "reason": null
+      "reason": null,
+      "wp_id": 1079
     }
   },
-  "updated_at": "2026-10-16T16:42:11.978367+00:00"
+  "updated_at": "2026-10-16T16:42:14.285556+00:00"
 }
