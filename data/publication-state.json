@@ -65,7 +65,17 @@
       "wp_id": 837,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-172-phu-tung-honda-pho-bien-den-muc-nao-khi-can-sua-chua-nhanh/"
+    },
+    "173": {
+      "title": "Phụ tùng Yamaha có dễ tìm khi đi lại ở Hà Nội không?",
+      "source_hash": "129020aae324aacb58a742d449bf382e91e20ec6f4f94f18f1201fbf3429f8fb",
+      "checked_at": "2026-10-16T07:20:28.125555+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 20,
+      "slug": "excel-173-phu-tung-yamaha-co-de-tim-khi-di-lai-o-ha-noi-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T07:20:26.721486+00:00"
+  "updated_at": "2026-10-16T07:20:28.125570+00:00"
 }
