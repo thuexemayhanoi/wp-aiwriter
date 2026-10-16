@@ -2184,7 +2184,17 @@
       "wp_id": 1026,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-335-honda-vision-va-yamaha-janus-mau-nao-de-lam-quen-hon/"
+    },
+    "336": {
+      "title": "Honda Lead và Yamaha Grande: mẫu nào tiện hơn khi cần cốp rộng?",
+      "source_hash": "30cfb6c1bedb4aac57bf1a180da52f4a00811370cc0f93a6331f563d67994fce",
+      "checked_at": "2026-10-16T16:31:27.450320+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 7,
+      "slug": "excel-336-honda-lead-va-yamaha-grande-mau-nao-tien-hon-khi-can-cop-rong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:31:06.702693+00:00"
+  "updated_at": "2026-10-16T16:31:27.450338+00:00"
 }
