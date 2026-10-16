@@ -2925,7 +2925,17 @@
       "wp_id": 1083,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-392-xe-dien-dung-pin-roi-co-tien-hon-khi-o-tang-cao-khong/"
+    },
+    "393": {
+      "title": "Xe điện pin cố định phù hợp với người có chỗ sạc riêng ra sao?",
+      "source_hash": "d7f407565780531023af334abd0c5f50466d851af08ebea5027c0027de8fd4f0",
+      "checked_at": "2026-10-16T16:43:07.709141+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 8,
+      "slug": "excel-393-xe-dien-pin-co-dinh-phu-hop-voi-nguoi-co-cho-sac-rieng-ra-sao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:43:06.113743+00:00"
+  "updated_at": "2026-10-16T16:43:07.709155+00:00"
 }
