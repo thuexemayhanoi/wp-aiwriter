@@ -416,7 +416,17 @@
       "wp_id": 878,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-199-nhung-mau-xe-may-nhat-ban-thuong-gap-nhat-tai-ha-noi/"
+    },
+    "200": {
+      "title": "Chọn hãng xe theo tiêu chí dễ sử dụng, dễ sửa hay kiểu dáng: nên ưu tiên gì?",
+      "source_hash": "827021d1d7a228907bb3e3ad980db014141315149885da2e6345405fe6703572",
+      "checked_at": "2026-10-16T07:46:27.702928+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 20,
+      "slug": "excel-200-chon-hang-xe-theo-tieu-chi-de-su-dung-de-sua-hay-kieu-dang-nen-uu-tien-gi",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T07:46:26.433915+00:00"
+  "updated_at": "2026-10-16T07:46:27.702944+00:00"
 }
