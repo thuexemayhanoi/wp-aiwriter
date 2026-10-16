@@ -1599,7 +1599,17 @@
       "wp_id": 981,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-290-xe-so-110cc-co-du-dung-cho-nhu-cau-di-lai-trong-ha-noi-khong/"
+    },
+    "291": {
+      "title": "Xe số 125cc khác xe số phổ thông ở điểm nào khi vận hành?",
+      "source_hash": "8436b14e7d79cac349e204333e84ee7407c7d5ed7c160d8b3effa320cd4cfa62",
+      "checked_at": "2026-10-16T16:22:05.169556+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 6,
+      "slug": "excel-291-xe-so-125cc-khac-xe-so-pho-thong-o-diem-nao-khi-van-hanh",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:19:31.414055+00:00"
+  "updated_at": "2026-10-16T16:22:05.169574+00:00"
 }
