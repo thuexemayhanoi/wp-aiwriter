@@ -52,7 +52,17 @@
       "wp_id": 836,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-171-xe-yamaha-co-diem-manh-gi-ve-cam-giac-lai-trong-do-thi/"
+    },
+    "172": {
+      "title": "Phụ tùng Honda phổ biến đến mức nào khi cần sửa chữa nhanh?",
+      "source_hash": "e3ce7e304beb39e0c7fb1945197c66953273d8ba6520dc237e065b3e869bcdc0",
+      "checked_at": "2026-10-16T07:20:22.112499+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 20,
+      "slug": "excel-172-phu-tung-honda-pho-bien-den-muc-nao-khi-can-sua-chua-nhanh",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T07:20:20.714738+00:00"
+  "updated_at": "2026-10-16T07:20:22.112512+00:00"
 }
