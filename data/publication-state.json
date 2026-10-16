@@ -745,13 +745,14 @@
     "225": {
       "title": "Khả năng chống nước của xe điện nên được hiểu như thế nào?",
       "source_hash": "80a690e5bee49d86bc57cd5b9ef79fcefc4ad423fcaf9dd4559cdde493a61314",
-      "checked_at": "2026-10-16T10:21:32.208311+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T10:21:34.071753+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 21,
       "slug": "excel-225-kha-nang-chong-nuoc-cua-xe-dien-nen-duoc-hieu-nhu-the-nao",
-      "reason": null
+      "reason": null,
+      "wp_id": 915
     }
   },
-  "updated_at": "2026-10-16T10:21:32.208328+00:00"
+  "updated_at": "2026-10-16T10:21:34.071771+00:00"
 }
