@@ -2487,14 +2487,16 @@
     "359": {
       "title": "Honda Vision đi phố cổ có dễ xoay trở không?",
       "source_hash": "db77ace8ae674f8d1069060e931915679618cdb51e3ca1874ba675666fc8a775",
-      "checked_at": "2026-10-16T16:35:16.755711+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:35:19.429590+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-359-honda-vision-di-pho-co-co-de-xoay-tro-khong",
       "reason": null,
-      "wp_id": 1050
+      "wp_id": 1050,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-359-honda-vision-di-pho-co-co-de-xoay-tro-khong/"
     }
   },
-  "updated_at": "2026-10-16T16:35:16.755772+00:00"
+  "updated_at": "2026-10-16T16:35:19.429610+00:00"
 }
