@@ -728,7 +728,17 @@
       "wp_id": 913,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-223-xe-dien-thuong-hieu-quoc-te-co-diem-manh-gi-ve-mau-ma-va-cong-nghe/"
+    },
+    "224": {
+      "title": "Những tiêu chí nên dùng để so sánh hai hãng xe máy điện",
+      "source_hash": "0485f587d2301d89a9fc896dbfdd77711692ee1241507d254cfdbb7a8ab02819",
+      "checked_at": "2026-10-16T10:21:26.290229+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 21,
+      "slug": "excel-224-nhung-tieu-chi-nen-dung-de-so-sanh-hai-hang-xe-may-dien",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T10:21:24.913990+00:00"
+  "updated_at": "2026-10-16T10:21:26.290248+00:00"
 }
