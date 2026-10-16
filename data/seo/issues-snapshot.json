@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T18:45:08+00:00",
+  "generated_at": "2026-10-16T18:53:49+00:00",
   "issues": {
     "A-AI-CRAWLER-POLICY|https://blog.rentbikehanoi.com/|robots": "P3",
     "A-AUTHOR-GENERIC|https://blog.rentbikehanoi.com/|author": "P2",
@@ -663,6 +663,13 @@
     "C-PRICE-MENTION|post:995": "P2",
     "C-PRICE-MENTION|post:996": "P2",
     "C-PRICE-MENTION|post:997": "P2",
+    "C-THIN-PAGE|page:20": "P2",
+    "C-THIN-PAGE|page:21": "P2",
+    "C-THIN-PAGE|page:22": "P2",
+    "C-THIN-PAGE|page:23": "P2",
+    "C-THIN-PAGE|page:26": "P2",
+    "C-THIN-PAGE|page:27": "P2",
+    "C-THIN-PAGE|page:28": "P2",
     "C-TIME-SENSITIVE|post:1005": "P3",
     "C-TIME-SENSITIVE|post:1007": "P3",
     "C-TIME-SENSITIVE|post:1009": "P3",

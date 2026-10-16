@@ -112,7 +112,7 @@
         },
         "posts": 55,
         "proposed_cluster_lead": {
-          "centroid_similarity": 0.548,
+          "centroid_similarity": 0.547,
           "post_id": 805,
           "source": "computed (needs approval)",
           "title": "Yamaha Janus hướng đến nhóm người dùng nào?",
@@ -349,7 +349,7 @@
         },
         "posts": 15,
         "proposed_cluster_lead": {
-          "centroid_similarity": 0.51,
+          "centroid_similarity": 0.509,
           "post_id": 1157,
           "source": "computed (needs approval)",
           "title": "Đi xe máy đến Nhà hát Lớn Hà Nội: gợi ý chỗ gửi xe và tuyến vào",
@@ -483,7 +483,7 @@
   "content": {
     "cannibalization_pairs": 0,
     "duplicate_copies": 6,
-    "gap_rows": 23,
+    "gap_rows": 22,
     "nap": {
       "configured_business": false,
       "configured_phones": [],
@@ -547,7 +547,7 @@
   },
   "crawl": {
     "archives_crawled": 175,
-    "at": "2026-10-16T18:40:04+00:00",
+    "at": "2026-10-16T18:49:11+00:00",
     "full": true,
     "images_checked": 1,
     "internal_targets_checked": 9,
@@ -557,11 +557,11 @@
     "requests": 748
   },
   "delta_vs_previous": {
-    "new": 0,
-    "resolved": 261
+    "new": 7,
+    "resolved": 0
   },
   "discovery": {
-    "checked_at": "2026-10-16T18:36:42+00:00",
+    "checked_at": "2026-10-16T18:45:27+00:00",
     "description": "Thuê xe máy, xe 50cc và xe điện tại Hà Nội",
     "gmt_offset": 7,
     "home": "https://blog.rentbikehanoi.com",
@@ -590,15 +590,15 @@
     "yoast_rest_namespace": true
   },
   "external_links": {
-    "checked_at": "2026-10-16T18:44:44+00:00",
-    "checked_now": 187,
+    "checked_at": "2026-10-16T18:53:15+00:00",
+    "checked_now": 110,
     "external_unique": 506,
     "failed_after_check": 110,
     "skipped_cap": 0
   },
-  "generated_at": "2026-10-16T18:45:08+00:00",
+  "generated_at": "2026-10-16T18:53:49+00:00",
   "gsc": {
-    "checked_at": "2026-10-16T18:44:58+00:00",
+    "checked_at": "2026-10-16T18:53:29+00:00",
     "reason": "GSC_SERVICE_ACCOUNT_JSON / GSC_PROPERTY not configured",
     "status": "BLOCKED"
   },
@@ -681,6 +681,12 @@
         "count": 19,
         "priority": "P2",
         "verification": "VERIFIED"
+      },
+      {
+        "code": "C-THIN-PAGE",
+        "count": 7,
+        "priority": "P2",
+        "verification": "NEEDS_REVIEW"
       },
       {
         "code": "T-ARCHIVE-NOINDEX",
@@ -811,13 +817,13 @@
     ],
     "by_priority": {
       "P1": 50,
-      "P2": 1575,
+      "P2": 1582,
       "P3": 1435
     },
     "by_priority_and_verification": {
       "P1/NEEDS_REVIEW": 42,
       "P1/VERIFIED": 8,
-      "P2/NEEDS_REVIEW": 425,
+      "P2/NEEDS_REVIEW": 432,
       "P2/VERIFIED": 1150,
       "P3/BLOCKED": 3,
       "P3/INFO": 111,
@@ -851,32 +857,32 @@
   "pagespeed": [
     {
       "error": "HTTP 429",
-      "measured_at": "2026-10-16T18:44:47+00:00",
+      "measured_at": "2026-10-16T18:53:19+00:00",
       "status": 429,
       "url": "https://blog.rentbikehanoi.com/"
     },
     {
       "error": "HTTP 429",
-      "measured_at": "2026-10-16T18:44:50+00:00",
+      "measured_at": "2026-10-16T18:53:22+00:00",
       "status": 429,
       "url": "https://blog.rentbikehanoi.com/dich-vu-cho-thue-xe-may-ha-noi-gia-thu-tuc-dia-chi-kinh-nghiem/"
     },
     {
       "error": "HTTP 429",
-      "measured_at": "2026-10-16T18:44:54+00:00",
+      "measured_at": "2026-10-16T18:53:26+00:00",
       "status": 429,
       "url": "https://blog.rentbikehanoi.com/cach-doc-bien-cam-xe-may-thuong-gap-trong-noi-do-ha-noi/"
     },
     {
       "error": "HTTP 429",
-      "measured_at": "2026-10-16T18:44:58+00:00",
+      "measured_at": "2026-10-16T18:53:29+00:00",
       "status": 429,
       "url": "https://blog.rentbikehanoi.com/category/cam-nang/kinh-nghiem/"
     }
   ],
   "probes": {
     "core_wp_sitemap": {
-      "elapsed_ms": 530,
+      "elapsed_ms": 767,
       "error": "",
       "final_url": "https://blog.rentbikehanoi.com/sitemap_index.xml",
       "redirects": [
@@ -889,7 +895,7 @@
       "status": 200
     },
     "http_to_https": {
-      "elapsed_ms": 478,
+      "elapsed_ms": 692,
       "error": "",
       "final_url": "https://blog.rentbikehanoi.com/",
       "redirects": [
@@ -906,7 +912,7 @@
       "status": 404
     },
     "no_trailing_slash_probe": {
-      "elapsed_ms": 473,
+      "elapsed_ms": 726,
       "error": "",
       "final_url": "https://blog.rentbikehanoi.com/thue-xe-may-theo-ngay-ha-noi/",
       "redirects": [
@@ -920,12 +926,12 @@
       "url": "https://blog.rentbikehanoi.com/thue-xe-may-theo-ngay-ha-noi"
     },
     "not_found_probe": {
-      "elapsed_ms": 349,
+      "elapsed_ms": 481,
       "error": "",
-      "final_url": "https://blog.rentbikehanoi.com/seo-audit-probe-80a0d3ecae98-not-a-page/",
+      "final_url": "https://blog.rentbikehanoi.com/seo-audit-probe-89dd92cd63e3-not-a-page/",
       "redirects": [],
       "status": 404,
-      "url": "https://blog.rentbikehanoi.com/seo-audit-probe-80a0d3ecae98-not-a-page/"
+      "url": "https://blog.rentbikehanoi.com/seo-audit-probe-89dd92cd63e3-not-a-page/"
     },
     "robots_disallow_all": false,
     "robots_sitemaps": [
@@ -966,7 +972,7 @@
     "sitemap_url_count": 548
   },
   "read_only": true,
-  "run": "https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38948627953",
+  "run": "https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38949325730",
   "site": "https://blog.rentbikehanoi.com",
   "stack": {
     "generator": "WordPress 7.1.3",

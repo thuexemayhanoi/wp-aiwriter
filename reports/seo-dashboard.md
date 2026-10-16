@@ -1,6 +1,6 @@
 # SEO Dashboard — https://blog.rentbikehanoi.com
 
-Cập nhật: **2026-10-16T18:45:08+00:00** · Lần chạy: https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38948627953 · Chế độ: `matrix` · **Chỉ đọc**: engine không ghi vào WordPress.
+Cập nhật: **2026-10-16T18:53:49+00:00** · Lần chạy: https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38949325730 · Chế độ: `matrix` · **Chỉ đọc**: engine không ghi vào WordPress.
 
 ## Tổng quan inventory
 
@@ -16,10 +16,10 @@ Crawl: 525 bài/trang tải mới, 0 dùng lại, 175 trang chuyên mục/lưu t
 |---|---|---|---|---|---|
 | P0 | 0 | 0 | 0 | 0 | 0 |
 | P1 | 8 | 42 | 0 | 0 | 50 |
-| P2 | 1150 | 425 | 0 | 0 | 1575 |
+| P2 | 1150 | 432 | 0 | 0 | 1582 |
 | P3 | 981 | 340 | 111 | 3 | 1435 |
 
-So với lần trước: **0 mới**, **261 đã hết**.
+So với lần trước: **7 mới**, **0 đã hết**.
 
 ## Mã lỗi phổ biến
 
@@ -38,6 +38,7 @@ So với lần trước: **0 mới**, **261 đã hết**.
 | L-DEEP-PAGE | P2 | VERIFIED | 74 |
 | L-BROKEN-EXTERNAL | P2 | VERIFIED | 34 |
 | T-META-DESC-MISSING | P2 | VERIFIED | 19 |
+| C-THIN-PAGE | P2 | NEEDS_REVIEW | 7 |
 | T-ARCHIVE-NOINDEX | P2 | NEEDS_REVIEW | 7 |
 | T-IMG-HEAVY | P2 | VERIFIED | 2 |
 | T-SCHEMA-NON-YOAST | P2 | NEEDS_REVIEW | 2 |
@@ -49,7 +50,6 @@ So với lần trước: **0 mới**, **261 đã hết**.
 | A-NO-STRUCTURE | P3 | INFO | 102 |
 | A-NO-DIRECT-ANSWER | P3 | NEEDS_REVIEW | 94 |
 | L-LOW-INBOUND | P3 | VERIFIED | 26 |
-| A-NO-FAQ | P3 | INFO | 5 |
 
 ## Cần chủ sở hữu quyết định (engine không tự sửa)
 
@@ -101,7 +101,7 @@ Phân bố độ sâu nhấp chuột: 1: 12, 2: 148, 3: 183, 4: 101, 5: 34, 6: 1
 
 ## Nội dung
 
-- Cặp gần trùng lặp: 0; cặp nghi cannibalization: 0 (cần GSC để xác minh); content gap: 23 dòng.
+- Cặp gần trùng lặp: 0; cặp nghi cannibalization: 0 (cần GSC để xác minh); content gap: 22 dòng.
 - Số điện thoại tìm thấy trong nội dung: 0942467674 (49 trang), 0334699969 (10 trang)
 - Domain ngoài được liên kết nhiều nhất: www.honda.com.vn (133), yamaha-motor.com.vn (114), xaydungchinhsach.chinhphu.vn (83), vinfastauto.com (75), cdn.honda.com.vn (48), support.google.com (45), www.yadea.com.vn (33), support.apple.com (31)
 
