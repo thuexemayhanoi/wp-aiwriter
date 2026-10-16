@@ -888,13 +888,14 @@
     "236": {
       "title": "Google Maps cho người đi xe máy ở Hà Nội: 10 thiết lập nên kiểm tra",
       "source_hash": "6344b44f8b87d8461e274bc3fdee8e0d27892af1bd6c6b530e00ce23a407c260",
-      "checked_at": "2026-10-16T12:28:58.199641+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T12:29:00.240971+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 17,
       "slug": "excel-236-google-maps-cho-nguoi-di-xe-may-o-ha-noi-10-thiet-lap-nen-kiem-tra",
-      "reason": null
+      "reason": null,
+      "wp_id": 926
     }
   },
-  "updated_at": "2026-10-16T12:28:58.199657+00:00"
+  "updated_at": "2026-10-16T12:29:00.240990+00:00"
 }
