@@ -1733,13 +1733,14 @@
     "301": {
       "title": "Cốp xe số thường đủ cho những vật dụng nào?",
       "source_hash": "80d95f6a0e3f9281c7a78168f91fd49e3f463035d3fb6f352cd9937e5416da24",
-      "checked_at": "2026-10-16T16:23:48.959898+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:23:51.039059+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 6,
       "slug": "excel-301-cop-xe-so-thuong-du-cho-nhung-vat-dung-nao",
-      "reason": null
+      "reason": null,
+      "wp_id": 992
     }
   },
-  "updated_at": "2026-10-16T16:23:48.959915+00:00"
+  "updated_at": "2026-10-16T16:23:51.039076+00:00"
 }
