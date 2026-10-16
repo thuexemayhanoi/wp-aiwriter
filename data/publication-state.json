@@ -3562,7 +3562,17 @@
       "wp_id": 1132,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-441-di-xe-may-quanh-lang-chu-tich-ho-chi-minh-luu-y-ve-tuyen-duong-va-cho-gui-x/"
+    },
+    "442": {
+      "title": "Đi xe máy đến Văn Miếu từ Ba Đình: cách chọn tuyến tránh giờ đông",
+      "source_hash": "c5b763714df5d6e936ed347de886b32beb1d9071ff81d284403cb13e75c2c2dc",
+      "checked_at": "2026-10-16T16:54:16.748981+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 13,
+      "slug": "excel-442-di-xe-may-den-van-mieu-tu-ba-dinh-cach-chon-tuyen-tranh-gio-dong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:54:15.413080+00:00"
+  "updated_at": "2026-10-16T16:54:16.748993+00:00"
 }
