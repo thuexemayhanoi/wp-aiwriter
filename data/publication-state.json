@@ -4173,7 +4173,17 @@
       "wp_id": 1179,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-488-di-xe-may-quanh-nguyen-van-cu-luu-y-khi-nhap-lan-gio-cao-diem/"
+    },
+    "489": {
+      "title": "Đi xe máy qua cầu Chương Dương từ Long Biên: nên đi khung giờ nào?",
+      "source_hash": "a2b3a947974b415e361fe37a4224ed9e7168125beb3c06b4135727b904c88756",
+      "checked_at": "2026-10-16T17:09:13.436466+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 12,
+      "slug": "excel-489-di-xe-may-qua-cau-chuong-duong-tu-long-bien-nen-di-khung-gio-nao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T17:09:11.186123+00:00"
+  "updated_at": "2026-10-16T17:09:13.436479+00:00"
 }
