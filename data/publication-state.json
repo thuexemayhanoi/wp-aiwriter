@@ -2158,7 +2158,17 @@
       "wp_id": 1024,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-333-yamaha-freego-co-phu-hop-voi-nguoi-di-lam-hang-ngay-khong/"
+    },
+    "334": {
+      "title": "Yamaha NVX phù hợp với người thích tư thế lái thể thao ra sao?",
+      "source_hash": "2e0cc9344ace5af9c8304b5dc0063a304e3466b9d10a8fddd007b3189995eda8",
+      "checked_at": "2026-10-16T16:30:56.148622+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 7,
+      "slug": "excel-334-yamaha-nvx-phu-hop-voi-nguoi-thich-tu-the-lai-the-thao-ra-sao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:30:54.761133+00:00"
+  "updated_at": "2026-10-16T16:30:56.148638+00:00"
 }
