@@ -551,6 +551,10 @@ class FakeWPForFixes:
 
 class FixPipelineTest(unittest.TestCase):
     def setUp(self):
+        # Simulated WordPress tests must not inherit the GitHub runner's production
+        # identity. Dedicated tests explicitly turn GITHUB_ACTIONS back on.
+        self.original_github_actions = os.environ.get('GITHUB_ACTIONS')
+        os.environ['GITHUB_ACTIONS'] = 'false'
         self.tmp = tempfile.mkdtemp()
         os.environ['SEO_ROOT'] = self.tmp
         root = pathlib.Path(self.tmp)
@@ -568,6 +572,10 @@ class FixPipelineTest(unittest.TestCase):
 
     def tearDown(self):
         os.environ.pop('SEO_ROOT', None)
+        if self.original_github_actions is None:
+            os.environ.pop('GITHUB_ACTIONS', None)
+        else:
+            os.environ['GITHUB_ACTIONS'] = self.original_github_actions
         shutil.rmtree(self.tmp, ignore_errors=True)
 
     def write_fixes(self, items):
