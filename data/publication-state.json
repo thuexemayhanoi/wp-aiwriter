@@ -3237,7 +3237,17 @@
       "wp_id": 1107,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-416-xe-50cc-phu-hop-voi-nhu-cau-di-lai-nao-trong-ha-noi/"
+    },
+    "417": {
+      "title": "Xe 50cc có dễ điều khiển với người mới không?",
+      "source_hash": "5ca246b41281541057bf3362d93801ab6d35d6a942edeb41f47d1744392f8036",
+      "checked_at": "2026-10-16T16:48:09.900165+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 5,
+      "slug": "excel-417-xe-50cc-co-de-dieu-khien-voi-nguoi-moi-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:48:08.392023+00:00"
+  "updated_at": "2026-10-16T16:48:09.900179+00:00"
 }
