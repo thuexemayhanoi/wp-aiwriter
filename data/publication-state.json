@@ -663,7 +663,17 @@
       "wp_id": 908,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-218-yadea-va-vinfast-nen-so-sanh-nhung-tieu-chi-nao-truoc-khi-chon-xe/"
+    },
+    "219": {
+      "title": "Xe điện dùng pin rời và pin cố định khác nhau thế nào trong thực tế?",
+      "source_hash": "19ba695e6233953e89650fe31a5c94493b80023e52bfcfb8af41ee9512782fe2",
+      "checked_at": "2026-10-16T09:55:04.745760+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 21,
+      "slug": "excel-219-xe-dien-dung-pin-roi-va-pin-co-dinh-khac-nhau-the-nao-trong-thuc-te",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T09:55:02.994706+00:00"
+  "updated_at": "2026-10-16T09:55:04.745772+00:00"
 }
