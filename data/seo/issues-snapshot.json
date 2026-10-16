@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-10-16T18:53:49+00:00",
+  "generated_at": "2026-10-16T19:04:15+00:00",
   "issues": {
     "A-AI-CRAWLER-POLICY|https://blog.rentbikehanoi.com/|robots": "P3",
     "A-AUTHOR-GENERIC|https://blog.rentbikehanoi.com/|author": "P2",
+    "A-BRAND-MISMATCH|https://blog.rentbikehanoi.com/|brand": "P1",
     "A-FOCUS-KEYPHRASE-BLOCKED|https://blog.rentbikehanoi.com/|yoast": "P3",
     "A-NO-DIRECT-ANSWER|post:1012": "P3",
     "A-NO-DIRECT-ANSWER|post:1013": "P3",

@@ -1,6 +1,6 @@
 # SEO Dashboard — https://blog.rentbikehanoi.com
 
-Cập nhật: **2026-10-16T18:53:49+00:00** · Lần chạy: https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38949325730 · Chế độ: `matrix` · **Chỉ đọc**: engine không ghi vào WordPress.
+Cập nhật: **2026-10-16T19:04:15+00:00** · Lần chạy: https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38951091568 · Chế độ: `matrix` · **Chỉ đọc**: engine không ghi vào WordPress.
 
 ## Tổng quan inventory
 
@@ -15,11 +15,11 @@ Crawl: 525 bài/trang tải mới, 0 dùng lại, 175 trang chuyên mục/lưu t
 | Ưu tiên | Đã xác minh | Cần người duyệt | Thông tin | Bị chặn | Tổng |
 |---|---|---|---|---|---|
 | P0 | 0 | 0 | 0 | 0 | 0 |
-| P1 | 8 | 42 | 0 | 0 | 50 |
+| P1 | 8 | 43 | 0 | 0 | 51 |
 | P2 | 1150 | 432 | 0 | 0 | 1582 |
 | P3 | 981 | 340 | 111 | 3 | 1435 |
 
-So với lần trước: **7 mới**, **0 đã hết**.
+So với lần trước: **1 mới**, **0 đã hết**.
 
 ## Mã lỗi phổ biến
 
@@ -28,6 +28,7 @@ So với lần trước: **7 mới**, **0 đã hết**.
 | C-FINE-AMOUNT | P1 | NEEDS_REVIEW | 41 |
 | T-DUPLICATE-COPY | P1 | VERIFIED | 6 |
 | T-TITLE-DUPLICATE | P1 | VERIFIED | 2 |
+| A-BRAND-MISMATCH | P1 | NEEDS_REVIEW | 1 |
 | C-NAP-INCONSISTENT | P1 | NEEDS_REVIEW | 1 |
 | T-FEATURED-IMAGE-MISSING | P2 | VERIFIED | 474 |
 | L-ORPHAN | P2 | VERIFIED | 380 |
@@ -49,7 +50,6 @@ So với lần trước: **7 mới**, **0 đã hết**.
 | C-TIME-SENSITIVE | P3 | NEEDS_REVIEW | 121 |
 | A-NO-STRUCTURE | P3 | INFO | 102 |
 | A-NO-DIRECT-ANSWER | P3 | NEEDS_REVIEW | 94 |
-| L-LOW-INBOUND | P3 | VERIFIED | 26 |
 
 ## Cần chủ sở hữu quyết định (engine không tự sửa)
 
@@ -60,6 +60,7 @@ So với lần trước: **7 mới**, **0 đã hết**.
   - WP 825 https://blog.rentbikehanoi.com/0166-4/ — trùng nội dung với WP 815 https://blog.rentbikehanoi.com/0166-2/ (Excel #166); chuyên mục bản này: Cẩm nang > Hãng xe
   - WP 826 https://blog.rentbikehanoi.com/0167-4/ — trùng nội dung với WP 823 https://blog.rentbikehanoi.com/0167-3/ (Excel #167); chuyên mục bản này: Cẩm nang > Hãng xe
   - WP 829 https://blog.rentbikehanoi.com/0167-5/ — trùng nội dung với WP 823 https://blog.rentbikehanoi.com/0167-3/ (Excel #167); chuyên mục bản này: Cẩm nang > Hãng xe
+- **Tên doanh nghiệp**: schema/site: "Thuê xe máy Nguyễn Hà"; nội dung: "Nguyễn Tú" (51 URL, ví dụ https://blog.rentbikehanoi.com/excel-282-honda-wave-phu-hop-voi-quang-duong-di-lam-ngan-hay-dai/; 16 URL liên kết tới domain chứa "nguyentu"); "Nguyễn Hà Địa" (3 URL, ví dụ https://blog.rentbikehanoi.com/bao-mat/); "Nguyễn Hà
 - **NAP/liên hệ**: nhiều số điện thoại khác nhau: 0942467674 (49 trang, ví dụ https://blog.rentbikehanoi.com/excel-282-honda-wave-phu-hop-voi-quang-duong-di-lam-ngan-hay-dai/); 0334699969 (10 trang, ví dụ https://blog.rentbikehanoi.com/bao-mat/)
 - **Tác giả**: 501 bài có schema Person (tác giả) tên chung chung: "admin" (501); ví dụ: https://blog.rentbikehanoi.com/thue-xe-may-theo-ngay-ha-noi/, https://blog.rentbikehanoi.com/thue-xe-may-theo-tuan-ha-noi/
 - **Nguồn meta description**: 478/525 bài/trang: yoast_head_json không có description nhưng HTML có thẻ meta description (nguồn khác Yoast in ra); ví dụ: https://blog.rentbikehanoi.com/bao-mat/, https://blog.rentbikehanoi.com/cam-nang/, https://blog.rentbikehanoi.com/hoi-dap/
@@ -78,6 +79,7 @@ So với lần trước: **7 mới**, **0 đã hết**.
 | P1 | T-DUPLICATE-COPY | https://blog.rentbikehanoi.com/0167-5/ | trùng nội dung với WP 823 https://blog.rentbikehanoi.com/0167-3/ (Excel #167); chuyên mục bản này: Cẩm nang >  | VERIFIED |
 | P1 | T-TITLE-DUPLICATE | https://blog.rentbikehanoi.com/cam-nang/ | "Cẩm nang - Thuê xe máy Nguyễn Hà" cũng dùng ở: https://blog.rentbikehanoi.com/category/cam-nang/ | VERIFIED |
 | P1 | T-TITLE-DUPLICATE | https://blog.rentbikehanoi.com/category/cam-nang/ | "Cẩm nang - Thuê xe máy Nguyễn Hà" cũng dùng ở: https://blog.rentbikehanoi.com/cam-nang/ | VERIFIED |
+| P1 | A-BRAND-MISMATCH | https://blog.rentbikehanoi.com/ | schema/site: "Thuê xe máy Nguyễn Hà"; nội dung: "Nguyễn Tú" (51 URL, ví dụ https://blog.rentbikehanoi.com/exce | NEEDS_REVIEW |
 | P1 | C-FINE-AMOUNT | https://blog.rentbikehanoi.com/di-xe-may-trong-pho-nho-cach-xu-ly-khi-o-to-dung-do-hai-ben/ | …ượt xe trong những trường hợp không được vượt: phạt tiền từ 800.000 đồng đến 1.000.000 đồng. Xe máy vượt xe,  | NEEDS_REVIEW |
 | P1 | C-FINE-AMOUNT | https://blog.rentbikehanoi.com/di-xe-may-o-khu-vuc-nhieu-pho-mot-chieu-nen-chuan-bi-lo-trinh-the-nao/ | …đi ngược chiều của đường một chiều bị phạt từ 4.000.000 đến 6.000.000 đồng và bị trừ 2 điểm giấy phép lái xe, | NEEDS_REVIEW |
 | P1 | C-FINE-AMOUNT | https://blog.rentbikehanoi.com/di-dung-lan-xe-may-tren-duong-nhieu-lan-cach-nhan-biet-nhanh/ | …áy, lỗi đi không đúng làn đường hiện bị phạt từ 600.000 đến 800.000 đồng; nếu đi sai làn mà gây tai nạn, mức  | NEEDS_REVIEW |
@@ -89,7 +91,6 @@ So với lần trước: **7 mới**, **0 đã hết**.
 | P1 | C-FINE-AMOUNT | https://blog.rentbikehanoi.com/di-xe-may-trong-ngo-hep-ha-noi-cach-tranh-va-quet-khi-gap-xe-nguoc-chieu/ | …và thói quen “leo lề” để tránh chui ngõ bị phạt 4.000.000 – 6.000.000 đồng, trừ 2 điểm giấy phép lái xe. Luật | NEEDS_REVIEW |
 | P1 | C-FINE-AMOUNT | https://blog.rentbikehanoi.com/di-xe-may-qua-cau-vinh-tuy-cach-chuan-bi-lo-trinh-truoc-khi-di/ | …g phần đường: theo Nghị định 168/2024/NĐ-CP, phạt 600.000 – 800.000 đồng. Đây là lỗi dễ dính nhất ở Vĩnh Tuy: | NEEDS_REVIEW |
 | P1 | C-FINE-AMOUNT | https://blog.rentbikehanoi.com/cach-gui-xe-may-thue-an-toan-tai-trung-tam-ha-noi/ | …xe trên vỉa hè trái phép có thể bị phạt tiền từ 400.000 đến 600.000 đồng. Vỉa hè, theo Luật Trật tự, an toàn  | NEEDS_REVIEW |
-| P1 | C-FINE-AMOUNT | https://blog.rentbikehanoi.com/cach-tranh-di-vong-khi-di-chuyen-bang-xe-may-trong-noi-do/ | …hiều, người điều khiển xe máy hiện bị xử phạt tiền từ 4 đến 6 triệu đồng và bị trừ 02 điểm giấy phép lái xe t | NEEDS_REVIEW |
 
 ## Liên kết nội bộ
 
