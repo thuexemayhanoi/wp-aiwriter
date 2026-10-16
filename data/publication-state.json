@@ -3055,7 +3055,17 @@
       "wp_id": 1093,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-402-xe-dien-va-xe-ga-loai-nao-thuan-tien-hon-cho-quang-duong-ngan/"
+    },
+    "403": {
+      "title": "Xe điện và xe số: nên chọn loại nào nếu ưu tiên chi phí vận hành?",
+      "source_hash": "7665a0a3bf936a373fb80ab6019bff9542982976d0f273febca4c3aad6706cfb",
+      "checked_at": "2026-10-16T16:45:00.025342+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 8,
+      "slug": "excel-403-xe-dien-va-xe-so-nen-chon-loai-nao-neu-uu-tien-chi-phi-van-hanh",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:44:58.439830+00:00"
+  "updated_at": "2026-10-16T16:45:00.025358+00:00"
 }
