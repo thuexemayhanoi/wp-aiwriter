@@ -249,14 +249,16 @@
     "187": {
       "title": "Xe ga Honda có những đặc điểm chung nào trong thiết kế đô thị?",
       "source_hash": "bd5d684425bb85f6b8af6f1aa9132990f2d5a912d9515bfa7b9bd7992119715d",
-      "checked_at": "2026-10-16T07:42:31.708646+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T07:42:34.811670+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 20,
       "slug": "excel-187-xe-ga-honda-co-nhung-dac-diem-chung-nao-trong-thiet-ke-do-thi",
       "reason": null,
-      "wp_id": 864
+      "wp_id": 864,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-187-xe-ga-honda-co-nhung-dac-diem-chung-nao-trong-thiet-ke-do-thi/"
     }
   },
-  "updated_at": "2026-10-16T07:42:31.708666+00:00"
+  "updated_at": "2026-10-16T07:42:34.811689+00:00"
 }
