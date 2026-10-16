@@ -2448,13 +2448,14 @@
     "356": {
       "title": "Xe ga nào có cốp rộng phù hợp người mang laptop và đồ cá nhân?",
       "source_hash": "d89ca3e032b152069eb15dbf17ffe12bb0b9214e858e46d2f6a957553bc50697",
-      "checked_at": "2026-10-16T16:34:55.138233+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:34:57.002218+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-356-xe-ga-nao-co-cop-rong-phu-hop-nguoi-mang-laptop-va-do-ca-nhan",
-      "reason": null
+      "reason": null,
+      "wp_id": 1047
     }
   },
-  "updated_at": "2026-10-16T16:34:55.138251+00:00"
+  "updated_at": "2026-10-16T16:34:57.002237+00:00"
 }
