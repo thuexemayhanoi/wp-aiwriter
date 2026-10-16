@@ -3263,7 +3263,17 @@
       "wp_id": 1109,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-418-xe-50cc-so-va-xe-ga-50cc-khac-nhau-the-nao-khi-di-pho/"
+    },
+    "419": {
+      "title": "Cub 50cc có phù hợp để đi học và đi làm hằng ngày không?",
+      "source_hash": "f0228f6b2bfe3e0660a3129f2081f11d7abf70a257966c0f11bad78feda2e5df",
+      "checked_at": "2026-10-16T16:48:24.283296+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 5,
+      "slug": "excel-419-cub-50cc-co-phu-hop-de-di-hoc-va-di-lam-hang-ngay-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:48:22.687591+00:00"
+  "updated_at": "2026-10-16T16:48:24.283310+00:00"
 }
