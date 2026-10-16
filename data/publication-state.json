@@ -4099,13 +4099,14 @@
     "483": {
       "title": "Một buổi khám phá Phố Cổ bằng xe máy: nên dừng xe ở những điểm nào?",
       "source_hash": "041ddb86fb92c5e0fb2536462fb272efdf97f06ec9dfcf99afac283c52652464",
-      "checked_at": "2026-10-16T17:06:42.923949+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T17:06:44.839809+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 11,
       "slug": "excel-483-mot-buoi-kham-pha-pho-co-bang-xe-may-nen-dung-xe-o-nhung-diem-nao",
-      "reason": null
+      "reason": null,
+      "wp_id": 1174
     }
   },
-  "updated_at": "2026-10-16T17:06:42.923965+00:00"
+  "updated_at": "2026-10-16T17:06:44.839823+00:00"
 }
