@@ -3640,7 +3640,17 @@
       "wp_id": 1138,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-447-di-xe-may-den-cong-vien-thu-le-tu-ba-dinh-nen-di-tuyen-nao/"
+    },
+    "448": {
+      "title": "Đi xe máy quanh Quán Thánh và Trúc Bạch: lưu ý về phố nhỏ và một chiều",
+      "source_hash": "2181f3bc2aa9cfde935dd528d2d47b667126e541befeb83cd0547dd1c1425c00",
+      "checked_at": "2026-10-16T16:55:12.564295+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 13,
+      "slug": "excel-448-di-xe-may-quanh-quan-thanh-va-truc-bach-luu-y-ve-pho-nho-va-mot-chieu",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:55:11.245065+00:00"
+  "updated_at": "2026-10-16T16:55:12.564308+00:00"
 }
