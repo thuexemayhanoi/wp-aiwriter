@@ -2123,14 +2123,16 @@
     "331": {
       "title": "Yamaha Janus có phù hợp với người mới dùng xe ga không?",
       "source_hash": "7220f3b250df8ec545b1323d1465a8cf92a82aab2ebe11d3a4b3684fec086d0f",
-      "checked_at": "2026-10-16T16:30:39.792565+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:30:42.629866+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-331-yamaha-janus-co-phu-hop-voi-nguoi-moi-dung-xe-ga-khong",
       "reason": null,
-      "wp_id": 1022
+      "wp_id": 1022,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-331-yamaha-janus-co-phu-hop-voi-nguoi-moi-dung-xe-ga-khong/"
     }
   },
-  "updated_at": "2026-10-16T16:30:39.792584+00:00"
+  "updated_at": "2026-10-16T16:30:42.629884+00:00"
 }
