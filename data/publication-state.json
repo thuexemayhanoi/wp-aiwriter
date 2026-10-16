@@ -1499,13 +1499,14 @@
     "283": {
       "title": "Yamaha Sirius có ưu điểm gì khi đi lại trong phố đông?",
       "source_hash": "71332d400472c3ce3aa06a799679e2c3249a9c1bdced55be5e8574d4fd672f61",
-      "checked_at": "2026-10-16T16:15:20.712821+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:15:23.843705+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 6,
       "slug": "excel-283-yamaha-sirius-co-uu-diem-gi-khi-di-lai-trong-pho-dong",
-      "reason": null
+      "reason": null,
+      "wp_id": 974
     }
   },
-  "updated_at": "2026-10-16T16:15:20.712839+00:00"
+  "updated_at": "2026-10-16T16:15:23.843722+00:00"
 }
