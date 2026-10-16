@@ -576,13 +576,14 @@
     "212": {
       "title": "Xe điện Yadea có những điểm nào dễ làm quen với người mới?",
       "source_hash": "085a9c4c668d4a9ea8c2ad6560cb4f6d9833f08c03d2af4d2861f6cb1fb9f9db",
-      "checked_at": "2026-10-16T09:12:17.147002+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T09:12:18.886390+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 21,
       "slug": "excel-212-xe-dien-yadea-co-nhung-diem-nao-de-lam-quen-voi-nguoi-moi",
-      "reason": null
+      "reason": null,
+      "wp_id": 902
     }
   },
-  "updated_at": "2026-10-16T09:12:17.147015+00:00"
+  "updated_at": "2026-10-16T09:12:18.886404+00:00"
 }
