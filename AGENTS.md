@@ -51,15 +51,16 @@ Each article needs at least 350 words and 3 level-2 sections. This is only a mec
 - QA must succeed before a live batch. Only publish with verified unique full category ancestry; otherwise keep as draft. Never delete or overwrite any prior post automatically.
 - Do not have Git it Write and REST publisher import the same `posts/` files concurrently. Git it Write plugin was deactivated on the target WordPress site on 2026-10-16. Keep it inactive while GitHub Actions publishes.
 
-## WordPress duplicate cleanup — 2026-10-16
-- Compared all 15 WordPress posts for Excel #165, #166, #167; five published copies per exact title all have byte-identical raw bodies. Original posts 814, 815, 816 retained with their original `0165-2`, `0166-2`, `0167-2` slugs, categories and public URLs unchanged.
-- Duplicate posts 821–832 moved to WordPress trash (reversible, not permanently deleted). Verified all 12 are trashed and originals remain published. Do not reactivate Git it Write to import these.
-- For future duplicates: compare exact contents, preserve oldest established public URL, check categories/status and any known link/canonical considerations before moving only proven duplicate copies to trash. Owner authorized duplicate cleanup, not removal of unique posts. Never blindly delete from publisher code.
-- Excel #173 is already created in WordPress as ID 838, but ledger phase is `VERIFY_PENDING`. Reconcile and verify existing WP post rather than creating another.
+## Production runbook and current category
 
-## Category review gate — checked 2026-10-16
-- The first complete Excel category is #146–200, `Cẩm nang > Hãng xe > Hãng xe máy`; all 55 titles were published. Current `scripts/engine.py` hard-gates WordPress publishing to this category and to IDs <=200. **Do not advance this gate without the owner's approval after a category-completion report.**
-- The next category #201–235 is `Cẩm nang > Hãng xe > Hãng xe điện`. Files #201–203 exist but are not published; #204–235 have not been authored. Remaining source #204–500 totals 297 articles.
-- Before owner approves next category, report legacy taxonomy fixes: WP 814 / Excel 165, WP 815 / Excel 166, and WP 823 / Excel 167 are under parent category 19 and should be checked against expected child category 20. WP ID 816 with old permalink /0167-2/ is missing; preserve the remaining URL /0167-3/ until a redirect is reviewed.
-- Keep Git it Write inactive, check for duplicate WordPress posts on each run, preserve one original per title and never permanently delete posts by default.
-- WordPress REST publisher is active and authenticated; source writer is separate. No unattended writing of 297 new articles is currently implemented.
+Full operational instructions: `docs/PUBLISHER_OPERATIONS.md`.
+
+- **Single point of control:** `data/publication-policy.json` → `active_category` (must match Excel parent/child path exactly). Engine derives start/end/next category from original `data/topics.json`.
+- **Currently approved:** `Cẩm nang > Hãng xe > Hãng xe điện` (#201–235, WordPress leaf category 21). **#201–207 already published** correctly; remaining #208–235 need writer files before any further publishing. #208–500 (293 topics) remain unwritten at this checkpoint.
+- **Completed previous group:** #146–200, 55/55 published, WordPress taxonomy corrected for legacy WP 814, 815, 823 to child category 20. Do not republish.
+- **Completion alert:** Actions summary + deduplicated GitHub Issue when all rows of the active category are published in the exact WordPress taxonomy; keep the next group blocked until approved.
+- **QA automation:** `WP AIWriter QA (No WordPress Writes)` automatically tests code, all authored posts and the active-category queue on changes. It never publishes.
+- **WordPress publishing:** `Excel Matrix WP Publisher` is manually triggered with `live=true` and batch size 3/4/5; GitHub serializes runs. Full taxonomy match → publish; missing/ambiguous → draft + report.
+- **Never touch WordPress Trash.** Owner handles it. No auto-delete, restore, or forced overwrites. Duplicates are skipped and reported. Keep the old Git it Write sync inactive; do not run multiple publishers.
+- **Old ledger repairs:** Excel #169 currently WP 880; #173 WP 838, both VERIFIED. Preserve their URLs; do not recreate from scratch.
+- Source writer is separate. GitHub Actions does not generate missing article prose by itself. Writers should follow `docs/PUBLISHER_OPERATIONS.md` and update `docs/WRITER_CHECKPOINT.md` after small pushes.
