@@ -1226,13 +1226,14 @@
     "262": {
       "title": "Cách kiểm tra phần trăm pin xe điện trên ứng dụng điện thoại",
       "source_hash": "36b6b258a5ca5151ae079218aacb80735504e9e01fb0ce5003ef606c2b245019",
-      "checked_at": "2026-10-16T15:53:56.582669+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T15:53:58.671750+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 18,
       "slug": "excel-262-cach-kiem-tra-phan-tram-pin-xe-dien-tren-ung-dung-dien-thoai",
-      "reason": null
+      "reason": null,
+      "wp_id": 952
     }
   },
-  "updated_at": "2026-10-16T15:53:56.582680+00:00"
+  "updated_at": "2026-10-16T15:53:58.671766+00:00"
 }
