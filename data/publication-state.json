@@ -2708,14 +2708,16 @@
     "376": {
       "title": "Thuê xe ga dài hạn: nên ưu tiên cốp, mức xăng hay sự thoải mái?",
       "source_hash": "612b21d1526573cd275a3813d0e0f0431ee775376919fe7a21c211c9810bf74a",
-      "checked_at": "2026-10-16T16:38:23.543092+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:38:26.243804+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-376-thue-xe-ga-dai-han-nen-uu-tien-cop-muc-xang-hay-su-thoai-mai",
       "reason": null,
-      "wp_id": 1067
+      "wp_id": 1067,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-376-thue-xe-ga-dai-han-nen-uu-tien-cop-muc-xang-hay-su-thoai-mai/"
     }
   },
-  "updated_at": "2026-10-16T16:38:23.543111+00:00"
+  "updated_at": "2026-10-16T16:38:26.243823+00:00"
 }
