@@ -1677,7 +1677,17 @@
       "wp_id": 987,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-296-cach-lam-quen-voi-chuyen-so-khi-moi-thue-xe-so/"
+    },
+    "297": {
+      "title": "Khi nào nên về số thấp khi đi xe số trong phố?",
+      "source_hash": "0a940d52eef7a170c51b631f6e870a949b6f20f1a347f284af1d7fa22350ed60",
+      "checked_at": "2026-10-16T16:23:01.018759+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 6,
+      "slug": "excel-297-khi-nao-nen-ve-so-thap-khi-di-xe-so-trong-pho",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:22:59.597730+00:00"
+  "updated_at": "2026-10-16T16:23:01.018772+00:00"
 }
