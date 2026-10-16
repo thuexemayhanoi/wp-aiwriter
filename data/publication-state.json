@@ -1616,14 +1616,16 @@
     "292": {
       "title": "Xe số có tiết kiệm xăng hơn xe ga trong điều kiện phố đông không?",
       "source_hash": "e4acafbd0722db5467ba1de8c814adf4725c224ac71d154822ce636b69578287",
-      "checked_at": "2026-10-16T16:22:13.649062+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:22:16.614385+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 6,
       "slug": "excel-292-xe-so-co-tiet-kiem-xang-hon-xe-ga-trong-dieu-kien-pho-dong-khong",
       "reason": null,
-      "wp_id": 983
+      "wp_id": 983,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-292-xe-so-co-tiet-kiem-xang-hon-xe-ga-trong-dieu-kien-pho-dong-khong/"
     }
   },
-  "updated_at": "2026-10-16T16:22:13.649080+00:00"
+  "updated_at": "2026-10-16T16:22:16.614403+00:00"
 }
