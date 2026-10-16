@@ -193,7 +193,17 @@
       "wp_id": 859,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-182-nvx-va-air-blade-nen-hieu-khac-biet-ve-thiet-ke-the-nao/"
+    },
+    "183": {
+      "title": "Liberty và SH Mode: hai phong cách xe ga đô thị khác nhau ra sao?",
+      "source_hash": "dee7558b122157ede113483ef1faa79d80d44ddf7589fe12e76010d0389de5d6",
+      "checked_at": "2026-10-16T07:35:53.664309+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 20,
+      "slug": "excel-183-liberty-va-sh-mode-hai-phong-cach-xe-ga-do-thi-khac-nhau-ra-sao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T07:35:52.091893+00:00"
+  "updated_at": "2026-10-16T07:35:53.664325+00:00"
 }
