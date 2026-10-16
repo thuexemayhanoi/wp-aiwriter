@@ -2734,13 +2734,14 @@
     "378": {
       "title": "Air Blade đời khác nhau khác biệt đáng kể ở những điểm nào?",
       "source_hash": "9043c79444fb8eb02581f642609a948feb77187be74e970aeed163d1f72fbb11",
-      "checked_at": "2026-10-16T16:38:33.577825+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:38:36.640201+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-378-air-blade-doi-khac-nhau-khac-biet-dang-ke-o-nhung-diem-nao",
-      "reason": null
+      "reason": null,
+      "wp_id": 1069
     }
   },
-  "updated_at": "2026-10-16T16:38:33.577839+00:00"
+  "updated_at": "2026-10-16T16:38:36.640216+00:00"
 }
