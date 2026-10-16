@@ -1365,7 +1365,17 @@
       "wp_id": 963,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-267-cach-bat-thong-bao-sac-day-tren-ung-dung-xe-dien/"
+    },
+    "268": {
+      "title": "Cách theo dõi lịch sử sạc pin bằng ứng dụng",
+      "source_hash": "04d27e4fe42d06b2d0162de5236fe72dc235fe055aa95f883bba6b293b7efe44",
+      "checked_at": "2026-10-16T16:06:36.070566+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 18,
+      "slug": "excel-268-cach-theo-doi-lich-su-sac-pin-bang-ung-dung",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:06:33.097243+00:00"
+  "updated_at": "2026-10-16T16:06:36.070581+00:00"
 }
