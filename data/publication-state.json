@@ -2851,14 +2851,16 @@
     "387": {
       "title": "Trời lạnh có ảnh hưởng đến quãng đường của xe điện không?",
       "source_hash": "d8a47e94606ddeb54122a7928953e81edcf849c11508ded67d84a248bf2fc97a",
-      "checked_at": "2026-10-16T16:42:06.685577+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:42:10.328934+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 8,
       "slug": "excel-387-troi-lanh-co-anh-huong-den-quang-duong-cua-xe-dien-khong",
       "reason": null,
-      "wp_id": 1078
+      "wp_id": 1078,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-387-troi-lanh-co-anh-huong-den-quang-duong-cua-xe-dien-khong/"
     }
   },
-  "updated_at": "2026-10-16T16:42:06.685596+00:00"
+  "updated_at": "2026-10-16T16:42:10.328954+00:00"
 }
