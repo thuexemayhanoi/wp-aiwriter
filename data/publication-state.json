@@ -141,7 +141,17 @@
       "wp_id": 855,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-178-lead-va-vision-mau-nao-thuan-tien-hon-khi-can-mang-nhieu-do/"
+    },
+    "179": {
+      "title": "Janus và Vision: hai mẫu xe ga phổ thông khác nhau ở đâu?",
+      "source_hash": "3f2d4720448912b4d5d66b3c1af10407f168c31596ff77cab56d5fe0d376ca06",
+      "checked_at": "2026-10-16T07:35:26.614575+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 20,
+      "slug": "excel-179-janus-va-vision-hai-mau-xe-ga-pho-thong-khac-nhau-o-dau",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T07:33:22.789375+00:00"
+  "updated_at": "2026-10-16T07:35:26.614591+00:00"
 }
