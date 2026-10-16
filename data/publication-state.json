@@ -1200,14 +1200,16 @@
     "258": {
       "title": "Cách tiết kiệm pin điện thoại khi bật bản đồ liên tục",
       "source_hash": "85de42de12ba095a1a12fd84d7add5615aec84480b7fcd3d2aa586a6345f8533",
-      "checked_at": "2026-10-16T15:38:08.348077+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T15:40:13.496994+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 17,
       "slug": "excel-258-cach-tiet-kiem-pin-dien-thoai-khi-bat-ban-do-lien-tuc",
       "reason": null,
-      "wp_id": 950
+      "wp_id": 950,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-258-cach-tiet-kiem-pin-dien-thoai-khi-bat-ban-do-lien-tuc/"
     }
   },
-  "updated_at": "2026-10-16T15:38:08.348100+00:00"
+  "updated_at": "2026-10-16T15:40:13.497012+00:00"
 }
