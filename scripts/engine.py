@@ -336,6 +336,20 @@ def sync(client, ready, ledger, limit, report):
             report['existing'].append({'id': article['id'], 'wp_id': post['id'], 'status': post['status'], 'url': post['link']})
             continue
         if old.get('phase') in ('POST_INTENT', 'VERIFY_PENDING', 'VERIFIED'):
+            # One-time, owner-authorized recovery of a confirmed permanently missing post.
+            # Its prior ID 834 is also verified missing from WordPress admin and REST.
+            if (article['id'] == 169 and old.get('phase') == 'VERIFIED'
+                    and old.get('wp_id') == 834):
+                try:
+                    client.get('posts/834?context=edit')
+                except RuntimeError as exc:
+                    if str(exc) != 'WordPress HTTP 404; method GET':
+                        raise  # Any non-404 must not authorize a second POST.
+                    eligible.append(article)
+                    continue
+                report['errors'].append({'id': 169,
+                                         'reason': 'Original WordPress post 834 still exists; refused recreation'})
+                continue
             # An interrupted POST may still complete, or a user may have removed the post.
             # Absence is never authorization to issue a second POST automatically.
             report['errors'].append({'id': article['id'], 'reason': 'Unresolved prior POST; reconcile ledger instead of reposting'})
