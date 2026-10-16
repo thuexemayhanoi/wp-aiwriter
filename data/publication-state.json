@@ -3917,13 +3917,14 @@
     "469": {
       "title": "Đi xe máy quanh khu vực Hàng Bài: nên lưu ý gì vào giờ cao điểm?",
       "source_hash": "4f7b0e93333315c50d937b8a5801d02c807e73f4874cda11f942673a4a4644da",
-      "checked_at": "2026-10-16T17:02:27.772122+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T17:02:29.938736+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 10,
       "slug": "excel-469-di-xe-may-quanh-khu-vuc-hang-bai-nen-luu-y-gi-vao-gio-cao-diem",
-      "reason": null
+      "reason": null,
+      "wp_id": 1160
     }
   },
-  "updated_at": "2026-10-16T17:02:27.772135+00:00"
+  "updated_at": "2026-10-16T17:02:29.938751+00:00"
 }
