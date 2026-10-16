@@ -2110,13 +2110,14 @@
     "330": {
       "title": "Honda SH Mode phù hợp với quãng đường đô thị ra sao?",
       "source_hash": "dc820debe7c8ca3ce1b327fd4ecc1bb3efe55fa7bb28c313f7770dad27cd0042",
-      "checked_at": "2026-10-16T16:30:10.985402+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:30:13.031281+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-330-honda-sh-mode-phu-hop-voi-quang-duong-do-thi-ra-sao",
-      "reason": null
+      "reason": null,
+      "wp_id": 1021
     }
   },
-  "updated_at": "2026-10-16T16:30:10.985415+00:00"
+  "updated_at": "2026-10-16T16:30:13.031298+00:00"
 }
