@@ -2613,7 +2613,17 @@
       "wp_id": 1059,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-368-thue-xe-ga-dai-ngay-can-kiem-tra-nhung-bo-phan-nao-thuong-xuyen/"
+    },
+    "369": {
+      "title": "Đi xe ga vào mùa đông Hà Nội cần lưu ý gì?",
+      "source_hash": "9eb1cc4afd07d4abc84f1c326ce5b3b52fd569c187663c4059a23f3b15344de9",
+      "checked_at": "2026-10-16T16:36:57.007170+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 7,
+      "slug": "excel-369-di-xe-ga-vao-mua-dong-ha-noi-can-luu-y-gi",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:36:55.616993+00:00"
+  "updated_at": "2026-10-16T16:36:57.007186+00:00"
 }
