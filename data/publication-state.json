@@ -3943,14 +3943,16 @@
     "471": {
       "title": "Đi xe máy đến ga Hà Nội từ Hoàn Kiếm: những tuyến ngắn dễ nhớ",
       "source_hash": "249d29a3925238a65c871e9f518a07156ac5b00a8d7d6714e07a2688aa8aa6b9",
-      "checked_at": "2026-10-16T17:02:44.541404+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T17:02:47.346276+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 10,
       "slug": "excel-471-di-xe-may-den-ga-ha-noi-tu-hoan-kiem-nhung-tuyen-ngan-de-nho",
       "reason": null,
-      "wp_id": 1162
+      "wp_id": 1162,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-471-di-xe-may-den-ga-ha-noi-tu-hoan-kiem-nhung-tuyen-ngan-de-nho/"
     }
   },
-  "updated_at": "2026-10-16T17:02:44.541419+00:00"
+  "updated_at": "2026-10-16T17:02:47.346293+00:00"
 }
