@@ -1005,13 +1005,14 @@
     "245": {
       "title": "Cách dùng lịch trên điện thoại để nhắc giờ trả xe",
       "source_hash": "57e39f95005c73066df3888fd2630085dea50588014996c91ad976ed934ced62",
-      "checked_at": "2026-10-16T13:48:08.363750+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T13:48:10.618307+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 17,
       "slug": "excel-245-cach-dung-lich-tren-dien-thoai-de-nhac-gio-tra-xe",
-      "reason": null
+      "reason": null,
+      "wp_id": 935
     }
   },
-  "updated_at": "2026-10-16T13:48:08.363766+00:00"
+  "updated_at": "2026-10-16T13:48:10.618325+00:00"
 }
