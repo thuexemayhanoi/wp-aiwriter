@@ -715,7 +715,17 @@
       "wp_id": 912,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-222-xe-dien-thuong-hieu-viet-co-nhung-loi-the-nao-khi-su-dung-trong-nuoc/"
+    },
+    "223": {
+      "title": "Xe điện thương hiệu quốc tế có điểm mạnh gì về mẫu mã và công nghệ?",
+      "source_hash": "799540a29ac5ad0bee372fbd28a7b4cff406ab02c2b282c27277b5d18f470b67",
+      "checked_at": "2026-10-16T10:21:19.988333+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 21,
+      "slug": "excel-223-xe-dien-thuong-hieu-quoc-te-co-diem-manh-gi-ve-mau-ma-va-cong-nghe",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T10:04:51.064858+00:00"
+  "updated_at": "2026-10-16T10:21:19.988352+00:00"
 }
