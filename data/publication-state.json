@@ -2695,14 +2695,16 @@
     "375": {
       "title": "Thuê xe ga theo tuần nên chọn theo tiêu chí nào?",
       "source_hash": "ce9c42e3128f4f076dcf1898b521a51f41cb867c59b02c35dce7b14644efd438",
-      "checked_at": "2026-10-16T16:37:57.846706+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:38:00.564325+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-375-thue-xe-ga-theo-tuan-nen-chon-theo-tieu-chi-nao",
       "reason": null,
-      "wp_id": 1066
+      "wp_id": 1066,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-375-thue-xe-ga-theo-tuan-nen-chon-theo-tieu-chi-nao/"
     }
   },
-  "updated_at": "2026-10-16T16:37:57.846766+00:00"
+  "updated_at": "2026-10-16T16:38:00.564344+00:00"
 }
