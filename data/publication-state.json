@@ -767,7 +767,17 @@
       "wp_id": 916,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-226-phanh-tai-sinh-tren-xe-may-dien-hoat-dong-ra-sao/"
+    },
+    "227": {
+      "title": "Chế độ lái Eco trên xe điện phù hợp khi nào?",
+      "source_hash": "d338af9a48554ebfe717c1d55c7af3760ff1aa33415fef2b6c79a31f1e2c902d",
+      "checked_at": "2026-10-16T10:54:30.360559+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 21,
+      "slug": "excel-227-che-do-lai-eco-tren-xe-dien-phu-hop-khi-nao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T10:54:28.997695+00:00"
+  "updated_at": "2026-10-16T10:54:30.360573+00:00"
 }
