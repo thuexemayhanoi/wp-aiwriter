@@ -4030,7 +4030,17 @@
       "wp_id": 1168,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-477-di-xe-may-o-hoan-kiem-khi-troi-mua-luu-y-duong-tron-va-diem-ngap-cuc-bo/"
+    },
+    "478": {
+      "title": "Đi xe máy trong Phố Cổ Hà Nội: cách xử lý mạng lưới phố một chiều",
+      "source_hash": "14ed08897c02ada1b1baf068fdd99ee7b3c8440e296648e37cf75d71e4b25ff9",
+      "checked_at": "2026-10-16T17:05:38.256767+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 11,
+      "slug": "excel-478-di-xe-may-trong-pho-co-ha-noi-cach-xu-ly-mang-luoi-pho-mot-chieu",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T17:03:48.280955+00:00"
+  "updated_at": "2026-10-16T17:05:38.256785+00:00"
 }
