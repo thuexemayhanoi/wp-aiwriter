@@ -1187,14 +1187,16 @@
     "260": {
       "title": "Cách tạo danh sách địa điểm muốn đến rồi tối ưu thứ tự di chuyển",
       "source_hash": "c1859ee12e5a7b79e9aa85fb32bb84d097461acf5bff0be686d8b3937c82d6d6",
-      "checked_at": "2026-10-16T15:19:00.410469+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T15:19:03.223651+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 17,
       "slug": "excel-260-cach-tao-danh-sach-dia-diem-muon-den-roi-toi-uu-thu-tu-di-chuyen",
       "reason": null,
-      "wp_id": 949
+      "wp_id": 949,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-260-cach-tao-danh-sach-dia-diem-muon-den-roi-toi-uu-thu-tu-di-chuyen/"
     }
   },
-  "updated_at": "2026-10-16T15:19:00.410489+00:00"
+  "updated_at": "2026-10-16T15:19:03.223668+00:00"
 }
