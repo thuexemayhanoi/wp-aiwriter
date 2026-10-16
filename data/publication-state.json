@@ -2383,14 +2383,16 @@
     "351": {
       "title": "Xe ga có phù hợp với người mới chuyển từ xe số sang không?",
       "source_hash": "df570083fd7700378d425a1c70fd139309025d1cd4818e51f8344d6996705a12",
-      "checked_at": "2026-10-16T16:34:05.875904+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:34:08.761404+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-351-xe-ga-co-phu-hop-voi-nguoi-moi-chuyen-tu-xe-so-sang-khong",
       "reason": null,
-      "wp_id": 1042
+      "wp_id": 1042,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-351-xe-ga-co-phu-hop-voi-nguoi-moi-chuyen-tu-xe-so-sang-khong/"
     }
   },
-  "updated_at": "2026-10-16T16:34:05.875923+00:00"
+  "updated_at": "2026-10-16T16:34:08.761425+00:00"
 }
