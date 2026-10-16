@@ -3852,14 +3852,16 @@
     "464": {
       "title": "Đi xe máy đến Hồ Hoàn Kiếm cuối tuần: nên kiểm tra phân luồng thế nào?",
       "source_hash": "75c925dee4f5da96a3a82e9e4da9b3f6cfac9a419039b534ffc8956c19202d59",
-      "checked_at": "2026-10-16T17:01:37.804215+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T17:01:40.699074+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 10,
       "slug": "excel-464-di-xe-may-den-ho-hoan-kiem-cuoi-tuan-nen-kiem-tra-phan-luong-the-nao",
       "reason": null,
-      "wp_id": 1155
+      "wp_id": 1155,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-464-di-xe-may-den-ho-hoan-kiem-cuoi-tuan-nen-kiem-tra-phan-luong-the-nao/"
     }
   },
-  "updated_at": "2026-10-16T17:01:37.804231+00:00"
+  "updated_at": "2026-10-16T17:01:40.699091+00:00"
 }
