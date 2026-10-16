@@ -433,13 +433,14 @@
     "201": {
       "title": "VinFast có những dòng xe máy điện nào phù hợp đi lại trong đô thị?",
       "source_hash": "f84ca8b2cc6a6492699c0be18fda9173eb93e76bf6d1c75311a592d7acd4b7fd",
-      "checked_at": "2026-10-16T08:09:54.510215+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T08:09:56.567020+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 21,
       "slug": "excel-201-vinfast-co-nhung-dong-xe-may-dien-nao-phu-hop-di-lai-trong-do-thi",
-      "reason": null
+      "reason": null,
+      "wp_id": 890
     }
   },
-  "updated_at": "2026-10-16T08:09:54.510232+00:00"
+  "updated_at": "2026-10-16T08:09:56.567039+00:00"
 }
