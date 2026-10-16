@@ -3969,14 +3969,16 @@
     "473": {
       "title": "Đi xe máy ở Hoàn Kiếm buổi tối: nên gửi xe ở đâu rồi đi bộ?",
       "source_hash": "fdcbcfab2ff5bed62a3894dd5283471426c99aa0c619eeec55cd81b04426c6e2",
-      "checked_at": "2026-10-16T17:03:16.511167+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T17:03:19.595116+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 10,
       "slug": "excel-473-di-xe-may-o-hoan-kiem-buoi-toi-nen-gui-xe-o-dau-roi-di-bo",
       "reason": null,
-      "wp_id": 1164
+      "wp_id": 1164,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-473-di-xe-may-o-hoan-kiem-buoi-toi-nen-gui-xe-o-dau-roi-di-bo/"
     }
   },
-  "updated_at": "2026-10-16T17:03:16.511187+00:00"
+  "updated_at": "2026-10-16T17:03:19.595131+00:00"
 }
