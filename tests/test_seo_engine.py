@@ -622,6 +622,21 @@ class FixPipelineTest(unittest.TestCase):
         self.assertFalse(again[0]['applied'])  # never applied twice
         fixes.rollback(self.cfg, wp, 'FIX-1', confirm=True)
         self.assertEqual(wp.raw, self.raw)
+        mirrored = (pathlib.Path(self.tmp) / 'posts/0201.md').read_text()
+        self.assertIn('Hãy chụp ảnh hiện trạng xe trước khi nhận.', mirrored)
+        self.assertNotIn('[chụp ảnh hiện trạng xe](', mirrored)
+
+    def test_rollback_blocks_changed_markdown_before_touching_wordpress(self):
+        wp = FakeWPForFixes(self.raw)
+        self.write_fixes([self.fix])
+        fixes.apply(self.cfg, wp, confirm=True)
+        md_path = pathlib.Path(self.tmp) / 'posts/0201.md'
+        md_path.write_text(md_path.read_text().replace(
+            '[chụp ảnh hiện trạng xe](' + SITE + '/excel-202-b/)',
+            '[edited anchor](' + SITE + '/excel-202-b/)'))
+        with self.assertRaisesRegex(RuntimeError, 'Markdown mirror changed'):
+            fixes.rollback(self.cfg, wp, 'FIX-1', confirm=True)
+        self.assertEqual(len(wp.writes), 1)  # only original apply, no rollback POST
 
     def test_rollback_refuses_when_post_edited_later(self):
         wp = FakeWPForFixes(self.raw)
