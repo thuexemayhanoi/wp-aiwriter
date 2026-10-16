@@ -1304,13 +1304,14 @@
     "278": {
       "title": "Cách bảo vệ tài khoản ứng dụng xe điện khi dùng xe không phải của mình",
       "source_hash": "be267875d88a018aa7ba9d011cfb28bc03ef39b2243e61a2345817c0982a4d6e",
-      "checked_at": "2026-10-16T15:55:13.602703+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T15:55:15.754564+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 18,
       "slug": "excel-278-cach-bao-ve-tai-khoan-ung-dung-xe-dien-khi-dung-xe-khong-phai-cua-minh",
-      "reason": null
+      "reason": null,
+      "wp_id": 958
     }
   },
-  "updated_at": "2026-10-16T15:55:13.602716+00:00"
+  "updated_at": "2026-10-16T15:55:15.754580+00:00"
 }
