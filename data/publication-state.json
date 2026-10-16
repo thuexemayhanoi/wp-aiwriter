@@ -3904,13 +3904,14 @@
     "468": {
       "title": "Đi xe máy đến Tràng Tiền: cách tránh vòng lại vì đường một chiều",
       "source_hash": "78e9ac57f7fa5124d189defdf9148a30d636d0f1a7a31a87ec94d2be2546b978",
-      "checked_at": "2026-10-16T17:02:20.880962+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T17:02:23.279015+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 10,
       "slug": "excel-468-di-xe-may-den-trang-tien-cach-tranh-vong-lai-vi-duong-mot-chieu",
-      "reason": null
+      "reason": null,
+      "wp_id": 1159
     }
   },
-  "updated_at": "2026-10-16T17:02:20.880979+00:00"
+  "updated_at": "2026-10-16T17:02:23.279032+00:00"
 }
