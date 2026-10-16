@@ -3796,7 +3796,17 @@
       "wp_id": 1150,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-459-di-xe-may-quanh-khu-vuc-ben-xe-gia-lam-luu-y-khi-nhap-lan-va-quay-dau/"
+    },
+    "460": {
+      "title": "Một ngày đi xe máy từ Gia Lâm khám phá trung tâm Hà Nội",
+      "source_hash": "b85d2b575d83cb4fedc60317ef0a90b4bd64fdaba70d5bbabf1717f4a953dbb6",
+      "checked_at": "2026-10-16T16:58:54.254134+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 14,
+      "slug": "excel-460-mot-ngay-di-xe-may-tu-gia-lam-kham-pha-trung-tam-ha-noi",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:58:52.952461+00:00"
+  "updated_at": "2026-10-16T16:58:54.254147+00:00"
 }
