@@ -3020,14 +3020,16 @@
     "400": {
       "title": "Xe điện có dễ điều khiển trong ngõ nhỏ và phố đông không?",
       "source_hash": "c555bb86a00b9a3ea9cdddab187a108b6f15828944533d3e4a685c628b65c4a4",
-      "checked_at": "2026-10-16T16:44:20.603567+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:44:23.779327+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 8,
       "slug": "excel-400-xe-dien-co-de-dieu-khien-trong-ngo-nho-va-pho-dong-khong",
       "reason": null,
-      "wp_id": 1091
+      "wp_id": 1091,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-400-xe-dien-co-de-dieu-khien-trong-ngo-nho-va-pho-dong-khong/"
     }
   },
-  "updated_at": "2026-10-16T16:44:20.603585+00:00"
+  "updated_at": "2026-10-16T16:44:23.779348+00:00"
 }
