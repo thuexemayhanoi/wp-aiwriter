@@ -1,3 +1,15 @@
+# Production checkpoint — 2026-10-16, Excel #217–219 published
+
+- Owner approved writing and publishing the next 3 posts in current active Excel category `Cẩm nang > Hãng xe > Hãng xe điện` (#201–235); WordPress child category ID **21**.
+- Created and pushed `posts/0217.md` Feliz–Klara design/ergonomics, `posts/0218.md` YADEA vs VinFast decision criteria and `posts/0219.md` removable/fixed batteries, distinguishing physical removability from battery-swap network eligibility. All three titles, IDs and taxonomy paths match `data/topics.json`; research refers to manufacturer documents.
+- Safe QA GitHub Actions [run 38883581257](https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38883581257) = **SUCCESS**, **55/55 authored QA PASS, 18/18 regression tests PASS**, 0 QA failures.
+- Live publishing GitHub Actions [run 38867887824](https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38867887824), latest job = **SUCCESS**. All three WordPress posts **VERIFIED**, `status=publish`, category `[21]`: Excel **#217 → WP 907**, **#218 → WP 908**, **#219 → WP 909**. No duplicate groups, no publishing errors, URLs and IDs recorded in `data/publication-state.json`.
+- Excel publication progress **74/355**, first category `#146–200` **55/55** finished; current electric manufacturer category `#201–235` **19/35** correctly published; **16 remaining #220–235**. Authored source posts through #219 (55 files); **281 IDs #220–500** not yet authored.
+- **NEXT WRITER BATCH** starts #220, #221, #222: use exact Excel metadata, write source files, QA, then run an authorized 3–5 POST batch. No automatic AI writer is running within GitHub Actions.
+- Preserve `data/topics.json` checksum, site/post URL/slug/canonical, category boundary, Git it Write inactive and **WordPress Trash strictly untouched**. When #235 is finished report and stop before changing `data/publication-policy.json`.
+
+---
+
 # Verified production checkpoint — 2026-10-16 through Excel #216
 
 - Authorized current batch: **#214–216**, written and pushed individually to `main` as `posts/0214.md`, `posts/0215.md`, `posts/0216.md`. Original Excel IDs, exact titles and full taxonomy path `Cẩm nang > Hãng xe > Hãng xe điện` preserved, researched against relevant official VinFast manufacturer product pages.
