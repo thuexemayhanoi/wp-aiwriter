@@ -1066,7 +1066,17 @@
       "wp_id": 939,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-249-cach-quet-va-luu-ban-sao-giay-to-thue-xe-tren-dien-thoai/"
+    },
+    "250": {
+      "title": "Ứng dụng theo dõi chi tiêu giúp quản lý tiền xăng và gửi xe thế nào?",
+      "source_hash": "e0babb5e9e2bd84d0b69ab86523ea17e103b505f81e1fb807998ab16fe8e6985",
+      "checked_at": "2026-10-16T14:36:28.959415+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 17,
+      "slug": "excel-250-ung-dung-theo-doi-chi-tieu-giup-quan-ly-tien-xang-va-gui-xe-the-nao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T14:34:23.687680+00:00"
+  "updated_at": "2026-10-16T14:36:28.959434+00:00"
 }
