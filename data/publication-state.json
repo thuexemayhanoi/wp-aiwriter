@@ -875,14 +875,16 @@
     "235": {
       "title": "Cách so sánh xe điện theo quãng đường, tốc độ và thời gian sạc",
       "source_hash": "8c5e4d67d8e3a40a6ea31add1e4360cccaddf1d89280532cb2c4655e0ada2bf1",
-      "checked_at": "2026-10-16T12:11:50.685579+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T12:11:53.624703+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 21,
       "slug": "excel-235-cach-so-sanh-xe-dien-theo-quang-duong-toc-do-va-thoi-gian-sac",
       "reason": null,
-      "wp_id": 925
+      "wp_id": 925,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-235-cach-so-sanh-xe-dien-theo-quang-duong-toc-do-va-thoi-gian-sac/"
     }
   },
-  "updated_at": "2026-10-16T12:11:50.685601+00:00"
+  "updated_at": "2026-10-16T12:11:53.624726+00:00"
 }
