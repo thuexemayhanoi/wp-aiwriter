@@ -3150,13 +3150,14 @@
     "410": {
       "title": "Xe điện có phù hợp với lịch trình thay đổi nhiều trong ngày không?",
       "source_hash": "36ace90dc8a2133017d6e9258295e1f81d844537b60beb53089b4fe6345dbe7a",
-      "checked_at": "2026-10-16T16:46:11.655375+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:46:14.776480+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 8,
       "slug": "excel-410-xe-dien-co-phu-hop-voi-lich-trinh-thay-doi-nhieu-trong-ngay-khong",
-      "reason": null
+      "reason": null,
+      "wp_id": 1101
     }
   },
-  "updated_at": "2026-10-16T16:46:11.655390+00:00"
+  "updated_at": "2026-10-16T16:46:14.776498+00:00"
 }
