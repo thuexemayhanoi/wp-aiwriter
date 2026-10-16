@@ -793,7 +793,17 @@
       "wp_id": 918,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-228-che-do-sport-tren-xe-dien-nen-dung-trong-tinh-huong-nao/"
+    },
+    "229": {
+      "title": "Màn hình điện tử trên xe máy điện thường hiển thị những thông tin gì?",
+      "source_hash": "7265f2c13456ee958cbb2cf0ee01b4c8fc968ca118e9ac024f791997e5531693",
+      "checked_at": "2026-10-16T11:54:39.944915+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 21,
+      "slug": "excel-229-man-hinh-dien-tu-tren-xe-may-dien-thuong-hien-thi-nhung-thong-tin-gi",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T10:54:42.118238+00:00"
+  "updated_at": "2026-10-16T11:54:39.944950+00:00"
 }
