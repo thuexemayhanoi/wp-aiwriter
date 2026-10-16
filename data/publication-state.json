@@ -2756,7 +2756,17 @@
       "wp_id": 1070,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-379-lead-doi-khac-nhau-co-thay-doi-nhieu-ve-cop-va-tu-the-lai-khong/"
+    },
+    "380": {
+      "title": "Janus, Vision hay Grande: cách chọn theo vóc dáng người lái",
+      "source_hash": "2356d6732c55fac06b47bb04e261d0c9a56f75ed16ff5c6621b3cba78f6388ca",
+      "checked_at": "2026-10-16T16:38:46.375015+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 7,
+      "slug": "excel-380-janus-vision-hay-grande-cach-chon-theo-voc-dang-nguoi-lai",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:38:45.048059+00:00"
+  "updated_at": "2026-10-16T16:38:46.375028+00:00"
 }
