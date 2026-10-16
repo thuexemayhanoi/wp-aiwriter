@@ -3900,7 +3900,17 @@
       "wp_id": 1158,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-467-di-xe-may-den-nha-tho-lon-ha-noi-luu-y-pho-nho-va-cho-gui-xe/"
+    },
+    "468": {
+      "title": "Đi xe máy đến Tràng Tiền: cách tránh vòng lại vì đường một chiều",
+      "source_hash": "78e9ac57f7fa5124d189defdf9148a30d636d0f1a7a31a87ec94d2be2546b978",
+      "checked_at": "2026-10-16T17:02:20.880962+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 10,
+      "slug": "excel-468-di-xe-may-den-trang-tien-cach-tranh-vong-lai-vi-duong-mot-chieu",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T17:02:00.935424+00:00"
+  "updated_at": "2026-10-16T17:02:20.880979+00:00"
 }
