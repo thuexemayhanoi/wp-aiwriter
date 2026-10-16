@@ -364,7 +364,17 @@
       "wp_id": 873,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-195-cach-phan-biet-cac-doi-honda-vision-khi-nhin-ngoai-hinh/"
+    },
+    "196": {
+      "title": "Cách phân biệt một số đời Air Blade qua thiết kế bên ngoài",
+      "source_hash": "f50513fa9733a5c62740b42dcc374114eee4fa9e2acc313209921a0fc6b9b4b0",
+      "checked_at": "2026-10-16T07:45:24.075039+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 20,
+      "slug": "excel-196-cach-phan-biet-mot-so-doi-air-blade-qua-thiet-ke-ben-ngoai",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T07:45:22.329269+00:00"
+  "updated_at": "2026-10-16T07:45:24.075052+00:00"
 }
