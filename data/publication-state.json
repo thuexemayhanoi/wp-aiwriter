@@ -3553,13 +3553,14 @@
     "441": {
       "title": "Đi xe máy quanh Lăng Chủ tịch Hồ Chí Minh: lưu ý về tuyến đường và chỗ gửi xe",
       "source_hash": "dad10b158d9a52efc2e9831102d2ff419b4328afdf026d9caeae711cd4fcc342",
-      "checked_at": "2026-10-16T16:54:10.585309+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:54:12.544002+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 13,
       "slug": "excel-441-di-xe-may-quanh-lang-chu-tich-ho-chi-minh-luu-y-ve-tuyen-duong-va-cho-gui-x",
-      "reason": null
+      "reason": null,
+      "wp_id": 1132
     }
   },
-  "updated_at": "2026-10-16T16:54:10.585327+00:00"
+  "updated_at": "2026-10-16T16:54:12.544019+00:00"
 }
