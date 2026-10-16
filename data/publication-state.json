@@ -4203,13 +4203,14 @@
     "491": {
       "title": "Đi xe máy từ Long Biên đến Ba Đình: cách chọn tuyến ít đổi hướng",
       "source_hash": "b59a6c0d4e938c0d9d43665216715c2250e6a395d1bafee22dccc2d2db2e8d00",
-      "checked_at": "2026-10-16T17:09:43.973632+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T17:09:46.111870+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 12,
       "slug": "excel-491-di-xe-may-tu-long-bien-den-ba-dinh-cach-chon-tuyen-it-doi-huong",
-      "reason": null
+      "reason": null,
+      "wp_id": 1182
     }
   },
-  "updated_at": "2026-10-16T17:09:43.973649+00:00"
+  "updated_at": "2026-10-16T17:09:46.111889+00:00"
 }
