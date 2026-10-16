@@ -17,13 +17,14 @@
     "169": {
       "title": "Honda và Yamaha: hãng nào có nhiều lựa chọn xe ga đô thị hơn?",
       "source_hash": "92a6409306b8ea4c17d86cc44124f35bba1e6397c64707196dd90f525ca9a00c",
-      "checked_at": "2026-10-16T07:20:03.680686+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T07:20:05.829564+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 20,
       "slug": "excel-169-honda-va-yamaha-hang-nao-co-nhieu-lua-chon-xe-ga-do-thi-hon",
-      "reason": null
+      "reason": null,
+      "wp_id": 834
     }
   },
-  "updated_at": "2026-10-16T07:20:03.680704+00:00"
+  "updated_at": "2026-10-16T07:20:05.829583+00:00"
 }
