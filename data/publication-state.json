@@ -3501,14 +3501,16 @@
     "437": {
       "title": "Xe ga 50cc và Honda Vision khác nhau thế nào về kích thước và sức mạnh?",
       "source_hash": "cc0302bef39e87648a85859634c69d17e0293317d10195284d54ccd96e969a0b",
-      "checked_at": "2026-10-16T16:51:41.449696+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:51:44.598941+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 5,
       "slug": "excel-437-xe-ga-50cc-va-honda-vision-khac-nhau-the-nao-ve-kich-thuoc-va-suc-manh",
       "reason": null,
-      "wp_id": 1128
+      "wp_id": 1128,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-437-xe-ga-50cc-va-honda-vision-khac-nhau-the-nao-ve-kich-thuoc-va-suc-manh/"
     }
   },
-  "updated_at": "2026-10-16T16:51:41.449736+00:00"
+  "updated_at": "2026-10-16T16:51:44.598959+00:00"
 }
