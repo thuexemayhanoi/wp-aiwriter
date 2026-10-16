@@ -1989,7 +1989,17 @@
       "wp_id": 1011,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-320-di-xe-so-vao-mua-dong-ha-noi-can-luu-y-gi/"
+    },
+    "321": {
+      "title": "Đi xe số dưới mưa lớn cần chú ý gì ở bộ phận phanh và lốp?",
+      "source_hash": "3280b939286d14cb58ea1c0c5b3317965aa84728b4c5922b054f97be8335aa75",
+      "checked_at": "2026-10-16T16:27:13.133224+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 6,
+      "slug": "excel-321-di-xe-so-duoi-mua-lon-can-chu-y-gi-o-bo-phan-phanh-va-lop",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:26:52.683072+00:00"
+  "updated_at": "2026-10-16T16:27:13.133243+00:00"
 }
