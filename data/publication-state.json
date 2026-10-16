@@ -2509,7 +2509,17 @@
       "wp_id": 1051,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-360-honda-lead-co-phu-hop-voi-nguoi-o-can-ho-va-can-mang-nhieu-do-khong/"
+    },
+    "361": {
+      "title": "Air Blade có phù hợp với người thường xuyên đi cầu và đường lớn không?",
+      "source_hash": "6b4cd415b943e774ba672447f33c47f60a4262e7090882dbe779da1d998b4080",
+      "checked_at": "2026-10-16T16:35:47.817319+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 7,
+      "slug": "excel-361-air-blade-co-phu-hop-voi-nguoi-thuong-xuyen-di-cau-va-duong-lon-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:35:26.384532+00:00"
+  "updated_at": "2026-10-16T16:35:47.817338+00:00"
 }
