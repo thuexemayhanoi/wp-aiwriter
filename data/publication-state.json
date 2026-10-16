@@ -1161,13 +1161,14 @@
     "257": {
       "title": "Giá đỡ điện thoại và ứng dụng dẫn đường: dùng thế nào cho an toàn?",
       "source_hash": "b01eb73b731549399343618871d4b909f3ef76c3d1a8a8263424571c57bc2ea6",
-      "checked_at": "2026-10-16T15:12:06.684461+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T15:12:09.829210+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 17,
       "slug": "excel-257-gia-do-dien-thoai-va-ung-dung-dan-duong-dung-the-nao-cho-an-toan",
-      "reason": null
+      "reason": null,
+      "wp_id": 947
     }
   },
-  "updated_at": "2026-10-16T15:12:06.684478+00:00"
+  "updated_at": "2026-10-16T15:12:09.829226+00:00"
 }
