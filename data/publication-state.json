@@ -1148,13 +1148,14 @@
     "256": {
       "title": "Cách dùng điện thoại dẫn đường mà vẫn hạn chế mất tập trung khi lái",
       "source_hash": "f820cdd5515f7b8101a69944bd0c8c314781bdefbc276516a6030a131ecf9421",
-      "checked_at": "2026-10-16T15:03:38.743228+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T15:03:40.744170+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 17,
       "slug": "excel-256-cach-dung-dien-thoai-dan-duong-ma-van-han-che-mat-tap-trung-khi-lai",
-      "reason": null
+      "reason": null,
+      "wp_id": 946
     }
   },
-  "updated_at": "2026-10-16T15:03:38.743245+00:00"
+  "updated_at": "2026-10-16T15:03:40.744184+00:00"
 }
