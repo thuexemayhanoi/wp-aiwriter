@@ -2288,7 +2288,17 @@
       "wp_id": 1034,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-343-nvx-va-air-blade-khac-nhau-the-nao-ve-tu-the-lai/"
+    },
+    "344": {
+      "title": "Xe ga 110cc có đủ dùng cho nhu cầu đi lại trong Hà Nội không?",
+      "source_hash": "6b097d5d3975a4c7d7ea7b7871487bb23316b4da3ddb8c7cac75080536850382",
+      "checked_at": "2026-10-16T16:32:36.873042+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 7,
+      "slug": "excel-344-xe-ga-110cc-co-du-dung-cho-nhu-cau-di-lai-trong-ha-noi-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:32:35.212254+00:00"
+  "updated_at": "2026-10-16T16:32:36.873054+00:00"
 }
