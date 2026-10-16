@@ -4242,14 +4242,16 @@
     "494": {
       "title": "Đi xe máy từ Bồ Đề đến Phố Cổ: cách chọn tuyến ngắn",
       "source_hash": "c3aabf66cee7c71f89639da138dc037f1346afeb8af50c1b3ebcd4509bc8a43e",
-      "checked_at": "2026-10-16T17:10:06.832186+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T17:10:09.637452+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 12,
       "slug": "excel-494-di-xe-may-tu-bo-de-den-pho-co-cach-chon-tuyen-ngan",
       "reason": null,
-      "wp_id": 1185
+      "wp_id": 1185,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-494-di-xe-may-tu-bo-de-den-pho-co-cach-chon-tuyen-ngan/"
     }
   },
-  "updated_at": "2026-10-16T17:10:06.832203+00:00"
+  "updated_at": "2026-10-16T17:10:09.637471+00:00"
 }
