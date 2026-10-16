@@ -1092,7 +1092,17 @@
       "wp_id": 941,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-251-cach-theo-doi-chi-phi-di-lai-hang-ngay-bang-ung-dung-ngan-sach/"
+    },
+    "252": {
+      "title": "Ứng dụng thời tiết nào hữu ích trước khi đi xe máy ở Hà Nội?",
+      "source_hash": "ccff6430b521234a9193d82a244fcb5c3e4d2e2131915464ce787176297d31b7",
+      "checked_at": "2026-10-16T14:45:57.315959+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 17,
+      "slug": "excel-252-ung-dung-thoi-tiet-nao-huu-ich-truoc-khi-di-xe-may-o-ha-noi",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T14:44:04.199660+00:00"
+  "updated_at": "2026-10-16T14:45:57.315974+00:00"
 }
