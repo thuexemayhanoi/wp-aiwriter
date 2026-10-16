@@ -1404,7 +1404,17 @@
       "wp_id": 966,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-270-ung-dung-xe-dien-co-the-giup-theo-doi-tieu-thu-nang-luong-ra-sao/"
+    },
+    "271": {
+      "title": "Cách dùng bản đồ để tính khoảng cách giữa hai điểm sạc",
+      "source_hash": "7418503f7da14b89a7d990e1d92e694d05850464d09138e85d2cd8bac112d78b",
+      "checked_at": "2026-10-16T16:11:20.824998+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 18,
+      "slug": "excel-271-cach-dung-ban-do-de-tinh-khoang-cach-giua-hai-diem-sac",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:06:55.039209+00:00"
+  "updated_at": "2026-10-16T16:11:20.825016+00:00"
 }
