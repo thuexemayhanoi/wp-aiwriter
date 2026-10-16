@@ -99,7 +99,8 @@ Rules that keep the matrix free of noise and false positives:
 
 All of them call `seo-engine.yml`, share the concurrency group `seo-engine-<branch>` and commit only
 `data/posts-index.jsonl`, `data/seo/` and the SEO report files. These paths do not trigger the article QA
-or the WordPress publisher. No WordPress secret is passed to any audit workflow.
+or the WordPress publisher, and report commits carry `[skip ci]`, so they never start another workflow run.
+No WordPress secret is passed to any audit workflow.
 
 ## Applying an approved fix
 

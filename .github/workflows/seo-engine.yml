@@ -98,7 +98,8 @@ jobs:
                  reports/seo-dashboard.md reports/change-log.md reports/gsc-pages.csv)
           for p in "${paths[@]}"; do [ -e "$p" ] && git add -- "$p"; done
           if git diff --cached --quiet; then echo "No report changes"; exit 0; fi
-          git commit -q -m "chore(seo): ${LABEL} report $(date -u +%F)"
+          # [skip ci]: a report commit never starts workflows (no recursive runs, no held runs on PRs).
+          git commit -q -m "chore(seo): ${LABEL} report $(date -u +%F) [skip ci]"
           for attempt in 1 2 3; do
             if git pull --rebase -q origin "$BRANCH" && git push -q origin "HEAD:$BRANCH"; then
               echo "Persisted to $BRANCH"; exit 0
