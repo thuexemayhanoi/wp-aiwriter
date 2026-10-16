@@ -832,7 +832,17 @@
       "wp_id": 921,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-231-ung-dung-dien-thoai-cua-hang-xe-dien-co-the-ho-tro-nhung-chuc-nang-gi/"
+    },
+    "232": {
+      "title": "Xe điện có cập nhật phần mềm hay không và điều đó ảnh hưởng gì đến người dùng?",
+      "source_hash": "8d5ea092379db321eaeb55fdec003281a4eb44d4b4c47b5f103e2f310b957c80",
+      "checked_at": "2026-10-16T12:10:44.882574+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 21,
+      "slug": "excel-232-xe-dien-co-cap-nhat-phan-mem-hay-khong-va-dieu-do-anh-huong-gi-den-nguoi-du",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T11:54:56.761737+00:00"
+  "updated_at": "2026-10-16T12:10:44.882591+00:00"
 }
