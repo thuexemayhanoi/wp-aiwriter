@@ -1395,14 +1395,16 @@
     "270": {
       "title": "Ứng dụng xe điện có thể giúp theo dõi tiêu thụ năng lượng ra sao?",
       "source_hash": "cbb7fbcad6b0e58bc453fd8a64f3df6311dbf80709909e1bfd9362a167b9c581",
-      "checked_at": "2026-10-16T16:06:51.802984+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:06:55.039191+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 18,
       "slug": "excel-270-ung-dung-xe-dien-co-the-giup-theo-doi-tieu-thu-nang-luong-ra-sao",
       "reason": null,
-      "wp_id": 966
+      "wp_id": 966,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-270-ung-dung-xe-dien-co-the-giup-theo-doi-tieu-thu-nang-luong-ra-sao/"
     }
   },
-  "updated_at": "2026-10-16T16:06:51.803001+00:00"
+  "updated_at": "2026-10-16T16:06:55.039209+00:00"
 }
