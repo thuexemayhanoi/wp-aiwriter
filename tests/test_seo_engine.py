@@ -1,6 +1,9 @@
 """Offline tests for the read-only SEO engine and the gated fix pipeline (no network)."""
 import csv
 import json
+import io
+import contextlib
+from unittest import mock
 import os
 import pathlib
 import shutil
@@ -619,6 +622,82 @@ class FixPipelineTest(unittest.TestCase):
         wp.modified = '2026-10-25T00:00:00'
         with self.assertRaises(RuntimeError):
             fixes.rollback(self.cfg, wp, 'FIX-1', confirm=True)
+
+
+    def test_cli_does_not_report_green_when_apply_failed(self):
+        bad = [{'id': 'FIX-1', 'status': 'VALID', 'applied': False, 'error': 'REST POST failed'}]
+        limited = [{'id': 'FIX-1', 'status': 'VALID', 'applied': False, 'reason': 'max_fixes_limit'}]
+        with mock.patch.object(cli.fixes, 'apply', return_value=bad), \
+             mock.patch.dict(os.environ, {'WP_USERNAME': 'fake', 'WP_APPLICATION_PASSWORD': 'fake',
+                                          'SEO_APPLY_CONFIRM': 'yes'}), \
+             contextlib.redirect_stdout(io.StringIO()):
+            self.assertEqual(cli.main(['fixes', 'apply']), 1)
+        with mock.patch.object(cli.fixes, 'apply', return_value=limited), \
+             mock.patch.dict(os.environ, {'WP_USERNAME': 'fake', 'WP_APPLICATION_PASSWORD': 'fake',
+                                          'SEO_APPLY_CONFIRM': 'yes'}), \
+             contextlib.redirect_stdout(io.StringIO()):
+            self.assertEqual(cli.main(['fixes', 'apply']), 0)
+
+    def test_rollback_rejects_unverified_or_incomplete_receipts(self):
+        wp = FakeWPForFixes(self.raw)
+        root = pathlib.Path(self.tmp)
+        backup_rel = 'data/seo/backups/FIX-1-post201.json'
+        common.write_json(root / backup_rel, {
+            'fix_id': 'FIX-1', 'post_id': 201, 'slug': 'excel-201-a',
+            'link': SITE + '/excel-201-a/', 'content_raw_before': self.raw,
+        })
+        for phase, timestamp in [('APPLY_INTENT', None), ('POST_SENT', None),
+                                 ('VERIFIED', None)]:
+            common.write_json(root / 'data/seo/applied-fixes.json', {'fixes': {
+                'FIX-1': {'post_id': 201, 'phase': phase, 'backup': backup_rel,
+                          'modified_gmt_after': timestamp}}})
+            with self.assertRaisesRegex(RuntimeError, 'not fully verified'):
+                fixes.rollback(self.cfg, wp, 'FIX-1', confirm=True)
+        self.assertEqual(wp.writes, [])
+
+    def test_rollback_blocks_changed_permalink_even_with_same_timestamp(self):
+        wp = FakeWPForFixes(self.raw)
+        root = pathlib.Path(self.tmp)
+        backup_rel = 'data/seo/backups/FIX-1-post201.json'
+        common.write_json(root / backup_rel, {
+            'fix_id': 'FIX-1', 'post_id': 201, 'slug': 'changed-post',
+            'link': SITE + '/changed-post/', 'content_raw_before': self.raw,
+        })
+        common.write_json(root / 'data/seo/applied-fixes.json', {'fixes': {
+            'FIX-1': {'post_id': 201, 'phase': 'VERIFIED', 'backup': backup_rel,
+                      'modified_gmt_after': wp.modified}}})
+        with self.assertRaisesRegex(RuntimeError, 'URL, slug'):
+            fixes.rollback(self.cfg, wp, 'FIX-1', confirm=True)
+        self.assertEqual(wp.writes, [])
+
+    def test_github_operator_must_be_owner_and_match_approval(self):
+        base = {'GITHUB_ACTIONS': 'true', 'GITHUB_ACTOR': 'thuexemayhanoi',
+                'GITHUB_REPOSITORY_OWNER': 'thuexemayhanoi', 'GITHUB_REF_NAME': 'main'}
+        with mock.patch.dict(os.environ, base):
+            fixes.require_trusted_operator({'approved_by': 'thuexemayhanoi'})
+            with self.assertRaisesRegex(RuntimeError, 'approved_by'):
+                fixes.require_trusted_operator({'approved_by': 'another-user'})
+            with mock.patch.dict(os.environ, {'GITHUB_ACTOR': 'another-user'}):
+                with self.assertRaisesRegex(RuntimeError, 'repository owner'):
+                    fixes.require_trusted_operator()
+            with mock.patch.dict(os.environ, {'GITHUB_REF_NAME': 'claude/seo-engine'}):
+                with self.assertRaisesRegex(RuntimeError, 'repository owner'):
+                    fixes.require_trusted_operator()
+
+    def test_failed_remote_prewrite_backup_prevents_wordpress_post(self):
+        wp = FakeWPForFixes(self.raw)
+        self.write_fixes([{**self.fix, 'approved_by': 'thuexemayhanoi'}])
+        env = {'GITHUB_ACTIONS': 'true', 'GITHUB_ACTOR': 'thuexemayhanoi',
+               'GITHUB_REPOSITORY_OWNER': 'thuexemayhanoi', 'GITHUB_REF_NAME': 'main'}
+        with mock.patch.dict(os.environ, env), \
+             mock.patch.object(fixes.subprocess, 'run', return_value=mock.Mock(
+                 returncode=1, stdout='', stderr='push refused')):
+            results = fixes.apply(self.cfg, wp, confirm=True)
+        self.assertFalse(results[0]['applied'])
+        self.assertIn('could not persist pre-write backup', results[0]['error'])
+        self.assertEqual(wp.writes, [])
+        receipt = common.read_json(pathlib.Path(self.tmp) / 'data/seo/applied-fixes.json')
+        self.assertEqual(receipt['fixes']['FIX-1']['phase'], 'APPLY_INTENT')
 
 
 if __name__ == '__main__':
