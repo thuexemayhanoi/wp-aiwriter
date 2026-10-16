@@ -1,3 +1,15 @@
+# COMPLETED CATEGORY PRODUCTION CHECKPOINT — 2026-10-16, Excel #235 VERIFIED
+
+- Owner authorized completion of the remaining 4 titles **#232–235**, finishing active Excel category `Cẩm nang > Hãng xe > Hãng xe điện`, WordPress child term **21**.
+- 4 newly authored posts pushed to GitHub `main` individually: `posts/0232.md` (manufacturer-verified FOTA/firmware), `posts/0233.md` (battery technology/specs/BMS), `posts/0234.md` (interpreting advertised range and test conditions), `posts/0235.md` (decision framework for range, speed and charging time). Exact Excel IDs/titles/full taxonomy from immutable `data/topics.json`; official manufacturer references for technical claims. No changes to older WordPress URLs, canonicals or Trash.
+- Final no-write QA workflow [38898573616](https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38898573616) **SUCCESS**, **71/71 authored Markdown QA PASS**, **18/18 publisher regression tests PASS**, 0 QA failures.
+- Publisher [38890257103](https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38890257103) latest two completed attempts **SUCCESS**: #232 → WP **922**, #233 → WP **923**, #234 → WP **924**, #235 → WP **925**. All remotely `VERIFIED`, `status=publish`, `category_id=21`, URLs recorded in `data/publication-state.json`. Verified independently through WordPress REST for all four. 0 duplicate groups, 0 publisher errors.
+- **ACTIVE CATEGORY COMPLETE: 35/35 #201–235 VERIFIED**, first category #146–200 previously completed **55/55**. **Excel total 90/355 published**; GitHub publisher reported **242** published posts on the site, across all topics and legacy posts. **265 Excel titles #236–500 remain** (not yet written in this writer).
+- Owner notification issue [#1](https://github.com/thuexemayhanoi/wp-aiwriter/issues/1): `Excel SEO category finished #201-#235` opened automatically. **STOP HERE** as requested. `data/publication-policy.json` `active_category` remains on finished Hãng xe điện; next category is `Cẩm nang > Ứng dụng > App xe máy` (#236–260), but MUST NOT change it or write/publish that category before new explicit owner approval.
+- No more publisher reruns on old active category. No unattended AI writing, no changes to Trash, URL/slug/canonical, and no cross-category auto-transition.
+
+---
+
 # Production checkpoint — 2026-10-16, Excel #229–231 published (latest)
 
 - Owner explicitly authorized another 3–5-article batch in `https://github.com/thuexemayhanoi/wp-aiwriter` to `https://blog.rentbikehanoi.com/`. Only active taxonomy: `Cẩm nang > Hãng xe > Hãng xe điện` (#201–235, WP category ID 21). No WordPress Trash interaction.
