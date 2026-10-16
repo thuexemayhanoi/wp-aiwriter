@@ -1235,7 +1235,17 @@
       "wp_id": 952,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-262-cach-kiem-tra-phan-tram-pin-xe-dien-tren-ung-dung-dien-thoai/"
+    },
+    "263": {
+      "title": "Cách tìm trạm sạc xe điện gần nhất bằng ứng dụng",
+      "source_hash": "17276e15f2bed26cec35cff889b5ba0a2484fc08ef2239bd3fbdae9947fddd87",
+      "checked_at": "2026-10-16T15:54:03.042702+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 18,
+      "slug": "excel-263-cach-tim-tram-sac-xe-dien-gan-nhat-bang-ung-dung",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T15:54:01.365627+00:00"
+  "updated_at": "2026-10-16T15:54:03.042716+00:00"
 }
