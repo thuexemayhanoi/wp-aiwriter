@@ -1248,7 +1248,17 @@
       "wp_id": 953,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-263-cach-tim-tram-sac-xe-dien-gan-nhat-bang-ung-dung/"
+    },
+    "264": {
+      "title": "Cách lưu các điểm sạc thường dùng trên bản đồ",
+      "source_hash": "7c5b280be1d41ee37ffa0680108c5c43eee70557cf212cc4b5abf62f404cb1c5",
+      "checked_at": "2026-10-16T15:54:10.078864+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 18,
+      "slug": "excel-264-cach-luu-cac-diem-sac-thuong-dung-tren-ban-do",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T15:54:08.206212+00:00"
+  "updated_at": "2026-10-16T15:54:10.078877+00:00"
 }
