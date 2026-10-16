@@ -1759,13 +1759,14 @@
     "303": {
       "title": "Người cao đi xe số phổ thông có thoải mái không?",
       "source_hash": "e8f32388cc2d32a02de80b6f0992954627a53f17394f1065c8131f22e18489dc",
-      "checked_at": "2026-10-16T16:24:01.735589+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:24:03.843925+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 6,
       "slug": "excel-303-nguoi-cao-di-xe-so-pho-thong-co-thoai-mai-khong",
-      "reason": null
+      "reason": null,
+      "wp_id": 994
     }
   },
-  "updated_at": "2026-10-16T16:24:01.735604+00:00"
+  "updated_at": "2026-10-16T16:24:03.843941+00:00"
 }
