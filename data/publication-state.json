@@ -923,7 +923,17 @@
       "wp_id": 928,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-238-cach-luu-nhieu-diem-dung-tren-ban-do-khi-di-xe-may-ca-ngay/"
+    },
+    "239": {
+      "title": "Cách tải bản đồ ngoại tuyến để dùng khi mạng yếu",
+      "source_hash": "a61c4eb200b6790b1efd5d2cda86ba1e9519105b66f8ca6301a300a476f1170c",
+      "checked_at": "2026-10-16T13:11:31.523813+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 17,
+      "slug": "excel-239-cach-tai-ban-do-ngoai-tuyen-de-dung-khi-mang-yeu",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T12:29:15.385196+00:00"
+  "updated_at": "2026-10-16T13:11:31.523845+00:00"
 }
