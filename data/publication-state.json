@@ -1794,7 +1794,17 @@
       "wp_id": 996,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-305-di-nhieu-kilomet-moi-ngay-co-nen-uu-tien-xe-so/"
+    },
+    "306": {
+      "title": "Thuê xe số dài ngày cần kiểm tra những bộ phận nào thường xuyên?",
+      "source_hash": "e33584ddb310acfed17b6c46e8c5f4f99c382d095d68ba881a3bdb7c934d7bb9",
+      "checked_at": "2026-10-16T16:24:39.056965+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 6,
+      "slug": "excel-306-thue-xe-so-dai-ngay-can-kiem-tra-nhung-bo-phan-nao-thuong-xuyen",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:24:20.360193+00:00"
+  "updated_at": "2026-10-16T16:24:39.056982+00:00"
 }
