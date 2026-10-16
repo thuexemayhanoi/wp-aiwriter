@@ -1079,7 +1079,17 @@
       "wp_id": 940,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-250-ung-dung-theo-doi-chi-tieu-giup-quan-ly-tien-xang-va-gui-xe-the-nao/"
+    },
+    "251": {
+      "title": "Cách theo dõi chi phí đi lại hằng ngày bằng ứng dụng ngân sách",
+      "source_hash": "92a3be15fa9a27ff3337eb76946ffe7c233128f2a212657d6583664569394826",
+      "checked_at": "2026-10-16T14:43:58.795950+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 17,
+      "slug": "excel-251-cach-theo-doi-chi-phi-di-lai-hang-ngay-bang-ung-dung-ngan-sach",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T14:36:34.974608+00:00"
+  "updated_at": "2026-10-16T14:43:58.795966+00:00"
 }
