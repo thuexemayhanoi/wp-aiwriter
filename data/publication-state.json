@@ -3176,13 +3176,14 @@
     "412": {
       "title": "Xe điện có phù hợp với khách lưu trú dài ngày ở Hà Nội không?",
       "source_hash": "072b9b88594bad50c4b62485a992b7f7c55d2a7df1cda426255de8bc258f4a60",
-      "checked_at": "2026-10-16T16:46:48.585631+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:46:51.495373+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 8,
       "slug": "excel-412-xe-dien-co-phu-hop-voi-khach-luu-tru-dai-ngay-o-ha-noi-khong",
-      "reason": null
+      "reason": null,
+      "wp_id": 1103
     }
   },
-  "updated_at": "2026-10-16T16:46:48.585645+00:00"
+  "updated_at": "2026-10-16T16:46:51.495393+00:00"
 }
