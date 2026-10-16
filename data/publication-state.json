@@ -979,14 +979,16 @@
     "243": {
       "title": "Cách dùng cảnh báo giao thông trên ứng dụng bản đồ hiệu quả hơn",
       "source_hash": "ff3fd57385668a03a633725d6849d46ed88a4d5c63fa27f3b4e899869e349591",
-      "checked_at": "2026-10-16T13:11:56.992484+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T13:11:59.735900+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 17,
       "slug": "excel-243-cach-dung-canh-bao-giao-thong-tren-ung-dung-ban-do-hieu-qua-hon",
       "reason": null,
-      "wp_id": 933
+      "wp_id": 933,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-243-cach-dung-canh-bao-giao-thong-tren-ung-dung-ban-do-hieu-qua-hon/"
     }
   },
-  "updated_at": "2026-10-16T13:11:56.992505+00:00"
+  "updated_at": "2026-10-16T13:11:59.735924+00:00"
 }
