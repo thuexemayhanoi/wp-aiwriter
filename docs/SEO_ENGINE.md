@@ -69,6 +69,16 @@ Rules that keep the matrix free of noise and false positives:
   5+ checked URLs (bot blocking, e.g. help centres) is reported as `L-EXTERNAL-UNVERIFIED`, not broken.
 - **Site-wide patterns** (`T-META-DESC-NOT-YOAST`, `A-AUTHOR-GENERIC`, `T-SCHEMA-BREADCRUMB-MISSING`, NAP,
   brand names) are one row with a count and examples instead of hundreds of identical rows.
+- **Suggested anchors** are phrases that already exist as plain text in the source *and* occur
+  contiguously in the target's title (so they name the target), appear in at most 3 published titles
+  (`thresholds.anchor_max_titles`), do not start/end with a weak word, are not a two-syllable common noun
+  unless a proper name ("Kim Mã"), never cut a compound, and never come from citation lines. When no such
+  phrase exists the row says an editor must write a sentence; nothing is invented.
+- **Long anchors** that repeat the target's own title (related-post links) are not defects.
+- **Failed outbound links** are re-confirmed with HEAD+GET on every external check; successes are cached 14 days.
+- **Content gaps** (`FREQUENT_SUBTOPIC_WITHOUT_DEDICATED_TITLE`) are phrases specific to one cluster (not
+  site-wide template words), mined from prose only and grown into whole phrases; they are hypotheses
+  until search demand is confirmed.
 - The dashboard section **"Cần chủ sở hữu quyết định"** lists what only the owner can decide.
 
 ## Workflows
