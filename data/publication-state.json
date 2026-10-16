@@ -3523,7 +3523,17 @@
       "wp_id": 1129,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-438-cub-50cc-va-wave-50cc-nen-so-sanh-nhung-tieu-chi-nao/"
+    },
+    "439": {
+      "title": "Xe 50cc có dễ gửi ở bãi xe chật trong trung tâm không?",
+      "source_hash": "f8fd44f517a2a422c2c036cc82037295f11a1f33afc49ae1801743f3a2f692f6",
+      "checked_at": "2026-10-16T16:51:53.039335+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 5,
+      "slug": "excel-439-xe-50cc-co-de-gui-o-bai-xe-chat-trong-trung-tam-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:51:51.564187+00:00"
+  "updated_at": "2026-10-16T16:51:53.039347+00:00"
 }
