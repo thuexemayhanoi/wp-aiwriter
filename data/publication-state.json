@@ -4294,13 +4294,14 @@
     "498": {
       "title": "Đi xe máy quanh Aeon Mall Long Biên: lưu ý bãi gửi và giờ đông",
       "source_hash": "2a4deb26e37a2de45283022f1edf3fbb4cad69f40487eb424103357cef6ce88a",
-      "checked_at": "2026-10-16T17:10:48.284461+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T17:10:50.474807+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 12,
       "slug": "excel-498-di-xe-may-quanh-aeon-mall-long-bien-luu-y-bai-gui-va-gio-dong",
-      "reason": null
+      "reason": null,
+      "wp_id": 1189
     }
   },
-  "updated_at": "2026-10-16T17:10:48.284474+00:00"
+  "updated_at": "2026-10-16T17:10:50.474824+00:00"
 }
