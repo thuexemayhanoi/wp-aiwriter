@@ -2808,7 +2808,17 @@
       "wp_id": 1074,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-383-xe-dien-phu-hop-voi-quang-duong-ngan-trong-noi-do-nhu-the-nao/"
+    },
+    "384": {
+      "title": "Xe điện có phù hợp với người thường xuyên đi nhiều điểm trong ngày không?",
+      "source_hash": "de8afc2e3ec1aae466f89a497f0375de4f115ba0043db8f9af16e68b631244a5",
+      "checked_at": "2026-10-16T16:41:23.108925+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 8,
+      "slug": "excel-384-xe-dien-co-phu-hop-voi-nguoi-thuong-xuyen-di-nhieu-diem-trong-ngay-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:41:21.326463+00:00"
+  "updated_at": "2026-10-16T16:41:23.108941+00:00"
 }
