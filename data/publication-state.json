@@ -232,7 +232,17 @@
       "wp_id": 862,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-185-blade-va-sirius-dau-la-nhung-diem-nguoi-moi-dung-de-nhan-ra/"
+    },
+    "186": {
+      "title": "Future và Jupiter: so sánh hai dòng xe số thiên về sự thoải mái",
+      "source_hash": "4bd801810074bb10f687bcaf91a09ed26f4d8f2a88c7d938c058c8d3821e8ff5",
+      "checked_at": "2026-10-16T07:42:23.299312+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 20,
+      "slug": "excel-186-future-va-jupiter-so-sanh-hai-dong-xe-so-thien-ve-su-thoai-mai",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T07:42:21.962683+00:00"
+  "updated_at": "2026-10-16T07:42:23.299329+00:00"
 }
