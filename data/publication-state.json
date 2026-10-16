@@ -3887,7 +3887,17 @@
       "wp_id": 1157,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-466-di-xe-may-den-nha-hat-lon-ha-noi-goi-y-cho-gui-xe-va-tuyen-vao/"
+    },
+    "467": {
+      "title": "Đi xe máy đến Nhà thờ Lớn Hà Nội: lưu ý phố nhỏ và chỗ gửi xe",
+      "source_hash": "45b07f2d5e890bca6f88629a31a3359b289cd6f90f2159818fcc8f764262a899",
+      "checked_at": "2026-10-16T17:01:55.797806+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 10,
+      "slug": "excel-467-di-xe-may-den-nha-tho-lon-ha-noi-luu-y-pho-nho-va-cho-gui-xe",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T17:01:54.064461+00:00"
+  "updated_at": "2026-10-16T17:01:55.797818+00:00"
 }
