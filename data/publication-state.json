@@ -4307,14 +4307,16 @@
     "499": {
       "title": "Đi xe máy từ Long Biên sang Gia Lâm: những tuyến ngắn dễ đi",
       "source_hash": "2518707a30aa1d0e3058b5fa9381ae57252e90e3bc1f235274e3503e22a48144",
-      "checked_at": "2026-10-16T17:10:56.939435+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T17:10:59.644224+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 12,
       "slug": "excel-499-di-xe-may-tu-long-bien-sang-gia-lam-nhung-tuyen-ngan-de-di",
       "reason": null,
-      "wp_id": 1190
+      "wp_id": 1190,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-499-di-xe-may-tu-long-bien-sang-gia-lam-nhung-tuyen-ngan-de-di/"
     }
   },
-  "updated_at": "2026-10-16T17:10:56.939452+00:00"
+  "updated_at": "2026-10-16T17:10:59.644242+00:00"
 }
