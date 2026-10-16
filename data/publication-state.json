@@ -1343,13 +1343,14 @@
     "266": {
       "title": "Ứng dụng hãng xe điện có thể hỗ trợ tìm xe trong bãi như thế nào?",
       "source_hash": "6edf13f0bfb998f185a632d19cc40d2ef066f30780b589de49e4b385b23713ba",
-      "checked_at": "2026-10-16T16:06:21.330241+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:06:23.640757+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 18,
       "slug": "excel-266-ung-dung-hang-xe-dien-co-the-ho-tro-tim-xe-trong-bai-nhu-the-nao",
-      "reason": null
+      "reason": null,
+      "wp_id": 962
     }
   },
-  "updated_at": "2026-10-16T16:06:21.330258+00:00"
+  "updated_at": "2026-10-16T16:06:23.640775+00:00"
 }
