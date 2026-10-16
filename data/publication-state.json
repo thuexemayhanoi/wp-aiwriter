@@ -30,13 +30,14 @@
     "170": {
       "title": "Xe Honda thường được đánh giá cao ở điểm nào khi sử dụng lâu dài?",
       "source_hash": "99366cc9b388490bd200316365902f1a0f4458ec4398e5b3c990fb7408072e93",
-      "checked_at": "2026-10-16T07:20:10.138236+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T07:20:11.949130+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 20,
       "slug": "excel-170-xe-honda-thuong-duoc-danh-gia-cao-o-diem-nao-khi-su-dung-lau-dai",
-      "reason": null
+      "reason": null,
+      "wp_id": 835
     }
   },
-  "updated_at": "2026-10-16T07:20:10.138249+00:00"
+  "updated_at": "2026-10-16T07:20:11.949235+00:00"
 }
