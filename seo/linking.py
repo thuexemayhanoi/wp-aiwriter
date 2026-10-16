@@ -75,50 +75,63 @@ def click_depths(home, page_links, resolve_url):
     return depth
 
 
-def find_anchor(segments_list, key_terms, idf, min_terms=2, max_len=7, title_bigrams=()):
-    """Best plain-text phrase (2..max_len syllables) matching target key terms.
+def find_anchor(segments_list, key_terms, idf, title_tokens=(), is_compound=None, min_len=3, max_len=8):
+    """Best natural phrase in the source's plain (unlinked) text that describes the target.
 
-    segments_list: [(full_text, [(text, in_link), ...]), ...] for one source article.
+    Candidates: (A) runs that appear contiguously in the target title, (B) windows bounded by
+    target key terms. A phrase never splits a frequent compound (e.g. "bộ phận", "xe điện"),
+    never starts/ends with a function word, contains >=2 key terms incl. a distinctive one.
     Returns (anchor, context, score) or (None, None, 0).
     """
     best = (None, None, 0.0)
     keyset = set(key_terms)
-    # key_terms are ordered by IDF; an anchor must contain one of the target's most distinctive terms.
     distinctive = set(list(key_terms)[:3])
+    title = [norm(t) for t in title_tokens]
+    title_pairs = set(zip(title, title[1:]))
     for _full, segments in segments_list:
         raw, mask = '', []
         for text, linked in segments:
             raw += text
             mask.extend([linked] * len(text))
         toks = [(m.group(0), m.start(), m.end()) for m in TOKEN.finditer(raw)]
-        lowered = [norm(t) for t, _, _ in toks]
-        for i in range(len(toks)):
-            if lowered[i] not in keyset:
+        low = [norm(t) for t, _, _ in toks]
+        n = len(toks)
+        spans = []
+        for i in range(n):
+            if low[i] in title:
+                j = i
+                while j + 1 < n and (low[j], low[j + 1]) in title_pairs and j - i + 1 < max_len:
+                    j += 1
+                if j - i + 1 >= min_len:
+                    spans.append((i, j, 1.0))
+            if low[i] in keyset:
+                for j in range(i + min_len - 1, min(n, i + max_len)):
+                    if low[j] in keyset:
+                        spans.append((i, j, 0.0))
+        for i, j, bonus in spans:
+            if is_compound:
+                while i > 0 and is_compound(low[i - 1], low[i]) and j - i + 1 < max_len:
+                    i -= 1
+                while j + 1 < n and is_compound(low[j], low[j + 1]) and j - i + 1 < max_len:
+                    j += 1
+                if (i > 0 and is_compound(low[i - 1], low[i])) or (j + 1 < n and is_compound(low[j], low[j + 1])):
+                    continue
+            window = low[i:j + 1]
+            if window[0] in STOPWORDS or window[-1] in STOPWORDS:
                 continue
-            for j in range(i + 1, min(len(toks), i + max_len)):
-                if lowered[j] not in keyset:
-                    continue
-                k = j
-                # Do not cut a compound such as "Hà Nội" that appears in the target title.
-                while k + 1 < len(toks) and k - i + 1 < max_len + 1 and \
-                        (lowered[k], lowered[k + 1]) in title_bigrams:
-                    k += 1
-                window = lowered[i:k + 1]
-                start, end = toks[i][1], toks[k][2]
-                if any(mask[start:end]):
-                    continue
-                if any(ch in raw[start:end] for ch in '.,!?;:()[]"“”/'):
-                    continue
-                matched = {t for t in window if t in keyset}
-                if len(matched) < min_terms or not (matched & distinctive):
-                    continue
-                score = sum(idf(t) for t in matched) - 0.15 * len(window)
-                if score > best[2]:
-                    context_start = max(0, raw.rfind('.', 0, start) + 1)
-                    context_end = raw.find('.', end)
-                    context_end = len(raw) if context_end == -1 else context_end + 1
-                    context = ' '.join(raw[context_start:context_end].split())[:260]
-                    best = (' '.join(raw[start:end].split()), context, score)
+            start, end = toks[i][1], toks[j][2]
+            if any(mask[start:end]) or any(ch in raw[start:end] for ch in '.,!?;:()[]"“”/'):
+                continue
+            matched = {t for t in window if t in keyset}
+            if len(matched) < 2 or not (matched & distinctive):
+                continue
+            score = sum(idf(t) for t in matched) + bonus * len(window) - 0.15 * len(window)
+            if score > best[2]:
+                context_start = max(0, raw.rfind('.', 0, start) + 1)
+                context_end = raw.find('.', end)
+                context_end = len(raw) if context_end == -1 else context_end + 1
+                context = ' '.join(raw[context_start:context_end].split())[:260]
+                best = (' '.join(raw[start:end].split()), context, score)
     return best
 
 
@@ -129,26 +142,47 @@ def target_terms(corpus, key, limit=10):
     return ranked[:limit]
 
 
-def title_bigrams(corpus, key):
-    toks = syllables(corpus.records[key]['title'])
-    return set(zip(toks, toks[1:]))
+
+MEDIA = re.compile(r'(/wp-content/|\.(jpe?g|png|gif|webp|avif|svg|pdf|mp4|zip)(\?.*)?$)', re.I)
 
 
-def audit(cfg, corpus, records, site, terms, link_status, page_links):
+def suspicious_hosts(link_status, min_urls=5, share=0.9):
+    """Hosts that answer 404/410 to almost every URL from the runner (bot blocking, not dead links)."""
+    total, missing = Counter(), Counter()
+    for url, entry in link_status.items():
+        if entry.get('kind') != 'external':
+            continue
+        h = common.host(url)
+        total[h] += 1
+        if entry.get('status') in (404, 410):
+            missing[h] += 1
+    return {h for h, n in total.items() if n >= min_urls and missing[h] / n >= share}
+
+
+def audit(cfg, corpus, records, site, terms, link_status, page_links, exclude=()):
     th = cfg['thresholds']
     issues = []
+    exclude = set(exclude)
     index = LinkIndex(records, link_status)
+    odd_hosts = suspicious_hosts(link_status)
     edges = defaultdict(set)
     inbound = Counter()
     anchor_uses = defaultdict(Counter)
     published = {key_of(r): r for r in records if r.get('status') == 'publish'}
 
     for key, r in published.items():
+        if key in exclude:
+            continue  # a published copy: reported once, its links would double-count inbound signals
         seen_targets = set()
         broken, redirected, weak, long_, nofollow, self_links = [], [], [], [], [], []
         for link in r.get('internal_links', []):
             href = link['href']
             status = (link_status.get(href) or {})
+            if MEDIA.search(href):
+                st = status.get('status')
+                if st is not None and (st == 0 or st >= 400):
+                    broken.append(f'media {href} (HTTP {st})')
+                continue
             target = index.resolve(href)
             st = status.get('status')
             if target and target in published:
@@ -191,7 +225,9 @@ def audit(cfg, corpus, records, site, terms, link_status, page_links):
             st = link_status.get(link['href'])
             if not st:
                 continue
-            if st.get('status') in (404, 410):
+            if st.get('status') in (404, 410) and common.host(link['href']) in odd_hosts:
+                unverified.append(f"{link['href']} (HTTP {st['status']}; host trả 404 cho hầu hết URL từ runner)")
+            elif st.get('status') in (404, 410):
                 bad_ext.append(f"{link['href']} (HTTP {st['status']})")
             elif st.get('status') in (0, 401, 403, 429) or (st.get('status') or 0) >= 500:
                 unverified.append(f"{link['href']} (HTTP {st.get('status')} {st.get('error', '')})".strip())
@@ -215,7 +251,7 @@ def audit(cfg, corpus, records, site, terms, link_status, page_links):
         return None
 
     for key, r in published.items():
-        if r['type'] != 'post' or (r.get('page') or {}).get('status') not in (200, None):
+        if r['type'] != 'post' or (r.get('page') or {}).get('status') not in (200, None) or key in exclude:
             continue
         d = depth_of(r)
         if graph_complete and d is None:
@@ -230,14 +266,17 @@ def audit(cfg, corpus, records, site, terms, link_status, page_links):
         if not edges.get(key):
             issues.append(make('L-NO-OUTBOUND', r, evidence='0 liên kết tới bài nội bộ khác trong nội dung'))
 
-    architecture, suggestions = build_architecture(cfg, corpus, published, terms, edges, inbound, depth_of)
+    candidates = {k: r for k, r in published.items() if k not in exclude}
+    architecture, suggestions = build_architecture(cfg, corpus, candidates, terms, edges, inbound, depth_of)
+    post_depths = [d for d in (depth_of(r) for k, r in candidates.items()) if d is not None]
     stats = {
         'published': len(published), 'contextual_edges': sum(len(v) for v in edges.values()),
-        'orphans': sum(1 for k, r in published.items() if r['type'] == 'post' and inbound[k] == 0),
+        'orphans': sum(1 for k, r in candidates.items() if r['type'] == 'post' and inbound[k] == 0),
         'avg_inbound': round(sum(inbound[k] for k in published) / max(1, len(published)), 2),
-        'max_depth': max(depths.values()) if depths else None,
+        'max_depth': max(post_depths) if post_depths else None,
+        'suspicious_external_hosts': sorted(odd_hosts), 'excluded_duplicate_copies': len(exclude),
         'depth_histogram': {('unknown' if k is None else str(k)): v for k, v in sorted(
-            Counter(depth_of(r) for r in published.values()).items(), key=lambda kv: (kv[0] is None, kv[0] or 0))},
+            Counter(depth_of(r) for r in candidates.values()).items(), key=lambda kv: (kv[0] is None, kv[0] or 0))},
         'graph_complete': graph_complete, 'suggestions': len(suggestions),
     }
     return issues, suggestions, architecture, stats
@@ -289,7 +328,8 @@ def build_architecture(cfg, corpus, published, terms, edges, inbound, depth_of):
         if per_source[src] >= th['max_suggestions_per_source'] or per_target[dst] >= th['max_suggestions_per_target']:
             return False
         anchor, context, score = find_anchor(corpus.blocks(src), target_terms(corpus, dst), corpus.idf,
-                                             title_bigrams=title_bigrams(corpus, dst))
+                                             title_tokens=syllables(published[dst]['title']),
+                                             is_compound=corpus.is_compound)
         s, t = published[src], published[dst]
         priority = 'P1' if inbound[dst] == 0 else ('P2' if relation == 'to-cluster-lead' else 'P3')
         suggestions.append({

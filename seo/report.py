@@ -162,6 +162,7 @@ def render_dashboard(cfg, tech, issues, suggestions, cannibal_rows, gap_rows, de
     md.append(_table(['Mã', 'Ưu tiên', 'Xác minh', 'Số lượng'],
                      [[c['code'], c['priority'], c['verification'], c['count']]
                       for c in tech['issue_counts']['by_code'][:25]]))
+    md.append(owner_decisions(issues, tech, context))
     top = [i for i in issues if i.priority in ('P0', 'P1')][:20]
     md.append('\n## 20 mục P0/P1 đầu tiên\n')
     md.append(_table(['Ưu tiên', 'Mã', 'URL', 'Bằng chứng', 'Xác minh'],
@@ -182,6 +183,12 @@ def render_dashboard(cfg, tech, issues, suggestions, cannibal_rows, gap_rows, de
     if nap.get('phones'):
         md.append('- Số điện thoại tìm thấy trong nội dung: ' + ', '.join(
             f"{p} ({n} trang)" for p, n in sorted((nap.get('phone_pages') or {}).items(), key=lambda kv: -kv[1])[:6]) + '\n')
+    domains = content.get('top_external_domains') or {}
+    if domains:
+        md.append('- Domain ngoài được liên kết nhiều nhất: ' + ', '.join(f'{d} ({n})' for d, n in list(domains.items())[:8]) + '\n')
+    if linking.get('suspicious_external_hosts'):
+        md.append('- Host trả 404 cho hầu hết URL từ runner (xếp vào "không kiểm tra được", không coi là link hỏng): '
+                  + ', '.join(linking['suspicious_external_hosts']) + '\n')
     md.append('\n## Kỹ thuật\n')
     md.append(f"- robots.txt: HTTP {probes.get('robots_status')}; sitemap khai báo: {probes.get('robots_sitemaps')}\n"
               f"- Sitemap: {len(probes.get('sitemap_files') or [])} file, {probes.get('sitemap_url_count', 0)} URL; "
@@ -203,7 +210,10 @@ def render_dashboard(cfg, tech, issues, suggestions, cannibal_rows, gap_rows, de
                            (p.get('field') or {}).get('overall_category') or 'không có'] for p in measured]))
         md.append('\nLab data là mô phỏng Lighthouse; chỉ CrUX field data phản ánh người dùng thật.\n')
     else:
-        md.append('Chưa đo trong lần chạy này (BLOCKED/không chạy). Không suy đoán số liệu.\n')
+        statuses = sorted({str(p.get('status')) for p in psi})
+        hint = ' API trả HTTP 429 (hết hạn mức không khóa): thêm secret `PSI_API_KEY`.' if '429' in statuses else ''
+        md.append(f"Chưa đo trong lần chạy này (BLOCKED/không chạy; HTTP {', '.join(statuses) or '—'}).{hint} "
+                  'Không suy đoán số liệu.\n')
     gsc = tech.get('gsc') or {}
     md.append('\n## Google Search Console\n')
     md.append(f"Trạng thái: **{gsc.get('status', 'BLOCKED')}** — {gsc.get('reason', '')}\n")
@@ -219,6 +229,37 @@ def render_dashboard(cfg, tech, issues, suggestions, cannibal_rows, gap_rows, de
     # GitHub-flavoured Markdown: keep a blank line after every heading.
     text = re.sub(r'([^\n])\n(#{1,6} )', r'\1\n\n\2', text)
     return re.sub(r'^(#{1,6} [^\n]*)\n(?!\n)', r'\1\n\n', text, flags=re.M)
+
+
+DECISION_CODES = ('T-DUPLICATE-COPY', 'C-NAP-INCONSISTENT', 'A-ENTITY-INCONSISTENT', 'A-AUTHOR-GENERIC',
+                  'C-FINE-AMOUNT', 'T-ARCHIVE-NOINDEX', 'T-META-DESC-NOT-YOAST')
+
+
+def owner_decisions(issues, tech, context):
+    """Items the engine must not resolve by itself: listed for the owner, never auto-fixed."""
+    by_code = {}
+    for item in issues:
+        if item.code in DECISION_CODES:
+            by_code.setdefault(item.code, []).append(item)
+    if not by_code:
+        return ''
+    md = ['\n## Cần chủ sở hữu quyết định (engine không tự sửa)\n']
+    copies = by_code.get('T-DUPLICATE-COPY', [])
+    if copies:
+        md.append(f'- **{len(copies)} bản sao trùng lặp đang xuất bản** (giữ bản gốc, bản thừa xử lý thủ công/301):\n')
+        md.extend(f'  - WP {i.post_id} {i.url} — {i.evidence[:160]}\n' for i in copies[:12])
+    for code, label in (('C-NAP-INCONSISTENT', 'NAP/liên hệ'), ('A-ENTITY-INCONSISTENT', 'Tên thương hiệu trong schema'),
+                        ('A-AUTHOR-GENERIC', 'Tác giả'), ('T-META-DESC-NOT-YOAST', 'Nguồn meta description')):
+        for item in by_code.get(code, []):
+            md.append(f'- **{label}**: {item.evidence[:300]}\n')
+    fines = by_code.get('C-FINE-AMOUNT', [])
+    if fines:
+        md.append(f'- **{len(fines)} bài nêu mức phạt cụ thể**: đối chiếu văn bản hiện hành trước khi giữ/sửa '
+                  '(xem `C-FINE-AMOUNT` trong seo-matrix.csv).\n')
+    noindex = by_code.get('T-ARCHIVE-NOINDEX', [])
+    if noindex:
+        md.append(f'- **{len(noindex)} trang lưu trữ noindex**: xác nhận có chủ đích: ' + ', '.join(i.url for i in noindex[:6]) + '\n')
+    return ''.join(md)
 
 
 ENTRY_MARK = '<!-- seo-engine-entry -->'

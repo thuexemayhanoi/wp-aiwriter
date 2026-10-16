@@ -68,6 +68,7 @@ class TfIdf:
         df = Counter()
         for counts in docs.values():
             df.update(counts.keys())
+        self.df = dict(df)
         self.idf = {t: math.log((1 + self.n) / (1 + d)) + 1 for t, d in df.items() if d >= min_df}
         self.vectors = {}
         for key, counts in docs.items():

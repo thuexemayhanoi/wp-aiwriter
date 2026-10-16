@@ -21,6 +21,7 @@ Audit → Matrix → Prioritize → Propose fix → Test → Approval → Apply 
    are reported as NEEDS_REVIEW because many sites block bots.
 4. **PageSpeed** (`python -m seo psi`, optional): Lighthouse lab data and CrUX field data for 4 key URLs.
    Lab data is a simulation; only field data reflects real users. Missing data is reported as BLOCKED.
+   Without the `PSI_API_KEY` secret the shared anonymous quota usually answers HTTP 429.
 5. **GSC** (`python -m seo gsc`, optional): needs secrets `GSC_SERVICE_ACCOUNT_JSON` and `GSC_PROPERTY`
    (for example `sc-domain:rentbikehanoi.com` or `https://blog.rentbikehanoi.com/`), and the service account
    added as a user of the property. Read-only scope. Without them nothing is inferred.
@@ -33,7 +34,7 @@ Audit → Matrix → Prioritize → Propose fix → Test → Approval → Apply 
 
 | File | Content |
 | --- | --- |
-| `data/posts-index.jsonl` | Inventory with crawl summary (status, canonical, robots, title, description, H1, schema types) |
+| `data/posts-index.jsonl` | Inventory with a compact crawl summary (status, canonical, robots, title, description, H1, schema types; fields no audit reads are dropped) |
 | `reports/seo-matrix.csv` | Every issue, sorted P0→P3, with evidence, fix, risk, status and QA result |
 | `reports/internal-link-matrix.csv` | Source → target → anchor that already exists in the source text → reason |
 | `reports/cannibalization.csv` | Pairs with similar titles and bodies; NEEDS_REVIEW until GSC confirms |
@@ -56,6 +57,19 @@ CSV files are UTF-8 with BOM so Excel shows Vietnamese correctly.
   consolidation changes: never apply these without explicit owner approval.
 - **Status**: default OPEN / NEEDS_REVIEW / INFO / BLOCKED. Record decisions per `Issue Key` in
   `data/seo/issue-overrides.json` (ACCEPTED, WONTFIX, IN_PROGRESS, FIXED_PENDING_VERIFY).
+
+Rules that keep the matrix free of noise and false positives:
+
+- **Published copies** (same Excel `matrix_id`, or byte-identical content) are reported once, as
+  `T-DUPLICATE-COPY` on each copy; the lowest WordPress ID is treated as the original for reporting only.
+  Copies are left out of every other per-page check, link suggestion, orphan/depth count and similarity
+  pair. The engine never deletes, unpublishes or redirects them: the owner decides.
+- **noindex URLs** get only `T-NOINDEX` / `T-ARCHIVE-NOINDEX`; Yoast omits canonical and description there by design.
+- **External links**: a failed HEAD is always confirmed with GET. A host answering 404 to at least 90% of
+  5+ checked URLs (bot blocking, e.g. help centres) is reported as `L-EXTERNAL-UNVERIFIED`, not broken.
+- **Site-wide patterns** (`T-META-DESC-NOT-YOAST`, `A-AUTHOR-GENERIC`, `T-SCHEMA-BREADCRUMB-MISSING`, NAP,
+  brand names) are one row with a count and examples instead of hundreds of identical rows.
+- The dashboard section **"Cần chủ sở hữu quyết định"** lists what only the owner can decide.
 
 ## Workflows
 

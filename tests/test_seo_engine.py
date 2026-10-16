@@ -12,7 +12,7 @@ import urllib.parse
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from seo import common, fixes, htmlparse, linking, net  # noqa: E402
+from seo import common, crawl, fixes, htmlparse, linking, net  # noqa: E402
 from seo import __main__ as cli  # noqa: E402
 
 SITE = 'https://blog.rentbikehanoi.com'
@@ -22,11 +22,11 @@ LOREM = ('Người thuê xe máy ở Hà Nội nên kiểm tra phanh, đèn, l�
 
 def post(i, title, body, cat=20, modified='2026-10-16T10:00:00', slug=None, extra_head='', h1s=None,
          canonical=None, description='Mô tả ngắn gọn về chủ đề thuê xe máy ở Hà Nội cho người mới đến thành phố.',
-         robots='index, follow', theme_schema=False):
+         robots='index, follow', theme_schema=False, matrix=None):
     slug = slug or f'excel-{i}-bai-{i}'
     return {'id': i, 'slug': slug, 'title': title, 'body': body, 'cat': cat, 'modified': modified,
             'extra_head': extra_head, 'h1s': h1s, 'canonical': canonical, 'description': description,
-            'robots': robots, 'theme_schema': theme_schema}
+            'robots': robots, 'theme_schema': theme_schema, 'matrix': matrix or i + 100}
 
 
 class FakeSite:
@@ -68,13 +68,13 @@ class FakeSite:
         return f"{SITE}/category/{c['slug']}/"
 
     def rest_post(self, p):
-        content = f"<!-- wp-aiwriter:matrix_id={p['id'] + 100};sha256=x -->\n" + p['body']
+        content = f"<!-- wp-aiwriter:matrix_id={p['matrix']};sha256=x -->\n" + p['body']
         return {'id': p['id'], 'slug': p['slug'], 'status': 'publish', 'type': 'post', 'link': self.url_of(p),
                 'date_gmt': '2026-10-15T00:00:00', 'modified_gmt': p['modified'],
                 'title': {'rendered': p['title']}, 'content': {'rendered': content},
                 'excerpt': {'rendered': '<p>Tóm tắt</p>'}, 'author': 1, 'featured_media': 0,
                 'categories': [p['cat']], 'tags': [],
-                'yoast_head_json': {'title': p['title'] + ' - Blog', 'description': p['description'],
+                'yoast_head_json': {'title': p['title'] + ' - Blog', 'description': p.get('yoast_description', p['description']),
                                     'canonical': p['canonical'] or self.url_of(p),
                                     'robots': {'index': p['robots'].split(',')[0].strip(), 'follow': 'follow'},
                                     'og_image': [], 'schema': {'@graph': [{'@type': 'Article'}]}}}
@@ -152,9 +152,9 @@ class FakeSite:
             if path == f"/{p['slug']}/":
                 schema = [{'@type': 'WebPage'}, {'@type': 'Article', 'headline': p['title'], 'datePublished': 'x',
                                                   'author': {'name': 'A'}}, {'@type': 'BreadcrumbList', 'itemListElement': [1]},
-                          {'@type': 'Organization', 'name': 'Thuê Xe'}]
-                extra = ('<script type="application/ld+json">{"@type":"Article","headline":"theme"}</script>'
-                         if p['theme_schema'] else '')
+                          {'@type': 'Organization', 'name': 'Thuê Xe'}, {'@type': 'Person', 'name': 'admin'}]
+                extra = p['extra_head'] + ('<script type="application/ld+json">{"@type":"Article","headline":"theme"}</script>'
+                                           if p['theme_schema'] else '')
                 return self.response(200, self.html(p['title'] + ' - Blog', p['body'], p['canonical'] or self.url_of(p),
                                                     p['description'], p['robots'], p['h1s'], schema, extra))
         for p in self.pages:
@@ -246,8 +246,9 @@ class SEOEngineTest(unittest.TestCase):
         self.assertTrue({'C-NEAR-DUPLICATE', 'C-DUPLICATE-CONTENT'} & self.codes_for(rows, 103) | self.codes_for(rows, 104))
         all_codes = {r['Issue Code'] for r in rows}
         for code in ('T-SITEMAP-BAD-URL', 'T-LEDGER-MISSING', 'G-GSC-NOT-CONFIGURED', 'C-NAP-INCONSISTENT',
-                     'A-AI-CRAWLER-POLICY', 'T-CWV-NOT-MEASURED', 'T-FEATURED-IMAGE-MISSING'):
+                     'A-AI-CRAWLER-POLICY', 'T-CWV-NOT-MEASURED', 'T-FEATURED-IMAGE-MISSING', 'A-AUTHOR-GENERIC'):
             self.assertIn(code, all_codes)
+        self.assertNotIn('T-DUPLICATE-COPY', all_codes)  # near-duplicates are not published copies
         self.assertNotIn('T-HTTPS-REDIRECT', all_codes)
         self.assertNotIn('T-SOFT-404', all_codes)
         self.assertNotIn('T-TRAILING-SLASH-DUP', all_codes)
@@ -320,6 +321,71 @@ class SEOEngineTest(unittest.TestCase):
         with self.assertRaises(ValueError):
             common.load_config()
 
+    def test_published_copy_reported_once_and_kept_out_of_linking(self):
+        original = self.site.posts[0]
+        self.site.posts.append(post(107, original['title'], original['body'], slug='excel-101-bai-101-2',
+                                    matrix=original['matrix']))
+        cli.main(['run', '--full'])
+        rows = self.matrix()
+        copy_rows = [r for r in rows if r['Issue Code'] == 'T-DUPLICATE-COPY']
+        self.assertEqual([r['Post ID'] for r in copy_rows], ['107'])
+        self.assertIn('WP 101', copy_rows[0]['Evidence'])
+        self.assertEqual(self.codes_for(rows, 107), {'T-DUPLICATE-COPY'})
+        cannibal_ids = {r['Post ID'] for r in rows if r['Issue Code'] == 'C-CANNIBALIZATION'}
+        self.assertNotIn('107', cannibal_ids)
+        self.assertFalse([r for r in rows if r['Issue Code'] == 'C-CANNIBALIZATION' and 'excel-101-bai-101-2' in r['Evidence']])
+        with open(pathlib.Path(self.tmp) / 'reports/internal-link-matrix.csv', encoding='utf-8-sig') as fh:
+            links = list(csv.DictReader(fh))
+        self.assertFalse([r for r in links if '107' in (r['source_post_id'], r['target_post_id'])])
+        dashboard = (pathlib.Path(self.tmp) / 'reports/seo-dashboard.md').read_text()
+        self.assertIn('bản sao trùng lặp đang xuất bản', dashboard)
+
+    def test_noindex_page_skips_tag_checks(self):
+        self.site.posts[1]['description'] = ''
+        cli.main(['run', '--full'])
+        codes = self.codes_for(self.matrix(), 102)
+        self.assertIn('T-NOINDEX', codes)
+        self.assertNotIn('T-META-DESC-MISSING', codes)
+
+    def test_meta_description_sources(self):
+        self.site.posts[0]['extra_head'] = '<meta name="description" content="Mô tả do theme in thêm">'
+        self.site.posts[2]['yoast_description'] = ''
+        cli.main(['run', '--full'])
+        rows = self.matrix()
+        self.assertIn('T-META-DESC-MULTIPLE', self.codes_for(rows, 101))
+        evidence = ' '.join(r['Evidence'] for r in rows if r['Issue Code'] == 'T-META-DESC-NOT-YOAST')
+        self.assertIn('excel-103-bai-103', evidence)
+        index = [json.loads(l) for l in (pathlib.Path(self.tmp) / 'data/posts-index.jsonl').read_text().splitlines()]
+        page = next(r['page'] for r in index if r['id'] == 101)
+        self.assertNotIn('heading_outline', page)
+        self.assertEqual(page['meta_description_count'], 2)
+
+
+class CompactAndHostTest(unittest.TestCase):
+    def test_compact_page_is_idempotent_and_keeps_audited_fields(self):
+        page = {'url': SITE + '/a/', 'final_url': SITE + '/a/', 'heading_outline': [[2, 'x']],
+                'og': {'og:title': 't', 'og:image': 'https://img/x.jpg'},
+                'jsonld': {'types': {'WebPage': 1}, 'nodes': [
+                    {'types': ['WebPage'], 'id': SITE + '/a/', 'origin': 'yoast', 'keys': ['name'], 'name': 'Tiêu đề',
+                     'telephone': None},
+                    {'types': ['Organization'], 'id': SITE + '/#org', 'origin': 'yoast', 'keys': ['name'],
+                     'name': 'Thuê xe', 'telephone': '0900000000'}]}}
+        once = crawl.compact_page(page)
+        self.assertEqual(once, crawl.compact_page(once))
+        self.assertNotIn('heading_outline', once)
+        self.assertNotIn('url', once)
+        self.assertEqual(once['final_url'], SITE + '/a/')
+        self.assertEqual(once['og'], {'og:image': 'https://img/x.jpg'})
+        self.assertNotIn('name', once['jsonld']['nodes'][0])
+        self.assertEqual(once['jsonld']['nodes'][1]['name'], 'Thuê xe')
+        self.assertEqual(once['jsonld']['nodes'][1]['telephone'], '0900000000')
+        self.assertTrue(all('id' not in n for n in once['jsonld']['nodes']))
+
+    def test_hosts_answering_404_to_everything_are_not_dead_links(self):
+        status = {f'https://help.example/{i}': {'kind': 'external', 'status': 404} for i in range(6)}
+        status.update({f'https://ok.example/{i}': {'kind': 'external', 'status': 404 if i == 0 else 200} for i in range(6)})
+        self.assertEqual(linking.suspicious_hosts(status), {'help.example'})
+
 
 class FetcherTest(unittest.TestCase):
     def cfg(self):
@@ -362,6 +428,14 @@ class ParserAndAnchorTest(unittest.TestCase):
         self.assertIn('chụp ảnh hiện trạng xe máy', context)
         none = linking.find_anchor(blocks, ['phanh', 'kiểm'], lambda t: 2.0)
         self.assertIsNone(none[0])  # only occurs inside an existing link
+
+    def test_find_anchor_does_not_split_compounds(self):
+        blocks = [('x', [('Bạn nên chụp ảnh hiện trạng xe máy trước khi nhận.', False)])]
+        terms = ['chụp', 'ảnh', 'hiện', 'trạng', 'xe']
+        plain = linking.find_anchor(blocks, terms, lambda t: 2.0)
+        self.assertEqual(plain[0], 'chụp ảnh hiện trạng xe')
+        aware = linking.find_anchor(blocks, terms, lambda t: 2.0, is_compound=lambda a, b: (a, b) == ('xe', 'máy'))
+        self.assertEqual(aware[0], 'chụp ảnh hiện trạng xe máy')
 
 
 class FakeWPForFixes:

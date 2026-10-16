@@ -11,6 +11,7 @@ import urllib.parse
 
 from . import common
 from .common import iso, normalize_url, read_json, read_jsonl, write_json, write_jsonl
+from .crawl import compact_page
 from .htmlparse import clean, html_comments, parse
 from .textutil import norm, sha256, word_count
 
@@ -107,7 +108,6 @@ def yoast_summary(head):
     return {
         'title': clean(head.get('title', '')), 'description': clean(head.get('description', '')),
         'canonical': head.get('canonical', ''), 'robots': {k: robots[k] for k in sorted(robots)},
-        'og_title': clean(head.get('og_title', '')), 'og_description': clean(head.get('og_description', '')),
         'og_image': bool(head.get('og_image')), 'og_type': head.get('og_type', ''),
         'article_modified_time': head.get('article_modified_time', ''),
         'twitter_card': head.get('twitter_card', ''), 'schema_types': sorted(set(types)),
@@ -251,7 +251,7 @@ def sync(cfg, fetcher, full=False):
             elif old.get('synced_at'):
                 record['synced_at'] = old['synced_at']  # unchanged record: keep the index line stable
             if old and old.get('page') and old.get('modified_gmt') == record['modified_gmt']:
-                record['page'] = old['page']  # keep last crawl result until re-crawled
+                record['page'] = compact_page(old['page'])  # keep last crawl result until re-crawled
             records.append(record)
         stat['removed'] = sorted(i for (k, i) in previous if k == kind and i not in listed_ids)
         stats[kind] = stat

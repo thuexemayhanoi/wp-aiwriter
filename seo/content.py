@@ -11,7 +11,7 @@ from .corpus import key_of
 from .issues import make
 from .textutil import STOPWORDS, candidate_pairs, cosine, jaccard, norm, syllables
 
-LEGAL = re.compile(r'(nghị định|thông tư|\bluật\b|xử phạt|mức phạt|bị phạt|giấy phép lái xe|bằng lái|'
+LEGAL = re.compile(r'(nghị định|thông tư|(?<!quy )\bluật\b|xử phạt|mức phạt|bị phạt|giấy phép lái xe|bằng lái|'
                    r'nồng độ cồn|tốc độ tối đa|đăng ký xe|quy định của pháp luật|theo quy định pháp luật|'
                    r'cảnh sát giao thông)', re.I)
 MONEY = re.compile(r'(?<![\w.,])(\d{1,3}(?:[.,]\d{3})+|\d+(?:[.,]\d+)?)\s?(k|nghìn|ngàn|đ|đồng|vnđ|vnd|triệu|usd|\$)(?!\w)', re.I)
@@ -37,8 +37,11 @@ def official(href, domains):
     return any(h == d or h.endswith('.' + d) for d in domains)
 
 
-def audit(cfg, corpus, records, terms, gsc=None):
+def audit(cfg, corpus, records, terms, gsc=None, duplicates=None):
     th = cfg['thresholds']
+    duplicates = duplicates or {}
+    # A published copy is reported once (T-DUPLICATE-COPY); its original carries every comparison.
+    copies = set(duplicates)
     issues, cannibal_rows, gap_rows = [], [], []
     published = {k: r for k, r in corpus.records.items()}
     domains = cfg.get('official_source_domains', [])
@@ -48,6 +51,11 @@ def audit(cfg, corpus, records, terms, gsc=None):
 
     for key, r in published.items():
         text = corpus.text.get(key, '')
+        for m in PHONE.finditer(text):
+            phones_by_page[phone_digits(m.group(0))].add(r['url'])
+        emails.update(e.lower() for e in EMAIL.findall(text))
+        if key in copies:
+            continue
         words = r.get('word_count', 0)
         if r['type'] == 'post':
             if words < th['thin_words_p1']:
@@ -69,9 +77,6 @@ def audit(cfg, corpus, records, terms, gsc=None):
             issues.append(make('C-FINE-AMOUNT', r, evidence=' | '.join(fines[:3]), impact=len(fines)))
         if prices:
             issues.append(make('C-PRICE-MENTION', r, evidence=' | '.join(prices[:3]), impact=len(prices)))
-        for m in PHONE.finditer(text):
-            phones_by_page[phone_digits(m.group(0))].add(r['url'])
-        emails.update(e.lower() for e in EMAIL.findall(text))
         years = sorted({int(y) for y in YEAR.findall(text) if int(y) < current_year})
         if years and (legal or MONEY.search(text)):
             issues.append(make('C-TIME-SENSITIVE', r, evidence=f'nhắc năm {years[-3:]} cùng nội dung pháp lý/giá'))
@@ -89,13 +94,16 @@ def audit(cfg, corpus, records, terms, gsc=None):
                            verification='VERIFIED', evidence=f'số không khớp NAP đã cấu hình: {unknown[:5]}'))
     elif not known and len(phones_by_page) > 1:
         issues.append(make('C-NAP-INCONSISTENT', url=cfg['site_url'] + '/', key_extra='nap',
-                           evidence='nhiều số điện thoại khác nhau: ' + ', '.join(
-                               f'{p} ({len(u)} trang)' for p, u in sorted(phones_by_page.items(), key=lambda kv: -len(kv[1]))[:6])))
+                           evidence='nhiều số điện thoại khác nhau: ' + '; '.join(
+                               f'{p} ({len(u)} trang, ví dụ {sorted(u)[0]})'
+                               for p, u in sorted(phones_by_page.items(), key=lambda kv: -len(kv[1]))[:6])))
 
     # Duplicates and near-duplicates (5-syllable shingles on candidate pairs).
     pairs = candidate_pairs(corpus.body_pruned, 0.35)
     near = []
     for (a, b), _ in sorted(pairs.items(), key=lambda kv: -kv[1]):
+        if a in copies or b in copies:
+            continue
         j = jaccard(corpus.shingle_set(a), corpus.shingle_set(b))
         if j >= th['near_duplicate_jaccard']:
             near.append((a, b, j))
@@ -111,6 +119,8 @@ def audit(cfg, corpus, records, terms, gsc=None):
     title_vecs = corpus.titles.vectors
     candidates = candidate_pairs({k: title_vecs.get(k, {}) for k in keys}, th['cannibal_title_cosine'])
     for (a, b), _ in candidates.items():
+        if a in copies or b in copies:
+            continue
         tcos = cosine(title_vecs.get(a, {}), title_vecs.get(b, {}))
         if tcos < th['cannibal_title_cosine']:
             continue
@@ -140,8 +150,12 @@ def audit(cfg, corpus, records, terms, gsc=None):
     cannibal_rows.sort(key=lambda row: -(row['title_similarity'] + row['body_similarity']))
 
     gap_rows = content_gaps(cfg, corpus, published, terms, gsc)
+    ext_hosts = Counter()
+    for r in published.values():
+        ext_hosts.update({common.host(l['href']) for l in r.get('external_links', [])})
     stats = {'near_duplicate_pairs': len(near), 'cannibalization_pairs': len(cannibal_rows),
-             'gap_rows': len(gap_rows), 'nap': nap}
+             'gap_rows': len(gap_rows), 'nap': nap, 'duplicate_copies': len(duplicates),
+             'top_external_domains': dict(ext_hosts.most_common(15))}
     return issues, cannibal_rows, gap_rows, stats
 
 

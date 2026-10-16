@@ -54,6 +54,8 @@ def check_page(cfg, page, record, kind, link_status, records_by_url, issues, gro
         code = 'T-NOINDEX' if kind in ('post', 'page', 'home') else 'T-ARCHIVE-NOINDEX'
         issues.append(make(code, target, evidence=f'meta robots="{page.get("meta_robots")}"; '
                                                   f'X-Robots-Tag="{page.get("x_robots_tag")}"'))
+        # Yoast omits canonical/description on noindex URLs by design; other tag checks are moot.
+        return
     final_url = page.get('final_url') or url
     canonicals = list(dict.fromkeys(normalize_url(c, final_url) for c in page.get('canonicals', []) if c))
     if not canonicals:
@@ -83,6 +85,8 @@ def check_page(cfg, page, record, kind, link_status, records_by_url, issues, gro
         elif len(title) < th['title_min_chars']:
             issues.append(make('T-TITLE-SHORT', target, evidence=f'{len(title)} ký tự: {title}'))
     desc = page.get('meta_description') or ''
+    if (page.get('meta_description_count') or 0) > 1:
+        issues.append(make('T-META-DESC-MULTIPLE', target, evidence=f"{page['meta_description_count']} thẻ meta description"))
     if not desc:
         issues.append(make('T-META-DESC-MISSING', target, evidence='no <meta name="description">'))
     else:
@@ -126,7 +130,9 @@ def check_page(cfg, page, record, kind, link_status, records_by_url, issues, gro
         issues.append(make('T-SCHEMA-DUPLICATE-TYPE', target,
                            evidence=f'{dupes}; JSON-LD blocks by origin={dict(origins)}'))
     if (jl.get('sources') or {}).get('other'):
-        issues.append(make('T-SCHEMA-NON-YOAST', target, evidence=f"non-Yoast JSON-LD blocks={jl['sources']['other']}"))
+        other_types = sorted({t for n in jl.get('nodes', []) if n.get('origin') == 'other' for t in n.get('types', [])})
+        issues.append(make('T-SCHEMA-NON-YOAST', target,
+                           evidence=f"{jl['sources']['other']} block JSON-LD ngoài Yoast; loại: {other_types}"))
     if kind == 'post':
         article = [n for n in jl.get('nodes', []) if ARTICLE_TYPES & set(n.get('types', []))]
         if not article:
@@ -140,9 +146,16 @@ def check_page(cfg, page, record, kind, link_status, records_by_url, issues, gro
         issues.append(make('T-SLOW-RESPONSE', target, evidence=f"{page['elapsed_ms']} ms HTML (GitHub runner)"))
 
 
-def audit(cfg, records, site, terms, state, link_status, psi=None):
+def audit(cfg, records, site, terms, state, link_status, psi=None, duplicates=None):
     th = cfg['thresholds']
     issues = []
+    by_key = {f"{r['type']}:{r['id']}": r for r in records}
+    for copy_key, original_key in sorted((duplicates or {}).items()):
+        copy, original = by_key[copy_key], by_key[original_key]
+        issues.append(make('T-DUPLICATE-COPY', copy, impact=5,
+                           evidence=(f"trùng {'nội dung' if copy.get('content_sha256') == original.get('content_sha256') else 'matrix_id'} "
+                                     f"với WP {original['id']} {original['url']} (Excel #{original.get('matrix_id') or '?'}); "
+                                     f"chuyên mục bản này: {(copy.get('category_paths') or [''])[0]}")))
     groups = {'title': defaultdict(list), 'description': defaultdict(list)}
     records_by_url = {r['url']: r for r in records}
 
@@ -154,10 +167,11 @@ def audit(cfg, records, site, terms, state, link_status, psi=None):
             issues.append(make('T-INVENTORY-REMOVED', {'id': item_id, 'type': kind, 'url': ''},
                                evidence=f'{kind} {item_id} was in the previous index'))
 
+    copies = set(duplicates or {})
     for r in records:
         page = r.get('page')
-        if not page:
-            continue
+        if not page or f"{r['type']}:{r['id']}" in copies:
+            continue  # a published copy is reported once as T-DUPLICATE-COPY
         check_page(cfg, page, r, r['type'], link_status, records_by_url, issues, groups)
         if page.get('status') != 200:
             continue
@@ -217,6 +231,15 @@ def audit(cfg, records, site, terms, state, link_status, psi=None):
         issues.append(make('T-SCHEMA-MICRODATA', url=cfg['site_url'] + '/',
                            evidence=f'{microdata_pages} trang có microdata: {sample[:4]}', impact=microdata_pages,
                            key_extra='site'))
+    crawled_ok = [r for r in records if (r.get('page') or {}).get('status') == 200]
+    not_yoast = [r for r in crawled_ok if r['page'].get('meta_description') and r.get('yoast') is not None
+                 and not r['yoast'].get('description')]
+    if not_yoast:
+        issues.append(make('T-META-DESC-NOT-YOAST', url=cfg['site_url'].rstrip('/') + '/', key_extra='site',
+                           impact=len(not_yoast), evidence=(
+                               f'{len(not_yoast)}/{len(crawled_ok)} bài/trang: yoast_head_json không có description '
+                               f'nhưng HTML có thẻ meta description (nguồn khác Yoast in ra); ví dụ: '
+                               + ', '.join(r['url'] for r in not_yoast[:3]))))
 
     # Duplicate titles / descriptions (rule-verified, owner rewrites).
     for field_, code in (('title', 'T-TITLE-DUPLICATE'), ('description', 'T-META-DESC-DUPLICATE')):

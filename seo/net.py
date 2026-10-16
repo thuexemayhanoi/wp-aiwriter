@@ -184,9 +184,10 @@ class Fetcher:
     def head_or_get(self, url, internal_only=True, timeout=None):
         """Cheap status check: HEAD, falling back to GET when HEAD is refused or unsupported."""
         resp = self.fetch(url, method='HEAD', accept='*/*', internal_only=internal_only, timeout=timeout)
-        if resp.status in (0, 403, 405, 501) or resp.status >= 500:
-            resp = self.fetch(url, method='GET', accept='*/*', internal_only=internal_only,
-                              timeout=timeout, max_bytes=200_000)
+        # Some servers answer HEAD with 404/403/405 while GET works; confirm every failure with GET.
+        if resp.status in (0, 400, 401, 403, 404, 405, 410, 429, 501) or resp.status >= 500:
+            resp = self.fetch(url, method='GET', accept='text/html,application/xhtml+xml,*/*;q=0.8',
+                              internal_only=internal_only, timeout=timeout, max_bytes=200_000)
         return resp
 
     def get_json(self, url):

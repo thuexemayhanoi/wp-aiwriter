@@ -23,6 +23,30 @@ AI_AGENTS = ['GPTBot', 'OAI-SearchBot', 'ChatGPT-User', 'Google-Extended', 'Clau
              'PerplexityBot', 'CCBot', 'Bingbot', 'Googlebot', 'Applebot-Extended']
 NODE_KEYS = ['headline', 'name', 'datePublished', 'dateModified', 'author', 'image', 'publisher', 'telephone',
              'address', 'url', 'itemListElement', 'mainEntityOfPage', 'isPartOf', 'inLanguage', 'sameAs', 'logo']
+# Node names are kept only for entities (brand/author consistency); page names duplicate <title>.
+ENTITY_TYPES = {'Organization', 'Corporation', 'LocalBusiness', 'AutoRental', 'WebSite', 'Person'}
+DROPPED_PAGE_FIELDS = ('url', 'heading_outline')
+
+
+def compact_node(node):
+    out = {'types': node.get('types', []), 'origin': node.get('origin'), 'keys': node.get('keys', [])}
+    if set(out['types']) & ENTITY_TYPES and isinstance(node.get('name'), str):
+        out['name'] = node['name']
+    if isinstance(node.get('telephone'), str):
+        out['telephone'] = node['telephone']
+    return out
+
+
+def compact_page(page):
+    """Idempotent: drop fields no audit reads so the committed index stays reviewable."""
+    if not page:
+        return page
+    page = {k: v for k, v in page.items() if k not in DROPPED_PAGE_FIELDS}
+    page['og'] = {k: v for k, v in (page.get('og') or {}).items() if k in ('og:image', 'og:type')}
+    jl = page.get('jsonld')
+    if jl:
+        page['jsonld'] = {**jl, 'nodes': [compact_node(n) for n in jl.get('nodes', [])]}
+    return page
 
 
 def pages_cache_path():
@@ -49,27 +73,27 @@ def summarize_page(resp, cfg, kind):
         if url and common.is_internal(url, cfg):
             internal.append(url)
     images = p.images
-    return {
-        'url': resp.url, 'kind': kind, 'status': resp.status, 'final_url': resp.final_url,
+    return compact_page({
+        'kind': kind, 'status': resp.status, 'final_url': resp.final_url,
         'redirects': resp.redirects, 'elapsed_ms': resp.elapsed_ms, 'error': resp.error,
         'html_bytes': len(resp.body), 'truncated': resp.truncated,
         'content_type': resp.headers.get('content-type', ''),
         'x_robots_tag': resp.headers.get('x-robots-tag', ''),
         'cache_control': resp.headers.get('cache-control', ''),
         'title': p.title, 'meta_description': p.meta('description'),
+        'meta_description_count': len(p.metas.get('description', [])),
         'meta_robots': ', '.join(filter(None, [p.meta('robots') or '', p.meta('googlebot') or ''])),
         'canonicals': p.canonicals(), 'rel_next': p.rel_links('next')[:1],
         'h1': [t for level, t in p.headings if level == 1],
         'headings_count': dict(Counter(f'h{level}' for level, _ in p.headings)),
-        'heading_outline': [[level, t[:120]] for level, t in p.headings[:80]],
         'lang': p.lang, 'viewport': p.meta('viewport'),
-        'og': {k: p.meta(k) for k in ('og:title', 'og:description', 'og:image', 'og:url', 'og:type') if p.meta(k)},
+        'og': {k: p.meta(k) for k in ('og:image', 'og:type') if p.meta(k)},
         'twitter_card': p.meta('twitter:card'),
         'generator': p.meta('generator'), 'yoast_version': yoast_version,
         'theme': sorted(set(THEME.findall(text))), 'plugins': sorted(set(PLUGIN.findall(text))),
         'jsonld': {'blocks': len(p.jsonld), 'sources': sources, 'errors': errors,
                    'types': dict(Counter(t for n in nodes for t in node_types(n))),
-                   'nodes': [{'types': node_types(n), 'id': n.get('@id', ''), 'origin': n['_origin'],
+                   'nodes': [{'types': node_types(n), 'origin': n['_origin'],
                               'keys': [k for k in NODE_KEYS if n.get(k)],
                               'name': n.get('name') if isinstance(n.get('name'), str) else None,
                               'telephone': n.get('telephone') if isinstance(n.get('telephone'), str) else None}
@@ -82,7 +106,7 @@ def summarize_page(resp, cfg, kind):
         'mixed_content': sorted(set(p.http_resources))[:30],
         'internal_link_count': len(internal), 'iframes': len(p.iframes),
         'crawled_at': iso(),
-    }, sorted(set(internal))
+    }), sorted(set(internal))
 
 
 def parse_robots(text, cfg, sample_urls):
@@ -190,6 +214,7 @@ def crawl(cfg, fetcher, records, full=False, max_pages=None):
             due.append(r['url'])
         else:
             page_links[r['url']] = previous_links[r['url']]
+            r['page'] = compact_page(prev)
     cap = max_pages or ccfg.get('max_pages', 3000)
     due = due[:cap]
     fetched = parallel(due, get_page, workers)
@@ -249,12 +274,13 @@ def crawl(cfg, fetcher, records, full=False, max_pages=None):
                             'redirects': len(resp.redirects), 'error': resp.error, 'checked_at': iso()}
     for url, r in by_url.items():
         page = r.get('page') or {}
-        link_status[url] = {'kind': 'internal', 'status': page.get('status'), 'final_url': page.get('final_url'),
+        link_status[url] = {'kind': 'internal', 'status': page.get('status'), 'final_url': page.get('final_url') or url,
                             'redirects': len(page.get('redirects') or []), 'error': page.get('error', ''),
                             'checked_at': page.get('crawled_at')}
     for url, page in archive_pages.items():
-        link_status[url] = {'kind': 'internal', 'status': page['status'], 'final_url': page['final_url'],
-                            'redirects': len(page['redirects']), 'error': page['error'], 'checked_at': page['crawled_at']}
+        link_status[url] = {'kind': 'internal', 'status': page.get('status'), 'final_url': page.get('final_url') or url,
+                            'redirects': len(page.get('redirects') or []), 'error': page.get('error', ''),
+                            'checked_at': page.get('crawled_at')}
 
     # 4. image weight (internal images only, HEAD content-length)
     images = {}

@@ -55,14 +55,17 @@ def do_audit(cfg, mode, notes=None):
     psi = read_json(common.path('data/seo/psi.json'), None)
     gsc_summary = read_json(common.path('data/seo/gsc-summary.json'), None) or {'status': 'BLOCKED', 'reason': 'not run'}
     corpus = Corpus(records, cache)
+    duplicates = corpus.duplicate_copies(preferred=inventory.ledger_by_wp_id())
     issues = []
-    tech_issues, tech_extra = technical.audit(cfg, records, site, terms, state, link_status, psi)
+    tech_issues, tech_extra = technical.audit(cfg, records, site, terms, state, link_status, psi, duplicates)
     issues += tech_issues
-    link_issues, suggestions, architecture, link_stats = linking.audit(cfg, corpus, records, site, terms, link_status, page_links)
+    link_issues, suggestions, architecture, link_stats = linking.audit(cfg, corpus, records, site, terms, link_status,
+                                                                       page_links, exclude=duplicates)
     issues += link_issues
-    content_issues, cannibal_rows, gap_rows, content_stats = content.audit(cfg, corpus, records, terms, gsc_summary)
+    content_issues, cannibal_rows, gap_rows, content_stats = content.audit(cfg, corpus, records, terms, gsc_summary,
+                                                                           duplicates)
     issues += content_issues
-    aeo_issues, aeo_summary = aeo.audit(cfg, corpus, records, site, state.get('discovery'))
+    aeo_issues, aeo_summary = aeo.audit(cfg, corpus, records, site, state.get('discovery'), duplicates)
     issues += aeo_issues
     if gsc_summary.get('status') != 'OK':
         from .issues import make
