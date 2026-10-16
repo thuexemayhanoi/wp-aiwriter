@@ -4017,7 +4017,17 @@
       "wp_id": 1167,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-476-di-xe-may-tu-hoan-kiem-sang-long-bien-cach-chon-cau-va-khung-gio/"
+    },
+    "477": {
+      "title": "Đi xe máy ở Hoàn Kiếm khi trời mưa: lưu ý đường trơn và điểm ngập cục bộ",
+      "source_hash": "4ce69eafdc47adbd9f3d5b7f2c0b6eb32f95de4f2cce355718e4da9d08d25f78",
+      "checked_at": "2026-10-16T17:03:43.501567+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 10,
+      "slug": "excel-477-di-xe-may-o-hoan-kiem-khi-troi-mua-luu-y-duong-tron-va-diem-ngap-cuc-bo",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T17:03:41.805191+00:00"
+  "updated_at": "2026-10-16T17:03:43.501582+00:00"
 }
