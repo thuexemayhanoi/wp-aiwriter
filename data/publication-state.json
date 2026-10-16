@@ -4212,7 +4212,17 @@
       "wp_id": 1182,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-491-di-xe-may-tu-long-bien-den-ba-dinh-cach-chon-tuyen-it-doi-huong/"
+    },
+    "492": {
+      "title": "Đi xe máy từ Long Biên đến Hồ Tây: nên đi qua cầu nào?",
+      "source_hash": "ef5cc3c2d56fed107df7e7f44219ef4643a1a491272d19550f363270c4fbc25b",
+      "checked_at": "2026-10-16T17:09:51.551311+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 12,
+      "slug": "excel-492-di-xe-may-tu-long-bien-den-ho-tay-nen-di-qua-cau-nao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T17:09:49.921913+00:00"
+  "updated_at": "2026-10-16T17:09:51.551324+00:00"
 }
