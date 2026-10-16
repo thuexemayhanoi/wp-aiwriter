@@ -806,7 +806,17 @@
       "wp_id": 919,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-229-man-hinh-dien-tu-tren-xe-may-dien-thuong-hien-thi-nhung-thong-tin-gi/"
+    },
+    "230": {
+      "title": "Khóa thông minh trên xe điện khác khóa cơ truyền thống như thế nào?",
+      "source_hash": "5b4bb994e71397467aa424aff3fdf88bce4d0ccf8cd71976e3ca56cc70fa9fec",
+      "checked_at": "2026-10-16T11:54:46.124056+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 21,
+      "slug": "excel-230-khoa-thong-minh-tren-xe-dien-khac-khoa-co-truyen-thong-nhu-the-nao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T11:54:44.778166+00:00"
+  "updated_at": "2026-10-16T11:54:46.124071+00:00"
 }
