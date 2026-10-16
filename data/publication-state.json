@@ -1941,14 +1941,16 @@
     "317": {
       "title": "Xe số dùng phanh đĩa và phanh cơ khác nhau thế nào khi đi phố?",
       "source_hash": "858d244606ed09dccbf51b871c18df21f08714afcb2074e563cb7a216bb461fe",
-      "checked_at": "2026-10-16T16:26:29.832959+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:26:32.827020+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 6,
       "slug": "excel-317-xe-so-dung-phanh-dia-va-phanh-co-khac-nhau-the-nao-khi-di-pho",
       "reason": null,
-      "wp_id": 1008
+      "wp_id": 1008,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-317-xe-so-dung-phanh-dia-va-phanh-co-khac-nhau-the-nao-khi-di-pho/"
     }
   },
-  "updated_at": "2026-10-16T16:26:29.832975+00:00"
+  "updated_at": "2026-10-16T16:26:32.827039+00:00"
 }
