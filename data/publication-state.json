@@ -1573,7 +1573,17 @@
       "wp_id": 979,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-288-blade-va-wave-khac-nhau-the-nao-khi-su-dung-hang-ngay/"
+    },
+    "289": {
+      "title": "Future và Jupiter: mẫu nào phù hợp người cần tư thế ngồi thoải mái?",
+      "source_hash": "ed91b3dd8402b6aa61c0800579946d1a8fe8bdd0247604870c8995a3a8830f74",
+      "checked_at": "2026-10-16T16:19:20.505268+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 6,
+      "slug": "excel-289-future-va-jupiter-mau-nao-phu-hop-nguoi-can-tu-the-ngoi-thoai-mai",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:19:17.512531+00:00"
+  "updated_at": "2026-10-16T16:19:20.505281+00:00"
 }
