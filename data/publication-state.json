@@ -1690,7 +1690,17 @@
       "wp_id": 988,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-297-khi-nao-nen-ve-so-thap-khi-di-xe-so-trong-pho/"
+    },
+    "298": {
+      "title": "Cách dùng phanh trước và phanh sau trên xe số an toàn hơn",
+      "source_hash": "f105d2d4cb2470682a803ab11e67255fe3abf742d125643a092fca9c051960e5",
+      "checked_at": "2026-10-16T16:23:06.990187+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 6,
+      "slug": "excel-298-cach-dung-phanh-truoc-va-phanh-sau-tren-xe-so-an-toan-hon",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:23:05.681835+00:00"
+  "updated_at": "2026-10-16T16:23:06.990200+00:00"
 }
