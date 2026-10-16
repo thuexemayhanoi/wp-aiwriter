@@ -2799,14 +2799,16 @@
     "383": {
       "title": "Xe điện phù hợp với quãng đường ngắn trong nội đô như thế nào?",
       "source_hash": "4c0f3e9149a9038507d3ec4835df52896c6e9652a6f9c9ebec86ade7407e691c",
-      "checked_at": "2026-10-16T16:41:17.323996+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:41:21.326444+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 8,
       "slug": "excel-383-xe-dien-phu-hop-voi-quang-duong-ngan-trong-noi-do-nhu-the-nao",
       "reason": null,
-      "wp_id": 1074
+      "wp_id": 1074,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-383-xe-dien-phu-hop-voi-quang-duong-ngan-trong-noi-do-nhu-the-nao/"
     }
   },
-  "updated_at": "2026-10-16T16:41:17.324014+00:00"
+  "updated_at": "2026-10-16T16:41:21.326463+00:00"
 }
