@@ -3627,7 +3627,17 @@
       "wp_id": 1137,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-446-di-xe-may-quanh-khu-vuc-giang-vo-cach-tim-cho-gui-xe-thuan-tien/"
+    },
+    "447": {
+      "title": "Đi xe máy đến Công viên Thủ Lệ từ Ba Đình: nên đi tuyến nào?",
+      "source_hash": "973cba349084d5e19856a44f733f9535750a99a33d8c06b7af0acd1168b84e42",
+      "checked_at": "2026-10-16T16:55:06.332567+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 13,
+      "slug": "excel-447-di-xe-may-den-cong-vien-thu-le-tu-ba-dinh-nen-di-tuyen-nao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:55:04.878407+00:00"
+  "updated_at": "2026-10-16T16:55:06.332579+00:00"
 }
