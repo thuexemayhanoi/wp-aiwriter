@@ -315,22 +315,43 @@ def crawl(cfg, fetcher, records, full=False, max_pages=None):
     return site_data
 
 
+CHECK_METHOD = 'head+get'  # every failed HEAD is confirmed with GET
+
+
+def _failed(entry):
+    status = entry.get('status') or 0
+    return status == 0 or status >= 400
+
+
 def check_external(cfg, fetcher, records, force=False):
-    """Status of outbound links (read-only GET/HEAD); cached for recheck_after_days."""
+    """Status of outbound links (read-only GET/HEAD). Successes are cached for
+    recheck_after_days; failures are re-confirmed after recheck_failed_after_days, and
+    failures recorded by an older check method are always re-confirmed."""
     ecfg = cfg.get('external_links', {})
     link_status = read_json(link_status_path(), {}) or {}
     urls = sorted({link['href'] for r in records for link in r.get('external_links', [])})
-    due = [u for u in urls if force or u not in link_status
-           or older_than(link_status[u].get('checked_at'), ecfg.get('recheck_after_days', 14))]
+
+    def is_due(url):
+        entry = link_status.get(url)
+        if force or not entry:
+            return True
+        if _failed(entry) and (entry.get('method') != CHECK_METHOD or
+                               older_than(entry.get('checked_at'), ecfg.get('recheck_failed_after_days', 0))):
+            return True
+        return older_than(entry.get('checked_at'), ecfg.get('recheck_after_days', 14))
+    due = [u for u in urls if is_due(u)]
     cap = ecfg.get('max_checks', 3000)
     timeout = ecfg.get('timeout_seconds', 15)
     results = parallel(due[:cap], lambda u: fetcher.head_or_get(u, internal_only=False, timeout=timeout),
                        ecfg.get('max_workers', 6))
     for url, resp in results.items():
         link_status[url] = {'kind': 'external', 'status': resp.status, 'final_url': resp.final_url,
-                            'redirects': len(resp.redirects), 'error': resp.error, 'checked_at': iso()}
+                            'redirects': len(resp.redirects), 'error': resp.error, 'checked_at': iso(),
+                            'method': CHECK_METHOD}
     write_json(link_status_path(), link_status)
-    return {'external_unique': len(urls), 'checked_now': len(results), 'skipped_cap': max(0, len(due) - cap)}
+    failed = sum(1 for u in urls if u in link_status and _failed(link_status[u]))
+    return {'external_unique': len(urls), 'checked_now': len(results), 'skipped_cap': max(0, len(due) - cap),
+            'failed_after_check': failed}
 
 
 def pagespeed(cfg, fetcher, urls, api_key=None):

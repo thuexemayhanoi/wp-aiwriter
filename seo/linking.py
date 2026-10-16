@@ -75,20 +75,67 @@ def click_depths(home, page_links, resolve_url):
     return depth
 
 
-def find_anchor(segments_list, key_terms, idf, title_tokens=(), is_compound=None, min_len=3, max_len=8):
-    """Best natural phrase in the source's plain (unlinked) text that describes the target.
+CITATION = re.compile(r'(truy cập|nguồn\s*:|tham khảo\s*:|accessed|retrieved)', re.I)
+INNER_PUNCT = '.,!?;:()[]"“”/–—…|'
+# Syllables that make a weak anchor edge in Vietnamese ("sang Long Biên", "NVX phù hợp").
+EDGE_WEAK = STOPWORDS | {'sang', 'dùng', 'phù', 'hợp', 'nhiều', 'cách', 'nên', 'chọn', 'đi',
+                         'khác', 'nhau', 'gì', 'nào', 'gần', 'nhất', 'hằng', 'luôn', 'mới', 'cũ', 'quanh'}
 
-    Candidates: (A) runs that appear contiguously in the target title, (B) windows bounded by
-    target key terms. A phrase never splits a frequent compound (e.g. "bộ phận", "xe điện"),
-    never starts/ends with a function word, contains >=2 key terms incl. a distinctive one.
-    Returns (anchor, context, score) or (None, None, 0).
+
+def _cuts_title_compound(window, title, is_compound):
+    """True when the window ends (or starts) inside a compound of the title ("tình trạng trạm|sạc")."""
+    if not is_compound:
+        return False
+    size = len(window)
+    for k in range(len(title) - size + 1):
+        if tuple(title[k:k + size]) != window:
+            continue
+        if k > 0 and title[k - 1] not in STOPWORDS and is_compound(title[k - 1], title[k]):
+            return True
+        if k + size < len(title) and title[k + size] not in STOPWORDS and is_compound(title[k + size - 1], title[k + size]):
+            return True
+    return False
+
+
+def title_ngram_counts(titles, min_len=2, max_len=8):
+    """{syllable n-gram: number of titles containing it}; measures how specific an anchor is."""
+    counts = Counter()
+    for title in titles:
+        toks = [norm(t) for t in syllables(title)]
+        counts.update({tuple(toks[a:b]) for a in range(len(toks))
+                       for b in range(a + min_len, min(len(toks), a + max_len) + 1)})
+    return counts
+
+
+def find_anchor(segments_list, key_terms, idf, title_tokens=(), is_compound=None, min_len=2, max_len=8,
+                title_df=None, max_titles=3):
+    """Best natural phrase in the source's plain (unlinked) text that names the target.
+
+    Only phrases that occur contiguously in the target title qualify, so the anchor always
+    describes the target (never "xe số 50cc" for a "xe ga 50cc" article). A phrase has 2-8
+    syllables, no function word at either end, does not split a frequent compound or a title
+    phrase, and contains one of the target's two most distinctive title syllables with enough
+    of the title's distinctive weight. With ``title_df`` the phrase must also be specific: it
+    may occur in at most ``max_titles`` published titles ("Long Biên" names dozens of posts).
+    Citation lines ("truy cập ngày ...") are skipped. Returns (anchor, context, score) or
+    (None, None, 0).
     """
     best = (None, None, 0.0)
+    key_terms = list(key_terms)
     keyset = set(key_terms)
-    distinctive = set(list(key_terms)[:3])
+    distinctive = set(key_terms[:2])
+    reference = sum(idf(t) for t in key_terms[:4]) or 1.0
+    weights = sorted(idf(t) for t in key_terms)
+    strong_idf = weights[len(weights) // 2] if weights else 0.0
+
+    def strong(tok):  # a distinctive neighbour ("Hàng" in "Hàng Mã"), not a generic one ("xe")
+        return tok not in STOPWORDS and idf(tok) >= strong_idf
     title = [norm(t) for t in title_tokens]
     title_pairs = set(zip(title, title[1:]))
-    for _full, segments in segments_list:
+    ngrams = {tuple(title[a:b]) for a in range(len(title)) for b in range(a + min_len, min(len(title), a + max_len) + 1)}
+    for full, segments in segments_list:
+        if CITATION.search(full or ''):
+            continue
         raw, mask = '', []
         for text, linked in segments:
             raw += text
@@ -96,42 +143,45 @@ def find_anchor(segments_list, key_terms, idf, title_tokens=(), is_compound=None
         toks = [(m.group(0), m.start(), m.end()) for m in TOKEN.finditer(raw)]
         low = [norm(t) for t, _, _ in toks]
         n = len(toks)
-        spans = []
         for i in range(n):
-            if low[i] in title:
-                j = i
-                while j + 1 < n and (low[j], low[j + 1]) in title_pairs and j - i + 1 < max_len:
-                    j += 1
-                if j - i + 1 >= min_len:
-                    spans.append((i, j, 1.0))
-            if low[i] in keyset:
-                for j in range(i + min_len - 1, min(n, i + max_len)):
-                    if low[j] in keyset:
-                        spans.append((i, j, 0.0))
-        for i, j, bonus in spans:
-            if is_compound:
-                while i > 0 and is_compound(low[i - 1], low[i]) and j - i + 1 < max_len:
-                    i -= 1
-                while j + 1 < n and is_compound(low[j], low[j + 1]) and j - i + 1 < max_len:
-                    j += 1
-                if (i > 0 and is_compound(low[i - 1], low[i])) or (j + 1 < n and is_compound(low[j], low[j + 1])):
+            if low[i] not in title or low[i] in EDGE_WEAK:
+                continue
+            for j in range(i + min_len - 1, min(n, i + max_len)):
+                window = tuple(low[i:j + 1])
+                if window not in ngrams:
+                    break
+                if window[-1] in EDGE_WEAK:
                     continue
-            window = low[i:j + 1]
-            if window[0] in STOPWORDS or window[-1] in STOPWORDS:
-                continue
-            start, end = toks[i][1], toks[j][2]
-            if any(mask[start:end]) or any(ch in raw[start:end] for ch in '.,!?;:()[]"“”/'):
-                continue
-            matched = {t for t in window if t in keyset}
-            if len(matched) < 2 or not (matched & distinctive):
-                continue
-            score = sum(idf(t) for t in matched) + bonus * len(window) - 0.15 * len(window)
-            if score > best[2]:
-                context_start = max(0, raw.rfind('.', 0, start) + 1)
-                context_end = raw.find('.', end)
-                context_end = len(raw) if context_end == -1 else context_end + 1
-                context = ' '.join(raw[context_start:context_end].split())[:260]
-                best = (' '.join(raw[start:end].split()), context, score)
+                # Two syllables are too generic unless they form a proper name ("Kim Mã", "Hồ Tây").
+                if len(window) == 2 and not (toks[i][0][:1].isupper() and toks[j][0][:1].isupper()):
+                    continue
+                if title_df is not None and title_df.get(window, 1) > max_titles:
+                    continue
+                if _cuts_title_compound(window, title, is_compound):
+                    continue
+                # Do not cut a title phrase or a frequent compound ("bộ nhớ", "Hàng Mã") in half.
+                left = low[i - 1] if i > 0 else None
+                right = low[j + 1] if j + 1 < n else None
+                if left and left not in STOPWORDS and (((left, low[i]) in title_pairs and strong(left)) or
+                                                       (is_compound and is_compound(left, low[i]))):
+                    continue
+                if right and right not in STOPWORDS and (((low[j], right) in title_pairs and strong(right)) or
+                                                         (is_compound and is_compound(low[j], right))):
+                    continue
+                start, end = toks[i][1], toks[j][2]
+                if any(mask[start:end]) or any(ch in raw[start:end] for ch in INNER_PUNCT):
+                    continue
+                matched = {t for t in window if t in keyset}
+                weight = sum(idf(t) for t in matched)
+                if not (matched & distinctive) or weight < 0.4 * reference:
+                    continue
+                score = weight + 0.3 * len(window)
+                if score > best[2]:
+                    context_start = max(0, raw.rfind('.', 0, start) + 1)
+                    context_end = raw.find('.', end)
+                    context_end = len(raw) if context_end == -1 else context_end + 1
+                    context = ' '.join(raw[context_start:context_end].split())[:260]
+                    best = (' '.join(raw[start:end].split()), context, score)
     return best
 
 
@@ -205,7 +255,11 @@ def audit(cfg, corpus, records, site, terms, link_status, page_links, exclude=()
             if text in WEAK_ANCHORS or text.startswith(('http://', 'https://')) or not text:
                 weak.append(f'"{link["anchor"][:60]}" → {href}')
             elif len(syllables(text)) > 12:
-                long_.append(f'"{link["anchor"][:80]}…" → {href}')
+                # A related-post link whose anchor is the target's own title is descriptive, not a defect.
+                title_toks = set(syllables(published[target]['title'])) if target in published else set()
+                anchor_toks = syllables(text)
+                if sum(t in title_toks for t in anchor_toks) / len(anchor_toks) < 0.8:
+                    long_.append(f'"{link["anchor"][:80]}…" → {href}')
             if 'nofollow' in (link.get('rel') or '').lower():
                 nofollow.append(href)
         if broken:
@@ -321,6 +375,8 @@ def build_architecture(cfg, corpus, published, terms, edges, inbound, depth_of):
     per_source = Counter()
     per_target = Counter()
     planned = set()
+    title_df = title_ngram_counts(r['title'] for r in published.values())
+    max_titles = th.get('anchor_max_titles', 3)
 
     def add(src, dst, relation, similarity, reason):
         if src == dst or dst in edges.get(src, ()) or (src, dst) in planned:
@@ -329,7 +385,8 @@ def build_architecture(cfg, corpus, published, terms, edges, inbound, depth_of):
             return False
         anchor, context, score = find_anchor(corpus.blocks(src), target_terms(corpus, dst), corpus.idf,
                                              title_tokens=syllables(published[dst]['title']),
-                                             is_compound=corpus.is_compound)
+                                             is_compound=corpus.is_compound, title_df=title_df,
+                                             max_titles=max_titles)
         s, t = published[src], published[dst]
         priority = 'P1' if inbound[dst] == 0 else ('P2' if relation == 'to-cluster-lead' else 'P3')
         suggestions.append({

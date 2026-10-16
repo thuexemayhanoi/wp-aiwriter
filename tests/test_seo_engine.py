@@ -381,6 +381,37 @@ class CompactAndHostTest(unittest.TestCase):
         self.assertEqual(once['jsonld']['nodes'][1]['telephone'], '0900000000')
         self.assertTrue(all('id' not in n for n in once['jsonld']['nodes']))
 
+    def test_failed_head_is_confirmed_with_get_and_legacy_failures_rechecked(self):
+        tmp = tempfile.mkdtemp()
+        os.environ['SEO_ROOT'] = tmp
+        try:
+            cfg = {'site_url': SITE, 'allowed_hosts': ['blog.rentbikehanoi.com'], 'user_agent': 'test',
+                   'http': {'min_interval_seconds': 0, 'retries': 1}, 'external_links': {'recheck_after_days': 14}}
+            calls = []
+
+            def transport(method, url, headers, timeout, max_bytes):
+                calls.append((method, url))
+                return (404, {}, b'') if method == 'HEAD' else (200, {}, b'ok')
+            f = net.Fetcher(cfg, transport=transport, sleep=lambda s: None)
+            with self.assertRaises(ValueError):
+                f.head_or_get('https://vendor.example/p')  # internal checks never leave the audited host
+            self.assertEqual(f.head_or_get('https://vendor.example/p', internal_only=False).status, 200)
+            fresh = common.iso()
+            common.write_json(crawl.link_status_path(), {
+                'https://vendor.example/old': {'kind': 'external', 'status': 404, 'checked_at': fresh},
+                'https://vendor.example/ok': {'kind': 'external', 'status': 200, 'checked_at': fresh}})
+            records = [{'external_links': [{'href': 'https://vendor.example/old'}, {'href': 'https://vendor.example/ok'}]}]
+            calls.clear()
+            result = crawl.check_external(cfg, f, records)
+            self.assertEqual(result['checked_now'], 1)  # only the HEAD-only failure, the fresh success is cached
+            status = common.read_json(crawl.link_status_path())
+            self.assertEqual(status['https://vendor.example/old']['status'], 200)
+            self.assertEqual(status['https://vendor.example/old']['method'], crawl.CHECK_METHOD)
+            self.assertEqual({u for _, u in calls}, {'https://vendor.example/old'})
+        finally:
+            os.environ.pop('SEO_ROOT', None)
+            shutil.rmtree(tmp, ignore_errors=True)
+
     def test_hosts_answering_404_to_everything_are_not_dead_links(self):
         status = {f'https://help.example/{i}': {'kind': 'external', 'status': 404} for i in range(6)}
         status.update({f'https://ok.example/{i}': {'kind': 'external', 'status': 404 if i == 0 else 200} for i in range(6)})
@@ -423,19 +454,40 @@ class ParserAndAnchorTest(unittest.TestCase):
     def test_find_anchor_vietnamese_plain_text_only(self):
         blocks = [('x', [('Trước khi đi, hãy ', False), ('kiểm tra phanh', True),
                          (' rồi chụp ảnh hiện trạng xe máy ở bãi.', False)])]
-        anchor, context, score = linking.find_anchor(blocks, ['hiện', 'trạng', 'chụp', 'ảnh'], lambda t: 2.0)
-        self.assertEqual(anchor, 'chụp ảnh hiện trạng')
-        self.assertIn('chụp ảnh hiện trạng xe máy', context)
-        none = linking.find_anchor(blocks, ['phanh', 'kiểm'], lambda t: 2.0)
+        title = 'Chụp ảnh hiện trạng xe máy khi nhận xe thuê'
+        anchor, context, score = linking.find_anchor(blocks, ['hiện', 'trạng', 'chụp', 'ảnh'], lambda t: 2.0,
+                                                     title_tokens=title.split())
+        self.assertEqual(anchor, 'chụp ảnh hiện trạng xe máy')
+        self.assertIn('chụp ảnh hiện trạng xe máy ở bãi', context)
+        none = linking.find_anchor(blocks, ['phanh', 'kiểm'], lambda t: 2.0,
+                                   title_tokens='Kiểm tra phanh trước khi thuê'.split())
         self.assertIsNone(none[0])  # only occurs inside an existing link
 
-    def test_find_anchor_does_not_split_compounds(self):
-        blocks = [('x', [('Bạn nên chụp ảnh hiện trạng xe máy trước khi nhận.', False)])]
+    def test_find_anchor_only_uses_phrases_that_name_the_target(self):
+        blocks = [('x', [('Xe số 50cc dễ dắt trong ngõ nhỏ.', False)])]
+        title = 'Xe ga 50cc có phù hợp với người thấp không?'.split()
+        self.assertIsNone(linking.find_anchor(blocks, ['ga', '50cc', 'thấp'], lambda t: 2.0, title_tokens=title)[0])
+        cited = [('Honda Việt Nam, truy cập ngày 16/10/2026', [('Honda Việt Nam, truy cập ngày 16/10/2026', False)])]
+        self.assertIsNone(linking.find_anchor(cited, ['honda', 'việt'], lambda t: 2.0,
+                                              title_tokens='Honda Việt Nam có những mẫu xe nào'.split())[0])
+
+    def test_find_anchor_specificity_and_compounds(self):
+        blocks = [('x', [('Bạn có thể chụp ảnh hiện trạng xe máy trước khi nhận.', False)])]
         terms = ['chụp', 'ảnh', 'hiện', 'trạng', 'xe']
-        plain = linking.find_anchor(blocks, terms, lambda t: 2.0)
+        idf = lambda t: 0.5 if t in ('xe', 'máy') else 2.0  # noqa: E731 - "xe" is generic site-wide
+        title = 'Chụp ảnh hiện trạng xe khi nhận'.split()
+        plain = linking.find_anchor(blocks, terms, idf, title_tokens=title)
         self.assertEqual(plain[0], 'chụp ảnh hiện trạng xe')
-        aware = linking.find_anchor(blocks, terms, lambda t: 2.0, is_compound=lambda a, b: (a, b) == ('xe', 'máy'))
-        self.assertEqual(aware[0], 'chụp ảnh hiện trạng xe máy')
+        aware = linking.find_anchor(blocks, terms, idf, title_tokens=title,
+                                    is_compound=lambda a, b: (a, b) == ('xe', 'máy'))
+        self.assertEqual(aware[0], 'chụp ảnh hiện trạng')  # never "… xe|máy"
+        counts = linking.title_ngram_counts(['Chụp ảnh hiện trạng xe khi nhận'] * 4)
+        self.assertIsNone(linking.find_anchor(blocks, terms, idf, title_tokens=title,
+                                              title_df=counts, max_titles=3)[0])  # shared by 4 titles
+        place = [('x', [('Gần Hàng Mã có bãi gửi xe.', False)])]
+        hang_ma = 'Đi xe máy quanh Hàng Mã và Đồng Xuân'.split()
+        self.assertEqual(linking.find_anchor(place, ['mã', 'hàng', 'xuân'], lambda t: 2.0, title_tokens=hang_ma)[0],
+                         'Hàng Mã')
 
 
 class FakeWPForFixes:
