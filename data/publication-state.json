@@ -2851,13 +2851,14 @@
     "387": {
       "title": "Trời lạnh có ảnh hưởng đến quãng đường của xe điện không?",
       "source_hash": "d8a47e94606ddeb54122a7928953e81edcf849c11508ded67d84a248bf2fc97a",
-      "checked_at": "2026-10-16T16:42:04.215117+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:42:06.685577+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 8,
       "slug": "excel-387-troi-lanh-co-anh-huong-den-quang-duong-cua-xe-dien-khong",
-      "reason": null
+      "reason": null,
+      "wp_id": 1078
     }
   },
-  "updated_at": "2026-10-16T16:42:04.215132+00:00"
+  "updated_at": "2026-10-16T16:42:06.685596+00:00"
 }
