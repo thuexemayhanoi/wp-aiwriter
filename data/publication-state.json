@@ -2331,14 +2331,16 @@
     "347": {
       "title": "Xe ga có tốn xăng nhiều hơn xe số khi chạy giờ cao điểm không?",
       "source_hash": "3843c48afbf09d37314b4e3bb1cfae0faa1c7e96c700fbdd1ba506fe72813664",
-      "checked_at": "2026-10-16T16:33:19.098637+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:33:21.836695+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-347-xe-ga-co-ton-xang-nhieu-hon-xe-so-khi-chay-gio-cao-diem-khong",
       "reason": null,
-      "wp_id": 1038
+      "wp_id": 1038,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-347-xe-ga-co-ton-xang-nhieu-hon-xe-so-khi-chay-gio-cao-diem-khong/"
     }
   },
-  "updated_at": "2026-10-16T16:33:19.098654+00:00"
+  "updated_at": "2026-10-16T16:33:21.836726+00:00"
 }
