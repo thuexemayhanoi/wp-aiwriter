@@ -180,7 +180,17 @@
       "wp_id": 858,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-181-freego-va-air-blade-khac-biet-nao-dang-chu-y-khi-di-pho/"
+    },
+    "182": {
+      "title": "NVX và Air Blade: nên hiểu khác biệt về thiết kế thế nào?",
+      "source_hash": "8927b1bb22bd9e2ec9aaa2007b0bd8fed9ab4ede1d9b139dcde207bfd6ff0aba",
+      "checked_at": "2026-10-16T07:35:46.866966+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 20,
+      "slug": "excel-182-nvx-va-air-blade-nen-hieu-khac-biet-ve-thiet-ke-the-nao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T07:35:45.331759+00:00"
+  "updated_at": "2026-10-16T07:35:46.866994+00:00"
 }
