@@ -1694,14 +1694,16 @@
     "298": {
       "title": "Cách dùng phanh trước và phanh sau trên xe số an toàn hơn",
       "source_hash": "f105d2d4cb2470682a803ab11e67255fe3abf742d125643a092fca9c051960e5",
-      "checked_at": "2026-10-16T16:23:11.302021+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:23:14.298167+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 6,
       "slug": "excel-298-cach-dung-phanh-truoc-va-phanh-sau-tren-xe-so-an-toan-hon",
       "reason": null,
-      "wp_id": 989
+      "wp_id": 989,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-298-cach-dung-phanh-truoc-va-phanh-sau-tren-xe-so-an-toan-hon/"
     }
   },
-  "updated_at": "2026-10-16T16:23:11.302039+00:00"
+  "updated_at": "2026-10-16T16:23:14.298184+00:00"
 }
