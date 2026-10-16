@@ -1,25 +1,25 @@
 [
   {
     "error": "HTTP 429",
-    "measured_at": "2026-10-16T18:25:03+00:00",
+    "measured_at": "2026-10-16T18:44:47+00:00",
     "status": 429,
     "url": "https://blog.rentbikehanoi.com/"
   },
   {
     "error": "HTTP 429",
-    "measured_at": "2026-10-16T18:25:07+00:00",
+    "measured_at": "2026-10-16T18:44:50+00:00",
     "status": 429,
     "url": "https://blog.rentbikehanoi.com/dich-vu-cho-thue-xe-may-ha-noi-gia-thu-tuc-dia-chi-kinh-nghiem/"
   },
   {
     "error": "HTTP 429",
-    "measured_at": "2026-10-16T18:25:10+00:00",
+    "measured_at": "2026-10-16T18:44:54+00:00",
     "status": 429,
     "url": "https://blog.rentbikehanoi.com/cach-doc-bien-cam-xe-may-thuong-gap-trong-noi-do-ha-noi/"
   },
   {
     "error": "HTTP 429",
-    "measured_at": "2026-10-16T18:25:14+00:00",
+    "measured_at": "2026-10-16T18:44:58+00:00",
     "status": 429,
     "url": "https://blog.rentbikehanoi.com/category/cam-nang/kinh-nghiem/"
   }

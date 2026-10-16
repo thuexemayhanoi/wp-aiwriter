@@ -1,6 +1,6 @@
 # SEO Dashboard — https://blog.rentbikehanoi.com
 
-Cập nhật: **2026-10-16T18:25:27+00:00** · Lần chạy: https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38946656489 · Chế độ: `matrix` · **Chỉ đọc**: engine không ghi vào WordPress.
+Cập nhật: **2026-10-16T18:45:08+00:00** · Lần chạy: https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38948627953 · Chế độ: `matrix` · **Chỉ đọc**: engine không ghi vào WordPress.
 
 ## Tổng quan inventory
 
@@ -16,10 +16,10 @@ Crawl: 525 bài/trang tải mới, 0 dùng lại, 175 trang chuyên mục/lưu t
 |---|---|---|---|---|---|
 | P0 | 0 | 0 | 0 | 0 | 0 |
 | P1 | 8 | 42 | 0 | 0 | 50 |
-| P2 | 1151 | 425 | 0 | 0 | 1576 |
-| P3 | 1207 | 374 | 111 | 3 | 1695 |
+| P2 | 1150 | 425 | 0 | 0 | 1575 |
+| P3 | 981 | 340 | 111 | 3 | 1435 |
 
-So với lần trước: **40 mới**, **532 đã hết**.
+So với lần trước: **0 mới**, **261 đã hết**.
 
 ## Mã lỗi phổ biến
 
@@ -36,7 +36,7 @@ So với lần trước: **40 mới**, **532 đã hết**.
 | C-LEGAL-NO-OFFICIAL-SOURCE | P2 | NEEDS_REVIEW | 154 |
 | C-PRICE-MENTION | P2 | NEEDS_REVIEW | 107 |
 | L-DEEP-PAGE | P2 | VERIFIED | 74 |
-| L-BROKEN-EXTERNAL | P2 | VERIFIED | 35 |
+| L-BROKEN-EXTERNAL | P2 | VERIFIED | 34 |
 | T-META-DESC-MISSING | P2 | VERIFIED | 19 |
 | T-ARCHIVE-NOINDEX | P2 | NEEDS_REVIEW | 7 |
 | T-IMG-HEAVY | P2 | VERIFIED | 2 |
@@ -44,12 +44,12 @@ So với lần trước: **40 mới**, **532 đã hết**.
 | A-AUTHOR-GENERIC | P2 | NEEDS_REVIEW | 1 |
 | T-OG-IMAGE-MISSING | P3 | VERIFIED | 492 |
 | T-TITLE-LONG | P3 | VERIFIED | 461 |
-| L-LONG-ANCHOR | P3 | VERIFIED | 226 |
-| L-EXTERNAL-UNVERIFIED | P3 | NEEDS_REVIEW | 159 |
+| L-EXTERNAL-UNVERIFIED | P3 | NEEDS_REVIEW | 125 |
 | C-TIME-SENSITIVE | P3 | NEEDS_REVIEW | 121 |
 | A-NO-STRUCTURE | P3 | INFO | 102 |
 | A-NO-DIRECT-ANSWER | P3 | NEEDS_REVIEW | 94 |
 | L-LOW-INBOUND | P3 | VERIFIED | 26 |
+| A-NO-FAQ | P3 | INFO | 5 |
 
 ## Cần chủ sở hữu quyết định (engine không tự sửa)
 
@@ -95,7 +95,7 @@ So với lần trước: **40 mới**, **532 đã hết**.
 
 | Liên kết ngữ cảnh | Bài mồ côi | Inbound TB | Độ sâu tối đa | Đề xuất P1/P2/P3 | Có anchor sẵn |
 |---|---|---|---|---|---|
-| 1053 | 380 | 2.01 | 8 | 580/86/17 | 411 |
+| 1053 | 380 | 2.01 | 8 | 580/86/17 | 84 |
 
 Phân bố độ sâu nhấp chuột: 1: 12, 2: 148, 3: 183, 4: 101, 5: 34, 6: 17, 7: 18, 8: 5, unknown: 1
 
@@ -104,7 +104,6 @@ Phân bố độ sâu nhấp chuột: 1: 12, 2: 148, 3: 183, 4: 101, 5: 34, 6: 1
 - Cặp gần trùng lặp: 0; cặp nghi cannibalization: 0 (cần GSC để xác minh); content gap: 23 dòng.
 - Số điện thoại tìm thấy trong nội dung: 0942467674 (49 trang), 0334699969 (10 trang)
 - Domain ngoài được liên kết nhiều nhất: www.honda.com.vn (133), yamaha-motor.com.vn (114), xaydungchinhsach.chinhphu.vn (83), vinfastauto.com (75), cdn.honda.com.vn (48), support.google.com (45), www.yadea.com.vn (33), support.apple.com (31)
-- Host trả 404 cho hầu hết URL từ runner (xếp vào "không kiểm tra được", không coi là link hỏng): support.google.com
 
 ## Kỹ thuật
 
