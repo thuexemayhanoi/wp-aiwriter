@@ -1408,13 +1408,14 @@
     "271": {
       "title": "Cách dùng bản đồ để tính khoảng cách giữa hai điểm sạc",
       "source_hash": "7418503f7da14b89a7d990e1d92e694d05850464d09138e85d2cd8bac112d78b",
-      "checked_at": "2026-10-16T16:11:20.824998+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:11:22.838061+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 18,
       "slug": "excel-271-cach-dung-ban-do-de-tinh-khoang-cach-giua-hai-diem-sac",
-      "reason": null
+      "reason": null,
+      "wp_id": 967
     }
   },
-  "updated_at": "2026-10-16T16:11:20.825016+00:00"
+  "updated_at": "2026-10-16T16:11:22.838115+00:00"
 }
