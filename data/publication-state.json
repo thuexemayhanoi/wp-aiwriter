@@ -4112,14 +4112,16 @@
     "484": {
       "title": "Đi xe máy từ Long Biên vào Phố Cổ: tuyến nào dễ nhớ cho người mới?",
       "source_hash": "d1679ed42ddc13d6d8edfa31424daa80de1e0eb0615966abef7144ea2e3da492",
-      "checked_at": "2026-10-16T17:06:51.345792+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T17:06:54.066908+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 11,
       "slug": "excel-484-di-xe-may-tu-long-bien-vao-pho-co-tuyen-nao-de-nho-cho-nguoi-moi",
       "reason": null,
-      "wp_id": 1175
+      "wp_id": 1175,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-484-di-xe-may-tu-long-bien-vao-pho-co-tuyen-nao-de-nho-cho-nguoi-moi/"
     }
   },
-  "updated_at": "2026-10-16T17:06:51.345810+00:00"
+  "updated_at": "2026-10-16T17:06:54.066923+00:00"
 }
