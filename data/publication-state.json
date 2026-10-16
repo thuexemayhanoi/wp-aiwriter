@@ -884,7 +884,17 @@
       "wp_id": 925,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-235-cach-so-sanh-xe-dien-theo-quang-duong-toc-do-va-thoi-gian-sac/"
+    },
+    "236": {
+      "title": "Google Maps cho người đi xe máy ở Hà Nội: 10 thiết lập nên kiểm tra",
+      "source_hash": "6344b44f8b87d8461e274bc3fdee8e0d27892af1bd6c6b530e00ce23a407c260",
+      "checked_at": "2026-10-16T12:28:58.199641+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 17,
+      "slug": "excel-236-google-maps-cho-nguoi-di-xe-may-o-ha-noi-10-thiet-lap-nen-kiem-tra",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T12:11:53.624726+00:00"
+  "updated_at": "2026-10-16T12:28:58.199657+00:00"
 }
