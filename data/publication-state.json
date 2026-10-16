@@ -368,14 +368,16 @@
     "196": {
       "title": "Cách phân biệt một số đời Air Blade qua thiết kế bên ngoài",
       "source_hash": "f50513fa9733a5c62740b42dcc374114eee4fa9e2acc313209921a0fc6b9b4b0",
-      "checked_at": "2026-10-16T07:45:26.279491+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T07:45:29.019823+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 20,
       "slug": "excel-196-cach-phan-biet-mot-so-doi-air-blade-qua-thiet-ke-ben-ngoai",
       "reason": null,
-      "wp_id": 874
+      "wp_id": 874,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-196-cach-phan-biet-mot-so-doi-air-blade-qua-thiet-ke-ben-ngoai/"
     }
   },
-  "updated_at": "2026-10-16T07:45:26.279507+00:00"
+  "updated_at": "2026-10-16T07:45:29.019840+00:00"
 }
