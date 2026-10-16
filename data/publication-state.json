@@ -93,13 +93,14 @@
     "175": {
       "title": "Vì sao Yamaha Sirius được nhiều người chọn cho quãng đường hỗn hợp?",
       "source_hash": "0c7d165ad201f88b94a4620c22f3e73a75c8ba46ae188dfcf10151b01df84103",
-      "checked_at": "2026-10-16T07:33:01.120903+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T07:33:03.133450+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 20,
       "slug": "excel-175-vi-sao-yamaha-sirius-duoc-nhieu-nguoi-chon-cho-quang-duong-hon-hop",
-      "reason": null
+      "reason": null,
+      "wp_id": 852
     }
   },
-  "updated_at": "2026-10-16T07:33:01.120916+00:00"
+  "updated_at": "2026-10-16T07:33:03.133467+00:00"
 }
