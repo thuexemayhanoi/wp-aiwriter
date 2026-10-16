@@ -2916,13 +2916,14 @@
     "392": {
       "title": "Xe điện dùng pin rời có tiện hơn khi ở tầng cao không?",
       "source_hash": "6631f695211540a56c89670c9c007516ac7e2967b735e4690b15fc8fdaeb7bc6",
-      "checked_at": "2026-10-16T16:43:00.572014+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:43:02.950315+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 8,
       "slug": "excel-392-xe-dien-dung-pin-roi-co-tien-hon-khi-o-tang-cao-khong",
-      "reason": null
+      "reason": null,
+      "wp_id": 1083
     }
   },
-  "updated_at": "2026-10-16T16:43:00.572029+00:00"
+  "updated_at": "2026-10-16T16:43:02.950335+00:00"
 }
