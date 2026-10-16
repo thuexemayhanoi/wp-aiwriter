@@ -2522,7 +2522,17 @@
       "wp_id": 1052,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-361-air-blade-co-phu-hop-voi-nguoi-thuong-xuyen-di-cau-va-duong-lon-khong/"
+    },
+    "362": {
+      "title": "Janus có phù hợp với lịch học và đi làm hằng ngày không?",
+      "source_hash": "8fee1b4a107ea00c512bab1c684a1f4ea71421f5226bc20b40a5a2d5e355dcf5",
+      "checked_at": "2026-10-16T16:35:53.937303+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 7,
+      "slug": "excel-362-janus-co-phu-hop-voi-lich-hoc-va-di-lam-hang-ngay-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:35:52.450054+00:00"
+  "updated_at": "2026-10-16T16:35:53.937318+00:00"
 }
