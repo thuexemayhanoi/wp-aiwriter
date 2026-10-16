@@ -2565,13 +2565,14 @@
     "365": {
       "title": "NVX có phù hợp với người chủ yếu đi phố đông không?",
       "source_hash": "ba2dab947b9eee0be47ce1bf158dc3f7542b336854b7713eef0edf4c4b9b571d",
-      "checked_at": "2026-10-16T16:36:12.067710+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:36:14.266605+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-365-nvx-co-phu-hop-voi-nguoi-chu-yeu-di-pho-dong-khong",
-      "reason": null
+      "reason": null,
+      "wp_id": 1056
     }
   },
-  "updated_at": "2026-10-16T16:36:12.067752+00:00"
+  "updated_at": "2026-10-16T16:36:14.266620+00:00"
 }
