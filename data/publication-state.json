@@ -758,13 +758,14 @@
     "226": {
       "title": "Phanh tái sinh trên xe máy điện hoạt động ra sao?",
       "source_hash": "672cdc3a50c6577fcf36f7e6ff69b4840e59493a0bd8658ec93d2aa74f18ae93",
-      "checked_at": "2026-10-16T10:54:24.139583+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T10:54:26.088181+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 21,
       "slug": "excel-226-phanh-tai-sinh-tren-xe-may-dien-hoat-dong-ra-sao",
-      "reason": null
+      "reason": null,
+      "wp_id": 916
     }
   },
-  "updated_at": "2026-10-16T10:54:24.139600+00:00"
+  "updated_at": "2026-10-16T10:54:26.088199+00:00"
 }
