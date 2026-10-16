@@ -1005,14 +1005,16 @@
     "245": {
       "title": "Cách dùng lịch trên điện thoại để nhắc giờ trả xe",
       "source_hash": "57e39f95005c73066df3888fd2630085dea50588014996c91ad976ed934ced62",
-      "checked_at": "2026-10-16T13:48:10.618307+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T13:48:14.028716+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 17,
       "slug": "excel-245-cach-dung-lich-tren-dien-thoai-de-nhac-gio-tra-xe",
       "reason": null,
-      "wp_id": 935
+      "wp_id": 935,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-245-cach-dung-lich-tren-dien-thoai-de-nhac-gio-tra-xe/"
     }
   },
-  "updated_at": "2026-10-16T13:48:10.618325+00:00"
+  "updated_at": "2026-10-16T13:48:14.028737+00:00"
 }
