@@ -1135,13 +1135,14 @@
     "255": {
       "title": "Cách tìm bãi gửi xe gần điểm đến bằng ứng dụng bản đồ",
       "source_hash": "cd4cca46168cef1fb0f25d5f90723edcce6c83a6b65ec2b47925318f398e0f4d",
-      "checked_at": "2026-10-16T14:52:10.178501+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T14:52:12.327810+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 17,
       "slug": "excel-255-cach-tim-bai-gui-xe-gan-diem-den-bang-ung-dung-ban-do",
-      "reason": null
+      "reason": null,
+      "wp_id": 945
     }
   },
-  "updated_at": "2026-10-16T14:52:10.178522+00:00"
+  "updated_at": "2026-10-16T14:52:12.327830+00:00"
 }
