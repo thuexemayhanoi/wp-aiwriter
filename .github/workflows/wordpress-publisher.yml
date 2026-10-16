@@ -16,6 +16,7 @@ on:
 permissions:
   contents: write
   actions: write
+  issues: write
 concurrency:
   group: wp-aiwriter-publisher
   cancel-in-progress: false
@@ -57,6 +58,23 @@ jobs:
             python scripts/engine.py --mode sync --limit "$BATCH_SIZE" --live --persist-state
           else
             python scripts/engine.py --mode sync --limit "$BATCH_SIZE"
+          fi
+      - name: Notify owner upon completed Excel category
+        if: ${{ inputs.live && steps.sync.outputs.category_complete == 'true' }}
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          FIRST_ID: ${{ steps.sync.outputs.category_first_id }}
+          LAST_ID: ${{ steps.sync.outputs.category_last_id }}
+        shell: bash
+        run: |
+          title="Excel SEO category finished #${FIRST_ID}-#${LAST_ID}"
+          existing="$(gh issue list --repo "$REPO" --state all --limit 250 --json title --jq '.[].title')"
+          if ! printf '%s\n' "$existing" | grep -Fxq "$title"; then
+            gh issue create --repo "$REPO" --title "$title" --body-file reports/summary.md
+          else
+            echo "Category completion issue already exists; no duplicate notification."
           fi
       - name: Preserve publication receipts even on failure
         if: always()
