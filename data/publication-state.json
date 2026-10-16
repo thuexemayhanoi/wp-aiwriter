@@ -2119,7 +2119,17 @@
       "wp_id": 1021,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-330-honda-sh-mode-phu-hop-voi-quang-duong-do-thi-ra-sao/"
+    },
+    "331": {
+      "title": "Yamaha Janus có phù hợp với người mới dùng xe ga không?",
+      "source_hash": "7220f3b250df8ec545b1323d1465a8cf92a82aab2ebe11d3a4b3684fec086d0f",
+      "checked_at": "2026-10-16T16:30:37.685281+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 7,
+      "slug": "excel-331-yamaha-janus-co-phu-hop-voi-nguoi-moi-dung-xe-ga-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:30:15.941324+00:00"
+  "updated_at": "2026-10-16T16:30:37.685299+00:00"
 }
