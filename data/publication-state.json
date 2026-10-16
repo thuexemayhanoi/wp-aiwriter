@@ -3757,7 +3757,17 @@
       "wp_id": 1147,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-456-di-xe-may-tu-gia-lam-den-ga-ha-noi-cach-tranh-tuyen-qua-dong/"
+    },
+    "457": {
+      "title": "Đi xe máy từ Gia Lâm đến Hồ Tây: nên đi theo hướng nào?",
+      "source_hash": "97ccaa75d515bc4d666537c671420e242f72fe866d1be27333cecefb7a3c040b",
+      "checked_at": "2026-10-16T16:58:35.935460+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 14,
+      "slug": "excel-457-di-xe-may-tu-gia-lam-den-ho-tay-nen-di-theo-huong-nao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:58:34.511111+00:00"
+  "updated_at": "2026-10-16T16:58:35.935472+00:00"
 }
