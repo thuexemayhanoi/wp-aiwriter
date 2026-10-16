@@ -975,7 +975,17 @@
       "wp_id": 932,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-242-ung-dung-ban-do-nao-huu-ich-khi-can-tranh-duong-tac-o-ha-noi/"
+    },
+    "243": {
+      "title": "Cách dùng cảnh báo giao thông trên ứng dụng bản đồ hiệu quả hơn",
+      "source_hash": "ff3fd57385668a03a633725d6849d46ed88a4d5c63fa27f3b4e899869e349591",
+      "checked_at": "2026-10-16T13:11:55.059109+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 17,
+      "slug": "excel-243-cach-dung-canh-bao-giao-thong-tren-ung-dung-ban-do-hieu-qua-hon",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T13:11:53.676221+00:00"
+  "updated_at": "2026-10-16T13:11:55.059126+00:00"
 }
