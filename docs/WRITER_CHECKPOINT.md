@@ -1,3 +1,15 @@
+# Production checkpoint — 2026-10-16, Excel #229–231 published (latest)
+
+- Owner explicitly authorized another 3–5-article batch in `https://github.com/thuexemayhanoi/wp-aiwriter` to `https://blog.rentbikehanoi.com/`. Only active taxonomy: `Cẩm nang > Hãng xe > Hãng xe điện` (#201–235, WP category ID 21). No WordPress Trash interaction.
+- Three original full-length, manufacturer-sourced articles added to `main`: `posts/0229.md` (display readings and warnings; title exactly Excel #229), `posts/0230.md` (Smart Key vs mechanical key; Excel #230), `posts/0231.md` (manufacturer smartphone app functions and privacy; Excel #231). All `matrix_id`, titles and taxonomy paths match `data/topics.json`. Source research used VinFast, Selex and Dat Bike official documentation.
+- QA workflow [38896797537](https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38896797537) completed **SUCCESS**: 67/67 source Markdown QA PASS, **18/18 regression tests PASS**, 0 QA FAIL.
+- The live WordPress publisher [38890257103](https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38890257103) latest rerun **SUCCESS** and remotely verified all **three new published posts**: Excel **#229 → WP 919**, **#230 → WP 920**, **#231 → WP 921**, all `phase=VERIFIED`, `status=publish`, `category_id=21`. IDs/permalinks stored in `data/publication-state.json`, no duplicate groups or errors.
+- **Progress**: **86/355 Excel topics published**, previous category #146–200 completed 55/55; active #201–235 has **31/35** published. Site-wide WordPress published count from GitHub publisher: **238**. Only **4 source articles #232–235** remain in current category. GitHub source files #165–231 count **67**; **269 ID files #232–500** still unwritten.
+- **NEXT BATCH: #232, #233, #234, #235**. Read immutable topics for exact titles and taxonomy. Author four distinct, source-supported Vietnamese articles, run QA, publish with authorized workflow in a single batch size 4 only after next owner approval; no duplicate creation or background promises. **STOP when #235 verified**, produce end-of-category report and wait for explicit authorization before changing `data/publication-policy.json` to next category #236+.
+- Do not delete or edit old URLs/canonicals or touch WordPress Trash. Leave policy's fail-closed taxonomy mapping unchanged unless specifically authorized.
+
+---
+
 # Production checkpoint — 2026-10-16, Excel #223–225 verified on WordPress
 
 - Owner approved next 3-post batch within Excel `Cẩm nang > Hãng xe > Hãng xe điện` (#201–235, WordPress category **21**). The WordPress Trash is exclusively owner-managed and was not touched.
