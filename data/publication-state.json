@@ -4108,7 +4108,17 @@
       "wp_id": 1174,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-483-mot-buoi-kham-pha-pho-co-bang-xe-may-nen-dung-xe-o-nhung-diem-nao/"
+    },
+    "484": {
+      "title": "Đi xe máy từ Long Biên vào Phố Cổ: tuyến nào dễ nhớ cho người mới?",
+      "source_hash": "d1679ed42ddc13d6d8edfa31424daa80de1e0eb0615966abef7144ea2e3da492",
+      "checked_at": "2026-10-16T17:06:49.433066+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 11,
+      "slug": "excel-484-di-xe-may-tu-long-bien-vao-pho-co-tuyen-nao-de-nho-cho-nguoi-moi",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T17:06:47.954898+00:00"
+  "updated_at": "2026-10-16T17:06:49.433079+00:00"
 }
