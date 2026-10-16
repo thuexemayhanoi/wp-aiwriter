@@ -28,6 +28,9 @@ MATRIX_PATH = ROOT / 'data/topics.json'
 STATE_PATH = ROOT / 'data/publication-state.json'
 WP_URL = 'https://blog.rentbikehanoi.com'
 MATRIX_SHA256 = '01192fc9ae78d7ddced2b9c7afa85b0794081269c11b028fdcf56e18aba4ca60'
+# Owner-approved publication boundary; do not cross into the next Excel category without review.
+APPROVED_CATEGORY = 'Cẩm nang > Hãng xe > Hãng xe máy'
+APPROVED_LAST_ID = 200
 
 
 def now():
@@ -423,7 +426,18 @@ def run(args):
                 if not user or not password:
                     raise RuntimeError('BLOCKED: missing WP_USERNAME / WP_APPLICATION_PASSWORD GitHub Secrets; zero WordPress writes')
                 ledger = Ledger(args.persist_state)
-                sync(WPClient(user, password), ready, ledger, args.limit, report)
+                approved = [a for a in ready if a['id'] <= APPROVED_LAST_ID and a['category'] == APPROVED_CATEGORY]
+                report['category_boundary'] = {'category': APPROVED_CATEGORY, 'last_id': APPROVED_LAST_ID}
+                report['blocked_other_categories'] = len(ready) - len(approved)
+                sync(WPClient(user, password), approved, ledger, args.limit, report)
+                all_ids = set(report.get('excel_published_ids', []))
+                category_ids = [i for i, row in topics.items()
+                                if i <= APPROVED_LAST_ID and row['category'] == APPROVED_CATEGORY]
+                published_ids = [i for i in category_ids if i in all_ids]
+                report['category_progress'] = {'published': len(published_ids),
+                                               'total': len(category_ids),
+                                               'next_category': 'Cẩm nang > Hãng xe > Hãng xe điện'}
+                report['category_complete'] = len(published_ids) == len(category_ids)
     except (RuntimeError, ValueError) as exc:
         report['errors'].append({'reason': str(exc)})
     finally:
