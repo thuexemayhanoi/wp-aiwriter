@@ -2513,13 +2513,14 @@
     "361": {
       "title": "Air Blade có phù hợp với người thường xuyên đi cầu và đường lớn không?",
       "source_hash": "6b4cd415b943e774ba672447f33c47f60a4262e7090882dbe779da1d998b4080",
-      "checked_at": "2026-10-16T16:35:47.817319+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:35:49.718208+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-361-air-blade-co-phu-hop-voi-nguoi-thuong-xuyen-di-cau-va-duong-lon-khong",
-      "reason": null
+      "reason": null,
+      "wp_id": 1052
     }
   },
-  "updated_at": "2026-10-16T16:35:47.817338+00:00"
+  "updated_at": "2026-10-16T16:35:49.718225+00:00"
 }
