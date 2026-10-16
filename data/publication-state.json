@@ -3618,14 +3618,16 @@
     "446": {
       "title": "Đi xe máy quanh khu vực Giảng Võ: cách tìm chỗ gửi xe thuận tiện",
       "source_hash": "03a15d2809ee55c8c389e65785178e9f8a436b1766b76d2ef06aef89fc5cd5c9",
-      "checked_at": "2026-10-16T16:55:01.856914+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:55:04.878391+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 13,
       "slug": "excel-446-di-xe-may-quanh-khu-vuc-giang-vo-cach-tim-cho-gui-xe-thuan-tien",
       "reason": null,
-      "wp_id": 1137
+      "wp_id": 1137,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-446-di-xe-may-quanh-khu-vuc-giang-vo-cach-tim-cho-gui-xe-thuan-tien/"
     }
   },
-  "updated_at": "2026-10-16T16:55:01.856932+00:00"
+  "updated_at": "2026-10-16T16:55:04.878407+00:00"
 }
