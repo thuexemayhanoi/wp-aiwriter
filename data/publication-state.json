@@ -3436,14 +3436,16 @@
     "432": {
       "title": "Xe 50cc có phù hợp với người ở khu vực trung tâm không?",
       "source_hash": "9c2187c50ebdaf0f08cafbb05587b781775f813b090eff5b1929973368cc7550",
-      "checked_at": "2026-10-16T16:50:49.434017+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:50:52.660652+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 5,
       "slug": "excel-432-xe-50cc-co-phu-hop-voi-nguoi-o-khu-vuc-trung-tam-khong",
       "reason": null,
-      "wp_id": 1123
+      "wp_id": 1123,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-432-xe-50cc-co-phu-hop-voi-nguoi-o-khu-vuc-trung-tam-khong/"
     }
   },
-  "updated_at": "2026-10-16T16:50:49.434036+00:00"
+  "updated_at": "2026-10-16T16:50:52.660673+00:00"
 }
