@@ -151,6 +151,36 @@ class PublicationSafety(unittest.TestCase):
         self.assertEqual(client.calls, [])
         self.assertIn('reconcile', r['errors'][0]['reason'])
 
+    def test_missing_wp_169_recovers_only_after_confirmed_404(self):
+        ledger = FakeLedger()
+        ledger.data['posts']['169'] = {'phase': 'VERIFIED', 'wp_id': 834}
+        client = FakeWP(ledger)
+        original_get = client.get
+        def get_with_missing_previous(path, public=False):
+            if path == 'posts/834?context=edit':
+                raise RuntimeError('WordPress HTTP 404; method GET')
+            return original_get(path, public=public)
+        client.get = get_with_missing_previous
+        result = report()
+        e.sync(client, [sample(169)], ledger, 1, result)
+        self.assertEqual(result['errors'], [])
+        self.assertEqual([p['id'] for p in result['created']], [169])
+        self.assertEqual(ledger.data['posts']['169']['phase'], 'VERIFIED')
+
+    def test_missing_wp_169_non404_is_not_a_repost_authorization(self):
+        ledger = FakeLedger()
+        ledger.data['posts']['169'] = {'phase': 'VERIFIED', 'wp_id': 834}
+        client = FakeWP(ledger)
+        original_get = client.get
+        def unauthorized(path, public=False):
+            if path == 'posts/834?context=edit':
+                raise RuntimeError('WordPress HTTP 403; method GET')
+            return original_get(path, public=public)
+        client.get = unauthorized
+        with self.assertRaisesRegex(RuntimeError, 'HTTP 403'):
+            e.sync(client, [sample(169)], ledger, 1, report())
+        self.assertEqual(client.calls, [])
+
     def test_existing_draft_is_preserved(self):
         ledger = FakeLedger()
         client = FakeWP(ledger)
