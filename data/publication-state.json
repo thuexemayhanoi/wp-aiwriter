@@ -3510,7 +3510,17 @@
       "wp_id": 1128,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-437-xe-ga-50cc-va-honda-vision-khac-nhau-the-nao-ve-kich-thuoc-va-suc-manh/"
+    },
+    "438": {
+      "title": "Cub 50cc và Wave 50cc: nên so sánh những tiêu chí nào?",
+      "source_hash": "663d72eafc9ec65f7cc27c5a35911eb419395fbdb1a3aa0bc714be373cbdd4bc",
+      "checked_at": "2026-10-16T16:51:46.218209+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 5,
+      "slug": "excel-438-cub-50cc-va-wave-50cc-nen-so-sanh-nhung-tieu-chi-nao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:51:44.598959+00:00"
+  "updated_at": "2026-10-16T16:51:46.218222+00:00"
 }
