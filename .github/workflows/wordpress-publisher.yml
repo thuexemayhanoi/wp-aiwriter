@@ -3,11 +3,6 @@ on:
   push:
     branches: [main]
     paths:
-      - 'posts/**'
-      - 'data/topics.json'
-      - 'scripts/**'
-      - 'tests/**'
-      - 'requirements.txt'
       - '.github/workflows/wordpress-publisher.yml'
   workflow_dispatch:
     inputs:
@@ -22,8 +17,6 @@ on:
         type: choice
         options: ['2', '1']
         default: '2'
-  schedule:
-    - cron: '17 * * * *'
 permissions:
   contents: write
   actions: write
@@ -56,19 +49,19 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-      - name: Publish and verify up to two articles
+      - name: Smoke test one new WordPress post only
         id: sync
         env:
-          WP_USERNAME: ${{ secrets.WP_USERNAME }}
+          WP_USERNAME: ${{ secrets.WP_USERNAME || secrets.WP_USER }}
           WP_APPLICATION_PASSWORD: ${{ secrets.WP_APPLICATION_PASSWORD }}
           LIVE: ${{ github.event.inputs.live }}
           BATCH_SIZE: ${{ github.event.inputs.batch_size }}
         shell: bash
         run: |
           if [[ "$LIVE" == 'false' ]]; then
-            python scripts/engine.py --mode sync --limit "${BATCH_SIZE:-2}"
+            python scripts/engine.py --mode sync --limit 1
           else
-            python scripts/engine.py --mode sync --limit "${BATCH_SIZE:-2}" --live --persist-state
+            python scripts/engine.py --mode sync --limit 1 --live --persist-state
           fi
       - name: Preserve publication receipts even on failure
         if: always()
@@ -81,7 +74,7 @@ jobs:
           if-no-files-found: ignore
           retention-days: 30
       - name: Continue with the next ready pair
-        if: always() && steps.sync.outputs.has_more == 'true' && steps.sync.outputs.auth_ok == 'true'
+        if: false # single-post smoke test: do not enqueue follow-up batches
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run wordpress-publisher.yml --ref main -f live=true -f batch_size=2
