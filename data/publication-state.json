@@ -1547,7 +1547,17 @@
       "wp_id": 977,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-286-yamaha-jupiter-phu-hop-voi-nhu-cau-di-hoc-va-di-lam-ra-sao/"
+    },
+    "287": {
+      "title": "Wave và Sirius: mẫu nào dễ làm quen hơn với người ít đi xe số?",
+      "source_hash": "b4a5932be0719ef945cb59a0d214dc45f7383b4b96517423ec4cb5691f1cb6d7",
+      "checked_at": "2026-10-16T16:19:05.372329+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 6,
+      "slug": "excel-287-wave-va-sirius-mau-nao-de-lam-quen-hon-voi-nguoi-it-di-xe-so",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:19:03.683731+00:00"
+  "updated_at": "2026-10-16T16:19:05.372366+00:00"
 }
