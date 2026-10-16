@@ -3124,13 +3124,14 @@
     "408": {
       "title": "Xe điện có phù hợp để đi từ Long Biên vào trung tâm mỗi ngày không?",
       "source_hash": "668bd04487e15da3212afaae2f889e2a8fb9ebf055183d0e252a2900cf9cfa6b",
-      "checked_at": "2026-10-16T16:45:57.126238+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:45:59.231109+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 8,
       "slug": "excel-408-xe-dien-co-phu-hop-de-di-tu-long-bien-vao-trung-tam-moi-ngay-khong",
-      "reason": null
+      "reason": null,
+      "wp_id": 1099
     }
   },
-  "updated_at": "2026-10-16T16:45:57.126252+00:00"
+  "updated_at": "2026-10-16T16:45:59.231129+00:00"
 }
