@@ -563,13 +563,14 @@
     "211": {
       "title": "Xe điện VinFast phù hợp với người thường xuyên đi trong nội đô như thế nào?",
       "source_hash": "d2b8ff53e01ceb5e4fa08fbd6e20e5d6fb6fb1c825639de5d1feed8fb759830d",
-      "checked_at": "2026-10-16T09:12:11.179300+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T09:12:13.008170+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 21,
       "slug": "excel-211-xe-dien-vinfast-phu-hop-voi-nguoi-thuong-xuyen-di-trong-noi-do-nhu-the-nao",
-      "reason": null
+      "reason": null,
+      "wp_id": 901
     }
   },
-  "updated_at": "2026-10-16T09:12:11.179317+00:00"
+  "updated_at": "2026-10-16T09:12:13.008184+00:00"
 }
