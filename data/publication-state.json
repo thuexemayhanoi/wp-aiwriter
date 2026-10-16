@@ -1651,7 +1651,17 @@
       "wp_id": 985,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-294-xe-so-co-phu-hop-voi-nguoi-thuong-xuyen-di-qua-duong-nho-va-ngo-hep/"
+    },
+    "295": {
+      "title": "Xe số có dễ điều khiển khi trời mưa không?",
+      "source_hash": "929339e58a628df66381101231c7c31b8a0fe23db97505508fc7a23a70ee15f0",
+      "checked_at": "2026-10-16T16:22:30.849587+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 6,
+      "slug": "excel-295-xe-so-co-de-dieu-khien-khi-troi-mua-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:22:29.395114+00:00"
+  "updated_at": "2026-10-16T16:22:30.849600+00:00"
 }
