@@ -1759,14 +1759,16 @@
     "303": {
       "title": "Người cao đi xe số phổ thông có thoải mái không?",
       "source_hash": "e8f32388cc2d32a02de80b6f0992954627a53f17394f1065c8131f22e18489dc",
-      "checked_at": "2026-10-16T16:24:03.843925+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:24:06.645794+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 6,
       "slug": "excel-303-nguoi-cao-di-xe-so-pho-thong-co-thoai-mai-khong",
       "reason": null,
-      "wp_id": 994
+      "wp_id": 994,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-303-nguoi-cao-di-xe-so-pho-thong-co-thoai-mai-khong/"
     }
   },
-  "updated_at": "2026-10-16T16:24:03.843941+00:00"
+  "updated_at": "2026-10-16T16:24:06.645811+00:00"
 }
