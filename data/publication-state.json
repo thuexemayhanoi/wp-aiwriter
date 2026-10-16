@@ -1473,14 +1473,16 @@
     "281": {
       "title": "Xe số có phù hợp để đi làm hằng ngày trong nội đô Hà Nội không?",
       "source_hash": "1424731e7225df9c440e4eb7266de30d695b92ecff84f9d2b5abe66555cb170a",
-      "checked_at": "2026-10-16T16:15:04.496342+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:15:07.695844+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 6,
       "slug": "excel-281-xe-so-co-phu-hop-de-di-lam-hang-ngay-trong-noi-do-ha-noi-khong",
       "reason": null,
-      "wp_id": 972
+      "wp_id": 972,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-281-xe-so-co-phu-hop-de-di-lam-hang-ngay-trong-noi-do-ha-noi-khong/"
     }
   },
-  "updated_at": "2026-10-16T16:15:04.496362+00:00"
+  "updated_at": "2026-10-16T16:15:07.695864+00:00"
 }
