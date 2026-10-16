@@ -4095,7 +4095,17 @@
       "wp_id": 1173,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-482-di-xe-may-qua-hang-ngang-hang-dao-luu-y-khi-khu-vuc-dong-nguoi-di-bo/"
+    },
+    "483": {
+      "title": "Một buổi khám phá Phố Cổ bằng xe máy: nên dừng xe ở những điểm nào?",
+      "source_hash": "041ddb86fb92c5e0fb2536462fb272efdf97f06ec9dfcf99afac283c52652464",
+      "checked_at": "2026-10-16T17:06:42.923949+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 11,
+      "slug": "excel-483-mot-buoi-kham-pha-pho-co-bang-xe-may-nen-dung-xe-o-nhung-diem-nao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T17:06:10.978810+00:00"
+  "updated_at": "2026-10-16T17:06:42.923965+00:00"
 }
