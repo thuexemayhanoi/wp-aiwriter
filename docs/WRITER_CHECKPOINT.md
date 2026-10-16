@@ -1,3 +1,14 @@
+# Production checkpoint — 2026-10-16, Excel #236–238 verified; App xe máy active
+
+- Owner explicitly authorized transition after Hãng xe điện #201–235 completed **35/35**. Switched only `data/publication-policy.json` active category to immutable Excel `Cẩm nang > Ứng dụng > App xe máy` (#236–260), verified WordPress exact ancestry **Cẩm nang 15 → Ứng dụng 16 → App xe máy 17**. Old category and all URLs/canonicals and WordPress Trash unchanged.
+- Added long-form, sourced, distinct Markdown `posts/0236.md` (10 Google Maps pre-ride settings), `posts/0237.md` (legal and practical motorcycle route choice), `posts/0238.md` (saved places versus multistop directions, limits and iOS/Android variations), each matching exact Excel ID, title and full category. Sources: Google Maps official Help pages; do not confuse vehicle modes or promise two-wheeler multi-stop support on all devices.
+- Found two previously hardcoded tests asserting the completed Hãng xe điện scope; modified ONLY `tests/test_engine.py` to derive the scope from the active policy and immutable `data/topics.json` and continue testing the fail-closed missing-category draft behavior. Preserved the publisher's exact-ancestry, dedupe, no-trash and write-ahead ledger protections.
+- QA workflow [38900667611](https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38900667611) **SUCCESS**: **18/18 tests PASS, 74/74 source Markdown QA PASS, 0 failures**.
+- Owner-approved publisher [38890257103](https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38890257103) latest rerun **SUCCESS**: 3 newly created and verified posts, no duplicates/errors: Excel **#236 → WP 926**, **#237 → WP 927**, **#238 → WP 928**, all `phase=VERIFIED`, `status=publish`, `category_id=17`; exact links in `data/publication-state.json`. Site-wide published **245**; Excel #146–500 **93/355** published; active category **3/25** and **22 remaining #239–260**.
+- **NEXT BATCH**: #239, #240, #241; verify exact titles and taxonomy from `data/topics.json`. Write 3–5 original, cited Vietnamese articles, QA, owner-authorized production publisher, remote verify and checkpoint. No advance to next category `Cẩm nang > Ứng dụng > App xe điện` until #260 completed and owner separately approves.
+
+---
+
 # COMPLETED CATEGORY PRODUCTION CHECKPOINT — 2026-10-16, Excel #235 VERIFIED
 
 - Owner authorized completion of the remaining 4 titles **#232–235**, finishing active Excel category `Cẩm nang > Hãng xe > Hãng xe điện`, WordPress child term **21**.
