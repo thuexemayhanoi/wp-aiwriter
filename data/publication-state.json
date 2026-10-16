@@ -1885,7 +1885,17 @@
       "wp_id": 1003,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-312-honda-future-phu-hop-voi-nguoi-uu-tien-cop-va-su-thoai-mai-ra-sao/"
+    },
+    "313": {
+      "title": "Yamaha Jupiter có phù hợp với người đi làm mỗi ngày không?",
+      "source_hash": "27387ccf0e07b482d02c6f5749dc81274a2672cb5d53387320ee12b1d2593f9c",
+      "checked_at": "2026-10-16T16:25:45.497231+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 6,
+      "slug": "excel-313-yamaha-jupiter-co-phu-hop-voi-nguoi-di-lam-moi-ngay-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:25:42.575308+00:00"
+  "updated_at": "2026-10-16T16:25:45.497244+00:00"
 }
