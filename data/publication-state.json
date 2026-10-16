@@ -4043,7 +4043,17 @@
       "wp_id": 1169,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-478-di-xe-may-trong-pho-co-ha-noi-cach-xu-ly-mang-luoi-pho-mot-chieu/"
+    },
+    "479": {
+      "title": "Đi xe máy quanh Hàng Mã và Đồng Xuân: nên gửi xe ở đâu?",
+      "source_hash": "74d3edd2db560eb8c3095aecca19700e0dc7c26e4f2bb4d80c1b3e11dc93a57a",
+      "checked_at": "2026-10-16T17:05:44.890774+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 11,
+      "slug": "excel-479-di-xe-may-quanh-hang-ma-va-dong-xuan-nen-gui-xe-o-dau",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T17:05:43.512612+00:00"
+  "updated_at": "2026-10-16T17:05:44.890787+00:00"
 }
