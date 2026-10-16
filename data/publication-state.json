@@ -1811,14 +1811,16 @@
     "307": {
       "title": "Đi xe số trong phố cổ có bất tiện không?",
       "source_hash": "3ad8801e7b8f5f4f93db3f85c3c4b3251493445fad79ab17de52cae3ef606295",
-      "checked_at": "2026-10-16T16:24:48.024928+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:24:50.917488+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 6,
       "slug": "excel-307-di-xe-so-trong-pho-co-co-bat-tien-khong",
       "reason": null,
-      "wp_id": 998
+      "wp_id": 998,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-307-di-xe-so-trong-pho-co-co-bat-tien-khong/"
     }
   },
-  "updated_at": "2026-10-16T16:24:48.024944+00:00"
+  "updated_at": "2026-10-16T16:24:50.917505+00:00"
 }
