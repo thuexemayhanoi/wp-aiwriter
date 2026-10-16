@@ -4047,13 +4047,14 @@
     "479": {
       "title": "Đi xe máy quanh Hàng Mã và Đồng Xuân: nên gửi xe ở đâu?",
       "source_hash": "74d3edd2db560eb8c3095aecca19700e0dc7c26e4f2bb4d80c1b3e11dc93a57a",
-      "checked_at": "2026-10-16T17:05:44.890774+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T17:05:47.083507+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 11,
       "slug": "excel-479-di-xe-may-quanh-hang-ma-va-dong-xuan-nen-gui-xe-o-dau",
-      "reason": null
+      "reason": null,
+      "wp_id": 1170
     }
   },
-  "updated_at": "2026-10-16T17:05:44.890787+00:00"
+  "updated_at": "2026-10-16T17:05:47.083523+00:00"
 }
