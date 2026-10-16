@@ -754,7 +754,17 @@
       "wp_id": 915,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-225-kha-nang-chong-nuoc-cua-xe-dien-nen-duoc-hieu-nhu-the-nao/"
+    },
+    "226": {
+      "title": "Phanh tái sinh trên xe máy điện hoạt động ra sao?",
+      "source_hash": "672cdc3a50c6577fcf36f7e6ff69b4840e59493a0bd8658ec93d2aa74f18ae93",
+      "checked_at": "2026-10-16T10:54:24.139583+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 21,
+      "slug": "excel-226-phanh-tai-sinh-tren-xe-may-dien-hoat-dong-ra-sao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T10:21:36.854362+00:00"
+  "updated_at": "2026-10-16T10:54:24.139600+00:00"
 }
