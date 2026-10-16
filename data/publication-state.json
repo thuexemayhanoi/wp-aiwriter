@@ -2786,14 +2786,16 @@
     "382": {
       "title": "Thuê xe điện để đi học hằng ngày cần quan tâm những thông số nào?",
       "source_hash": "e809f8f1e9802045f87304709b274aaa2c5ba9a774e9bce7ee6a1e84d07aa5f5",
-      "checked_at": "2026-10-16T16:41:10.143689+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:41:13.263992+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 8,
       "slug": "excel-382-thue-xe-dien-de-di-hoc-hang-ngay-can-quan-tam-nhung-thong-so-nao",
       "reason": null,
-      "wp_id": 1073
+      "wp_id": 1073,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-382-thue-xe-dien-de-di-hoc-hang-ngay-can-quan-tam-nhung-thong-so-nao/"
     }
   },
-  "updated_at": "2026-10-16T16:41:10.143719+00:00"
+  "updated_at": "2026-10-16T16:41:13.264012+00:00"
 }
