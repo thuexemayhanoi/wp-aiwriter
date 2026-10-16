@@ -2171,7 +2171,17 @@
       "wp_id": 1025,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-334-yamaha-nvx-phu-hop-voi-nguoi-thich-tu-the-lai-the-thao-ra-sao/"
+    },
+    "335": {
+      "title": "Honda Vision và Yamaha Janus: mẫu nào dễ làm quen hơn?",
+      "source_hash": "27f37dd0102e16559b949511ee0767973f7cc5ba0c619cda566230443d739943",
+      "checked_at": "2026-10-16T16:31:02.300927+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 7,
+      "slug": "excel-335-honda-vision-va-yamaha-janus-mau-nao-de-lam-quen-hon",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:31:00.891404+00:00"
+  "updated_at": "2026-10-16T16:31:02.300941+00:00"
 }
