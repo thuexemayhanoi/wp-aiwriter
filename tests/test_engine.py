@@ -57,7 +57,7 @@ class FakeWP:
 
 
 def report():
-    return {'errors': [], 'existing': [], 'created': []}
+    return {'errors': [], 'existing': [], 'duplicates': [], 'created': []}
 
 
 class PublicationSafety(unittest.TestCase):
@@ -94,6 +94,22 @@ class PublicationSafety(unittest.TestCase):
         self.assertTrue(all(v['phase'] == 'VERIFIED' for v in ledger.data['posts'].values()))
         e.sync(client, articles, ledger, 2, report())
         self.assertEqual(len(client.calls), 3)  # only #174; never overwrites #172 or #173
+
+
+    def test_duplicate_wp_posts_are_reported_and_skip_without_failing_batch(self):
+        ledger = FakeLedger()
+        client = FakeWP(ledger)
+        duplicate_title = sample(172)['title']
+        client.posts = [{'id': i, 'title': {'raw': duplicate_title},
+                         'slug': f'legacy-{i}', 'status': 'publish',
+                         'link': e.WP_URL + f'/legacy-{i}/', 'categories': [20],
+                         'content': {'raw': ''}} for i in (814, 830)]
+        r = report()
+        e.sync(client, [sample(172), sample(173)], ledger, 3, r)
+        self.assertEqual(r['errors'], [])
+        self.assertEqual(r['duplicates'][0]['wp_ids'], [814, 830])
+        self.assertEqual([p['id'] for p in r['created']], [173])
+        self.assertEqual(len(client.calls), 1)
 
     def test_missing_or_ambiguous_category_is_draft(self):
         for cats in ([], [{'id': 21, 'name': 'Hãng xe máy', 'parent': 19}]):

@@ -10,12 +10,12 @@
 - Write factually careful, original Vietnamese content responding to that topic's search intent. No fabricated data, pricing, specifications, traffic law, reviews or first-hand experience. Use official sources for time-dependent legal facts.
 - Run `python scripts/engine.py --mode qa` before pushing. Fix errors, then commit and push promptly.
 
-## Automatic publisher
+## Owner-approved publisher (manual batches)
 - GitHub Actions is the **publisher**, **not the AI text generator**. The writer must be an active ChatGPT Work/Claude/Gemini session with GitHub repository write access; without an active writer no new articles are authored. No AI API/key, external reviewer or open-source AI is required for the publishing mechanism.
-- Validated articles are published through native WordPress REST in batches of 2. The full category ancestry must match live WordPress; if not, save WordPress **draft** and do not guess.
+- Validated articles are published through native WordPress REST only when the owner manually approves and starts a batch of 3, 4, or 5. GitHub workflow_dispatch with `live=true` is the approval gate. There is no hourly schedule, no push-triggered publication, and no auto-follow-up. The full category ancestry must match live WordPress; if not, save WordPress **draft** and do not guess.
 - Existing titles are skipped (including existing drafts); do not modify existing published URLs, slugs, taxonomy, canonical, themes, plugins, or older articles.
 - One-time authentication through encrypted GitHub Actions secrets `WP_USERNAME` and `WP_APPLICATION_PASSWORD`; never print them or store credentials in Git.
-- Existing WPVibe connections must remain in place. This repo cannot bypass GitHub Actions secret setup.
+- Existing WPVibe connections must remain in place. The WordPress credential is already verified; `WP_USERNAME` with fallback to `WP_USER` and `WP_APPLICATION_PASSWORD` are configured as Actions secrets. Do not print credentials.
 
 ## Article metadata example
 ```
@@ -37,9 +37,16 @@ ready: true
 Each article needs at least 350 words and 3 level-2 sections. This is only a mechanical minimum; writers must provide actual substance. For SEO, improve contents with supporting images, authoritative references, links and structured data later through separate QA-reviewed changes.
 ## Continuation and stronger QA
 - User's current target is 1,000–1,800 useful Vietnamese words per new article when the subject supports it. The publisher enforces at least 1,000 words for #172 onward; the earlier seven authored files are preserved.
-- Always select the two smallest IDs without complete authored files. Push each validated pair immediately. Do not mark an article published merely because it was pushed.
+- Always select the next smallest IDs without complete authored files. Push each validated writing pair immediately, but publishing is **manual and gated**; creating or pushing an article is not approval to publish. Do not mark an article published merely because it was pushed.
 - Install `requirements.txt` before QA. Use `python -m unittest discover -s tests -v` after modifying publisher code.
 - Do not edit `data/topics.json`: its original bytes are checksum protected.
 - Inspect `data/publication-state.json` and Actions receipts on resume. Never clear a POST_INTENT/VERIFY_PENDING record to make the publisher retry. Reconcile any uncertain WordPress write first.
 - Exact-title/slug checks are mechanical. The active writer must additionally compare search intent against the full Excel list and live WordPress inventory before writing. Do not invent fresh topics or a replacement Matrix.
 - Record session checkpoint in `docs/WRITER_CHECKPOINT.md`, including the content commit, QA, verified publication counts and the next two IDs. Secrets must never appear there.
+
+## Batch approval safeguards
+- Owner selects 3, 4, or 5 on Actions → Excel Matrix WP Publisher → Run workflow. Set `live=true` only when explicitly approving publication. Default `live=false` is preview-only.
+- Hard limit per run: 5 newly attempted writes. No hourly cron, no push publishing, no chained workflow runs.
+- Duplicate WordPress posts are listed with all matching WordPress IDs, skipped, and not modified; they are not treated as a publishing failure for unrelated clean articles. Genuine security, verification, or posting errors remain errors.
+- QA must succeed before a live batch. Only publish with verified unique full category ancestry; otherwise keep as draft. Never delete or overwrite any prior post automatically.
+- Do not have Git it Write and REST publisher import the same `posts/` files concurrently. Disable Git it Write sync for this repository before approving further batches.

@@ -318,7 +318,8 @@ def sync(client, ready, ledger, limit, report):
         matches = duplicates(article, inventory)
         old = ledger.data['posts'].get(str(article['id']), {})
         if len(matches) > 1:
-            report['errors'].append({'id': article['id'], 'reason': 'Multiple matching WordPress posts; no write'})
+            report['duplicates'].append({'id': article['id'], 'wp_ids': [p['id'] for p in matches],
+                                         'reason': 'Multiple matching WordPress posts; skipped for owner review'})
             continue
         if matches:
             post = matches[0]
@@ -391,8 +392,9 @@ def write_report(report):
                f"- Newly created and verified: {len(report['created'])}\n"
                f"- Site published: {report.get('site_published', 'UNVERIFIED')}\n"
                f"- Excel #146–500 published: {len(report['excel_published_ids']) if 'excel_published_ids' in report else 'UNVERIFIED'}\n"
-               f"- Errors: {len(report['errors'])}; next ready: {report.get('remaining_ready_ids', [])[:2]}\n")
-    for key in ['created', 'existing', 'errors', 'qa_errors']:
+               f"- Duplicate groups requiring review: {len(report['duplicates'])}; errors: {len(report['errors'])}; "
+               f"next ready: {report.get('remaining_ready_ids', [])[:5]}\n")
+    for key in ['created', 'existing', 'duplicates', 'errors', 'qa_errors']:
         if report[key]:
             summary += '\n' + key + ':\n```json\n' + json.dumps(report[key], ensure_ascii=False, indent=2) + '\n```\n'
     (directory / 'summary.md').write_text(summary)
@@ -410,7 +412,7 @@ def run(args):
     topics = matrix()
     all_items, ready, errors = load_posts(topics)
     report = {'at': now(), 'mode': args.mode, 'live': args.live, 'authored': len(all_items),
-              'qa_pass': len(ready), 'qa_errors': errors, 'created': [], 'existing': [], 'errors': [], 'has_more': False}
+              'qa_pass': len(ready), 'qa_errors': errors, 'created': [], 'existing': [], 'duplicates': [], 'errors': [], 'has_more': False}
     try:
         if args.mode == 'sync':
             if not args.live:
@@ -432,7 +434,7 @@ def run(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--mode', choices=['qa', 'sync'], default='qa')
-    parser.add_argument('--limit', type=int, choices=[1, 2], default=2)
+    parser.add_argument('--limit', type=int, choices=[1, 2, 3, 4, 5], default=3)
     parser.add_argument('--live', action='store_true')
     parser.add_argument('--persist-state', action='store_true')
     args = parser.parse_args()
