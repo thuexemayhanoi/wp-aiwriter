@@ -4021,14 +4021,16 @@
     "477": {
       "title": "Đi xe máy ở Hoàn Kiếm khi trời mưa: lưu ý đường trơn và điểm ngập cục bộ",
       "source_hash": "4ce69eafdc47adbd9f3d5b7f2c0b6eb32f95de4f2cce355718e4da9d08d25f78",
-      "checked_at": "2026-10-16T17:03:45.581657+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T17:03:48.280937+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 10,
       "slug": "excel-477-di-xe-may-o-hoan-kiem-khi-troi-mua-luu-y-duong-tron-va-diem-ngap-cuc-bo",
       "reason": null,
-      "wp_id": 1168
+      "wp_id": 1168,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-477-di-xe-may-o-hoan-kiem-khi-troi-mua-luu-y-duong-tron-va-diem-ngap-cuc-bo/"
     }
   },
-  "updated_at": "2026-10-16T17:03:45.581674+00:00"
+  "updated_at": "2026-10-16T17:03:48.280955+00:00"
 }
