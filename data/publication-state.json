@@ -4125,13 +4125,14 @@
     "485": {
       "title": "Đi xe máy ở Phố Cổ cuối tuần: cách tránh đường hạn chế và phố đi bộ",
       "source_hash": "89c35a03bba644f2ca3e2fa62a6c9be5daf073fdad08ff0d37ce73a938296b61",
-      "checked_at": "2026-10-16T17:06:55.482610+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T17:06:57.441512+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 11,
       "slug": "excel-485-di-xe-may-o-pho-co-cuoi-tuan-cach-tranh-duong-han-che-va-pho-di-bo",
-      "reason": null
+      "reason": null,
+      "wp_id": 1176
     }
   },
-  "updated_at": "2026-10-16T17:06:55.482624+00:00"
+  "updated_at": "2026-10-16T17:06:57.441528+00:00"
 }
