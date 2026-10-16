@@ -2032,14 +2032,16 @@
     "324": {
       "title": "Thuê xe số theo tuần nên chọn theo tiêu chí nào?",
       "source_hash": "0ff6c1ca371f41335e4388e820cc78b901f21e7634d3a9cb8b368d2c01b932dd",
-      "checked_at": "2026-10-16T16:27:35.532371+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:27:38.423450+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 6,
       "slug": "excel-324-thue-xe-so-theo-tuan-nen-chon-theo-tieu-chi-nao",
       "reason": null,
-      "wp_id": 1015
+      "wp_id": 1015,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-324-thue-xe-so-theo-tuan-nen-chon-theo-tieu-chi-nao/"
     }
   },
-  "updated_at": "2026-10-16T16:27:35.532387+00:00"
+  "updated_at": "2026-10-16T16:27:38.423470+00:00"
 }
