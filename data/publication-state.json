@@ -290,14 +290,16 @@
     "190": {
       "title": "Các dòng xe 50cc của SYM có gì đáng chú ý với người dùng đô thị?",
       "source_hash": "ad904cf1bd46c0743d8f31abcd5aafffac3166b2bdc90ca81297dbd73cf92c33",
-      "checked_at": "2026-10-16T07:44:01.505455+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T07:44:04.296844+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 20,
       "slug": "excel-190-cac-dong-xe-50cc-cua-sym-co-gi-dang-chu-y-voi-nguoi-dung-do-thi",
       "reason": null,
-      "wp_id": 868
+      "wp_id": 868,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-190-cac-dong-xe-50cc-cua-sym-co-gi-dang-chu-y-voi-nguoi-dung-do-thi/"
     }
   },
-  "updated_at": "2026-10-16T07:44:01.505473+00:00"
+  "updated_at": "2026-10-16T07:44:04.296864+00:00"
 }
