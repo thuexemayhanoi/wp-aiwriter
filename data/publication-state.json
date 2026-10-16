@@ -2938,7 +2938,17 @@
       "wp_id": 1084,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-393-xe-dien-pin-co-dinh-phu-hop-voi-nguoi-co-cho-sac-rieng-ra-sao/"
+    },
+    "394": {
+      "title": "Cách ước tính pin cần dùng cho một ngày di chuyển ở Hà Nội",
+      "source_hash": "d67a3536b5abaed3a8ea0d9c30d183b9a4612a8b74e43ad9faa0cb137850d8a1",
+      "checked_at": "2026-10-16T16:43:15.100933+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 8,
+      "slug": "excel-394-cach-uoc-tinh-pin-can-dung-cho-mot-ngay-di-chuyen-o-ha-noi",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:43:13.634338+00:00"
+  "updated_at": "2026-10-16T16:43:15.100949+00:00"
 }
