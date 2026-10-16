@@ -1222,7 +1222,17 @@
       "wp_id": 951,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-261-ung-dung-xe-dien-thuong-hien-thi-nhung-thong-tin-pin-nao/"
+    },
+    "262": {
+      "title": "Cách kiểm tra phần trăm pin xe điện trên ứng dụng điện thoại",
+      "source_hash": "36b6b258a5ca5151ae079218aacb80735504e9e01fb0ce5003ef606c2b245019",
+      "checked_at": "2026-10-16T15:53:56.582669+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 18,
+      "slug": "excel-262-cach-kiem-tra-phan-tram-pin-xe-dien-tren-ung-dung-dien-thoai",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T15:53:54.744289+00:00"
+  "updated_at": "2026-10-16T15:53:56.582680+00:00"
 }
