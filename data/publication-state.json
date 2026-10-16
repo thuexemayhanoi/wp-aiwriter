@@ -2058,13 +2058,14 @@
     "326": {
       "title": "Xe ga có phù hợp để đi làm hằng ngày trong nội đô Hà Nội không?",
       "source_hash": "7044ebec5992dcc82d4579d3562d11719291c4dd80c7b779d5c618e450906dad",
-      "checked_at": "2026-10-16T16:29:45.605558+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:29:47.546650+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-326-xe-ga-co-phu-hop-de-di-lam-hang-ngay-trong-noi-do-ha-noi-khong",
-      "reason": null
+      "reason": null,
+      "wp_id": 1017
     }
   },
-  "updated_at": "2026-10-16T16:29:45.605574+00:00"
+  "updated_at": "2026-10-16T16:29:47.546667+00:00"
 }
