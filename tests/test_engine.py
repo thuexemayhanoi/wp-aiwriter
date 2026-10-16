@@ -67,6 +67,11 @@ class PublicationSafety(unittest.TestCase):
         self.assertIn('<strong>đậm</strong>', value)
         self.assertIn('href="https://example.com/"', value)
 
+    def test_wordpress_typographic_ellipsis_has_equivalent_visible_text(self):
+        original = '<p>Yamaha bản ... và xe ... đang được kiểm tra.</p>'
+        rendered = '<p>Yamaha bản &#8230; và xe &#8230; đang được kiểm tra.</p>'
+        self.assertEqual(e.visible(original), e.visible(rendered))
+
     def test_category_ancestry_missing_parent_and_duplicate(self):
         cats = [{'id': 1, 'name': 'A', 'parent': 0}, {'id': 2, 'name': 'B', 'parent': 1},
                 {'id': 3, 'name': 'B', 'parent': 1}, {'id': 4, 'name': 'C', 'parent': 99}]
