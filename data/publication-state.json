@@ -329,13 +329,14 @@
     "193": {
       "title": "Những dòng xe Honda có cốp rộng đáng chú ý cho người đi phố",
       "source_hash": "bfd9e86bc490e041171c558b6081ed542ce216399a8a35d000da436b25db84a9",
-      "checked_at": "2026-10-16T07:44:18.831316+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T07:44:20.831819+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 20,
       "slug": "excel-193-nhung-dong-xe-honda-co-cop-rong-dang-chu-y-cho-nguoi-di-pho",
-      "reason": null
+      "reason": null,
+      "wp_id": 871
     }
   },
-  "updated_at": "2026-10-16T07:44:18.831329+00:00"
+  "updated_at": "2026-10-16T07:44:20.831840+00:00"
 }
