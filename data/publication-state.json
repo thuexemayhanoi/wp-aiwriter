@@ -2886,7 +2886,17 @@
       "wp_id": 1080,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-389-di-xe-dien-duoi-mua-can-luu-y-nhung-gi/"
+    },
+    "390": {
+      "title": "Xe điện có phù hợp với người ở chung cư không?",
+      "source_hash": "52f74dad21f809b3afb01bc726380100b5a2e3ad4a075afa0a85c15c1c09751c",
+      "checked_at": "2026-10-16T16:42:26.621467+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 8,
+      "slug": "excel-390-xe-dien-co-phu-hop-voi-nguoi-o-chung-cu-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:42:24.989716+00:00"
+  "updated_at": "2026-10-16T16:42:26.621481+00:00"
 }
