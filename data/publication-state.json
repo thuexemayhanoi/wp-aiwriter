@@ -2526,13 +2526,14 @@
     "362": {
       "title": "Janus có phù hợp với lịch học và đi làm hằng ngày không?",
       "source_hash": "8fee1b4a107ea00c512bab1c684a1f4ea71421f5226bc20b40a5a2d5e355dcf5",
-      "checked_at": "2026-10-16T16:35:53.937303+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:35:55.844644+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-362-janus-co-phu-hop-voi-lich-hoc-va-di-lam-hang-ngay-khong",
-      "reason": null
+      "reason": null,
+      "wp_id": 1053
     }
   },
-  "updated_at": "2026-10-16T16:35:53.937318+00:00"
+  "updated_at": "2026-10-16T16:35:55.844659+00:00"
 }
