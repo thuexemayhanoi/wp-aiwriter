@@ -316,14 +316,16 @@
     "192": {
       "title": "Piaggio và Vespa khác nhau thế nào trong cách định vị sản phẩm?",
       "source_hash": "d50be0102a51a52c02ef311a4eb692736cbd1493f6f365f87aa64c5d49347b8e",
-      "checked_at": "2026-10-16T07:44:14.388791+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T07:44:17.176628+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 20,
       "slug": "excel-192-piaggio-va-vespa-khac-nhau-the-nao-trong-cach-dinh-vi-san-pham",
       "reason": null,
-      "wp_id": 870
+      "wp_id": 870,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-192-piaggio-va-vespa-khac-nhau-the-nao-trong-cach-dinh-vi-san-pham/"
     }
   },
-  "updated_at": "2026-10-16T07:44:14.388807+00:00"
+  "updated_at": "2026-10-16T07:44:17.176647+00:00"
 }
