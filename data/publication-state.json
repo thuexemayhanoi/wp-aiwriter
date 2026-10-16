@@ -3605,14 +3605,16 @@
     "445": {
       "title": "Đi xe máy qua Đội Cấn: lưu ý khi đường đông và nhiều ngõ nhỏ",
       "source_hash": "ee6dcac08345d497258bcf0588befc30f8edad610288d7a05eb998ce9b146a4e",
-      "checked_at": "2026-10-16T16:54:36.796306+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:54:39.513591+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 13,
       "slug": "excel-445-di-xe-may-qua-doi-can-luu-y-khi-duong-dong-va-nhieu-ngo-nho",
       "reason": null,
-      "wp_id": 1136
+      "wp_id": 1136,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-445-di-xe-may-qua-doi-can-luu-y-khi-duong-dong-va-nhieu-ngo-nho/"
     }
   },
-  "updated_at": "2026-10-16T16:54:36.796321+00:00"
+  "updated_at": "2026-10-16T16:54:39.513606+00:00"
 }
