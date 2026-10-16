@@ -3254,14 +3254,16 @@
     "418": {
       "title": "Xe 50cc số và xe ga 50cc khác nhau thế nào khi đi phố?",
       "source_hash": "dcd6cf8572cd3acc661144a6296a34ecf0a688bd6bdad2d1c50e0dbcae48b476",
-      "checked_at": "2026-10-16T16:48:19.464007+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:48:22.687566+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 5,
       "slug": "excel-418-xe-50cc-so-va-xe-ga-50cc-khac-nhau-the-nao-khi-di-pho",
       "reason": null,
-      "wp_id": 1109
+      "wp_id": 1109,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-418-xe-50cc-so-va-xe-ga-50cc-khac-nhau-the-nao-khi-di-pho/"
     }
   },
-  "updated_at": "2026-10-16T16:48:19.464026+00:00"
+  "updated_at": "2026-10-16T16:48:22.687591+00:00"
 }
