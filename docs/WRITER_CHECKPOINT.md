@@ -1,3 +1,15 @@
+# Production checkpoint — 2026-10-16, Excel #223–225 verified on WordPress
+
+- Owner approved next 3-post batch within Excel `Cẩm nang > Hãng xe > Hãng xe điện` (#201–235, WordPress category **21**). The WordPress Trash is exclusively owner-managed and was not touched.
+- Authored and committed to `main` `posts/0223.md` (international-brand technology, Honda/YADEA), `posts/0224.md` (cross-brand buyer comparison rubric distinct from pairwise YADEA/VinFast), `posts/0225.md` (IEC 60529 IP Code, IP67/IPX7, flood-related safety). Exact source ID/title/ancestor categories match `data/topics.json`. Official source pages referenced; no fabricated prices, user testing or product ownership.
+- Independent GitHub QA workflow [38886571339](https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38886571339) completed **SUCCESS**: 61/61 written articles QA PASS, 18/18 regression tests PASS, 0 QA FAIL.
+- Owner-approved live publisher [38867887824](https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38867887824) latest rerun **SUCCESS**: three new posts and remote receipts all `VERIFIED`, `status=publish`, `category_id=21`: Excel **#223→WP 913**, **#224→WP 914**, **#225→WP 915**. No duplicate groups or publisher errors; canonical published URLs in `data/publication-state.json`.
+- Excel publication progress **80/355**, first category #146–200 **55/55** completed; active Hãng xe điện #201–235 **25/35** correctly published. **10 IDs #226–235** still need article files and WordPress publication; **275 IDs #226–500** not yet authored.
+- **NEXT WRITER**: #226 phanh tái sinh, #227 chế độ Eco, #228 chế độ Sport; read exact title and taxonomy from `data/topics.json`, author 3–5 high-quality posts, QA, then publish only with owner approval. Check topical overlap: regeneration vs drive modes have distinct search intents.
+- Keep `data/publication-policy.json` active category unchanged until #235 completes and owner receives category report. No autonomous AI source generation happens inside GitHub Actions; never auto-modify old WordPress URLs/slugs/canonicals or empty/restore/delete posts from Trash.
+
+---
+
 # WordPress production checkpoint — 2026-10-16 through Excel #222
 
 - Owner approved exactly the next batch of 3. Source Markdown `posts/0220.md`, `posts/0221.md`, `posts/0222.md` was authored, pushed individually and matches the immutable Excel title/ID/full taxonomy `Cẩm nang > Hãng xe > Hãng xe điện`. Research compared official VinFast, Selex and Dat Bike sources; #220 is charger strategies, #221 is station-network access/reliability, #222 is conditional advantages of Vietnamese brands.
