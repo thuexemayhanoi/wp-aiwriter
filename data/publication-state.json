@@ -2028,7 +2028,17 @@
       "wp_id": 1014,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-323-xe-so-dung-khoa-co-hay-khoa-tu-thuan-tien-hon-voi-nguoi-thue/"
+    },
+    "324": {
+      "title": "Thuê xe số theo tuần nên chọn theo tiêu chí nào?",
+      "source_hash": "0ff6c1ca371f41335e4388e820cc78b901f21e7634d3a9cb8b368d2c01b932dd",
+      "checked_at": "2026-10-16T16:27:33.541391+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 6,
+      "slug": "excel-324-thue-xe-so-theo-tuan-nen-chon-theo-tieu-chi-nao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:27:31.011678+00:00"
+  "updated_at": "2026-10-16T16:27:33.541404+00:00"
 }
