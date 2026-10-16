@@ -1586,7 +1586,17 @@
       "wp_id": 980,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-289-future-va-jupiter-mau-nao-phu-hop-nguoi-can-tu-the-ngoi-thoai-mai/"
+    },
+    "290": {
+      "title": "Xe số 110cc có đủ dùng cho nhu cầu đi lại trong Hà Nội không?",
+      "source_hash": "a0ad6ca94557809d7e105dd85bda92b9065c7fa23f8579fe9bff24a5902d6247",
+      "checked_at": "2026-10-16T16:19:26.926663+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 6,
+      "slug": "excel-290-xe-so-110cc-co-du-dung-cho-nhu-cau-di-lai-trong-ha-noi-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:19:25.162665+00:00"
+  "updated_at": "2026-10-16T16:19:26.926677+00:00"
 }
