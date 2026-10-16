@@ -2279,13 +2279,14 @@
     "343": {
       "title": "NVX và Air Blade: khác nhau thế nào về tư thế lái?",
       "source_hash": "cc2fd5d5daa3a6d398c706132889528ee343513e6b1bf7b512493614627e500d",
-      "checked_at": "2026-10-16T16:32:30.413202+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:32:32.356974+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-343-nvx-va-air-blade-khac-nhau-the-nao-ve-tu-the-lai",
-      "reason": null
+      "reason": null,
+      "wp_id": 1034
     }
   },
-  "updated_at": "2026-10-16T16:32:30.413215+00:00"
+  "updated_at": "2026-10-16T16:32:32.356991+00:00"
 }
