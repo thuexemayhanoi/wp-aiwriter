@@ -1291,13 +1291,14 @@
     "277": {
       "title": "Có nên bật định vị liên tục cho ứng dụng xe điện không?",
       "source_hash": "6a7194c6335433a2ed8b4ada9d9a7e8d8765a55178173675f699edfdd4c165a1",
-      "checked_at": "2026-10-16T15:55:06.875443+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T15:55:09.034926+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 18,
       "slug": "excel-277-co-nen-bat-dinh-vi-lien-tuc-cho-ung-dung-xe-dien-khong",
-      "reason": null
+      "reason": null,
+      "wp_id": 957
     }
   },
-  "updated_at": "2026-10-16T15:55:06.875456+00:00"
+  "updated_at": "2026-10-16T15:55:09.034944+00:00"
 }
