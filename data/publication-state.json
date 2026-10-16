@@ -1703,7 +1703,17 @@
       "wp_id": 989,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-298-cach-dung-phanh-truoc-va-phanh-sau-tren-xe-so-an-toan-hon/"
+    },
+    "299": {
+      "title": "Xe số đi cầu dốc cần chú ý gì khi chuyển số?",
+      "source_hash": "3022368535626f8bda69889482888fc8cf3112391a166d908eb1d642db8571dc",
+      "checked_at": "2026-10-16T16:23:15.652155+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 6,
+      "slug": "excel-299-xe-so-di-cau-doc-can-chu-y-gi-khi-chuyen-so",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:23:14.298184+00:00"
+  "updated_at": "2026-10-16T16:23:15.652168+00:00"
 }
