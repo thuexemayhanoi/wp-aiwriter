@@ -312,7 +312,17 @@
       "wp_id": 869,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-191-kymco-50cc-phu-hop-voi-nhom-nguoi-dung-nao/"
+    },
+    "192": {
+      "title": "Piaggio và Vespa khác nhau thế nào trong cách định vị sản phẩm?",
+      "source_hash": "d50be0102a51a52c02ef311a4eb692736cbd1493f6f365f87aa64c5d49347b8e",
+      "checked_at": "2026-10-16T07:44:12.296986+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 20,
+      "slug": "excel-192-piaggio-va-vespa-khac-nhau-the-nao-trong-cach-dinh-vi-san-pham",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T07:44:10.735106+00:00"
+  "updated_at": "2026-10-16T07:44:12.297002+00:00"
 }
