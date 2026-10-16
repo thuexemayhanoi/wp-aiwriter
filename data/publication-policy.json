@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "active_category": "Cẩm nang > Hãng xe > Hãng xe điện",
+  "publication_mode": "owner_approved_batches",
+  "batch_choices": [
+    3,
+    4,
+    5
+  ],
+  "pause_at_category_end": true,
+  "on_missing_or_ambiguous_category": "draft",
+  "on_existing_post": "skip",
+  "on_duplicate_post": "skip_and_report",
+  "on_trashed_posts": "do_not_touch",
+  "after_category_complete": "github_issue_and_actions_summary",
+  "notes": "Change ONLY active_category to the exact next category from data/topics.json after owner approval. The publisher never creates prose or deletes posts."
+}
