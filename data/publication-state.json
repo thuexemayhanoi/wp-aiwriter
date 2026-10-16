@@ -1538,13 +1538,14 @@
     "286": {
       "title": "Yamaha Jupiter phù hợp với nhu cầu đi học và đi làm ra sao?",
       "source_hash": "222aa49a59b1581e12c9060a58c15c6baf0d91176974800100da78bd550f916e",
-      "checked_at": "2026-10-16T16:18:58.648215+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:19:00.869323+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 6,
       "slug": "excel-286-yamaha-jupiter-phu-hop-voi-nhu-cau-di-hoc-va-di-lam-ra-sao",
-      "reason": null
+      "reason": null,
+      "wp_id": 977
     }
   },
-  "updated_at": "2026-10-16T16:18:58.648231+00:00"
+  "updated_at": "2026-10-16T16:19:00.869339+00:00"
 }
