@@ -43,13 +43,14 @@
     "171": {
       "title": "Xe Yamaha có điểm mạnh gì về cảm giác lái trong đô thị?",
       "source_hash": "05d87ed6323a0b4e4ee32eaa923f284723f17cc1b23fc2592ad1134e02162a67",
-      "checked_at": "2026-10-16T07:20:16.230911+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T07:20:18.016037+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 20,
       "slug": "excel-171-xe-yamaha-co-diem-manh-gi-ve-cam-giac-lai-trong-do-thi",
-      "reason": null
+      "reason": null,
+      "wp_id": 836
     }
   },
-  "updated_at": "2026-10-16T07:20:16.230925+00:00"
+  "updated_at": "2026-10-16T07:20:18.016054+00:00"
 }
