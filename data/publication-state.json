@@ -1859,7 +1859,17 @@
       "wp_id": 1001,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-310-yamaha-sirius-di-duong-hon-hop-co-gi-dang-chu-y/"
+    },
+    "311": {
+      "title": "Honda Blade có phù hợp với người cần xe nhẹ, dễ xoay trở không?",
+      "source_hash": "07451740f83e35df643376d3cb5054b3d14050f2d4a811cddd1c3f7fbcb8918d",
+      "checked_at": "2026-10-16T16:25:30.759624+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 6,
+      "slug": "excel-311-honda-blade-co-phu-hop-voi-nguoi-can-xe-nhe-de-xoay-tro-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:25:11.408358+00:00"
+  "updated_at": "2026-10-16T16:25:30.759643+00:00"
 }
