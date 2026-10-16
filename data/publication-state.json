@@ -3276,7 +3276,17 @@
       "wp_id": 1110,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-419-cub-50cc-co-phu-hop-de-di-hoc-va-di-lam-hang-ngay-khong/"
+    },
+    "420": {
+      "title": "Wave 50cc phù hợp với quãng đường ngắn trong đô thị ra sao?",
+      "source_hash": "ed3a63117ff036297ac85ef6118f462572f0bee0e94c67739b8fc07d4d773bac",
+      "checked_at": "2026-10-16T16:48:31.187030+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 5,
+      "slug": "excel-420-wave-50cc-phu-hop-voi-quang-duong-ngan-trong-do-thi-ra-sao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:48:29.726908+00:00"
+  "updated_at": "2026-10-16T16:48:31.187044+00:00"
 }
