@@ -3315,7 +3315,17 @@
       "wp_id": 1113,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-422-xe-50cc-co-tien-khi-di-trong-ngo-nho-va-pho-dong-khong/"
+    },
+    "423": {
+      "title": "Xe 50cc có phù hợp với người ít kinh nghiệm đi xe máy không?",
+      "source_hash": "c0e636a52cced023f231ffed2b8a8e52b83e9cd81ea3049ed3a2f1fcfbda52a1",
+      "checked_at": "2026-10-16T16:49:09.913544+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 5,
+      "slug": "excel-423-xe-50cc-co-phu-hop-voi-nguoi-it-kinh-nghiem-di-xe-may-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:49:08.355948+00:00"
+  "updated_at": "2026-10-16T16:49:09.913559+00:00"
 }
