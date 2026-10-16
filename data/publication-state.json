@@ -3449,13 +3449,14 @@
     "433": {
       "title": "Thuê xe 50cc theo tuần nên kiểm tra những gì trước khi nhận?",
       "source_hash": "5c02dc26f30edfd6d2dce252b6b094d64abda429abddc54eedce9564c362881b",
-      "checked_at": "2026-10-16T16:50:54.342036+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:50:56.555913+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 5,
       "slug": "excel-433-thue-xe-50cc-theo-tuan-nen-kiem-tra-nhung-gi-truoc-khi-nhan",
-      "reason": null
+      "reason": null,
+      "wp_id": 1124
     }
   },
-  "updated_at": "2026-10-16T16:50:54.342050+00:00"
+  "updated_at": "2026-10-16T16:50:56.555932+00:00"
 }
