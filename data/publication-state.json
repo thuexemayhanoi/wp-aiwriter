@@ -3046,13 +3046,14 @@
     "402": {
       "title": "Xe điện và xe ga: loại nào thuận tiện hơn cho quãng đường ngắn?",
       "source_hash": "47f2e397afc23cd90209b6715fe7bcd597cba75026ae21310cf00d2cb5bf0521",
-      "checked_at": "2026-10-16T16:44:52.896458+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:44:55.153074+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 8,
       "slug": "excel-402-xe-dien-va-xe-ga-loai-nao-thuan-tien-hon-cho-quang-duong-ngan",
-      "reason": null
+      "reason": null,
+      "wp_id": 1093
     }
   },
-  "updated_at": "2026-10-16T16:44:52.896474+00:00"
+  "updated_at": "2026-10-16T16:44:55.153093+00:00"
 }
