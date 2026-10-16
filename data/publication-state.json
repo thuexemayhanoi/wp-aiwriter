@@ -3978,7 +3978,17 @@
       "wp_id": 1164,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-473-di-xe-may-o-hoan-kiem-buoi-toi-nen-gui-xe-o-dau-roi-di-bo/"
+    },
+    "474": {
+      "title": "Đi xe máy quanh Hồ Gươm ngày lễ: những điều nên kiểm tra trước",
+      "source_hash": "475573213118415ae4e2c05f90eed5eb126c19906c310c24bc40281384a202dc",
+      "checked_at": "2026-10-16T17:03:21.674140+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 10,
+      "slug": "excel-474-di-xe-may-quanh-ho-guom-ngay-le-nhung-dieu-nen-kiem-tra-truoc",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T17:03:19.595131+00:00"
+  "updated_at": "2026-10-16T17:03:21.674154+00:00"
 }
