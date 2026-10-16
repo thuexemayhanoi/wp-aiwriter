@@ -1976,7 +1976,17 @@
       "wp_id": 1010,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-319-xe-so-co-phu-hop-voi-nguoi-thue-lan-dau-tai-ha-noi-khong/"
+    },
+    "320": {
+      "title": "Đi xe số vào mùa đông Hà Nội cần lưu ý gì?",
+      "source_hash": "8771d0c53c4ab1a37c856694aeb169d73d3aa8b5c39907c18eb654f4b9d2219d",
+      "checked_at": "2026-10-16T16:26:48.009267+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 6,
+      "slug": "excel-320-di-xe-so-vao-mua-dong-ha-noi-can-luu-y-gi",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:26:46.589524+00:00"
+  "updated_at": "2026-10-16T16:26:48.009280+00:00"
 }
