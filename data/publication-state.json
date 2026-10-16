@@ -1473,13 +1473,14 @@
     "281": {
       "title": "Xe số có phù hợp để đi làm hằng ngày trong nội đô Hà Nội không?",
       "source_hash": "1424731e7225df9c440e4eb7266de30d695b92ecff84f9d2b5abe66555cb170a",
-      "checked_at": "2026-10-16T16:15:02.117859+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:15:04.496342+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 6,
       "slug": "excel-281-xe-so-co-phu-hop-de-di-lam-hang-ngay-trong-noi-do-ha-noi-khong",
-      "reason": null
+      "reason": null,
+      "wp_id": 972
     }
   },
-  "updated_at": "2026-10-16T16:15:02.117877+00:00"
+  "updated_at": "2026-10-16T16:15:04.496362+00:00"
 }
