@@ -3653,7 +3653,17 @@
       "wp_id": 1139,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-448-di-xe-may-quanh-quan-thanh-va-truc-bach-luu-y-ve-pho-nho-va-mot-chieu/"
+    },
+    "449": {
+      "title": "Một ngày khám phá Ba Đình bằng xe máy: gợi ý các điểm dừng gần nhau",
+      "source_hash": "1e3e612c970eda71c02e6312867cce6c7bd6a3c42923218a4c9bd1f351d53972",
+      "checked_at": "2026-10-16T16:55:18.875203+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 13,
+      "slug": "excel-449-mot-ngay-kham-pha-ba-dinh-bang-xe-may-goi-y-cac-diem-dung-gan-nhau",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:55:17.442522+00:00"
+  "updated_at": "2026-10-16T16:55:18.875216+00:00"
 }
