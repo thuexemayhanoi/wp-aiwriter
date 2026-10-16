@@ -2782,7 +2782,17 @@
       "wp_id": 1072,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-381-xe-may-dien-co-phu-hop-de-di-lam-hang-ngay-o-ha-noi-khong/"
+    },
+    "382": {
+      "title": "Thuê xe điện để đi học hằng ngày cần quan tâm những thông số nào?",
+      "source_hash": "e809f8f1e9802045f87304709b274aaa2c5ba9a774e9bce7ee6a1e84d07aa5f5",
+      "checked_at": "2026-10-16T16:41:07.918195+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 8,
+      "slug": "excel-382-thue-xe-dien-de-di-hoc-hang-ngay-can-quan-tam-nhung-thong-so-nao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:41:06.442229+00:00"
+  "updated_at": "2026-10-16T16:41:07.918210+00:00"
 }
