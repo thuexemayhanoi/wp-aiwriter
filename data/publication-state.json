@@ -3514,14 +3514,16 @@
     "438": {
       "title": "Cub 50cc và Wave 50cc: nên so sánh những tiêu chí nào?",
       "source_hash": "663d72eafc9ec65f7cc27c5a35911eb419395fbdb1a3aa0bc714be373cbdd4bc",
-      "checked_at": "2026-10-16T16:51:48.450395+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:51:51.564166+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 5,
       "slug": "excel-438-cub-50cc-va-wave-50cc-nen-so-sanh-nhung-tieu-chi-nao",
       "reason": null,
-      "wp_id": 1129
+      "wp_id": 1129,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-438-cub-50cc-va-wave-50cc-nen-so-sanh-nhung-tieu-chi-nao/"
     }
   },
-  "updated_at": "2026-10-16T16:51:48.450414+00:00"
+  "updated_at": "2026-10-16T16:51:51.564187+00:00"
 }
