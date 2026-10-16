@@ -1278,13 +1278,14 @@
     "276": {
       "title": "Cách đăng nhập ứng dụng xe điện an toàn trên điện thoại cá nhân",
       "source_hash": "cf1cc52704e64d1033e1789f1c0065029efa46125d9815504c40e20d2d5deda7",
-      "checked_at": "2026-10-16T15:55:00.096006+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T15:55:02.380632+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 18,
       "slug": "excel-276-cach-dang-nhap-ung-dung-xe-dien-an-toan-tren-dien-thoai-ca-nhan",
-      "reason": null
+      "reason": null,
+      "wp_id": 956
     }
   },
-  "updated_at": "2026-10-16T15:55:00.096023+00:00"
+  "updated_at": "2026-10-16T15:55:02.380651+00:00"
 }
