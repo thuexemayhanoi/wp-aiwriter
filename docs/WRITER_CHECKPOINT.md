@@ -1,3 +1,10 @@
+## WordPress taxonomy correction verified — 2026-10-16
+
+- Authenticated WordPress REST updated **only** post categories for #165 (WP 814), #166 (WP 815), #167 (WP 823) from parent term **19** to Excel-required leaf term **20** (`Cẩm nang > Hãng xe > Hãng xe máy`).
+- Fresh REST readback verified all three are **published**, categories **[20]**, with their previous titles/slugs/permalinks preserved. No posts, slugs or content were deleted or regenerated.
+- The publisher already resolves the *complete* Excel category ancestry for new articles; when the unique full path exists, it publishes directly to the matching WordPress child category. When not found/ambiguous, it uses **draft** instead of guessing.
+- Category 1 (#146–200) is fully published and these three legacy taxonomy exceptions are now fixed. Owner's per-category review gate remains locked at #200 until a new category is approved.
+
 # Publication milestone — 2026-10-16, Excel category 1 reviewed for owner
 
 - WordPress target: https://blog.rentbikehanoi.com/ ; repository: `thuexemayhanoi/wp-aiwriter`.
