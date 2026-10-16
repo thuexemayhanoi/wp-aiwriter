@@ -875,13 +875,14 @@
     "235": {
       "title": "Cách so sánh xe điện theo quãng đường, tốc độ và thời gian sạc",
       "source_hash": "8c5e4d67d8e3a40a6ea31add1e4360cccaddf1d89280532cb2c4655e0ada2bf1",
-      "checked_at": "2026-10-16T12:11:48.400287+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T12:11:50.685579+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 21,
       "slug": "excel-235-cach-so-sanh-xe-dien-theo-quang-duong-toc-do-va-thoi-gian-sac",
-      "reason": null
+      "reason": null,
+      "wp_id": 925
     }
   },
-  "updated_at": "2026-10-16T12:11:48.400307+00:00"
+  "updated_at": "2026-10-16T12:11:50.685601+00:00"
 }
