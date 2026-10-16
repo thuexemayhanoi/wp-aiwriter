@@ -2370,13 +2370,14 @@
     "350": {
       "title": "Cách dùng phanh trước và phanh sau trên xe ga an toàn hơn",
       "source_hash": "5469d0ba97f7db8320dee92708e544337cb056aa774381bcd051481e67619abd",
-      "checked_at": "2026-10-16T16:33:36.437886+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:33:39.742965+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-350-cach-dung-phanh-truoc-va-phanh-sau-tren-xe-ga-an-toan-hon",
-      "reason": null
+      "reason": null,
+      "wp_id": 1041
     }
   },
-  "updated_at": "2026-10-16T16:33:36.437899+00:00"
+  "updated_at": "2026-10-16T16:33:39.742982+00:00"
 }
