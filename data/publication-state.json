@@ -1716,7 +1716,17 @@
       "wp_id": 990,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-299-xe-so-di-cau-doc-can-chu-y-gi-khi-chuyen-so/"
+    },
+    "300": {
+      "title": "Xe số có phù hợp với người mang ít hành lý không?",
+      "source_hash": "d5146c0dc1109cb28340ff0ff3b49ac839c5dc739ec3df1d1806c71b34a589d5",
+      "checked_at": "2026-10-16T16:23:23.457328+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 6,
+      "slug": "excel-300-xe-so-co-phu-hop-voi-nguoi-mang-it-hanh-ly-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:23:20.651895+00:00"
+  "updated_at": "2026-10-16T16:23:23.457342+00:00"
 }
