@@ -2253,13 +2253,14 @@
     "341": {
       "title": "Janus và Grande: khác nhau thế nào về trọng lượng và cảm giác lái?",
       "source_hash": "652246ef2705b8b763d6c1c0232cec8f515b16942fa57e23d61d2ab32cf04510",
-      "checked_at": "2026-10-16T16:32:17.738409+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:32:19.702980+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-341-janus-va-grande-khac-nhau-the-nao-ve-trong-luong-va-cam-giac-lai",
-      "reason": null
+      "reason": null,
+      "wp_id": 1032
     }
   },
-  "updated_at": "2026-10-16T16:32:17.738428+00:00"
+  "updated_at": "2026-10-16T16:32:19.702999+00:00"
 }
