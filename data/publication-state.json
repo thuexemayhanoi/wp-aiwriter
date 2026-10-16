@@ -407,14 +407,16 @@
     "199": {
       "title": "Những mẫu xe máy Nhật Bản thường gặp nhất tại Hà Nội",
       "source_hash": "98572bd4c57cfececa2767a8b266a4ffcb555dbd2d6a072baf4c05e0fe34cee6",
-      "checked_at": "2026-10-16T07:46:23.796215+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T07:46:26.433898+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 20,
       "slug": "excel-199-nhung-mau-xe-may-nhat-ban-thuong-gap-nhat-tai-ha-noi",
       "reason": null,
-      "wp_id": 878
+      "wp_id": 878,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-199-nhung-mau-xe-may-nhat-ban-thuong-gap-nhat-tai-ha-noi/"
     }
   },
-  "updated_at": "2026-10-16T07:46:23.796231+00:00"
+  "updated_at": "2026-10-16T07:46:26.433915+00:00"
 }
