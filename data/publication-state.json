@@ -2773,13 +2773,14 @@
     "381": {
       "title": "Xe máy điện có phù hợp để đi làm hằng ngày ở Hà Nội không?",
       "source_hash": "94986f74d0c3457931671be59aaf36c044e9ad8d765850d7d7cd036c6fefa991",
-      "checked_at": "2026-10-16T16:41:00.056724+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:41:03.235990+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 8,
       "slug": "excel-381-xe-may-dien-co-phu-hop-de-di-lam-hang-ngay-o-ha-noi-khong",
-      "reason": null
+      "reason": null,
+      "wp_id": 1072
     }
   },
-  "updated_at": "2026-10-16T16:41:00.056742+00:00"
+  "updated_at": "2026-10-16T16:41:03.236010+00:00"
 }
