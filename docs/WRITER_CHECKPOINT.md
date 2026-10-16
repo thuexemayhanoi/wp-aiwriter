@@ -1,3 +1,20 @@
+# Checkpoint 2026-10-16: ChatGPT batch #251–255 VERIFIED on WordPress
+
+- Owner authorized continued writing of `thuexemayhanoi/wp-aiwriter`, published by QA-success GitHub Actions to `https://blog.rentbikehanoi.com`. Exact Excel source `data/topics.json` unmodified; active category `Cẩm nang > Ứng dụng > App xe máy`, WordPress category 17.
+- Five source files committed to `main`, ~2,000–2,450 Vietnamese whitespace-delimited words each: `posts/0251.md` daily budgeting, `posts/0252.md` choosing weather apps (Apple, Google official geographic limitations and NCHMF), `posts/0253.md` rain alerts (Windy versus Apple availability restrictions), `posts/0254.md` nearby fuel stations, `posts/0255.md` parking near destinations (avoid assuming Google's U.S.-limited parking recommendations available in Hanoi).
+- Every push triggered no-secret QA, then auto-publisher, with 19 regression tests and **91/91 source QA PASS, 0 FAIL** on the last run [38919159418](https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38919159418). Publisher [38919211107](https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38919211107) completed **SUCCESS**; WPVibe independently confirmed latest #255.
+- Verified WordPress IDs: **#251 → 941, #252 → 942, #253 → 943, #254 → 944, #255 → 945**; all `publish`, category ID **17**, `VERIFIED`, no duplicate writes. Earlier #247–250 also VERIFIED (WP 937–940).
+- Excel published **110/355**, total site published approximately **262** (confirm via live publisher count), current App xe máy category **20/25** complete (#236–255). **Next five topics #256–260**, then STOP at active-category end and request explicit approval before changing `active_category` to next group `Cẩm nang > Ứng dụng > App xe điện`.
+- Next topics from immutable matrix:
+256 — Cách dùng điện thoại dẫn đường mà vẫn hạn chế mất tập trung khi lái
+257 — Giá đỡ điện thoại và ứng dụng dẫn đường: dùng thế nào cho an toàn?
+258 — Cách tiết kiệm pin điện thoại khi bật bản đồ liên tục
+259 — Ứng dụng dịch thuật hữu ích thế nào với khách nước ngoài thuê xe máy?
+260 — Cách tạo danh sách địa điểm muốn đến rồi tối ưu thứ tự di chuyển
+- Keep push QA → automatic serialized publisher, never require clock timers; no content generators inside GitHub Actions, no edits to older URLs/canonicals, no Trash actions. No duplicate re-creation. Research facts from official publishers when changing mobile-app UI or regional weather/Maps feature availability.
+
+---
+
 # Production checkpoint — 2026-10-16, Excel #239–243 verified; App xe máy 8/25
 
 - Owner instructed continuation of the established workflow in this session ("tiếp tục hoàn thành workflow"); this batch was written, QA'd, published through the owner-approved publisher and verified. Active policy category unchanged: `Cẩm nang > Ứng dụng > App xe máy` (#236–260, WordPress leaf category 17 under Cẩm nang 15 → Ứng dụng 16). No change to `data/topics.json`, `data/publication-policy.json`, publisher code, tests, older posts, URLs, canonicals or WordPress Trash.
