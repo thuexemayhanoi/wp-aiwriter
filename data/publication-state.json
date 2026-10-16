@@ -3813,14 +3813,16 @@
     "461": {
       "title": "Đi xe máy từ Gia Lâm đến Phố Cổ: nên gửi xe ở đâu trước khi đi bộ?",
       "source_hash": "82a9334296b0ba188db6b874800d47ba5ce2e1084b7de80a560d2eeee6aade15",
-      "checked_at": "2026-10-16T16:59:22.011485+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:59:24.719100+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 14,
       "slug": "excel-461-di-xe-may-tu-gia-lam-den-pho-co-nen-gui-xe-o-dau-truoc-khi-di-bo",
       "reason": null,
-      "wp_id": 1152
+      "wp_id": 1152,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-461-di-xe-may-tu-gia-lam-den-pho-co-nen-gui-xe-o-dau-truoc-khi-di-bo/"
     }
   },
-  "updated_at": "2026-10-16T16:59:22.011502+00:00"
+  "updated_at": "2026-10-16T16:59:24.719118+00:00"
 }
