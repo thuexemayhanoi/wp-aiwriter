@@ -2838,14 +2838,16 @@
     "386": {
       "title": "Đi xe điện giờ cao điểm có ảnh hưởng nhiều đến mức pin không?",
       "source_hash": "0a846e5ff54301039f69c1c195d14dd2acbe2075bc171ae2da305371e1b0348e",
-      "checked_at": "2026-10-16T16:41:58.859504+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:42:02.339351+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 8,
       "slug": "excel-386-di-xe-dien-gio-cao-diem-co-anh-huong-nhieu-den-muc-pin-khong",
       "reason": null,
-      "wp_id": 1077
+      "wp_id": 1077,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-386-di-xe-dien-gio-cao-diem-co-anh-huong-nhieu-den-muc-pin-khong/"
     }
   },
-  "updated_at": "2026-10-16T16:41:58.859523+00:00"
+  "updated_at": "2026-10-16T16:42:02.339373+00:00"
 }
