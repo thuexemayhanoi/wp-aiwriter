@@ -3371,13 +3371,14 @@
     "427": {
       "title": "Xe 50cc có tiết kiệm xăng khi đi nội đô không?",
       "source_hash": "bc816b1a379a731e2bea9c4fc66b36a51d20a57cf86c08a3364b8aa84061032e",
-      "checked_at": "2026-10-16T16:49:54.560404+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:49:56.837265+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 5,
       "slug": "excel-427-xe-50cc-co-tiet-kiem-xang-khi-di-noi-do-khong",
-      "reason": null
+      "reason": null,
+      "wp_id": 1118
     }
   },
-  "updated_at": "2026-10-16T16:49:54.560416+00:00"
+  "updated_at": "2026-10-16T16:49:56.837285+00:00"
 }
