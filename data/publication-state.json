@@ -128,7 +128,17 @@
       "wp_id": 854,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-177-air-blade-va-vision-khac-nhau-the-nao-ve-kich-thuoc-va-tu-the-lai/"
+    },
+    "178": {
+      "title": "Lead và Vision: mẫu nào thuận tiện hơn khi cần mang nhiều đồ?",
+      "source_hash": "a91237aae518ac34b94af534c055f2e60b172ceba1743adbd8c6f6ec0c301056",
+      "checked_at": "2026-10-16T07:33:18.536650+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 20,
+      "slug": "excel-178-lead-va-vision-mau-nao-thuan-tien-hon-khi-can-mang-nhieu-do",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T07:33:17.310408+00:00"
+  "updated_at": "2026-10-16T07:33:18.536664+00:00"
 }
