@@ -1915,14 +1915,16 @@
     "315": {
       "title": "Xe số nào có tư thế ngồi dễ chịu cho hành trình dài?",
       "source_hash": "f67c1b44f63b94eddda38c9df028db858a9f7f241209d78bcf007da066ef5da9",
-      "checked_at": "2026-10-16T16:25:59.247682+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:26:02.059983+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 6,
       "slug": "excel-315-xe-so-nao-co-tu-the-ngoi-de-chiu-cho-hanh-trinh-dai",
       "reason": null,
-      "wp_id": 1006
+      "wp_id": 1006,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-315-xe-so-nao-co-tu-the-ngoi-de-chiu-cho-hanh-trinh-dai/"
     }
   },
-  "updated_at": "2026-10-16T16:25:59.247698+00:00"
+  "updated_at": "2026-10-16T16:26:02.059999+00:00"
 }
