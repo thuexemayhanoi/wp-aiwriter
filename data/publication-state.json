@@ -2175,13 +2175,14 @@
     "335": {
       "title": "Honda Vision và Yamaha Janus: mẫu nào dễ làm quen hơn?",
       "source_hash": "27f37dd0102e16559b949511ee0767973f7cc5ba0c619cda566230443d739943",
-      "checked_at": "2026-10-16T16:31:02.300927+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:31:04.035545+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-335-honda-vision-va-yamaha-janus-mau-nao-de-lam-quen-hon",
-      "reason": null
+      "reason": null,
+      "wp_id": 1026
     }
   },
-  "updated_at": "2026-10-16T16:31:02.300941+00:00"
+  "updated_at": "2026-10-16T16:31:04.035561+00:00"
 }
