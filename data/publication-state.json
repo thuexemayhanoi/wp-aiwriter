@@ -2669,14 +2669,16 @@
     "373": {
       "title": "Xe ga có thuận tiện khi đi nhiều điểm mua sắm trong ngày không?",
       "source_hash": "563613b64ae7dcbdeac0f2fb8326a178ff8d4d9b507a153f4675398286744aa7",
-      "checked_at": "2026-10-16T16:37:45.128655+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:37:47.875752+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-373-xe-ga-co-thuan-tien-khi-di-nhieu-diem-mua-sam-trong-ngay-khong",
       "reason": null,
-      "wp_id": 1064
+      "wp_id": 1064,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-373-xe-ga-co-thuan-tien-khi-di-nhieu-diem-mua-sam-trong-ngay-khong/"
     }
   },
-  "updated_at": "2026-10-16T16:37:45.128674+00:00"
+  "updated_at": "2026-10-16T16:37:47.875772+00:00"
 }
