@@ -3345,13 +3345,14 @@
     "425": {
       "title": "Xe 50cc có đủ dùng cho quãng đường 10–15 km mỗi ngày không?",
       "source_hash": "2e288e4dece4f9aade3ca18f36d06c68b1c78f1bf5c49e5a2c08558aa0a01cf9",
-      "checked_at": "2026-10-16T16:49:24.046756+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:49:26.432943+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 5,
       "slug": "excel-425-xe-50cc-co-du-dung-cho-quang-duong-10-15-km-moi-ngay-khong",
-      "reason": null
+      "reason": null,
+      "wp_id": 1116
     }
   },
-  "updated_at": "2026-10-16T16:49:24.046770+00:00"
+  "updated_at": "2026-10-16T16:49:26.432960+00:00"
 }
