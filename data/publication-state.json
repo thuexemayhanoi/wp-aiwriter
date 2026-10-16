@@ -1928,13 +1928,14 @@
     "316": {
       "title": "Cách chọn xe số theo chiều cao và thể trạng người lái",
       "source_hash": "8bd625bb95d9b6efb0d8d30fadaa9c0de8d325842073f7c32b81ea63f504498e",
-      "checked_at": "2026-10-16T16:26:21.048214+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:26:23.173232+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 6,
       "slug": "excel-316-cach-chon-xe-so-theo-chieu-cao-va-the-trang-nguoi-lai",
-      "reason": null
+      "reason": null,
+      "wp_id": 1007
     }
   },
-  "updated_at": "2026-10-16T16:26:21.048232+00:00"
+  "updated_at": "2026-10-16T16:26:23.173249+00:00"
 }
