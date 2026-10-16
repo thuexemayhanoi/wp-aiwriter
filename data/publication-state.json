@@ -420,13 +420,14 @@
     "200": {
       "title": "Chọn hãng xe theo tiêu chí dễ sử dụng, dễ sửa hay kiểu dáng: nên ưu tiên gì?",
       "source_hash": "827021d1d7a228907bb3e3ad980db014141315149885da2e6345405fe6703572",
-      "checked_at": "2026-10-16T07:46:27.702928+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T07:46:29.577362+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 20,
       "slug": "excel-200-chon-hang-xe-theo-tieu-chi-de-su-dung-de-sua-hay-kieu-dang-nen-uu-tien-gi",
-      "reason": null
+      "reason": null,
+      "wp_id": 879
     }
   },
-  "updated_at": "2026-10-16T07:46:27.702944+00:00"
+  "updated_at": "2026-10-16T07:46:29.577378+00:00"
 }
