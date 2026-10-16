@@ -3952,7 +3952,17 @@
       "wp_id": 1162,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-471-di-xe-may-den-ga-ha-noi-tu-hoan-kiem-nhung-tuyen-ngan-de-nho/"
+    },
+    "472": {
+      "title": "Một ngày khám phá Hoàn Kiếm bằng xe máy: cách sắp xếp điểm dừng",
+      "source_hash": "3b21c9d1d00d7ff0ca29d82b74f072b3b6b2a72eba1af2460348ca74930b0807",
+      "checked_at": "2026-10-16T17:02:49.114425+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 10,
+      "slug": "excel-472-mot-ngay-kham-pha-hoan-kiem-bang-xe-may-cach-sap-xep-diem-dung",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T17:02:47.346293+00:00"
+  "updated_at": "2026-10-16T17:02:49.114438+00:00"
 }
