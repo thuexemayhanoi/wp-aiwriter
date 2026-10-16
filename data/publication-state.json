@@ -1430,7 +1430,17 @@
       "wp_id": 968,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-272-cach-luu-vi-tri-nhan-va-tra-xe-dien-tren-dien-thoai/"
+    },
+    "273": {
+      "title": "Ứng dụng nào hữu ích khi cần tìm ổ cắm hoặc điểm sạc quanh Hà Nội?",
+      "source_hash": "cd6748729fd679fc626fcc7e3f13a17619b07684afe4782549205aa2f0e72135",
+      "checked_at": "2026-10-16T16:11:34.931387+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 18,
+      "slug": "excel-273-ung-dung-nao-huu-ich-khi-can-tim-o-cam-hoac-diem-sac-quanh-ha-noi",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:11:31.819044+00:00"
+  "updated_at": "2026-10-16T16:11:34.931399+00:00"
 }
