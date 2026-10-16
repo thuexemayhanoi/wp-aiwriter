@@ -615,14 +615,16 @@
     "215": {
       "title": "Những dòng xe điện nhỏ gọn phù hợp đi phố đông",
       "source_hash": "9ff6ba982a4b011d6bcda0a0394ad06882fd573e212777edd9eb0e822bbe945e",
-      "checked_at": "2026-10-16T09:32:45.898772+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T09:32:48.976530+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 21,
       "slug": "excel-215-nhung-dong-xe-dien-nho-gon-phu-hop-di-pho-dong",
       "reason": null,
-      "wp_id": 905
+      "wp_id": 905,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-215-nhung-dong-xe-dien-nho-gon-phu-hop-di-pho-dong/"
     }
   },
-  "updated_at": "2026-10-16T09:32:45.898790+00:00"
+  "updated_at": "2026-10-16T09:32:48.976549+00:00"
 }
