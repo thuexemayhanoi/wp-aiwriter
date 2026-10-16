@@ -7,6 +7,7 @@ on:
       - 'tests/**'
       - 'data/publication-policy.json'
       - '.github/workflows/publisher-quality.yml'
+      - '.github/workflows/wordpress-publisher.yml'
       - 'posts/**'
   workflow_dispatch:
 permissions:

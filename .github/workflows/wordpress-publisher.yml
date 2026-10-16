@@ -1,14 +1,19 @@
 name: Excel Matrix WP Publisher
 on:
+  # Automatically follow ONLY a successful push-triggered QA on main.
+  workflow_run:
+    workflows: ['WP AIWriter QA (No WordPress Writes)']
+    types: [completed]
+    branches: [main]
   workflow_dispatch:
     inputs:
       live:
-        description: 'Publish only after owner approval (false = preview)'
+        description: 'Manual override: false = preview; true = live publish'
         required: true
         type: boolean
         default: false
       batch_size:
-        description: 'Approved batch size (3 to 5 posts)'
+        description: 'Manual batch size per iteration (3 to 5)'
         required: true
         type: choice
         options: ['3', '4', '5']
@@ -22,8 +27,18 @@ concurrency:
   cancel-in-progress: false
 jobs:
   qa-and-publish:
+    # The QA workflow has no WP credentials. This secret-bearing job runs
+    # automatically only after an approved main push and green QA.
+    if: >-
+      ${{
+        github.event_name == 'workflow_dispatch' ||
+        (github.event_name == 'workflow_run' &&
+         github.event.workflow_run.conclusion == 'success' &&
+         github.event.workflow_run.event == 'push' &&
+         github.event.workflow_run.head_branch == 'main')
+      }}
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 180
     steps:
       - name: Checkout latest main inside the publication lock
         uses: actions/checkout@v4
@@ -45,22 +60,37 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-      - name: Publish owner-approved batch
+      - name: Immediately publish all eligible QA-ready posts in the active category
         id: sync
         env:
           WP_USERNAME: ${{ secrets.WP_USERNAME || secrets.WP_USER }}
           WP_APPLICATION_PASSWORD: ${{ secrets.WP_APPLICATION_PASSWORD }}
-          LIVE: ${{ inputs.live }}
-          BATCH_SIZE: ${{ inputs.batch_size }}
+          LIVE: ${{ github.event_name == 'workflow_run' && 'true' || inputs.live }}
+          BATCH_SIZE: ${{ github.event_name == 'workflow_run' && '5' || inputs.batch_size }}
         shell: bash
         run: |
-          if [[ "$LIVE" == 'true' ]]; then
-            python scripts/engine.py --mode sync --limit "$BATCH_SIZE" --live --persist-state
-          else
+          set -euo pipefail
+          if [[ "$LIVE" != 'true' ]]; then
+            echo "Manual dry run; zero WordPress writes"
             python scripts/engine.py --mode sync --limit "$BATCH_SIZE"
+            exit 0
           fi
+          # No interval or sleep: repeat up-to-5-post batches immediately.
+          # Each iteration rechecks WordPress, duplicate titles, exact Excel
+          # ancestry, category boundary and write-ahead publication receipts.
+          for batch in $(seq 1 80); do
+            echo "Auto publisher iteration $batch (max $BATCH_SIZE posts)"
+            python scripts/engine.py --mode sync --limit "$BATCH_SIZE" --live --persist-state
+            has_more="$(python -c "import json; print(str(json.load(open('reports/latest.json', encoding='utf-8'))['has_more']).lower())")"
+            if [[ "$has_more" == 'false' ]]; then
+              echo "All authored, QA-ready articles in this approved category are handled."
+              exit 0
+            fi
+          done
+          echo "::error::Safety limit 80 iterations reached; do not silently drop remaining ready articles."
+          exit 1
       - name: Notify owner upon completed Excel category
-        if: ${{ inputs.live && steps.sync.outputs.category_complete == 'true' }}
+        if: ${{ steps.sync.outputs.category_complete == 'true' && (github.event_name == 'workflow_run' || inputs.live) }}
         continue-on-error: true
         env:
           GH_TOKEN: ${{ github.token }}

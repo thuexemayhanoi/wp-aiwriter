@@ -242,10 +242,24 @@ class PublicationSafety(unittest.TestCase):
         self.assertFalse(r['category_complete'])
         self.assertEqual(len(r['category_progress']['draft_or_pending']), 1)
 
+    def test_qa_pass_autopublish_trigger_safety(self):
+        policy = e.json.loads(e.POLICY_PATH.read_text(encoding='utf-8'))
+        self.assertEqual(policy['publication_mode'], 'qa_gated_autopublish')
+        wf = (pathlib.Path(__file__).resolve().parents[1] /
+              '.github/workflows/wordpress-publisher.yml').read_text(encoding='utf8')
+        self.assertIn('workflow_run:', wf)
+        self.assertIn("conclusion == 'success'", wf)
+        self.assertIn("event == 'push'", wf)
+        self.assertIn("head_branch == 'main'", wf)
+        self.assertIn('--live --persist-state', wf)
+        self.assertIn('has_more', wf)
+        self.assertNotIn('schedule:', wf)
+        self.assertNotIn('sleep ', wf)
+
     def test_invalid_category_is_rejected_not_guessed(self):
         with tempfile.TemporaryDirectory() as tmp:
             policy = pathlib.Path(tmp) / 'policy.json'
-            policy.write_text('{"active_category":"Unverified","publication_mode":"owner_approved_batches",'
+            policy.write_text('{"active_category":"Unverified","publication_mode":"qa_gated_autopublish",'
                               '"batch_choices":[3,4,5],"pause_at_category_end":true,'
                               '"on_missing_or_ambiguous_category":"draft",'
                               '"on_trashed_posts":"do_not_touch"}', encoding='utf8')

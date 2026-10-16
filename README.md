@@ -1,40 +1,37 @@
-# GitHub → WordPress AI Writer
+# WP AIWriter — GitHub → WordPress QA-gated autopublish
 
-Target: **https://blog.rentbikehanoi.com/**
+**WordPress:** https://blog.rentbikehanoi.com/  
+**Repo:** https://github.com/thuexemayhanoi/wp-aiwriter  
+**Immutable Excel topics:** `data/topics.json`, IDs #146–500 (355 titles/categories).
 
-This repository preserves the user's Excel SEO topic list **exactly** in [data/topics.json](data/topics.json) (355 articles, #146–500). WordPress already has #146–164. The remaining work is #165–500 (336 articles).
+## Zero wait after QA PASS
 
-## Components
-- `data/topics.json`: verified, original titles and hierarchical categories (not a new SEO Matrix).
-- `AGENTS.md`: guide for **active** external AI writers (ChatGPT Work / Claude / Gemini) to author one Markdown file per title.
-- `posts/NNNN.md`: authored articles with exact Excel identity; see `docs/WRITER_CHECKPOINT.md` for verified current progress.
-- `scripts/engine.py`: QA, category ancestry match, duplicate guard, Markdown conversion and first-party WordPress REST publisher.
-- `.github/workflows/wordpress-publisher.yml`: runs on push, manual dispatch and hourly; publishes at most **2 new posts per run**.
+1. An active Claude / ChatGPT Work / Gemini writer or person writes `posts/NNNN.md` using the exact Excel `matrix_id`, `title`, `category_path`, `ready: true`, and original, verified Vietnamese prose.
+2. Push to `main` automatically runs **WP AIWriter QA (No WordPress Writes)** — strict source QA, duplicate checks and Python regression tests; QA has no WordPress credentials.
+3. **Only successful push QA on main** automatically starts **Excel Matrix WP Publisher** (GitHub `workflow_run`). The publisher repeats tests and QA on the latest main, then immediately performs authenticated WordPress REST publishing under a single concurrency lock.
+4. Each iteration attempts **up to 5 posts**, writes a remote `POST_INTENT` checkpoint *before* create, verifies private/public REST + permalink, then records `VERIFIED`; repeats **without any waiting, schedule or manual button** until all ready sources in the approved category have been handled.
+5. Missing/ambiguous full WordPress category ancestry → draft, never guess. Existing posts/drafts, duplicates and uncertain previous creates → skip/block, **never overwrite**. Never delete/restore WordPress Trash, change existing URLs, slugs, SEO, or canonicals. The next Excel category still requires explicit owner approval (`data/publication-policy.json`).
 
-## One-time connection to WordPress (needed before actual auto-publication)
-1. On WordPress, log in as an account authorized to publish and open **Users → Profile → Application Passwords**. Create a dedicated Application Password for `wp-aiwriter-github`.
-2. In this GitHub repository open **[Actions secrets](https://github.com/thuexemayhanoi/wp-aiwriter/settings/secrets/actions)** and create **`WP_USERNAME`** (WordPress login) and **`WP_APPLICATION_PASSWORD`** (the generated Application Password). Never paste these into chat, Markdown or public files.
-3. Open **[Excel Matrix WP Publisher](https://github.com/thuexemayhanoi/wp-aiwriter/actions/workflows/wordpress-publisher.yml)** and run `live=true`, `batch_size=2` (or simply push a new validated article). If credentials have not been configured, a live run **fails visibly as BLOCKED and does not post**. A deliberate manual `live=false` run remains a dry run.
+**No AI API key and no time-based trigger.** GitHub Actions **cannot write new articles by itself**: an active writer must still create and push them. QA is deterministic and cannot independently verify every factual claim.
 
-## Publication policy
-- Exact Excel title + full hierarchy exists on WordPress + QA PASS → publish and assign correct leaf category.
-- Missing/mismatched category path → WordPress draft, **never force a guessed category**.
-- An existing WordPress article with the same title → skip; no overwrites or mass-SEO URL changes.
-- With no ready article, GitHub Actions does not generate prose. GitHub Actions is a publisher and deterministic QA runner; content generation requires an **active external AI writer session**, not a background LLM that has not been connected.
+## Files and operating instructions
 
-Run QA manually: `python scripts/engine.py --mode qa`.
+- `AGENTS.md`: current editorial and safety contract
+- `docs/PUBLISHER_OPERATIONS.md`: production runbook
+- `docs/WRITER_CHECKPOINT.md`: last known article, WP IDs and next queue
+- `posts/NNNN.md`: published/ready source
+- `scripts/engine.py`: QA and create-only WordPress REST publisher
+- `.github/workflows/publisher-quality.yml`: push-triggered QA with no secrets
+- `.github/workflows/wordpress-publisher.yml`: **QA-success auto-trigger**, optional manual preview via `workflow_dispatch` (`live=false` by default)
+- `data/publication-state.json`: irreversible write-ahead ledger and verification receipts
 
-## Verified publisher behavior (2026-10-16)
+```bash
+python -m pip install -r requirements.txt
+python -m unittest discover -s tests -v
+python scripts/engine.py --mode qa
+python scripts/engine.py --mode sync --limit 5  # safe preview only
+```
 
-- Missing authentication is a visible **BLOCKED / failed live run**, never a green dry run. Manual `live=false` remains available.
-- The complete category tree and post inventory are paginated. An exact, unique full category ancestry permits publication; missing/ambiguous ancestry creates a draft and records the reason.
-- New content from #172 onward must pass a 1,000-word mechanical floor, exact metadata, structure, placeholder, repeated-paragraph and near-duplicate-content checks. These checks supplement the active writer's factual and search-intent checks; they do not prove content quality automatically.
-- Markdown tables, emphasis and HTTPS links are rendered by the small Python-Markdown package. Actions does not author articles.
-- At most two new article attempts occur per run. A failed article does not prevent another valid article being processed. Remaining ready articles trigger another serialized run even if one attempted article failed.
-- `data/publication-state.json` is a durable write-ahead publication ledger, not a replacement Matrix. The original `data/topics.json` is protected by its original SHA-256 checksum.
-- Before a POST, the ledger is committed to latest main. After a POST, the WordPress ID is checkpointed. Readback checks the authenticated post, public REST content and public permalink. A successful HTTP response alone is insufficient.
-- A timed-out POST is **not blindly retried**. Later runs reconcile the exact title/slug and embedded matrix marker. An unresolved intent without a matching post remains blocked until investigated. Existing posts and drafts are always preserved; this publisher has no update/delete path.
-- Run receipts appear in the Actions summary and downloadable `publication-receipt-*` artifact, including failures. Count `VERIFIED` publish receipts separately from authored GitHub files.
-- Only the publisher uses WordPress Application Password secrets. No AI provider credentials or WPVibe/WP Agent calls are used.
+GitHub Actions Secrets: `WP_USERNAME` (or `WP_USER`) and `WP_APPLICATION_PASSWORD`. Missing credentials fail visibly instead of falsely reporting success. Never paste secrets into chat, commits or repo. Keep parallel WordPress-sync plugins inactive.
 
-Validation: `python -m pip install -r requirements.txt`, `python -m unittest discover -s tests -v`, then `python scripts/engine.py --mode qa`.
+**Baseline before this workflow change:** 98/355 Excel posts published, 250 total WordPress posts, category `App xe máy` 8/25 (#236–243); confirm live state for future counts.

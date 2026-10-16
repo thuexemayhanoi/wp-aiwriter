@@ -52,7 +52,7 @@ def matrix():
 def publication_scope(topics):
     """Derive the category boundary and following group from the immutable Excel rows."""
     policy = json.loads(POLICY_PATH.read_text(encoding='utf-8'))
-    if (policy.get('publication_mode') != 'owner_approved_batches'
+    if (policy.get('publication_mode') != 'qa_gated_autopublish'
             or policy.get('batch_choices') != [3, 4, 5]
             or policy.get('pause_at_category_end') is not True
             or policy.get('on_missing_or_ambiguous_category') != 'draft'

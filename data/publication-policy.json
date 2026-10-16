@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "active_category": "Cẩm nang > Ứng dụng > App xe máy",
-  "publication_mode": "owner_approved_batches",
+  "publication_mode": "qa_gated_autopublish",
   "batch_choices": [
     3,
     4,
@@ -13,5 +13,5 @@
   "on_duplicate_post": "skip_and_report",
   "on_trashed_posts": "do_not_touch",
   "after_category_complete": "github_issue_and_actions_summary",
-  "notes": "Change ONLY active_category to the exact next category from data/topics.json after owner approval. The publisher never creates prose or deletes posts."
+  "notes": "Owner authorized QA-PASS auto-publication on main without time delays or per-batch approval. Only active_category may publish; switching categories requires separate owner approval. Continue to skip duplicates and never touch Trash."
 }
