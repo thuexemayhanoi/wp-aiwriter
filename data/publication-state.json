@@ -1668,14 +1668,16 @@
     "296": {
       "title": "Cách làm quen với chuyển số khi mới thuê xe số",
       "source_hash": "614dfa2ab487458427d9a49f260a7708542a09b495d991b7bbd9b3798344a121",
-      "checked_at": "2026-10-16T16:22:56.465607+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:22:59.597713+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 6,
       "slug": "excel-296-cach-lam-quen-voi-chuyen-so-khi-moi-thue-xe-so",
       "reason": null,
-      "wp_id": 987
+      "wp_id": 987,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-296-cach-lam-quen-voi-chuyen-so-khi-moi-thue-xe-so/"
     }
   },
-  "updated_at": "2026-10-16T16:22:56.465624+00:00"
+  "updated_at": "2026-10-16T16:22:59.597730+00:00"
 }
