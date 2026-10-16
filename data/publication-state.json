@@ -3631,13 +3631,14 @@
     "447": {
       "title": "Đi xe máy đến Công viên Thủ Lệ từ Ba Đình: nên đi tuyến nào?",
       "source_hash": "973cba349084d5e19856a44f733f9535750a99a33d8c06b7af0acd1168b84e42",
-      "checked_at": "2026-10-16T16:55:06.332567+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:55:08.326395+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 13,
       "slug": "excel-447-di-xe-may-den-cong-vien-thu-le-tu-ba-dinh-nen-di-tuyen-nao",
-      "reason": null
+      "reason": null,
+      "wp_id": 1138
     }
   },
-  "updated_at": "2026-10-16T16:55:06.332579+00:00"
+  "updated_at": "2026-10-16T16:55:08.326411+00:00"
 }
