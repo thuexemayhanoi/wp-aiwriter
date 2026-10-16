@@ -262,14 +262,16 @@
     "188": {
       "title": "Xe ga Yamaha có những đặc điểm chung nào dễ nhận biết?",
       "source_hash": "adc9f92f9b43661517fad0dfbcbb33f9518a88361c25844c15b9c8c1c9330041",
-      "checked_at": "2026-10-16T07:42:38.058922+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T07:42:41.065844+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 20,
       "slug": "excel-188-xe-ga-yamaha-co-nhung-dac-diem-chung-nao-de-nhan-biet",
       "reason": null,
-      "wp_id": 865
+      "wp_id": 865,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-188-xe-ga-yamaha-co-nhung-dac-diem-chung-nao-de-nhan-biet/"
     }
   },
-  "updated_at": "2026-10-16T07:42:38.058942+00:00"
+  "updated_at": "2026-10-16T07:42:41.065864+00:00"
 }
