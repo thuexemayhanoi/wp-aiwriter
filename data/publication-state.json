@@ -154,7 +154,17 @@
       "wp_id": 856,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-179-janus-va-vision-hai-mau-xe-ga-pho-thong-khac-nhau-o-dau/"
+    },
+    "180": {
+      "title": "Grande và Lead: so sánh theo nhu cầu đi làm hằng ngày",
+      "source_hash": "501b2ae6a65b3285cc4ada58a914bab840e9a4abdd6ba3e1ee05a4c5b1d395aa",
+      "checked_at": "2026-10-16T07:35:33.109692+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 20,
+      "slug": "excel-180-grande-va-lead-so-sanh-theo-nhu-cau-di-lam-hang-ngay",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T07:35:31.659444+00:00"
+  "updated_at": "2026-10-16T07:35:33.109706+00:00"
 }
