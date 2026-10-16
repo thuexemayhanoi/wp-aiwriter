@@ -4186,7 +4186,17 @@
       "wp_id": 1180,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-489-di-xe-may-qua-cau-chuong-duong-tu-long-bien-nen-di-khung-gio-nao/"
+    },
+    "490": {
+      "title": "Đi xe máy qua cầu Long Biên: gợi ý tuyến cho người thích ngắm cảnh",
+      "source_hash": "e629c198f5657c1b6f1ebf694a8cd8daba1b8478c5d5b1bb670e7f86ffe7e4e4",
+      "checked_at": "2026-10-16T17:09:21.103156+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 12,
+      "slug": "excel-490-di-xe-may-qua-cau-long-bien-goi-y-tuyen-cho-nguoi-thich-ngam-canh",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T17:09:18.362347+00:00"
+  "updated_at": "2026-10-16T17:09:21.103170+00:00"
 }
