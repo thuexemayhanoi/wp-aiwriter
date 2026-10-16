@@ -897,7 +897,17 @@
       "wp_id": 926,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-236-google-maps-cho-nguoi-di-xe-may-o-ha-noi-10-thiet-lap-nen-kiem-tra/"
+    },
+    "237": {
+      "title": "Cách chọn tuyến đường phù hợp cho xe máy trên Google Maps",
+      "source_hash": "efdb3bda62c7cf0d6299c8a63eb5250ef93aca647446730eef8b90321e4a1324",
+      "checked_at": "2026-10-16T12:29:04.539657+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 17,
+      "slug": "excel-237-cach-chon-tuyen-duong-phu-hop-cho-xe-may-tren-google-maps",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T12:29:02.896836+00:00"
+  "updated_at": "2026-10-16T12:29:04.539671+00:00"
 }
