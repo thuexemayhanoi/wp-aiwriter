@@ -3696,13 +3696,14 @@
     "452": {
       "title": "Đi xe máy từ Bến xe Gia Lâm đến Hồ Hoàn Kiếm: gợi ý lộ trình dễ đi",
       "source_hash": "246dcfdb89bf8ef7423c0c9ddbbe5131e5e8c6c4731d63ade7e4d484df13834c",
-      "checked_at": "2026-10-16T16:57:45.368260+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:57:47.195622+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 14,
       "slug": "excel-452-di-xe-may-tu-ben-xe-gia-lam-den-ho-hoan-kiem-goi-y-lo-trinh-de-di",
-      "reason": null
+      "reason": null,
+      "wp_id": 1143
     }
   },
-  "updated_at": "2026-10-16T16:57:45.368274+00:00"
+  "updated_at": "2026-10-16T16:57:47.195638+00:00"
 }
