@@ -2591,14 +2591,16 @@
     "367": {
       "title": "Xe ga dùng khóa cơ có ưu điểm gì khi sử dụng ngắn ngày?",
       "source_hash": "a2f9ca5025f471392339fc66182d1ec107629e906977403a9cc5699c77dbb8a8",
-      "checked_at": "2026-10-16T16:36:46.424372+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:36:49.247759+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-367-xe-ga-dung-khoa-co-co-uu-diem-gi-khi-su-dung-ngan-ngay",
       "reason": null,
-      "wp_id": 1058
+      "wp_id": 1058,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-367-xe-ga-dung-khoa-co-co-uu-diem-gi-khi-su-dung-ngan-ngay/"
     }
   },
-  "updated_at": "2026-10-16T16:36:46.424391+00:00"
+  "updated_at": "2026-10-16T16:36:49.247780+00:00"
 }
