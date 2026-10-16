@@ -2643,14 +2643,16 @@
     "371": {
       "title": "Xe ga có phù hợp với người thuê lần đầu tại Hà Nội không?",
       "source_hash": "d3cbcb8d0bbbda688750713b7bb4332400a0fa2ec1bcd1b1eedd528e881b6b3d",
-      "checked_at": "2026-10-16T16:37:32.564010+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:37:35.405102+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-371-xe-ga-co-phu-hop-voi-nguoi-thue-lan-dau-tai-ha-noi-khong",
       "reason": null,
-      "wp_id": 1062
+      "wp_id": 1062,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-371-xe-ga-co-phu-hop-voi-nguoi-thue-lan-dau-tai-ha-noi-khong/"
     }
   },
-  "updated_at": "2026-10-16T16:37:32.564028+00:00"
+  "updated_at": "2026-10-16T16:37:35.405121+00:00"
 }
