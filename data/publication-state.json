@@ -3930,13 +3930,14 @@
     "470": {
       "title": "Đi xe máy qua Trần Hưng Đạo và Lý Thường Kiệt: cách chọn tuyến dễ đi",
       "source_hash": "21dd4c932b70488f96248bef432ca778519f7b98a330a1ef962a5ac6f1578e76",
-      "checked_at": "2026-10-16T17:02:34.578121+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T17:02:36.673778+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 10,
       "slug": "excel-470-di-xe-may-qua-tran-hung-dao-va-ly-thuong-kiet-cach-chon-tuyen-de-di",
-      "reason": null
+      "reason": null,
+      "wp_id": 1161
     }
   },
-  "updated_at": "2026-10-16T17:02:34.578134+00:00"
+  "updated_at": "2026-10-16T17:02:36.673794+00:00"
 }
