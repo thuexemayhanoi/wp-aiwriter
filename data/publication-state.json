@@ -2431,7 +2431,17 @@
       "wp_id": 1045,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-354-nguoi-cao-nen-chon-xe-ga-theo-tu-the-ngoi-ra-sao/"
+    },
+    "355": {
+      "title": "Xe ga có phù hợp để chở thêm một người thường xuyên không?",
+      "source_hash": "f62d545566a4b060071bd1ddc6e1f2008c239d8428c171c258865c788f208eef",
+      "checked_at": "2026-10-16T16:34:28.443029+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 7,
+      "slug": "excel-355-xe-ga-co-phu-hop-de-cho-them-mot-nguoi-thuong-xuyen-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:34:27.129496+00:00"
+  "updated_at": "2026-10-16T16:34:28.443043+00:00"
 }
