@@ -3033,13 +3033,14 @@
     "401": {
       "title": "Xe điện có êm hơn xe xăng khi đi trong nội đô không?",
       "source_hash": "4b180167449a40ab60c76af26bf4b5348b5be516d6a8912e39605d83255a66e1",
-      "checked_at": "2026-10-16T16:44:45.803613+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:44:47.966869+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 8,
       "slug": "excel-401-xe-dien-co-em-hon-xe-xang-khi-di-trong-noi-do-khong",
-      "reason": null
+      "reason": null,
+      "wp_id": 1092
     }
   },
-  "updated_at": "2026-10-16T16:44:45.803633+00:00"
+  "updated_at": "2026-10-16T16:44:47.966890+00:00"
 }
