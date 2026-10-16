@@ -3007,14 +3007,16 @@
     "399": {
       "title": "Xe điện có phù hợp với người mới lái không?",
       "source_hash": "496f1224998055b6d2f30fb4ff5a821d87b94582838b6b63bc4b81804cbe40ca",
-      "checked_at": "2026-10-16T16:44:13.551132+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:44:16.829381+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 8,
       "slug": "excel-399-xe-dien-co-phu-hop-voi-nguoi-moi-lai-khong",
       "reason": null,
-      "wp_id": 1090
+      "wp_id": 1090,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-399-xe-dien-co-phu-hop-voi-nguoi-moi-lai-khong/"
     }
   },
-  "updated_at": "2026-10-16T16:44:13.551153+00:00"
+  "updated_at": "2026-10-16T16:44:16.829402+00:00"
 }
