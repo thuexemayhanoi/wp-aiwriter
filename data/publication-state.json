@@ -1339,7 +1339,17 @@
       "wp_id": 960,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-280-cach-ket-hop-ung-dung-ban-do-va-ung-dung-xe-dien-de-tranh-het-pin-giua-duon/"
+    },
+    "266": {
+      "title": "Ứng dụng hãng xe điện có thể hỗ trợ tìm xe trong bãi như thế nào?",
+      "source_hash": "6edf13f0bfb998f185a632d19cc40d2ef066f30780b589de49e4b385b23713ba",
+      "checked_at": "2026-10-16T16:06:21.330241+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 18,
+      "slug": "excel-266-ung-dung-hang-xe-dien-co-the-ho-tro-tim-xe-trong-bai-nhu-the-nao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T15:55:33.472754+00:00"
+  "updated_at": "2026-10-16T16:06:21.330258+00:00"
 }
