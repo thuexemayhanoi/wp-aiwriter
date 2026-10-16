@@ -1,3 +1,14 @@
+# Checkpoint — Excel #256–260 attempted, 4/5 verified on 2026-10-16
+
+- Owner approved finishing active Excel category `Cẩm nang > Ứng dụng > App xe máy` (#236–260; WordPress term ID **17**) in repo `thuexemayhanoi/wp-aiwriter`. Production is QA-success auto-publish, create-only, serialized. Never change the next category without explicit owner approval.
+- **Published and verified in WordPress:** #256 → **WP 946** (navigation without distraction); #257 → **WP 947** (phone holder/navigation safety); #259 → **WP 948** (translation apps for international renters); #260 → **WP 949** (saving places and manually prioritizing itinerary order). All four `VERIFIED`, `publish`, exact Excel category ID 17. Source files `posts/0256.md`, `posts/0257.md`, `posts/0259.md`, `posts/0260.md` have exact matrix metadata and passed QA.
+- **Remaining exception: Excel #258** — "Cách tiết kiệm pin điện thoại khi bật bản đồ liên tục". This is the **only incomplete ID of the active category**. Multiple attempts to write `posts/0258.md` were blocked by the GitHub connector's safety gate. **No `posts/0258.md` has been committed and no WP #258 exists**. Do not skip or mark completed. Resolve through an authorized tool/session, then run source QA and rely on the existing green-QA publisher to create/verify it once. Never duplicate or overwrite older posts.
+- Latest QA [38922832897](https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38922832897) and Publisher [38922874850](https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38922874850) both completed **SUCCESS**: **19 tests PASS, 95/95 authored files PASS, 0 QA FAIL**, no duplicate groups or sync errors.
+- WordPress totals as verified in publisher logs: **266 published posts site-wide**, **114/355 Excel published** (241 Excel topics remaining), active category **24/25** published. The last remaining active category post is #258. WordPress ID 17 count independently checked via WPVibe as 24.
+- **STOP before #261**: next Excel category is `Cẩm nang > Ứng dụng > App xe điện`. Before changing `data/publication-policy.json`, get separate owner approval to advance. No mass URL/SEO edits or Trash actions.
+
+---
+
 # Checkpoint 2026-10-16: ChatGPT batch #251–255 VERIFIED on WordPress
 
 - Owner authorized continued writing of `thuexemayhanoi/wp-aiwriter`, published by QA-success GitHub Actions to `https://blog.rentbikehanoi.com`. Exact Excel source `data/topics.json` unmodified; active category `Cẩm nang > Ứng dụng > App xe máy`, WordPress category 17.
