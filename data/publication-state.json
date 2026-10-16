@@ -3458,7 +3458,17 @@
       "wp_id": 1124,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-433-thue-xe-50cc-theo-tuan-nen-kiem-tra-nhung-gi-truoc-khi-nhan/"
+    },
+    "434": {
+      "title": "Thuê xe 50cc dài hạn cần quan tâm những bộ phận nào?",
+      "source_hash": "1f5f9319eef0a84f9a0fc1018c3f60e9dd15724a5c20a1dd80eacc86cf7b3841",
+      "checked_at": "2026-10-16T16:51:01.441986+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 5,
+      "slug": "excel-434-thue-xe-50cc-dai-han-can-quan-tam-nhung-bo-phan-nao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:50:59.785076+00:00"
+  "updated_at": "2026-10-16T16:51:01.442004+00:00"
 }
