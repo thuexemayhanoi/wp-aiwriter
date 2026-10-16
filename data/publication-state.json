@@ -210,13 +210,14 @@
     "184": {
       "title": "Wave và Sirius: khác nhau ở tư thế lái và cách vận hành thế nào?",
       "source_hash": "cd821783d49eee1758fd616d397e2c5c4e0d09ef7baaee68732b58e80f4e0f9b",
-      "checked_at": "2026-10-16T07:42:10.668500+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T07:42:12.648362+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 20,
       "slug": "excel-184-wave-va-sirius-khac-nhau-o-tu-the-lai-va-cach-van-hanh-the-nao",
-      "reason": null
+      "reason": null,
+      "wp_id": 861
     }
   },
-  "updated_at": "2026-10-16T07:42:10.668521+00:00"
+  "updated_at": "2026-10-16T07:42:12.648384+00:00"
 }
