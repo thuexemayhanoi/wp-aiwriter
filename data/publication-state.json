@@ -2227,13 +2227,14 @@
     "339": {
       "title": "Vision và Lead: mẫu nào phù hợp người thường xuyên đi quãng đường ngắn?",
       "source_hash": "a06a6330628276b6610813d89c3516cefaeb709c8024f1fc6e6b5f7f2b57902a",
-      "checked_at": "2026-10-16T16:31:46.212482+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:31:48.041081+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-339-vision-va-lead-mau-nao-phu-hop-nguoi-thuong-xuyen-di-quang-duong-ngan",
-      "reason": null
+      "reason": null,
+      "wp_id": 1030
     }
   },
-  "updated_at": "2026-10-16T16:31:46.212496+00:00"
+  "updated_at": "2026-10-16T16:31:48.041103+00:00"
 }
