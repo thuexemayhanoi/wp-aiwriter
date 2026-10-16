@@ -2942,14 +2942,16 @@
     "394": {
       "title": "Cách ước tính pin cần dùng cho một ngày di chuyển ở Hà Nội",
       "source_hash": "d67a3536b5abaed3a8ea0d9c30d183b9a4612a8b74e43ad9faa0cb137850d8a1",
-      "checked_at": "2026-10-16T16:43:17.349340+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:43:20.697505+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 8,
       "slug": "excel-394-cach-uoc-tinh-pin-can-dung-cho-mot-ngay-di-chuyen-o-ha-noi",
       "reason": null,
-      "wp_id": 1085
+      "wp_id": 1085,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-394-cach-uoc-tinh-pin-can-dung-cho-mot-ngay-di-chuyen-o-ha-noi/"
     }
   },
-  "updated_at": "2026-10-16T16:43:17.349359+00:00"
+  "updated_at": "2026-10-16T16:43:20.697527+00:00"
 }
