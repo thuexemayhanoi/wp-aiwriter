@@ -351,7 +351,17 @@
       "wp_id": 872,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-194-nhung-dong-xe-yamaha-co-trong-luong-de-lam-quen-cho-nguoi-moi/"
+    },
+    "195": {
+      "title": "Cách phân biệt các đời Honda Vision khi nhìn ngoại hình",
+      "source_hash": "5e238c108bc1914b12d92afb28c97c631c942717616944b1ccf4b90173883440",
+      "checked_at": "2026-10-16T07:45:17.730413+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 20,
+      "slug": "excel-195-cach-phan-biet-cac-doi-honda-vision-khi-nhin-ngoai-hinh",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T07:45:16.065558+00:00"
+  "updated_at": "2026-10-16T07:45:17.730427+00:00"
 }
