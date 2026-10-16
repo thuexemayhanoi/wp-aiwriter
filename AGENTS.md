@@ -56,3 +56,10 @@ Each article needs at least 350 words and 3 level-2 sections. This is only a mec
 - Duplicate posts 821–832 moved to WordPress trash (reversible, not permanently deleted). Verified all 12 are trashed and originals remain published. Do not reactivate Git it Write to import these.
 - For future duplicates: compare exact contents, preserve oldest established public URL, check categories/status and any known link/canonical considerations before moving only proven duplicate copies to trash. Owner authorized duplicate cleanup, not removal of unique posts. Never blindly delete from publisher code.
 - Excel #173 is already created in WordPress as ID 838, but ledger phase is `VERIFY_PENDING`. Reconcile and verify existing WP post rather than creating another.
+
+## Category review gate — checked 2026-10-16
+- The first complete Excel category is #146–200, `Cẩm nang > Hãng xe > Hãng xe máy`; all 55 titles were published. Current `scripts/engine.py` hard-gates WordPress publishing to this category and to IDs <=200. **Do not advance this gate without the owner's approval after a category-completion report.**
+- The next category #201–235 is `Cẩm nang > Hãng xe > Hãng xe điện`. Files #201–203 exist but are not published; #204–235 have not been authored. Remaining source #204–500 totals 297 articles.
+- Before owner approves next category, report legacy taxonomy fixes: WP 814 / Excel 165, WP 815 / Excel 166, and WP 823 / Excel 167 are under parent category 19 and should be checked against expected child category 20. WP ID 816 with old permalink /0167-2/ is missing; preserve the remaining URL /0167-3/ until a redirect is reviewed.
+- Keep Git it Write inactive, check for duplicate WordPress posts on each run, preserve one original per title and never permanently delete posts by default.
+- WordPress REST publisher is active and authenticated; source writer is separate. No unattended writing of 297 new articles is currently implemented.
