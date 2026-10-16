@@ -377,7 +377,17 @@
       "wp_id": 874,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-196-cach-phan-biet-mot-so-doi-air-blade-qua-thiet-ke-ben-ngoai/"
+    },
+    "197": {
+      "title": "Cách nhận biết các phiên bản Yamaha Sirius phổ biến",
+      "source_hash": "10ea5b804e3a9320510fe1e0ea58e3530c7abf731a304a5ac97cfcf4aa9419db",
+      "checked_at": "2026-10-16T07:45:30.895769+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 20,
+      "slug": "excel-197-cach-nhan-biet-cac-phien-ban-yamaha-sirius-pho-bien",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T07:45:29.019840+00:00"
+  "updated_at": "2026-10-16T07:45:30.895782+00:00"
 }
