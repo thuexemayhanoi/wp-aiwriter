@@ -4034,14 +4034,16 @@
     "478": {
       "title": "Đi xe máy trong Phố Cổ Hà Nội: cách xử lý mạng lưới phố một chiều",
       "source_hash": "14ed08897c02ada1b1baf068fdd99ee7b3c8440e296648e37cf75d71e4b25ff9",
-      "checked_at": "2026-10-16T17:05:40.291821+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T17:05:43.512596+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 11,
       "slug": "excel-478-di-xe-may-trong-pho-co-ha-noi-cach-xu-ly-mang-luoi-pho-mot-chieu",
       "reason": null,
-      "wp_id": 1169
+      "wp_id": 1169,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-478-di-xe-may-trong-pho-co-ha-noi-cach-xu-ly-mang-luoi-pho-mot-chieu/"
     }
   },
-  "updated_at": "2026-10-16T17:05:40.291872+00:00"
+  "updated_at": "2026-10-16T17:05:43.512612+00:00"
 }
