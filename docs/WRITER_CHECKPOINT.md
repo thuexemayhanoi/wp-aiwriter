@@ -1,73 +1,118 @@
 # Writer continuation checkpoint — 2026-10-16
 
-## Scope and current state
+## Current main and scope
 
-- Repository: `thuexemayhanoi/wp-aiwriter`; target: `https://blog.rentbikehanoi.com/` only.
-- Overall owner target: 500 topics. This repository contains the original Excel rows #146–500 (355 rows), with byte-for-byte source checksum enforced. No replacement Matrix was created.
-- Latest completed content ID: **179**.
-- Latest content commit: **0cceecf8c8d8f1817fa8b37d606d9f1f2fdd68e6**.
-- Publisher repair commit: **603256fde112073198b8755ecc96ad8b138ef88a**.
-- Authored numbered article files: **15**, #165–179; all have exact Excel metadata and `ready: true`.
-- Mechanical QA: **15 PASS, 0 FAIL**. Publisher safety regression tests: **12 PASS** locally and on GitHub Actions.
-- Created during this writer session: **8 articles**, #172–179, in four immediate two-article content pushes. The earlier seven files were preserved.
-- WordPress public REST inventory: **165 published posts across the entire site**. Do not present this as a verified count of the 500-row plan.
-- Confirmed exact matches to this repository's Excel: **19 published articles**, #146–164, each assigned leaf category **20**. The category ancestry is `Cẩm nang > Hãng xe > Hãng xe máy`.
-- #165–179: no public published exact-title matches at final verification. They are authored GitHub files, **not verified WordPress publications**.
-- New WordPress posts created by this session: **0**; new WordPress drafts created: **0**. Total existing draft inventory is **UNVERIFIED** because authenticated WordPress access is not configured.
+- Repository: `thuexemayhanoi/wp-aiwriter`; WordPress target: `https://blog.rentbikehanoi.com/` only.
+- Session started from verified main HEAD `e6461a390de45ea2baea59d48554974624d25c51`.
+- Latest completed content ID: **199**.
+- Latest content commit: **c0a09a6c24b23f310b11f629f4428f4a9d7016cd**.
+- Numbered authored files: **35**, exactly #165–199, with exact `matrix_id`, title and category_path from Excel and `ready: true`.
+- Created this session: **20 articles #180–199**, in **10 consecutive two-article pushes to main**. #197 received an additional editorial clarification in the last pair's commit.
+- Earlier completed files #165–179 were preserved. No publisher, workflow, tests, requirements or topic source code was changed in this session.
+- `data/topics.json` remains the original 355 rows #146–500. SHA-256: `01192fc9ae78d7ddced2b9c7afa85b0794081269c11b028fdcf56e18aba4ca60`.
+- **301 rows #200–500 remain unauthored.** The target of #500 is not complete.
+- No Cloud Browser, login prompts, WPVibe/WP Agent writes, external text generator, model API key or open-source AI was used. The active assistant authored the prose.
+- Terminal read/fetch, installation, tests and QA worked. HTTPS terminal push had no credential provider; content was committed and main advanced using the authenticated GitHub connector, with expected-head checks and no forced updates. Local worktree was synchronized to the resulting remote commits.
+- Writer execution stops at the current active-session output/context limit. Actions does not author text, and no background writer is claimed after the session ends.
 
-## Blocking authentication
+## Verification results
 
-GitHub Actions live run [38849757636](https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38849757636) passed tests and QA but failed safely at:
+- Final local mechanical QA: **35 PASS, 0 FAIL**.
+- Final local publisher regression suite: **12 PASS**.
+- GitHub Actions run [38856323063](https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38856323063), for content commit `c0a09a6`, independently passed **12 tests** and **35-article QA**; live sync failed at missing credentials.
+- New article lengths use the engine's Unicode word-token counter: **1,284–1,587**. This is not a claim about linguistic segmentation of Vietnamese words.
+- **31 internal-link occurrences** in #180–199 were checked against published WordPress REST inventory. All **17 unique public permalinks returned HTTP 200** in the final GET checks; 0 failures.
+- Exact metadata, required sections, placeholders, repeated paragraphs, near-duplicate text checks and source checksum passed the existing engine.
+- Mechanical near-duplicate PASS does not prove distinct search intent. Adjacent Excel rows were compared editorially; closely related titles and reserved scopes are recorded below.
+
+## Publication status — BLOCKED_AUTH
+
+**BLOCKED_AUTH** remains the exact checkpoint status. Latest live Actions log:
 
 `BLOCKED: missing WP_USERNAME / WP_APPLICATION_PASSWORD GitHub Secrets; zero WordPress writes`
 
-Earlier workflow runs appeared green because missing credentials caused an unlabelled dry run. That behavior has been corrected. Do not claim the live connection has been tested successfully.
+- Required encrypted Actions Secrets: `WP_USERNAME` and `WP_APPLICATION_PASSWORD`.
+- Do not request passwords in chat or put them in source, logs or checkpoint files.
+- Missing authentication must not stop content writing and pushing.
+- No workflow rebuild or authentication workaround was attempted.
+- New WordPress publish writes by this session: **0**.
+- New WordPress draft writes by this session: **0**.
+- Authenticated inventory, total drafts, actual create/readback and production remote-ledger writes remain **UNVERIFIED**.
+- `data/publication-state.json` is currently absent on main. No POST_INTENT or VERIFY_PENDING checkpoint was cleared or changed.
 
-The current Cloud Browser was signed out of GitHub when repository Secrets settings were opened. A one-time secure sign-in/setup is needed. Never request passwords in chat, commit them, print them, or consume WPVibe/WP Agent calls to work around the missing Secrets.
+## Public WordPress inventory and taxonomy discrepancy
 
-Once Secrets are configured, run the existing workflow with `live=true`, `batch_size=2`. The publication queue begins with **#165 and #166**, regardless of the writer's next IDs. Verify receipts, WordPress status, category, URL and content before reporting publication.
+Public REST snapshot at **2026-10-16 05:30:09 UTC / 12:30:09 Asia/Ho_Chi_Minh**:
 
-## Next writer batch
+- Published posts across the entire site: **168**. This is not the number completed from the Excel plan.
+- Exact-title public matches to Excel: **22**, #146–167.
+- #146–164: **19** public exact-title matches assigned category **20**, resolving to `Cẩm nang > Hãng xe > Hãng xe máy`.
+- #165–167: **3 public existing posts with incorrect Excel taxonomy**. They are in category **1 — Uncategorized**, not the expected leaf 20.
 
-Choose the smallest incomplete IDs after inspecting latest main and WordPress again:
+| Matrix ID | Existing WP ID | Existing permalink | Public categories |
+| --- | --- | --- | --- |
+| 165 | 814 | https://blog.rentbikehanoi.com/0165-2/ | [1] |
+| 166 | 815 | https://blog.rentbikehanoi.com/0166-2/ | [1] |
+| 167 | 816 | https://blog.rentbikehanoi.com/0167-2/ | [1] |
 
-1. **180** — Grande và Lead: so sánh theo nhu cầu đi làm hằng ngày
-2. **181** — FreeGo và Air Blade: khác biệt nào đáng chú ý khi đi phố?
+These pre-existing public posts were discovered through read-only inventory; they are **not** verified publications produced by this workflow. No content-hash equivalence to the repository files is claimed. Preserve their IDs, URLs, slugs and current content. Do not repost them to work around the category issue. Taxonomy reconciliation remains outstanding and cannot be performed without authenticated access under the current create-only publisher contract.
 
-Both category paths must remain exactly `Cẩm nang > Hãng xe > Hãng xe máy`.
+#168–199 have no exact-title public matches in that snapshot. Public title matching cannot reveal private drafts; authenticated duplicate checks are still required before any new POST.
 
-There are **321 rows #180–500 not yet authored**. Do not claim a background AI is writing them: Actions only publishes prose authored by an active Work session.
+## Writer queue versus publisher queue
 
-## Completed batches in this session
+### Next writer pair
 
-| IDs | Content commit | QA words |
+After re-reading latest main and complete files, choose the two smallest incomplete IDs:
+
+1. **200** — Chọn hãng xe theo tiêu chí dễ sử dụng, dễ sửa hay kiểu dáng: nên ưu tiên gì?
+   - Exact category_path: `Cẩm nang > Hãng xe > Hãng xe máy`.
+2. **201** — VinFast có những dòng xe máy điện nào phù hợp đi lại trong đô thị?
+   - Exact category_path: `Cẩm nang > Hãng xe > Hãng xe điện`.
+
+Research fresh official VinFast sources for #201; do not infer the current product range, charging rules, prices, battery plan or vehicle classification from old articles.
+
+### Publisher resume
+
+The publisher still scans authored files from #165, independently of the writer. When authentication is configured, run the existing workflow with `live=true`, `batch_size=2` and reconcile live authenticated inventory first.
+
+Given the public snapshot, #165–167 already exist and must be skipped. **The next potential NEW publication pair is #168–169**, provided authenticated inventory does not reveal existing drafts or unresolved ledger entries. Do not hard-code the old #165–166 creation expectation. Do not mark the existing three miscategorized posts as category-compliant successes.
+
+Full unambiguous category ancestry permits PUBLISH; missing or conflicting ancestry requires DRAFT with a reason. Maximum two new attempts per run. A failure in one article must not block unrelated eligible articles. Never clear uncertain write intents for a blind retry.
+
+## New content pushes
+
+| IDs | Main content commit | QA word tokens |
 | --- | --- | --- |
-| 172–173 | df0816e6e5ddb540d2cb60763ea744fd740bfe36 | 1,659 / 1,609 |
-| 174–175 | 7fea068abbe1796a37b8b4b7c727a0ad712f98f5 | 1,553 / 1,601 |
-| 176–177 | 444d542a66a471482347bcceb72bb3a8fb98fba3 | 1,496 / 1,478 |
-| 178–179 | 0cceecf8c8d8f1817fa8b37d606d9f1f2fdd68e6 | 1,483 / 1,517 |
+| 180–181 | 4685aa02fb1514a54e7add1b120bcb20a7dfc53c | 1,484 / 1,443 |
+| 182–183 | c6894c0b6fa55b601bd62b7344babecfb52a27e5 | 1,347 / 1,502 |
+| 184–185 | c39c6044ae187adf921cc864606183f4a25eb0a9 | 1,347 / 1,439 |
+| 186–187 | 77760881201efe8de7da7b3ebb03953183b86a8a | 1,428 / 1,424 |
+| 188–189 | 59bb994672f0c2150eac9dae2905c0ed4774468a | 1,384 / 1,395 |
+| 190–191 | 3251daf8a655fd784290d1d3e4e9e60e285681ac | 1,377 / 1,386 |
+| 192–193 | c2ff5d496bb9671f2f7b045112c0a2b8a3c409a5 | 1,353 / 1,396 |
+| 194–195 | 8a1a375d49f108b4b927dc75cb7740e58704b19a | 1,284 / 1,321 |
+| 196–197 | 2d2c55ba2255a606ac1d1dd117fb0cafa5c2f155 | 1,314 / 1,378 at first push |
+| 198–199, plus #197 clarification | c0a09a6c24b23f310b11f629f4428f4a9d7016cd | 1,310 / 1,336; #197 final 1,587 |
 
-Word counts are the repository's Unicode word-token counter, used consistently for QA; they are not a claim about Vietnamese linguistic word segmentation.
+Earlier session history: #172–173 `df0816e6e5ddb540d2cb60763ea744fd740bfe36`; #174–175 `7fea068abbe1796a37b8b4b7c727a0ad712f98f5`; #176–177 `444d542a66a471482347bcceb72bb3a8fb98fba3`; #178–179 `0cceecf8c8d8f1817fa8b37d606d9f1f2fdd68e6`. Publisher repair remains `603256fde112073198b8755ecc96ad8b138ef88a`.
 
-## Intent and source continuity
+## Editorial and source continuity
 
-- #172 and #173 focus on brand-specific parts procurement, compatibility and checking actual availability. They do not promise store stock or repair times.
-- #174 and #175 explain selection reasons. They do not repeat generation-identification articles #149–150 or provide unsupported sales/market-share claims. Keep later route-specific articles #309–310 distinct.
-- #176 focuses on transition from manual shifting to scooter controls. #177 compares dimensions and ergonomics using explicitly scoped official versions.
-- #178 is a comparative luggage decision, rather than rewriting the existing Lead-only article #156. #179 provides a general Janus/Vision comparison; keep future #335 focused specifically on ease of learning.
-- New article source links were researched from Honda Vietnam and Yamaha Motor Vietnam. Quantitative specs are tied to the cited versions. No rental prices, legal requirements, customer reviews or personal riding experiences were invented.
+- #180 compares a whole working day with Grande/Lead; reserve #336 for the narrower luggage decision. #181 explains concrete model configurations; future #337 needs a distinct applied decision scope, not a copy of the comparison table.
+- #182 covers design proportions, while the existing NVX article and future #343 focus on riding position. #183 compares Liberty/SH Mode brand styling and practical layout without asserting a universal winner.
+- #184 is Wave/Sirius ergonomics and controls; reserve #287 for the novice learning decision. #185 is a first walk-around of Blade versus Sirius, not a history or sales ranking.
+- #186 compares the components contributing to comfort, explicitly scoped to Future 125 FI and Jupiter Finn. Future #289 must not repeat the same model comparison; focus on applied fit selection if sufficient distinct value exists.
+- #187–188 discuss layout patterns within each scooter brand; #189 explains comparison categories for semi-automatic motorcycles. They are not replacements for #168–169 model-count articles or the earlier brand riding-feel article.
+- #190–191 use fresh SYM/Kymco official product sources. Legal points were checked against the Ministry of Public Security response published on Chinhphu.vn on 22/01/2026. Do not equate a 50cc sticker with legal classification or automatic rider eligibility.
+- #192 separates Piaggio Group, Piaggio brand and Vespa brand. #193 is a selected Honda storage overview, not a claim to rank the entire range. #194 scopes manufacturer weight labels carefully; handling suitability is not determined by mass alone.
+- #195–198 are practical identification procedures linked to the existing model-overview pages #154/#155/#150/#149. There is inherent topical overlap in the unchanged Excel titles. Keep these procedures focused on evidence, exact configurations and uncertainty; do not duplicate historical overviews. #197 was sharpened with a six-configuration lookup table after checking the existing Sirius article. Search-intent overlap remains an editorial monitoring concern despite mechanical PASS.
+- #199 distinguishes product recognition, brand origin, manufacturing origin and current versus historic catalogues. No Hanoi prevalence survey or unsupported most-popular ranking is invented.
+- New sources were read from Honda, Yamaha, SYM, Kymco, Piaggio Group, Piaggio, Vespa, Suzuki and the government policy portal. Each article links its own sources and scopes dated specifications. Conflicting or incomplete manufacturer fields were not silently filled with guesses.
+- Internal links point only to URLs observed in public published REST inventory; no future article URL or draft link was invented. Existing #165–167 links use their observed actual permalinks, preserving URLs despite their taxonomy discrepancy.
+- No rental prices, deposit waivers, availability promises, fabricated reviews, firsthand riding tests or fake statistics were added.
 
-## Publisher safeguards and practical limits
-
-- Never update or delete existing WordPress posts. Existing exact titles/slugs and existing drafts are skipped.
-- The durable ledger is `data/publication-state.json`, created when live publication becomes possible. Before POST, an intent is committed to main; after POST the WordPress ID is checkpointed. Do not remove unresolved intents merely to retry.
-- Ambiguous POST outcomes require reconciliation. GET retries are bounded; POST is issued once. A failure in one article does not prevent the other article in the pair from being attempted safely.
-- Successful HTTP creation must pass authenticated readback, public REST and permalink checks before a publish receipt is reported as verified.
-- Invalid articles are excluded individually while valid articles can continue. Missing or ambiguous full category ancestry creates a draft with a recorded reason.
-- Workflow concurrency serializes publishers in this repository. This is not a server-side global lock against unrelated external WordPress writers; inspect for duplicates before resuming.
-- Live connection, actual WordPress creation and remote write-ahead checkpointing remain **unverified in production** until the required Secrets are supplied. Tests include a local Git remote and a simulated accepted-POST timeout.
-
-## Resume commands
+## Resume commands and safeguards
 
 ```bash
 python -m pip install -r requirements.txt
@@ -75,4 +120,4 @@ python -m unittest discover -s tests -v
 python scripts/engine.py --mode qa
 ```
 
-Read latest Actions summaries and receipt artifacts, then continue the user's authorized two-article loop. Preserve URL/slug/canonical/taxonomy and all unrelated website configuration.
+Always re-read main, AGENTS.md, the source topics, authored files, current Actions receipts and publication ledger before choosing the next pair. Keep the original Excel bytes and metadata unchanged. Commit and push each passing pair promptly; do not wait for repeated batch approval. No background writing is implied by the scheduled publisher.
