@@ -1460,13 +1460,14 @@
     "275": {
       "title": "Cách xử lý khi ứng dụng xe điện không đồng bộ dữ liệu pin",
       "source_hash": "5f28f2ab9365cd653c94f1856413c3901d467f30e4639a9bc27c6ff6b94f8dc0",
-      "checked_at": "2026-10-16T16:11:48.092538+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:11:50.291820+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 18,
       "slug": "excel-275-cach-xu-ly-khi-ung-dung-xe-dien-khong-dong-bo-du-lieu-pin",
-      "reason": null
+      "reason": null,
+      "wp_id": 971
     }
   },
-  "updated_at": "2026-10-16T16:11:48.092552+00:00"
+  "updated_at": "2026-10-16T16:11:50.291837+00:00"
 }
