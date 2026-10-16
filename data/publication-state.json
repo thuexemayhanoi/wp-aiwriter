@@ -1785,13 +1785,14 @@
     "305": {
       "title": "Đi nhiều kilomet mỗi ngày có nên ưu tiên xe số?",
       "source_hash": "3ab728598b3b8b648d9e8a39f9b682a4a1292aee280840db152472a3f7e98b3b",
-      "checked_at": "2026-10-16T16:24:15.604271+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:24:17.510633+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 6,
       "slug": "excel-305-di-nhieu-kilomet-moi-ngay-co-nen-uu-tien-xe-so",
-      "reason": null
+      "reason": null,
+      "wp_id": 996
     }
   },
-  "updated_at": "2026-10-16T16:24:15.604284+00:00"
+  "updated_at": "2026-10-16T16:24:17.510649+00:00"
 }
