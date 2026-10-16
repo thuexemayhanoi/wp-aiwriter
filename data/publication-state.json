@@ -823,14 +823,16 @@
     "231": {
       "title": "Ứng dụng điện thoại của hãng xe điện có thể hỗ trợ những chức năng gì?",
       "source_hash": "cc39660910e63e8531a5f10e2700d66ad8dc3c318952dfeaf68fe5aa0433340f",
-      "checked_at": "2026-10-16T11:54:54.035903+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T11:54:56.761721+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 21,
       "slug": "excel-231-ung-dung-dien-thoai-cua-hang-xe-dien-co-the-ho-tro-nhung-chuc-nang-gi",
       "reason": null,
-      "wp_id": 921
+      "wp_id": 921,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-231-ung-dung-dien-thoai-cua-hang-xe-dien-co-the-ho-tro-nhung-chuc-nang-gi/"
     }
   },
-  "updated_at": "2026-10-16T11:54:54.035919+00:00"
+  "updated_at": "2026-10-16T11:54:56.761737+00:00"
 }
