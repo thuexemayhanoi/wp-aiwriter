@@ -914,13 +914,14 @@
     "238": {
       "title": "Cách lưu nhiều điểm dừng trên bản đồ khi đi xe máy cả ngày",
       "source_hash": "bce966a6a6a10e424599479acdc358c61eaabee4f14d7a42091281d0db077c75",
-      "checked_at": "2026-10-16T12:29:10.730481+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T12:29:12.719236+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 17,
       "slug": "excel-238-cach-luu-nhieu-diem-dung-tren-ban-do-khi-di-xe-may-ca-ngay",
-      "reason": null
+      "reason": null,
+      "wp_id": 928
     }
   },
-  "updated_at": "2026-10-16T12:29:10.730493+00:00"
+  "updated_at": "2026-10-16T12:29:12.719252+00:00"
 }
