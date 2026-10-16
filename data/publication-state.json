@@ -2665,7 +2665,17 @@
       "wp_id": 1063,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-372-xe-ga-di-ngoai-thanh-trong-ngay-co-phu-hop-khong/"
+    },
+    "373": {
+      "title": "Xe ga có thuận tiện khi đi nhiều điểm mua sắm trong ngày không?",
+      "source_hash": "563613b64ae7dcbdeac0f2fb8326a178ff8d4d9b507a153f4675398286744aa7",
+      "checked_at": "2026-10-16T16:37:42.990420+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 7,
+      "slug": "excel-373-xe-ga-co-thuan-tien-khi-di-nhieu-diem-mua-sam-trong-ngay-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:37:41.727184+00:00"
+  "updated_at": "2026-10-16T16:37:42.990433+00:00"
 }
