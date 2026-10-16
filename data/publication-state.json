@@ -1508,7 +1508,17 @@
       "wp_id": 974,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-283-yamaha-sirius-co-uu-diem-gi-khi-di-lai-trong-pho-dong/"
+    },
+    "284": {
+      "title": "Honda Blade phù hợp với người mới dùng xe số như thế nào?",
+      "source_hash": "edf80ec3a3d0b731812449dd3941f2f3ff69b2e2d328f17a78e3b77116604e9f",
+      "checked_at": "2026-10-16T16:15:28.693983+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 6,
+      "slug": "excel-284-honda-blade-phu-hop-voi-nguoi-moi-dung-xe-so-nhu-the-nao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:15:26.697146+00:00"
+  "updated_at": "2026-10-16T16:15:28.693999+00:00"
 }
