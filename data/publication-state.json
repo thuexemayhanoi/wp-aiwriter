@@ -2097,13 +2097,14 @@
     "329": {
       "title": "Honda Lead có tiện cho người thường xuyên mang nhiều đồ không?",
       "source_hash": "1da7a1a3fbc40c3f7e9f76f8fd5de77654717768884d1a532fc2a044a84bcd99",
-      "checked_at": "2026-10-16T16:30:04.187490+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:30:06.347915+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-329-honda-lead-co-tien-cho-nguoi-thuong-xuyen-mang-nhieu-do-khong",
-      "reason": null
+      "reason": null,
+      "wp_id": 1020
     }
   },
-  "updated_at": "2026-10-16T16:30:04.187503+00:00"
+  "updated_at": "2026-10-16T16:30:06.347934+00:00"
 }
