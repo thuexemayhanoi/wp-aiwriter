@@ -858,7 +858,17 @@
       "wp_id": 923,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-233-nhung-thong-so-pin-nao-quan-trong-nhat-khi-tim-hieu-mot-mau-xe-dien/"
+    },
+    "234": {
+      "title": "Dung lượng pin và quãng đường công bố: nên đọc thông số thế nào?",
+      "source_hash": "8ac345c99dd73e3ae9b5bd311cbc384d4eb5fa91a7adabbd6bff4345ef00e430",
+      "checked_at": "2026-10-16T12:10:56.896383+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 21,
+      "slug": "excel-234-dung-luong-pin-va-quang-duong-cong-bo-nen-doc-thong-so-the-nao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T12:10:55.515414+00:00"
+  "updated_at": "2026-10-16T12:10:56.896396+00:00"
 }
