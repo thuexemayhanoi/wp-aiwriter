@@ -2353,7 +2353,17 @@
       "wp_id": 1039,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-348-xe-ga-co-phu-hop-voi-nguoi-thuong-xuyen-di-ngo-nho-khong/"
+    },
+    "349": {
+      "title": "Xe ga có dễ điều khiển khi trời mưa không?",
+      "source_hash": "63cf40d9fd878f3e6eade08fc3b9ed5d683c6faef832faa2cc399bf6d5779ffb",
+      "checked_at": "2026-10-16T16:33:30.155615+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 7,
+      "slug": "excel-349-xe-ga-co-de-dieu-khien-khi-troi-mua-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:33:28.844459+00:00"
+  "updated_at": "2026-10-16T16:33:30.155631+00:00"
 }
