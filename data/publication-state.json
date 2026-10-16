@@ -3016,7 +3016,17 @@
       "wp_id": 1090,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-399-xe-dien-co-phu-hop-voi-nguoi-moi-lai-khong/"
+    },
+    "400": {
+      "title": "Xe điện có dễ điều khiển trong ngõ nhỏ và phố đông không?",
+      "source_hash": "c555bb86a00b9a3ea9cdddab187a108b6f15828944533d3e4a685c628b65c4a4",
+      "checked_at": "2026-10-16T16:44:18.362892+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 8,
+      "slug": "excel-400-xe-dien-co-de-dieu-khien-trong-ngo-nho-va-pho-dong-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:44:16.829402+00:00"
+  "updated_at": "2026-10-16T16:44:18.362907+00:00"
 }
