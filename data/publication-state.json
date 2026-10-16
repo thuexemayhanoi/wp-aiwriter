@@ -1833,7 +1833,17 @@
       "wp_id": 999,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-308-xe-so-co-phu-hop-voi-nguoi-can-di-nhieu-khu-vuc-trong-mot-ngay/"
+    },
+    "309": {
+      "title": "Honda Wave đi đường hỗn hợp nội đô và ngoại thành ra sao?",
+      "source_hash": "8d3a4ed3336bc98ee0bdc0ea124c7ace16e5411e4414d1d801e26bfde33fa761",
+      "checked_at": "2026-10-16T16:25:00.035355+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 6,
+      "slug": "excel-309-honda-wave-di-duong-hon-hop-noi-do-va-ngoai-thanh-ra-sao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:24:58.563386+00:00"
+  "updated_at": "2026-10-16T16:25:00.035368+00:00"
 }
