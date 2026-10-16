@@ -345,13 +345,23 @@ class SEOEngineTest(unittest.TestCase):
         self.site.org_name = 'Thuê xe máy Nguyễn Hà'
         self.site.posts[0]['body'] += ('<p>Cho Thuê Xe Máy Nguyễn Tú tại 112 Nguyễn Văn Cừ nhận đặt xe. '
                                        'Xem <a href="https://thuexemaynguyentu.com/">website cửa hàng</a>.</p>')
-        self.site.posts[2]['body'] += '<p>Thuê xe máy Hà Nội cần chuẩn bị giấy tờ.</p>'
+        self.site.posts[2]['body'] += ('<p>Thuê xe máy Hà Nội cần chuẩn bị giấy tờ.</p>'
+                                       '<p>Thuê xe máy Nguyễn Hà</p><p>Địa chỉ cửa hàng ở Long Biên.</p>')
         cli.main(['run', '--full'])
         rows = [r for r in self.matrix() if r['Issue Code'] == 'A-BRAND-MISMATCH']
         self.assertEqual(len(rows), 1)
         self.assertIn('"Nguyễn Tú" (1 URL', rows[0]['Evidence'])
         self.assertIn('nguyentu', rows[0]['Evidence'])
         self.assertNotIn('Hà Nội"', rows[0]['Evidence'])  # a city after "thuê xe máy" is not a brand
+        self.assertIn('"Nguyễn Hà" (1 URL)', rows[0]['Evidence'])  # "Nguyễn Hà Địa(chỉ)" is the site brand
+
+    def test_post_in_default_category(self):
+        self.site.cats.append({'id': 1, 'name': 'Uncategorized', 'parent': 0, 'slug': 'uncategorized', 'count': 1})
+        self.site.posts[5]['cat'] = 1
+        cli.main(['run', '--full'])
+        rows = self.matrix()
+        self.assertIn('T-UNCATEGORIZED', self.codes_for(rows, 106))
+        self.assertFalse([r for r in rows if r['Issue Code'] == 'T-ARCHIVE-NO-DESCRIPTION' and 'uncategorized' in r['URL']])
 
     def test_noindex_page_skips_tag_checks(self):
         self.site.posts[1]['description'] = ''

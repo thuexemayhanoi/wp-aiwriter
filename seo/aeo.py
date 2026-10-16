@@ -42,8 +42,10 @@ def brand_audit(cfg, corpus, copies, brand):
         if key in copies:
             continue
         for name in brand_mentions(corpus.text.get(key, ''), core.split()[0]):
-            names[name].add(r['url'])
-    others = {n: urls for n, urls in names.items() if norm(n) != norm(core) and not norm(core).startswith(norm(n))}
+            # "Nguyễn Hà Địa(chỉ)" is the site brand followed by the next block's first word.
+            same = norm(name).startswith(norm(core)) or norm(core).startswith(norm(name))
+            names[core if same else name].add(r['url'])
+    others = {n: urls for n, urls in names.items() if n != core}
     if not others:
         return None
     parts = []
@@ -65,13 +67,20 @@ def audit(cfg, corpus, records, site, discovery, duplicates=None):
     th = cfg['thresholds']
     issues = []
     copies = set(duplicates or {})
-    org_names, website_names, org_sameas, org_nodes = Counter(), Counter(), False, 0
+    org_names, website_names, org_nodes = Counter(), Counter(), 0
+    sameas_origins = set()
     author_names, generic_author_posts = Counter(), []
-    for key, r in corpus.records.items():
-        page = r.get('page') or {}
+    home_url = cfg['site_url'].rstrip('/') + '/'
+    home = ((site.get('archives') or {}).get(home_url)) or {}
+    pages = [(key, r, r.get('page') or {}) for key, r in corpus.records.items()]
+    pages.append(('home', {'type': 'home', 'url': home_url}, home))
+    for key, r, page in pages:
         if page.get('status') not in (200, None):
             continue
-        blocks = corpus.blocks(key)
+        if key == 'home':
+            blocks = []
+        else:
+            blocks = corpus.blocks(key)
         if r['type'] == 'post' and key not in copies:
             first = next((full for full, _ in blocks if full), '')
             n = word_count(first)
@@ -100,7 +109,7 @@ def audit(cfg, corpus, records, site, discovery, duplicates=None):
                 if node.get('name'):
                     org_names[node['name'].strip()] += 1
                 if 'sameAs' in node.get('keys', []):
-                    org_sameas = True
+                    sameas_origins.add(node.get('origin') or 'other')
             if 'WebSite' in types and node.get('name'):
                 website_names[node['name'].strip()] += 1
         if r['type'] == 'post' and key not in copies:
@@ -125,9 +134,10 @@ def audit(cfg, corpus, records, site, discovery, duplicates=None):
     mismatch = brand_audit(cfg, corpus, copies, brand)
     if mismatch:
         issues.append(mismatch)
-    if org_nodes and not org_sameas:
-        issues.append(make('A-ORG-SAMEAS-MISSING', site_target, key_extra='org',
-                           evidence=f'{org_nodes} node Organization, không node nào có sameAs'))
+    if org_nodes and 'yoast' not in sameas_origins:
+        issues.append(make('A-ORG-SAMEAS-MISSING', site_target, key_extra='org', evidence=(
+            f'{org_nodes} node Organization/LocalBusiness; Organization của Yoast không có sameAs'
+            + ('; sameAs chỉ có trong schema ngoài Yoast (theme/plugin)' if sameas_origins else ''))))
     issues.append(make('A-FOCUS-KEYPHRASE-BLOCKED', site_target, key_extra='yoast',
                        evidence='focus keyphrase là post meta riêng tư của Yoast; REST công khai không trả về'))
     summary = {

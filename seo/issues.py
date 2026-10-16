@@ -121,6 +121,8 @@ CATALOG = {
     # --- archives ----------------------------------------------------------------------------
     'T-ARCHIVE-ERROR': ('P1', 'VERIFIED', 'MEDIUM', 'Trang chuyên mục/lưu trữ trả lỗi', 'Kiểm tra chuyên mục và permalink.'),
     'T-ARCHIVE-NOINDEX': ('P2', 'NEEDS_REVIEW', 'HIGH', 'Trang chuyên mục bị noindex', 'Xác nhận chủ đích trong Yoast.'),
+    'T-UNCATEGORIZED': ('P2', 'VERIFIED', 'LOW', 'Bài nằm trong chuyên mục mặc định (Uncategorized)',
+                        'Gán chuyên mục đúng theo nội dung (cần duyệt); không đổi URL.'),
     'T-ARCHIVE-NO-DESCRIPTION': ('P3', 'INFO', 'LOW', 'Chuyên mục chưa có mô tả giới thiệu (hub mỏng)',
                                  'Viết đoạn giới thiệu chuyên mục làm trang hub (cần duyệt).'),
     'T-PERF-POOR': ('P2', 'VERIFIED', 'LOW', 'PageSpeed (lab/field) dưới ngưỡng tốt', 'Tối ưu tài nguyên theo chẩn đoán Lighthouse.'),

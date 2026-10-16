@@ -11,6 +11,7 @@ KEY_SCHEMA_TYPES = {'Organization', 'LocalBusiness', 'WebSite', 'WebPage', 'Arti
 ARTICLE_TYPES = {'Article', 'BlogPosting', 'NewsArticle', 'TechArticle'}
 OTHER_SEO_PLUGINS = {'seo-by-rank-math', 'all-in-one-seo-pack', 'autodescription', 'wp-seopress',
                      'slim-seo', 'squirrly-seo', 'seo-simple-pack'}
+DEFAULT_CATEGORY_SLUGS = ('uncategorized', 'chua-phan-loai')
 
 
 def _robots_text(page, record=None):
@@ -168,11 +169,14 @@ def audit(cfg, records, site, terms, state, link_status, psi=None, duplicates=No
                                evidence=f'{kind} {item_id} was in the previous index'))
 
     copies = set(duplicates or {})
+    default_cats = {c['id'] for c in terms.get('categories', []) if c.get('slug') in DEFAULT_CATEGORY_SLUGS}
     for r in records:
         page = r.get('page')
         if not page or f"{r['type']}:{r['id']}" in copies:
             continue  # a published copy is reported once as T-DUPLICATE-COPY
         check_page(cfg, page, r, r['type'], link_status, records_by_url, issues, groups)
+        if r['type'] == 'post' and set(r.get('categories') or []) & default_cats:
+            issues.append(make('T-UNCATEGORIZED', r, evidence='chuyên mục: ' + ', '.join(r.get('category_paths') or [])))
         if page.get('status') != 200:
             continue
         missing_alt = [i['src'] for i in r.get('images', []) if i.get('alt') is None or not str(i.get('alt')).strip()]
@@ -213,7 +217,7 @@ def audit(cfg, records, site, terms, state, link_status, psi=None, duplicates=No
         check_page(cfg, page, pseudo, kind, link_status, records_by_url, issues, groups)
         if kind == 'category' and url in cat_by_link and page.get('status') == 200:
             cat = cat_by_link[url]
-            if not cat.get('description') and cat.get('count', 0) > 0:
+            if not cat.get('description') and cat.get('count', 0) > 0 and cat.get('slug') not in DEFAULT_CATEGORY_SLUGS:
                 issues.append(make('T-ARCHIVE-NO-DESCRIPTION', pseudo, evidence=f"{cat.get('path')} ({cat.get('count')} bài)"))
     for r in records:
         page = r.get('page') or {}
