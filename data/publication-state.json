@@ -1820,7 +1820,17 @@
       "wp_id": 998,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-307-di-xe-so-trong-pho-co-co-bat-tien-khong/"
+    },
+    "308": {
+      "title": "Xe số có phù hợp với người cần đi nhiều khu vực trong một ngày?",
+      "source_hash": "fa01d296cf31c6c8144aed8f74269a14f82c363c541b5d79f1ff06fb61ebd765",
+      "checked_at": "2026-10-16T16:24:53.797551+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 6,
+      "slug": "excel-308-xe-so-co-phu-hop-voi-nguoi-can-di-nhieu-khu-vuc-trong-mot-ngay",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:24:50.917505+00:00"
+  "updated_at": "2026-10-16T16:24:53.797564+00:00"
 }
