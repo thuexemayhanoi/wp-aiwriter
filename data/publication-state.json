@@ -1378,7 +1378,17 @@
       "wp_id": 964,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-268-cach-theo-doi-lich-su-sac-pin-bang-ung-dung/"
+    },
+    "269": {
+      "title": "Cách kiểm tra quãng đường đã đi của xe điện trên điện thoại",
+      "source_hash": "e5a0519e051d7de1e768599320b34c2a9c409d937c3d45285735c1358ea33870",
+      "checked_at": "2026-10-16T16:06:43.272497+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 18,
+      "slug": "excel-269-cach-kiem-tra-quang-duong-da-di-cua-xe-dien-tren-dien-thoai",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:06:41.177116+00:00"
+  "updated_at": "2026-10-16T16:06:43.272510+00:00"
 }
