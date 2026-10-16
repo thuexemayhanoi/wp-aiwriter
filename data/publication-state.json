@@ -1200,13 +1200,14 @@
     "258": {
       "title": "Cách tiết kiệm pin điện thoại khi bật bản đồ liên tục",
       "source_hash": "85de42de12ba095a1a12fd84d7add5615aec84480b7fcd3d2aa586a6345f8533",
-      "checked_at": "2026-10-16T15:38:06.385717+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T15:38:08.348077+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 17,
       "slug": "excel-258-cach-tiet-kiem-pin-dien-thoai-khi-bat-ban-do-lien-tuc",
-      "reason": null
+      "reason": null,
+      "wp_id": 950
     }
   },
-  "updated_at": "2026-10-16T15:38:06.385735+00:00"
+  "updated_at": "2026-10-16T15:38:08.348100+00:00"
 }
