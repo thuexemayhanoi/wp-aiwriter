@@ -4151,13 +4151,14 @@
     "487": {
       "title": "Đi xe máy từ Bồ Đề vào trung tâm Hà Nội: gợi ý tuyến dễ đi",
       "source_hash": "c409118d01a1a5f162021766c8dc34c225ca2ae3ffe13e5af8aa12bf525120e9",
-      "checked_at": "2026-10-16T17:08:57.415358+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T17:08:59.564924+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 12,
       "slug": "excel-487-di-xe-may-tu-bo-de-vao-trung-tam-ha-noi-goi-y-tuyen-de-di",
-      "reason": null
+      "reason": null,
+      "wp_id": 1178
     }
   },
-  "updated_at": "2026-10-16T17:08:57.415371+00:00"
+  "updated_at": "2026-10-16T17:08:59.564941+00:00"
 }
