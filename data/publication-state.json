@@ -4134,7 +4134,17 @@
       "wp_id": 1176,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-485-di-xe-may-o-pho-co-cuoi-tuan-cach-tranh-duong-han-che-va-pho-di-bo/"
+    },
+    "486": {
+      "title": "Đi xe máy từ Long Biên vào Hồ Hoàn Kiếm: nên chọn cầu nào?",
+      "source_hash": "74c3e57d79eea9855c038db512215aa0446c68fd8b78c6550e294bc557d248f0",
+      "checked_at": "2026-10-16T17:08:50.882368+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 12,
+      "slug": "excel-486-di-xe-may-tu-long-bien-vao-ho-hoan-kiem-nen-chon-cau-nao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T17:07:00.792356+00:00"
+  "updated_at": "2026-10-16T17:08:50.882386+00:00"
 }
