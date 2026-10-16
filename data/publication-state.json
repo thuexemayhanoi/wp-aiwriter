@@ -4008,13 +4008,14 @@
     "476": {
       "title": "Đi xe máy từ Hoàn Kiếm sang Long Biên: cách chọn cầu và khung giờ",
       "source_hash": "07ad5b5ce9b7882f80d8718ad62e7a30efc177711188a61469167088d689df58",
-      "checked_at": "2026-10-16T17:03:36.442133+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T17:03:38.944082+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 10,
       "slug": "excel-476-di-xe-may-tu-hoan-kiem-sang-long-bien-cach-chon-cau-va-khung-gio",
-      "reason": null
+      "reason": null,
+      "wp_id": 1167
     }
   },
-  "updated_at": "2026-10-16T17:03:36.442147+00:00"
+  "updated_at": "2026-10-16T17:03:38.944098+00:00"
 }
