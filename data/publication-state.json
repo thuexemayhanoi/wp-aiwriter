@@ -4086,13 +4086,14 @@
     "482": {
       "title": "Đi xe máy qua Hàng Ngang – Hàng Đào: lưu ý khi khu vực đông người đi bộ",
       "source_hash": "f68dec099ccc2544c1910fc38ceb9d5b59532cd0500efba3b9f440b09e0f4ad2",
-      "checked_at": "2026-10-16T17:06:05.643694+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T17:06:07.534049+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 11,
       "slug": "excel-482-di-xe-may-qua-hang-ngang-hang-dao-luu-y-khi-khu-vuc-dong-nguoi-di-bo",
-      "reason": null
+      "reason": null,
+      "wp_id": 1173
     }
   },
-  "updated_at": "2026-10-16T17:06:05.643706+00:00"
+  "updated_at": "2026-10-16T17:06:07.534065+00:00"
 }
