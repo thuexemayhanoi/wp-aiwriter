@@ -278,6 +278,33 @@ def apply(cfg, wp, max_fixes=1, confirm=False):
     return results
 
 
+def plan_mirror_rollback(entry):
+    """Revert only the exact Markdown link previously inserted by this engine.
+
+    Refuse the WordPress rollback if the mirrored source cannot be reconciled.
+    Do not replace unrelated content or guess where an edited link came from.
+    """
+    mirror = entry.get('markdown_mirror') or ''
+    if not mirror.startswith('updated '):
+        return None
+    filename = mirror[len('updated '):].strip()
+    if not re.fullmatch(r'\d{4}\.md', filename):
+        raise RuntimeError('BLOCKED: unsafe Markdown mirror filename')
+    md_path = common.path('posts/' + filename)
+    if not md_path.is_file():
+        raise RuntimeError('BLOCKED: Markdown mirror missing; reconcile manually')
+    source = md_path.read_text(encoding='utf-8')
+    anchor = entry['anchor_text']
+    target = entry['target_url']
+    pattern = re.compile(r'(?<!\!)\[(' + r'\s+'.join(re.escape(w) for w in anchor.split())
+                         + r')\]\(' + re.escape(target) + r'\)')
+    hits = list(pattern.finditer(source))
+    if len(hits) != 1:
+        raise RuntimeError('BLOCKED: Markdown mirror changed; reconcile before rollback')
+    hit = hits[0]
+    return md_path, source[:hit.start()] + hit.group(1) + source[hit.end():]
+
+
 def rollback(cfg, wp, fix_id, confirm=False):
     if not confirm:
         raise RuntimeError('rollback requires explicit confirmation (SEO_APPLY_CONFIRM=yes)')
@@ -299,11 +326,17 @@ def rollback(cfg, wp, fix_id, confirm=False):
         raise RuntimeError('BLOCKED: source URL, slug or publication status changed')
     if current.get('modified_gmt') != entry['modified_gmt_after']:
         raise RuntimeError('post edited after the fix; manual rollback required to avoid overwriting newer edits')
+    if not links_to((current.get('content') or {}).get('raw', ''), entry['target_url']):
+        raise RuntimeError('BLOCKED: applied internal link not present; reconcile manually')
+    mirror_plan = plan_mirror_rollback(entry)
     wp.update_content(entry['post_id'], backup['content_raw_before'])
     check = wp.raw_post(entry['post_id'])
     if (check.get('content') or {}).get('raw', '') != backup['content_raw_before']:
         raise RuntimeError('rollback verification failed')
-    entry.update({'phase': 'ROLLED_BACK', 'rolled_back_at': iso()})
+    if mirror_plan is not None:
+        mirror_plan[0].write_text(mirror_plan[1], encoding='utf-8')
+    entry.update({'phase': 'ROLLED_BACK', 'rolled_back_at': iso(),
+                  'markdown_mirror_rollback': ('restored' if mirror_plan else 'not_applicable')})
     write_json(applied_path(), applied)
     return entry
 
