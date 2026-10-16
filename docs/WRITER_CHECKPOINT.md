@@ -1,4 +1,22 @@
-# Writer continuation checkpoint — 2026-10-16
+# Writer continuation checkpoint — updated 2026-10-16 (through #203)
+
+## Latest verified writer progress
+
+- Repository: `thuexemayhanoi/wp-aiwriter`; target WordPress: `https://blog.rentbikehanoi.com/`.
+- Latest authored Excel ID: **203**. Numbered files: **39**, exactly **#165–203**; the original Excel topic matrix `data/topics.json` remains unchanged.
+- New in the latest assistant session: **four articles #200–203**, pushed to **main in two separate two-article commits** without forced updates:
+  - **#200–201**: `b4ca16cb016858467175c60d9817f398fd7337df`
+  - **#202–203**: `776ffc400d99fa5a7eeddbd80ad42cc64fdc6c17`
+- Verified GitHub Actions run [38857643948](https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38857643948): **39 authored, 39 QA PASS, 0 QA FAIL; 12/12 publisher safety tests PASS**. Action overall status is failure only at **WordPress authentication**.
+- Publication remains **BLOCKED_AUTH**: `WP_USERNAME` and `WP_APPLICATION_PASSWORD` Actions Secrets are absent; **zero WordPress writes** in this session. Do not interpret pushed Markdown as published WordPress content. No secret was written to source files.
+- **297 Excel rows #204–500 remain unwritten**. Next writer batch: **#204–205**, exact titles and full category paths must be read from `data/topics.json`.
+- User authorized ongoing small writes: **2–5 articles per GitHub push**, with validation and expected-HEAD protection to avoid overwriting concurrent writers. Current publisher implementation independently caps live publishing attempts at two new posts per run.
+- Earlier WordPress snapshot identified existing public #165–167 in Uncategorized; do not recreate them. The next potentially new publish pair is still #168–169, subject to authenticated duplicate and ledger checks after credentials are configured.
+- Use this latest section as authoritative for counts and next IDs; the prior checkpoint is preserved below as historical context. No unattended AI-writing process is implied between active sessions.
+
+---
+
+## Archived checkpoint — verified through #199
 
 ## Current main and scope
 
