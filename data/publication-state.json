@@ -2444,7 +2444,17 @@
       "wp_id": 1046,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-355-xe-ga-co-phu-hop-de-cho-them-mot-nguoi-thuong-xuyen-khong/"
+    },
+    "356": {
+      "title": "Xe ga nào có cốp rộng phù hợp người mang laptop và đồ cá nhân?",
+      "source_hash": "d89ca3e032b152069eb15dbf17ffe12bb0b9214e858e46d2f6a957553bc50697",
+      "checked_at": "2026-10-16T16:34:55.138233+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 7,
+      "slug": "excel-356-xe-ga-nao-co-cop-rong-phu-hop-nguoi-mang-laptop-va-do-ca-nhan",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:34:33.128494+00:00"
+  "updated_at": "2026-10-16T16:34:55.138251+00:00"
 }
