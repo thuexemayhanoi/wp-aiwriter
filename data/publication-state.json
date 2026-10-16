@@ -1850,13 +1850,14 @@
     "310": {
       "title": "Yamaha Sirius đi đường hỗn hợp có gì đáng chú ý?",
       "source_hash": "cc3d20c24f7778f20ed1029fc591a28906289377f94a9d944b57a946adc405c6",
-      "checked_at": "2026-10-16T16:25:06.315367+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:25:08.334653+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 6,
       "slug": "excel-310-yamaha-sirius-di-duong-hon-hop-co-gi-dang-chu-y",
-      "reason": null
+      "reason": null,
+      "wp_id": 1001
     }
   },
-  "updated_at": "2026-10-16T16:25:06.315381+00:00"
+  "updated_at": "2026-10-16T16:25:08.334670+00:00"
 }
