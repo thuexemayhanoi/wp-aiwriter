@@ -3462,13 +3462,14 @@
     "434": {
       "title": "Thuê xe 50cc dài hạn cần quan tâm những bộ phận nào?",
       "source_hash": "1f5f9319eef0a84f9a0fc1018c3f60e9dd15724a5c20a1dd80eacc86cf7b3841",
-      "checked_at": "2026-10-16T16:51:01.441986+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:51:03.715368+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 5,
       "slug": "excel-434-thue-xe-50cc-dai-han-can-quan-tam-nhung-bo-phan-nao",
-      "reason": null
+      "reason": null,
+      "wp_id": 1125
     }
   },
-  "updated_at": "2026-10-16T16:51:01.442004+00:00"
+  "updated_at": "2026-10-16T16:51:03.715389+00:00"
 }
