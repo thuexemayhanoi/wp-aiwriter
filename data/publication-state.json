@@ -3202,14 +3202,16 @@
     "414": {
       "title": "Chọn xe điện theo quãng đường hay theo dung lượng pin: tiêu chí nào quan trọng hơn?",
       "source_hash": "95abab8832068b2bb89a7033769f83f7257f9cb9220ebbcf6ce48b39974a8307",
-      "checked_at": "2026-10-16T16:47:06.659558+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:47:10.088034+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 8,
       "slug": "excel-414-chon-xe-dien-theo-quang-duong-hay-theo-dung-luong-pin-tieu-chi-nao-quan-tro",
       "reason": null,
-      "wp_id": 1105
+      "wp_id": 1105,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-414-chon-xe-dien-theo-quang-duong-hay-theo-dung-luong-pin-tieu-chi-nao-quan-tro/"
     }
   },
-  "updated_at": "2026-10-16T16:47:06.659578+00:00"
+  "updated_at": "2026-10-16T16:47:10.088056+00:00"
 }
