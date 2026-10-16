@@ -1456,7 +1456,17 @@
       "wp_id": 970,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-274-cach-kiem-tra-tinh-trang-tram-sac-truoc-khi-di-chuyen/"
+    },
+    "275": {
+      "title": "Cách xử lý khi ứng dụng xe điện không đồng bộ dữ liệu pin",
+      "source_hash": "5f28f2ab9365cd653c94f1856413c3901d467f30e4639a9bc27c6ff6b94f8dc0",
+      "checked_at": "2026-10-16T16:11:48.092538+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 18,
+      "slug": "excel-275-cach-xu-ly-khi-ung-dung-xe-dien-khong-dong-bo-du-lieu-pin",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:11:46.284655+00:00"
+  "updated_at": "2026-10-16T16:11:48.092552+00:00"
 }
