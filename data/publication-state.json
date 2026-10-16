@@ -1213,13 +1213,14 @@
     "261": {
       "title": "Ứng dụng xe điện thường hiển thị những thông tin pin nào?",
       "source_hash": "c4418fc7c5f1158813fef26ecaad80c83d1161b74be41fce96da25cae16897bd",
-      "checked_at": "2026-10-16T15:53:49.940774+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T15:53:52.035154+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 18,
       "slug": "excel-261-ung-dung-xe-dien-thuong-hien-thi-nhung-thong-tin-pin-nao",
-      "reason": null
+      "reason": null,
+      "wp_id": 951
     }
   },
-  "updated_at": "2026-10-16T15:53:49.940791+00:00"
+  "updated_at": "2026-10-16T15:53:52.035171+00:00"
 }
