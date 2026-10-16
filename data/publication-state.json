@@ -2071,14 +2071,16 @@
     "327": {
       "title": "Honda Vision phù hợp với người cần xe nhẹ và dễ điều khiển như thế nào?",
       "source_hash": "5dcc6662d5504909f5331be14a05d1e31ad39da7a563c954efc3dee185e2b1ae",
-      "checked_at": "2026-10-16T16:29:53.628222+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:29:56.640006+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-327-honda-vision-phu-hop-voi-nguoi-can-xe-nhe-va-de-dieu-khien-nhu-the-nao",
       "reason": null,
-      "wp_id": 1018
+      "wp_id": 1018,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-327-honda-vision-phu-hop-voi-nguoi-can-xe-nhe-va-de-dieu-khien-nhu-the-nao/"
     }
   },
-  "updated_at": "2026-10-16T16:29:53.628238+00:00"
+  "updated_at": "2026-10-16T16:29:56.640023+00:00"
 }
