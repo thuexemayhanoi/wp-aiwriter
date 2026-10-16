@@ -2305,13 +2305,14 @@
     "345": {
       "title": "Xe ga 125cc phù hợp với kiểu hành trình nào?",
       "source_hash": "7c6f3e3f090b37eab6fcca8d8463782e975d7577f0cff0fcf245a1a82cf3ec17",
-      "checked_at": "2026-10-16T16:32:44.341780+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:32:46.639526+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-345-xe-ga-125cc-phu-hop-voi-kieu-hanh-trinh-nao",
-      "reason": null
+      "reason": null,
+      "wp_id": 1036
     }
   },
-  "updated_at": "2026-10-16T16:32:44.341795+00:00"
+  "updated_at": "2026-10-16T16:32:46.639542+00:00"
 }
