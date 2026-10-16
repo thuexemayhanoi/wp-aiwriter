@@ -1512,14 +1512,16 @@
     "284": {
       "title": "Honda Blade phù hợp với người mới dùng xe số như thế nào?",
       "source_hash": "edf80ec3a3d0b731812449dd3941f2f3ff69b2e2d328f17a78e3b77116604e9f",
-      "checked_at": "2026-10-16T16:15:30.785152+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:15:33.557845+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 6,
       "slug": "excel-284-honda-blade-phu-hop-voi-nguoi-moi-dung-xe-so-nhu-the-nao",
       "reason": null,
-      "wp_id": 975
+      "wp_id": 975,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-284-honda-blade-phu-hop-voi-nguoi-moi-dung-xe-so-nhu-the-nao/"
     }
   },
-  "updated_at": "2026-10-16T16:15:30.785169+00:00"
+  "updated_at": "2026-10-16T16:15:33.557863+00:00"
 }
