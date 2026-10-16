@@ -3198,7 +3198,17 @@
       "wp_id": 1104,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-413-xe-dien-nho-gon-co-loi-the-gi-khi-gui-xe-o-trung-tam/"
+    },
+    "414": {
+      "title": "Chọn xe điện theo quãng đường hay theo dung lượng pin: tiêu chí nào quan trọng hơn?",
+      "source_hash": "95abab8832068b2bb89a7033769f83f7257f9cb9220ebbcf6ce48b39974a8307",
+      "checked_at": "2026-10-16T16:47:04.114235+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 8,
+      "slug": "excel-414-chon-xe-dien-theo-quang-duong-hay-theo-dung-luong-pin-tieu-chi-nao-quan-tro",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:47:02.561192+00:00"
+  "updated_at": "2026-10-16T16:47:04.114249+00:00"
 }
