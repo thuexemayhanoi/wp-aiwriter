@@ -2977,7 +2977,17 @@
       "wp_id": 1087,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-396-khi-nao-nen-sac-xe-dien-thay-vi-cho-pin-gan-can/"
+    },
+    "397": {
+      "title": "Có nên sạc xe điện qua đêm không?",
+      "source_hash": "2df28ba7ad8ca2005f3358a8ae6790cd50057ff7983b52a3701fc72ee19d82ac",
+      "checked_at": "2026-10-16T16:43:56.445946+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 8,
+      "slug": "excel-397-co-nen-sac-xe-dien-qua-dem-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:43:54.820007+00:00"
+  "updated_at": "2026-10-16T16:43:56.445960+00:00"
 }
