@@ -4229,13 +4229,14 @@
     "493": {
       "title": "Đi xe máy từ Long Biên đến ga Hà Nội: gợi ý lộ trình dễ nhớ",
       "source_hash": "a300d48742577a086ff0b24c5a6c0028834d09886d49727fe8412f8a8d75965f",
-      "checked_at": "2026-10-16T17:09:57.978121+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T17:10:00.010287+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 12,
       "slug": "excel-493-di-xe-may-tu-long-bien-den-ga-ha-noi-goi-y-lo-trinh-de-nho",
-      "reason": null
+      "reason": null,
+      "wp_id": 1184
     }
   },
-  "updated_at": "2026-10-16T17:09:57.978135+00:00"
+  "updated_at": "2026-10-16T17:10:00.010304+00:00"
 }
