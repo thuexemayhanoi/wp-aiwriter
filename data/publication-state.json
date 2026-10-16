@@ -2041,7 +2041,17 @@
       "wp_id": 1015,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-324-thue-xe-so-theo-tuan-nen-chon-theo-tieu-chi-nao/"
+    },
+    "325": {
+      "title": "Thuê xe số dài hạn: nên ưu tiên độ bền, mức xăng hay sự thoải mái?",
+      "source_hash": "7b4e17a7f74a225bd4da7a9dc55bd70ebf72169e3699b6dbd2d076e39322c262",
+      "checked_at": "2026-10-16T16:27:39.840168+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 6,
+      "slug": "excel-325-thue-xe-so-dai-han-nen-uu-tien-do-ben-muc-xang-hay-su-thoai-mai",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:27:38.423470+00:00"
+  "updated_at": "2026-10-16T16:27:39.840181+00:00"
 }
