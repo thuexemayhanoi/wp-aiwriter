@@ -2145,7 +2145,17 @@
       "wp_id": 1023,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-332-yamaha-grande-phu-hop-voi-nguoi-uu-tien-su-em-ai-nhu-the-nao/"
+    },
+    "333": {
+      "title": "Yamaha FreeGo có phù hợp với người đi làm hằng ngày không?",
+      "source_hash": "d03098691271fa8fe1eebeb1dfb430377f5e3fb32e47fdaa4bec1cce5a8246aa",
+      "checked_at": "2026-10-16T16:30:49.937490+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 7,
+      "slug": "excel-333-yamaha-freego-co-phu-hop-voi-nguoi-di-lam-hang-ngay-khong",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T16:30:48.565000+00:00"
+  "updated_at": "2026-10-16T16:30:49.937505+00:00"
 }
