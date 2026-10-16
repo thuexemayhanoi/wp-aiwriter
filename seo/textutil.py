@@ -18,7 +18,7 @@ và của là có cho khi với các những một được để trong này kh�
 nào gì bạn người cũng đã sẽ đang rất nhiều ít hơn nhất vì nếu mà thế làm ra vào lên xuống lại
 còn chỉ đều vẫn phải cần nhưng tuy do bởi về sau trước trên dưới giữa ở tại qua bằng thể
 cách việc điều mình họ chúng ta tôi anh chị em ai đâu sao bao nhiêu thường luôn mỗi mọi
-các nhé nha ạ đó đây kia vậy rằng thì là lúc khá hết đủ quá cùng nữa vừa mới chưa
+các nhé nha ạ đó đây kia vậy rằng thì là lúc khá hết đủ quá cùng nữa vừa mới chưa hãy
 the a an of to and or in on for with is are be by at from as it this that
 '''.split())
 

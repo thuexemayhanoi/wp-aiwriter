@@ -146,6 +146,9 @@ CATALOG = {
                       'Thêm trang vào chuyên mục/menu/bài liên quan.'),
     # --- content -----------------------------------------------------------------------------
     'C-THIN': ('P2', 'VERIFIED', 'MEDIUM', 'Nội dung mỏng', 'Mở rộng nội dung có giá trị hoặc gộp vào bài liên quan (cần duyệt).'),
+    'C-THIN-PAGE': ('P2', 'NEEDS_REVIEW', 'MEDIUM', 'Trang dịch vụ/khu vực/hub có ít nội dung biên tập',
+                    'Chủ sở hữu bổ sung nội dung thật (dịch vụ, khu vực phục vụ, câu hỏi thường gặp); '
+                    'không tự tạo giá, đánh giá hay thông tin doanh nghiệp.'),
     'C-DUPLICATE-CONTENT': ('P1', 'VERIFIED', 'HIGH', 'Nội dung gần như trùng lặp hoàn toàn với URL khác',
                             'Chọn URL chính; viết lại khác biệt hoặc hợp nhất kèm 301 (cần duyệt).'),
     'C-NEAR-DUPLICATE': ('P2', 'NEEDS_REVIEW', 'MEDIUM', 'Nội dung trùng lặp một phần đáng kể với URL khác',

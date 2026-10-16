@@ -412,6 +412,18 @@ class CompactAndHostTest(unittest.TestCase):
             os.environ.pop('SEO_ROOT', None)
             shutil.rmtree(tmp, ignore_errors=True)
 
+    def test_subtopic_gaps_are_cluster_specific_whole_phrases(self):
+        from seo import content
+        cluster = [content.prose_tokens([(t, [(t, False)])]) for t in [
+            'Khu vực trung tâm có vùng phát thải thấp. Kết luận ngắn.',
+            'Người đi xe nên biết vùng phát thải thấp. Kết luận ngắn.',
+            'Vùng phát thải thấp áp dụng theo giai đoạn. Kết luận ngắn.']]
+        cited = content.prose_tokens([('Nguồn: Sở Xây dựng Hà Nội, truy cập ngày 1/10', [('Nguồn', False)])])
+        self.assertEqual(cited, [])
+        found = dict(content.cluster_subtopics(cluster, ['đi xe máy ở hoàn kiếm'], lambda a, b: 0.05,
+                                               widespread=frozenset({('kết', 'luận')})))
+        self.assertEqual(found, {'vùng phát thải thấp': 3})
+
     def test_hosts_answering_404_to_everything_are_not_dead_links(self):
         status = {f'https://help.example/{i}': {'kind': 'external', 'status': 404} for i in range(6)}
         status.update({f'https://ok.example/{i}': {'kind': 'external', 'status': 404 if i == 0 else 200} for i in range(6)})

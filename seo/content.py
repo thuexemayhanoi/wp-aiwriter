@@ -9,7 +9,7 @@ import re
 from . import common
 from .corpus import key_of
 from .issues import make
-from .textutil import STOPWORDS, candidate_pairs, cosine, jaccard, norm, syllables
+from .textutil import STOPWORDS, ascii_fold, candidate_pairs, cosine, jaccard, norm, syllables
 
 LEGAL = re.compile(r'(nghị định|thông tư|(?<!quy )\bluật\b|xử phạt|mức phạt|bị phạt|giấy phép lái xe|bằng lái|'
                    r'nồng độ cồn|tốc độ tối đa|đăng ký xe|quy định của pháp luật|theo quy định pháp luật|'
@@ -19,8 +19,9 @@ PHONE = re.compile(r'(?<![\d+])(?:\+84[\s.]?|0)(?:[235789]\d)(?:[\s.]?\d){7}(?!\
 EMAIL = re.compile(r'[\w.+-]+@[\w-]+(?:\.[\w-]+)+')
 YEAR = re.compile(r'(?<!\d)(20[12]\d)(?!\d)')
 TRUST_PAGES = {'about': ('gioi-thieu', 'about', 've-chung-toi'), 'contact': ('lien-he', 'contact'),
-               'privacy': ('chinh-sach-bao-mat', 'privacy', 'quyen-rieng-tu'),
+               'privacy': ('bao-mat', 'privacy', 'quyen-rieng-tu'),
                'terms': ('dieu-khoan', 'terms', 'chinh-sach')}
+UTILITY_PAGES = ('lien-he', 'contact')
 
 
 def phone_digits(value):
@@ -64,6 +65,9 @@ def audit(cfg, corpus, records, terms, gsc=None, duplicates=None):
                 issues.append(make('C-THIN', r, evidence=f'{words} từ (âm tiết)'))
             if not r.get('external_links'):
                 issues.append(make('C-NO-SOURCES', r, evidence='0 liên kết ra ngoài trong nội dung'))
+        elif r['type'] == 'page' and words < th['thin_words_p1'] and not any(s in r.get('slug', '') for s in UTILITY_PAGES):
+            issues.append(make('C-THIN-PAGE', r, evidence=f'{words} từ trong nội dung trang qua REST '
+                                                          '(theme có thể hiển thị thêm phần động như danh sách bài)'))
         legal = LEGAL.findall(text)
         if legal and r['type'] == 'post':
             if not any(official(l['href'], domains) for l in r.get('external_links', [])):
@@ -159,6 +163,96 @@ def audit(cfg, corpus, records, terms, gsc=None, duplicates=None):
     return issues, cannibal_rows, gap_rows, stats
 
 
+SOURCE_LINE = re.compile(r'(truy cập|nguồn|tham khảo|accessed|retrieved)', re.I)
+PHRASE_TOKEN = re.compile(r'\w+|[.!?;:,()"“”]', re.UNICODE)
+
+
+def prose_tokens(blocks):
+    """Syllables of a post's prose: citation/source lines and link lists are left out, and
+    punctuation stays as a token so phrases never run across sentences."""
+    toks = []
+    for full, segments in blocks:
+        linked = sum(len(t) for t, is_link in segments if is_link)
+        if not full or SOURCE_LINE.search(full) or linked >= 0.5 * len(full):
+            continue
+        toks.extend(PHRASE_TOKEN.findall(norm(full)))
+        toks.append('.')
+    return toks
+
+
+def frequent_bigrams(token_lists, min_share=0.3):
+    """Bigrams present in at least ``min_share`` of the documents of one cluster."""
+    df = Counter()
+    for toks in token_lists:
+        df.update(set(zip(toks, toks[1:])))
+    floor = max(3, int(len(token_lists) * min_share))
+    return {bg for bg, n in df.items() if n >= floor}
+
+
+def cluster_subtopics(token_lists, titles, global_share, max_len=5, bind=0.6, min_lift=2.0, max_global=0.5,
+                      widespread=frozenset()):
+    """Phrases that characterise one cluster but no title names: [(phrase, docs), ...].
+
+    Bigrams frequent in the cluster are kept only when they are cluster-specific (doc share at
+    least ``min_lift`` times the site-wide share; boilerplate such as "kết luận" or "nguồn tham
+    khảo" occurs everywhere), then grown along dominant neighbours so fragments such as
+    "nguồn tham" or "hiểm cài" become whole phrases ("nguồn tham khảo", "mũ bảo hiểm cài quai").
+    """
+    def usable(tok):
+        return tok[:1].isalnum() and tok not in STOPWORDS and not tok.isdigit() and len(tok) > 1
+    size = max(1, len(token_lists))
+    doc_bigrams = Counter()
+    for toks in token_lists:
+        doc_bigrams.update({(a, b) for a, b in zip(toks, toks[1:]) if usable(a) and usable(b)})
+    floor = max(3, int(size * 0.3))
+    candidates = []
+    for (a, b), n in doc_bigrams.most_common(400):
+        if n < floor:
+            break
+        if (a, b) in widespread:  # frequent in many clusters: generic vocabulary, not a subtopic
+            continue
+        share = global_share(a, b)
+        if share > max_global or (n / size) < min_lift * share:
+            continue
+        candidates.append(((a, b), n))
+    wanted = {bg for bg, _ in candidates}
+    positions = defaultdict(list)
+    for d, toks in enumerate(token_lists):
+        for s in range(len(toks) - 1):
+            if (toks[s], toks[s + 1]) in wanted:
+                positions[(toks[s], toks[s + 1])].append((d, s))
+
+    def grow(bigram):
+        """Extend along the neighbour shared by most occurrences ("thông đường" → "an toàn giao thông đường bộ")."""
+        phrase, occ = list(bigram), positions[bigram]
+        while len(phrase) < max_len:
+            right = Counter(token_lists[d][s + len(phrase)] for d, s in occ if s + len(phrase) < len(token_lists[d]))
+            tok, cnt = right.most_common(1)[0] if right else ('', 0)
+            if not usable(tok) or cnt < bind * len(occ):
+                break
+            occ = [(d, s) for d, s in occ if s + len(phrase) < len(token_lists[d]) and token_lists[d][s + len(phrase)] == tok]
+            phrase.append(tok)
+        while len(phrase) < max_len:
+            left = Counter(token_lists[d][s - 1] for d, s in occ if s > 0)
+            tok, cnt = left.most_common(1)[0] if left else ('', 0)
+            if not usable(tok) or cnt < bind * len(occ):
+                break
+            occ = [(d, s - 1) for d, s in occ if s > 0 and token_lists[d][s - 1] == tok]
+            phrase.insert(0, tok)
+        return ' '.join(phrase)
+
+    found = {}
+    for bigram, n in candidates:
+        phrase = grow(bigram)
+        words = phrase.split()
+        pairs = list(zip(words, words[1:]))
+        if any(phrase in t for t in titles) or 2 * sum(p in widespread for p in pairs) >= len(pairs):
+            continue
+        found[phrase] = max(n, found.get(phrase, 0))
+    longest = [p for p in found if not any(p != q and f' {p} ' in f' {q} ' for q in found)]
+    return sorted(((p, found[p]) for p in longest), key=lambda kv: -kv[1])
+
+
 def content_gaps(cfg, corpus, published, terms, gsc):
     rows = []
     cats = terms.get('categories', [])
@@ -172,32 +266,30 @@ def content_gaps(cfg, corpus, published, terms, gsc):
         if r['type'] == 'post' and r.get('categories'):
             clusters[r['categories'][0]].append(k)
     path_of = {c['id']: c.get('path') for c in cats}
-    title_terms = set()
-    for r in published.values():
-        toks = syllables(r['title'])
-        title_terms.update(a + '_' + b for a, b in zip(toks, toks[1:]))
+    titles = [' '.join(syllables(r['title'])) for r in published.values()]
+    n_docs = max(1, len(corpus.text))
+    tokens = {cid: [prose_tokens(corpus.blocks(k)) for k in members] for cid, members in clusters.items()}
+    spread = Counter()
+    for toks in tokens.values():
+        spread.update(frequent_bigrams(toks))
+    widespread = frozenset(bg for bg, n in spread.items() if n >= max(3, len(clusters) // 4))
     for cid, members in clusters.items():
         if len(members) < 5:
             rows.append({'cluster': path_of.get(cid), 'gap_type': 'THIN_CLUSTER', 'priority': 'P3',
                          'evidence': f'{len(members)} bài', 'verification': 'VERIFIED',
                          'suggested_action': 'Cụm ít bài: cân nhắc bổ sung chủ đề hỗ trợ trong đợt viết sau (cần duyệt).'})
-        df = Counter()
-        for k in members:
-            toks = syllables(corpus.text.get(k, ''))
-            bigrams = {a + '_' + b for a, b in zip(toks, toks[1:])
-                       if a not in STOPWORDS and b not in STOPWORDS and not a.isdigit() and not b.isdigit()}
-            df.update(bigrams)
-        floor = max(3, int(len(members) * 0.3))
-        uncovered = [(t, n) for t, n in df.most_common(200) if n >= floor and t not in title_terms
-                     and corpus.idf(t) > 1.6]
+        uncovered = cluster_subtopics(tokens[cid], titles, lambda a, b: corpus.body.df.get(f'{a}_{b}', 0) / n_docs,
+                                      widespread=widespread)
         if uncovered:
             rows.append({'cluster': path_of.get(cid), 'gap_type': 'FREQUENT_SUBTOPIC_WITHOUT_DEDICATED_TITLE',
                          'priority': 'P3', 'verification': 'NEEDS_REVIEW',
-                         'evidence': ', '.join(f"{t.replace('_', ' ')} ({n}/{len(members)} bài)" for t, n in uncovered[:6]),
-                         'suggested_action': 'Giả thuyết: chủ đề con được nhắc nhiều nhưng chưa có bài riêng. Xác minh nhu cầu tìm kiếm (GSC/keyword) trước khi lập kế hoạch.'})
-    slugs = ' '.join(r['slug'] for r in published.values() if r['type'] == 'page')
+                         'evidence': ', '.join(f"{phrase} ({n}/{len(members)} bài)" for phrase, n in uncovered[:6]),
+                         'suggested_action': 'Giả thuyết: chủ đề con đặc trưng của cụm được nhắc nhiều nhưng chưa có bài riêng. '
+                                             'Xác minh nhu cầu tìm kiếm (GSC/keyword) trước khi lập kế hoạch.'})
+    pages = [r for r in published.values() if r['type'] == 'page']
+    names = ' '.join(f"{r['slug']} {ascii_fold(r['title']).replace(' ', '-')}" for r in pages)
     for name, needles in TRUST_PAGES.items():
-        if not any(n in slugs for n in needles):
+        if not any(n in names for n in needles):
             rows.append({'cluster': 'Site', 'gap_type': f'TRUST_PAGE_MISSING:{name}', 'priority': 'P2',
                          'evidence': 'không tìm thấy trang có slug ' + '/'.join(needles) + ' trên blog',
                          'verification': 'NEEDS_REVIEW',
