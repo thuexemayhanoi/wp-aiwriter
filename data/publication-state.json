@@ -4216,14 +4216,16 @@
     "492": {
       "title": "Đi xe máy từ Long Biên đến Hồ Tây: nên đi qua cầu nào?",
       "source_hash": "ef5cc3c2d56fed107df7e7f44219ef4643a1a491272d19550f363270c4fbc25b",
-      "checked_at": "2026-10-16T17:09:53.513701+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T17:09:56.295346+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 12,
       "slug": "excel-492-di-xe-may-tu-long-bien-den-ho-tay-nen-di-qua-cau-nao",
       "reason": null,
-      "wp_id": 1183
+      "wp_id": 1183,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-492-di-xe-may-tu-long-bien-den-ho-tay-nen-di-qua-cau-nao/"
     }
   },
-  "updated_at": "2026-10-16T17:09:53.513716+00:00"
+  "updated_at": "2026-10-16T17:09:56.295364+00:00"
 }
