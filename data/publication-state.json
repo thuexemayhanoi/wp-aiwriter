@@ -2006,13 +2006,14 @@
     "322": {
       "title": "Xe số có dễ gửi ở bãi xe chật không?",
       "source_hash": "3cb5cdbf436e1119db2280184d8dc54f6783fa01eefae4197da5bd7fab52e631",
-      "checked_at": "2026-10-16T16:27:19.404903+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:27:21.298634+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 6,
       "slug": "excel-322-xe-so-co-de-gui-o-bai-xe-chat-khong",
-      "reason": null
+      "reason": null,
+      "wp_id": 1013
     }
   },
-  "updated_at": "2026-10-16T16:27:19.404916+00:00"
+  "updated_at": "2026-10-16T16:27:21.298649+00:00"
 }
