@@ -862,14 +862,16 @@
     "234": {
       "title": "Dung lượng pin và quãng đường công bố: nên đọc thông số thế nào?",
       "source_hash": "8ac345c99dd73e3ae9b5bd311cbc384d4eb5fa91a7adabbd6bff4345ef00e430",
-      "checked_at": "2026-10-16T12:10:58.751047+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T12:11:01.483939+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 21,
       "slug": "excel-234-dung-luong-pin-va-quang-duong-cong-bo-nen-doc-thong-so-the-nao",
       "reason": null,
-      "wp_id": 924
+      "wp_id": 924,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-234-dung-luong-pin-va-quang-duong-cong-bo-nen-doc-thong-so-the-nao/"
     }
   },
-  "updated_at": "2026-10-16T12:10:58.751063+00:00"
+  "updated_at": "2026-10-16T12:11:01.483957+00:00"
 }
