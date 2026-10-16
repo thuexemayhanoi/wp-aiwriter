@@ -2955,14 +2955,16 @@
     "395": {
       "title": "Cách lên kế hoạch sạc khi thuê xe điện nhiều ngày",
       "source_hash": "8afff1fb6cb4cb9366e44d2ee7520d05e38fa3bfaeac65d6cc0f2637f7124dbe",
-      "checked_at": "2026-10-16T16:43:24.473391+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:43:28.074293+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 8,
       "slug": "excel-395-cach-len-ke-hoach-sac-khi-thue-xe-dien-nhieu-ngay",
       "reason": null,
-      "wp_id": 1086
+      "wp_id": 1086,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-395-cach-len-ke-hoach-sac-khi-thue-xe-dien-nhieu-ngay/"
     }
   },
-  "updated_at": "2026-10-16T16:43:24.473409+00:00"
+  "updated_at": "2026-10-16T16:43:28.074314+00:00"
 }
