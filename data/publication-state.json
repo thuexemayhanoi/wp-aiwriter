@@ -641,13 +641,14 @@
     "217": {
       "title": "VinFast Feliz và Klara khác nhau thế nào về kiểu dáng và tư thế lái?",
       "source_hash": "08a55c0511b47b9558462c799798549c549b21599f9ffb80a7bba8ad046519a5",
-      "checked_at": "2026-10-16T09:54:49.164396+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T09:54:51.340917+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 21,
       "slug": "excel-217-vinfast-feliz-va-klara-khac-nhau-the-nao-ve-kieu-dang-va-tu-the-lai",
-      "reason": null
+      "reason": null,
+      "wp_id": 907
     }
   },
-  "updated_at": "2026-10-16T09:54:49.164415+00:00"
+  "updated_at": "2026-10-16T09:54:51.340939+00:00"
 }
