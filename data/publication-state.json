@@ -3228,13 +3228,14 @@
     "416": {
       "title": "Xe 50cc phù hợp với nhu cầu đi lại nào trong Hà Nội?",
       "source_hash": "ac3f5fe0a2d132598098fd3c8b62b458d247dad70f8e6bf46facc621753d5ccb",
-      "checked_at": "2026-10-16T16:48:02.311104+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:48:04.536555+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 5,
       "slug": "excel-416-xe-50cc-phu-hop-voi-nhu-cau-di-lai-nao-trong-ha-noi",
-      "reason": null
+      "reason": null,
+      "wp_id": 1107
     }
   },
-  "updated_at": "2026-10-16T16:48:02.311124+00:00"
+  "updated_at": "2026-10-16T16:48:04.536576+00:00"
 }
