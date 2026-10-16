@@ -2396,14 +2396,16 @@
     "352": {
       "title": "Cách làm quen với ga và phanh khi mới dùng xe tay ga",
       "source_hash": "71994604441e6c9ec40c0f8fb41d323141c66bc5b08e1c8e8dda2ec053a50f17",
-      "checked_at": "2026-10-16T16:34:12.012889+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-16T16:34:14.815231+00:00",
+      "phase": "VERIFIED",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-352-cach-lam-quen-voi-ga-va-phanh-khi-moi-dung-xe-tay-ga",
       "reason": null,
-      "wp_id": 1043
+      "wp_id": 1043,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/excel-352-cach-lam-quen-voi-ga-va-phanh-khi-moi-dung-xe-tay-ga/"
     }
   },
-  "updated_at": "2026-10-16T16:34:12.012907+00:00"
+  "updated_at": "2026-10-16T16:34:14.815253+00:00"
 }
