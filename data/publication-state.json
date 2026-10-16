@@ -1018,13 +1018,14 @@
     "246": {
       "title": "Cách đặt nhắc giờ đổ xăng khi dùng xe thuê nhiều ngày",
       "source_hash": "40bcd16132b935d99a102767da813cfe3dbb32a5c39f2d9f9b38ad98d1141a77",
-      "checked_at": "2026-10-16T13:48:15.990261+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T13:48:18.407492+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 17,
       "slug": "excel-246-cach-dat-nhac-gio-do-xang-khi-dung-xe-thue-nhieu-ngay",
-      "reason": null
+      "reason": null,
+      "wp_id": 936
     }
   },
-  "updated_at": "2026-10-16T13:48:15.990277+00:00"
+  "updated_at": "2026-10-16T13:48:18.407511+00:00"
 }
