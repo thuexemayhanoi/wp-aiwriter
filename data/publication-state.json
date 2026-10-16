@@ -2760,13 +2760,14 @@
     "380": {
       "title": "Janus, Vision hay Grande: cách chọn theo vóc dáng người lái",
       "source_hash": "2356d6732c55fac06b47bb04e261d0c9a56f75ed16ff5c6621b3cba78f6388ca",
-      "checked_at": "2026-10-16T16:38:46.375015+00:00",
-      "phase": "POST_INTENT",
+      "checked_at": "2026-10-16T16:38:48.218675+00:00",
+      "phase": "VERIFY_PENDING",
       "expected_status": "publish",
       "category_id": 7,
       "slug": "excel-380-janus-vision-hay-grande-cach-chon-theo-voc-dang-nguoi-lai",
-      "reason": null
+      "reason": null,
+      "wp_id": 1071
     }
   },
-  "updated_at": "2026-10-16T16:38:46.375028+00:00"
+  "updated_at": "2026-10-16T16:38:48.218691+00:00"
 }
