@@ -585,7 +585,17 @@
       "wp_id": 902,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/excel-212-xe-dien-yadea-co-nhung-diem-nao-de-lam-quen-voi-nguoi-moi/"
+    },
+    "213": {
+      "title": "Dat Bike phù hợp với người cần quãng đường di chuyển dài ra sao?",
+      "source_hash": "d78dbe858554c44f4fc738543c49d8cbda0dfcfa5f0a48bd1ea0275fc45feb44",
+      "checked_at": "2026-10-16T09:12:22.775708+00:00",
+      "phase": "POST_INTENT",
+      "expected_status": "publish",
+      "category_id": 21,
+      "slug": "excel-213-dat-bike-phu-hop-voi-nguoi-can-quang-duong-di-chuyen-dai-ra-sao",
+      "reason": null
     }
   },
-  "updated_at": "2026-10-16T09:12:21.486510+00:00"
+  "updated_at": "2026-10-16T09:12:22.775721+00:00"
 }
