@@ -1,0 +1,38 @@
+{
+  "target_site": "https://blog.rentbikehanoi.com",
+  "snapshot_date": "2026-10-17",
+  "scope": "pre-edit rollback snapshot for small reversible three-page batch",
+  "restoration_note": "Restore post_content from this file with standard WordPress post editing/revisions; do not blindly overwrite newer changes",
+  "pages": [
+    {
+      "id": 26,
+      "title": "Thuê xe máy Long Biên",
+      "content": "<p class=\"lead\"><strong>Thuê xe máy Long Biên</strong> tại Nguyễn Hà thuận tiện cho khách ở khu Bồ Đề và khu vực gần Bến xe Gia Lâm.</p><h2>Địa chỉ cửa hàng</h2><p>Ngõ 5 Nguyễn Văn Cừ, Bồ Đề, Long Biên, Hà Nội. Khách thuê ngắn hạn nhận và trả xe trực tiếp tại cửa hàng.</p><h2>Xe đang có</h2><p>Xe số Honda Wave, Yamaha Sirius, Honda Blade; xe ga Vision, Air Blade, Click, Lead, Yamaha Mio/Mio Ultimo; ngoài ra có 50cc và xe điện tùy thời điểm.</p><h2>Thuê tuần và tháng</h2><p>Hợp đồng tuần hoặc tháng có thể áp dụng giao/nhận xe theo chính sách 50.000đ/lượt trong bán kính 10 km từ Hồ Hoàn Kiếm. Khách có thể tra cứu <a href=\"https://blog.rentbikehanoi.com/bang-gia/\">bảng giá, mức đặt cọc và điều kiện giao nhận</a> trước khi đặt xe. Để tìm hiểu các lựa chọn tại khu vực lân cận, xem thêm <a href=\"https://blog.rentbikehanoi.com/gia-lam/\">hướng dẫn thuê xe máy Gia Lâm</a>.</p>",
+      "excerpt": "Thuê xe máy Long Biên Nguyễn Hà tại Bồ Đề, gần Bến xe Gia Lâm; có xe số, xe ga, 50cc và xe điện.",
+      "modified": "2026-10-14 01:13:00",
+      "slug": "long-bien",
+      "status": "publish",
+      "yoast_custom_fields_previously_empty": true
+    },
+    {
+      "id": 27,
+      "title": "Thuê xe máy Ba Đình",
+      "content": "<p class=\"lead\"><strong>Thuê xe máy Ba Đình</strong> là cụm khu vực trong hệ thống nội dung Hà Nội của Nguyễn Hà.</p><h2>Thuê ngắn hạn</h2><p>Khách thuê theo ngày nhận xe trực tiếp tại cửa hàng. Một ngày thuê được tính đủ 24 giờ; thuê ngắn hơn vẫn tính một ngày.</p><h2>Thuê dài hạn</h2><p>Hợp đồng tuần hoặc tháng có thể giao xe nếu địa điểm nằm trong phạm vi chính sách; phí giao 50.000đ/lượt trong bán kính 10 km từ Hồ Hoàn Kiếm. Khách nên xem <a href=\"https://blog.rentbikehanoi.com/bang-gia/\">bảng giá và điều kiện giao nhận Nguyễn Hà</a> để xác nhận tiền cọc, mẫu xe và chi phí trước khi đặt. Có thể tham khảo thêm <a href=\"https://blog.rentbikehanoi.com/khu-vuc/\">các khu vực phục vụ tại Hà Nội</a>.</p><h2>Giấy tờ</h2><p>Khách từ đủ 20 tuổi phải có giấy phép lái xe phù hợp. Cửa hàng chỉ xem/chụp giấy tờ để làm hợp đồng, không giữ bản gốc khi khách đã cọc và thanh toán.</p>",
+      "excerpt": "Thuê xe máy Ba Đình tại Nguyễn Hà: thuê ngày, tuần, tháng; chính sách giao nhận và giấy tờ rõ ràng.",
+      "modified": "2026-10-14 01:25:18",
+      "slug": "ba-dinh",
+      "status": "publish",
+      "yoast_custom_fields_previously_empty": true
+    },
+    {
+      "id": 28,
+      "title": "Thuê xe máy Gia Lâm",
+      "content": "<p class=\"lead\"><strong>Thuê xe máy Gia Lâm</strong> phù hợp với khách cần xe gần khu vực Long Biên và Bến xe Gia Lâm.</p><h2>Nhận xe</h2><p>Điểm giao dịch của Nguyễn Hà tại Ngõ 5 Nguyễn Văn Cừ, Bồ Đề, Long Biên, gần Bến xe Gia Lâm. Khách thuê ngắn hạn đến cửa hàng ký hợp đồng và nhận xe.</p><h2>Giá và cọc</h2><p>Giá tùy xe và thời gian thuê. Tiền cọc 2–5 triệu đồng; sau khi khách cọc và thanh toán, cửa hàng không giữ giấy tờ gốc.</p><h2>Hợp đồng dài hạn</h2><p>Đơn tuần/tháng có thể áp dụng giao/nhận xe theo phạm vi và mức phí đã công bố. Xem <a href=\"https://blog.rentbikehanoi.com/bang-gia/\">bảng giá, tiền cọc và phí giao nhận Nguyễn Hà</a> trước khi đặt; nếu cần tìm hiểu điểm nhận xe tại Bồ Đề, xem thêm <a href=\"https://blog.rentbikehanoi.com/long-bien/\">hướng dẫn thuê xe máy Long Biên</a>.</p>",
+      "excerpt": "Thuê xe máy Gia Lâm Nguyễn Hà: nhận xe gần Bến xe Gia Lâm, giá theo thời gian thuê và cọc 2–5 triệu đồng.",
+      "modified": "2026-10-14 01:25:21",
+      "slug": "gia-lam",
+      "status": "publish",
+      "yoast_custom_fields_previously_empty": true
+    }
+  ]
+}
