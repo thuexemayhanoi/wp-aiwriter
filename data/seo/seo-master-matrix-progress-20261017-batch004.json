@@ -1,0 +1,97 @@
+{
+  "site": "https://blog.rentbikehanoi.com",
+  "date": "2026-10-17",
+  "batch": "SEO-004",
+  "inventory_baseline": 525,
+  "prior_edited_ids": [
+    20,
+    22,
+    23,
+    25,
+    26,
+    27,
+    28
+  ],
+  "new_edited_ids": [
+    21,
+    219
+  ],
+  "total_unique_edited": 9,
+  "qa_scoped_pass_ids": [
+    20,
+    21,
+    22,
+    23,
+    25,
+    26,
+    27,
+    28,
+    219
+  ],
+  "qa_scoped_pass_total": 9,
+  "remaining_first_pass_baseline": 516,
+  "scope": "manual editorial and on-page content/technical QA, not Google/Yoast/SEO score, not full site image ALT, CWV, or all external links",
+  "rubric": {
+    "user_intent_25": "reviewed",
+    "factual_safety_20": "reviewed within accessible resources",
+    "rendered_technical_20": "reviewed",
+    "contextual_links_15": "existing published WP inventory",
+    "structure_10": "reviewed",
+    "rollback_public_readback_10": "verified"
+  },
+  "items": [
+    {
+      "id": 22,
+      "path": "/pho-co/",
+      "action": "copyedit fixed dangling contrast sentence; live HTML verified",
+      "manual_scoped_score": 88,
+      "pass": true,
+      "internal_links_verified": 7,
+      "snapshot": "data/seo/batch-003-preedit-20261017.json",
+      "status": "completed"
+    },
+    {
+      "id": 21,
+      "path": "/hoan-kiem/",
+      "action": "rewrite thin lead, add location pickup vs delivery, model choice, preparation and FAQ",
+      "manual_scoped_score": 89,
+      "pass": true,
+      "internal_links_verified": 7,
+      "live_content_verified": true,
+      "seo_head_before_valid": true,
+      "seo_head_after_valid": true,
+      "snapshot": "data/seo/batch-004-preedit-20261017.json",
+      "status": "completed"
+    },
+    {
+      "id": 219,
+      "path": "/cach-kiem-tra-phanh-xe-truoc-khi-bat-dau-hanh-trinh-o-ha-noi/",
+      "action": "append 3 verified internal related safety links using Gutenberg blocks; update WordPress excerpt so Yoast meta description uses 141-char concise summary; fix unsupported universal '3 mm' brake pad claim with manufacturer-specific wear indicators",
+      "manual_scoped_score": 86,
+      "pass": true,
+      "internal_links_verified": 3,
+      "live_content_verified": true,
+      "seo_head_after_valid": true,
+      "snapshot": "data/seo/batch-004-preedit-20261017.json",
+      "factual_source": "https://global.honda/en/motorcycle-aftersales/plusone/202301.html",
+      "status": "completed",
+      "note": "Not all other maintenance statements in historical article independently verified; subject to later specialist QA."
+    }
+  ],
+  "operational_safety": {
+    "homepage_guard_1192_verified_active": true,
+    "homepage_h1_verified_unchanged": true,
+    "homepage_seo_title_meta_canonical_checked_before_edit": true,
+    "homepage_post_check": "one anti-bot browser challenge while fetching homepage head, not genuine WordPress robots/noindex; homepage H1 continues unchanged; no homepage edits",
+    "no_permalink_slug_status_changes": true,
+    "no_images_changed": true,
+    "before_edit_originals_on_github": true,
+    "host_weekly_backup_owner_confirmed_but_latest_restore_point_unverified": true
+  },
+  "other": [
+    "Site inventory snapshot is from 2026-10-17; new posts may increase count, refresh regularly.",
+    "WordPress protected Yoast metadesc key refused direct edit; do not force. Instead ordinary post excerpt updated and rendered Yoast meta description independently verified.",
+    "No full live HTTP success checks for each internal destination; existence corroborated in authenticated WP inventory.",
+    "No Google rankings/indexing assertions or independent mobile CWV validation."
+  ]
+}
