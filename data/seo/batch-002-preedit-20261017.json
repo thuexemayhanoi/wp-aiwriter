@@ -1,0 +1,26 @@
+{
+  "batch": "SEO-002",
+  "date": "2026-10-17",
+  "site": "https://blog.rentbikehanoi.com",
+  "rollback": "original page content and excerpts before editing, use WordPress revisions or replace with original after comparing revisions",
+  "pages": [
+    {
+      "ID": "23",
+      "post_title": "Cẩm nang",
+      "post_content": "<p>Cẩm nang thuê xe máy, xe 50cc, xe điện, ứng dụng, hãng xe và kinh nghiệm giao thông tại Hà Nội.</p>\n<h2>Khám phá cẩm nang theo chủ đề</h2>\n<p>Xem các bài <a href=\"/category/cam-nang/kinh-nghiem/\">kinh nghiệm thuê xe máy</a> hoặc <a href=\"/category/cam-nang/giao-thong/\">hướng dẫn giao thông tại Hà Nội</a> để tìm nội dung phù hợp với nhu cầu.</p>",
+      "post_excerpt": "Cẩm nang thuê xe tại Hà Nội: xe máy, 50cc, xe điện, app, hãng xe và kinh nghiệm giao thông.",
+      "post_modified": "2026-10-15 08:45:56",
+      "post_status": "publish",
+      "post_name": "cam-nang"
+    },
+    {
+      "ID": "25",
+      "post_title": "Liên hệ",
+      "post_content": "<p class=\"lead\">Liên hệ Thuê xe máy Nguyễn Hà để kiểm tra mẫu xe đang có, thời gian thuê và điều kiện hợp đồng.</p><h2>Thông tin liên hệ</h2><p><strong>Địa chỉ:</strong> Ngõ 5 Nguyễn Văn Cừ, Bồ Đề, Long Biên, Hà Nội (gần Bến xe Gia Lâm).</p><p><strong>Điện thoại:</strong> <a href=\"tel:+84334699969\">+84 334 699 969</a><br><strong>Zalo:</strong> +84 334 699 969<br><strong>WhatsApp:</strong> <a href=\"https://wa.me/84334699969\">+84 334 699 969</a></p><p><strong>Giờ mở cửa:</strong> 09:00–21:00 hằng ngày.</p><p><strong>Website:</strong> <a href=\"https://rentbikehanoi.com\">rentbikehanoi.com</a></p><p><a class=\"btn btn-primary\" href=\"https://share.google/fd1JrYoyk2zcf1zvq\">Xem Google Maps</a></p><h2>Lưu ý trước khi đến</h2><p>Khách nên liên hệ trước để xác nhận mẫu xe, giá thuê và số tiền cọc. Cửa hàng không giao hoặc nhận xe tại sân bay Nội Bài.</p>",
+      "post_excerpt": "Liên hệ Thuê xe máy Nguyễn Hà tại Ngõ 5 Nguyễn Văn Cừ, Bồ Đề, Long Biên; điện thoại, Zalo và WhatsApp +84 334 699 969.",
+      "post_modified": "2026-10-04 23:18:45",
+      "post_status": "publish",
+      "post_name": "lien-he"
+    }
+  ]
+}
