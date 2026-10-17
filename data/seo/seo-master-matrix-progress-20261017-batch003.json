@@ -1,0 +1,80 @@
+{
+  "site": "https://blog.rentbikehanoi.com",
+  "date": "2026-10-17",
+  "batch": "SEO-003",
+  "baseline_published": 525,
+  "prior_qa_pass_ids": [
+    23,
+    25,
+    26,
+    27,
+    28
+  ],
+  "edited_in_batch": [
+    20,
+    22
+  ],
+  "published_verified_ids": [
+    20,
+    22
+  ],
+  "live_content_verified_ids": [
+    20,
+    22
+  ],
+  "internal_inventory_link_check": {
+    "20": {
+      "existing": 8,
+      "unknown": 0,
+      "missing": 0
+    },
+    "22": {
+      "existing": 6,
+      "unknown": 0,
+      "missing": 0
+    }
+  },
+  "home_guard": "WordPress snippet 1192 published, auto_insert=1. Homepage title/description/canonical/robots/H1 remained same after batch.",
+  "qa": {
+    "20": {
+      "score": 88,
+      "out_of": 100,
+      "scope": "editorial+on-page content only",
+      "status": "scoped_pass",
+      "comment": "Published and verified live; new area links added, accuracy and geography checked; no full CWV/SEO crawl"
+    },
+    "22": {
+      "score": 82,
+      "out_of": 100,
+      "scope": "provisional editorial+on-page",
+      "status": "needs_copy_edit",
+      "comment": "Visible paragraph has dangling transition 'Trong khi [Hoàn Kiếm]...' after content revision. Fix that exact fragment, reverify and rescore before marking as QA complete."
+    }
+  },
+  "progress": {
+    "published_edited_unique": 7,
+    "scoped_qa_pass_unique": 6,
+    "pending_qa_unique": 1,
+    "untouched_first_pass_from_baseline": 518
+  },
+  "pre_edit_snapshot": "data/seo/batch-003-preedit-20261017.json",
+  "blocked_write": {
+    "http": 429,
+    "operation": "WP #22 proofread phrase update",
+    "repeat_prohibited_until_cooldown": true
+  },
+  "preserved": [
+    "homepage SEO title/description/H1/hero/canonical",
+    "post page URLs and slugs",
+    "Yoast rendered metadata",
+    "status publish and index/follow",
+    "original content and prior links",
+    "brand-specific NAP and price facts"
+  ],
+  "limits": [
+    "This is not Yoast or Google ranking score, and no claim of comprehensive SEO 85 is made for all modules.",
+    "WPVibe 429 after writes; stop all further writes in this run.",
+    "Image ALT and independent HTTP checks of every link not executed.",
+    "Hostinger backup dated 2026-10-04 is stale, but page-local before-edit GitHub snapshot exists."
+  ]
+}
