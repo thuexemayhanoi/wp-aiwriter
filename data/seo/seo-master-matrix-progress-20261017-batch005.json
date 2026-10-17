@@ -1,0 +1,108 @@
+{
+  "site": "https://blog.rentbikehanoi.com",
+  "date": "2026-10-17",
+  "batch": "SEO-005",
+  "original_inventory_urls": 525,
+  "baseline_published_posts": 507,
+  "baseline_pages": 18,
+  "modified_ids_previous_batches": [
+    20,
+    21,
+    22,
+    23,
+    25,
+    26,
+    27,
+    28,
+    219
+  ],
+  "newly_modified_ids": [
+    245,
+    256
+  ],
+  "total_unique_modified": 11,
+  "remaining_unmodified_baseline_urls": 514,
+  "previous_scoped_qa_pass_ids": [
+    20,
+    21,
+    22,
+    23,
+    25,
+    26,
+    27,
+    28,
+    219
+  ],
+  "qa_pass_total": 9,
+  "qa_pending_ids": [
+    245,
+    256
+  ],
+  "preedit_snapshot": "data/seo/batch-005-preedit-20261017.json",
+  "items": [
+    {
+      "id": 245,
+      "path": "/cach-kiem-tra-lop-xe-may-thue-de-tranh-su-co-giua-duong/",
+      "title": "Cách kiểm tra lốp xe máy thuê để tránh sự cố giữa đường",
+      "status": "production_written_qa_pending",
+      "writes": [
+        "Replace unsafe flat-tyre continuation recommendation with controlled stop and professional inspection",
+        "Remove blanket implication a nail lodged in tubeless tire makes riding to repair okay",
+        "Append 3 contextual internal links in Gutenberg paragraph/heading blocks"
+      ],
+      "verified": {
+        "wordpress_write_responses": 3,
+        "post_status": "publish",
+        "post_modified": "2026-10-17 12:08:23",
+        "url_existing_and_public_head_title_meta_canonical_index": true,
+        "public_main_new_content_readback": false,
+        "internal_link_slugs_in_published_wp_inventory": 3
+      },
+      "qa_score": null,
+      "qa_blocker": "WPVibe daily free cap prevented public <main> readback and full factual QA; existing Yoast fallback description is verbose/truncated"
+    },
+    {
+      "id": 256,
+      "path": "/cach-kiem-tra-den-pha-den-hau-va-xi-nhan-khi-nhan-xe/",
+      "title": "Cách kiểm tra đèn pha, đèn hậu và xi nhan khi nhận xe",
+      "status": "production_written_qa_pending",
+      "writes": [
+        "Correct dangerous advice that rear brake-light switch failing is temporarily acceptable",
+        "Append 3 contextual internal links to brake, tire, horn/mirror guides"
+      ],
+      "verified": {
+        "wordpress_write_responses": 2,
+        "post_status": "publish",
+        "post_modified": "2026-10-17 12:08:25",
+        "public_main_new_content_readback": true,
+        "internal_link_slugs_in_published_wp_inventory": 3,
+        "public_head_post_edit": false
+      },
+      "qa_score": null,
+      "qa_blocker": "WPVibe daily free cap prevented SEO head recheck and final full QA"
+    }
+  ],
+  "homepage": {
+    "wpcode_guard_1192_published_autoinsert_1_verified_before_writes": true,
+    "homepage_title_description_canonical_index_follow_verified_before_writes": true,
+    "homepage_check_after_writes": "not verified due to WPVibe daily cap; no homepage edits"
+  },
+  "reference_links": [
+    "https://www.michelin.vn/motorbike/loi-khuyen/lai-xe/xe-may-thung-lop-co-nen-di-tiep",
+    "https://www.michelinman.com/motorcycle/tips-and-advice/motorcycle-riding-tips-and-advice/safe-riding-with-our-motorcycle-tires",
+    "https://api.triumphtechnicalinformation.com/handbooks/documents/660bd43371e369e75f5bfb45/pdf"
+  ],
+  "limitations": [
+    "QA ≥85 on both new posts is NOT yet proven; leave pending until public readback and editorial safety audit.",
+    "No independent HTTP success test on every internal link; published WordPress inventory verified all 6 target slugs.",
+    "No new media ALT changes.",
+    "Hosting archive from Oct 4 is outdated. Individual exact original contents stored in GitHub prior to writes; WordPress revisions available.",
+    "Yoast meta description for post 245 still fallback, not customized due limit."
+  ],
+  "next_actions": [
+    "Respect WPVibe daily fair-use limit. Do not reconnect or route around cap merely to increase quota.",
+    "When regular WPVibe access recovers, fetch live public main for 245 and head for 256, verify homepage H1, SEO Title/description/canonical/robots and guard; score QA only when verified.",
+    "Review other factual maintenance assertions. Improve excessively verbose first-paragraph excerpt only through normal WP post_excerpt if needed; confirm rendered Yoast meta; never force writes to protected meta key.",
+    "Skip re-appending related reading, as both now have it. Select 2–5 different unmodified pages/posts for next full batch after finishing gate."
+  ]
+}
