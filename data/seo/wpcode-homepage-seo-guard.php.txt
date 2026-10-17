@@ -1,0 +1,71 @@
+/**
+ * NGUYEN HA — HOMEPAGE SEO LOCK P0.
+ * WordPress front page is the POSTS INDEX (page_on_front = 0).
+ * WordPress API write-layer guards + Yoast render-layer fallback.
+ * This snippet must remain active. Owner-approved edits are performed
+ * manually with a verified one-change override and re-lock.
+ * Snapshot: data/seo/homepage-protection-baseline-20261017.json.
+ */
+if (!function_exists('nh_seo_lock_log_block')) {
+    function nh_seo_lock_log_block($field) {
+        error_log('[NGUYENHA_HOMEPAGE_SEO_LOCK] blocked unauthorized update of ' . $field);
+    }
+}
+$nh_locked_options = array(
+    'blogname'        => 'Thuê xe máy Nguyễn Hà',
+    'blogdescription' => 'Thuê xe máy, xe 50cc và xe điện tại Hà Nội',
+    'show_on_front'   => 'posts',
+    'page_on_front'   => 0,
+    'page_for_posts'  => 0
+);
+foreach ($nh_locked_options as $nh_key => $nh_expected) {
+    add_filter('pre_update_option_' . $nh_key, static function($new, $old) use ($nh_key, $nh_expected) {
+        if ((string) $new !== (string) $nh_expected) {
+            nh_seo_lock_log_block($nh_key);
+            return $old;
+        }
+        return $new;
+    }, 99999, 2);
+}
+add_filter('pre_update_option_wpseo_titles', static function($new, $old) {
+    if (!is_array($new) || !is_array($old)) {
+        nh_seo_lock_log_block('wpseo_titles');
+        return $old;
+    }
+    $keys = array(
+        'title-home-wpseo', 'metadesc-home-wpseo',
+        'open_graph_frontpage_title', 'open_graph_frontpage_desc',
+        'website_name'
+    );
+    foreach ($keys as $key) {
+        $prior = array_key_exists($key, $old) ? $old[$key] : null;
+        $proposed = array_key_exists($key, $new) ? $new[$key] : null;
+        if ($prior !== $proposed) {
+            nh_seo_lock_log_block('wpseo_titles.' . $key);
+            if (array_key_exists($key, $old)) {
+                $new[$key] = $prior;
+            } else {
+                unset($new[$key]);
+            }
+        }
+    }
+    return $new;
+}, 99999, 2);
+$nh_front_guard = static function($current, $fixed) {
+    return is_front_page() ? $fixed : $current;
+};
+add_filter('wpseo_title', static function($current) use ($nh_front_guard) {
+    return $nh_front_guard($current, 'Thuê xe máy Nguyễn Hà - Thuê xe máy, xe 50cc và xe điện tại Hà Nội');
+}, 99999);
+add_filter('wpseo_metadesc', static function($current) use ($nh_front_guard) {
+    return $nh_front_guard($current, 'Thuê xe máy, xe 50cc và xe điện tại Hà Nội');
+}, 99999);
+add_filter('wpseo_opengraph_title', static function($current) use ($nh_front_guard) {
+    return $nh_front_guard($current, 'Thuê xe máy Nguyễn Hà');
+}, 99999);
+add_filter('wpseo_opengraph_desc', static function($current) use ($nh_front_guard) {
+    return $nh_front_guard($current, 'Thuê xe máy, xe 50cc và xe điện tại Hà Nội');
+}, 99999);
+add_filter('wpseo_canonical', static function($current) use ($nh_front_guard) {
+    return $nh_front_guard($current, 'https://blog.rentbikehanoi.com/');
+}, 99999);
