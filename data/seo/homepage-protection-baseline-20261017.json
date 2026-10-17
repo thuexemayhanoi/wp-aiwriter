@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-17",
+  "site": "https://blog.rentbikehanoi.com",
+  "mode": "ZERO_DATA_COLD_START",
+  "homepage": {
+    "is_posts_index": true,
+    "show_on_front": "posts",
+    "page_on_front": 0,
+    "page_for_posts": 0,
+    "seo_title": "Thuê xe máy Nguyễn Hà - Thuê xe máy, xe 50cc và xe điện tại Hà Nội",
+    "meta_description": "Thuê xe máy, xe 50cc và xe điện tại Hà Nội",
+    "h1": "Thuê Xe Máy Hà Nội – Bảng Giá, Thủ Tục & Kinh Nghiệm",
+    "hero_lead": "Tìm hiểu các dòng xe số, xe ga, xe 50cc và xe điện. Tham khảo giá thuê theo ngày, tuần, tháng cùng hướng dẫn đặt cọc, giấy tờ và nhận xe tại Hà Nội.",
+    "yoast_og_title": "Thuê xe máy Nguyễn Hà",
+    "yoast_og_description": "Thuê xe máy, xe 50cc và xe điện tại Hà Nội",
+    "canonical": "https://blog.rentbikehanoi.com/",
+    "site_title": "Thuê xe máy Nguyễn Hà",
+    "tagline": "Thuê xe máy, xe 50cc và xe điện tại Hà Nội",
+    "yoast_option_title": "%%sitename%% %%page%% %%sep%% %%sitedesc%%",
+    "yoast_option_metadesc": "",
+    "primary_source": "theme/front-page.php:26-27 for H1/lead; WP options & Yoast for head"
+  },
+  "scope_note": "Snapshot of observed rendered values; no change to WordPress occurred while taking snapshot.",
+  "owner_approval": "Explicit, change-specific owner approval required. No auto-unlock.",
+  "guard_state": "STAGED_NOT_ACTIVATED",
+  "lock_requirements": [
+    "homepage_seo_title",
+    "homepage_meta_description",
+    "homepage_h1",
+    "homepage_hero_lead",
+    "site_title",
+    "tagline",
+    "yoast_home_options",
+    "social_meta_affecting_home"
+  ],
+  "cautions": [
+    "Theme-file edits cannot be intercepted by WP option filters; restrict deployment of front-page.php separately.",
+    "Snippets created via WPVibe are disabled until owner enables them in wp-admin.",
+    "Take hosting-level database/files backup before any mass updates."
+  ]
+}
