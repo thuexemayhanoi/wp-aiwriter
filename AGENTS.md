@@ -52,6 +52,11 @@ Each article needs at least 350 words and 3 level-2 sections. This is only a mec
 - Category mismatch → WordPress draft; existing titles or duplicate groups → skip/report; no update/delete/restore; keep Git it Write disabled.
 - The owner-authorized change only removes per-batch manual activation and time waiting; it does not grant permission to alter prior URLs, titles, taxonomy or canonicals.
 
+## SEO systems (read-only, GitHub only)
+- `docs/SEO_SYSTEMS.md` documents **SEO Audit**, **Internal Link Matrix** and **SEO Protection** (`scripts/seo_audit.py`, `scripts/link_matrix.py`, `scripts/seo_protection.py`). They never write to WordPress and need no WPVibe/WP Agent.
+- Never edit, rename or delete the Markdown of an already published post: `python scripts/seo_protection.py --mode repo` flags `published_source_edited`. Link proposals in `data/seo/link-plan.json` are applied only through separate, QA-reviewed changes that keep published URLs, slugs and canonicals intact.
+- Intentional changes to a published page are approved with `seo_protection.py --mode baseline --accept ID --reason "..."` (recorded in `data/seo/protection-allowlist.json`).
+
 ## Production runbook and current category
 
 Full operational instructions: `docs/PUBLISHER_OPERATIONS.md`.
@@ -65,8 +70,3 @@ Full operational instructions: `docs/PUBLISHER_OPERATIONS.md`.
 - **Never touch WordPress Trash.** Owner handles it. No auto-delete, restore, or forced overwrites. Duplicates are skipped and reported. Keep the old Git it Write sync inactive; do not run multiple publishers.
 - **Old ledger repairs:** Excel #169 currently WP 880; #173 WP 838, both VERIFIED. Preserve their URLs; do not recreate from scratch.
 - Source writer is separate. GitHub Actions does not generate missing article prose by itself. Writers should follow `docs/PUBLISHER_OPERATIONS.md` and update `docs/WRITER_CHECKPOINT.md` after small pushes.
-
-## SEO systems (read-only, GitHub only)
-- `docs/SEO_SYSTEMS.md` documents **SEO Audit**, **Internal Link Matrix** and **SEO Protection** (`scripts/seo_audit.py`, `scripts/link_matrix.py`, `scripts/seo_protection.py`). They never write to WordPress and need no WPVibe/WP Agent.
-- Never edit, rename or delete the Markdown of an already published post: `python scripts/seo_protection.py --mode repo` flags `published_source_edited`. Link proposals in `data/seo/link-plan.json` are applied only through separate, QA-reviewed changes that keep published URLs, slugs and canonicals intact.
-- Intentional changes to a published page are approved with `seo_protection.py --mode baseline --accept ID --reason "..."` (recorded in `data/seo/protection-allowlist.json`).
