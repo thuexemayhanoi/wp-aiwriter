@@ -1,3 +1,12 @@
+# Checkpoint — 2026-10-17: three GitHub-only SEO systems added (no WPVibe / WP Agent)
+
+- Owner request: build **SEO Audit**, **Internal Link Matrix** and **SEO Protection** on GitHub without WPVibe or WP Agent. Added `scripts/seo_common.py`, `scripts/seo_audit.py`, `scripts/link_matrix.py`, `scripts/seo_protection.py`, workflows `seo-audit.yml`, `internal-link-matrix.yml`, `seo-protection.yml`, hermetic tests `tests/test_seo.py` (25 tests incl. a fake WordPress site on localhost; whole suite 46 tests), runbook `docs/SEO_SYSTEMS.md` and snapshots `data/seo/link-matrix.json`, `data/seo/link-plan.json`, `docs/INTERNAL_LINK_MATRIX.md`.
+- All three are read-only against WordPress (public REST and public pages, no credentials). Publisher, ledger, `data/topics.json`, older URLs, canonicals and Trash are untouched.
+- First offline results on the 336 authored posts: audit 0 critical / 0 high (203 findings: 73 medium, 46 low, 84 info), SEO Protection repo guard 0 violations (333 ledger entries consistent, no published source edited), link matrix 769 internal edges, **253 orphans, 77 dead ends, 6.5% policy compliance** and 985 ranked link proposals (the newest clusters Dịch vụ and Khu vực only link out to older app posts).
+- Publication state remains complete: Excel #146–500 = 355/355 published; policy stays on the last category.
+
+---
+
 # FINAL CHECKPOINT — 2026-10-16: Excel matrix COMPLETE, #146–500 = 355/355 published
 
 - Publisher run [38937388883](https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38937388883) **SUCCESS** on `d427f16`: 21/21 regression tests PASS, **336/336 authored Markdown QA PASS**, WordPress auth verified, **Excel #146–500 published: 355**, site-wide published **507**, 0 newly created in the final no-op iteration, **0 duplicate groups, 0 drafts, 0 wrong categories, 0 errors**, `Next Excel category: None`. Completion issues already exist; no duplicate notification created.

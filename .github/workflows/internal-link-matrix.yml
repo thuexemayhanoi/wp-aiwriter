@@ -1,0 +1,82 @@
+name: Internal Link Matrix (read-only analysis)
+# Builds the article-to-article link graph from posts/*.md and the publication ledger, finds orphans, dead ends
+# and weak silos, and proposes links. It never edits posts or WordPress; proposals go through QA-reviewed changes.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'posts/**'
+      - 'scripts/seo_common.py'
+      - 'scripts/link_matrix.py'
+      - 'tests/test_seo.py'
+      - '.github/workflows/internal-link-matrix.yml'
+  schedule:
+    - cron: '37 2 * * 1'
+  workflow_dispatch:
+    inputs:
+      check_links:
+        description: 'HEAD-check every internal link target on the live site'
+        type: boolean
+        default: true
+      hubs:
+        description: 'Measure links to category archive hubs (public REST)'
+        type: boolean
+        default: true
+      commit:
+        description: 'Commit refreshed data/seo/link-matrix.json, link-plan.json and docs/INTERNAL_LINK_MATRIX.md'
+        type: boolean
+        default: false
+permissions:
+  contents: write   # used only by the optional snapshot commit
+concurrency:
+  group: internal-link-matrix
+  cancel-in-progress: false
+jobs:
+  matrix:
+    runs-on: ubuntu-latest
+    env:
+      SEO_USER_AGENT: ${{ vars.SEO_USER_AGENT }}   # optional repository variable if a WAF blocks the default bot name
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install pinned dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Unit tests for the SEO tools
+        run: python -m unittest tests.test_seo
+      - name: Build the link matrix
+        env:
+          CHECK_LINKS: ${{ github.event_name == 'schedule' && 'true' || inputs.check_links }}
+          HUBS: ${{ github.event_name == 'schedule' && 'true' || inputs.hubs }}
+          COMMIT: ${{ inputs.commit }}
+        shell: bash
+        run: |
+          args=()
+          [[ "$CHECK_LINKS" == 'true' ]] && args+=(--check-links)
+          [[ "$HUBS" == 'true' ]] && args+=(--hubs)
+          [[ "$COMMIT" == 'true' ]] && args+=(--write-data)
+          python scripts/link_matrix.py "${args[@]}"
+      - name: Preserve the matrix, edge list and proposals
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-matrix-${{ github.run_id }}
+          path: reports/seo/
+          if-no-files-found: ignore
+          retention-days: 30
+      - name: Commit the refreshed snapshot (manual runs only)
+        if: ${{ inputs.commit == true }}
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/seo/link-matrix.json data/seo/link-plan.json docs/INTERNAL_LINK_MATRIX.md
+          if git diff --cached --quiet; then echo 'Snapshot unchanged'; exit 0; fi
+          git commit -m 'chore(seo): refresh internal link matrix [skip ci]'
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            sleep $((attempt * 3))
+          done
+          echo '::error::Could not push the refreshed snapshot'; exit 1

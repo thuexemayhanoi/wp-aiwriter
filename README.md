@@ -14,11 +14,17 @@
 
 **No AI API key and no time-based trigger.** GitHub Actions **cannot write new articles by itself**: an active writer must still create and push them. QA is deterministic and cannot independently verify every factual claim.
 
+## SEO systems (GitHub only, read-only)
+
+Three systems run on GitHub Actions without WPVibe, WP Agent or any plugin: **SEO Audit**, **Internal Link Matrix** and **SEO Protection**. They only read the public site, never write to WordPress, and propose changes for separate QA-reviewed work. See `docs/SEO_SYSTEMS.md` (workflows `seo-audit.yml`, `internal-link-matrix.yml`, `seo-protection.yml`).
+
 ## Files and operating instructions
 
 - `AGENTS.md`: current editorial and safety contract
 - `docs/PUBLISHER_OPERATIONS.md`: production runbook
 - `docs/WRITER_CHECKPOINT.md`: last known article, WP IDs and next queue
+- `docs/SEO_SYSTEMS.md`, `docs/INTERNAL_LINK_MATRIX.md`: SEO audit, link matrix and protection runbook / current analysis
+- `scripts/seo_*.py`, `scripts/link_matrix.py`, `data/seo/`: the three SEO tools and their committed snapshots
 - `posts/NNNN.md`: published/ready source
 - `scripts/engine.py`: QA and create-only WordPress REST publisher
 - `.github/workflows/publisher-quality.yml`: push-triggered QA with no secrets
