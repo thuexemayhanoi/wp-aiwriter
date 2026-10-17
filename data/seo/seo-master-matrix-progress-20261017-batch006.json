@@ -1,0 +1,108 @@
+{
+  "site": "https://blog.rentbikehanoi.com",
+  "repo": "thuexemayhanoi/wp-aiwriter",
+  "checkpoint": "SEO-006",
+  "date": "2026-10-17",
+  "baseline_inventory_published_urls": 525,
+  "prior_modified_ids": [
+    20,
+    21,
+    22,
+    23,
+    25,
+    26,
+    27,
+    28,
+    219,
+    245,
+    256
+  ],
+  "newly_modified_ids": [
+    253,
+    262
+  ],
+  "modified_total": 13,
+  "first_pass_unmodified_baseline_urls": 512,
+  "prior_independent_scoped_qa_pass_count": 9,
+  "final_qa_pending_ids": [
+    245,
+    256,
+    253,
+    262
+  ],
+  "preedit_snapshot": "data/seo/batch-006-preedit-20261017.json",
+  "wp_agent": {
+    "site_id": "16950cb0-d119-406c-b1a8-3dd86f0687fd",
+    "account_link": "link_6ad24d39b000819199d89d6ce2b40a6c"
+  },
+  "items": [
+    {
+      "id": 253,
+      "url": "https://blog.rentbikehanoi.com/nhung-dau-hieu-cho-thay-lop-xe-can-duoc-kiem-tra-lai-truoc-khi-di/",
+      "slug": "nhung-dau-hieu-cho-thay-lop-xe-can-duoc-kiem-tra-lai-truoc-khi-di",
+      "links": [
+        "/cach-kiem-tra-lop-xe-may-thue-de-tranh-su-co-giua-duong/",
+        "/cach-kiem-tra-phanh-xe-truoc-khi-bat-dau-hanh-trinh-o-ha-noi/",
+        "/vi-sao-nen-chup-lai-hien-trang-xe-truoc-khi-nhan/"
+      ],
+      "score_before": 77,
+      "score_after": 89,
+      "content_quality": 72,
+      "edits": [
+        "Replace generalized motorcycle tire 1.6 mm and 3 mm thresholds with tread-wear manufacturer guidance",
+        "Replace unsafe fingernail-depth claim and its FAQ duplicate",
+        "Add 3 contextual internal links",
+        "Set short excerpt as public Yoast meta description"
+      ],
+      "edited_on_wordpress": true,
+      "live_public_content_readback": true,
+      "live_yost_title_meta_self_canonical_index_verified": true,
+      "internal_target_inventory_checked": 3,
+      "final_independent_qa": "PENDING",
+      "warning": "WP Agent on-page score excludes Yoast meta fields and is not project QA. Its content-quality score remains below 85."
+    },
+    {
+      "id": 262,
+      "url": "https://blog.rentbikehanoi.com/vi-sao-nen-chup-lai-hien-trang-xe-truoc-khi-nhan/",
+      "slug": "vi-sao-nen-chup-lai-hien-trang-xe-truoc-khi-nhan",
+      "links": [
+        "/cach-ghi-nhan-vet-xuoc-tren-xe-thue-de-tranh-tranh-cai-khi-tra-xe/",
+        "/cach-kiem-tra-thoi-gian-nhan-va-tra-xe-tren-hop-dong/",
+        "/tien-coc-thue-xe-may-nhung-dieu-nen-xac-nhan-truoc-khi-thanh-toan/"
+      ],
+      "score_before": 77,
+      "score_after": 92,
+      "content_quality": 65,
+      "edits": [
+        "Remove unconditional promises photographs decide rental liability/deposit",
+        "Add privacy-respecting handover image guidance",
+        "Replace unsupported dispute-frequency statistic with practical two-angle checklist",
+        "Add 3 contextual internal links",
+        "Set short excerpt as public Yoast meta description"
+      ],
+      "edited_on_wordpress": true,
+      "live_public_content_readback": true,
+      "live_yost_title_meta_self_canonical_index_verified": true,
+      "internal_target_inventory_checked": 3,
+      "final_independent_qa": "PENDING",
+      "warning": "WP Agent on-page score excludes Yoast meta fields and is not project QA. Its content-quality score remains below 85."
+    }
+  ],
+  "homepage_protection": {
+    "h1": "Thuê Xe Máy Hà Nội – Bảng Giá, Thủ Tục & Kinh Nghiệm",
+    "title": "Thuê xe máy Nguyễn Hà - Thuê xe máy, xe 50cc và xe điện tại Hà Nội",
+    "description": "Thuê xe máy, xe 50cc và xe điện tại Hà Nội",
+    "canonical": "https://blog.rentbikehanoi.com/",
+    "robots": "index,follow",
+    "public_live_checked_post_edit": true,
+    "wpcode_1192_active_from_prior_checkpoint": true,
+    "temporary_cloudflare_challenge": "transient noindex challenge not WordPress real robots"
+  },
+  "limitations": [
+    "The full manufacturer-specific technical audit of historical article content remains unfinished.",
+    "No image ALT modifications; featured image semantic match not visually verified.",
+    "6 internal targets confirmed by inventory; not independently HTTP checked one by one.",
+    "Hosting current full restore point unverified; full page preedit snapshots saved.",
+    "Content quality separately scored 72 and 65 by WP Agent: do not mark complete independent 85 QA."
+  ]
+}
