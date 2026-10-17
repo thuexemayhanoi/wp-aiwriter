@@ -1,0 +1,20 @@
+name: GSC Monitor (weekly, read-only; needs GSC secrets)
+on:
+  schedule:
+    - cron: '41 0 * * 1'    # Monday 00:41 UTC = 07:41 Asia/Ho_Chi_Minh
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: seo-engine-${{ github.ref_name }}
+  cancel-in-progress: false
+jobs:
+  gsc:
+    uses: ./.github/workflows/seo-engine.yml
+    with:
+      label: gsc
+      install_gsc: true
+      args: run --no-crawl --mode gsc
+    secrets:
+      GSC_SERVICE_ACCOUNT_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
+      GSC_PROPERTY: ${{ secrets.GSC_PROPERTY }}

@@ -1,0 +1,104 @@
+name: Approved SEO Fixes (manual; validate by default)
+# Only entries in data/seo/approved-fixes.json with approval fields are processed.
+# validate: public data only, zero writes. apply/rollback: need confirm=APPLY and WP secrets,
+# back up raw content first, check modified_gmt, verify readback, stop on first failure.
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: 'validate (no writes) | apply | rollback'
+        type: choice
+        options: ['validate', 'apply', 'rollback']
+        default: 'validate'
+      max_fixes:
+        description: 'apply: maximum fixes in this run'
+        type: choice
+        options: ['1', '3', '5']
+        default: '1'
+      fix_id:
+        description: 'rollback: FIX id to restore'
+        type: string
+        default: ''
+      confirm:
+        description: 'Type APPLY to allow apply/rollback'
+        type: string
+        default: ''
+permissions:
+  contents: write
+concurrency:
+  group: seo-engine-${{ github.ref_name }}
+  cancel-in-progress: false
+jobs:
+  fixes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Offline tests
+        run: python -m unittest tests.test_seo_engine -v
+      - name: Authorize production WordPress changes
+        if: ${{ inputs.action != 'validate' }}
+        env:
+          ACTOR: ${{ github.actor }}
+          OWNER: ${{ github.repository_owner }}
+          CONFIRM: ${{ inputs.confirm }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ "${GITHUB_REF_NAME}" != "main" || "$ACTOR" != "$OWNER" || "$CONFIRM" != "APPLY" ]]; then
+            echo "::error::Blocked: only the repository owner can explicitly approve a WordPress write from main."
+            exit 1
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          # The Python apply routine pushes the original raw-content backup and
+          # APPLY_INTENT receipt before the first WordPress POST, failing closed
+          # if the backup cannot be committed on main.
+      - name: Validate / apply / rollback
+        env:
+          ACTION: ${{ inputs.action }}
+          MAX_FIXES: ${{ inputs.max_fixes }}
+          FIX_ID: ${{ inputs.fix_id }}
+          SEO_APPLY_CONFIRM: ${{ inputs.confirm == 'APPLY' && 'yes' || 'no' }}
+          WP_USERNAME: ${{ inputs.action != 'validate' && (secrets.WP_USERNAME || secrets.WP_USER) || '' }}
+          WP_APPLICATION_PASSWORD: ${{ inputs.action != 'validate' && secrets.WP_APPLICATION_PASSWORD || '' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          case "$ACTION" in
+            validate) python -m seo fixes validate ;;
+            apply)    python -m seo fixes apply --max-fixes "$MAX_FIXES" ;;
+            rollback) python -m seo fixes rollback --fix-id "$FIX_ID" ;;
+          esac
+      - name: Upload fix receipts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: seo-fixes-${{ github.run_id }}
+          path: |
+            reports/fix-plan.json
+            data/seo/applied-fixes.json
+            data/seo/backups/
+          if-no-files-found: ignore
+          retention-days: 90
+      - name: Persist receipts, backups and Markdown mirror
+        if: ${{ always() && inputs.action != 'validate' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for p in data/seo/applied-fixes.json data/seo/backups reports/fix-plan.json posts; do
+            [ -e "$p" ] && git add -- "$p"
+          done
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -q -m "chore(seo): approved fix receipts $(date -u +%F) [skip ci]"
+          for attempt in 1 2 3; do
+            git pull --rebase -q origin "${GITHUB_REF_NAME}" && git push -q origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            git rebase --abort 2>/dev/null || true
+            sleep $((attempt * 5))
+          done
+          exit 1

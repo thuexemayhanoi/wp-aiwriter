@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "site_url": "https://blog.rentbikehanoi.com",
+  "allowed_hosts": ["blog.rentbikehanoi.com"],
+  "user_agent": "WP-AIWriter-SEO-Audit/1.0 (+https://github.com/thuexemayhanoi/wp-aiwriter; read-only)",
+  "http": {
+    "max_workers": 4,
+    "min_interval_seconds": 0.25,
+    "timeout_seconds": 25,
+    "retries": 3,
+    "max_body_bytes": 6000000
+  },
+  "crawl": {
+    "recrawl_after_days": 7,
+    "max_pages": 3000,
+    "max_archive_pages": 250,
+    "max_internal_link_checks": 1500,
+    "max_image_checks": 1500
+  },
+  "external_links": {
+    "max_checks": 3000,
+    "recheck_after_days": 14,
+    "recheck_failed_after_days": 0,
+    "max_workers": 6,
+    "timeout_seconds": 15
+  },
+  "psi": {
+    "max_urls": 4,
+    "strategy": "mobile"
+  },
+  "thresholds": {
+    "thin_words_p1": 300,
+    "thin_words_p2": 600,
+    "title_max_chars": 65,
+    "title_min_chars": 15,
+    "description_max_chars": 160,
+    "description_min_chars": 50,
+    "max_click_depth": 4,
+    "image_max_bytes": 300000,
+    "near_duplicate_jaccard": 0.5,
+    "duplicate_jaccard": 0.8,
+    "cannibal_title_cosine": 0.55,
+    "cannibal_body_cosine": 0.45,
+    "related_link_cosine": 0.3,
+    "max_suggestions_per_source": 3,
+    "max_suggestions_per_target": 25,
+    "direct_answer_min_words": 25,
+    "direct_answer_max_words": 140
+  },
+  "official_source_domains": [
+    "gov.vn",
+    "chinhphu.vn",
+    "baochinhphu.vn",
+    "vbpl.vn",
+    "csgt.vn",
+    "congbao.chinhphu.vn"
+  ],
+  "business": {
+    "name": "",
+    "phones": [],
+    "address": "",
+    "note": "Fill ONLY with owner-verified NAP. Empty means the audit lists every phone/address/price it finds and marks consistency as needs-human-review."
+  },
+  "pillar_overrides": {},
+  "notes": "Read-only SEO engine settings. The engine never writes to WordPress; only approved-seo-fixes.yml can, and only for approved entries in data/seo/approved-fixes.json."
+}

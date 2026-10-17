@@ -1,0 +1,1018 @@
+{
+  "aeo_geo": {
+    "ai_crawlers": {
+      "Applebot-Extended": {
+        "home": true,
+        "sample_posts_allowed": 25,
+        "sample_size": 25
+      },
+      "Bingbot": {
+        "home": true,
+        "sample_posts_allowed": 25,
+        "sample_size": 25
+      },
+      "CCBot": {
+        "home": true,
+        "sample_posts_allowed": 25,
+        "sample_size": 25
+      },
+      "ChatGPT-User": {
+        "home": true,
+        "sample_posts_allowed": 25,
+        "sample_size": 25
+      },
+      "Claude-SearchBot": {
+        "home": true,
+        "sample_posts_allowed": 25,
+        "sample_size": 25
+      },
+      "ClaudeBot": {
+        "home": true,
+        "sample_posts_allowed": 25,
+        "sample_size": 25
+      },
+      "GPTBot": {
+        "home": true,
+        "sample_posts_allowed": 25,
+        "sample_size": 25
+      },
+      "Google-Extended": {
+        "home": true,
+        "sample_posts_allowed": 25,
+        "sample_size": 25
+      },
+      "Googlebot": {
+        "home": true,
+        "sample_posts_allowed": 25,
+        "sample_size": 25
+      },
+      "OAI-SearchBot": {
+        "home": true,
+        "sample_posts_allowed": 25,
+        "sample_size": 25
+      },
+      "PerplexityBot": {
+        "home": true,
+        "sample_posts_allowed": 25,
+        "sample_size": 25
+      }
+    },
+    "author_names": {
+      "admin": 501
+    },
+    "generic_author_posts": 501,
+    "llms_txt_status": 404,
+    "organization_names": {
+      "Thuê xe máy Nguyễn Hà": 527
+    },
+    "rest_site_name": "Thuê xe máy Nguyễn Hà",
+    "website_names": {
+      "Thuê xe máy Nguyễn Hà": 526
+    }
+  },
+  "architecture": {
+    "clusters": [
+      {
+        "category_id": 22,
+        "cluster_archive": "https://blog.rentbikehanoi.com/category/cam-nang/kinh-nghiem/",
+        "contextual_links_inside_cluster": 13,
+        "hub": {
+          "name": "Kinh nghiệm",
+          "url": "https://blog.rentbikehanoi.com/category/cam-nang/kinh-nghiem/"
+        },
+        "orphans": 92,
+        "path": "Cẩm nang > Kinh nghiệm",
+        "pillar": {
+          "name": "Cẩm nang",
+          "url": "https://blog.rentbikehanoi.com/category/cam-nang/"
+        },
+        "posts": 106,
+        "proposed_cluster_lead": {
+          "centroid_similarity": 0.421,
+          "post_id": 333,
+          "source": "computed (needs approval)",
+          "title": "Dịch Vụ Cho Thuê Xe Máy Hà Nội: Giá, Thủ Tục, Địa Chỉ, Kinh Nghiệm",
+          "url": "https://blog.rentbikehanoi.com/dich-vu-cho-thue-xe-may-ha-noi-gia-thu-tuc-dia-chi-kinh-nghiem/"
+        },
+        "silo": null
+      },
+      {
+        "category_id": 20,
+        "cluster_archive": "https://blog.rentbikehanoi.com/category/cam-nang/hang-xe/hang-xe-may/",
+        "contextual_links_inside_cluster": 74,
+        "hub": {
+          "name": "Hãng xe",
+          "url": "https://blog.rentbikehanoi.com/category/cam-nang/hang-xe/"
+        },
+        "orphans": 5,
+        "path": "Cẩm nang > Hãng xe > Hãng xe máy",
+        "pillar": {
+          "name": "Cẩm nang",
+          "url": "https://blog.rentbikehanoi.com/category/cam-nang/"
+        },
+        "posts": 55,
+        "proposed_cluster_lead": {
+          "centroid_similarity": 0.547,
+          "post_id": 805,
+          "source": "computed (needs approval)",
+          "title": "Yamaha Janus hướng đến nhóm người dùng nào?",
+          "url": "https://blog.rentbikehanoi.com/yamaha-janus-huong-den-nhom-nguoi-dung-nao/"
+        },
+        "silo": {
+          "name": "Hãng xe máy",
+          "url": "https://blog.rentbikehanoi.com/category/cam-nang/hang-xe/hang-xe-may/"
+        }
+      },
+      {
+        "category_id": 7,
+        "cluster_archive": "https://blog.rentbikehanoi.com/category/dich-vu/xe-may/xe-ga/",
+        "contextual_links_inside_cluster": 0,
+        "hub": {
+          "name": "Xe máy",
+          "url": "https://blog.rentbikehanoi.com/category/dich-vu/xe-may/"
+        },
+        "orphans": 55,
+        "path": "Dịch vụ > Xe máy > Xe ga",
+        "pillar": {
+          "name": "Dịch vụ",
+          "url": "https://blog.rentbikehanoi.com/category/dich-vu/"
+        },
+        "posts": 55,
+        "proposed_cluster_lead": {
+          "centroid_similarity": 0.434,
+          "post_id": 1017,
+          "source": "computed (needs approval)",
+          "title": "Xe ga có phù hợp để đi làm hằng ngày trong nội đô Hà Nội không?",
+          "url": "https://blog.rentbikehanoi.com/excel-326-xe-ga-co-phu-hop-de-di-lam-hang-ngay-trong-noi-do-ha-noi-khong/"
+        },
+        "silo": {
+          "name": "Xe ga",
+          "url": "https://blog.rentbikehanoi.com/category/dich-vu/xe-may/xe-ga/"
+        }
+      },
+      {
+        "category_id": 6,
+        "cluster_archive": "https://blog.rentbikehanoi.com/category/dich-vu/xe-may/xe-so/",
+        "contextual_links_inside_cluster": 0,
+        "hub": {
+          "name": "Xe máy",
+          "url": "https://blog.rentbikehanoi.com/category/dich-vu/xe-may/"
+        },
+        "orphans": 45,
+        "path": "Dịch vụ > Xe máy > Xe số",
+        "pillar": {
+          "name": "Dịch vụ",
+          "url": "https://blog.rentbikehanoi.com/category/dich-vu/"
+        },
+        "posts": 45,
+        "proposed_cluster_lead": {
+          "centroid_similarity": 0.46,
+          "post_id": 972,
+          "source": "computed (needs approval)",
+          "title": "Xe số có phù hợp để đi làm hằng ngày trong nội đô Hà Nội không?",
+          "url": "https://blog.rentbikehanoi.com/excel-281-xe-so-co-phu-hop-de-di-lam-hang-ngay-trong-noi-do-ha-noi-khong/"
+        },
+        "silo": {
+          "name": "Xe số",
+          "url": "https://blog.rentbikehanoi.com/category/dich-vu/xe-may/xe-so/"
+        }
+      },
+      {
+        "category_id": 23,
+        "cluster_archive": "https://blog.rentbikehanoi.com/category/cam-nang/giao-thong/",
+        "contextual_links_inside_cluster": 0,
+        "hub": {
+          "name": "Giao thông",
+          "url": "https://blog.rentbikehanoi.com/category/cam-nang/giao-thong/"
+        },
+        "orphans": 35,
+        "path": "Cẩm nang > Giao thông",
+        "pillar": {
+          "name": "Cẩm nang",
+          "url": "https://blog.rentbikehanoi.com/category/cam-nang/"
+        },
+        "posts": 35,
+        "proposed_cluster_lead": {
+          "centroid_similarity": 0.451,
+          "post_id": 693,
+          "source": "computed (needs approval)",
+          "title": "Cách Nhập Làn An Toàn Khi Đi Xe Máy Ở Đường Lớn Hà Nội",
+          "url": "https://blog.rentbikehanoi.com/cach-nhap-lan-an-toan-khi-di-xe-may-o-duong-lon-ha-noi/"
+        },
+        "silo": null
+      },
+      {
+        "category_id": 21,
+        "cluster_archive": "https://blog.rentbikehanoi.com/category/cam-nang/hang-xe/hang-xe-dien/",
+        "contextual_links_inside_cluster": 7,
+        "hub": {
+          "name": "Hãng xe",
+          "url": "https://blog.rentbikehanoi.com/category/cam-nang/hang-xe/"
+        },
+        "orphans": 16,
+        "path": "Cẩm nang > Hãng xe > Hãng xe điện",
+        "pillar": {
+          "name": "Cẩm nang",
+          "url": "https://blog.rentbikehanoi.com/category/cam-nang/"
+        },
+        "posts": 35,
+        "proposed_cluster_lead": {
+          "centroid_similarity": 0.506,
+          "post_id": 909,
+          "source": "computed (needs approval)",
+          "title": "Xe điện dùng pin rời và pin cố định khác nhau thế nào trong thực tế?",
+          "url": "https://blog.rentbikehanoi.com/excel-219-xe-dien-dung-pin-roi-va-pin-co-dinh-khac-nhau-the-nao-trong-thuc-te/"
+        },
+        "silo": {
+          "name": "Hãng xe điện",
+          "url": "https://blog.rentbikehanoi.com/category/cam-nang/hang-xe/hang-xe-dien/"
+        }
+      },
+      {
+        "category_id": 8,
+        "cluster_archive": "https://blog.rentbikehanoi.com/category/dich-vu/xe-dien/",
+        "contextual_links_inside_cluster": 0,
+        "hub": {
+          "name": "Xe điện",
+          "url": "https://blog.rentbikehanoi.com/category/dich-vu/xe-dien/"
+        },
+        "orphans": 35,
+        "path": "Dịch vụ > Xe điện",
+        "pillar": {
+          "name": "Dịch vụ",
+          "url": "https://blog.rentbikehanoi.com/category/dich-vu/"
+        },
+        "posts": 35,
+        "proposed_cluster_lead": {
+          "centroid_similarity": 0.504,
+          "post_id": 1072,
+          "source": "computed (needs approval)",
+          "title": "Xe máy điện có phù hợp để đi làm hằng ngày ở Hà Nội không?",
+          "url": "https://blog.rentbikehanoi.com/excel-381-xe-may-dien-co-phu-hop-de-di-lam-hang-ngay-o-ha-noi-khong/"
+        },
+        "silo": null
+      },
+      {
+        "category_id": 17,
+        "cluster_archive": "https://blog.rentbikehanoi.com/category/cam-nang/ung-dung/app-xe-may/",
+        "contextual_links_inside_cluster": 37,
+        "hub": {
+          "name": "Ứng dụng",
+          "url": "https://blog.rentbikehanoi.com/category/cam-nang/ung-dung/"
+        },
+        "orphans": 0,
+        "path": "Cẩm nang > Ứng dụng > App xe máy",
+        "pillar": {
+          "name": "Cẩm nang",
+          "url": "https://blog.rentbikehanoi.com/category/cam-nang/"
+        },
+        "posts": 25,
+        "proposed_cluster_lead": {
+          "centroid_similarity": 0.54,
+          "post_id": 926,
+          "source": "computed (needs approval)",
+          "title": "Google Maps cho người đi xe máy ở Hà Nội: 10 thiết lập nên kiểm tra",
+          "url": "https://blog.rentbikehanoi.com/excel-236-google-maps-cho-nguoi-di-xe-may-o-ha-noi-10-thiet-lap-nen-kiem-tra/"
+        },
+        "silo": {
+          "name": "App xe máy",
+          "url": "https://blog.rentbikehanoi.com/category/cam-nang/ung-dung/app-xe-may/"
+        }
+      },
+      {
+        "category_id": 5,
+        "cluster_archive": "https://blog.rentbikehanoi.com/category/dich-vu/xe-may/xe-50cc/",
+        "contextual_links_inside_cluster": 0,
+        "hub": {
+          "name": "Xe máy",
+          "url": "https://blog.rentbikehanoi.com/category/dich-vu/xe-may/"
+        },
+        "orphans": 25,
+        "path": "Dịch vụ > Xe máy > Xe 50cc",
+        "pillar": {
+          "name": "Dịch vụ",
+          "url": "https://blog.rentbikehanoi.com/category/dich-vu/"
+        },
+        "posts": 25,
+        "proposed_cluster_lead": {
+          "centroid_similarity": 0.477,
+          "post_id": 1108,
+          "source": "computed (needs approval)",
+          "title": "Xe 50cc có dễ điều khiển với người mới không?",
+          "url": "https://blog.rentbikehanoi.com/excel-417-xe-50cc-co-de-dieu-khien-voi-nguoi-moi-khong/"
+        },
+        "silo": {
+          "name": "Xe 50cc",
+          "url": "https://blog.rentbikehanoi.com/category/dich-vu/xe-may/xe-50cc/"
+        }
+      },
+      {
+        "category_id": 18,
+        "cluster_archive": "https://blog.rentbikehanoi.com/category/cam-nang/ung-dung/app-xe-dien/",
+        "contextual_links_inside_cluster": 13,
+        "hub": {
+          "name": "Ứng dụng",
+          "url": "https://blog.rentbikehanoi.com/category/cam-nang/ung-dung/"
+        },
+        "orphans": 11,
+        "path": "Cẩm nang > Ứng dụng > App xe điện",
+        "pillar": {
+          "name": "Cẩm nang",
+          "url": "https://blog.rentbikehanoi.com/category/cam-nang/"
+        },
+        "posts": 20,
+        "proposed_cluster_lead": {
+          "centroid_similarity": 0.566,
+          "post_id": 953,
+          "source": "computed (needs approval)",
+          "title": "Cách tìm trạm sạc xe điện gần nhất bằng ứng dụng",
+          "url": "https://blog.rentbikehanoi.com/excel-263-cach-tim-tram-sac-xe-dien-gan-nhat-bang-ung-dung/"
+        },
+        "silo": {
+          "name": "App xe điện",
+          "url": "https://blog.rentbikehanoi.com/category/cam-nang/ung-dung/app-xe-dien/"
+        }
+      },
+      {
+        "category_id": 10,
+        "cluster_archive": "https://blog.rentbikehanoi.com/category/khu-vuc/hoan-kiem/",
+        "contextual_links_inside_cluster": 0,
+        "hub": {
+          "name": "Hoàn Kiếm",
+          "url": "https://blog.rentbikehanoi.com/category/khu-vuc/hoan-kiem/"
+        },
+        "orphans": 15,
+        "path": "Khu vực > Hoàn Kiếm",
+        "pillar": {
+          "name": "Khu vực",
+          "url": "https://blog.rentbikehanoi.com/category/khu-vuc/"
+        },
+        "posts": 15,
+        "proposed_cluster_lead": {
+          "centroid_similarity": 0.509,
+          "post_id": 1157,
+          "source": "computed (needs approval)",
+          "title": "Đi xe máy đến Nhà hát Lớn Hà Nội: gợi ý chỗ gửi xe và tuyến vào",
+          "url": "https://blog.rentbikehanoi.com/excel-466-di-xe-may-den-nha-hat-lon-ha-noi-goi-y-cho-gui-xe-va-tuyen-vao/"
+        },
+        "silo": null
+      },
+      {
+        "category_id": 12,
+        "cluster_archive": "https://blog.rentbikehanoi.com/category/khu-vuc/long-bien/",
+        "contextual_links_inside_cluster": 0,
+        "hub": {
+          "name": "Long Biên",
+          "url": "https://blog.rentbikehanoi.com/category/khu-vuc/long-bien/"
+        },
+        "orphans": 15,
+        "path": "Khu vực > Long Biên",
+        "pillar": {
+          "name": "Khu vực",
+          "url": "https://blog.rentbikehanoi.com/category/khu-vuc/"
+        },
+        "posts": 15,
+        "proposed_cluster_lead": {
+          "centroid_similarity": 0.583,
+          "post_id": 1177,
+          "source": "computed (needs approval)",
+          "title": "Đi xe máy từ Long Biên vào Hồ Hoàn Kiếm: nên chọn cầu nào?",
+          "url": "https://blog.rentbikehanoi.com/excel-486-di-xe-may-tu-long-bien-vao-ho-hoan-kiem-nen-chon-cau-nao/"
+        },
+        "silo": null
+      },
+      {
+        "category_id": 14,
+        "cluster_archive": "https://blog.rentbikehanoi.com/category/khu-vuc/gia-lam/",
+        "contextual_links_inside_cluster": 0,
+        "hub": {
+          "name": "Gia Lâm",
+          "url": "https://blog.rentbikehanoi.com/category/khu-vuc/gia-lam/"
+        },
+        "orphans": 13,
+        "path": "Khu vực > Gia Lâm",
+        "pillar": {
+          "name": "Khu vực",
+          "url": "https://blog.rentbikehanoi.com/category/khu-vuc/"
+        },
+        "posts": 13,
+        "proposed_cluster_lead": {
+          "centroid_similarity": 0.515,
+          "post_id": 1147,
+          "source": "computed (needs approval)",
+          "title": "Đi xe máy từ Gia Lâm đến ga Hà Nội: cách tránh tuyến quá đông",
+          "url": "https://blog.rentbikehanoi.com/excel-456-di-xe-may-tu-gia-lam-den-ga-ha-noi-cach-tranh-tuyen-qua-dong/"
+        },
+        "silo": null
+      },
+      {
+        "category_id": 13,
+        "cluster_archive": "https://blog.rentbikehanoi.com/category/khu-vuc/ba-dinh/",
+        "contextual_links_inside_cluster": 0,
+        "hub": {
+          "name": "Ba Đình",
+          "url": "https://blog.rentbikehanoi.com/category/khu-vuc/ba-dinh/"
+        },
+        "orphans": 10,
+        "path": "Khu vực > Ba Đình",
+        "pillar": {
+          "name": "Khu vực",
+          "url": "https://blog.rentbikehanoi.com/category/khu-vuc/"
+        },
+        "posts": 10,
+        "proposed_cluster_lead": {
+          "centroid_similarity": 0.528,
+          "post_id": 1132,
+          "source": "computed (needs approval)",
+          "title": "Đi xe máy quanh Lăng Chủ tịch Hồ Chí Minh: lưu ý về tuyến đường và chỗ gửi xe",
+          "url": "https://blog.rentbikehanoi.com/excel-441-di-xe-may-quanh-lang-chu-tich-ho-chi-minh-luu-y-ve-tuyen-duong-va-cho-gui-x/"
+        },
+        "silo": null
+      },
+      {
+        "category_id": 11,
+        "cluster_archive": "https://blog.rentbikehanoi.com/category/khu-vuc/hoan-kiem/pho-co/",
+        "contextual_links_inside_cluster": 0,
+        "hub": {
+          "name": "Hoàn Kiếm",
+          "url": "https://blog.rentbikehanoi.com/category/khu-vuc/hoan-kiem/"
+        },
+        "orphans": 8,
+        "path": "Khu vực > Hoàn Kiếm > Phố Cổ",
+        "pillar": {
+          "name": "Khu vực",
+          "url": "https://blog.rentbikehanoi.com/category/khu-vuc/"
+        },
+        "posts": 8,
+        "proposed_cluster_lead": {
+          "centroid_similarity": 0.599,
+          "post_id": 1171,
+          "source": "computed (needs approval)",
+          "title": "Đi xe máy đến Chợ Đồng Xuân: cách chọn tuyến và điểm dừng hợp lý",
+          "url": "https://blog.rentbikehanoi.com/excel-480-di-xe-may-den-cho-dong-xuan-cach-chon-tuyen-va-diem-dung-hop-ly/"
+        },
+        "silo": {
+          "name": "Phố Cổ",
+          "url": "https://blog.rentbikehanoi.com/category/khu-vuc/hoan-kiem/pho-co/"
+        }
+      },
+      {
+        "category_id": 15,
+        "cluster_archive": "https://blog.rentbikehanoi.com/category/cam-nang/",
+        "contextual_links_inside_cluster": 0,
+        "hub": null,
+        "orphans": 0,
+        "path": "Cẩm nang",
+        "pillar": {
+          "name": "Cẩm nang",
+          "url": "https://blog.rentbikehanoi.com/category/cam-nang/"
+        },
+        "posts": 4,
+        "proposed_cluster_lead": {
+          "centroid_similarity": 0.761,
+          "post_id": 165,
+          "source": "computed (needs approval)",
+          "title": "Kinh nghiệm thuê xe máy Hà Nội cho người thuê lần đầu",
+          "url": "https://blog.rentbikehanoi.com/kinh-nghiem-thue-xe-may-ha-noi-lan-dau/"
+        },
+        "silo": null
+      }
+    ],
+    "homepage": "https://blog.rentbikehanoi.com/"
+  },
+  "content": {
+    "cannibalization_pairs": 0,
+    "duplicate_copies": 6,
+    "gap_rows": 22,
+    "nap": {
+      "configured_business": false,
+      "configured_phones": [],
+      "emails": {},
+      "phone_pages": {
+        "0334699969": 10,
+        "0942467674": 49
+      },
+      "phones": {
+        "0334699969": [
+          "https://blog.rentbikehanoi.com/bao-mat/",
+          "https://blog.rentbikehanoi.com/dieu-khoan/",
+          "https://blog.rentbikehanoi.com/gioi-thieu/",
+          "https://blog.rentbikehanoi.com/hoi-dap/",
+          "https://blog.rentbikehanoi.com/lien-he/",
+          "https://blog.rentbikehanoi.com/nhan-xe-may-thue-gan-ben-xe-gia-lam-huong-dan-cho-khach-moi-den-ha-noi/",
+          "https://blog.rentbikehanoi.com/thue-xe-may-ha-noi-nguyen-ha/",
+          "https://blog.rentbikehanoi.com/thue-xe-may-theo-ngay-ha-noi/",
+          "https://blog.rentbikehanoi.com/thue-xe-may-theo-thang-ha-noi/",
+          "https://blog.rentbikehanoi.com/thue-xe-may-theo-tuan-ha-noi/"
+        ],
+        "0942467674": [
+          "https://blog.rentbikehanoi.com/excel-282-honda-wave-phu-hop-voi-quang-duong-di-lam-ngan-hay-dai/",
+          "https://blog.rentbikehanoi.com/excel-296-cach-lam-quen-voi-chuyen-so-khi-moi-thue-xe-so/",
+          "https://blog.rentbikehanoi.com/excel-304-xe-so-phu-hop-hon-xe-ga-trong-truong-hop-nao/",
+          "https://blog.rentbikehanoi.com/excel-305-di-nhieu-kilomet-moi-ngay-co-nen-uu-tien-xe-so/",
+          "https://blog.rentbikehanoi.com/excel-306-thue-xe-so-dai-ngay-can-kiem-tra-nhung-bo-phan-nao-thuong-xuyen/",
+          "https://blog.rentbikehanoi.com/excel-319-xe-so-co-phu-hop-voi-nguoi-thue-lan-dau-tai-ha-noi-khong/",
+          "https://blog.rentbikehanoi.com/excel-324-thue-xe-so-theo-tuan-nen-chon-theo-tieu-chi-nao/",
+          "https://blog.rentbikehanoi.com/excel-325-thue-xe-so-dai-han-nen-uu-tien-do-ben-muc-xang-hay-su-thoai-mai/",
+          "https://blog.rentbikehanoi.com/excel-327-honda-vision-phu-hop-voi-nguoi-can-xe-nhe-va-de-dieu-khien-nhu-the-nao/",
+          "https://blog.rentbikehanoi.com/excel-328-honda-air-blade-phu-hop-voi-nguoi-di-nhieu-kilomet-moi-ngay-khong/"
+        ]
+      }
+    },
+    "near_duplicate_pairs": 0,
+    "top_external_domains": {
+      "baoxaydung.vn": 14,
+      "bocongan.gov.vn": 16,
+      "cdn.honda.com.vn": 48,
+      "dat.bike": 30,
+      "selex.vn": 15,
+      "support.apple.com": 31,
+      "support.google.com": 45,
+      "thanglong.chinhphu.vn": 17,
+      "thuexemaynguyentu.com": 16,
+      "vinfastauto.com": 75,
+      "www.honda.com.vn": 133,
+      "www.vietnamplus.vn": 17,
+      "www.yadea.com.vn": 33,
+      "xaydungchinhsach.chinhphu.vn": 83,
+      "yamaha-motor.com.vn": 114
+    }
+  },
+  "counts": {
+    "categories": 22,
+    "media": 58,
+    "pages": 18,
+    "posts": 507,
+    "tags": 4
+  },
+  "crawl": {
+    "archives_crawled": 175,
+    "at": "2026-10-16T20:15:10+00:00",
+    "full": true,
+    "images_checked": 1,
+    "internal_targets_checked": 9,
+    "internal_targets_skipped_cap": 0,
+    "posts_pages_crawled": 525,
+    "posts_pages_reused": 0,
+    "requests": 748
+  },
+  "delta_vs_previous": {
+    "new": 0,
+    "resolved": 4
+  },
+  "discovery": {
+    "checked_at": "2026-10-16T20:11:32+00:00",
+    "description": "Thuê xe máy, xe 50cc và xe điện tại Hà Nội",
+    "gmt_offset": 7,
+    "home": "https://blog.rentbikehanoi.com",
+    "name": "Thuê xe máy Nguyễn Hà",
+    "namespaces": [
+      "oembed/1.0",
+      "litespeed/v1",
+      "litespeed/v3",
+      "lsa-lite/v1",
+      "wpvibe/v1",
+      "yoast/v1",
+      "wp-manager/v1",
+      "wp-writer/v1",
+      "dfg/v1",
+      "hostinger-reach/v1",
+      "hostinger-tools-plugin/v1",
+      "google-site-kit/v1",
+      "wp/v2",
+      "wp-site-health/v1",
+      "wp-block-editor/v1",
+      "wp-abilities/v1"
+    ],
+    "rest_status": 200,
+    "timezone_string": "Asia/Ho_Chi_Minh",
+    "url": "https://blog.rentbikehanoi.com",
+    "yoast_rest_namespace": true
+  },
+  "external_links": {
+    "checked_at": "2026-10-16T20:19:16+00:00",
+    "checked_now": 110,
+    "external_unique": 506,
+    "failed_after_check": 110,
+    "skipped_cap": 0
+  },
+  "generated_at": "2026-10-16T20:19:48+00:00",
+  "gsc": {
+    "checked_at": "2026-10-16T20:19:29+00:00",
+    "reason": "GSC_SERVICE_ACCOUNT_JSON / GSC_PROPERTY not configured",
+    "status": "BLOCKED"
+  },
+  "issue_counts": {
+    "by_code": [
+      {
+        "code": "C-FINE-AMOUNT",
+        "count": 41,
+        "priority": "P1",
+        "verification": "NEEDS_REVIEW"
+      },
+      {
+        "code": "T-DUPLICATE-COPY",
+        "count": 6,
+        "priority": "P1",
+        "verification": "VERIFIED"
+      },
+      {
+        "code": "T-TITLE-DUPLICATE",
+        "count": 2,
+        "priority": "P1",
+        "verification": "VERIFIED"
+      },
+      {
+        "code": "A-BRAND-MISMATCH",
+        "count": 1,
+        "priority": "P1",
+        "verification": "NEEDS_REVIEW"
+      },
+      {
+        "code": "C-NAP-INCONSISTENT",
+        "count": 1,
+        "priority": "P1",
+        "verification": "NEEDS_REVIEW"
+      },
+      {
+        "code": "T-FEATURED-IMAGE-MISSING",
+        "count": 474,
+        "priority": "P2",
+        "verification": "VERIFIED"
+      },
+      {
+        "code": "L-ORPHAN",
+        "count": 380,
+        "priority": "P2",
+        "verification": "VERIFIED"
+      },
+      {
+        "code": "L-NO-OUTBOUND",
+        "count": 167,
+        "priority": "P2",
+        "verification": "VERIFIED"
+      },
+      {
+        "code": "C-NO-SOURCES",
+        "count": 154,
+        "priority": "P2",
+        "verification": "NEEDS_REVIEW"
+      },
+      {
+        "code": "C-LEGAL-NO-OFFICIAL-SOURCE",
+        "count": 154,
+        "priority": "P2",
+        "verification": "NEEDS_REVIEW"
+      },
+      {
+        "code": "C-PRICE-MENTION",
+        "count": 107,
+        "priority": "P2",
+        "verification": "NEEDS_REVIEW"
+      },
+      {
+        "code": "L-DEEP-PAGE",
+        "count": 74,
+        "priority": "P2",
+        "verification": "VERIFIED"
+      },
+      {
+        "code": "L-BROKEN-EXTERNAL",
+        "count": 34,
+        "priority": "P2",
+        "verification": "VERIFIED"
+      },
+      {
+        "code": "T-META-DESC-MISSING",
+        "count": 19,
+        "priority": "P2",
+        "verification": "VERIFIED"
+      },
+      {
+        "code": "C-THIN-PAGE",
+        "count": 7,
+        "priority": "P2",
+        "verification": "NEEDS_REVIEW"
+      },
+      {
+        "code": "T-ARCHIVE-NOINDEX",
+        "count": 7,
+        "priority": "P2",
+        "verification": "NEEDS_REVIEW"
+      },
+      {
+        "code": "T-IMG-HEAVY",
+        "count": 2,
+        "priority": "P2",
+        "verification": "VERIFIED"
+      },
+      {
+        "code": "T-SCHEMA-NON-YOAST",
+        "count": 2,
+        "priority": "P2",
+        "verification": "NEEDS_REVIEW"
+      },
+      {
+        "code": "T-UNCATEGORIZED",
+        "count": 1,
+        "priority": "P2",
+        "verification": "VERIFIED"
+      },
+      {
+        "code": "A-AUTHOR-GENERIC",
+        "count": 1,
+        "priority": "P2",
+        "verification": "NEEDS_REVIEW"
+      },
+      {
+        "code": "T-OG-IMAGE-MISSING",
+        "count": 492,
+        "priority": "P3",
+        "verification": "VERIFIED"
+      },
+      {
+        "code": "T-TITLE-LONG",
+        "count": 461,
+        "priority": "P3",
+        "verification": "VERIFIED"
+      },
+      {
+        "code": "L-EXTERNAL-UNVERIFIED",
+        "count": 125,
+        "priority": "P3",
+        "verification": "NEEDS_REVIEW"
+      },
+      {
+        "code": "C-TIME-SENSITIVE",
+        "count": 121,
+        "priority": "P3",
+        "verification": "NEEDS_REVIEW"
+      },
+      {
+        "code": "A-NO-STRUCTURE",
+        "count": 102,
+        "priority": "P3",
+        "verification": "INFO"
+      },
+      {
+        "code": "A-NO-DIRECT-ANSWER",
+        "count": 94,
+        "priority": "P3",
+        "verification": "NEEDS_REVIEW"
+      },
+      {
+        "code": "L-LOW-INBOUND",
+        "count": 26,
+        "priority": "P3",
+        "verification": "VERIFIED"
+      },
+      {
+        "code": "A-NO-FAQ",
+        "count": 5,
+        "priority": "P3",
+        "verification": "INFO"
+      },
+      {
+        "code": "T-META-DESC-SHORT",
+        "count": 1,
+        "priority": "P3",
+        "verification": "VERIFIED"
+      },
+      {
+        "code": "T-IMG-NO-DIMENSIONS",
+        "count": 1,
+        "priority": "P3",
+        "verification": "VERIFIED"
+      },
+      {
+        "code": "T-META-DESC-NOT-YOAST",
+        "count": 1,
+        "priority": "P3",
+        "verification": "INFO"
+      },
+      {
+        "code": "A-AI-CRAWLER-POLICY",
+        "count": 1,
+        "priority": "P3",
+        "verification": "INFO"
+      },
+      {
+        "code": "A-ORG-SAMEAS-MISSING",
+        "count": 1,
+        "priority": "P3",
+        "verification": "INFO"
+      },
+      {
+        "code": "A-FOCUS-KEYPHRASE-BLOCKED",
+        "count": 1,
+        "priority": "P3",
+        "verification": "BLOCKED"
+      },
+      {
+        "code": "G-GSC-NOT-CONFIGURED",
+        "count": 1,
+        "priority": "P3",
+        "verification": "BLOCKED"
+      },
+      {
+        "code": "T-CWV-NOT-MEASURED",
+        "count": 1,
+        "priority": "P3",
+        "verification": "BLOCKED"
+      }
+    ],
+    "by_priority": {
+      "P1": 51,
+      "P2": 1583,
+      "P3": 1434
+    },
+    "by_priority_and_verification": {
+      "P1/NEEDS_REVIEW": 43,
+      "P1/VERIFIED": 8,
+      "P2/NEEDS_REVIEW": 432,
+      "P2/VERIFIED": 1151,
+      "P3/BLOCKED": 3,
+      "P3/INFO": 110,
+      "P3/NEEDS_REVIEW": 340,
+      "P3/VERIFIED": 981
+    }
+  },
+  "linking": {
+    "avg_inbound": 2.01,
+    "contextual_edges": 1053,
+    "depth_histogram": {
+      "1": 12,
+      "2": 148,
+      "3": 183,
+      "4": 101,
+      "5": 34,
+      "6": 17,
+      "7": 18,
+      "8": 5,
+      "unknown": 1
+    },
+    "excluded_duplicate_copies": 6,
+    "graph_complete": true,
+    "max_depth": 8,
+    "orphans": 380,
+    "published": 525,
+    "suggestions": 683,
+    "suspicious_external_hosts": []
+  },
+  "mode": "matrix",
+  "pagespeed": [
+    {
+      "error": "HTTP 429",
+      "measured_at": "2026-10-16T20:19:19+00:00",
+      "status": 429,
+      "url": "https://blog.rentbikehanoi.com/"
+    },
+    {
+      "error": "HTTP 429",
+      "measured_at": "2026-10-16T20:19:23+00:00",
+      "status": 429,
+      "url": "https://blog.rentbikehanoi.com/dich-vu-cho-thue-xe-may-ha-noi-gia-thu-tuc-dia-chi-kinh-nghiem/"
+    },
+    {
+      "error": "HTTP 429",
+      "measured_at": "2026-10-16T20:19:26+00:00",
+      "status": 429,
+      "url": "https://blog.rentbikehanoi.com/cach-doc-bien-cam-xe-may-thuong-gap-trong-noi-do-ha-noi/"
+    },
+    {
+      "error": "HTTP 429",
+      "measured_at": "2026-10-16T20:19:29+00:00",
+      "status": 429,
+      "url": "https://blog.rentbikehanoi.com/category/cam-nang/kinh-nghiem/"
+    }
+  ],
+  "probes": {
+    "core_wp_sitemap": {
+      "elapsed_ms": 681,
+      "error": "",
+      "final_url": "https://blog.rentbikehanoi.com/sitemap_index.xml",
+      "redirects": [
+        {
+          "from": "https://blog.rentbikehanoi.com/wp-sitemap.xml",
+          "status": 301,
+          "to": "https://blog.rentbikehanoi.com/sitemap_index.xml"
+        }
+      ],
+      "status": 200
+    },
+    "http_to_https": {
+      "elapsed_ms": 647,
+      "error": "",
+      "final_url": "https://blog.rentbikehanoi.com/",
+      "redirects": [
+        {
+          "from": "http://blog.rentbikehanoi.com/",
+          "status": 301,
+          "to": "https://blog.rentbikehanoi.com/"
+        }
+      ],
+      "status": 200
+    },
+    "llms_txt": {
+      "final_url": "https://blog.rentbikehanoi.com/llms.txt",
+      "status": 404
+    },
+    "no_trailing_slash_probe": {
+      "elapsed_ms": 662,
+      "error": "",
+      "final_url": "https://blog.rentbikehanoi.com/thue-xe-may-theo-ngay-ha-noi/",
+      "redirects": [
+        {
+          "from": "https://blog.rentbikehanoi.com/thue-xe-may-theo-ngay-ha-noi",
+          "status": 301,
+          "to": "https://blog.rentbikehanoi.com/thue-xe-may-theo-ngay-ha-noi/"
+        }
+      ],
+      "status": 200,
+      "url": "https://blog.rentbikehanoi.com/thue-xe-may-theo-ngay-ha-noi"
+    },
+    "not_found_probe": {
+      "elapsed_ms": 464,
+      "error": "",
+      "final_url": "https://blog.rentbikehanoi.com/seo-audit-probe-bf4de26dd0a8-not-a-page/",
+      "redirects": [],
+      "status": 404,
+      "url": "https://blog.rentbikehanoi.com/seo-audit-probe-bf4de26dd0a8-not-a-page/"
+    },
+    "robots_disallow_all": false,
+    "robots_sitemaps": [
+      "https://blog.rentbikehanoi.com/sitemap_index.xml"
+    ],
+    "robots_status": 200,
+    "robots_txt": "# START YOAST BLOCK\n# ---------------------------\nUser-agent: *\nDisallow:\n\nSitemap: https://blog.rentbikehanoi.com/sitemap_index.xml\n# ---------------------------\n# END YOAST BLOCK",
+    "sitemap_files": [
+      {
+        "count": 3,
+        "error": "",
+        "kind": "sitemapindex",
+        "status": 200,
+        "url": "https://blog.rentbikehanoi.com/sitemap_index.xml"
+      },
+      {
+        "count": 508,
+        "error": "",
+        "kind": "urlset",
+        "status": 200,
+        "url": "https://blog.rentbikehanoi.com/post-sitemap.xml"
+      },
+      {
+        "count": 19,
+        "error": "",
+        "kind": "urlset",
+        "status": 200,
+        "url": "https://blog.rentbikehanoi.com/page-sitemap.xml"
+      },
+      {
+        "count": 22,
+        "error": "",
+        "kind": "urlset",
+        "status": 200,
+        "url": "https://blog.rentbikehanoi.com/category-sitemap.xml"
+      }
+    ],
+    "sitemap_url_count": 548
+  },
+  "read_only": true,
+  "run": "https://github.com/thuexemayhanoi/wp-aiwriter/actions/runs/38960085063",
+  "site": "https://blog.rentbikehanoi.com",
+  "stack": {
+    "generator": "WordPress 7.1.3",
+    "plugins": [
+      "google-site-kit",
+      "local-site-assistant-lite"
+    ],
+    "themes": [
+      "nguyen-ha-glass-2026"
+    ],
+    "yoast_version": "28.7"
+  },
+  "sync_stats": {
+    "page": {
+      "fetched": 18,
+      "listed": 18,
+      "new": 0,
+      "removed": [],
+      "reused": 0,
+      "updated": 0
+    },
+    "post": {
+      "fetched": 507,
+      "listed": 507,
+      "new": 0,
+      "removed": [],
+      "reused": 0,
+      "updated": 0
+    }
+  },
+  "terms": {
+    "categories": 22,
+    "media": 58,
+    "media_images_missing_alt": 57,
+    "tags": 4
+  }
+}

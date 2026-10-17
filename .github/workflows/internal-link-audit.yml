@@ -1,0 +1,19 @@
+name: Internal Link Audit (manual, read-only)
+on:
+  workflow_dispatch:
+    inputs:
+      external_links:
+        description: 'Also re-check outbound links'
+        type: boolean
+        default: true
+permissions:
+  contents: write
+concurrency:
+  group: seo-engine-${{ github.ref_name }}
+  cancel-in-progress: false
+jobs:
+  links:
+    uses: ./.github/workflows/seo-engine.yml
+    with:
+      label: internal-links
+      args: run --mode internal-links ${{ inputs.external_links && '--external' || '' }}
