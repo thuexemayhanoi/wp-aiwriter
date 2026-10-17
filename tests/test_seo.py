@@ -162,9 +162,16 @@ class ProtectionLogicTests(unittest.TestCase):
                          'published_source_missing'} <= self.codes(found))
         self.assertTrue(all(f['severity'] == 'critical' for f in found))
 
-    def test_baseline_url_mismatch_detected(self):
-        baseline = {'entries': {'1': {'url': f'{HOST}/other/'}}}
-        self.assertIn('baseline_url_mismatch', self.codes(prot.repo_guard(self.ledger, self.ready, self.topics, baseline)))
+    def test_baseline_is_joined_to_the_ledger_through_the_wordpress_id(self):
+        # ledger_entry(1) has wp_id 1001; baseline keys are WordPress IDs, so '1' is an unrelated WP post.
+        unrelated = {'entries': {'1': {'url': f'{HOST}/legacy-post/'}, '2': {'url': f'{HOST}/other-legacy/'}}}
+        self.assertEqual(prot.repo_guard(self.ledger, self.ready, self.topics, unrelated), [])
+        agreeing = {'entries': {'1001': {'url': f'{HOST}/post-1/'}}}
+        self.assertEqual(prot.repo_guard(self.ledger, self.ready, self.topics, agreeing), [])
+        moved = {'entries': {'1001': {'url': f'{HOST}/other/'}}}
+        found = prot.repo_guard(self.ledger, self.ready, self.topics, moved)
+        self.assertEqual([f['check'] for f in found], ['baseline_url_mismatch'])
+        self.assertEqual(found[0]['id'], 1)
 
     def entry(self, **kw):
         base = {'type': 'post', 'url': f'{HOST}/a/', 'slug': 'a', 'title': 'A', 'categories': [7], 'http_status': 200,

@@ -69,12 +69,14 @@ def repo_guard(ledger, ready, topics, baseline=None):
         if len(ids) > 1:
             out.append(sc.finding('category_inconsistent', 'critical',
                                   f'{category} maps to several WordPress categories: {sorted(map(str, ids))}'))
-    if baseline:
-        for key, entry in baseline.get('entries', {}).items():
-            ledger_entry = ledger.get(key)
+    if baseline:  # baseline entries are keyed by WordPress ID, ledger entries by Excel ID: join through wp_id
+        by_wp = {str(e['wp_id']): (k, e) for k, e in ledger.items() if e.get('wp_id')}
+        for wp_id, entry in baseline.get('entries', {}).items():
+            excel_id, ledger_entry = by_wp.get(str(wp_id), (None, None))
             if ledger_entry and ledger_entry.get('url') and sc.norm_url(ledger_entry['url']) != sc.norm_url(entry['url']):
                 out.append(sc.finding('baseline_url_mismatch', 'critical',
-                                      f'#{key}: ledger URL {ledger_entry["url"]} != baseline {entry["url"]}', id=int(key)))
+                                      f'#{excel_id} (WP {wp_id}): ledger URL {ledger_entry["url"]} != baseline {entry["url"]}',
+                                      id=int(excel_id)))
     return out
 
 
