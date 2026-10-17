@@ -87,7 +87,8 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/seo/protection-baseline.json data/seo/protection-allowlist.json
+          git add data/seo/protection-baseline.json
+          [[ -f data/seo/protection-allowlist.json ]] && git add data/seo/protection-allowlist.json
           if git diff --cached --quiet; then echo 'Baseline unchanged'; exit 0; fi
           git commit -m 'chore(seo): update SEO protection baseline [skip ci]'
           for attempt in 1 2 3 4 5; do
