@@ -1,0 +1,163 @@
+{
+  "site": "https://blog.rentbikehanoi.com",
+  "date": "2026-10-17",
+  "source_inventory": "data/seo/wp-inventory-20261017.json",
+  "inventory_is_historical": true,
+  "reference_completed_batch": "data/seo/seo-master-matrix-progress-20261017-batch004.json",
+  "reason": "WordPress WP-CLI returned HTTP 429 while refreshing page inventory. Stop all further WordPress calls this run; this queue uses previously saved authenticated WordPress inventory and requires revalidation before edits.",
+  "next_candidates": [
+    {
+      "id": 245,
+      "title": "Cách kiểm tra lốp xe máy thuê để tránh sự cố giữa đường",
+      "url": "https://blog.rentbikehanoi.com/cach-kiem-tra-lop-xe-may-thue-de-tranh-su-co-giua-duong/",
+      "slug": "cach-kiem-tra-lop-xe-may-thue-de-tranh-su-co-giua-duong",
+      "modified_at_snapshot": "2026-10-08T00:18:27",
+      "category_ids": [
+        22
+      ],
+      "featured_media_id": 243,
+      "priority": "P1",
+      "candidate_related_post_ids": [
+        219,
+        253,
+        262
+      ],
+      "audit_plan": [
+        "Read complete WordPress body and rendered Yoast title/meta/canonical before editing",
+        "Compare search intent with similar safety posts and do not duplicate paragraphs",
+        "Check any maintenance safety thresholds against manufacturer-specific sources",
+        "Save exact full original body/excerpt/status/modified in GitHub before any change",
+        "Add only contextually appropriate verified internal links, avoid generic CTA spam",
+        "Inspect real featured image and its ALT before any ALT edit",
+        "Verify published HTML and homepage guard after edits"
+      ],
+      "status": "QUEUED_NOT_EDITED"
+    },
+    {
+      "id": 253,
+      "title": "Những dấu hiệu cho thấy lốp xe cần được kiểm tra lại trước khi đi",
+      "url": "https://blog.rentbikehanoi.com/nhung-dau-hieu-cho-thay-lop-xe-can-duoc-kiem-tra-lai-truoc-khi-di/",
+      "slug": "nhung-dau-hieu-cho-thay-lop-xe-can-duoc-kiem-tra-lai-truoc-khi-di",
+      "modified_at_snapshot": "2026-10-08T00:09:48",
+      "category_ids": [
+        22
+      ],
+      "featured_media_id": 252,
+      "priority": "P2",
+      "candidate_related_post_ids": [
+        245,
+        219,
+        262
+      ],
+      "audit_plan": [
+        "Read complete WordPress body and rendered Yoast title/meta/canonical before editing",
+        "Compare search intent with similar safety posts and do not duplicate paragraphs",
+        "Check any maintenance safety thresholds against manufacturer-specific sources",
+        "Save exact full original body/excerpt/status/modified in GitHub before any change",
+        "Add only contextually appropriate verified internal links, avoid generic CTA spam",
+        "Inspect real featured image and its ALT before any ALT edit",
+        "Verify published HTML and homepage guard after edits"
+      ],
+      "status": "QUEUED_NOT_EDITED"
+    },
+    {
+      "id": 256,
+      "title": "Cách kiểm tra đèn pha, đèn hậu và xi nhan khi nhận xe",
+      "url": "https://blog.rentbikehanoi.com/cach-kiem-tra-den-pha-den-hau-va-xi-nhan-khi-nhan-xe/",
+      "slug": "cach-kiem-tra-den-pha-den-hau-va-xi-nhan-khi-nhan-xe",
+      "modified_at_snapshot": "2026-10-15T03:46:25",
+      "category_ids": [
+        22,
+        1
+      ],
+      "featured_media_id": 255,
+      "priority": "P1",
+      "candidate_related_post_ids": [
+        260,
+        219,
+        262
+      ],
+      "audit_plan": [
+        "Read complete WordPress body and rendered Yoast title/meta/canonical before editing",
+        "Compare search intent with similar safety posts and do not duplicate paragraphs",
+        "Check any maintenance safety thresholds against manufacturer-specific sources",
+        "Save exact full original body/excerpt/status/modified in GitHub before any change",
+        "Add only contextually appropriate verified internal links, avoid generic CTA spam",
+        "Inspect real featured image and its ALT before any ALT edit",
+        "Verify published HTML and homepage guard after edits"
+      ],
+      "status": "QUEUED_NOT_EDITED"
+    },
+    {
+      "id": 260,
+      "title": "Kiểm tra còi và gương chiếu hậu thế nào trước khi sử dụng xe thuê?",
+      "url": "https://blog.rentbikehanoi.com/kiem-tra-coi-va-guong-chieu-hau-the-nao-truoc-khi-su-dung-xe-thue/",
+      "slug": "kiem-tra-coi-va-guong-chieu-hau-the-nao-truoc-khi-su-dung-xe-thue",
+      "modified_at_snapshot": "2026-10-08T00:28:15",
+      "category_ids": [
+        22
+      ],
+      "featured_media_id": 259,
+      "priority": "P2",
+      "candidate_related_post_ids": [
+        256,
+        219,
+        262
+      ],
+      "audit_plan": [
+        "Read complete WordPress body and rendered Yoast title/meta/canonical before editing",
+        "Compare search intent with similar safety posts and do not duplicate paragraphs",
+        "Check any maintenance safety thresholds against manufacturer-specific sources",
+        "Save exact full original body/excerpt/status/modified in GitHub before any change",
+        "Add only contextually appropriate verified internal links, avoid generic CTA spam",
+        "Inspect real featured image and its ALT before any ALT edit",
+        "Verify published HTML and homepage guard after edits"
+      ],
+      "status": "QUEUED_NOT_EDITED"
+    },
+    {
+      "id": 262,
+      "title": "Vì sao nên chụp lại hiện trạng xe trước khi nhận?",
+      "url": "https://blog.rentbikehanoi.com/vi-sao-nen-chup-lai-hien-trang-xe-truoc-khi-nhan/",
+      "slug": "vi-sao-nen-chup-lai-hien-trang-xe-truoc-khi-nhan",
+      "modified_at_snapshot": "2026-10-08T00:40:58",
+      "category_ids": [
+        22
+      ],
+      "featured_media_id": 259,
+      "priority": "P2",
+      "candidate_related_post_ids": [
+        245,
+        256,
+        219
+      ],
+      "audit_plan": [
+        "Read complete WordPress body and rendered Yoast title/meta/canonical before editing",
+        "Compare search intent with similar safety posts and do not duplicate paragraphs",
+        "Check any maintenance safety thresholds against manufacturer-specific sources",
+        "Save exact full original body/excerpt/status/modified in GitHub before any change",
+        "Add only contextually appropriate verified internal links, avoid generic CTA spam",
+        "Inspect real featured image and its ALT before any ALT edit",
+        "Verify published HTML and homepage guard after edits"
+      ],
+      "status": "QUEUED_NOT_EDITED"
+    }
+  ],
+  "do_not_duplicate_ids": [
+    20,
+    21,
+    22,
+    23,
+    25,
+    26,
+    27,
+    28,
+    219
+  ],
+  "notes": [
+    "No content, permalink, SEO, or image changes made by this queue file",
+    "The Batch 004 checkpoint already exists on GitHub and records 9 edited/9 scoped QA passes; do not overwrite it",
+    "Candidate metadata has blank custom Yoast fields but does NOT imply rendered SEO tags are missing",
+    "Published status and current modification time must be rechecked after rate limit cooldown"
+  ]
+}
