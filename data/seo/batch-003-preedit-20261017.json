@@ -1,0 +1,26 @@
+{
+  "site": "https://blog.rentbikehanoi.com",
+  "batch": "SEO-003",
+  "captured": "2026-10-17",
+  "restore": "Use WordPress revisions, or use exact original post_content after change comparison. No other fields to be overwritten.",
+  "pages": [
+    {
+      "ID": "20",
+      "post_title": "Khu vực",
+      "post_content": "<p class=\"lead\">Nguyễn Hà tập trung phục vụ khách thuê xe trong phạm vi Hà Nội, không mở rộng nội dung SEO sang các tỉnh khác.</p><div class=\"grid\"><div class=\"card\"><h2>Hoàn Kiếm</h2><p>Khu vực trung tâm, bao gồm cụm Phố Cổ.</p><a href=\"/hoan-kiem/\">Xem Hoàn Kiếm</a></div><div class=\"card\"><h2>Long Biên</h2><p>Cửa hàng tại Bồ Đề, gần Bến xe Gia Lâm.</p><a href=\"/long-bien/\">Xem Long Biên</a></div><div class=\"card\"><h2>Ba Đình</h2><p>Nội dung và hướng dẫn thuê xe theo khu vực Ba Đình.</p><a href=\"/ba-dinh/\">Xem Ba Đình</a></div></div><h2>Giao xe</h2><p>Chỉ giao đối với hợp đồng tuần hoặc tháng. Mốc tính bán kính là Hồ Hoàn Kiếm.</p>",
+      "post_excerpt": "Các khu vực thuê xe máy Nguyễn Hà tại Hà Nội: Hoàn Kiếm, Phố Cổ, Long Biên, Ba Đình và Gia Lâm.",
+      "post_modified": "2026-10-05 11:02:12",
+      "post_name": "khu-vuc",
+      "post_status": "publish"
+    },
+    {
+      "ID": "22",
+      "post_title": "Thuê xe máy Phố Cổ",
+      "post_content": "<p class=\"lead\"><strong>Thuê xe máy Phố Cổ Hà Nội</strong> dành cho khách muốn chủ động di chuyển quanh khu trung tâm và các điểm lân cận.</p><h2>Khác với trang Hoàn Kiếm</h2><p>Trang này tập trung riêng vào nhu cầu của khách lưu trú và tham quan khu Phố Cổ, trong khi <a href=\"https://blog.rentbikehanoi.com/hoan-kiem/\">trang thuê xe máy Hoàn Kiếm</a> bao quát khu vực rộng hơn. Khách muốn biết trước giá thuê, mức đặt cọc và điều kiện giao nhận có thể đối chiếu tại <a href=\"https://blog.rentbikehanoi.com/bang-gia/\">bảng giá Nguyễn Hà</a>. Hai trang tập trung vào nhu cầu khác nhau: trang này dành riêng cho khách ở Phố Cổ, còn trang Hoàn Kiếm hướng dẫn cho khu vực rộng hơn.</p><h2>Giao nhận</h2><p>Nguyễn Hà chỉ giao/nhận xe cho hợp đồng tuần hoặc tháng. Phí trong bán kính 10 km tính từ Hồ Hoàn Kiếm là 50.000đ mỗi lượt. Không giao hoặc nhận xe tại Nội Bài.</p><h2>Nhận xe ngắn hạn</h2><p>Khách thuê theo ngày hoặc ngắn hạn nhận xe trực tiếp tại cửa hàng ở Ngõ 5 Nguyễn Văn Cừ, Bồ Đề, Long Biên.</p>",
+      "post_excerpt": "Thuê xe máy Phố Cổ Hà Nội Nguyễn Hà: hướng dẫn nhận xe, chính sách giao cho hợp đồng tuần/tháng và các dòng xe phù hợp.",
+      "post_modified": "2026-10-14 01:12:44",
+      "post_name": "pho-co",
+      "post_status": "publish"
+    }
+  ]
+}
