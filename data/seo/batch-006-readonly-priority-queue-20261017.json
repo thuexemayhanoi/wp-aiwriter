@@ -1,0 +1,221 @@
+{
+  "site": "https://blog.rentbikehanoi.com",
+  "repo": "thuexemayhanoi/wp-aiwriter",
+  "batch": "SEO-006",
+  "compiled_on": "2026-10-17",
+  "purpose": "Offline/repo preparation during WPVibe quota, not WordPress production changes",
+  "baseline_inventory": "data/seo/wp-inventory-20261017.json",
+  "last_confirmed_checkpoint": "data/seo/seo-master-matrix-progress-20261017-batch005.json",
+  "known_edited_ids": [
+    20,
+    21,
+    22,
+    23,
+    25,
+    26,
+    27,
+    28,
+    219,
+    245,
+    256
+  ],
+  "known_scoped_qa_pass_count": 9,
+  "needs_fresh_QA_for": [
+    245,
+    256
+  ],
+  "new_wp_edits_in_this_batch": 0,
+  "remaining_unedited_at_baseline": 514,
+  "wp_agent_connection": "Approval pending: https://blog.rentbikehanoi.com, do not assume linked",
+  "source_link_graph_warning": "Existing link-plan.json was generated from an outdated graph over 336 posts and has semantically misleading anchors. Do NOT execute its link suggestions automatically without fresh title and content matching.",
+  "sample_bad_auto_proposals": [
+    {
+      "source_id": 245,
+      "target_id": 253,
+      "anchor_hint_from_existing_proposal": "Cách bật cảnh báo mưa trước khi bắt đầu hành trình bằng xe máy",
+      "why": "The source is tire inspection and destination is tire warning signs; anchor about rain alerts is irrelevant."
+    },
+    {
+      "source_id": 262,
+      "target_id": 275,
+      "anchor_hint_from_existing_proposal": "Cách xử lý khi ứng dụng xe điện không đồng bộ dữ liệu pin",
+      "why": "Source is photo evidence and destination rental deposit — unrelated to electric app."
+    }
+  ],
+  "next_candidates": [
+    {
+      "id": 253,
+      "title": "Những dấu hiệu cho thấy lốp xe cần được kiểm tra lại trước khi đi",
+      "url": "https://blog.rentbikehanoi.com/nhung-dau-hieu-cho-thay-lop-xe-can-duoc-kiem-tra-lai-truoc-khi-di/",
+      "last_modified_in_historical_inventory": "2026-10-08T00:09:48",
+      "priority": "P1",
+      "content_cluster": "Safety — tire condition",
+      "proposed_contextual_links": [
+        {
+          "to_id": 245,
+          "to_title": "Cách kiểm tra lốp xe máy thuê để tránh sự cố giữa đường",
+          "to_url": "https://blog.rentbikehanoi.com/cach-kiem-tra-lop-xe-may-thue-de-tranh-su-co-giua-duong/"
+        },
+        {
+          "to_id": 219,
+          "to_title": "Cách kiểm tra phanh xe trước khi bắt đầu hành trình ở Hà Nội",
+          "to_url": "https://blog.rentbikehanoi.com/cach-kiem-tra-phanh-xe-truoc-khi-bat-dau-hanh-trinh-o-ha-noi/"
+        },
+        {
+          "to_id": 262,
+          "to_title": "Vì sao nên chụp lại hiện trạng xe trước khi nhận?",
+          "to_url": "https://blog.rentbikehanoi.com/vi-sao-nen-chup-lai-hien-trang-xe-truoc-khi-nhan/"
+        }
+      ],
+      "audit_before_write": [
+        "Check explicit existing tyre-wear thresholds or pressure PSI against manufacturer handbook; remove unsafe universal advice",
+        "Link diagnostic signs to inspection guide #245; avoid duplicate how-to instructions",
+        "Check description fallback, public SEO head, featured photo and truthful ALT based on the actual image"
+      ],
+      "stage": "PLANNED_READ_ONLY",
+      "requires_fresh_wp_snapshot": true,
+      "qa_status": "NOT_STARTED"
+    },
+    {
+      "id": 262,
+      "title": "Vì sao nên chụp lại hiện trạng xe trước khi nhận?",
+      "url": "https://blog.rentbikehanoi.com/vi-sao-nen-chup-lai-hien-trang-xe-truoc-khi-nhan/",
+      "last_modified_in_historical_inventory": "2026-10-08T00:40:58",
+      "priority": "P1",
+      "content_cluster": "Handover — photographic evidence",
+      "proposed_contextual_links": [
+        {
+          "to_id": 266,
+          "to_title": "Cách ghi nhận vết xước trên xe thuê để tránh tranh cãi khi trả xe",
+          "to_url": "https://blog.rentbikehanoi.com/cach-ghi-nhan-vet-xuoc-tren-xe-thue-de-tranh-tranh-cai-khi-tra-xe/"
+        },
+        {
+          "to_id": 272,
+          "to_title": "Cách kiểm tra thời gian nhận và trả xe trên hợp đồng",
+          "to_url": "https://blog.rentbikehanoi.com/cach-kiem-tra-thoi-gian-nhan-va-tra-xe-tren-hop-dong/"
+        },
+        {
+          "to_id": 275,
+          "to_title": "Tiền cọc thuê xe máy: những điều nên xác nhận trước khi thanh toán",
+          "to_url": "https://blog.rentbikehanoi.com/tien-coc-thue-xe-may-nhung-dieu-nen-xac-nhan-truoc-khi-thanh-toan/"
+        }
+      ],
+      "audit_before_write": [
+        "Differentiate photos at pickup from scratch-recording and invoice procedures",
+        "Link to scratch checklist #266 and receipt/time verification without repetitive keyword anchors",
+        "Confirm privacy treatment, consent and any claims about rental liability"
+      ],
+      "stage": "PLANNED_READ_ONLY",
+      "requires_fresh_wp_snapshot": true,
+      "qa_status": "NOT_STARTED"
+    },
+    {
+      "id": 260,
+      "title": "Kiểm tra còi và gương chiếu hậu thế nào trước khi sử dụng xe thuê?",
+      "url": "https://blog.rentbikehanoi.com/kiem-tra-coi-va-guong-chieu-hau-the-nao-truoc-khi-su-dung-xe-thue/",
+      "last_modified_in_historical_inventory": "2026-10-08T00:28:15",
+      "priority": "P2",
+      "content_cluster": "Safety — horn and mirrors",
+      "proposed_contextual_links": [
+        {
+          "to_id": 256,
+          "to_title": "Cách kiểm tra đèn pha, đèn hậu và xi nhan khi nhận xe",
+          "to_url": "https://blog.rentbikehanoi.com/cach-kiem-tra-den-pha-den-hau-va-xi-nhan-khi-nhan-xe/"
+        },
+        {
+          "to_id": 219,
+          "to_title": "Cách kiểm tra phanh xe trước khi bắt đầu hành trình ở Hà Nội",
+          "to_url": "https://blog.rentbikehanoi.com/cach-kiem-tra-phanh-xe-truoc-khi-bat-dau-hanh-trinh-o-ha-noi/"
+        },
+        {
+          "to_id": 262,
+          "to_title": "Vì sao nên chụp lại hiện trạng xe trước khi nhận?",
+          "to_url": "https://blog.rentbikehanoi.com/vi-sao-nen-chup-lai-hien-trang-xe-truoc-khi-nhan/"
+        }
+      ],
+      "audit_before_write": [
+        "Validate real-world usability and safety claims, distinguish minor issues from no-go faults",
+        "Link to light inspection #256 and brakes #219",
+        "Review page title/meta/H2 and avoid reusing generic content"
+      ],
+      "stage": "PLANNED_READ_ONLY",
+      "requires_fresh_wp_snapshot": true,
+      "qa_status": "NOT_STARTED"
+    },
+    {
+      "id": 266,
+      "title": "Cách ghi nhận vết xước trên xe thuê để tránh tranh cãi khi trả xe",
+      "url": "https://blog.rentbikehanoi.com/cach-ghi-nhan-vet-xuoc-tren-xe-thue-de-tranh-tranh-cai-khi-tra-xe/",
+      "last_modified_in_historical_inventory": "2026-10-08T00:51:15",
+      "priority": "P2",
+      "content_cluster": "Handover — scratches",
+      "proposed_contextual_links": [
+        {
+          "to_id": 262,
+          "to_title": "Vì sao nên chụp lại hiện trạng xe trước khi nhận?",
+          "to_url": "https://blog.rentbikehanoi.com/vi-sao-nen-chup-lai-hien-trang-xe-truoc-khi-nhan/"
+        },
+        {
+          "to_id": 272,
+          "to_title": "Cách kiểm tra thời gian nhận và trả xe trên hợp đồng",
+          "to_url": "https://blog.rentbikehanoi.com/cach-kiem-tra-thoi-gian-nhan-va-tra-xe-tren-hop-dong/"
+        },
+        {
+          "to_id": 275,
+          "to_title": "Tiền cọc thuê xe máy: những điều nên xác nhận trước khi thanh toán",
+          "to_url": "https://blog.rentbikehanoi.com/tien-coc-thue-xe-may-nhung-dieu-nen-xac-nhan-truoc-khi-thanh-toan/"
+        }
+      ],
+      "audit_before_write": [
+        "Focus on recording existing scratches and agreeing evidence with shop; don't invent insurance rights",
+        "Link to #262 photos guide, #272 rental-time contract guidance and #275 deposit advice",
+        "Check page media for image ALT once it can be viewed"
+      ],
+      "stage": "PLANNED_READ_ONLY",
+      "requires_fresh_wp_snapshot": true,
+      "qa_status": "NOT_STARTED"
+    },
+    {
+      "id": 272,
+      "title": "Cách kiểm tra thời gian nhận và trả xe trên hợp đồng",
+      "url": "https://blog.rentbikehanoi.com/cach-kiem-tra-thoi-gian-nhan-va-tra-xe-tren-hop-dong/",
+      "last_modified_in_historical_inventory": "2026-10-14T19:54:51",
+      "priority": "P2",
+      "content_cluster": "Handover — rental timing and contract",
+      "proposed_contextual_links": [
+        {
+          "to_id": 275,
+          "to_title": "Tiền cọc thuê xe máy: những điều nên xác nhận trước khi thanh toán",
+          "to_url": "https://blog.rentbikehanoi.com/tien-coc-thue-xe-may-nhung-dieu-nen-xac-nhan-truoc-khi-thanh-toan/"
+        },
+        {
+          "to_id": 262,
+          "to_title": "Vì sao nên chụp lại hiện trạng xe trước khi nhận?",
+          "to_url": "https://blog.rentbikehanoi.com/vi-sao-nen-chup-lai-hien-trang-xe-truoc-khi-nhan/"
+        },
+        {
+          "to_id": 266,
+          "to_title": "Cách ghi nhận vết xước trên xe thuê để tránh tranh cãi khi trả xe",
+          "to_url": "https://blog.rentbikehanoi.com/cach-ghi-nhan-vet-xuoc-tren-xe-thue-de-tranh-tranh-cai-khi-tra-xe/"
+        }
+      ],
+      "audit_before_write": [
+        "Check rental start/end time policy against currently live FAQ and contract; no invented legal interpretation",
+        "Link to deposit #275, scratches #266 and handover photos #262",
+        "Avoid changing permalink or product/policy terms without grounded evidence"
+      ],
+      "stage": "PLANNED_READ_ONLY",
+      "requires_fresh_wp_snapshot": true,
+      "qa_status": "NOT_STARTED"
+    }
+  ],
+  "blocking_requirements": [
+    "Verify actual WP Agent site connection with list_sites after owner approves fresh site authorization link",
+    "If WP Agent not connected and WPVibe cap remains, stay read-only; never bypass WPVibe account daily cap",
+    "Before each NEW WP edit capture full current original post body and excerpt, not historical inventory",
+    "Check homepage protection #1192 and rendered homepage metadata before/after writes",
+    "Avoid changing title/meta where Yoast renders good fallback; compare search intent and duplicate clusters",
+    "QA pass only with current public readback and a transparent >=85/100 internal rubric",
+    "Edit existing image ALT only after confirming visual content, not indiscriminately"
+  ]
+}
