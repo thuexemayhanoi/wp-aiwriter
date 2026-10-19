@@ -1,0 +1,63 @@
+name: EN pages (content of the /en/ pages)
+# The seven English pages (WordPress 1758-1764) are kept in en/pages/*.md. A push to main that changes them runs the
+# QA and then updates the live pages whose content changed (update only: never a new page, a deleted page, a slug, a
+# parent or a Vietnamese page; the live page must answer with the expected slug, parent, type and status first, and
+# the previous title, excerpt and content are kept in the report, next to the WordPress revision). A manual run is a
+# preview unless `live` is ticked.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'en/pages/**'
+      - 'en/business.json'
+      - 'scripts/en_pages.py'
+      - 'tests/test_en_pages.py'
+      - '.github/workflows/en-pages.yml'
+  workflow_dispatch:
+    inputs:
+      live:
+        description: 'Really update the live English pages whose content changed. Off = preview.'
+        type: boolean
+        default: false
+permissions:
+  contents: read
+concurrency:
+  group: en-pages
+  cancel-in-progress: false
+jobs:
+  pages:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      SEO_USER_AGENT: ${{ vars.SEO_USER_AGENT }}
+      LIVE: ${{ github.event_name == 'push' && 'true' || inputs.live }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install pinned dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Safety tests of the page publisher and the English QA
+        run: python -m unittest tests.test_en_pages tests.test_en_engine
+      - name: QA every page file
+        run: python scripts/en_pages.py --mode qa
+      - name: Update the live pages whose content changed (preview without live)
+        env:
+          WP_USERNAME: ${{ secrets.WP_USERNAME || secrets.WP_USER }}
+          WP_APPLICATION_PASSWORD: ${{ secrets.WP_APPLICATION_PASSWORD }}
+        shell: bash
+        run: |
+          args=(--mode sync)
+          [[ "$LIVE" == 'true' ]] && args+=(--live)
+          python scripts/en_pages.py "${args[@]}"
+      - name: Preserve the report (previous content of every updated page included)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: en-pages-${{ github.run_id }}
+          path: reports/en-pages/
+          if-no-files-found: ignore
+          retention-days: 90

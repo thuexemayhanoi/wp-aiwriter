@@ -60,7 +60,7 @@ def pick(row, fields):
     return out
 
 
-def probe_admin(probe, pages, categories):
+def probe_admin(probe, pages, categories, slugs=()):
     report = {}
     status, data = probe.rest('wp/v2/users/me', context='edit', _fields='id,roles,capabilities')
     caps = (data or {}).get('capabilities', {}) if isinstance(data, dict) else {}
@@ -93,6 +93,13 @@ def probe_admin(probe, pages, categories):
             row['yoast_robots'] = yoast.get('robots')
             rows.append(row)
     report['pages'] = {'http': status, 'requested': pages, 'items': rows if isinstance(data, list) else None}
+
+    if slugs:
+        status, data = probe.rest('wp/v2/pages', slug=','.join(slugs), status='any', context='edit', per_page=100,
+                                  _fields='id,slug,status,parent,title,link,modified')
+        report['pages_by_slug'] = {'http': status, 'requested': slugs,
+                                   'items': [pick(p, ('id', 'slug', 'status', 'parent', 'title', 'link', 'modified')) for p in data]
+                                   if isinstance(data, list) else None}
 
     status, data = probe.rest('wp/v2/categories', include=','.join(map(str, categories)), hide_empty='false', per_page=100,
                               _fields='id,name,slug,parent,count,link')
@@ -184,6 +191,9 @@ def summary(report):
         lines.append(f"- Permalinks: {values.get('permalink_structure')!r}; show_on_front={values.get('show_on_front')}; page_on_front={values.get('page_on_front')}; language={values.get('language')}")
         pages = admin.get('pages', {}).get('items') or []
         lines.append('- EN pages: ' + '; '.join(f"#{p['id']} /{p['slug']} {p['status']} parent={p['parent']} template={p.get('template') or '-'}" for p in pages))
+        by_slug = admin.get('pages_by_slug', {}).get('items') or []
+        if by_slug:
+            lines.append('- Pages by slug: ' + '; '.join(f"#{p['id']} /{p['slug']} {p['status']} parent={p['parent']} {p.get('title')}" for p in by_slug))
         cats = admin.get('categories', {}).get('items') or []
         lines.append('- EN categories: ' + '; '.join(f"#{c['id']} {c['slug']} parent={c['parent']} count={c['count']}" for c in cats))
         menus = admin.get('menus', {}).get('items') or []
@@ -210,12 +220,14 @@ def main():
     parser.add_argument('--categories', default=DEFAULT_CATEGORIES)
     parser.add_argument('--urls', default=DEFAULT_URLS)
     parser.add_argument('--public-only', action='store_true')
+    parser.add_argument('--slugs', default='', help='page slugs to look up (comma separated), for pages whose ID is unknown')
     parser.add_argument('--text', type=int, default=0, help='also keep up to N characters of the visible main text of each HTML page')
     args = parser.parse_args()
     report = {'at': engine.now(), 'site': engine.WP_URL}
     user, password = os.getenv('WP_USERNAME'), os.getenv('WP_APPLICATION_PASSWORD')
+    slugs = [s.strip() for s in args.slugs.split(',') if re.fullmatch(r'[a-z0-9-]+', s.strip())]
     if not args.public_only and user and password:
-        report['admin'] = probe_admin(Probe(engine.WPClient(user, password)), ids(args.pages), ids(args.categories))
+        report['admin'] = probe_admin(Probe(engine.WPClient(user, password)), ids(args.pages), ids(args.categories), slugs)
     elif not args.public_only:
         report['admin_error'] = 'missing WP_USERNAME / WP_APPLICATION_PASSWORD; authenticated probe skipped'
     report['public'] = probe_public([u.strip() for u in args.urls.split(',') if u.strip()], args.text)
