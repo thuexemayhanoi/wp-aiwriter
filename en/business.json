@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "note": "Canonical business facts of Nguyen Ha for the English pipeline QA. Read from the Vietnamese site (pages /gioi-thieu/, /bang-gia/, /lien-he/) and the owner's data; never invented by a writer. Change only with the owner's data.",
+  "name_vi": "Thuê xe máy Nguyễn Hà",
+  "name_en": "Nguyen Ha Motorbike Rental",
+  "address_vi": "Ngõ 5 Nguyễn Văn Cừ, Bồ Đề, Long Biên, Hà Nội",
+  "address_en": "Alley 5 Nguyen Van Cu Street, Bo De Ward, Long Bien District, Hanoi",
+  "phone_local": "0334 699 969",
+  "phone_international": "+84 334 699 969",
+  "hours": "09:00–21:00 daily",
+  "home_vi": "https://blog.rentbikehanoi.com/",
+  "home_en": "https://blog.rentbikehanoi.com/en/",
+  "pages_en": {
+    "about": "https://blog.rentbikehanoi.com/en/about/",
+    "prices": "https://blog.rentbikehanoi.com/en/prices/",
+    "contact": "https://blog.rentbikehanoi.com/en/contact/",
+    "rental_guide": "https://blog.rentbikehanoi.com/en/rental-guide/",
+    "faq": "https://blog.rentbikehanoi.com/en/faq/",
+    "motorbikes": "https://blog.rentbikehanoi.com/en/motorbikes/"
+  },
+  "prices_vnd": {
+    "manual": {"day": [150000, 200000], "week": [700000, 800000], "month": [1000000, 1200000]},
+    "automatic": {"day": [150000, 200000], "week": [600000, 1000000], "month": [1200000, 2000000]},
+    "electric": {"day": null, "week": [600000, 800000], "month": [1500000, 1800000]},
+    "50cc": {"day": [200000, 200000], "week": [1000000, 1000000], "month": [2000000, 2000000]}
+  },
+  "deposit_vnd": [2000000, 5000000],
+  "delivery_vnd": {"within_10km_of_hoan_kiem_lake_per_trip": 50000, "airport": null},
+  "late_return_vnd": {"per_hour_1_to_5_hours": 30000, "from_6_hours": "one extra rental day"},
+  "allowed_amounts_vnd": [30000, 50000, 150000, 200000, 600000, 700000, 800000, 1000000, 1200000, 1500000, 1800000, 2000000, 5000000],
+  "forbidden_fragments": ["0942 467 674", "0942467674", "+84 942 467 674", "112 Nguyễn Văn Cừ", "112 Nguyen Van Cu", "Nguyễn Tú", "Nguyen Tu", "thuexemaynguyentu"],
+  "facts_note": "One day is 24 hours; shorter use is charged as a full day. The cash deposit is separate from the rent. Original IDs are not retained. Delivery only for weekly/monthly agreements, within 10 km of Hoan Kiem Lake, VND 50,000 per trip; no airport service. Late return: VND 30,000 per hour for 1–5 hours, one extra day from 6 hours. Early return does not refund unused rent. Prices are editorial snapshots of the Vietnamese price page; writers must not state amounts outside allowed_amounts_vnd."
+}

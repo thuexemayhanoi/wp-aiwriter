@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "enabled": false,
+  "mode": "pilot",
+  "pilot_ids": [1, 2, 3],
+  "batch_size": 3,
+  "max_batches_per_run": 1,
+  "require_live_routes": true,
+  "category_ids": {
+    "parents": [46, 47, 48],
+    "leaves": [49, 50, 51, 52, 53, 54, 55, 56]
+  },
+  "legal_categories": [55, 56],
+  "min_score": 85,
+  "notes": "enabled=false: the publisher only previews. Set enabled=true after the VI-EN Core 0.5.1 switch is on and the English categories are registered (the publisher re-checks both through nh-vien/v1/status before any write). mode=pilot publishes only pilot_ids; mode=batch publishes every QA-ready article in batches of batch_size, max_batches_per_run per run. Advance 3 -> 10 -> 20 only after the previous batch verified live."
+}

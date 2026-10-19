@@ -1,0 +1,46 @@
+name: EN Writer QA (No WordPress Writes)
+# Deterministic QA of the English articles (en/posts/**) against en/topics.json, en/business.json and the policy.
+# No secrets, no WordPress access: it compiles the pipeline, runs its tests and previews the publication queue.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'en/**'
+      - 'scripts/en_engine.py'
+      - 'scripts/en_ops.py'
+      - 'tests/test_en_engine.py'
+      - '.github/workflows/en-writer-qa.yml'
+      - '.github/workflows/en-publisher.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: en-writer-qa
+  cancel-in-progress: true
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install pinned dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Compile the pipeline and its tests
+        run: python -m compileall -q scripts tests
+      - name: Pipeline regression tests (English and Vietnamese)
+        run: python -m unittest discover -s tests -v
+      - name: QA every English article
+        run: python scripts/en_engine.py --mode qa
+      - name: Preview the publication queue (dry run, no secrets)
+        run: python scripts/en_engine.py --mode sync
+      - name: Save the QA receipts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: en-qa-${{ github.run_id }}
+          path: reports/en/
+          if-no-files-found: ignore
+          retention-days: 14

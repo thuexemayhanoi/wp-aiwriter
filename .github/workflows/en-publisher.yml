@@ -1,0 +1,88 @@
+name: EN Publisher (VI-EN Core)
+# Publishes QA-ready English articles: create as draft -> register with VI-EN Core -> publish -> verify at /en/{slug}/.
+# Runs automatically only after a successful push-triggered EN Writer QA on main, and only writes while
+# en/publication-policy.json has enabled=true (the policy also fixes the mode: pilot IDs or batches).
+on:
+  workflow_run:
+    workflows: ['EN Writer QA (No WordPress Writes)']
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      live:
+        description: 'false = preview; true = publish according to en/publication-policy.json'
+        required: true
+        type: boolean
+        default: false
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: en-publisher
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: >-
+      ${{
+        github.event_name == 'workflow_dispatch' ||
+        (github.event_name == 'workflow_run' &&
+         github.event.workflow_run.conclusion == 'success' &&
+         github.event.workflow_run.event == 'push' &&
+         github.event.workflow_run.head_branch == 'main')
+      }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      SEO_USER_AGENT: ${{ vars.SEO_USER_AGENT }}
+    steps:
+      - name: Checkout latest main inside the publication lock
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install pinned dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Pipeline regression tests
+        run: python -m unittest discover -s tests -v
+      - name: QA every English article
+        run: python scripts/en_engine.py --mode qa
+      - name: Configure checkpoint commit identity
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+      - name: Publish according to the policy
+        id: sync
+        env:
+          WP_USERNAME: ${{ secrets.WP_USERNAME || secrets.WP_USER }}
+          WP_APPLICATION_PASSWORD: ${{ secrets.WP_APPLICATION_PASSWORD }}
+          LIVE: ${{ github.event_name == 'workflow_run' && 'true' || inputs.live }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          enabled="$(python -c "import json; print(str(json.load(open('en/publication-policy.json'))['enabled']).lower())")"
+          if [[ "$LIVE" != 'true' || "$enabled" != 'true' ]]; then
+            echo "Preview only (live=$LIVE, policy enabled=$enabled): zero WordPress writes"
+            python scripts/en_engine.py --mode sync
+            exit 0
+          fi
+          max="$(python -c "import json; print(int(json.load(open('en/publication-policy.json'))['max_batches_per_run']))")"
+          for batch in $(seq 1 "$max"); do
+            echo "EN publisher batch $batch of at most $max"
+            python scripts/en_engine.py --mode sync --live --persist-state
+            has_more="$(python -c "import json; print(str(json.load(open('reports/en/latest.json'))['has_more']).lower())")"
+            [[ "$has_more" == 'false' ]] && exit 0
+          done
+          echo "Batch limit of this run reached; the remaining QA-ready articles wait for the next run."
+      - name: Preserve the receipts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: en-publisher-${{ github.run_id }}
+          path: |
+            reports/en/
+            data/en-publication-state.json
+          if-no-files-found: ignore
+          retention-days: 30
