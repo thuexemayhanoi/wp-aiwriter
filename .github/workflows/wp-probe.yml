@@ -16,6 +16,10 @@ on:
         description: 'Public paths to fetch (comma separated)'
         type: string
         default: '/,/en/,/en/about/,/en/prices/,/en/contact/,/en/rental-guide/,/en/faq/,/en/motorbikes/,/en/category/hanoi-motorbike-rental/,/sitemap_index.xml,/robots.txt,/wp-json/nh-vien/v1/status'
+      text:
+        description: 'Characters of visible main text to keep per HTML page (0 = none)'
+        type: string
+        default: '0'
 permissions:
   contents: read
 concurrency:
@@ -41,7 +45,8 @@ jobs:
           PAGES: ${{ inputs.pages }}
           CATEGORIES: ${{ inputs.categories }}
           URLS: ${{ inputs.urls }}
-        run: python scripts/wp_probe.py --pages "$PAGES" --categories "$CATEGORIES" --urls "$URLS"
+          TEXT: ${{ inputs.text }}
+        run: python scripts/wp_probe.py --pages "$PAGES" --categories "$CATEGORIES" --urls "$URLS" --text "${TEXT:-0}"
       - name: Print the full JSON report (fixed fields only, no bodies)
         run: cat reports/probe/probe.json
       - name: Preserve the report

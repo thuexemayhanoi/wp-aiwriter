@@ -125,7 +125,21 @@ def probe_admin(probe, pages, categories):
     return report
 
 
-def probe_public(urls):
+MAIN_TEXT = re.compile(r'<main[^>]*>(.*?)</main>', re.S | re.I)
+
+
+def main_text(markup, limit):
+    """Visible text of the <main> element (or of the whole page), whitespace-collapsed, bounded."""
+    match = MAIN_TEXT.search(markup or '')
+    chunk = match.group(1) if match else (markup or '')
+    chunk = re.sub(r'<(script|style|noscript)[^>]*>.*?</\1>', ' ', chunk, flags=re.S | re.I)
+    chunk = re.sub(r'<(h[1-6]|p|li|tr|th|td|br|div|section|article|dt|dd)[^>]*>', '\n', chunk, flags=re.I)
+    text = seo_common.html.unescape(re.sub(r'<[^>]+>', ' ', chunk))
+    lines = [' '.join(line.split()) for line in text.split('\n')]
+    return '\n'.join(line for line in lines if line)[:limit]
+
+
+def probe_public(urls, text_limit=0):
     results = []
     for path in urls:
         url = path if path.startswith('http') else engine.WP_URL + path
@@ -138,6 +152,8 @@ def probe_public(urls):
             row.update({k: page.get(k) for k in ('title', 'lang', 'canonical', 'h1_text', 'h1_count', 'robots', 'description', 'jsonld_types', 'word_count')})
             row['hreflang'] = re.findall(r'<link[^>]+hreflang="([^"]+)"[^>]+href="([^"]+)"', reply.text)
             row['vietnamese_words_sample'] = len(re.findall(r'\b(thuê|xe máy|giá|liên hệ|hướng dẫn)\b', reply.text, re.I))
+            if text_limit:
+                row['main_text'] = main_text(reply.text, text_limit)
         elif reply.text and path.endswith('.xml'):
             row['sitemaps'] = re.findall(r'<loc>([^<]+)</loc>', reply.text)[:40]
         elif reply.text and path.endswith('robots.txt'):
@@ -182,6 +198,9 @@ def summary(report):
     lines.append('|---|---|---|---|---|---|---|')
     for row in report.get('public', []):
         lines.append(f"| {row['url']} | {row['status']} | {row['final_url'] if row['final_url'] != row['url'] else ''} | {row.get('x_nh_vien_lang') or ''} | {row.get('lang') or ''} | {row.get('canonical') or ''} | {(row.get('h1_text') or '')[:60]} |")
+    for row in report.get('public', []):
+        if row.get('main_text'):
+            lines.append(f"\n#### TEXT {row['url']}\n\n```text\n{row['main_text']}\n```")
     return '\n'.join(lines) + '\n'
 
 
@@ -191,6 +210,7 @@ def main():
     parser.add_argument('--categories', default=DEFAULT_CATEGORIES)
     parser.add_argument('--urls', default=DEFAULT_URLS)
     parser.add_argument('--public-only', action='store_true')
+    parser.add_argument('--text', type=int, default=0, help='also keep up to N characters of the visible main text of each HTML page')
     args = parser.parse_args()
     report = {'at': engine.now(), 'site': engine.WP_URL}
     user, password = os.getenv('WP_USERNAME'), os.getenv('WP_APPLICATION_PASSWORD')
@@ -198,7 +218,7 @@ def main():
         report['admin'] = probe_admin(Probe(engine.WPClient(user, password)), ids(args.pages), ids(args.categories))
     elif not args.public_only:
         report['admin_error'] = 'missing WP_USERNAME / WP_APPLICATION_PASSWORD; authenticated probe skipped'
-    report['public'] = probe_public([u.strip() for u in args.urls.split(',') if u.strip()])
+    report['public'] = probe_public([u.strip() for u in args.urls.split(',') if u.strip()], args.text)
     seo_common.write_json(REPORT_DIR / 'probe.json', report)
     text = summary(report)
     (REPORT_DIR / 'summary.md').write_text(text, encoding='utf-8')
