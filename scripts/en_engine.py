@@ -40,7 +40,9 @@ SLUG_RE = re.compile(r'^[a-z0-9][a-z0-9-]{0,74}$')
 VI_LETTERS = re.compile(r'[ăâđêôơưàáảãạằắẳẵặầấẩẫậèéẻẽẹềếểễệìíỉĩịòóỏõọồốổỗộờớởỡợùúủũụừứửữựỳýỷỹỵĂÂĐÊÔƠƯÀÁẢÃẠẰẮẲẴẶẦẤẨẪẬÈÉẺẼẸỀẾỂỄỆÌÍỈĨỊÒÓỎÕỌỒỐỔỖỘỜỚỞỠỢÙÚỦŨỤỪỨỬỮỰỲÝỶỸỴ]')
 VI_STOPWORDS = re.compile(r'\b(của|và|là|các|những|được|trong|không|với|cho|này|bạn|thuê|giá|khi|để)\b', re.I)
 PHONE_RE = re.compile(r'(?:\+84[\s.-]?\d{2,3}[\s.-]?\d{3}[\s.-]?\d{3,4}|\b0\d{2,3}[\s.-]?\d{3}[\s.-]?\d{3,4}\b)')
-AMOUNT_RE = re.compile(r'(?:VND|₫|dong)\s*([\d][\d.,]*)\s*(k|K)?|([\d][\d.,]*)\s*(k|K)?\s*(?:VND|₫|dong)\b', re.I)
+NUMBER = r'([\d][\d.,]*)(?:\s*[\u2013\u2014-]\s*([\d][\d.,]*))?\s*(k|million|m)?'
+AMOUNT_RE = re.compile(r'(?:VND|₫|dong)\s*' + NUMBER + r'\b|' + NUMBER + r'\s*(?:VND|₫|dong)\b', re.I)
+FINE_CONTEXT = re.compile(r'\b(fine[sd]?|penalt(?:y|ies)|fined)\b', re.I)
 USD_RE = re.compile(r'(?:\$\s?\d|\d\s?(?:USD|US\$|dollars?)\b)', re.I)
 LEGAL_WORDS = re.compile(r'\b(licen[cs]e|IDP|international driving permit|decree|law|fine[sd]?|penalt(?:y|ies)|police|legal(?:ly)?|insurance)\b', re.I)
 OFFICIAL_DOMAINS = ('.gov.vn', 'thuvienphapluat.vn', 'chinhphu.vn', 'csgt.vn', 'luatvietnam.vn', 'vbpl.vn', 'moj.gov.vn', 'mt.gov.vn', 'bocongan.gov.vn', 'unece.org', 'honda.com.vn', 'yamaha-motor.com.vn')
@@ -122,15 +124,17 @@ def words_of(text):
 
 
 def amounts_in(text):
+    """Every VND amount in the text as (value, is_fine): ranges, thousands (150k) and millions (2-4 million) included."""
     found = []
     for match in AMOUNT_RE.finditer(text):
-        raw = match.group(1) or match.group(3)
-        thousands = match.group(2) or match.group(4)
-        digits = re.sub(r'[^\d]', '', raw or '')
-        if not digits:
-            continue
-        value = int(digits) * (1000 if thousands else 1)
-        found.append(value)
+        groups = match.groups()
+        first, second, unit = (groups[0], groups[1], groups[2]) if groups[0] else (groups[3], groups[4], groups[5])
+        factor = {'k': 1000, 'million': 1000000, 'm': 1000000}.get((unit or '').lower(), 1)
+        context = text[max(0, match.start() - 160):match.end() + 160]
+        for raw in (first, second):
+            digits = re.sub(r'[^\d]', '', raw or '')
+            if digits:
+                found.append((int(digits) * factor, bool(FINE_CONTEXT.search(context))))
     return found
 
 
@@ -171,8 +175,9 @@ def read_article(path, topics, business, policy):
         if digits not in (re.sub(r'\D', '', business['phone_local']), re.sub(r'\D', '', business['phone_international'])):
             problems.append(f'phone number that is not the business phone: {phone}')
     allowed = set(business['allowed_amounts_vnd'])
-    for amount in amounts_in(text):
-        if amount not in allowed:
+    for amount, is_fine in amounts_in(text):
+        # A fine or penalty is a legal figure, covered by the official-source gate below; a price must be a listed one.
+        if amount not in allowed and not is_fine:
             problems.append(f'unverified VND amount: {amount}')
     if USD_RE.search(text):
         problems.append('prices must be stated in VND only (no USD conversions)')

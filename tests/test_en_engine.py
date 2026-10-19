@@ -135,7 +135,19 @@ class Qa(unittest.TestCase):
             self.read(2, text)
 
     def test_amount_parser(self):
-        self.assertEqual(en.amounts_in('VND 150,000 and 1.000.000 VND and 150k VND and 2,000,000 dong'), [150000, 1000000, 150000, 2000000])
+        self.assertEqual([a for a, _ in en.amounts_in('VND 150,000 and 1.000.000 VND and 150k VND and 2,000,000 dong')], [150000, 1000000, 150000, 2000000])
+        self.assertEqual([a for a, _ in en.amounts_in('a deposit of VND 2–5 million and VND 150,000–200,000 per day')], [2000000, 5000000, 150000, 200000])
+        self.assertEqual(en.amounts_in('the fine is VND 2–4 million for riding without a licence'), [(2000000, True), (4000000, True)])
+
+    def test_fines_are_allowed_only_with_the_legal_gate(self):
+        topic = TOPICS[1]
+        meta, text = article(1, meta={'en_id': '1', 'title': topic['title'], 'slug': topic['slug'], 'category_id': str(topic['category_id'])})
+        text = text.replace('## FAQ', 'Riding without a licence is fined VND 2–4 million, effective from 1 January 2025.\n\n## FAQ')
+        text = text.replace('- [Honda Vietnam](https://www.honda.com.vn/)', '- [Decree 168/2024/ND-CP](https://thuvienphapluat.vn/van-ban/x.aspx)')
+        self.assertTrue(self.read(1, text)['legal'])
+        _, plain = article()
+        with self.assertRaisesRegex(ValueError, 'unverified VND amount: 3000000'):
+            self.read(2, plain.replace('## FAQ', 'A helmet costs VND 3 million here.\n\n## FAQ'))
 
 
 class Duplicates(unittest.TestCase):
