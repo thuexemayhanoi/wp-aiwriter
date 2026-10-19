@@ -155,7 +155,7 @@ class Rollout(unittest.TestCase):
         self.assertEqual(outcome, 'VERIFIED')
         self.assertEqual([r for r, _ in rest.writes if r == 'nh-vien/v1/routes'], [])
         self.assertEqual([p['id'] for r, p in rest.writes if r == 'nh-vien/v1/categories'], [50, 51, 52, 53, 54, 55, 56])
-        self.assertEqual([(p['vi'], p['en']) for r, p in rest.writes if r == 'nh-vien/v1/pages'], [(19, 1760), (25, 1761)])
+        self.assertEqual([(p['vi'], p['en']) for r, p in rest.writes if r == 'nh-vien/v1/pages'], [(19, 1760), (25, 1761), (24, 1763)])
 
     def test_confirmation_flag_is_passed_through(self):
         rest = FakeRest()
