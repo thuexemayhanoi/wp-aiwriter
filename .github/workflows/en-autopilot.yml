@@ -1,0 +1,143 @@
+name: EN autopilot (go-live after VI-EN Core 0.5.1)
+# Every two hours until the English side is live and the pilot is on. While the site still runs a plugin older than
+# 0.5.1 a pass ends quietly: no issue, no write. Once 0.5.1 is installed, one pass does the whole go-live in order:
+# routes on (the plugin runs its own preflight, smoke test and rollback inside that call), the English categories,
+# the page pairs (both slugs checked first), a public verification of the English pages; then it switches
+# en/publication-policy.json to enabled=true, pushes, and starts the EN Publisher for the three pilot articles.
+# A failed pass is one comment on the issue "EN autopilot alert"; after three failed passes the autopilot waits until
+# that issue is closed. A manual run is a dry run unless `live` is ticked. Writes only through the VI-EN Core REST API
+# and wp/v2 with the publisher's application password; never a plugin install, never a Vietnamese post.
+on:
+  schedule:
+    - cron: '23 */2 * * *'
+  workflow_dispatch:
+    inputs:
+      live:
+        description: 'Really write (routes, categories, page pairs, then the policy and the pilot). Off = dry run.'
+        type: boolean
+        default: false
+permissions:
+  contents: write   # the policy switch commit
+  actions: write    # starts the EN Publisher
+  issues: write     # the alert issue
+concurrency:
+  group: en-autopilot
+  cancel-in-progress: false
+env:
+  ALERT_TITLE: 'EN autopilot alert'
+  MAX_FAILED_PASSES: 3
+jobs:
+  autopilot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      SEO_USER_AGENT: ${{ vars.SEO_USER_AGENT }}
+      GH_TOKEN: ${{ github.token }}
+      LIVE: ${{ github.event_name == 'schedule' && 'true' || inputs.live }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Already done? (policy on = the publisher owns everything from here)
+        id: done
+        shell: bash
+        run: |
+          enabled="$(python3 -c "import json; print(str(json.load(open('en/publication-policy.json'))['enabled']).lower())")"
+          echo "enabled=$enabled" >> "$GITHUB_OUTPUT"
+          [[ "$enabled" == 'true' ]] && echo 'en/publication-policy.json already has enabled=true; nothing left for the autopilot.'
+          exit 0
+      - name: Paused after repeated failures? (close the alert issue to resume)
+        id: alert
+        if: steps.done.outputs.enabled != 'true'
+        shell: bash
+        run: |
+          number="$(gh issue list --state open --limit 100 --json number,title --jq ".[] | select(.title == \"$ALERT_TITLE\") | .number" | head -n1)"
+          failed=0
+          if [[ -n "$number" ]]; then
+            failed=$(( 1 + $(gh issue view "$number" --json comments --jq '.comments | length') ))
+          fi
+          echo "number=$number" >> "$GITHUB_OUTPUT"
+          echo "failed=$failed" >> "$GITHUB_OUTPUT"
+          if (( failed >= MAX_FAILED_PASSES )); then
+            echo "::warning::$failed failed passes are recorded in issue #$number; the autopilot waits until that issue is closed."
+            echo 'paused=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'paused=false' >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/setup-python@v5
+        if: steps.done.outputs.enabled != 'true' && steps.alert.outputs.paused != 'true'
+        with:
+          python-version: '3.12'
+      - name: Install pinned dependencies
+        if: steps.done.outputs.enabled != 'true' && steps.alert.outputs.paused != 'true'
+        run: python -m pip install -r requirements.txt
+      - name: Rollout safety tests
+        if: steps.done.outputs.enabled != 'true' && steps.alert.outputs.paused != 'true'
+        run: python -m unittest tests.test_en_ops
+      - name: One rollout pass (status, routes, categories, page pairs, verify)
+        id: rollout
+        if: steps.done.outputs.enabled != 'true' && steps.alert.outputs.paused != 'true'
+        continue-on-error: true
+        env:
+          WP_USERNAME: ${{ secrets.WP_USERNAME || secrets.WP_USER }}
+          WP_APPLICATION_PASSWORD: ${{ secrets.WP_APPLICATION_PASSWORD }}
+        shell: bash
+        run: |
+          args=(rollout --confirm)
+          [[ "$LIVE" == 'true' ]] && args+=(--live)
+          python scripts/en_ops.py "${args[@]}"
+      - name: Switch the publication policy on and start the pilot
+        if: steps.rollout.outputs.outcome == 'VERIFIED'
+        shell: bash
+        run: |
+          python3 - <<'EOF'
+          import pathlib
+          path = pathlib.Path('en/publication-policy.json')
+          text = path.read_text(encoding='utf-8')
+          assert text.count('"enabled": false') == 1, 'unexpected policy text'
+          path.write_text(text.replace('"enabled": false', '"enabled": true'), encoding='utf-8')
+          EOF
+          python3 -c "import json; assert json.load(open('en/publication-policy.json'))['enabled'] is True"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add en/publication-policy.json
+          git commit -m 'chore(en): autopilot switched the publication policy on after the live rollout verified'
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main && git push origin HEAD:main && break
+            if [[ $attempt == 5 ]]; then echo '::error::Could not push the policy switch'; exit 1; fi
+            sleep $((attempt * 3))
+          done
+          gh workflow run en-publisher.yml --ref main -f live=true
+          echo 'EN Publisher started live: the pilot articles publish according to en/publication-policy.json.'
+      - name: Preserve the report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: en-autopilot-${{ github.run_id }}
+          path: reports/en-rollout/
+          if-no-files-found: ignore
+          retention-days: 30
+      - name: Alert through one issue (a comment per failed pass; closed by a verified pass)
+        if: always() && steps.rollout.conclusion != 'skipped'
+        env:
+          OUTCOME: ${{ steps.rollout.outputs.outcome }}
+          NUMBER: ${{ steps.alert.outputs.number }}
+        shell: bash
+        run: |
+          case "$OUTCOME" in
+            VERIFIED)
+              [[ -n "$NUMBER" ]] && gh issue close "$NUMBER" --comment 'A rollout pass verified; closing.'
+              exit 0 ;;
+            DRY_RUN|NOT_INSTALLED)
+              exit 0 ;;
+          esac
+          run_url="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          report="$(head -c 50000 reports/en-rollout/rollout.json 2>/dev/null || echo '(no report: the script did not get that far)')"
+          body="$(printf 'Rollout pass failed (outcome: %s). Run: %s\n\nThe autopilot pauses after %s failed passes; fix the cause, then close this issue to resume.\n\n```json\n%s\n```' "${OUTCOME:-none}" "$run_url" "$MAX_FAILED_PASSES" "$report")"
+          if [[ -n "$NUMBER" ]]; then
+            gh issue comment "$NUMBER" --body "$body"
+          else
+            gh issue create --title "$ALERT_TITLE" --body "$body"
+          fi
+          echo '::error::The rollout pass failed; see the alert issue and the report artifact.'
+          exit 1

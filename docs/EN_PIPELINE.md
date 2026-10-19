@@ -14,7 +14,9 @@ Nguyen Tu data (`en/business.json` lists the forbidden fragments). The Vietnames
 | `en/publication-policy.json` | `enabled` (false = preview only), `mode` (`pilot` publishes only `pilot_ids`; `batch` publishes every QA-ready article), `batch_size`, `max_batches_per_run`, `require_live_routes`, `legal_categories`, `min_score`. |
 | `en/posts/NNNN.md` | One article per topic ID, front matter `en_id`, `title`, `slug`, `category_id`, `description`, `ready`. Original English prose with `## ` sections, a `## FAQ` and a `## Sources` section. |
 | `scripts/en_engine.py` | `--mode qa` (gates and score) and `--mode sync` (publisher; `--live --persist-state` on GitHub Actions). |
-| `scripts/en_ops.py` | Operates VI-EN Core through its REST API: status, enable/disable/undo, register categories, link page pairs, publish pages, public verify. |
+| `scripts/en_ops.py` | Operates VI-EN Core through its REST API: status, enable/disable/undo, register categories, link page pairs, publish pages, public verify, and `rollout` (one idempotent go-live pass: status → routes on if not live → missing categories → missing page pairs, both slugs checked first → public verify; `NOT_INSTALLED` while the site runs a plugin older than 0.5.1). |
+| `.github/workflows/en-autopilot.yml` | Every two hours: one `rollout --live --confirm` pass. Quiet while 0.5.1 is not installed; once a pass is `VERIFIED` it sets `enabled: true` in the policy, pushes, and starts the EN Publisher live for the pilot. Failures go to the issue "EN autopilot alert" (one comment per failed pass, pause after three until the issue is closed). |
+| `tests/test_en_ops.py` | Rollout safety against a fake VI-EN Core: order of writes, idempotence, slug checks, stop at the first failure, no writes without `--live`. |
 | `scripts/wp_probe.py` | Read-only probe of the live site (plugins, theme, pages, categories, menus, public answers, page text). |
 | `data/en-publication-state.json` | Write-ahead ledger of English publications (POST_INTENT → DRAFT_CREATED → REGISTERED → VERIFY_PENDING → VERIFIED, or REGISTER_FAILED). Never cleared by hand to force a retry. |
 | `tests/test_en_engine.py` | QA gates, duplicate detection and publisher safety (no network). |
@@ -47,8 +49,9 @@ Description 110–175 characters (−10 missing, −5 length), 1,200–3,500 wor
 
 ### Publisher (GitHub Actions `EN Publisher (VI-EN Core)`)
 
-1. Runs after a successful push-triggered `EN Writer QA` on `main`, or manually; writes only with `--live` **and**
-   `enabled: true` in the policy; one action per run, `max_batches_per_run` batches of `batch_size`.
+1. Runs after a successful push-triggered `EN Writer QA` on `main`, manually, or started live by the `EN autopilot` once
+   its rollout pass verified; writes only with `--live` **and** `enabled: true` in the policy; one action per run,
+   `max_batches_per_run` batches of `batch_size`.
 2. Gate: `GET /wp-json/nh-vien/v1/status` must say `live: true` and list every needed English category (46–56) as
    registered; otherwise BLOCKED with zero writes.
 3. For each eligible article (no duplicate title/slug/marker in WordPress, no unresolved ledger phase): POST_INTENT →
@@ -63,13 +66,18 @@ Description 110–175 characters (−10 missing, −5 length), 1,200–3,500 wor
 ### Rollout order
 
 1. Install VI-EN Core 0.5.1 on the site (Plugins → Add New → Upload Plugin → Replace current with uploaded; the zip comes
-   from the `release-<sha>` artifact of a green Theme QA run on `main`). The one manual step.
-2. `EN rollout` workflow: `status` → `enable` (live + confirm) → `register-categories` with `46,47,48,49,50,51,52,53,54,55,56`
-   → `link-pages` with `14:1759,19:1760,25:1761` → `verify`.
-3. Set `enabled: true` in `en/publication-policy.json` (pilot mode, IDs 1–3), push: QA runs, the publisher publishes the
-   three pilot articles and verifies them. Check the live URLs, categories, menus and the sitemap.
-4. Switch `mode` to `batch` with `batch_size` 3 → 10 → 20 as each batch verifies; write more `en/posts/NNNN.md` from
-   `en/topics.json`; add topics to the matrix as research finds new intents (never duplicate an intent).
+   from the `release-<sha>` artifact of a green Theme QA run on `main`, or from `tools/package.sh` at that commit). The
+   one manual step.
+2. Automatic from here: the `EN autopilot` workflow notices 0.5.1 (`nh-vien/v1/status` answers) within two hours and runs
+   one `rollout` pass: routes on (the plugin's preflight, smoke test and rollback apply), categories 46–56 registered,
+   page pairs 14→1759, 19→1760, 25→1761 linked after a slug check, English pages verified publicly. The same pass can be
+   started by hand: `EN rollout` → action `rollout`, live, confirm (dry run without `live`), or `EN autopilot` → `live`.
+3. Automatic too: a `VERIFIED` pass sets `enabled: true` in `en/publication-policy.json` (pilot mode, IDs 1–3), pushes it
+   and starts `EN Publisher` live: the three pilot articles are created as drafts, registered as English, published
+   and verified. Then check the live URLs, `/en/category/…`, the menus and `/sitemap_index.xml` with the probe.
+4. Switch `mode` to `batch` with `batch_size` 3 → 10 → 20 as each batch verifies (a human decision, by commit); write
+   more `en/posts/NNNN.md` from `en/topics.json`; add topics to the matrix as research finds new intents (never
+   duplicate an intent).
 
 ## Writing rules
 

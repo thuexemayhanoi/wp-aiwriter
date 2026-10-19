@@ -12,6 +12,10 @@ Actions:
   link-pages           POST nh-vien/v1/pages for each --pairs vi:en
   publish-pages        set --ids pages to status publish through wp/v2/pages (only pages that are not published yet)
   verify               public checks of --urls: status, marker header, lang, canonical, title, H1, hreflang, no Vietnamese
+  rollout              one idempotent pass of everything the English side needs once VI-EN Core 0.5.1 is installed:
+                       status -> routes on (if not live) -> missing English categories -> missing page pairs (each
+                       checked by slug first) -> public verify of --urls. Ends quietly (NOT_INSTALLED) while the site
+                       still runs an older plugin; stops at the first failure; writes only with --live.
 """
 import argparse
 import base64
@@ -31,7 +35,10 @@ import engine  # noqa: E402
 import seo_common  # noqa: E402
 
 REPORT_DIR = ROOT / 'reports' / 'en-rollout'
+POLICY_PATH = ROOT / 'en' / 'publication-policy.json'
 EN_URLS = '/en/,/en/about/,/en/prices/,/en/contact/,/en/rental-guide/,/en/faq/,/en/motorbikes/'
+MIN_VERSION = (0, 5, 1)   # the first plugin version with the REST API and the admin switch
+OUTCOMES = ('NOT_INSTALLED', 'DRY_RUN', 'VERIFIED', 'FAILED')
 VIETNAMESE = re.compile(r'\b(thuê xe máy|liên hệ|hướng dẫn|bảng giá|giới thiệu|xem thêm|bài viết|danh mục)\b', re.I)
 
 
@@ -198,6 +205,97 @@ def verify(urls, log):
     return ok
 
 
+def version_tuple(text):
+    return tuple(int(x) for x in re.findall(r'\d+', str(text or ''))[:3]) or (0,)
+
+
+def load_policy():
+    return json.loads(POLICY_PATH.read_text(encoding='utf-8'))
+
+
+def rollout(rest, args, log, policy=None):
+    """One idempotent pass: status -> routes on (if not live) -> missing English categories (parents first) -> missing
+    page pairs (both pages checked by slug before the write) -> public verify. Stops at the first failure, writes only
+    with --live, and ends quietly with NOT_INSTALLED while the site still runs a plugin older than 0.5.1."""
+    policy = policy or load_policy()
+
+    def fail(step, **detail):
+        log.append({'action': 'rollout', 'outcome': 'FAILED', 'step': step, **detail})
+        return 'FAILED'
+
+    status, data = rest.call('nh-vien/v1/status')
+    version = data.get('version') if isinstance(data, dict) else None
+    if status == 404 or (status == 200 and version_tuple(version) < MIN_VERSION):
+        log.append({'action': 'rollout', 'outcome': 'NOT_INSTALLED', 'http': status, 'version': version,
+                    'message': 'VI-EN Core 0.5.1 is not installed on the site yet; nothing was done'})
+        return 'NOT_INSTALLED'
+    if status != 200 or not isinstance(data, dict):
+        return fail('status', http=status, error=data)
+    log.append({'action': 'status', 'http': status, 'result': brief_status(data)})
+    writes = 0
+    # 1. The English routes (the plugin runs its preflight, smoke test and rollback inside this one call).
+    payload = {'enabled': True, 'confirm': bool(args.confirm)}
+    if data.get('live'):
+        log.append({'action': 'enable', 'skipped': 'routes already live'})
+    elif not args.live:
+        log.append({'action': 'enable', 'dry_run': True, 'would_post': 'nh-vien/v1/routes', 'payload': payload})
+    else:
+        status, reply = rest.call('nh-vien/v1/routes', payload)
+        writes += 1
+        if status != 200 or not isinstance(reply, dict):
+            return fail('enable', http=status, error=reply)
+        data = reply.get('status') if isinstance(reply.get('status'), dict) else {}
+        log.append({'action': 'enable', 'http': status, 'write': True, 'result': reply.get('result'), 'status_after': brief_status(data)})
+        if not data.get('live'):
+            return fail('enable', message='the switch answered 200 but the routes are not live')
+    # 2. The English categories, parents before leaves; the plugin answers true for a category that is English already.
+    registered = {int(x) for x in data.get('english_categories') or []}
+    for term_id in [int(x) for x in list(policy['category_ids']['parents']) + list(policy['category_ids']['leaves'])]:
+        if term_id in registered:
+            log.append({'action': 'register-category', 'id': term_id, 'skipped': 'already English'})
+            continue
+        if not args.live:
+            log.append({'action': 'register-category', 'id': term_id, 'dry_run': True})
+            continue
+        status, reply = rest.call('nh-vien/v1/categories', {'id': term_id})
+        writes += 1
+        if status != 200 or not isinstance(reply, dict):
+            return fail('register-category', id=term_id, http=status, error=reply)
+        registered = {int(x) for x in reply.get('english_categories') or []} | {term_id}
+        log.append({'action': 'register-category', 'id': term_id, 'http': status, 'write': True, 'result': sorted(registered)})
+    # 3. The page pairs (Vietnamese page -> its English equivalent): both pages must be published with the expected slug.
+    linked = {int(k): int(v) for k, v in (data.get('page_pairs') or {}).items()}
+    for pair in policy.get('page_pairs', []):
+        vi, en = int(pair['vi']), int(pair['en'])
+        if linked.get(vi) == en:
+            log.append({'action': 'link-pages', 'vi': vi, 'en': en, 'skipped': 'already linked'})
+            continue
+        for side, page_id in (('vi', vi), ('en', en)):
+            status, page = rest.call(f'wp/v2/pages/{page_id}?_fields=id,slug,status,link')
+            expected = pair.get(f'{side}_slug')
+            found = {k: page.get(k) for k in ('slug', 'status', 'link')} if isinstance(page, dict) else page
+            if status != 200 or not isinstance(page, dict) or page.get('status') != 'publish' or (expected and page.get('slug') != expected):
+                return fail('link-pages', vi=vi, en=en, page=page_id, http=status, expected_slug=expected, found=found,
+                            message=f'page {page_id} is not the published page /{expected}/; the pair was not written')
+        if not args.live:
+            log.append({'action': 'link-pages', 'vi': vi, 'en': en, 'dry_run': True})
+            continue
+        status, reply = rest.call('nh-vien/v1/pages', {'vi': vi, 'en': en})
+        writes += 1
+        if status != 200 or not isinstance(reply, dict):
+            return fail('link-pages', vi=vi, en=en, http=status, error=reply)
+        linked[vi] = en
+        log.append({'action': 'link-pages', 'vi': vi, 'en': en, 'http': status, 'write': True, 'result': reply.get('page_pairs')})
+    if not args.live:
+        log.append({'action': 'rollout', 'outcome': 'DRY_RUN', 'writes': 0, 'message': 'nothing was written; run with --live'})
+        return 'DRY_RUN'
+    # 4. The English pages as the public sees them.
+    if not verify([u.strip() for u in args.urls.split(',') if u.strip()], log):
+        return fail('verify', message='an English page did not verify; see the rows above')
+    log.append({'action': 'rollout', 'outcome': 'VERIFIED', 'writes': writes, 'english_categories': sorted(registered), 'page_pairs': linked})
+    return 'VERIFIED'
+
+
 def write_report(log, name):
     REPORT_DIR.mkdir(parents=True, exist_ok=True)
     (REPORT_DIR / f'{name}.json').write_text(json.dumps(log, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
@@ -208,7 +306,7 @@ def write_report(log, name):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('action', choices=['status', 'enable', 'disable', 'undo', 'register-categories', 'link-pages', 'publish-pages', 'verify'])
+    parser.add_argument('action', choices=['status', 'enable', 'disable', 'undo', 'register-categories', 'link-pages', 'publish-pages', 'verify', 'rollout'])
     parser.add_argument('--ids', default='')
     parser.add_argument('--pairs', default='')
     parser.add_argument('--urls', default=EN_URLS)
@@ -224,6 +322,14 @@ def main():
     if not user or not password:
         print('BLOCKED: missing WP_USERNAME / WP_APPLICATION_PASSWORD; nothing was done')
         return 2
+    if args.action == 'rollout':
+        outcome = rollout(Rest(user, password), args, log)
+        write_report(log, 'rollout')
+        print(f'EN rollout outcome: {outcome}')
+        if os.getenv('GITHUB_OUTPUT'):
+            with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as handle:
+                handle.write(f'outcome={outcome}\n')
+        return 0 if outcome != 'FAILED' else 1
     ok = act(Rest(user, password), args, log)
     write_report(log, args.action)
     return 0 if ok else 1

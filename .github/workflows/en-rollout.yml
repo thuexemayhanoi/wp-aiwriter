@@ -6,9 +6,9 @@ on:
   workflow_dispatch:
     inputs:
       action:
-        description: 'What to do'
+        description: 'What to do (rollout = status, routes on, categories, page pairs, verify in one pass; the EN autopilot runs it on a schedule)'
         type: choice
-        options: ['status', 'verify', 'enable', 'disable', 'undo', 'register-categories', 'link-pages', 'publish-pages']
+        options: ['status', 'verify', 'rollout', 'enable', 'disable', 'undo', 'register-categories', 'link-pages', 'publish-pages']
         default: 'status'
       live:
         description: 'Really write (enable/disable/undo/register/link/publish). Off = dry run.'
