@@ -91,10 +91,12 @@ def run(rest, live=True, confirm=True, verified=True):
 
 
 class Rollout(unittest.TestCase):
-    def test_policy_lists_the_three_page_pairs_with_their_slugs(self):
-        self.assertEqual(PAIRS, [(14, 1759), (19, 1760), (25, 1761)])
-        self.assertEqual([p['vi_slug'] for p in POLICY['page_pairs']], ['gioi-thieu', 'bang-gia', 'lien-he'])
-        self.assertEqual([p['en_slug'] for p in POLICY['page_pairs']], ['about', 'prices', 'contact'])
+    def test_policy_lists_the_four_page_pairs_with_their_slugs(self):
+        self.assertEqual(PAIRS, [(14, 1759), (19, 1760), (25, 1761), (24, 1763)])
+        self.assertEqual([p['vi_slug'] for p in POLICY['page_pairs']], ['gioi-thieu', 'bang-gia', 'lien-he', 'hoi-dap'])
+        self.assertEqual([p['en_slug'] for p in POLICY['page_pairs']], ['about', 'prices', 'contact', 'faq'])
+        self.assertEqual(len({p['vi'] for p in POLICY['page_pairs']}), 4)
+        self.assertEqual(len({p['en'] for p in POLICY['page_pairs']}), 4)
 
     def test_not_installed_ends_quietly_without_writes(self):
         rest = FakeRest(installed=False)

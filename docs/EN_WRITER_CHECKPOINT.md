@@ -8,7 +8,8 @@
   artifact `en-pages-39332264092` and as a WordPress revision. Public answers HTTP 200 with the new titles.
 - English pipeline: `en/topics.json` (48 topics), `en/business.json` (facts incl. fuel, delivery both ways, included
   items, models; allowed amounts incl. 20,000 and 100,000), `en/publication-policy.json` (**enabled=false, pilot,
-  IDs 1–3**, page pairs 14→1759 `gioi-thieu`→`about`, 19→1760 `bang-gia`→`prices`, 25→1761 `lien-he`→`contact`),
+  IDs 1–3**, page pairs 14→1759 `gioi-thieu`→`about`, 19→1760 `bang-gia`→`prices`, 25→1761 `lien-he`→`contact`,
+  24→1763 `hoi-dap`→`faq`; the Vietnamese pages 29 `dieu-khoan` and 3 `bao-mat` have no English equivalent yet),
   `scripts/en_engine.py`, `scripts/en_ops.py` (`rollout` incl. the English site name for plugin 0.5.2+),
   `scripts/en_pages.py`, `scripts/wp_probe.py` (`--slugs`), tests `test_en_engine.py`, `test_en_ops.py`,
   `test_en_pages.py` (108 tests in total with the Vietnamese ones), workflows `en-writer-qa.yml`, `en-publisher.yml`,
@@ -46,9 +47,9 @@
    register → publish → verify; ledger `data/en-publication-state.json` committed). A failed pass opens or comments on
    the issue "EN autopilot alert" (pause after three; close the issue to resume).
 3. After the pilot: probe `/en/<slug>/` of the three posts, `/en/category/…`, the menus, `/sitemap_index.xml`,
-   hreflang on the three paired pages, `og:site_name` and the meta descriptions; then `mode: batch`, `batch_size: 3`,
-   then 10, then 20 (by commit). Consider a fourth page pair `hoi-dap` ↔ `faq` (look the ID up with the probe's
-   `slugs`, check the Vietnamese page is a true FAQ equivalent, add it to `page_pairs`).
+   hreflang on the four paired pages, `og:site_name` and the meta descriptions; then `mode: batch`, `batch_size: 3`,
+   then 10, then 20 (by commit). Consider English terms and privacy pages (the Vietnamese `/dieu-khoan/` #29 and
+   `/bao-mat/` #3 exist; `en_pages.py` is update-only, so a create path with the same checks would be needed).
 4. Keep writing `en/posts/NNNN.md` from `en/topics.json` (IDs 4 onwards), each with official sources and an effective
    date for legal facts; they stay unpublished until batch mode.
 

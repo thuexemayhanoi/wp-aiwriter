@@ -74,7 +74,7 @@ Description 110–175 characters (−10 missing, −5 length), 1,200–3,500 wor
    one manual step.
 2. Automatic from here: the `EN autopilot` workflow notices 0.5.1 or later (`nh-vien/v1/status` answers) within two hours
    and runs one `rollout` pass: routes on (the plugin's preflight, smoke test and rollback apply), categories 46–56
-   registered, page pairs 14→1759, 19→1760, 25→1761 linked after a slug check, the English site name set from
+   registered, page pairs 14→1759, 19→1760, 25→1761, 24→1763 linked after a slug check, the English site name set from
    `en/business.json` (`name_en`, plugin 0.5.2+), English pages verified publicly. The same pass can be started by
    hand: `EN rollout` → action `rollout`, live, confirm (dry run without `live`), or `EN autopilot` → `live`.
 3. Automatic too: a `VERIFIED` pass sets `enabled: true` in `en/publication-policy.json` (pilot mode, IDs 1–3), pushes it

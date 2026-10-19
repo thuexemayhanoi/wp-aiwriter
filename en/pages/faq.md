@@ -44,6 +44,10 @@ Your passport or identity card and your driving licence with its International D
 
 No. Once the cash deposit and the rent are paid, every original document goes straight back to you. We never hold documents in place of a deposit, and we never describe the service as deposit-free.
 
+### Is there a minimum age to rent?
+
+Renters aged 20 and over need a licence of the right class for any bike that legally requires one, plus the contract, the payment and the deposit; that age is the shop's own condition of service, not a legal minimum. Renters aged 18 or 19 asking for a 50cc bike are considered case by case at the shop. Renters aged 16 or 17 cannot sign a contract or take a bike themselves; a parent or another suitable adult signs for them.
+
 ## Deposit
 
 ### How much is the deposit?
@@ -88,7 +92,7 @@ Tell us your plan when you book so that we can suggest a suitable bike and confi
 
 ### What if the bike breaks down or gets a puncture?
 
-Call the shop first and describe where you are and what happened. Small repairs such as a puncture are available at roadside mechanics all over Hanoi and along the main roads; ask us how the cost is handled before you agree to any repair, and keep the receipt. Settle the exact procedure for breakdowns and damage when you sign, so that both sides know it in advance.
+Call the shop first and describe where you are and what happened. A technical fault that did not come from the way the bike was used is the shop's to deal with: we check it, repair it or swap the bike, as the situation allows. Damage from a collision, an accident or misuse is priced by its cause, the actual condition of the bike and the contract, and the renter may bear a cost in proportion to the real damage. Small repairs such as a puncture are available at roadside mechanics all over Hanoi and along the main roads; ask us how the cost is handled before you agree to any repair, and keep the receipt.
 
 ## Returning the bike
 

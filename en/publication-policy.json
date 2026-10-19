@@ -15,7 +15,8 @@
   "page_pairs": [
     {"vi": 14, "vi_slug": "gioi-thieu", "en": 1759, "en_slug": "about"},
     {"vi": 19, "vi_slug": "bang-gia", "en": 1760, "en_slug": "prices"},
-    {"vi": 25, "vi_slug": "lien-he", "en": 1761, "en_slug": "contact"}
+    {"vi": 25, "vi_slug": "lien-he", "en": 1761, "en_slug": "contact"},
+    {"vi": 24, "vi_slug": "hoi-dap", "en": 1763, "en_slug": "faq"}
   ],
   "notes": "enabled=false: the publisher only previews. The EN autopilot workflow sets enabled=true itself once VI-EN Core 0.5.1 is installed and its rollout pass verified (routes live, categories registered, page pairs linked, English pages public); the publisher re-checks routes and categories through nh-vien/v1/status before any write. page_pairs are the Vietnamese pages with a true English equivalent (hreflang); the rollout checks both slugs before it links a pair. mode=pilot publishes only pilot_ids; mode=batch publishes every QA-ready article in batches of batch_size, max_batches_per_run per run. Advance 3 -> 10 -> 20 only after the previous batch verified live."
 }
