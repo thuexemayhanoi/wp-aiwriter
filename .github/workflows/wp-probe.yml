@@ -1,0 +1,54 @@
+name: WordPress probe (read-only)
+# Reports what is installed and published on the live WordPress and how the English side answers.
+# GET requests only, nothing is written; response bodies are never printed, only a fixed set of fields.
+on:
+  workflow_dispatch:
+    inputs:
+      pages:
+        description: 'Page IDs to inspect (comma separated)'
+        type: string
+        default: '1758,1759,1760,1761,1762,1763,1764'
+      categories:
+        description: 'Category IDs to inspect (comma separated)'
+        type: string
+        default: '46,47,48,49,50,51,52,53,54,55,56'
+      urls:
+        description: 'Public paths to fetch (comma separated)'
+        type: string
+        default: '/,/en/,/en/about/,/en/prices/,/en/contact/,/en/rental-guide/,/en/faq/,/en/motorbikes/,/en/category/hanoi-motorbike-rental/,/sitemap_index.xml,/robots.txt,/wp-json/nh-vien/v1/status'
+permissions:
+  contents: read
+concurrency:
+  group: wp-probe
+  cancel-in-progress: false
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      SEO_USER_AGENT: ${{ vars.SEO_USER_AGENT }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install pinned dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Probe the site
+        env:
+          WP_USERNAME: ${{ secrets.WP_USERNAME || secrets.WP_USER }}
+          WP_APPLICATION_PASSWORD: ${{ secrets.WP_APPLICATION_PASSWORD }}
+          PAGES: ${{ inputs.pages }}
+          CATEGORIES: ${{ inputs.categories }}
+          URLS: ${{ inputs.urls }}
+        run: python scripts/wp_probe.py --pages "$PAGES" --categories "$CATEGORIES" --urls "$URLS"
+      - name: Print the full JSON report (fixed fields only, no bodies)
+        run: cat reports/probe/probe.json
+      - name: Preserve the report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: wp-probe-${{ github.run_id }}
+          path: reports/probe/
+          if-no-files-found: ignore
+          retention-days: 14
