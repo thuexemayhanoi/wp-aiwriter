@@ -22,18 +22,21 @@ SLUGS.update({int(p['en']): p['en_slug'] for p in POLICY['page_pairs']})
 class FakeRest:
     """The subset of VI-EN Core 0.5.1 and wp/v2/pages the rollout talks to, with the plugin's idempotent answers."""
 
-    def __init__(self, installed=True, version='0.5.1', live=False, categories=(), pairs=None, slugs=None, fail=None):
+    def __init__(self, installed=True, version='0.5.1', live=False, categories=(), pairs=None, slugs=None, fail=None, site_name=None):
         self.installed, self.version = installed, version
-        self.state = {'live': live, 'categories': set(categories), 'pairs': dict(pairs or {})}
+        self.state = {'live': live, 'categories': set(categories), 'pairs': dict(pairs or {}), 'site_name': site_name}
         self.slugs = dict(slugs if slugs is not None else SLUGS)
         self.fail = fail or {}
         self.writes = []
         self.reads = []
 
     def snapshot(self):
-        return {'version': self.version, 'enabled': self.state['live'], 'source': 'setting_on' if self.state['live'] else 'unset',
-                'live': self.state['live'], 'english_categories': sorted(self.state['categories']),
-                'page_pairs': {str(k): v for k, v in self.state['pairs'].items()}, 'preflight': []}
+        row = {'version': self.version, 'enabled': self.state['live'], 'source': 'setting_on' if self.state['live'] else 'unset',
+               'live': self.state['live'], 'english_categories': sorted(self.state['categories']),
+               'page_pairs': {str(k): v for k, v in self.state['pairs'].items()}, 'preflight': []}
+        if self.state['site_name'] is not None:   # plugin 0.5.2 and later report the English site name
+            row['site_name_en'] = self.state['site_name']
+        return row
 
     def call(self, route, payload=None, method=None):
         if payload is None:
@@ -65,6 +68,11 @@ class FakeRest:
                 return 409, {'code': 'nh_vien_conflict', 'message': 'One of the pages is already linked.'}
             self.state['pairs'][payload['vi']] = payload['en']
             return 200, {'page_pairs': {str(k): v for k, v in self.state['pairs'].items()}}
+        if route == 'nh-vien/v1/settings':
+            if self.fail.get('site_name'):
+                return 500, {'code': 'nh_vien_save_failed', 'message': 'The setting could not be saved.'}
+            self.state['site_name'] = payload['site_name_en']
+            return 200, {'result': {'site_name_en': payload['site_name_en']}, 'status': self.snapshot()}
         raise AssertionError(f'unexpected write {route}')
 
 
@@ -72,10 +80,13 @@ def args(live=True, confirm=True, urls=ops.EN_URLS):
     return SimpleNamespace(live=live, confirm=confirm, urls=urls)
 
 
+BUSINESS = json.loads((ROOT / 'en/business.json').read_text(encoding='utf-8'))
+
+
 def run(rest, live=True, confirm=True, verified=True):
     log = []
     with patch.object(ops, 'verify', return_value=verified) as verify:
-        outcome = ops.rollout(rest, args(live, confirm), log, POLICY)
+        outcome = ops.rollout(rest, args(live, confirm), log, POLICY, BUSINESS)
     return outcome, log, verify
 
 
@@ -191,6 +202,35 @@ class Rollout(unittest.TestCase):
         outcome, log, _ = run(rest)
         self.assertEqual(outcome, 'FAILED')
         self.assertEqual(log[-1]['error']['code'], 'nh_vien_conflict')
+
+    def test_plugin_without_site_name_support_is_left_alone(self):
+        rest = FakeRest(live=True, categories=PARENTS + LEAVES, pairs=dict(PAIRS))
+        outcome, log, _ = run(rest)
+        self.assertEqual(outcome, 'VERIFIED')
+        self.assertEqual(rest.writes, [])
+        self.assertEqual([e for e in log if e.get('action') == 'site-name'], [])
+
+    def test_site_name_is_set_from_business_json_once(self):
+        rest = FakeRest(live=True, categories=PARENTS + LEAVES, pairs=dict(PAIRS), version='0.5.2', site_name='')
+        outcome, log, _ = run(rest)
+        self.assertEqual(outcome, 'VERIFIED')
+        self.assertEqual(rest.writes, [('nh-vien/v1/settings', {'site_name_en': BUSINESS['name_en']})])
+        self.assertEqual(rest.state['site_name'], 'Nguyen Ha Motorbike Rental')
+        rest.writes = []
+        outcome, log, _ = run(rest)
+        self.assertEqual((outcome, rest.writes), ('VERIFIED', []))
+        self.assertEqual([e for e in log if e.get('action') == 'site-name'][0]['skipped'], 'already set')
+
+    def test_site_name_dry_run_and_failure(self):
+        rest = FakeRest(live=True, categories=PARENTS + LEAVES, pairs=dict(PAIRS), version='0.5.2', site_name='')
+        outcome, log, _ = run(rest, live=False)
+        self.assertEqual((outcome, rest.writes), ('DRY_RUN', []))
+        self.assertTrue([e for e in log if e.get('action') == 'site-name'][0]['dry_run'])
+        rest = FakeRest(live=True, categories=PARENTS + LEAVES, pairs=dict(PAIRS), version='0.5.2', site_name='', fail={'site_name': True})
+        outcome, log, verify = run(rest)
+        self.assertEqual(outcome, 'FAILED')
+        self.assertEqual(log[-1]['step'], 'site-name')
+        self.assertFalse(verify.called)
 
     def test_public_verification_failure_fails_the_pass(self):
         rest = FakeRest()

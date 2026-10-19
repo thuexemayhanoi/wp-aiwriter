@@ -14,8 +14,9 @@ Actions:
   verify               public checks of --urls: status, marker header, lang, canonical, title, H1, hreflang, no Vietnamese
   rollout              one idempotent pass of everything the English side needs once VI-EN Core 0.5.1 is installed:
                        status -> routes on (if not live) -> missing English categories -> missing page pairs (each
-                       checked by slug first) -> public verify of --urls. Ends quietly (NOT_INSTALLED) while the site
-                       still runs an older plugin; stops at the first failure; writes only with --live.
+                       checked by slug first) -> English site name from en/business.json (plugin 0.5.2+) -> public
+                       verify of --urls. Ends quietly (NOT_INSTALLED) while the site still runs an older plugin; stops
+                       at the first failure; writes only with --live.
 """
 import argparse
 import base64
@@ -36,6 +37,7 @@ import seo_common  # noqa: E402
 
 REPORT_DIR = ROOT / 'reports' / 'en-rollout'
 POLICY_PATH = ROOT / 'en' / 'publication-policy.json'
+BUSINESS_PATH = ROOT / 'en' / 'business.json'
 EN_URLS = '/en/,/en/about/,/en/prices/,/en/contact/,/en/rental-guide/,/en/faq/,/en/motorbikes/'
 MIN_VERSION = (0, 5, 1)   # the first plugin version with the REST API and the admin switch
 OUTCOMES = ('NOT_INSTALLED', 'DRY_RUN', 'VERIFIED', 'FAILED')
@@ -213,11 +215,17 @@ def load_policy():
     return json.loads(POLICY_PATH.read_text(encoding='utf-8'))
 
 
-def rollout(rest, args, log, policy=None):
+def load_business():
+    return json.loads(BUSINESS_PATH.read_text(encoding='utf-8'))
+
+
+def rollout(rest, args, log, policy=None, business=None):
     """One idempotent pass: status -> routes on (if not live) -> missing English categories (parents first) -> missing
-    page pairs (both pages checked by slug before the write) -> public verify. Stops at the first failure, writes only
-    with --live, and ends quietly with NOT_INSTALLED while the site still runs a plugin older than 0.5.1."""
+    page pairs (both pages checked by slug before the write) -> English site name (0.5.2+) -> public verify. Stops at
+    the first failure, writes only with --live, and ends quietly with NOT_INSTALLED while the site still runs a plugin
+    older than 0.5.1."""
     policy = policy or load_policy()
+    business = business if business is not None else load_business()
 
     def fail(step, **detail):
         log.append({'action': 'rollout', 'outcome': 'FAILED', 'step': step, **detail})
@@ -286,10 +294,23 @@ def rollout(rest, args, log, policy=None):
             return fail('link-pages', vi=vi, en=en, http=status, error=reply)
         linked[vi] = en
         log.append({'action': 'link-pages', 'vi': vi, 'en': en, 'http': status, 'write': True, 'result': reply.get('page_pairs')})
+    # 4. The English site name (plugin 0.5.2 and later report it): the one en/business.json gives the business.
+    wanted_name = (business or {}).get('name_en', '')
+    if 'site_name_en' in data and wanted_name:
+        if (data.get('site_name_en') or '') == wanted_name:
+            log.append({'action': 'site-name', 'skipped': 'already set', 'site_name_en': wanted_name})
+        elif not args.live:
+            log.append({'action': 'site-name', 'dry_run': True, 'would_post': 'nh-vien/v1/settings', 'payload': {'site_name_en': wanted_name}})
+        else:
+            status, reply = rest.call('nh-vien/v1/settings', {'site_name_en': wanted_name})
+            writes += 1
+            if status != 200 or not isinstance(reply, dict):
+                return fail('site-name', http=status, error=reply)
+            log.append({'action': 'site-name', 'http': status, 'write': True, 'result': reply.get('result')})
     if not args.live:
         log.append({'action': 'rollout', 'outcome': 'DRY_RUN', 'writes': 0, 'message': 'nothing was written; run with --live'})
         return 'DRY_RUN'
-    # 4. The English pages as the public sees them.
+    # 5. The English pages as the public sees them.
     if not verify([u.strip() for u in args.urls.split(',') if u.strip()], log):
         return fail('verify', message='an English page did not verify; see the rows above')
     log.append({'action': 'rollout', 'outcome': 'VERIFIED', 'writes': writes, 'english_categories': sorted(registered), 'page_pairs': linked})
