@@ -13,8 +13,12 @@
   `scripts/en_pages.py`, `scripts/wp_probe.py` (`--slugs`), tests `test_en_engine.py`, `test_en_ops.py`,
   `test_en_pages.py` (108 tests in total with the Vietnamese ones), workflows `en-writer-qa.yml`, `en-publisher.yml`,
   `en-rollout.yml`, `en-autopilot.yml`, `en-pages.yml`, `wp-probe.yml`, runbook `docs/EN_PIPELINE.md`.
-- Pilot articles authored and QA PASS: `en/posts/0001.md` (licence rules, category 55), `0002.md` (Vision vs Air
-  Blade, 50), `0003.md` (Hanoi to Ninh Binh, 54). **Not published**: the policy is off until the routes are live.
+- Articles authored and QA PASS (scores 96–100): `en/posts/0001.md` (licence rules, 55), `0002.md` (Vision vs Air
+  Blade, 50), `0003.md` (Hanoi to Ninh Binh, 54), `0004.md` (helmet rules, 56), `0005.md` (rental deposit, 55),
+  `0006.md` (manual / semi-automatic / automatic, 49), `0007.md` (50cc scooters, 51), `0008.md` (electric scooters,
+  52), `0009.md` (Old Quarter riding, 53). Legal facts cite Law 36/2024/QH15, Decree 168/2024/ND-CP, Circular
+  38/2024/TT-BGTVT and QCVN 2:2021/BKHCN with effective dates; VinFast figures from launch press coverage. **None
+  published**: the policy is off (pilot IDs 1–3 first; 4–9 wait for `mode: batch`). Next IDs: 10, 11, 12.
 - Live site (probe 2026-10-19 21:43 UTC): theme `wordpress-theme` 2.0.1 active (Deployer for Git deploys the theme
   only), VI-EN Core **0.5.0** active, Yoast 28.7, LiteSpeed Cache 7.9.1; categories 46–56 exist and are empty; menus
   `primary-en` #57 and `footer-en` #58 have their items; `nh-vien/v1/status` 404; `/en/…` answers 200 in the
