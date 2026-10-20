@@ -126,10 +126,11 @@
       "title": "Where to Park a Scooter near Hoan Kiem Lake",
       "slug": "where-to-park-a-scooter-near-hoan-kiem-lake",
       "source_hash": "8fd05992fd4f036fd2ad2662090e414f3cf3c529451aa22c93af1044480748e5",
-      "checked_at": "2026-10-20T10:16:34.624835+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 60
+      "checked_at": "2026-10-20T10:16:36.542688+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 60,
+      "wp_id": 1873
     }
   },
-  "updated_at": "2026-10-20T10:16:34.624844+00:00"
+  "updated_at": "2026-10-20T10:16:36.542703+00:00"
 }
