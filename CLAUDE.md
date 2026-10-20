@@ -6,6 +6,8 @@
 
 **Site:** https://blog.rentbikehanoi.com (Nguyễn Hà only). **Do not confuse with Nguyễn Tú, /wp-writer or /global.**
 
+**FAST EN COMMAND (optional shell):** `python scripts/en_writer_brief.py --limit 3` (`--format json` for structured use). This creates a read-only research packet; DO NOT treat its proposed titles as approved, and live-check WordPress before authoring. Existing QA/publish rules in `AGENTS.md` remain mandatory.
+
 ## Mandatory startup reading — in this exact order
 
 1. [`AGENTS.md`](AGENTS.md) — existing writer/publisher contract and production safety.
