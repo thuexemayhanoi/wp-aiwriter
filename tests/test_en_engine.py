@@ -315,12 +315,20 @@ class Topics(unittest.TestCase):
         # production VI/EN Core preflight and public-route verification. The QA
         # must accept that rollout, while retaining the three-article pilot cap.
         self.assertIsInstance(POLICY['enabled'], bool)
-        self.assertEqual(POLICY['mode'], 'pilot')
+        self.assertIn(POLICY['mode'], ('pilot', 'batch'))
         self.assertEqual(POLICY['pilot_ids'], [1, 2, 3])
-        self.assertEqual(POLICY['batch_size'], 3)
-        self.assertEqual(POLICY['max_batches_per_run'], 1)
         self.assertTrue(POLICY['require_live_routes'])
         self.assertGreaterEqual(POLICY['min_score'], 85)
+        # Batch publication is allowed only after all three live pilot posts
+        # were independently verified. Keep each job's size bounded on shared hosting.
+        if POLICY['mode'] == 'pilot':
+            self.assertEqual(POLICY['batch_size'], 3)
+            self.assertEqual(POLICY['max_batches_per_run'], 1)
+        else:
+            self.assertGreaterEqual(POLICY['batch_size'], 1)
+            self.assertLessEqual(POLICY['batch_size'], 10)
+            self.assertGreaterEqual(POLICY['max_batches_per_run'], 1)
+            self.assertLessEqual(POLICY['batch_size'] * POLICY['max_batches_per_run'], 20)
 
 
 if __name__ == '__main__':
