@@ -1,0 +1,24 @@
+# English title-plan queue — 478 unpublished topic IDs (2026-10-20)
+
+**Site:** https://blog.rentbikehanoi.com/en/  
+**Repo:** `thuexemayhanoi/wp-aiwriter`  
+**Data:** `en/title-plan-478.csv` (478 rows; working English titles 60–80 characters).
+
+## Verified baseline
+- `en/topics.json`: 500 existing English-only stable topic IDs.
+- `data/en-publication-state.json`: 22 English posts VERIFIED and published as of the baseline; those IDs do not appear in the 478-row plan. WP Agent independently confirmed their published WordPress URLs.
+- 21 registered EN WordPress category IDs (46–56 and 60–69; only existing terms are referenced). Vietnamese category IDs and content are not part of this plan.
+- 418 existing unpublished titles were shorter than 60 characters and have **proposed** longer titles in a separate column. Original titles, permanent slugs and term IDs remain unchanged in `en/topics.json` until safe explicit approval.
+- Topics currently cover 18 of the owner's 35 requested thematic groups; the 17 unrepresented clusters are **gaps**, not grounds for inventing duplicate pages or changing the 500-ID source without research.
+
+## Usage and safety
+1. `python scripts/en_title_plan.py --check` validates all 478 records, English titles (60–80 characters), unique IDs/titles, source slug and category, and current ledger phases. No WordPress writes.
+2. `python scripts/en_title_plan.py --next 3` shows the next **unpublished and unwritten** EN candidates. Reconcile against live WP and `en/posts` before claiming a row.
+3. Research search intent thoroughly, validate facts with sources (especially legal content), check title + semantic overlap against existing EN posts, approved EN pages, 500-topic matrix and live WordPress. Working-title extensions may be generic; **they are candidates, not editorially approved headlines**.
+4. Mark only reviewed, genuinely unique headings as `title_approval=APPROVED`; run `python scripts/en_title_plan.py --apply-approved` to synchronise those approved, *unwritten, unledgered* titles into `en/topics.json`. This preserves original ID, slug, category, published legacy posts and 500-topic count. Inspect the diff and commit.
+5. Write `en/posts/NNNN.md` using **the exact now-synchronised title, slug and category ID from `en/topics.json`**. English prose only; 1,600–5,000 words for new work; QA >=85, sources, internal links and fact-checks. Never write a proposal title as a post before synchronisation.
+6. Existing `EN Writer QA` then `EN Publisher` handles QA → draft → VI/EN registration → publish → live readback; respect `en/publication-policy.json` limits (3 per run) and any required next-batch approval. When publisher verifies an item, ledger is authority; a stale CSV status does not trigger republishing.
+
+**Non-negotiable:** Do not edit any Vietnamese content, menu, categories, canonical, slug or sitemap; no API-based AI writing, no mass automatic publication, no overwrites. Do not change a post with any ledger entry or existing manuscript. Never silently change a category to fit a topic. The 35 group labels in the CSV are topical descriptions, not WordPress taxonomy IDs.
+
+**Note on title lengths:** 60–80 is the owner's temporary title-planning range, not a ranking guarantee. The existing QA engine applies a small title-length penalty above 65 characters. Editors should prefer clarity, distinct intent and natural English and retain QA >=85 rather than keyword stuffing.
