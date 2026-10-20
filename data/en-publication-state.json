@@ -5,11 +5,13 @@
       "title": "Can Tourists Ride a Motorbike in Vietnam? Licence Rules",
       "slug": "motorbike-licence-rules-for-foreigners-in-vietnam",
       "source_hash": "963b2cb1da6173dc03bbc87c0a948fcc055037647dd731f4298d1118981b7c43",
-      "checked_at": "2026-10-20T06:13:59.410281+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-20T06:14:03.353511+00:00",
+      "phase": "VERIFIED",
       "category_id": 55,
-      "wp_id": 1807
+      "wp_id": 1807,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/motorbike-licence-rules-for-foreigners-in-vietnam/"
     }
   },
-  "updated_at": "2026-10-20T06:13:59.410298+00:00"
+  "updated_at": "2026-10-20T06:14:03.353531+00:00"
 }
