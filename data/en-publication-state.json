@@ -231,7 +231,15 @@
       "wp_id": 1891,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/take-rental-motorbike-out-of-hanoi/"
+    },
+    "33": {
+      "title": "Riding at Night in Hanoi: Lights, Visibility and the Streets to Avoid",
+      "slug": "riding-at-night-in-hanoi",
+      "source_hash": "da475cb3cea0d0bcaa511b0afae543d13548dab22aeb3615263f187796e2052e",
+      "checked_at": "2026-10-20T10:43:11.884635+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 48
     }
   },
-  "updated_at": "2026-10-20T10:40:47.807071+00:00"
+  "updated_at": "2026-10-20T10:43:11.884649+00:00"
 }
