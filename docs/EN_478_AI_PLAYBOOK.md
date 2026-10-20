@@ -16,6 +16,10 @@
 
 **Important:** The optional downloadable Excel and the Google Sheets copy are human-friendly views. The actual GitHub pipeline reads **`en/topics.json` and `en/posts/NNNN.md`**. Editing the spreadsheet/Google Sheet does **not** automatically change GitHub. The CSV in GitHub is the authoritative *title-planning/approval queue*, not the WordPress publishing ledger.
 
+### Fast-track next three without lowering QA
+
+Once the startup reading above is complete, run `python scripts/en_writer_brief.py --limit 3` (or `--format json`). The script checks the 478-row GitHub plan against the EN topic source, manuscript directory, durable publication ledger, editorial policy, and the read-only taxonomy snapshot; it returns the next three available IDs with an exact slug, current canonical title, proposed title, actual category ancestors and search-intent/legal-research prompts. It writes **nothing**, cannot bypass editorial approval, cannot check live WordPress and cannot publish. The AI must still conduct live duplicate/term verification, factual research, original English writing and the full QA ≥85 procedure. If a shell is unavailable, manually read the same files and do not claim the script ran. Rerun after every verified batch; never use a cached packet after other writers have pushed.
+
 ## 1. Snapshot vs living state
 
 - Baseline on **20 October 2026**: `en/topics.json` contains **500** planned English IDs; `data/en-publication-state.json` contains **22 VERIFIED/published** English IDs; `en/title-plan-478.csv` contains the other **478 candidate IDs**.
