@@ -264,7 +264,15 @@
       "wp_id": 1897,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/hanoi-to-ha-long-bay-by-motorbike/"
+    },
+    "12": {
+      "title": "Hanoi to Mai Chau by Motorbike: A Two-Day Ride Through the Hills",
+      "slug": "hanoi-to-mai-chau-by-motorbike",
+      "source_hash": "6c9d050fa72bddb9bd90764f029f64ad4c7fd8a317e29a61a772c0a8b0c96834",
+      "checked_at": "2026-10-20T13:27:43.905404+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 54
     }
   },
-  "updated_at": "2026-10-20T13:25:05.735219+00:00"
+  "updated_at": "2026-10-20T13:27:43.905417+00:00"
 }
