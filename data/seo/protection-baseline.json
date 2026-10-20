@@ -7990,6 +7990,105 @@
    "url": "https://blog.rentbikehanoi.com/en/riding-at-night-in-hanoi/",
    "word_count": 1761
   },
+  "1895": {
+   "canonical": "https://blog.rentbikehanoi.com/en/long-bien-red-river-first-ride/",
+   "categories": [
+    54
+   ],
+   "content_sha256": "b27ac4c34ceb58671ed6ba7ca28db1c6c8426d7b37f0a9eb7d5d173a8293afe2",
+   "final_url": "https://blog.rentbikehanoi.com/en/long-bien-red-river-first-ride/",
+   "first_seen": "2026-10-20T13:40:20Z",
+   "h1": "Long Bien and the Red River: An Easy First Ride Out of Central Hanoi",
+   "http_status": 200,
+   "jsonld_types": [
+    "Article",
+    "BreadcrumbList",
+    "EntryPoint",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Person",
+    "PropertyValueSpecification",
+    "ReadAction",
+    "SearchAction",
+    "WebPage",
+    "WebSite"
+   ],
+   "modified_gmt": "2026-10-20T13:22:36",
+   "noindex": false,
+   "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+   "slug": "long-bien-red-river-first-ride",
+   "title": "Long Bien and the Red River: An Easy First Ride Out of Central Hanoi",
+   "type": "post",
+   "url": "https://blog.rentbikehanoi.com/en/long-bien-red-river-first-ride/",
+   "word_count": 2506
+  },
+  "1897": {
+   "canonical": "https://blog.rentbikehanoi.com/en/hanoi-to-ha-long-bay-by-motorbike/",
+   "categories": [
+    54
+   ],
+   "content_sha256": "701f1afe80dd8ebf8a5be4f09cf737c060d301ddd1587d037e745fdf61560088",
+   "final_url": "https://blog.rentbikehanoi.com/en/hanoi-to-ha-long-bay-by-motorbike/",
+   "first_seen": "2026-10-20T13:40:20Z",
+   "h1": "Hanoi to Ha Long Bay by Motorbike: Is It Worth It and How to Do It Safely",
+   "http_status": 200,
+   "jsonld_types": [
+    "Article",
+    "BreadcrumbList",
+    "EntryPoint",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Person",
+    "PropertyValueSpecification",
+    "ReadAction",
+    "SearchAction",
+    "WebPage",
+    "WebSite"
+   ],
+   "modified_gmt": "2026-10-20T13:25:00",
+   "noindex": false,
+   "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+   "slug": "hanoi-to-ha-long-bay-by-motorbike",
+   "title": "Hanoi to Ha Long Bay by Motorbike: Is It Worth It and How to Do It Safely",
+   "type": "post",
+   "url": "https://blog.rentbikehanoi.com/en/hanoi-to-ha-long-bay-by-motorbike/",
+   "word_count": 2447
+  },
+  "1899": {
+   "canonical": "https://blog.rentbikehanoi.com/en/hanoi-to-mai-chau-by-motorbike/",
+   "categories": [
+    54
+   ],
+   "content_sha256": "b8039dd9369bcb103700ea643dda2756637d160927bef1adf00629f53801db06",
+   "final_url": "https://blog.rentbikehanoi.com/en/hanoi-to-mai-chau-by-motorbike/",
+   "first_seen": "2026-10-20T13:40:20Z",
+   "h1": "Hanoi to Mai Chau by Motorbike: A Two-Day Ride Through the Hills",
+   "http_status": 200,
+   "jsonld_types": [
+    "Article",
+    "BreadcrumbList",
+    "EntryPoint",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Person",
+    "PropertyValueSpecification",
+    "ReadAction",
+    "SearchAction",
+    "WebPage",
+    "WebSite"
+   ],
+   "modified_gmt": "2026-10-20T13:27:52",
+   "noindex": false,
+   "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+   "slug": "hanoi-to-mai-chau-by-motorbike",
+   "title": "Hanoi to Mai Chau by Motorbike: A Two-Day Ride Through the Hills",
+   "type": "post",
+   "url": "https://blog.rentbikehanoi.com/en/hanoi-to-mai-chau-by-motorbike/",
+   "word_count": 2647
+  },
   "19": {
    "canonical": "https://blog.rentbikehanoi.com/bang-gia/",
    "categories": [],
@@ -18554,6 +18653,6 @@
   "sitemap_url": "https://blog.rentbikehanoi.com/sitemap_index.xml",
   "sitemap_urls": 549
  },
- "updated_at": "2026-10-20T13:03:51Z",
+ "updated_at": "2026-10-20T13:40:20Z",
  "version": 1
 }
