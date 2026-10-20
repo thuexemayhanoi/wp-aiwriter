@@ -291,11 +291,13 @@
       "title": "Drink-Driving Rules for Motorbike Riders in Vietnam",
       "slug": "drink-driving-rules-motorbike-vietnam",
       "source_hash": "3d5fc487d8b0802355a4c8d252235ac695176be9863ebea86c04d223b5081691",
-      "checked_at": "2026-10-20T19:30:34.530786+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-20T19:30:38.705805+00:00",
+      "phase": "VERIFIED",
       "category_id": 56,
-      "wp_id": 1903
+      "wp_id": 1903,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/drink-driving-rules-motorbike-vietnam/"
     }
   },
-  "updated_at": "2026-10-20T19:30:34.530803+00:00"
+  "updated_at": "2026-10-20T19:30:38.705822+00:00"
 }
