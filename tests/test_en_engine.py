@@ -323,6 +323,23 @@ class Publisher(unittest.TestCase):
         self.assertEqual(ledger.data['posts']['2']['phase'], 'VERIFIED')
         self.assertEqual(ledger.data['posts']['2']['url'], en.EN_HOME + TOPICS[2]['slug'] + '/')
 
+    def test_wordpress_excel_prefix_rewrite_never_becomes_public(self):
+        class RewritingWP(FakeWP):
+            def request(self, path, payload=None, **kwargs):
+                post, metadata = super().request(path, payload=payload, **kwargs)
+                if path == 'posts':
+                    post['slug'] = 'excel-2-' + post['slug']
+                return post, metadata
+
+        wp, rest, ledger, r = RewritingWP(), FakeRest(live_status()), FakeLedger(), report()
+        en.sync(wp, rest, ready_articles(), ledger, self.policy(), r)
+        self.assertEqual([c[0] for c in wp.calls], ['posts'])
+        self.assertEqual(wp.posts[0]['status'], 'draft')
+        self.assertEqual(ledger.data['posts']['2']['phase'], 'DRAFT_CREATED')
+        self.assertFalse(any(route == 'nh-vien/v1/posts' for route, _ in rest.calls))
+        self.assertEqual(r['created'], [])
+        self.assertTrue(any('changed the EN draft slug' in e['reason'] for e in r['errors']))
+
     def test_registration_failure_leaves_a_draft_and_never_publishes(self):
         wp, rest, ledger, r = FakeWP(), FakeRest(live_status(), register_http=400), FakeLedger(), report()
         en.sync(wp, rest, ready_articles(), ledger, self.policy(), r)
