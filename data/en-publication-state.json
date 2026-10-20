@@ -192,10 +192,11 @@
       "title": "How to Check if a Navigation App Suggests an Expressway",
       "slug": "how-to-check-if-a-navigation-app-suggests-an-expressway",
       "source_hash": "ac6a377731afeec6a3d22db4dc730b5c347455ec6ced8262ade8ff2ab0b46025",
-      "checked_at": "2026-10-20T10:34:32.315167+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 67
+      "checked_at": "2026-10-20T10:34:35.136992+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 67,
+      "wp_id": 1885
     }
   },
-  "updated_at": "2026-10-20T10:34:32.315176+00:00"
+  "updated_at": "2026-10-20T10:34:35.137007+00:00"
 }
