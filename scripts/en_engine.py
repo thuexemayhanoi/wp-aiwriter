@@ -471,6 +471,13 @@ def sync(client, rest, ready, ledger, policy, report):
             result = client.request('posts', payload=payload)[0]
             post_id = int(result['id'])
             record(ledger, article, phase='DRAFT_CREATED', wp_id=post_id)
+            # WordPress filters/plugins may alter the slug even when the request includes one.
+            # Check the actual draft BEFORE registering or making it public.
+            draft = client.get(f'posts/{post_id}?context=edit')
+            if draft.get('status') != 'draft' or draft.get('slug') != article['slug']:
+                raise RuntimeError(
+                    f"BLOCKED: WordPress changed the EN draft slug at post {post_id}; "
+                    "left as draft for manual reconciliation, no automatic retry")
             http, data = rest.call('nh-vien/v1/posts', {'id': post_id})
             if http != 200:
                 record(ledger, article, phase='REGISTER_FAILED', wp_id=post_id, reason=str(data))
