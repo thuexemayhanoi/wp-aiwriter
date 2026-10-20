@@ -6916,6 +6916,105 @@
    "url": "https://blog.rentbikehanoi.com/xe-dien/",
    "word_count": 1194
   },
+  "1807": {
+   "canonical": "https://blog.rentbikehanoi.com/en/motorbike-licence-rules-for-foreigners-in-vietnam/",
+   "categories": [
+    55
+   ],
+   "content_sha256": "fe960f901b19a81e974bb08121657945950a80ccf24c655aee8d8dab80e4a22f",
+   "final_url": "https://blog.rentbikehanoi.com/en/motorbike-licence-rules-for-foreigners-in-vietnam/",
+   "first_seen": "2026-10-20T06:16:02Z",
+   "h1": "Can Tourists Ride a Motorbike in Vietnam? Licence Rules",
+   "http_status": 200,
+   "jsonld_types": [
+    "Article",
+    "BreadcrumbList",
+    "EntryPoint",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Person",
+    "PropertyValueSpecification",
+    "ReadAction",
+    "SearchAction",
+    "WebPage",
+    "WebSite"
+   ],
+   "modified_gmt": "2026-10-20T06:13:59",
+   "noindex": false,
+   "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+   "slug": "motorbike-licence-rules-for-foreigners-in-vietnam",
+   "title": "Can Tourists Ride a Motorbike in Vietnam? Licence Rules",
+   "type": "post",
+   "url": "https://blog.rentbikehanoi.com/en/motorbike-licence-rules-for-foreigners-in-vietnam/",
+   "word_count": 1787
+  },
+  "1809": {
+   "canonical": "https://blog.rentbikehanoi.com/en/honda-vision-vs-air-blade-which-scooter-to-rent-in-hanoi/",
+   "categories": [
+    50
+   ],
+   "content_sha256": "5bc349c75c25c645e47f54826bb7c7b19874bb2558ba179325b3985ffb63f138",
+   "final_url": "https://blog.rentbikehanoi.com/en/honda-vision-vs-air-blade-which-scooter-to-rent-in-hanoi/",
+   "first_seen": "2026-10-20T06:16:02Z",
+   "h1": "Honda Vision vs Air Blade: Which Scooter to Rent in Hanoi?",
+   "http_status": 200,
+   "jsonld_types": [
+    "Article",
+    "BreadcrumbList",
+    "EntryPoint",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Person",
+    "PropertyValueSpecification",
+    "ReadAction",
+    "SearchAction",
+    "WebPage",
+    "WebSite"
+   ],
+   "modified_gmt": "2026-10-20T06:14:34",
+   "noindex": false,
+   "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+   "slug": "honda-vision-vs-air-blade-which-scooter-to-rent-in-hanoi",
+   "title": "Honda Vision vs Air Blade: Which Scooter to Rent in Hanoi?",
+   "type": "post",
+   "url": "https://blog.rentbikehanoi.com/en/honda-vision-vs-air-blade-which-scooter-to-rent-in-hanoi/",
+   "word_count": 1773
+  },
+  "1811": {
+   "canonical": "https://blog.rentbikehanoi.com/en/hanoi-to-ninh-binh-by-motorbike/",
+   "categories": [
+    54
+   ],
+   "content_sha256": "3a4a202dde8ffa6198bb9acdfd6e5de29effb0a0657cc9e2ed39aa1b8f537303",
+   "final_url": "https://blog.rentbikehanoi.com/en/hanoi-to-ninh-binh-by-motorbike/",
+   "first_seen": "2026-10-20T06:16:02Z",
+   "h1": "Hanoi to Ninh Binh by Motorbike: Route, Time and Road Tips",
+   "http_status": 200,
+   "jsonld_types": [
+    "Article",
+    "BreadcrumbList",
+    "EntryPoint",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Person",
+    "PropertyValueSpecification",
+    "ReadAction",
+    "SearchAction",
+    "WebPage",
+    "WebSite"
+   ],
+   "modified_gmt": "2026-10-20T06:14:22",
+   "noindex": false,
+   "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+   "slug": "hanoi-to-ninh-binh-by-motorbike",
+   "title": "Hanoi to Ninh Binh by Motorbike: Route, Time and Road Tips",
+   "type": "post",
+   "url": "https://blog.rentbikehanoi.com/en/hanoi-to-ninh-binh-by-motorbike/",
+   "word_count": 1617
+  },
   "19": {
    "canonical": "https://blog.rentbikehanoi.com/bang-gia/",
    "categories": [],
@@ -17480,6 +17579,6 @@
   "sitemap_url": "https://blog.rentbikehanoi.com/sitemap_index.xml",
   "sitemap_urls": 549
  },
- "updated_at": "2026-10-20T06:10:29Z",
+ "updated_at": "2026-10-20T06:16:02Z",
  "version": 1
 }
