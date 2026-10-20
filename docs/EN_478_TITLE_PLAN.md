@@ -11,6 +11,12 @@
 - 418 existing unpublished titles were shorter than 60 characters and have **proposed** longer titles in a separate column. Original titles, permanent slugs and term IDs remain unchanged in `en/topics.json` until safe explicit approval.
 - Topics currently cover 18 of the owner's 35 requested thematic groups; the 17 unrepresented clusters are **gaps**, not grounds for inventing duplicate pages or changing the 500-ID source without research.
 
+## English URL protection (no spreadsheet prefixes)
+- Public EN articles must use the exact `slug` from `en/topics.json`, e.g. `/en/hanoi-motorbike-rental-guide/`, **not** `/en/excel-123-hanoi-motorbike-rental-guide/`.
+- `topic_id`, the filename `NNNN.md`, Excel row numbers and Google Sheet labels exist only in internal tracking. Do not derive a public slug from the Excel filename, topic ID or proposed title.
+- `scripts/en_engine.py` rejects Excel-, matrix-, spreadsheet- or numbered sheet-prefixed EN slugs while loading the topic matrix and before WordPress publishing; it also checks WordPress's **actual draft slug** before registration or publication. Unexpected rewrite leaves the post as a draft in the ledger, to be reconciled manually. It must never be blindly retried.
+- All 500 pre-existing EN source slugs were checked and have no `excel-` prefix. The original 22 published EN posts retain their URLs and canonicals. Existing Vietnamese `/excel-ID-...` legacy URLs are deliberately **not** changed by this English-only task; correcting those later requires a separate URL/redirect/SEO migration plan.
+
 ## Usage and safety
 1. `python scripts/en_title_plan.py --check` validates all 478 records, English titles (60–80 characters), unique IDs/titles, source slug and category, and current ledger phases. No WordPress writes.
 2. `python scripts/en_title_plan.py --next 3` shows the next **unpublished and unwritten** EN candidates. Reconcile against live WP and `en/posts` before claiming a row.
