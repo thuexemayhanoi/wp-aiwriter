@@ -19,6 +19,9 @@
       60
     ],
     "leaves": [
+      46,
+      47,
+      48,
       49,
       50,
       51,
@@ -143,5 +146,5 @@
       "en_slug": "terms"
     }
   ],
-  "notes": "Owner-approved 3-post review batches for seeding EN taxonomy (2026-10-20). Publish at most three new QA-ready original English articles per successful EN Writer QA trigger. Existing 9 live posts preserved. First seed batch: #31 category 69 Weekly & Monthly, #49 category 66 Handover & Maintenance, #285 category 60 Hoan Kiem Area. The 500-topic plan remains a backlog; 21 EN categories exist, and all previously published posts retain their canonical slugs and term IDs. Never auto-publish more than 3 before the owner's next approval; follow-up batches should target categories without directly assigned published EN articles. Leave WP Vietnamese content and VI/EN true page pairs unchanged."
+  "notes": "Owner-approved 3-post review batches for seeding EN taxonomy (2026-10-20). Publish at most three new QA-ready original English articles per successful EN Writer QA trigger. Existing 9 live posts preserved. First seed batch: #31 category 69 Weekly & Monthly, #49 category 66 Handover & Maintenance, #285 category 60 Hoan Kiem Area. The 500-topic plan remains a backlog; 21 EN categories exist, and all previously published posts retain their canonical slugs and term IDs. Never auto-publish more than 3 before the owner's next approval; follow-up batches should target categories without directly assigned published EN articles. Leave WP Vietnamese content and VI/EN true page pairs unchanged. Parent EN categories 46/47/48 are also permitted as direct editorial post categories for distinct pillar articles (IDs 32,21,33), without changing any live post. Parent-first category registration is deduplicated by en_ops. Owner explicitly requests at least one directly assigned post for every term."
 }
