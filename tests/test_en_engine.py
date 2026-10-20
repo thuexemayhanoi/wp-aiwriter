@@ -311,9 +311,16 @@ class Topics(unittest.TestCase):
             self.assertNotIn(topic['slug'], en.EN_PAGE_SLUGS)
 
     def test_policy_defaults_are_safe(self):
-        self.assertFalse(POLICY['enabled'])
+        # EN autopilot intentionally changes enabled=False to True only after
+        # production VI/EN Core preflight and public-route verification. The QA
+        # must accept that rollout, while retaining the three-article pilot cap.
+        self.assertIsInstance(POLICY['enabled'], bool)
         self.assertEqual(POLICY['mode'], 'pilot')
         self.assertEqual(POLICY['pilot_ids'], [1, 2, 3])
+        self.assertEqual(POLICY['batch_size'], 3)
+        self.assertEqual(POLICY['max_batches_per_run'], 1)
+        self.assertTrue(POLICY['require_live_routes'])
+        self.assertGreaterEqual(POLICY['min_score'], 85)
 
 
 if __name__ == '__main__':
