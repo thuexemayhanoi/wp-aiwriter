@@ -77,7 +77,15 @@
       "wp_id": 1819,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/renting-a-50cc-scooter-in-hanoi/"
+    },
+    "8": {
+      "title": "Renting an Electric Scooter in Hanoi: Range, Charging and What to Expect",
+      "slug": "renting-an-electric-scooter-in-hanoi",
+      "source_hash": "54668c0a00e4f0596e89fc6004eb55cc1353c765066af0bad496c5cafee07a62",
+      "checked_at": "2026-10-20T06:21:14.053897+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 52
     }
   },
-  "updated_at": "2026-10-20T06:21:12.484534+00:00"
+  "updated_at": "2026-10-20T06:21:14.053905+00:00"
 }
