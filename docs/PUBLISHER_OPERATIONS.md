@@ -1,5 +1,8 @@
 # WP AIWriter — Excel-to-WordPress runbook
 
+
+> **AI HANDOFF / ROUTING GATE:** Before choosing any category, link, parent term, Page ID, menu or new article destination, read [`docs/MENU_TAXONOMY_MAP_VI_EN.md`](MENU_TAXONOMY_MAP_VI_EN.md) and [`data/navigation-map.json`](../data/navigation-map.json). These capture the live VI/EN menu, all taxonomy parents/children and page IDs (2026-10-20). WordPress live takes precedence; if it differs, BLOCK and audit instead of inventing a category or altering canonical URLs.
+
 **Repo:** `thuexemayhanoi/wp-aiwriter`  
 **WordPress destination:** `https://blog.rentbikehanoi.com/`  
 **Canonical Excel matrix:** `data/topics.json` (IDs #146–500, exact byte checksum enforced).
