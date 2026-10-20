@@ -45,7 +45,7 @@ EN_PAGE_SLUGS = {
 SLUG_RE = re.compile(r'^[a-z0-9][a-z0-9-]{0,74}$')
 # EN topic IDs identify spreadsheet rows, not WordPress permalinks.
 # Legacy Vietnamese posts can be /excel-{id}-{title}/; never carry that over to /en/.
-INTERNAL_SLUG_PREFIX_RE = re.compile(r'^(?:excel|sheet-\\d+|spreadsheet-\\d+|matrix-\\d+)(?:-|$)', re.I)
+INTERNAL_SLUG_PREFIX_RE = re.compile(r'^(?:excel|sheet-[0-9]+|spreadsheet-[0-9]+|matrix-[0-9]+)(?:-|$)', re.I)
 
 
 def assert_public_en_slug(slug):
