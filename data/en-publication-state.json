@@ -253,7 +253,15 @@
       "wp_id": 1895,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/long-bien-red-river-first-ride/"
+    },
+    "11": {
+      "title": "Hanoi to Ha Long Bay by Motorbike: Is It Worth It and How to Do It Safely",
+      "slug": "hanoi-to-ha-long-bay-by-motorbike",
+      "source_hash": "b473f2040827b954fe60719f611259bd264456b74c3a1bd440cdeec97df02a04",
+      "checked_at": "2026-10-20T13:24:53.112501+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 54
     }
   },
-  "updated_at": "2026-10-20T13:22:40.916591+00:00"
+  "updated_at": "2026-10-20T13:24:53.112513+00:00"
 }
