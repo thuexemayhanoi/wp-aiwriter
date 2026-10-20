@@ -1,5 +1,9 @@
 # BẮT BUỘC: ĐỌC BẢN ĐỒ MENU & TAXONOMY TRƯỚC MỌI BÀI VI/EN
 
+> **LUỒNG EN — BẮT BUỘC CHO MỌI AI (478 TIÊU ĐỀ, 20/10/2026):** Đọc [`docs/EN_478_AI_PLAYBOOK.md`](docs/EN_478_AI_PLAYBOOK.md) trước khi chọn/claim/viết bài EN. Đọc cả `en/title-plan-478.csv` → `en/topics.json` → `en/publication-policy.json` → `data/en-publication-state.json` → `docs/EN_WRITER_CHECKPOINT.md` → kiểm tra WordPress live. CSV/Excel là kế hoạch tiêu đề 60–80 ký tự, **không phải lệnh xuất bản và không tự đồng bộ từ Google Sheet**; `en/topics.json` mới là nguồn metadata cho `en/posts/NNNN.md`. 22 bài EN đã VERIFIED lúc chốt mốc phải bảo vệ; 478 là danh sách cố định, phải trừ từng ID hiện đã xuất bản khi làm tiếp. Chỉ viết EN gốc 1.600–5.000 từ, QA ≥85, batch tối đa 3 theo policy, không thêm `excel-`/ID vào slug, không sửa bất kỳ nội dung hay pipeline VI. Mất mạng: đọc ledger, bài viết, commit/checkpoint, làm tiếp từ ID an toàn; không POST trùng. **Không được bỏ qua bản đồ menu/taxonomy bắt buộc bên dưới.**
+
+
+
 > **Mọi phiên ChatGPT, Claude, Gemini, GitHub Writer và agent mới phải đọc đủ `docs/MENU_TAXONOMY_MAP_VI_EN.md` + `data/navigation-map.json` TRƯỚC KHI nghiên cứu, viết, sửa hoặc publish.** Đây là bản đồ live WordPress xác minh ngày 20/10/2026 (43 Term, 37 Page; menu VI primary #26/footer #29; EN primary #57/footer #58). Phân biệt **Term ID / Page ID / Menu Item ID**; không dùng nhãn menu để đoán danh mục đăng bài.
 >
 > **Luồng VI:** đối chiếu từng hàng bất biến trong `data/topics.json`, dùng `category_path` cha/con đầy đủ, không đổi URL/slug/canonical. **Luồng EN:** đối chiếu `en/topics.json` và `en/publication-policy.json`, dùng đúng `category_id`, bài mới/sửa 1.600–5.000 từ, QA ≥85, publish tối đa 3/lượt. Đọc ledger tương ứng và kiểm tra WordPress trước khi báo VERIFIED. Không dùng dữ liệu kinh doanh Nguyễn Tú cho Nguyễn Hà, không tự tạo category mới, không đăng khi taxonomy live khác bản đồ chụp.
