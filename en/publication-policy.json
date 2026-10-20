@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "enabled": true,
-  "mode": "pilot",
+  "mode": "batch",
   "pilot_ids": [
     1,
     2,
     3
   ],
   "batch_size": 3,
-  "max_batches_per_run": 1,
+  "max_batches_per_run": 2,
   "require_live_routes": true,
   "category_ids": {
     "parents": [
@@ -58,5 +58,5 @@
       "en_slug": "faq"
     }
   ],
-  "notes": "Owner requested 500 English posts on 2026-10-20; activate only the existing 3-post pilot after authenticated production verification: VI-EN Core 0.5.2 live with all 11 reserved English term IDs, 4 valid page pairs, Yoast active, all URL preflight checks pass, and 7 public English pages present. Keep mode=pilot with IDs 1-3, batch_size=3 and one batch; do not bulk-publish until all pilot posts verify at /en/ with canonical, language, category and Yoast sitemap. No edits to Vietnamese posts, URLs or SEO."
+  "notes": "Owner instructed an original 500-post EN campaign. Verified three pilot posts (#1, #2, #3) published on 2026-10-20 (WordPress IDs 1807, 1809, 1811), all 200 with en-US, self canonical, no noindex, correct categories, present in Yoast post sitemap; English category links automatically appeared, and category sitemap reflects live posts. Stage 2 allows at most 2 batches x 3 new QA-ready EN posts per push (the six existing manuscripts #4-#9). This is create-only and retains live VI-EN Core, true paired hreflang, taxonomy, duplicate and remote ledger safeguards. Hold at 6 posts/run while monitoring; increase to 10/20 only after successful stage-2 verification. Stop at 500 verified unique published EN posts."
 }
