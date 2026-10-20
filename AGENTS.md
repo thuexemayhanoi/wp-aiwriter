@@ -1,3 +1,13 @@
+# BẮT BUỘC: ĐỌC BẢN ĐỒ MENU & TAXONOMY TRƯỚC MỌI BÀI VI/EN
+
+> **Mọi phiên ChatGPT, Claude, Gemini, GitHub Writer và agent mới phải đọc đủ `docs/MENU_TAXONOMY_MAP_VI_EN.md` + `data/navigation-map.json` TRƯỚC KHI nghiên cứu, viết, sửa hoặc publish.** Đây là bản đồ live WordPress xác minh ngày 20/10/2026 (43 Term, 37 Page; menu VI primary #26/footer #29; EN primary #57/footer #58). Phân biệt **Term ID / Page ID / Menu Item ID**; không dùng nhãn menu để đoán danh mục đăng bài.
+>
+> **Luồng VI:** đối chiếu từng hàng bất biến trong `data/topics.json`, dùng `category_path` cha/con đầy đủ, không đổi URL/slug/canonical. **Luồng EN:** đối chiếu `en/topics.json` và `en/publication-policy.json`, dùng đúng `category_id`, bài mới/sửa 1.600–5.000 từ, QA ≥85, publish tối đa 3/lượt. Đọc ledger tương ứng và kiểm tra WordPress trước khi báo VERIFIED. Không dùng dữ liệu kinh doanh Nguyễn Tú cho Nguyễn Hà, không tự tạo category mới, không đăng khi taxonomy live khác bản đồ chụp.
+>
+> **Hệ quy chiếu:** website `https://blog.rentbikehanoi.com`; hệ VI/EN native trên `/en/`. Snapshot JSON chỉ dùng tham chiếu; **WordPress live là nguồn chuẩn**, cần cập nhật snapshot qua PR sau khi chủ website phê duyệt thay đổi cấu trúc. **Không tự sửa WordPress để làm giống bản đồ.**
+
+---
+
 # WP AIWriter: editorial & publication contract
 
 **Target WordPress**: https://blog.rentbikehanoi.com
