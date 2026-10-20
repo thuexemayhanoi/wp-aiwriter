@@ -354,6 +354,32 @@ class Publisher(unittest.TestCase):
 
 
 class Topics(unittest.TestCase):
+    def test_no_excel_or_row_identifiers_in_new_english_permalinks(self):
+        for slug in ('excel-478-motorbike-rental', 'excel-motorbike-rental',
+                     'matrix-23-rental-prices', 'sheet-7-hanoi-guide'):
+            with self.subTest(slug=slug):
+                with self.assertRaisesRegex(ValueError, 'internal Excel/row prefix'):
+                    en.assert_public_en_slug(slug)
+        for slug in ('hanoi-motorbike-rental', 'motorbike-rental-50cc-hanoi'):
+            self.assertEqual(en.assert_public_en_slug(slug), slug)
+        for topic in TOPICS.values():
+            self.assertEqual(en.assert_public_en_slug(topic['slug']), topic['slug'])
+
+    def test_english_topic_matrix_rejects_spreadsheet_prefixed_slug(self):
+        rows = json.loads(en.TOPICS_PATH.read_text(encoding='utf-8'))
+        rows[9]['slug'] = 'excel-10-long-bien-red-river'
+        with tempfile.TemporaryDirectory() as tmp:
+            path = pathlib.Path(tmp) / 'en-topics.json'
+            path.write_text(json.dumps(rows), encoding='utf-8')
+            with patch.object(en, 'TOPICS_PATH', path):
+                with self.assertRaisesRegex(ValueError, 'internal Excel/row prefix'):
+                    en.load_topics(POLICY)
+
+    def test_publisher_refuses_excel_slug_before_wordpress_request(self):
+        with self.assertRaisesRegex(ValueError, 'internal Excel/row prefix'):
+            en.sync(None, None, [{'id': 10, 'slug': 'excel-10-bad-url'}],
+                    None, POLICY, {})
+
     def test_topics_are_unique_and_routable(self):
         self.assertGreaterEqual(len(TOPICS), 40)
         for topic in TOPICS.values():
