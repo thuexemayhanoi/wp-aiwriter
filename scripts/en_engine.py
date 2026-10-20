@@ -69,8 +69,10 @@ def read_json(path):
 
 def load_policy():
     policy = read_json(POLICY_PATH)
-    required = {'enabled', 'mode', 'pilot_ids', 'batch_size', 'category_ids', 'legal_categories', 'min_score', 'require_live_routes'}
-    if not required <= set(policy) or policy['mode'] not in ('pilot', 'batch') or not 1 <= int(policy['batch_size']) <= 20:
+    required = {'enabled', 'mode', 'pilot_ids', 'batch_size', 'category_ids', 'legal_categories', 'min_score', 'require_live_routes', 'min_words'}
+    if (not required <= set(policy) or policy['mode'] not in ('pilot', 'batch')
+            or not 1 <= int(policy['batch_size']) <= 20
+            or not 1600 <= int(policy['min_words']) <= 5000):
         raise ValueError('en/publication-policy.json violates the pipeline safeguards')
     return policy
 
@@ -144,6 +146,26 @@ def amounts_in(text):
     return found
 
 
+def verified_legacy_short_article(article_id, topic, body):
+    """Allow unchanged already-published English posts to keep their old minimum.
+
+    Only an exact, verified publication-ledger hash qualifies. A new manuscript
+    or any edit to a shorter legacy article must pass the current word minimum.
+    This is a QA compatibility allowance, never a republishing bypass.
+    """
+    try:
+        state = read_json(STATE_PATH)
+    except (OSError, ValueError, json.JSONDecodeError):
+        return False
+    previous = state.get('posts', {}).get(str(article_id), {})
+    return (previous.get('phase') == 'VERIFIED'
+            and previous.get('status') == 'publish'
+            and previous.get('title') == topic['title']
+            and previous.get('slug') == topic['slug']
+            and previous.get('category_id') == topic['category_id']
+            and previous.get('source_hash') == seo_common.sha256_text(body))
+
+
 def read_article(path, topics, business, policy):
     metadata, body = front_matter(path.read_text(encoding='utf-8'))
     try:
@@ -163,8 +185,10 @@ def read_article(path, topics, business, policy):
     words = words_of(text)
     secs = sections(body)
     problems = []
-    if not 1000 <= len(words) <= 5000:
-        problems.append(f'{len(words)} words; English articles need 1000 to 5000')
+    min_words = int(policy['min_words'])
+    if len(words) > 5000 or (len(words) < min_words and
+                            not (1000 <= len(words) and verified_legacy_short_article(i, topic, body))):
+        problems.append(f'{len(words)} words; new or revised English articles need {min_words} to 5000')
     if len(secs) < 3:
         problems.append('fewer than 3 level-2 sections')
     if re.search(r'\b(TODO|TBD|Lorem ipsum)\b|^# |<\s*(script|iframe|style)\b|javascript:', body, re.I | re.M):
