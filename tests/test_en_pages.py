@@ -62,12 +62,22 @@ def write(tmp, page_id, text, name=None):
 
 
 class Registry(unittest.TestCase):
-    def test_seven_pages_below_en(self):
-        self.assertEqual(sorted(pages.PAGES), [1758, 1759, 1760, 1761, 1762, 1763, 1764])
-        self.assertEqual({p['slug'] for p in pages.PAGES.values()}, {'en', 'about', 'prices', 'contact', 'rental-guide', 'faq', 'motorbikes'})
+    def test_nineteen_published_page_slots_below_en(self):
+        self.assertEqual(len(pages.PAGES), 19)
+        self.assertEqual(sorted(pages.PAGES), [1758, 1759, 1760, 1761, 1762, 1763, 1764] + list(range(1827, 1839)))
         self.assertEqual(pages.PAGES[1758]['parent'], 0)
         self.assertTrue(all(p['parent'] == 1758 for i, p in pages.PAGES.items() if i != 1758))
         self.assertTrue(all(p['url'].startswith(pages.EN_HOME) for p in pages.PAGES.values()))
+        self.assertEqual(len({p['slug'] for p in pages.PAGES.values()}), 19)
+        self.assertEqual({p['slug'] for p in pages.PAGES.values()} - {'en'},
+                         {v.rstrip('/').rsplit('/', 1)[-1] for v in BUSINESS['pages_en'].values()})
+
+    def test_absent_expansion_files_cannot_change_live_wordpress_pages(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            with patch.object(pages, 'PAGES_DIR', pathlib.Path(tmp)):
+                ready, errors = pages.load_pages(BUSINESS)
+        self.assertEqual(ready, [])
+        self.assertEqual(errors, [])
 
 
 class Qa(unittest.TestCase):
