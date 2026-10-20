@@ -280,10 +280,11 @@
       "title": "Traffic Fines in Vietnam That Catch Foreign Riders Out",
       "slug": "traffic-fines-vietnam-foreign-riders",
       "source_hash": "9ed3997d86dbf1301ea55723bb32308a3f561b57a16c09689435caf9d7969d29",
-      "checked_at": "2026-10-20T19:30:14.963797+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 56
+      "checked_at": "2026-10-20T19:30:17.227069+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 56,
+      "wp_id": 1901
     }
   },
-  "updated_at": "2026-10-20T19:30:14.963811+00:00"
+  "updated_at": "2026-10-20T19:30:17.227085+00:00"
 }
