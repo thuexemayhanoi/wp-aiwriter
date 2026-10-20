@@ -2,7 +2,7 @@
 
 Last live audit: 20 October 2026. WordPress VI/EN Core reported **21 English content categories and 9 published English articles**, all in the existing original EN groups. The 10 newly registered subcategories (IDs 60–69) had no directly assigned English articles. Parent category IDs 46, 47 and 48 had zero direct assignments, although their category hierarchies already contained published child articles.
 
-**Rules:** No placeholder articles, no Vietnamese translations, no invented branches, delivery options, parking rates or licence terms. Write one original 1,000–5,000-word article fitting each category's own search intent; run current Research/Writer QA >=85, duplication and slug gates, VI/EN Core registration and post-publication Yoast/HTTP checks. Do not auto-generate 21 thin near-duplicate pages. Preserve all 9 existing post IDs and the existing Vietnamese content.
+**Rules (new authoring standard effective 20 October 2026):** No placeholder articles, no Vietnamese translations, no invented branches, delivery options, parking rates or licence terms. Write one original **1,600–5,000-word** article fitting each category's own search intent (already-published, unchanged ledger-verified legacy posts keep their previous approved length); run current Research/Writer QA >=85, duplication and slug gates, VI/EN Core registration and post-publication Yoast/HTTP checks. Do not auto-generate 21 thin near-duplicate pages. Preserve all 9 existing post IDs and the existing Vietnamese content.
 
 ## Seed queue and approvals
 

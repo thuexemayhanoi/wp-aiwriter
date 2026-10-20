@@ -40,8 +40,15 @@ PARAGRAPH = para(0, 0)
 
 def article(i=2, **overrides):
     topic = TOPICS[i]
+    # Add unique paragraphs so the normal test manuscript meets the new limit.
+    # The old-length fixture tests the immutable published exception.
+    legacy_short = overrides.pop('legacy_short', False)
+    expansion = '' if legacy_short else (
+        f"{para(6, 1)}\n\n{para(7, 2)}\n\n"
+        f"{para(8, 3)}\n\n{para(9, 4)}\n\n"
+    )
     body = (f"{para(0, 1)}\n\n{para(0, 2)}\n\n## What the two scooters are\n\n{section(1)}\n\n## Comfort and storage\n\n{section(2)}\n\n"
-            f"## Fuel and running costs\n\n{section(3)}\n\n## Which one to choose\n\n{section(4)}\n\n"
+            f"## Fuel and running costs\n\n{section(3)}\n\n## Which one to choose\n\n{section(4)}\n\n{expansion}"
             f"Read our [rental guide](https://blog.rentbikehanoi.com/en/rental-guide/) and the [price list](https://blog.rentbikehanoi.com/en/prices/).\n\n"
             f"## FAQ\n\n### Is the Vision enough for two people?\n\n{para(5, 1)}\n\n## Sources\n\n- [Honda Vietnam](https://www.honda.com.vn/)\n")
     meta = {'en_id': str(topic['id']), 'title': topic['title'], 'slug': topic['slug'], 'category_id': str(topic['category_id']),
@@ -62,6 +69,47 @@ class Qa(unittest.TestCase):
     def read(self, i, text):
         with tempfile.TemporaryDirectory() as tmp:
             return en.read_article(write(tmp, i, text), TOPICS, BUSINESS, POLICY)
+
+    def test_1600_word_gate_rejects_new_and_edited_articles_but_preserves_verified_legacy(self):
+        meta, content = article(legacy_short=True)
+        _, body = en.front_matter(content)
+        word_count = len(en.words_of(en.engine.visible(en.engine.markdown_to_html(body))))
+        self.assertGreaterEqual(word_count, 1000)
+        self.assertLess(word_count, 1600)
+        with tempfile.TemporaryDirectory() as tmp:
+            root = pathlib.Path(tmp)
+            path = write(root, 2, content)
+            ledger_path = root / 'state.json'
+            with patch.object(en, 'STATE_PATH', ledger_path):
+                with self.assertRaisesRegex(ValueError, 'need 1600 to 5000'):
+                    en.read_article(path, TOPICS, BUSINESS, POLICY)
+                ledger_path.write_text(json.dumps({'posts': {'2': {
+                    'phase': 'VERIFIED', 'status': 'publish',
+                    'source_hash': en.seo_common.sha256_text(body),
+                    'title': meta['title'], 'slug': meta['slug'],
+                    'category_id': int(meta['category_id']),
+                }}}), encoding='utf-8')
+                self.assertTrue(en.read_article(path, TOPICS, BUSINESS, POLICY)['ready'])
+                path.write_text(content + '\nAn additional revised sentence.', encoding='utf-8')
+                with self.assertRaisesRegex(ValueError, 'need 1600 to 5000'):
+                    en.read_article(path, TOPICS, BUSINESS, POLICY)
+                state = json.loads(ledger_path.read_text(encoding='utf-8'))
+                state['posts']['2']['phase'] = 'DRAFT_CREATED'
+                ledger_path.write_text(json.dumps(state), encoding='utf-8')
+                path.write_text(content, encoding='utf-8')
+                with self.assertRaisesRegex(ValueError, 'need 1600 to 5000'):
+                    en.read_article(path, TOPICS, BUSINESS, POLICY)
+
+    def test_1600_word_policy_cannot_be_weakened(self):
+        self.assertEqual(POLICY['min_words'], 1600)
+        invalid = copy.deepcopy(POLICY)
+        invalid['min_words'] = 1000
+        with tempfile.TemporaryDirectory() as tmp:
+            path = pathlib.Path(tmp) / 'policy.json'
+            path.write_text(json.dumps(invalid), encoding='utf-8')
+            with patch.object(en, 'POLICY_PATH', path):
+                with self.assertRaisesRegex(ValueError, 'violates the pipeline safeguards'):
+                    en.load_policy()
 
     def test_good_article_passes_with_score(self):
         _, text = article()
