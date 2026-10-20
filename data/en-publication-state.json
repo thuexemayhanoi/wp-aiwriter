@@ -225,10 +225,11 @@
       "title": "Can You Take a Hanoi Rental Motorbike Out of the City?",
       "slug": "take-rental-motorbike-out-of-hanoi",
       "source_hash": "181fc7d15934b0e796ac630b09c8545e7ae642e47683a889b7697917e7440a40",
-      "checked_at": "2026-10-20T10:40:38.973883+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 46
+      "checked_at": "2026-10-20T10:40:40.803757+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 46,
+      "wp_id": 1891
     }
   },
-  "updated_at": "2026-10-20T10:40:38.973892+00:00"
+  "updated_at": "2026-10-20T10:40:40.803771+00:00"
 }
