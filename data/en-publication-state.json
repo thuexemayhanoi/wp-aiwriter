@@ -269,11 +269,13 @@
       "title": "Hanoi to Mai Chau by Motorbike: A Two-Day Ride Through the Hills",
       "slug": "hanoi-to-mai-chau-by-motorbike",
       "source_hash": "6c9d050fa72bddb9bd90764f029f64ad4c7fd8a317e29a61a772c0a8b0c96834",
-      "checked_at": "2026-10-20T13:27:52.345367+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-20T13:27:56.667460+00:00",
+      "phase": "VERIFIED",
       "category_id": 54,
-      "wp_id": 1899
+      "wp_id": 1899,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/hanoi-to-mai-chau-by-motorbike/"
     }
   },
-  "updated_at": "2026-10-20T13:27:52.345384+00:00"
+  "updated_at": "2026-10-20T13:27:56.667476+00:00"
 }
