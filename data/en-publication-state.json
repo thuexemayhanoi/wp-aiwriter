@@ -22,7 +22,15 @@
       "wp_id": 1809,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/honda-vision-vs-air-blade-which-scooter-to-rent-in-hanoi/"
+    },
+    "3": {
+      "title": "Hanoi to Ninh Binh by Motorbike: Route, Time and Road Tips",
+      "slug": "hanoi-to-ninh-binh-by-motorbike",
+      "source_hash": "2220a3dac41223413d000e09cf0e782df69d96aaca767447ad7f2b1fba0a954d",
+      "checked_at": "2026-10-20T06:14:16.640262+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 54
     }
   },
-  "updated_at": "2026-10-20T06:14:15.086877+00:00"
+  "updated_at": "2026-10-20T06:14:16.640270+00:00"
 }
