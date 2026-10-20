@@ -280,11 +280,13 @@
       "title": "Traffic Fines in Vietnam That Catch Foreign Riders Out",
       "slug": "traffic-fines-vietnam-foreign-riders",
       "source_hash": "9ed3997d86dbf1301ea55723bb32308a3f561b57a16c09689435caf9d7969d29",
-      "checked_at": "2026-10-20T19:30:21.534430+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-20T19:30:25.482112+00:00",
+      "phase": "VERIFIED",
       "category_id": 56,
-      "wp_id": 1901
+      "wp_id": 1901,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/traffic-fines-vietnam-foreign-riders/"
     }
   },
-  "updated_at": "2026-10-20T19:30:21.534447+00:00"
+  "updated_at": "2026-10-20T19:30:25.482128+00:00"
 }
