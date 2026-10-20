@@ -10,6 +10,7 @@ on:
       - 'scripts/en_ops.py'
       - 'scripts/en_pages.py'
       - 'tests/test_en_engine.py'
+      - 'tests/test_en_500_plan.py'
       - 'tests/test_en_ops.py'
       - 'tests/test_en_pages.py'
       - '.github/workflows/en-writer-qa.yml'
