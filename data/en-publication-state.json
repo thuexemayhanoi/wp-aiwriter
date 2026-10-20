@@ -60,11 +60,13 @@
       "title": "Manual, Semi-Automatic or Automatic: Which Motorbike Type Suits You in Hanoi?",
       "slug": "manual-semi-automatic-or-automatic-motorbike-hanoi",
       "source_hash": "c994d6d9d011800fd48590abf67a493c87032e771194f3983f002d610cea835d",
-      "checked_at": "2026-10-20T06:20:44.651814+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-20T06:20:48.797087+00:00",
+      "phase": "VERIFIED",
       "category_id": 49,
-      "wp_id": 1817
+      "wp_id": 1817,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/manual-semi-automatic-or-automatic-motorbike-hanoi/"
     }
   },
-  "updated_at": "2026-10-20T06:20:44.651831+00:00"
+  "updated_at": "2026-10-20T06:20:48.797105+00:00"
 }
