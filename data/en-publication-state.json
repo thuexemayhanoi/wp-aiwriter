@@ -165,7 +165,15 @@
       "wp_id": 1879,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-visit-long-bien-market-without-blocking-deliveries/"
+    },
+    "18": {
+      "title": "Honda Wave vs Yamaha Sirius: Choosing a Manual Bike for Hanoi and Beyond",
+      "slug": "honda-wave-vs-yamaha-sirius-rental",
+      "source_hash": "323bc8023188e5a45631bb3057cccc8961474c0f44096c498b5d4375b39d3bb3",
+      "checked_at": "2026-10-20T10:34:09.837515+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 65
     }
   },
-  "updated_at": "2026-10-20T10:28:54.217943+00:00"
+  "updated_at": "2026-10-20T10:34:09.837532+00:00"
 }
