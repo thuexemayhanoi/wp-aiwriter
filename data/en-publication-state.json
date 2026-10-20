@@ -242,7 +242,15 @@
       "wp_id": 1893,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/riding-at-night-in-hanoi/"
+    },
+    "10": {
+      "title": "Long Bien and the Red River: An Easy First Ride Out of Central Hanoi",
+      "slug": "long-bien-red-river-first-ride",
+      "source_hash": "1108ae29781b85ee1db00b89edabb342328f4c399145c98036b1bb2ff77927ff",
+      "checked_at": "2026-10-20T13:22:28.610651+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 54
     }
   },
-  "updated_at": "2026-10-20T10:43:22.665760+00:00"
+  "updated_at": "2026-10-20T13:22:28.610662+00:00"
 }
