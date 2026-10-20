@@ -302,11 +302,13 @@
       "title": "What to Check Before You Ride Off: A 10-Minute Rental Scooter Inspection",
       "slug": "rental-scooter-inspection-checklist",
       "source_hash": "0824e58c2bc170723fd3b8d20dbb19cd45c3e4f7baa7d937eb25b8ad76f07e82",
-      "checked_at": "2026-10-20T19:30:46.790872+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-20T19:30:50.522342+00:00",
+      "phase": "VERIFIED",
       "category_id": 55,
-      "wp_id": 1905
+      "wp_id": 1905,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/rental-scooter-inspection-checklist/"
     }
   },
-  "updated_at": "2026-10-20T19:30:46.790889+00:00"
+  "updated_at": "2026-10-20T19:30:50.522359+00:00"
 }
