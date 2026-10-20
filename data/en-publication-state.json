@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "posts": {
+    "1": {
+      "title": "Can Tourists Ride a Motorbike in Vietnam? Licence Rules",
+      "slug": "motorbike-licence-rules-for-foreigners-in-vietnam",
+      "source_hash": "963b2cb1da6173dc03bbc87c0a948fcc055037647dd731f4298d1118981b7c43",
+      "checked_at": "2026-10-20T06:13:52.671637+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 55
+    }
+  },
+  "updated_at": "2026-10-20T06:13:52.671650+00:00"
+}
