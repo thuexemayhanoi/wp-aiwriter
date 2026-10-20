@@ -159,11 +159,13 @@
       "title": "How to Visit Long Bien Market without Blocking Deliveries",
       "slug": "how-to-visit-long-bien-market-without-blocking-deliveries",
       "source_hash": "7433ea515fcf3e4251112e2b0c76613b40147aeb84e976f280650920e7239024",
-      "checked_at": "2026-10-20T10:28:50.685995+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-20T10:28:54.217901+00:00",
+      "phase": "VERIFIED",
       "category_id": 62,
-      "wp_id": 1879
+      "wp_id": 1879,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-visit-long-bien-market-without-blocking-deliveries/"
     }
   },
-  "updated_at": "2026-10-20T10:28:50.686011+00:00"
+  "updated_at": "2026-10-20T10:28:54.217943+00:00"
 }
