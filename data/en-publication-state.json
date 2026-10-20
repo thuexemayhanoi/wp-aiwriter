@@ -203,11 +203,11 @@
       "title": "Parking a Motorbike in Hanoi: Guarded Lots, Tickets and Towing",
       "slug": "parking-a-motorbike-in-hanoi",
       "source_hash": "5ff81ebb26a2eddbc19c2e467cf143c5c5cd916417dae6a49a4b1ff252688c02",
-      "checked_at": "2026-10-20T10:40:20.406805+00:00",
-      "phase": "REGISTERED",
+      "checked_at": "2026-10-20T10:40:22.339409+00:00",
+      "phase": "VERIFY_PENDING",
       "category_id": 68,
       "wp_id": 1887
     }
   },
-  "updated_at": "2026-10-20T10:40:20.406824+00:00"
+  "updated_at": "2026-10-20T10:40:22.339425+00:00"
 }
