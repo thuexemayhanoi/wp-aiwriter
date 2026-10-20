@@ -1,0 +1,1459 @@
+{
+  "schema_version": 1,
+  "site": "https://blog.rentbikehanoi.com",
+  "snapshot_date": "2026-10-20",
+  "read_only": true,
+  "source": "Authenticated WordPress REST GET; menu taxonomy links for EN include expected /en/ public rewrite; never treat this snapshot as a live write instruction.",
+  "menu_ids": {
+    "vi_primary": 26,
+    "vi_footer": 29,
+    "en_primary": 57,
+    "en_footer": 58
+  },
+  "other_existing_menu_ids_not_authoritative": [
+    24,
+    25,
+    27,
+    28
+  ],
+  "url_notes": {
+    "en_category_links": "WordPress menu REST stores /category/...; VI/EN Core rewrites publicly to /en/category/... . Do not change slug or canonical to reconcile.",
+    "menus_are_not_all_taxonomy": "Category hierarchy in categories[] is separate from menu parent ids; categories need not all appear in menus.",
+    "en_pages_parent": "All English page children have WordPress parent_page_id 1758, though menus visually group them under Services/Areas/Guides."
+  },
+  "categories": [
+    {
+      "term_id": 1,
+      "parent_term_id": 0,
+      "language": "vi",
+      "name": "Uncategorized",
+      "slug": "uncategorized",
+      "posts_direct_snapshot": 1,
+      "rest_path": "/category/uncategorized/",
+      "public_path_expected": "/category/uncategorized/"
+    },
+    {
+      "term_id": 3,
+      "parent_term_id": 0,
+      "language": "vi",
+      "name": "Dịch vụ",
+      "slug": "dich-vu",
+      "posts_direct_snapshot": 0,
+      "rest_path": "/category/dich-vu/",
+      "public_path_expected": "/category/dich-vu/"
+    },
+    {
+      "term_id": 4,
+      "parent_term_id": 3,
+      "language": "vi",
+      "name": "Xe máy",
+      "slug": "xe-may",
+      "posts_direct_snapshot": 1,
+      "rest_path": "/category/dich-vu/xe-may/",
+      "public_path_expected": "/category/dich-vu/xe-may/"
+    },
+    {
+      "term_id": 5,
+      "parent_term_id": 4,
+      "language": "vi",
+      "name": "Xe 50cc",
+      "slug": "xe-50cc",
+      "posts_direct_snapshot": 25,
+      "rest_path": "/category/dich-vu/xe-may/xe-50cc/",
+      "public_path_expected": "/category/dich-vu/xe-may/xe-50cc/"
+    },
+    {
+      "term_id": 6,
+      "parent_term_id": 4,
+      "language": "vi",
+      "name": "Xe số",
+      "slug": "xe-so",
+      "posts_direct_snapshot": 45,
+      "rest_path": "/category/dich-vu/xe-may/xe-so/",
+      "public_path_expected": "/category/dich-vu/xe-may/xe-so/"
+    },
+    {
+      "term_id": 7,
+      "parent_term_id": 4,
+      "language": "vi",
+      "name": "Xe ga",
+      "slug": "xe-ga",
+      "posts_direct_snapshot": 55,
+      "rest_path": "/category/dich-vu/xe-may/xe-ga/",
+      "public_path_expected": "/category/dich-vu/xe-may/xe-ga/"
+    },
+    {
+      "term_id": 8,
+      "parent_term_id": 3,
+      "language": "vi",
+      "name": "Xe điện",
+      "slug": "xe-dien",
+      "posts_direct_snapshot": 35,
+      "rest_path": "/category/dich-vu/xe-dien/",
+      "public_path_expected": "/category/dich-vu/xe-dien/"
+    },
+    {
+      "term_id": 9,
+      "parent_term_id": 0,
+      "language": "vi",
+      "name": "Khu vực",
+      "slug": "khu-vuc",
+      "posts_direct_snapshot": 0,
+      "rest_path": "/category/khu-vuc/",
+      "public_path_expected": "/category/khu-vuc/"
+    },
+    {
+      "term_id": 10,
+      "parent_term_id": 9,
+      "language": "vi",
+      "name": "Hoàn Kiếm",
+      "slug": "hoan-kiem",
+      "posts_direct_snapshot": 15,
+      "rest_path": "/category/khu-vuc/hoan-kiem/",
+      "public_path_expected": "/category/khu-vuc/hoan-kiem/"
+    },
+    {
+      "term_id": 11,
+      "parent_term_id": 10,
+      "language": "vi",
+      "name": "Phố Cổ",
+      "slug": "pho-co",
+      "posts_direct_snapshot": 8,
+      "rest_path": "/category/khu-vuc/hoan-kiem/pho-co/",
+      "public_path_expected": "/category/khu-vuc/hoan-kiem/pho-co/"
+    },
+    {
+      "term_id": 12,
+      "parent_term_id": 9,
+      "language": "vi",
+      "name": "Long Biên",
+      "slug": "long-bien",
+      "posts_direct_snapshot": 16,
+      "rest_path": "/category/khu-vuc/long-bien/",
+      "public_path_expected": "/category/khu-vuc/long-bien/"
+    },
+    {
+      "term_id": 13,
+      "parent_term_id": 9,
+      "language": "vi",
+      "name": "Ba Đình",
+      "slug": "ba-dinh",
+      "posts_direct_snapshot": 10,
+      "rest_path": "/category/khu-vuc/ba-dinh/",
+      "public_path_expected": "/category/khu-vuc/ba-dinh/"
+    },
+    {
+      "term_id": 14,
+      "parent_term_id": 9,
+      "language": "vi",
+      "name": "Gia Lâm",
+      "slug": "gia-lam",
+      "posts_direct_snapshot": 13,
+      "rest_path": "/category/khu-vuc/gia-lam/",
+      "public_path_expected": "/category/khu-vuc/gia-lam/"
+    },
+    {
+      "term_id": 15,
+      "parent_term_id": 0,
+      "language": "vi",
+      "name": "Cẩm nang",
+      "slug": "cam-nang",
+      "posts_direct_snapshot": 4,
+      "rest_path": "/category/cam-nang/",
+      "public_path_expected": "/category/cam-nang/"
+    },
+    {
+      "term_id": 16,
+      "parent_term_id": 15,
+      "language": "vi",
+      "name": "Ứng dụng",
+      "slug": "ung-dung",
+      "posts_direct_snapshot": 0,
+      "rest_path": "/category/cam-nang/ung-dung/",
+      "public_path_expected": "/category/cam-nang/ung-dung/"
+    },
+    {
+      "term_id": 17,
+      "parent_term_id": 16,
+      "language": "vi",
+      "name": "App xe máy",
+      "slug": "app-xe-may",
+      "posts_direct_snapshot": 25,
+      "rest_path": "/category/cam-nang/ung-dung/app-xe-may/",
+      "public_path_expected": "/category/cam-nang/ung-dung/app-xe-may/"
+    },
+    {
+      "term_id": 18,
+      "parent_term_id": 16,
+      "language": "vi",
+      "name": "App xe điện",
+      "slug": "app-xe-dien",
+      "posts_direct_snapshot": 20,
+      "rest_path": "/category/cam-nang/ung-dung/app-xe-dien/",
+      "public_path_expected": "/category/cam-nang/ung-dung/app-xe-dien/"
+    },
+    {
+      "term_id": 19,
+      "parent_term_id": 15,
+      "language": "vi",
+      "name": "Hãng xe",
+      "slug": "hang-xe",
+      "posts_direct_snapshot": 6,
+      "rest_path": "/category/cam-nang/hang-xe/",
+      "public_path_expected": "/category/cam-nang/hang-xe/"
+    },
+    {
+      "term_id": 20,
+      "parent_term_id": 19,
+      "language": "vi",
+      "name": "Hãng xe máy",
+      "slug": "hang-xe-may",
+      "posts_direct_snapshot": 55,
+      "rest_path": "/category/cam-nang/hang-xe/hang-xe-may/",
+      "public_path_expected": "/category/cam-nang/hang-xe/hang-xe-may/"
+    },
+    {
+      "term_id": 21,
+      "parent_term_id": 19,
+      "language": "vi",
+      "name": "Hãng xe điện",
+      "slug": "hang-xe-dien",
+      "posts_direct_snapshot": 35,
+      "rest_path": "/category/cam-nang/hang-xe/hang-xe-dien/",
+      "public_path_expected": "/category/cam-nang/hang-xe/hang-xe-dien/"
+    },
+    {
+      "term_id": 22,
+      "parent_term_id": 15,
+      "language": "vi",
+      "name": "Kinh nghiệm",
+      "slug": "kinh-nghiem",
+      "posts_direct_snapshot": 112,
+      "rest_path": "/category/cam-nang/kinh-nghiem/",
+      "public_path_expected": "/category/cam-nang/kinh-nghiem/"
+    },
+    {
+      "term_id": 23,
+      "parent_term_id": 15,
+      "language": "vi",
+      "name": "Giao thông",
+      "slug": "giao-thong",
+      "posts_direct_snapshot": 35,
+      "rest_path": "/category/cam-nang/giao-thong/",
+      "public_path_expected": "/category/cam-nang/giao-thong/"
+    },
+    {
+      "term_id": 46,
+      "parent_term_id": 0,
+      "language": "en",
+      "name": "Motorbike Rental in Hanoi",
+      "slug": "hanoi-motorbike-rental",
+      "posts_direct_snapshot": 1,
+      "rest_path": "/category/hanoi-motorbike-rental/",
+      "public_path_expected": "/en/category/hanoi-motorbike-rental/"
+    },
+    {
+      "term_id": 47,
+      "parent_term_id": 0,
+      "language": "en",
+      "name": "Hanoi Travel & Routes",
+      "slug": "hanoi-travel-routes",
+      "posts_direct_snapshot": 1,
+      "rest_path": "/category/hanoi-travel-routes/",
+      "public_path_expected": "/en/category/hanoi-travel-routes/"
+    },
+    {
+      "term_id": 48,
+      "parent_term_id": 0,
+      "language": "en",
+      "name": "Riding Advice & Safety",
+      "slug": "riding-advice-safety",
+      "posts_direct_snapshot": 1,
+      "rest_path": "/category/riding-advice-safety/",
+      "public_path_expected": "/en/category/riding-advice-safety/"
+    },
+    {
+      "term_id": 49,
+      "parent_term_id": 46,
+      "language": "en",
+      "name": "Manual Motorbikes",
+      "slug": "manual-motorbikes",
+      "posts_direct_snapshot": 1,
+      "rest_path": "/category/hanoi-motorbike-rental/manual-motorbikes/",
+      "public_path_expected": "/en/category/hanoi-motorbike-rental/manual-motorbikes/"
+    },
+    {
+      "term_id": 50,
+      "parent_term_id": 46,
+      "language": "en",
+      "name": "Automatic Scooters",
+      "slug": "automatic-scooters",
+      "posts_direct_snapshot": 1,
+      "rest_path": "/category/hanoi-motorbike-rental/automatic-scooters/",
+      "public_path_expected": "/en/category/hanoi-motorbike-rental/automatic-scooters/"
+    },
+    {
+      "term_id": 51,
+      "parent_term_id": 46,
+      "language": "en",
+      "name": "50cc Motorbikes",
+      "slug": "50cc-motorbikes",
+      "posts_direct_snapshot": 1,
+      "rest_path": "/category/hanoi-motorbike-rental/50cc-motorbikes/",
+      "public_path_expected": "/en/category/hanoi-motorbike-rental/50cc-motorbikes/"
+    },
+    {
+      "term_id": 52,
+      "parent_term_id": 46,
+      "language": "en",
+      "name": "Electric Bikes & Scooters",
+      "slug": "electric-bikes-scooters",
+      "posts_direct_snapshot": 1,
+      "rest_path": "/category/hanoi-motorbike-rental/electric-bikes-scooters/",
+      "public_path_expected": "/en/category/hanoi-motorbike-rental/electric-bikes-scooters/"
+    },
+    {
+      "term_id": 53,
+      "parent_term_id": 47,
+      "language": "en",
+      "name": "Hanoi Neighbourhoods",
+      "slug": "hanoi-neighbourhoods",
+      "posts_direct_snapshot": 1,
+      "rest_path": "/category/hanoi-travel-routes/hanoi-neighbourhoods/",
+      "public_path_expected": "/en/category/hanoi-travel-routes/hanoi-neighbourhoods/"
+    },
+    {
+      "term_id": 54,
+      "parent_term_id": 47,
+      "language": "en",
+      "name": "Suggested Motorbike Routes",
+      "slug": "hanoi-motorbike-routes",
+      "posts_direct_snapshot": 1,
+      "rest_path": "/category/hanoi-travel-routes/hanoi-motorbike-routes/",
+      "public_path_expected": "/en/category/hanoi-travel-routes/hanoi-motorbike-routes/"
+    },
+    {
+      "term_id": 55,
+      "parent_term_id": 48,
+      "language": "en",
+      "name": "Rental Tips & Paperwork",
+      "slug": "rental-tips-paperwork",
+      "posts_direct_snapshot": 2,
+      "rest_path": "/category/riding-advice-safety/rental-tips-paperwork/",
+      "public_path_expected": "/en/category/riding-advice-safety/rental-tips-paperwork/"
+    },
+    {
+      "term_id": 56,
+      "parent_term_id": 48,
+      "language": "en",
+      "name": "Road Rules & Rider Safety",
+      "slug": "road-rules-rider-safety",
+      "posts_direct_snapshot": 1,
+      "rest_path": "/category/riding-advice-safety/road-rules-rider-safety/",
+      "public_path_expected": "/en/category/riding-advice-safety/road-rules-rider-safety/"
+    },
+    {
+      "term_id": 60,
+      "parent_term_id": 53,
+      "language": "en",
+      "name": "Hoan Kiem Area",
+      "slug": "hoan-kiem-area",
+      "posts_direct_snapshot": 1,
+      "rest_path": "/category/hanoi-travel-routes/hanoi-neighbourhoods/hoan-kiem-area/",
+      "public_path_expected": "/en/category/hanoi-travel-routes/hanoi-neighbourhoods/hoan-kiem-area/"
+    },
+    {
+      "term_id": 61,
+      "parent_term_id": 60,
+      "language": "en",
+      "name": "Old Quarter Riding",
+      "slug": "old-quarter-riding",
+      "posts_direct_snapshot": 1,
+      "rest_path": "/category/hanoi-travel-routes/hanoi-neighbourhoods/hoan-kiem-area/old-quarter-riding/",
+      "public_path_expected": "/en/category/hanoi-travel-routes/hanoi-neighbourhoods/hoan-kiem-area/old-quarter-riding/"
+    },
+    {
+      "term_id": 62,
+      "parent_term_id": 53,
+      "language": "en",
+      "name": "Long Bien Area",
+      "slug": "long-bien-area",
+      "posts_direct_snapshot": 1,
+      "rest_path": "/category/hanoi-travel-routes/hanoi-neighbourhoods/long-bien-area/",
+      "public_path_expected": "/en/category/hanoi-travel-routes/hanoi-neighbourhoods/long-bien-area/"
+    },
+    {
+      "term_id": 63,
+      "parent_term_id": 53,
+      "language": "en",
+      "name": "Ba Dinh Area",
+      "slug": "ba-dinh-area",
+      "posts_direct_snapshot": 1,
+      "rest_path": "/category/hanoi-travel-routes/hanoi-neighbourhoods/ba-dinh-area/",
+      "public_path_expected": "/en/category/hanoi-travel-routes/hanoi-neighbourhoods/ba-dinh-area/"
+    },
+    {
+      "term_id": 64,
+      "parent_term_id": 53,
+      "language": "en",
+      "name": "Gia Lam Area",
+      "slug": "gia-lam-area",
+      "posts_direct_snapshot": 1,
+      "rest_path": "/category/hanoi-travel-routes/hanoi-neighbourhoods/gia-lam-area/",
+      "public_path_expected": "/en/category/hanoi-travel-routes/hanoi-neighbourhoods/gia-lam-area/"
+    },
+    {
+      "term_id": 65,
+      "parent_term_id": 46,
+      "language": "en",
+      "name": "Honda & Yamaha Comparisons",
+      "slug": "honda-yamaha-comparisons",
+      "posts_direct_snapshot": 1,
+      "rest_path": "/category/hanoi-motorbike-rental/honda-yamaha-comparisons/",
+      "public_path_expected": "/en/category/hanoi-motorbike-rental/honda-yamaha-comparisons/"
+    },
+    {
+      "term_id": 66,
+      "parent_term_id": 46,
+      "language": "en",
+      "name": "Motorbike Handover & Maintenance",
+      "slug": "motorbike-handover-maintenance",
+      "posts_direct_snapshot": 1,
+      "rest_path": "/category/hanoi-motorbike-rental/motorbike-handover-maintenance/",
+      "public_path_expected": "/en/category/hanoi-motorbike-rental/motorbike-handover-maintenance/"
+    },
+    {
+      "term_id": 67,
+      "parent_term_id": 47,
+      "language": "en",
+      "name": "Navigation Apps & Maps",
+      "slug": "navigation-apps-maps",
+      "posts_direct_snapshot": 1,
+      "rest_path": "/category/hanoi-travel-routes/navigation-apps-maps/",
+      "public_path_expected": "/en/category/hanoi-travel-routes/navigation-apps-maps/"
+    },
+    {
+      "term_id": 68,
+      "parent_term_id": 48,
+      "language": "en",
+      "name": "Hanoi Traffic & Parking",
+      "slug": "hanoi-traffic-parking",
+      "posts_direct_snapshot": 1,
+      "rest_path": "/category/riding-advice-safety/hanoi-traffic-parking/",
+      "public_path_expected": "/en/category/riding-advice-safety/hanoi-traffic-parking/"
+    },
+    {
+      "term_id": 69,
+      "parent_term_id": 46,
+      "language": "en",
+      "name": "Weekly & Monthly Rentals",
+      "slug": "weekly-monthly-rentals",
+      "posts_direct_snapshot": 1,
+      "rest_path": "/category/hanoi-motorbike-rental/weekly-monthly-rentals/",
+      "public_path_expected": "/en/category/hanoi-motorbike-rental/weekly-monthly-rentals/"
+    }
+  ],
+  "pages": [
+    {
+      "page_id": 3,
+      "parent_page_id": 0,
+      "language": "vi",
+      "title": "Bảo mật",
+      "slug": "bao-mat",
+      "path": "/bao-mat/",
+      "status": "publish"
+    },
+    {
+      "page_id": 13,
+      "parent_page_id": 0,
+      "language": "vi",
+      "title": "Thuê xe máy Nguyễn Hà",
+      "slug": "thue-xe-may-ha-noi-nguyen-ha",
+      "path": "/thue-xe-may-ha-noi-nguyen-ha/",
+      "status": "publish"
+    },
+    {
+      "page_id": 14,
+      "parent_page_id": 0,
+      "language": "vi",
+      "title": "Giới thiệu",
+      "slug": "gioi-thieu",
+      "path": "/gioi-thieu/",
+      "status": "publish"
+    },
+    {
+      "page_id": 15,
+      "parent_page_id": 0,
+      "language": "vi",
+      "title": "Dịch vụ",
+      "slug": "dich-vu",
+      "path": "/dich-vu/",
+      "status": "publish"
+    },
+    {
+      "page_id": 16,
+      "parent_page_id": 0,
+      "language": "vi",
+      "title": "Thuê xe số và xe ga Hà Nội",
+      "slug": "thue-xe-may-ha-noi",
+      "path": "/thue-xe-may-ha-noi/",
+      "status": "publish"
+    },
+    {
+      "page_id": 17,
+      "parent_page_id": 0,
+      "language": "vi",
+      "title": "Thuê xe máy 50cc Hà Nội",
+      "slug": "xe-50cc",
+      "path": "/xe-50cc/",
+      "status": "publish"
+    },
+    {
+      "page_id": 18,
+      "parent_page_id": 0,
+      "language": "vi",
+      "title": "Thuê xe điện Hà Nội",
+      "slug": "xe-dien",
+      "path": "/xe-dien/",
+      "status": "publish"
+    },
+    {
+      "page_id": 19,
+      "parent_page_id": 0,
+      "language": "vi",
+      "title": "Bảng giá",
+      "slug": "bang-gia",
+      "path": "/bang-gia/",
+      "status": "publish"
+    },
+    {
+      "page_id": 20,
+      "parent_page_id": 0,
+      "language": "vi",
+      "title": "Khu vực",
+      "slug": "khu-vuc",
+      "path": "/khu-vuc/",
+      "status": "publish"
+    },
+    {
+      "page_id": 21,
+      "parent_page_id": 0,
+      "language": "vi",
+      "title": "Thuê xe máy Hoàn Kiếm",
+      "slug": "hoan-kiem",
+      "path": "/hoan-kiem/",
+      "status": "publish"
+    },
+    {
+      "page_id": 22,
+      "parent_page_id": 0,
+      "language": "vi",
+      "title": "Thuê xe máy Phố Cổ",
+      "slug": "pho-co",
+      "path": "/pho-co/",
+      "status": "publish"
+    },
+    {
+      "page_id": 23,
+      "parent_page_id": 0,
+      "language": "vi",
+      "title": "Cẩm nang",
+      "slug": "cam-nang",
+      "path": "/cam-nang/",
+      "status": "publish"
+    },
+    {
+      "page_id": 24,
+      "parent_page_id": 0,
+      "language": "vi",
+      "title": "Hỏi đáp",
+      "slug": "hoi-dap",
+      "path": "/hoi-dap/",
+      "status": "publish"
+    },
+    {
+      "page_id": 25,
+      "parent_page_id": 0,
+      "language": "vi",
+      "title": "Liên hệ",
+      "slug": "lien-he",
+      "path": "/lien-he/",
+      "status": "publish"
+    },
+    {
+      "page_id": 26,
+      "parent_page_id": 0,
+      "language": "vi",
+      "title": "Thuê xe máy Long Biên",
+      "slug": "long-bien",
+      "path": "/long-bien/",
+      "status": "publish"
+    },
+    {
+      "page_id": 27,
+      "parent_page_id": 0,
+      "language": "vi",
+      "title": "Thuê xe máy Ba Đình",
+      "slug": "ba-dinh",
+      "path": "/ba-dinh/",
+      "status": "publish"
+    },
+    {
+      "page_id": 28,
+      "parent_page_id": 0,
+      "language": "vi",
+      "title": "Thuê xe máy Gia Lâm",
+      "slug": "gia-lam",
+      "path": "/gia-lam/",
+      "status": "publish"
+    },
+    {
+      "page_id": 29,
+      "parent_page_id": 0,
+      "language": "vi",
+      "title": "Điều khoản",
+      "slug": "dieu-khoan",
+      "path": "/dieu-khoan/",
+      "status": "publish"
+    },
+    {
+      "page_id": 1758,
+      "parent_page_id": 0,
+      "language": "en",
+      "title": "Motorbike Rental in Hanoi",
+      "slug": "en",
+      "path": "/en/",
+      "status": "publish"
+    },
+    {
+      "page_id": 1759,
+      "parent_page_id": 1758,
+      "language": "en",
+      "title": "About Nguyen Ha Motorbike Rental",
+      "slug": "about",
+      "path": "/en/about/",
+      "status": "publish"
+    },
+    {
+      "page_id": 1760,
+      "parent_page_id": 1758,
+      "language": "en",
+      "title": "Motorbike Rental Prices in Hanoi",
+      "slug": "prices",
+      "path": "/en/prices/",
+      "status": "publish"
+    },
+    {
+      "page_id": 1761,
+      "parent_page_id": 1758,
+      "language": "en",
+      "title": "Contact Nguyen Ha in Hanoi",
+      "slug": "contact",
+      "path": "/en/contact/",
+      "status": "publish"
+    },
+    {
+      "page_id": 1762,
+      "parent_page_id": 1758,
+      "language": "en",
+      "title": "How to Rent a Motorbike in Hanoi",
+      "slug": "rental-guide",
+      "path": "/en/rental-guide/",
+      "status": "publish"
+    },
+    {
+      "page_id": 1763,
+      "parent_page_id": 1758,
+      "language": "en",
+      "title": "Motorbike Rental FAQ for Hanoi Visitors",
+      "slug": "faq",
+      "path": "/en/faq/",
+      "status": "publish"
+    },
+    {
+      "page_id": 1764,
+      "parent_page_id": 1758,
+      "language": "en",
+      "title": "Motorbikes and Scooters for Rent in Hanoi",
+      "slug": "motorbikes",
+      "path": "/en/motorbikes/",
+      "status": "publish"
+    },
+    {
+      "page_id": 1827,
+      "parent_page_id": 1758,
+      "language": "en",
+      "title": "Motorbike Rental Services in Hanoi",
+      "slug": "services",
+      "path": "/en/services/",
+      "status": "publish"
+    },
+    {
+      "page_id": 1828,
+      "parent_page_id": 1758,
+      "language": "en",
+      "title": "50cc Motorbike Rental in Hanoi",
+      "slug": "50cc-bikes",
+      "path": "/en/50cc-bikes/",
+      "status": "publish"
+    },
+    {
+      "page_id": 1829,
+      "parent_page_id": 1758,
+      "language": "en",
+      "title": "Electric Bike and Scooter Rental in Hanoi",
+      "slug": "electric-scooters",
+      "path": "/en/electric-scooters/",
+      "status": "publish"
+    },
+    {
+      "page_id": 1830,
+      "parent_page_id": 1758,
+      "language": "en",
+      "title": "Hanoi Motorbike Guides and Riding Advice",
+      "slug": "guides",
+      "path": "/en/guides/",
+      "status": "publish"
+    },
+    {
+      "page_id": 1831,
+      "parent_page_id": 1758,
+      "language": "en",
+      "title": "Hanoi Areas for Motorbike Rental and Riding",
+      "slug": "areas",
+      "path": "/en/areas/",
+      "status": "publish"
+    },
+    {
+      "page_id": 1832,
+      "parent_page_id": 1758,
+      "language": "en",
+      "title": "Renting a Motorbike for Hoan Kiem, Hanoi",
+      "slug": "hoan-kiem",
+      "path": "/en/hoan-kiem/",
+      "status": "publish"
+    },
+    {
+      "page_id": 1833,
+      "parent_page_id": 1758,
+      "language": "en",
+      "title": "Old Quarter Motorbike Rental Guide in Hanoi",
+      "slug": "old-quarter",
+      "path": "/en/old-quarter/",
+      "status": "publish"
+    },
+    {
+      "page_id": 1834,
+      "parent_page_id": 1758,
+      "language": "en",
+      "title": "Motorbike Rental and Pickup in Long Bien, Hanoi",
+      "slug": "long-bien",
+      "path": "/en/long-bien/",
+      "status": "publish"
+    },
+    {
+      "page_id": 1835,
+      "parent_page_id": 1758,
+      "language": "en",
+      "title": "Motorbike Rental Guide for Ba Dinh, Hanoi",
+      "slug": "ba-dinh",
+      "path": "/en/ba-dinh/",
+      "status": "publish"
+    },
+    {
+      "page_id": 1836,
+      "parent_page_id": 1758,
+      "language": "en",
+      "title": "Motorbike Rental Guide for Gia Lam, Hanoi",
+      "slug": "gia-lam",
+      "path": "/en/gia-lam/",
+      "status": "publish"
+    },
+    {
+      "page_id": 1837,
+      "parent_page_id": 1758,
+      "language": "en",
+      "title": "Privacy Notice — Nguyen Ha Motorbike Rental",
+      "slug": "privacy",
+      "path": "/en/privacy/",
+      "status": "publish"
+    },
+    {
+      "page_id": 1838,
+      "parent_page_id": 1758,
+      "language": "en",
+      "title": "Rental Terms and Conditions — Nguyen Ha",
+      "slug": "terms",
+      "path": "/en/terms/",
+      "status": "publish"
+    }
+  ],
+  "menus": [
+    {
+      "menu_id": 26,
+      "name": "Điều hướng chính",
+      "language": "vi",
+      "purpose": "primary",
+      "is_native_wp_location": "primary",
+      "items": [
+        {
+          "menu_item_id": 1228,
+          "parent_menu_item_id": 0,
+          "order": 1,
+          "label": "Trang chủ",
+          "object_type": "custom",
+          "object_id": 1228,
+          "rest_path": "/",
+          "public_path_expected": "/"
+        },
+        {
+          "menu_item_id": 92,
+          "parent_menu_item_id": 85,
+          "order": 2,
+          "label": "Phố Cổ",
+          "object_type": "page",
+          "object_id": 22,
+          "rest_path": "/pho-co/",
+          "public_path_expected": "/pho-co/"
+        },
+        {
+          "menu_item_id": 75,
+          "parent_menu_item_id": 0,
+          "order": 3,
+          "label": "Giới thiệu",
+          "object_type": "page",
+          "object_id": 14,
+          "rest_path": "/gioi-thieu/",
+          "public_path_expected": "/gioi-thieu/"
+        },
+        {
+          "menu_item_id": 84,
+          "parent_menu_item_id": 0,
+          "order": 4,
+          "label": "Bảng giá",
+          "object_type": "page",
+          "object_id": 19,
+          "rest_path": "/bang-gia/",
+          "public_path_expected": "/bang-gia/"
+        },
+        {
+          "menu_item_id": 76,
+          "parent_menu_item_id": 0,
+          "order": 5,
+          "label": "Dịch vụ",
+          "object_type": "page",
+          "object_id": 15,
+          "rest_path": "/dich-vu/",
+          "public_path_expected": "/dich-vu/"
+        },
+        {
+          "menu_item_id": 77,
+          "parent_menu_item_id": 0,
+          "order": 6,
+          "label": "Khu vực",
+          "object_type": "page",
+          "object_id": 20,
+          "rest_path": "/khu-vuc/",
+          "public_path_expected": "/khu-vuc/"
+        },
+        {
+          "menu_item_id": 78,
+          "parent_menu_item_id": 0,
+          "order": 7,
+          "label": "Cẩm nang",
+          "object_type": "page",
+          "object_id": 23,
+          "rest_path": "/cam-nang/",
+          "public_path_expected": "/cam-nang/"
+        },
+        {
+          "menu_item_id": 79,
+          "parent_menu_item_id": 0,
+          "order": 8,
+          "label": "Hỏi đáp",
+          "object_type": "page",
+          "object_id": 24,
+          "rest_path": "/hoi-dap/",
+          "public_path_expected": "/hoi-dap/"
+        },
+        {
+          "menu_item_id": 80,
+          "parent_menu_item_id": 0,
+          "order": 9,
+          "label": "Liên hệ",
+          "object_type": "page",
+          "object_id": 25,
+          "rest_path": "/lien-he/",
+          "public_path_expected": "/lien-he/"
+        },
+        {
+          "menu_item_id": 81,
+          "parent_menu_item_id": 76,
+          "order": 10,
+          "label": "Xe máy",
+          "object_type": "page",
+          "object_id": 16,
+          "rest_path": "/thue-xe-may-ha-noi/",
+          "public_path_expected": "/thue-xe-may-ha-noi/"
+        },
+        {
+          "menu_item_id": 82,
+          "parent_menu_item_id": 76,
+          "order": 11,
+          "label": "Xe 50cc",
+          "object_type": "page",
+          "object_id": 17,
+          "rest_path": "/xe-50cc/",
+          "public_path_expected": "/xe-50cc/"
+        },
+        {
+          "menu_item_id": 83,
+          "parent_menu_item_id": 76,
+          "order": 12,
+          "label": "Xe điện",
+          "object_type": "page",
+          "object_id": 18,
+          "rest_path": "/xe-dien/",
+          "public_path_expected": "/xe-dien/"
+        },
+        {
+          "menu_item_id": 85,
+          "parent_menu_item_id": 77,
+          "order": 13,
+          "label": "Hoàn Kiếm",
+          "object_type": "page",
+          "object_id": 21,
+          "rest_path": "/hoan-kiem/",
+          "public_path_expected": "/hoan-kiem/"
+        },
+        {
+          "menu_item_id": 86,
+          "parent_menu_item_id": 77,
+          "order": 14,
+          "label": "Long Biên",
+          "object_type": "page",
+          "object_id": 26,
+          "rest_path": "/long-bien/",
+          "public_path_expected": "/long-bien/"
+        },
+        {
+          "menu_item_id": 87,
+          "parent_menu_item_id": 77,
+          "order": 15,
+          "label": "Ba Đình",
+          "object_type": "page",
+          "object_id": 27,
+          "rest_path": "/ba-dinh/",
+          "public_path_expected": "/ba-dinh/"
+        },
+        {
+          "menu_item_id": 90,
+          "parent_menu_item_id": 77,
+          "order": 16,
+          "label": "Gia Lâm",
+          "object_type": "page",
+          "object_id": 28,
+          "rest_path": "/gia-lam/",
+          "public_path_expected": "/gia-lam/"
+        }
+      ]
+    },
+    {
+      "menu_id": 29,
+      "name": "Chân trang 2026",
+      "language": "vi",
+      "purpose": "footer",
+      "is_native_wp_location": "footer",
+      "items": [
+        {
+          "menu_item_id": 126,
+          "parent_menu_item_id": 0,
+          "order": 1,
+          "label": "Giới thiệu",
+          "object_type": "page",
+          "object_id": 14,
+          "rest_path": "/gioi-thieu/",
+          "public_path_expected": "/gioi-thieu/"
+        },
+        {
+          "menu_item_id": 127,
+          "parent_menu_item_id": 0,
+          "order": 1,
+          "label": "Dịch vụ",
+          "object_type": "page",
+          "object_id": 15,
+          "rest_path": "/dich-vu/",
+          "public_path_expected": "/dich-vu/"
+        },
+        {
+          "menu_item_id": 128,
+          "parent_menu_item_id": 0,
+          "order": 1,
+          "label": "Khu vực",
+          "object_type": "page",
+          "object_id": 20,
+          "rest_path": "/khu-vuc/",
+          "public_path_expected": "/khu-vuc/"
+        },
+        {
+          "menu_item_id": 129,
+          "parent_menu_item_id": 0,
+          "order": 1,
+          "label": "Cẩm nang",
+          "object_type": "page",
+          "object_id": 23,
+          "rest_path": "/cam-nang/",
+          "public_path_expected": "/cam-nang/"
+        },
+        {
+          "menu_item_id": 130,
+          "parent_menu_item_id": 0,
+          "order": 1,
+          "label": "Hỏi đáp",
+          "object_type": "page",
+          "object_id": 24,
+          "rest_path": "/hoi-dap/",
+          "public_path_expected": "/hoi-dap/"
+        },
+        {
+          "menu_item_id": 131,
+          "parent_menu_item_id": 0,
+          "order": 1,
+          "label": "Liên hệ",
+          "object_type": "page",
+          "object_id": 25,
+          "rest_path": "/lien-he/",
+          "public_path_expected": "/lien-he/"
+        },
+        {
+          "menu_item_id": 132,
+          "parent_menu_item_id": 0,
+          "order": 1,
+          "label": "Bảo mật",
+          "object_type": "page",
+          "object_id": 3,
+          "rest_path": "/bao-mat/",
+          "public_path_expected": "/bao-mat/"
+        },
+        {
+          "menu_item_id": 133,
+          "parent_menu_item_id": 0,
+          "order": 1,
+          "label": "Điều khoản",
+          "object_type": "page",
+          "object_id": 29,
+          "rest_path": "/dieu-khoan/",
+          "public_path_expected": "/dieu-khoan/"
+        }
+      ]
+    },
+    {
+      "menu_id": 57,
+      "name": "primary-en",
+      "language": "en",
+      "purpose": "primary",
+      "is_native_wp_location": null,
+      "items": [
+        {
+          "menu_item_id": 1767,
+          "parent_menu_item_id": 0,
+          "order": 1,
+          "label": "Home",
+          "object_type": "page",
+          "object_id": 1758,
+          "rest_path": "/en/",
+          "public_path_expected": "/en/"
+        },
+        {
+          "menu_item_id": 1771,
+          "parent_menu_item_id": 0,
+          "order": 2,
+          "label": "About",
+          "object_type": "page",
+          "object_id": 1759,
+          "rest_path": "/en/about/",
+          "public_path_expected": "/en/about/"
+        },
+        {
+          "menu_item_id": 1769,
+          "parent_menu_item_id": 0,
+          "order": 3,
+          "label": "Prices",
+          "object_type": "page",
+          "object_id": 1760,
+          "rest_path": "/en/prices/",
+          "public_path_expected": "/en/prices/"
+        },
+        {
+          "menu_item_id": 1839,
+          "parent_menu_item_id": 0,
+          "order": 4,
+          "label": "Services",
+          "object_type": "page",
+          "object_id": 1827,
+          "rest_path": "/en/services/",
+          "public_path_expected": "/en/services/"
+        },
+        {
+          "menu_item_id": 1840,
+          "parent_menu_item_id": 0,
+          "order": 5,
+          "label": "Areas",
+          "object_type": "page",
+          "object_id": 1831,
+          "rest_path": "/en/areas/",
+          "public_path_expected": "/en/areas/"
+        },
+        {
+          "menu_item_id": 1841,
+          "parent_menu_item_id": 0,
+          "order": 6,
+          "label": "Guides",
+          "object_type": "page",
+          "object_id": 1830,
+          "rest_path": "/en/guides/",
+          "public_path_expected": "/en/guides/"
+        },
+        {
+          "menu_item_id": 1773,
+          "parent_menu_item_id": 1768,
+          "order": 7,
+          "label": "Manual Motorbikes",
+          "object_type": "category",
+          "object_id": 49,
+          "rest_path": "/category/hanoi-motorbike-rental/manual-motorbikes/",
+          "public_path_expected": "/en/category/hanoi-motorbike-rental/manual-motorbikes/"
+        },
+        {
+          "menu_item_id": 1842,
+          "parent_menu_item_id": 0,
+          "order": 7,
+          "label": "FAQ",
+          "object_type": "page",
+          "object_id": 1763,
+          "rest_path": "/en/faq/",
+          "public_path_expected": "/en/faq/"
+        },
+        {
+          "menu_item_id": 1772,
+          "parent_menu_item_id": 0,
+          "order": 8,
+          "label": "Contact",
+          "object_type": "page",
+          "object_id": 1761,
+          "rest_path": "/en/contact/",
+          "public_path_expected": "/en/contact/"
+        },
+        {
+          "menu_item_id": 1774,
+          "parent_menu_item_id": 1768,
+          "order": 8,
+          "label": "Automatic Scooters",
+          "object_type": "category",
+          "object_id": 50,
+          "rest_path": "/category/hanoi-motorbike-rental/automatic-scooters/",
+          "public_path_expected": "/en/category/hanoi-motorbike-rental/automatic-scooters/"
+        },
+        {
+          "menu_item_id": 1768,
+          "parent_menu_item_id": 1839,
+          "order": 9,
+          "label": "Motorbikes",
+          "object_type": "page",
+          "object_id": 1764,
+          "rest_path": "/en/motorbikes/",
+          "public_path_expected": "/en/motorbikes/"
+        },
+        {
+          "menu_item_id": 1775,
+          "parent_menu_item_id": 1847,
+          "order": 12,
+          "label": "50cc Motorbikes",
+          "object_type": "category",
+          "object_id": 51,
+          "rest_path": "/category/hanoi-motorbike-rental/50cc-motorbikes/",
+          "public_path_expected": "/en/category/hanoi-motorbike-rental/50cc-motorbikes/"
+        },
+        {
+          "menu_item_id": 1847,
+          "parent_menu_item_id": 1839,
+          "order": 12,
+          "label": "50cc Bikes",
+          "object_type": "page",
+          "object_id": 1828,
+          "rest_path": "/en/50cc-bikes/",
+          "public_path_expected": "/en/50cc-bikes/"
+        },
+        {
+          "menu_item_id": 1776,
+          "parent_menu_item_id": 1848,
+          "order": 13,
+          "label": "Electric Bikes & Scooters",
+          "object_type": "category",
+          "object_id": 52,
+          "rest_path": "/category/hanoi-motorbike-rental/electric-bikes-scooters/",
+          "public_path_expected": "/en/category/hanoi-motorbike-rental/electric-bikes-scooters/"
+        },
+        {
+          "menu_item_id": 1779,
+          "parent_menu_item_id": 1777,
+          "order": 13,
+          "label": "Hanoi Neighbourhoods",
+          "object_type": "category",
+          "object_id": 53,
+          "rest_path": "/category/hanoi-travel-routes/hanoi-neighbourhoods/",
+          "public_path_expected": "/en/category/hanoi-travel-routes/hanoi-neighbourhoods/"
+        },
+        {
+          "menu_item_id": 1848,
+          "parent_menu_item_id": 1839,
+          "order": 13,
+          "label": "Electric Bikes",
+          "object_type": "page",
+          "object_id": 1829,
+          "rest_path": "/en/electric-scooters/",
+          "public_path_expected": "/en/electric-scooters/"
+        },
+        {
+          "menu_item_id": 1770,
+          "parent_menu_item_id": 1839,
+          "order": 14,
+          "label": "Rental Guide",
+          "object_type": "page",
+          "object_id": 1762,
+          "rest_path": "/en/rental-guide/",
+          "public_path_expected": "/en/rental-guide/"
+        },
+        {
+          "menu_item_id": 1780,
+          "parent_menu_item_id": 1777,
+          "order": 14,
+          "label": "Suggested Motorbike Routes",
+          "object_type": "category",
+          "object_id": 54,
+          "rest_path": "/category/hanoi-travel-routes/hanoi-motorbike-routes/",
+          "public_path_expected": "/en/category/hanoi-travel-routes/hanoi-motorbike-routes/"
+        },
+        {
+          "menu_item_id": 1781,
+          "parent_menu_item_id": 1778,
+          "order": 15,
+          "label": "Rental Tips & Paperwork",
+          "object_type": "category",
+          "object_id": 55,
+          "rest_path": "/category/riding-advice-safety/rental-tips-paperwork/",
+          "public_path_expected": "/en/category/riding-advice-safety/rental-tips-paperwork/"
+        },
+        {
+          "menu_item_id": 1782,
+          "parent_menu_item_id": 1778,
+          "order": 16,
+          "label": "Road Rules & Rider Safety",
+          "object_type": "category",
+          "object_id": 56,
+          "rest_path": "/category/riding-advice-safety/road-rules-rider-safety/",
+          "public_path_expected": "/en/category/riding-advice-safety/road-rules-rider-safety/"
+        },
+        {
+          "menu_item_id": 1843,
+          "parent_menu_item_id": 1840,
+          "order": 16,
+          "label": "Hoan Kiem",
+          "object_type": "page",
+          "object_id": 1832,
+          "rest_path": "/en/hoan-kiem/",
+          "public_path_expected": "/en/hoan-kiem/"
+        },
+        {
+          "menu_item_id": 1850,
+          "parent_menu_item_id": 1843,
+          "order": 17,
+          "label": "Old Quarter",
+          "object_type": "page",
+          "object_id": 1833,
+          "rest_path": "/en/old-quarter/",
+          "public_path_expected": "/en/old-quarter/"
+        },
+        {
+          "menu_item_id": 1844,
+          "parent_menu_item_id": 1840,
+          "order": 18,
+          "label": "Long Bien",
+          "object_type": "page",
+          "object_id": 1834,
+          "rest_path": "/en/long-bien/",
+          "public_path_expected": "/en/long-bien/"
+        },
+        {
+          "menu_item_id": 1845,
+          "parent_menu_item_id": 1840,
+          "order": 19,
+          "label": "Ba Dinh",
+          "object_type": "page",
+          "object_id": 1835,
+          "rest_path": "/en/ba-dinh/",
+          "public_path_expected": "/en/ba-dinh/"
+        },
+        {
+          "menu_item_id": 1846,
+          "parent_menu_item_id": 1840,
+          "order": 20,
+          "label": "Gia Lam",
+          "object_type": "page",
+          "object_id": 1836,
+          "rest_path": "/en/gia-lam/",
+          "public_path_expected": "/en/gia-lam/"
+        },
+        {
+          "menu_item_id": 1849,
+          "parent_menu_item_id": 1841,
+          "order": 21,
+          "label": "Motorbike Rental Guides",
+          "object_type": "category",
+          "object_id": 46,
+          "rest_path": "/category/hanoi-motorbike-rental/",
+          "public_path_expected": "/en/category/hanoi-motorbike-rental/"
+        },
+        {
+          "menu_item_id": 1777,
+          "parent_menu_item_id": 1841,
+          "order": 22,
+          "label": "Hanoi Travel & Routes",
+          "object_type": "category",
+          "object_id": 47,
+          "rest_path": "/category/hanoi-travel-routes/",
+          "public_path_expected": "/en/category/hanoi-travel-routes/"
+        },
+        {
+          "menu_item_id": 1778,
+          "parent_menu_item_id": 1841,
+          "order": 25,
+          "label": "Riding Advice & Safety",
+          "object_type": "category",
+          "object_id": 48,
+          "rest_path": "/category/riding-advice-safety/",
+          "public_path_expected": "/en/category/riding-advice-safety/"
+        }
+      ]
+    },
+    {
+      "menu_id": 58,
+      "name": "footer-en",
+      "language": "en",
+      "purpose": "footer",
+      "is_native_wp_location": null,
+      "items": [
+        {
+          "menu_item_id": 1783,
+          "parent_menu_item_id": 0,
+          "order": 0,
+          "label": "Home",
+          "object_type": "page",
+          "object_id": 1758,
+          "rest_path": "/en/",
+          "public_path_expected": "/en/"
+        },
+        {
+          "menu_item_id": 1784,
+          "parent_menu_item_id": 0,
+          "order": 2,
+          "label": "Prices",
+          "object_type": "page",
+          "object_id": 1760,
+          "rest_path": "/en/prices/",
+          "public_path_expected": "/en/prices/"
+        },
+        {
+          "menu_item_id": 1785,
+          "parent_menu_item_id": 0,
+          "order": 3,
+          "label": "FAQ",
+          "object_type": "page",
+          "object_id": 1763,
+          "rest_path": "/en/faq/",
+          "public_path_expected": "/en/faq/"
+        },
+        {
+          "menu_item_id": 1786,
+          "parent_menu_item_id": 0,
+          "order": 4,
+          "label": "About",
+          "object_type": "page",
+          "object_id": 1759,
+          "rest_path": "/en/about/",
+          "public_path_expected": "/en/about/"
+        },
+        {
+          "menu_item_id": 1787,
+          "parent_menu_item_id": 0,
+          "order": 5,
+          "label": "Contact",
+          "object_type": "page",
+          "object_id": 1761,
+          "rest_path": "/en/contact/",
+          "public_path_expected": "/en/contact/"
+        },
+        {
+          "menu_item_id": 1851,
+          "parent_menu_item_id": 0,
+          "order": 6,
+          "label": "Services",
+          "object_type": "page",
+          "object_id": 1827,
+          "rest_path": "/en/services/",
+          "public_path_expected": "/en/services/"
+        },
+        {
+          "menu_item_id": 1852,
+          "parent_menu_item_id": 0,
+          "order": 7,
+          "label": "Areas",
+          "object_type": "page",
+          "object_id": 1831,
+          "rest_path": "/en/areas/",
+          "public_path_expected": "/en/areas/"
+        },
+        {
+          "menu_item_id": 1853,
+          "parent_menu_item_id": 0,
+          "order": 8,
+          "label": "Guides",
+          "object_type": "page",
+          "object_id": 1830,
+          "rest_path": "/en/guides/",
+          "public_path_expected": "/en/guides/"
+        },
+        {
+          "menu_item_id": 1854,
+          "parent_menu_item_id": 0,
+          "order": 9,
+          "label": "Rental Guide",
+          "object_type": "page",
+          "object_id": 1762,
+          "rest_path": "/en/rental-guide/",
+          "public_path_expected": "/en/rental-guide/"
+        },
+        {
+          "menu_item_id": 1855,
+          "parent_menu_item_id": 0,
+          "order": 10,
+          "label": "Privacy",
+          "object_type": "page",
+          "object_id": 1837,
+          "rest_path": "/en/privacy/",
+          "public_path_expected": "/en/privacy/"
+        },
+        {
+          "menu_item_id": 1856,
+          "parent_menu_item_id": 0,
+          "order": 11,
+          "label": "Terms",
+          "object_type": "page",
+          "object_id": 1838,
+          "rest_path": "/en/terms/",
+          "public_path_expected": "/en/terms/"
+        }
+      ]
+    }
+  ]
+}
