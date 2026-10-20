@@ -170,11 +170,13 @@
       "title": "Honda Wave vs Yamaha Sirius: Choosing a Manual Bike for Hanoi and Beyond",
       "slug": "honda-wave-vs-yamaha-sirius-rental",
       "source_hash": "323bc8023188e5a45631bb3057cccc8961474c0f44096c498b5d4375b39d3bb3",
-      "checked_at": "2026-10-20T10:34:16.286661+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-20T10:34:19.927004+00:00",
+      "phase": "VERIFIED",
       "category_id": 65,
-      "wp_id": 1881
+      "wp_id": 1881,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/honda-wave-vs-yamaha-sirius-rental/"
     }
   },
-  "updated_at": "2026-10-20T10:34:16.286677+00:00"
+  "updated_at": "2026-10-20T10:34:19.927029+00:00"
 }
