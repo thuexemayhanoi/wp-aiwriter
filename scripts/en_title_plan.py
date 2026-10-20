@@ -79,6 +79,8 @@ def apply_approved():
         i = int(row["topic_id"])
         if str(i) in ledger or (POSTS / f"{i:04}.md").exists():
             raise ValueError(f"Refuse change to authored / ledger topic ID {i}")
+        if index[i]["title"] == row["planned_title_en"]:
+            continue  # An earlier approved batch was already synced; keep it unchanged.
         if index[i]["title"] != row["existing_title_en"]:
             raise ValueError(f"Source title drift at {i}")
         index[i]["title"] = row["planned_title_en"]
