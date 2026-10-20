@@ -198,7 +198,15 @@
       "wp_id": 1885,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-check-if-a-navigation-app-suggests-an-expressway/"
+    },
+    "17": {
+      "title": "Parking a Motorbike in Hanoi: Guarded Lots, Tickets and Towing",
+      "slug": "parking-a-motorbike-in-hanoi",
+      "source_hash": "5ff81ebb26a2eddbc19c2e467cf143c5c5cd916417dae6a49a4b1ff252688c02",
+      "checked_at": "2026-10-20T10:40:16.599481+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 68
     }
   },
-  "updated_at": "2026-10-20T10:34:44.297610+00:00"
+  "updated_at": "2026-10-20T10:40:16.599494+00:00"
 }
