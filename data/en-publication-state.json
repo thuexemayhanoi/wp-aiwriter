@@ -258,11 +258,13 @@
       "title": "Hanoi to Ha Long Bay by Motorbike: Is It Worth It and How to Do It Safely",
       "slug": "hanoi-to-ha-long-bay-by-motorbike",
       "source_hash": "b473f2040827b954fe60719f611259bd264456b74c3a1bd440cdeec97df02a04",
-      "checked_at": "2026-10-20T13:25:01.027255+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-20T13:25:05.735201+00:00",
+      "phase": "VERIFIED",
       "category_id": 54,
-      "wp_id": 1897
+      "wp_id": 1897,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/hanoi-to-ha-long-bay-by-motorbike/"
     }
   },
-  "updated_at": "2026-10-20T13:25:01.027271+00:00"
+  "updated_at": "2026-10-20T13:25:05.735219+00:00"
 }
