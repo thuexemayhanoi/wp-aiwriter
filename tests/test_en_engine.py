@@ -230,7 +230,9 @@ def report():
     return {'created': [], 'existing': [], 'duplicates': [], 'errors': []}
 
 
-def live_status(categories=(46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56)):
+def live_status(categories=None):
+    if categories is None:
+        categories = sorted(set(POLICY['category_ids']['parents'] + POLICY['category_ids']['leaves']))
     return {'version': '0.5.1', 'enabled': True, 'live': True, 'english_categories': list(categories), 'public_en_posts': []}
 
 
