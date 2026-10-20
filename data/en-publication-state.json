@@ -66,7 +66,15 @@
       "wp_id": 1817,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/manual-semi-automatic-or-automatic-motorbike-hanoi/"
+    },
+    "7": {
+      "title": "Renting a 50cc Scooter in Hanoi: Who It Suits and What the Rules Say",
+      "slug": "renting-a-50cc-scooter-in-hanoi",
+      "source_hash": "bef53cf34a5c7004e66fefee558a10da361f4eed49bc3886dc29bc2ba2b453e3",
+      "checked_at": "2026-10-20T06:21:01.665380+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 51
     }
   },
-  "updated_at": "2026-10-20T06:20:48.797105+00:00"
+  "updated_at": "2026-10-20T06:21:01.665391+00:00"
 }
