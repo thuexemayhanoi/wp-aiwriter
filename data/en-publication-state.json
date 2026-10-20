@@ -110,7 +110,15 @@
       "wp_id": 1869,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/weekly-monthly-motorbike-rental-hanoi/"
+    },
+    "49": {
+      "title": "How to Check a Semi-Automatic Motorbike Before Renting in Hanoi",
+      "slug": "how-to-check-a-semi-automatic-motorbike-before-renting-in-hanoi",
+      "source_hash": "0cf9fe96c1d11b05c0732857fefe8d3618922da64bd84d1ca455deaa15bfb5a6",
+      "checked_at": "2026-10-20T10:16:24.396758+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 66
     }
   },
-  "updated_at": "2026-10-20T10:16:23.139355+00:00"
+  "updated_at": "2026-10-20T10:16:24.396767+00:00"
 }
