@@ -8,9 +8,11 @@ on:
       - 'en/**'
       - 'scripts/en_engine.py'
       - 'scripts/en_title_plan.py'
+      - 'scripts/en_writer_brief.py'
       - 'scripts/en_ops.py'
       - 'scripts/en_pages.py'
       - 'tests/test_en_engine.py'
+      - 'tests/test_en_writer_brief.py'
       - 'tests/test_en_500_plan.py'
       - 'tests/test_en_ops.py'
       - 'tests/test_en_pages.py'
@@ -39,6 +41,8 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Validate the 478-row English-only title plan
         run: python scripts/en_title_plan.py --check
+      - name: Generate read-only next-three English research brief
+        run: python scripts/en_writer_brief.py --limit 3 --format markdown
       - name: QA every English article
         run: python scripts/en_engine.py --mode qa
       - name: Preview the publication queue (dry run, no secrets)
