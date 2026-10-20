@@ -14,7 +14,9 @@
     "parents": [
       46,
       47,
-      48
+      48,
+      53,
+      60
     ],
     "leaves": [
       49,
@@ -24,12 +26,23 @@
       53,
       54,
       55,
-      56
+      56,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69
     ]
   },
   "legal_categories": [
     55,
-    56
+    56,
+    68
   ],
   "min_score": 85,
   "page_pairs": [
@@ -56,7 +69,79 @@
       "vi_slug": "hoi-dap",
       "en": 1763,
       "en_slug": "faq"
+    },
+    {
+      "vi": 15,
+      "vi_slug": "dich-vu",
+      "en": 1827,
+      "en_slug": "services"
+    },
+    {
+      "vi": 17,
+      "vi_slug": "xe-50cc",
+      "en": 1828,
+      "en_slug": "50cc-bikes"
+    },
+    {
+      "vi": 18,
+      "vi_slug": "xe-dien",
+      "en": 1829,
+      "en_slug": "electric-scooters"
+    },
+    {
+      "vi": 23,
+      "vi_slug": "cam-nang",
+      "en": 1830,
+      "en_slug": "guides"
+    },
+    {
+      "vi": 20,
+      "vi_slug": "khu-vuc",
+      "en": 1831,
+      "en_slug": "areas"
+    },
+    {
+      "vi": 21,
+      "vi_slug": "hoan-kiem",
+      "en": 1832,
+      "en_slug": "hoan-kiem"
+    },
+    {
+      "vi": 22,
+      "vi_slug": "pho-co",
+      "en": 1833,
+      "en_slug": "old-quarter"
+    },
+    {
+      "vi": 26,
+      "vi_slug": "long-bien",
+      "en": 1834,
+      "en_slug": "long-bien"
+    },
+    {
+      "vi": 27,
+      "vi_slug": "ba-dinh",
+      "en": 1835,
+      "en_slug": "ba-dinh"
+    },
+    {
+      "vi": 28,
+      "vi_slug": "gia-lam",
+      "en": 1836,
+      "en_slug": "gia-lam"
+    },
+    {
+      "vi": 3,
+      "vi_slug": "bao-mat",
+      "en": 1837,
+      "en_slug": "privacy"
+    },
+    {
+      "vi": 29,
+      "vi_slug": "dieu-khoan",
+      "en": 1838,
+      "en_slug": "terms"
     }
   ],
-  "notes": "Owner instructed an original 500-post EN campaign. Verified three pilot posts (#1, #2, #3) published on 2026-10-20 (WordPress IDs 1807, 1809, 1811), all 200 with en-US, self canonical, no noindex, correct categories, present in Yoast post sitemap; English category links automatically appeared, and category sitemap reflects live posts. Stage 2 allows at most 2 batches x 3 new QA-ready EN posts per push (the six existing manuscripts #4-#9). This is create-only and retains live VI-EN Core, true paired hreflang, taxonomy, duplicate and remote ledger safeguards. Hold at 6 posts/run while monitoring; increase to 10/20 only after successful stage-2 verification. Stop at 500 verified unique published EN posts."
+  "notes": "Owner requested original English content with same service/page navigational coverage as Vietnamese. On 2026-10-20 WordPress has 19 published EN static pages, 21 registered EN topic categories (ID 46–56, 60–69), 16 explicitly linked VI/EN page pairs, 9 verified live EN posts. The 500-topic backlog remains 500 planned, NOT 500 authored or published; 47 unwritten candidates were reclassified to relevant additional EN categories while previously written IDs 1–9 stay unchanged. Safeguards remain: Writer QA >=85, publish at most 2 batches x 3 per run, create-only and no changes to Vietnamese URLs, slugs, canonical or posts. Newly-created categories appear in public navigation only when they have published English posts; empty English category archives return 404 by design."
 }
