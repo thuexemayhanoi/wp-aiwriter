@@ -7015,6 +7015,171 @@
    "url": "https://blog.rentbikehanoi.com/en/hanoi-to-ninh-binh-by-motorbike/",
    "word_count": 1617
   },
+  "1813": {
+   "canonical": "https://blog.rentbikehanoi.com/en/helmet-rules-in-vietnam/",
+   "categories": [
+    56
+   ],
+   "content_sha256": "830d75a9dd473939549f13e79fba852fac2ad1bba6f59c72edb392b4395c82e9",
+   "final_url": "https://blog.rentbikehanoi.com/en/helmet-rules-in-vietnam/",
+   "first_seen": "2026-10-20T06:22:43Z",
+   "h1": "Helmet Rules in Vietnam: What Riders and Passengers Must Wear",
+   "http_status": 200,
+   "jsonld_types": [
+    "Article",
+    "BreadcrumbList",
+    "EntryPoint",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Person",
+    "PropertyValueSpecification",
+    "ReadAction",
+    "SearchAction",
+    "WebPage",
+    "WebSite"
+   ],
+   "modified_gmt": "2026-10-20T06:20:19",
+   "noindex": false,
+   "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+   "slug": "helmet-rules-in-vietnam",
+   "title": "Helmet Rules in Vietnam: What Riders and Passengers Must Wear",
+   "type": "post",
+   "url": "https://blog.rentbikehanoi.com/en/helmet-rules-in-vietnam/",
+   "word_count": 1556
+  },
+  "1815": {
+   "canonical": "https://blog.rentbikehanoi.com/en/motorbike-rental-deposit-hanoi/",
+   "categories": [
+    55
+   ],
+   "content_sha256": "8c158ec53bd325a0253a65f8d7aa85d58c441776ddbb8141b88a8ac5d906e0cf",
+   "final_url": "https://blog.rentbikehanoi.com/en/motorbike-rental-deposit-hanoi/",
+   "first_seen": "2026-10-20T06:22:43Z",
+   "h1": "How a Motorbike Rental Deposit Works in Hanoi (and How to Get It Back)",
+   "http_status": 200,
+   "jsonld_types": [
+    "Article",
+    "BreadcrumbList",
+    "EntryPoint",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Person",
+    "PropertyValueSpecification",
+    "ReadAction",
+    "SearchAction",
+    "WebPage",
+    "WebSite"
+   ],
+   "modified_gmt": "2026-10-20T06:20:31",
+   "noindex": false,
+   "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+   "slug": "motorbike-rental-deposit-hanoi",
+   "title": "How a Motorbike Rental Deposit Works in Hanoi (and How to Get It Back)",
+   "type": "post",
+   "url": "https://blog.rentbikehanoi.com/en/motorbike-rental-deposit-hanoi/",
+   "word_count": 1508
+  },
+  "1817": {
+   "canonical": "https://blog.rentbikehanoi.com/en/manual-semi-automatic-or-automatic-motorbike-hanoi/",
+   "categories": [
+    49
+   ],
+   "content_sha256": "274a9a590dfa0cb7705f82888fad362da5b6f030108443711c5dea65eac53eff",
+   "final_url": "https://blog.rentbikehanoi.com/en/manual-semi-automatic-or-automatic-motorbike-hanoi/",
+   "first_seen": "2026-10-20T06:22:43Z",
+   "h1": "Manual, Semi-Automatic or Automatic: Which Motorbike Type Suits You in Hanoi?",
+   "http_status": 200,
+   "jsonld_types": [
+    "Article",
+    "BreadcrumbList",
+    "EntryPoint",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Person",
+    "PropertyValueSpecification",
+    "ReadAction",
+    "SearchAction",
+    "WebPage",
+    "WebSite"
+   ],
+   "modified_gmt": "2026-10-20T06:20:44",
+   "noindex": false,
+   "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+   "slug": "manual-semi-automatic-or-automatic-motorbike-hanoi",
+   "title": "Manual, Semi-Automatic or Automatic: Which Motorbike Type Suits You in Hanoi?",
+   "type": "post",
+   "url": "https://blog.rentbikehanoi.com/en/manual-semi-automatic-or-automatic-motorbike-hanoi/",
+   "word_count": 1628
+  },
+  "1819": {
+   "canonical": "https://blog.rentbikehanoi.com/en/renting-a-50cc-scooter-in-hanoi/",
+   "categories": [
+    51
+   ],
+   "content_sha256": "a79ae027fe67213723b3d236b56c393f86e27c9c1fb9ee875b8fa9d7c5f48cf5",
+   "final_url": "https://blog.rentbikehanoi.com/en/renting-a-50cc-scooter-in-hanoi/",
+   "first_seen": "2026-10-20T06:22:43Z",
+   "h1": "Renting a 50cc Scooter in Hanoi: Who It Suits and What the Rules Say",
+   "http_status": 200,
+   "jsonld_types": [
+    "Article",
+    "BreadcrumbList",
+    "EntryPoint",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Person",
+    "PropertyValueSpecification",
+    "ReadAction",
+    "SearchAction",
+    "WebPage",
+    "WebSite"
+   ],
+   "modified_gmt": "2026-10-20T06:21:08",
+   "noindex": false,
+   "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+   "slug": "renting-a-50cc-scooter-in-hanoi",
+   "title": "Renting a 50cc Scooter in Hanoi: Who It Suits and What the Rules Say",
+   "type": "post",
+   "url": "https://blog.rentbikehanoi.com/en/renting-a-50cc-scooter-in-hanoi/",
+   "word_count": 1519
+  },
+  "1821": {
+   "canonical": "https://blog.rentbikehanoi.com/en/renting-an-electric-scooter-in-hanoi/",
+   "categories": [
+    52
+   ],
+   "content_sha256": "08173c350941ab62a6e04a81ec1062f5a0ef93235f27f502b1ed20b2c19b3aa4",
+   "final_url": "https://blog.rentbikehanoi.com/en/renting-an-electric-scooter-in-hanoi/",
+   "first_seen": "2026-10-20T06:22:43Z",
+   "h1": "Renting an Electric Scooter in Hanoi: Range, Charging and What to Expect",
+   "http_status": 200,
+   "jsonld_types": [
+    "Article",
+    "BreadcrumbList",
+    "EntryPoint",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Person",
+    "PropertyValueSpecification",
+    "ReadAction",
+    "SearchAction",
+    "WebPage",
+    "WebSite"
+   ],
+   "modified_gmt": "2026-10-20T06:21:20",
+   "noindex": false,
+   "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+   "slug": "renting-an-electric-scooter-in-hanoi",
+   "title": "Renting an Electric Scooter in Hanoi: Range, Charging and What to Expect",
+   "type": "post",
+   "url": "https://blog.rentbikehanoi.com/en/renting-an-electric-scooter-in-hanoi/",
+   "word_count": 1536
+  },
   "19": {
    "canonical": "https://blog.rentbikehanoi.com/bang-gia/",
    "categories": [],
@@ -17579,6 +17744,6 @@
   "sitemap_url": "https://blog.rentbikehanoi.com/sitemap_index.xml",
   "sitemap_urls": 549
  },
- "updated_at": "2026-10-20T06:16:02Z",
+ "updated_at": "2026-10-20T06:22:43Z",
  "version": 1
 }
