@@ -1,5 +1,8 @@
 # English pipeline (EN) — research, write, QA, publish, verify
 
+
+> **AI HANDOFF / ROUTING GATE:** Before choosing any category, link, parent term, Page ID, menu or new article destination, read [`docs/MENU_TAXONOMY_MAP_VI_EN.md`](MENU_TAXONOMY_MAP_VI_EN.md) and [`data/navigation-map.json`](../data/navigation-map.json). These capture the live VI/EN menu, all taxonomy parents/children and page IDs (2026-10-20). WordPress live takes precedence; if it differs, BLOCK and audit instead of inventing a category or altering canonical URLs.
+
 **Target:** the English side of https://blog.rentbikehanoi.com/ (`/en/`), served by the Nguyen Ha Editorial theme and
 VI-EN Core 0.5.1 (repository `thuexemayhanoi/wordpress-theme`). **Business:** Nguyen Ha Motorbike Rental only; never the
 Nguyen Tu data (`en/business.json` lists the forbidden fragments). The Vietnamese pipeline (`posts/`, `data/topics.json`,
