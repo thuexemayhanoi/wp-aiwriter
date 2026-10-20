@@ -219,6 +219,18 @@ def load_business():
     return json.loads(BUSINESS_PATH.read_text(encoding='utf-8'))
 
 
+def ordered_category_ids(policy):
+    """Unique parent-first English category registration, also for deterministic dry runs."""
+    seen = set()
+    order = []
+    for raw in list(policy['category_ids']['parents']) + list(policy['category_ids']['leaves']):
+        term_id = int(raw)
+        if term_id not in seen:
+            seen.add(term_id)
+            order.append(term_id)
+    return order
+
+
 def rollout(rest, args, log, policy=None, business=None):
     """One idempotent pass: status -> routes on (if not live) -> missing English categories (parents first) -> missing
     page pairs (both pages checked by slug before the write) -> English site name (0.5.2+) -> public verify. Stops at
@@ -258,7 +270,7 @@ def rollout(rest, args, log, policy=None, business=None):
             return fail('enable', message='the switch answered 200 but the routes are not live')
     # 2. The English categories, parents before leaves; the plugin answers true for a category that is English already.
     registered = {int(x) for x in data.get('english_categories') or []}
-    for term_id in [int(x) for x in list(policy['category_ids']['parents']) + list(policy['category_ids']['leaves'])]:
+    for term_id in ordered_category_ids(policy):
         if term_id in registered:
             log.append({'action': 'register-category', 'id': term_id, 'skipped': 'already English'})
             continue
