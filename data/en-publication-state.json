@@ -137,11 +137,13 @@
       "title": "Ba Dinh by Motorbike: Mausoleum Area, One-Way Streets and Parking",
       "slug": "ba-dinh-by-motorbike",
       "source_hash": "6698e3da153637131f2cb9123256dfc7a548f6fe1af13c7ec186f7493691bb66",
-      "checked_at": "2026-10-20T10:28:30.254056+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-20T10:28:33.793291+00:00",
+      "phase": "VERIFIED",
       "category_id": 63,
-      "wp_id": 1875
+      "wp_id": 1875,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/ba-dinh-by-motorbike/"
     }
   },
-  "updated_at": "2026-10-20T10:28:30.254081+00:00"
+  "updated_at": "2026-10-20T10:28:33.793307+00:00"
 }
