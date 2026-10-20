@@ -1,5 +1,9 @@
 # Claude / ChatGPT / AI writer — read before making any change
 
+> **EN 478 FAST HANDOFF:** Follow [`docs/EN_478_AI_PLAYBOOK.md`](docs/EN_478_AI_PLAYBOOK.md) from A to Z. Planning queue: `en/title-plan-478.csv` (478 rows). Publish source: `en/topics.json` (500 stable English topic IDs) + `en/posts/NNNN.md`. Check `data/en-publication-state.json` before each claim. `python scripts/en_title_plan.py --check` then `--next 3`; proposed 60–80-char titles are **not approved** until editorial review and explicit safe sync to `en/topics.json`. EN only, QA ≥85, 1,600–5,000 words, <=3 new EN posts per run, no public `excel-` prefix. Resume from ledger/checkpoint, not conversational memory. Do not touch the VI writer.
+
+
+
 **Site:** https://blog.rentbikehanoi.com (Nguyễn Hà only). **Do not confuse with Nguyễn Tú, /wp-writer or /global.**
 
 ## Mandatory startup reading — in this exact order
