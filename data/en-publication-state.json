@@ -302,11 +302,11 @@
       "title": "What to Check Before You Ride Off: A 10-Minute Rental Scooter Inspection",
       "slug": "rental-scooter-inspection-checklist",
       "source_hash": "0824e58c2bc170723fd3b8d20dbb19cd45c3e4f7baa7d937eb25b8ad76f07e82",
-      "checked_at": "2026-10-20T19:30:44.490323+00:00",
-      "phase": "REGISTERED",
+      "checked_at": "2026-10-20T19:30:46.790872+00:00",
+      "phase": "VERIFY_PENDING",
       "category_id": 55,
       "wp_id": 1905
     }
   },
-  "updated_at": "2026-10-20T19:30:44.490343+00:00"
+  "updated_at": "2026-10-20T19:30:46.790889+00:00"
 }
