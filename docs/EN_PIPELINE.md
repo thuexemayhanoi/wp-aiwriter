@@ -9,9 +9,9 @@ Nguyen Tu data (`en/business.json` lists the forbidden fragments). The Vietnames
 
 | File | Role |
 |---|---|
-| `en/topics.json` | The topic matrix: `id`, `title`, `slug`, `category_id` (an English leaf category 49–56), `intent`, `hub`, `keywords`. The single source of IDs, titles, slugs and categories; one search intent per row; no duplicates. |
+| `en/topics.json` | The topic matrix: `id`, `title`, `slug`, `category_id` (an allowed EN category ID from 46–56 or 60–69; the three main parent categories may carry direct pillar articles), `intent`, `hub`, `keywords`. The single source of IDs, titles, slugs and categories; one search intent per row; no duplicates. |
 | `en/business.json` | Nguyen Ha facts for the QA: phone, address, hours, allowed VND amounts (the price table), forbidden fragments of the other business, English page URLs. |
-| `en/publication-policy.json` | `enabled` (false = preview only), `mode` (`pilot` publishes only `pilot_ids`; `batch` publishes every QA-ready article), `batch_size`, `max_batches_per_run`, `require_live_routes`, `legal_categories`, `min_score`. |
+| `en/publication-policy.json` | `enabled` (false = preview only), `mode` (`pilot` publishes only `pilot_ids`; `batch` publishes every QA-ready article), `batch_size`, `max_batches_per_run`, `require_live_routes`, `legal_categories`, `min_score`, `min_words` (1600). |
 | `en/posts/NNNN.md` | One article per topic ID, front matter `en_id`, `title`, `slug`, `category_id`, `description`, `ready`. Original English prose with `## ` sections, a `## FAQ` and a `## Sources` section. |
 | `scripts/en_engine.py` | `--mode qa` (gates and score) and `--mode sync` (publisher; `--live --persist-state` on GitHub Actions). |
 | `scripts/en_ops.py` | Operates VI-EN Core through its REST API: status, enable/disable/undo, register categories, link page pairs, publish pages, public verify, and `rollout` (one idempotent go-live pass: status → routes on if not live → missing categories → missing page pairs, both slugs checked first → public verify; `NOT_INSTALLED` while the site runs a plugin older than 0.5.1). |
@@ -34,7 +34,7 @@ Live Verification → Progress (ledger, reports, checkpoint).
 ### QA gates (hard; any failure keeps the article in GitHub)
 
 - `en_id` = file name = a row of `en/topics.json`; title, slug and category match that row exactly; `ready: true`.
-- 1,000–5,000 English words; at least three `## ` sections; no H1 in the body; no placeholders; no scripts.
+- **New or revised articles: 1,600–5,000 English words** (`min_words: 1600` in the EN policy). Unmodified articles already **VERIFIED** in the WordPress publication ledger can retain their original 1,000–1,599-word length **only** if the body SHA-256 and exact topic ID/title/slug/category still match. Editing one revokes the exception until it reaches 1,600 words. Never delete/reset ledger entries. At least three `## ` sections; no H1 in the body; no placeholders; no scripts.
 - English only: Vietnamese letters under 2 % of letters and fewer than five Vietnamese stopwords (place names are fine).
 - Business facts: no fragment of the other business (phone 0942…, 112 Nguyen Van Cu, Nguyen Tu); any phone number must be
   the Nguyen Ha number; any VND amount must be in `allowed_amounts_vnd` (the price table) unless it is a fine or penalty;
@@ -47,7 +47,7 @@ Live Verification → Progress (ledger, reports, checkpoint).
 
 ### Score (soft; minimum 85/100)
 
-Description 110–175 characters (−10 missing, −5 length), 1,200–3,500 words, four or more sections, a FAQ (−8), sources
+Description 110–175 characters (−10 missing, −5 length), **hard minimum 1,600 words for all new/revised work** (the older soft penalty under 1,200 words remains only for grandfathered published articles); 3,500+ words incur −3, four or more sections, a FAQ (−8), sources
 (−8 unless legal), two or more internal `/en/` links (−8), an external reference (−5), title 35–65 characters (−4), slug
 ≤ 60 (−2), an intro of 60+ words (−5), no paragraph over 180 words (−3 each).
 
