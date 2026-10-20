@@ -11,7 +11,15 @@
       "wp_id": 1807,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/motorbike-licence-rules-for-foreigners-in-vietnam/"
+    },
+    "2": {
+      "title": "Honda Vision vs Air Blade: Which Scooter to Rent in Hanoi?",
+      "slug": "honda-vision-vs-air-blade-which-scooter-to-rent-in-hanoi",
+      "source_hash": "7aea3a1a9dff6e988038d2b4eb760e2cfee6353f1ae90b3e61449b289ead7fa0",
+      "checked_at": "2026-10-20T06:14:04.862538+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 50
     }
   },
-  "updated_at": "2026-10-20T06:14:03.353531+00:00"
+  "updated_at": "2026-10-20T06:14:04.862547+00:00"
 }
