@@ -1,5 +1,9 @@
 # English pipeline (EN) — research, write, QA, publish, verify
 
+> **NEW AGENT / 478 EN TITLE QUEUE:** [Read the complete EN A–Z AI playbook first](EN_478_AI_PLAYBOOK.md). It explains `en/title-plan-478.csv` planning vs `en/topics.json` publish metadata, 22 original EN posts, slug protection, title approval, QA >=85, three-per-run policy, checkpoint/resume and safe WordPress verification. The English workflow documented below remains in effect; do not use Vietnamese `scripts/engine.py` for these 478 articles.
+
+
+
 
 > **AI HANDOFF / ROUTING GATE:** Before choosing any category, link, parent term, Page ID, menu or new article destination, read [`docs/MENU_TAXONOMY_MAP_VI_EN.md`](MENU_TAXONOMY_MAP_VI_EN.md) and [`data/navigation-map.json`](../data/navigation-map.json). These capture the live VI/EN menu, all taxonomy parents/children and page IDs (2026-10-20). WordPress live takes precedence; if it differs, BLOCK and audit instead of inventing a category or altering canonical URLs.
 
