@@ -181,11 +181,13 @@
       "title": "Gia Lam and the East Bank: Quiet Roads, Craft Villages and Bat Trang by Scooter",
       "slug": "gia-lam-east-bank-bat-trang-by-scooter",
       "source_hash": "6bf3cc126ba3661118d01e61bbbafdfd6701206dc8ff53da51553aed8d4c05ba",
-      "checked_at": "2026-10-20T10:34:27.136861+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-20T10:34:30.966921+00:00",
+      "phase": "VERIFIED",
       "category_id": 64,
-      "wp_id": 1883
+      "wp_id": 1883,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/gia-lam-east-bank-bat-trang-by-scooter/"
     }
   },
-  "updated_at": "2026-10-20T10:34:27.136879+00:00"
+  "updated_at": "2026-10-20T10:34:30.966937+00:00"
 }
