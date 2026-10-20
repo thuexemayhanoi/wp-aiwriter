@@ -214,10 +214,11 @@
       "title": "Tay Ho (West Lake) by Scooter: Lakeside Loop, Cafes and Quiet Streets",
       "slug": "tay-ho-west-lake-by-scooter",
       "source_hash": "391e9c58d99303fd59cf8286168e3a0197ad554fb662fe9d4f738d5ee48234e2",
-      "checked_at": "2026-10-20T10:40:27.317450+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 47
+      "checked_at": "2026-10-20T10:40:29.163297+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 47,
+      "wp_id": 1889
     }
   },
-  "updated_at": "2026-10-20T10:40:27.317459+00:00"
+  "updated_at": "2026-10-20T10:40:29.163314+00:00"
 }
