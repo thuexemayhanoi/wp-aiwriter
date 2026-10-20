@@ -1,3 +1,18 @@
+# EN WRITER BATCH CHECKPOINT — 2026-10-20 · IDs 13, 14, 15 authored (publication PENDING)
+
+- UTC date: 2026-10-20 · Repo HEAD before: `b8b6142` · TARGET=EN only (https://blog.rentbikehanoi.com/en/).
+- **EN-0013** `en/posts/0013.md` · term **56** Road Rules & Rider Safety (parent **48** Riding Advice & Safety) · original title kept · slug `traffic-fines-vietnam-foreign-riders` · local QA **100**, 2,162 words.
+- **EN-0014** `en/posts/0014.md` · term **56** (parent **48**) · original title kept · slug `drink-driving-rules-motorbike-vietnam` · local QA **100**, 1,820 words.
+- **EN-0015** `en/posts/0015.md` · term **55** Rental Tips & Paperwork (parent **48**) · original title kept (72 chars, -4) · slug `rental-scooter-inspection-checklist` · local QA **96**, 1,855 words; intent distinct from EN-0049 (semi-automatic mechanics) — this is the generic handover/documentation routine.
+- Title decision: 60–80-char CSV proposals NOT adopted (padded); canonical `en/topics.json` titles used verbatim; no title sync, CSV unchanged.
+- Legal research: Decree 168/2024/ND-CP (Art. 7, 14, 18), Law 36/2024/QH15, Law 44/2019/QH14, and **Decree 238/2026/ND-CP amending 168, in force 15 Aug 2026** (no change found to the motorbike amounts quoted). Sources: chinhphu.vn, congbao.chinhphu.vn, bocongan.gov.vn, thuvienphapluat.vn, provincial .gov.vn.
+- Local checks: `unittest` 130 OK; `en_title_plan.py --check` OK; `en_engine.py --mode qa` 0 errors; sync dry-run 0 errors.
+- Live WP collision check: **NOT CHECKED from this container** (blog host blocked by egress proxy); relies on EN Publisher preflight (slug/duplicate checks before any POST).
+- WordPress: PENDING — publication only counts after EN Publisher writes VERIFIED to `data/en-publication-state.json`.
+- Next candidates: re-run `python scripts/en_writer_brief.py --limit 3` after this batch is VERIFIED (expected 16, 19, 20).
+
+---
+
 # EN WRITER RELEASE CHECKPOINT — 20 October 2026 · 3/3 successful
 
 > This is a verified release receipt. If another session resumes, **read the current GitHub ledger and WordPress before using these historic counts**. No automatic retry of published or unresolved posts.
