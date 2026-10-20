@@ -8,6 +8,8 @@
 **Repo:** https://github.com/thuexemayhanoi/wp-aiwriter  
 **Immutable Excel topics:** `data/topics.json`, IDs #146–500 (355 titles/categories).
 
+**EN quick-start:** `python scripts/en_writer_brief.py --limit 3` prints the next three safe *research candidates* with exact source title, locked slug, EN taxonomy parents, search intent, source priority and unchanged QA rules. It is read-only, needs no AI/API keys and does not verify live WordPress or publish. Check `docs/EN_478_AI_PLAYBOOK.md` before writing.
+
 ## Zero wait after QA PASS
 
 1. An active Claude / ChatGPT Work / Gemini writer or person writes `posts/NNNN.md` using the exact Excel `matrix_id`, `title`, `category_path`, `ready: true`, and original, verified Vietnamese prose.
