@@ -1,3 +1,19 @@
+# EN WRITER RELEASE CHECKPOINT — 20 October 2026 · 3/3 successful
+
+> This is a verified release receipt. If another session resumes, **read the current GitHub ledger and WordPress before using these historic counts**. No automatic retry of published or unresolved posts.
+
+- Scope: `thuexemayhanoi/wp-aiwriter` → `https://blog.rentbikehanoi.com/en/`; original English articles only; existing English term **54** (`Suggested Motorbike Routes`), category hierarchy already registered.
+- **EN-0010** `en/posts/0010.md`, title `Long Bien and the Red River: An Easy First Ride Out of Central Hanoi`. Original slug `long-bien-red-river-first-ride`, **QA 96/100**, WordPress **1895**, **VERIFIED/publish**: https://blog.rentbikehanoi.com/en/long-bien-red-river-first-ride/ . Source commit `b1c348e2004233aec3ccf2d1583f26c198588dcf`; QA run `39429629285`; publisher `39429723079`.
+- **EN-0011** `en/posts/0011.md`, title `Hanoi to Ha Long Bay by Motorbike: Is It Worth It and How to Do It Safely`. Original slug `hanoi-to-ha-long-bay-by-motorbike`, **QA 96/100**, WordPress **1897**, **VERIFIED/publish**: https://blog.rentbikehanoi.com/en/hanoi-to-ha-long-bay-by-motorbike/ . Source commit `cc73334c2555ad03c6e99ae57b42e28f4af7535b`; QA run `39429982373`; publisher `39430074267`.
+- **EN-0012** `en/posts/0012.md`, title `Hanoi to Mai Chau by Motorbike: A Two-Day Ride Through the Hills`. Original slug `hanoi-to-mai-chau-by-motorbike`, **QA 100/100**, WordPress **1899**, **VERIFIED/publish**: https://blog.rentbikehanoi.com/en/hanoi-to-mai-chau-by-motorbike/ . Source commit `6bbeb39535c9fb735b6fb2d46a45859632dc75ad`; QA run `39430342232`; publisher `39430455962`.
+- All three: Python test suite and English QA completed successfully on GitHub Actions; zero English QA failures reported, live publisher verified English language, permalink, canonical, categories, readback and registered VI-EN posts. WP Agent independently found the three new articles published with these exact WordPress IDs.
+- Durable state: `data/en-publication-state.json` = **25 VERIFIED English posts (22 original + 3 new)** at end of this release. `en/title-plan-478.csv` keeps **478 fixed cohort rows**; IDs 10–12 changed to `VERIFIED/SYNCED` with QA, WP IDs and URLs (commit `463adcac22dcc3553cebed4745f503f190b7146f`). The previously created Google Sheet `EN 478 Titles` was likewise updated at `J2:N4`.
+- Safety: no existing VI or EN WordPress URLs, slugs, canonical tags, posts or term IDs modified; no `excel-` prefix introduced. Source titles were unchanged, so no replacement title was applied. No extra posts created beyond these three.
+- Next proposed research IDs **13, 14, 15** (fresh WordPress + `en/posts/` + ledger + taxonomy check required before claiming). IDs 13 and 14 concern legal fines and alcohol rules; they need official 2026 legal research, effective dates, and EN QA gate ≥85. Don't start any new batch without current owner authorisation. Policy remains at **3 per run**.
+- How to resume: [EN A–Z runbook](EN_478_AI_PLAYBOOK.md) → ledger → GitHub manuscripts → WordPress live → next candidates; NEVER reset a ledger phase.
+
+---
+
 # CURRENT EN 478 AI HANDOFF — 20 October 2026
 
 > **READ FIRST:** [Full A–Z guide](EN_478_AI_PLAYBOOK.md) · [478 planning rows](../en/title-plan-478.csv) · [EN pipeline](EN_PIPELINE.md). This section **supersedes stale historical counts below**. The prior dated report remains for archaeology only; do NOT restart its 2026-10-19 pilot or reinstall old plugins from the obsolete next steps.
