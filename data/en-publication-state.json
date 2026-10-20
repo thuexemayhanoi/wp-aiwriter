@@ -236,11 +236,13 @@
       "title": "Riding at Night in Hanoi: Lights, Visibility and the Streets to Avoid",
       "slug": "riding-at-night-in-hanoi",
       "source_hash": "da475cb3cea0d0bcaa511b0afae543d13548dab22aeb3615263f187796e2052e",
-      "checked_at": "2026-10-20T10:43:18.492185+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-20T10:43:22.665741+00:00",
+      "phase": "VERIFIED",
       "category_id": 48,
-      "wp_id": 1893
+      "wp_id": 1893,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/riding-at-night-in-hanoi/"
     }
   },
-  "updated_at": "2026-10-20T10:43:18.492202+00:00"
+  "updated_at": "2026-10-20T10:43:22.665760+00:00"
 }
