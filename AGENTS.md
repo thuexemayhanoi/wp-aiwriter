@@ -12,6 +12,8 @@
 
 ---
 
+> **TĂNG TỐC EN, KHÔNG HẠ QA:** Chạy `python scripts/en_writer_brief.py --limit 3` để in sẵn hồ sơ 3 ID còn chưa có bài/ledger; đối chiếu WordPress live trước khi viết. Đây chỉ là bản đọc dữ liệu, KHÔNG claim, KHÔNG duyệt title, KHÔNG chạy QA, KHÔNG đăng. `--format json` cho AI đọc tự động. Bắt buộc QA ≥85, 1.600–5.000 từ, đúng URL/slug/category và nguồn luật chính thức như trước.
+
 # WP AIWriter: editorial & publication contract
 
 **Target WordPress**: https://blog.rentbikehanoi.com
