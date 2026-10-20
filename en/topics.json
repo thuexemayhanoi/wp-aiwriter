@@ -247,7 +247,7 @@
     "id": 21,
     "title": "Tay Ho (West Lake) by Scooter: Lakeside Loop, Cafes and Quiet Streets",
     "slug": "tay-ho-west-lake-by-scooter",
-    "category_id": 53,
+    "category_id": 47,
     "hub": "Hanoi Travel & Routes",
     "intent": "informational: the West Lake loop, where to stop, parking, timing",
     "keywords": [
@@ -379,7 +379,7 @@
     "id": 32,
     "title": "Can You Take a Hanoi Rental Motorbike Out of the City?",
     "slug": "take-rental-motorbike-out-of-hanoi",
-    "category_id": 55,
+    "category_id": 46,
     "hub": "Riding Advice & Safety",
     "intent": "informational: shop policies, distance, registration papers, what to carry",
     "keywords": [
@@ -391,7 +391,7 @@
     "id": 33,
     "title": "Riding at Night in Hanoi: Lights, Visibility and the Streets to Avoid",
     "slug": "riding-at-night-in-hanoi",
-    "category_id": 56,
+    "category_id": 48,
     "hub": "Riding Advice & Safety",
     "intent": "informational: night riding risks, lighting, drunk drivers, trucks",
     "keywords": [
