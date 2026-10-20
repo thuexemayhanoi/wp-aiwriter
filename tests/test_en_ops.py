@@ -14,6 +14,7 @@ spec.loader.exec_module(ops)
 POLICY = json.loads((ROOT / 'en/publication-policy.json').read_text(encoding='utf-8'))
 PARENTS = [int(x) for x in POLICY['category_ids']['parents']]
 LEAVES = [int(x) for x in POLICY['category_ids']['leaves']]
+CATEGORY_ORDER = ops.ordered_category_ids(POLICY)
 PAIRS = [(int(p['vi']), int(p['en'])) for p in POLICY['page_pairs']]
 SLUGS = {int(p['vi']): p['vi_slug'] for p in POLICY['page_pairs']}
 SLUGS.update({int(p['en']): p['en_slug'] for p in POLICY['page_pairs']})
@@ -91,12 +92,14 @@ def run(rest, live=True, confirm=True, verified=True):
 
 
 class Rollout(unittest.TestCase):
-    def test_policy_lists_the_four_page_pairs_with_their_slugs(self):
-        self.assertEqual(PAIRS, [(14, 1759), (19, 1760), (25, 1761), (24, 1763)])
-        self.assertEqual([p['vi_slug'] for p in POLICY['page_pairs']], ['gioi-thieu', 'bang-gia', 'lien-he', 'hoi-dap'])
-        self.assertEqual([p['en_slug'] for p in POLICY['page_pairs']], ['about', 'prices', 'contact', 'faq'])
-        self.assertEqual(len({p['vi'] for p in POLICY['page_pairs']}), 4)
-        self.assertEqual(len({p['en'] for p in POLICY['page_pairs']}), 4)
+    def test_policy_lists_all_sixteen_page_pairs_with_their_slugs(self):
+        self.assertEqual(PAIRS[:4], [(14, 1759), (19, 1760), (25, 1761), (24, 1763)])
+        self.assertEqual(len(PAIRS), 16)
+        self.assertEqual(len({p['vi'] for p in POLICY['page_pairs']}), 16)
+        self.assertEqual(len({p['en'] for p in POLICY['page_pairs']}), 16)
+        self.assertTrue(all(p['vi_slug'] and p['en_slug'] for p in POLICY['page_pairs']))
+        self.assertIn((3, 1837), PAIRS)
+        self.assertIn((29, 1838), PAIRS)
 
     def test_not_installed_ends_quietly_without_writes(self):
         rest = FakeRest(installed=False)
@@ -121,7 +124,7 @@ class Rollout(unittest.TestCase):
         self.assertEqual(outcome, 'DRY_RUN')
         self.assertEqual(rest.writes, [])
         self.assertFalse(verify.called)
-        self.assertEqual([e['id'] for e in log if e.get('action') == 'register-category' and e.get('dry_run')], PARENTS + LEAVES)
+        self.assertEqual([e['id'] for e in log if e.get('action') == 'register-category' and e.get('dry_run')], CATEGORY_ORDER)
         self.assertEqual([(e['vi'], e['en']) for e in log if e.get('action') == 'link-pages' and e.get('dry_run')], PAIRS)
         self.assertEqual(log[-1]['writes'], 0)
 
@@ -130,15 +133,15 @@ class Rollout(unittest.TestCase):
         outcome, log, verify = run(rest)
         self.assertEqual(outcome, 'VERIFIED')
         self.assertEqual(rest.writes[0], ('nh-vien/v1/routes', {'enabled': True, 'confirm': True}))
-        self.assertEqual([p['id'] for r, p in rest.writes[1:12]], PARENTS + LEAVES)
-        self.assertEqual([(p['vi'], p['en']) for r, p in rest.writes[12:]], PAIRS)
-        self.assertEqual(len(rest.writes), 1 + len(PARENTS) + len(LEAVES) + len(PAIRS))
+        self.assertEqual([p['id'] for r, p in rest.writes[1:1 + len(CATEGORY_ORDER)]], CATEGORY_ORDER)
+        self.assertEqual([(p['vi'], p['en']) for r, p in rest.writes[1 + len(CATEGORY_ORDER):]], PAIRS)
+        self.assertEqual(len(rest.writes), 1 + len(CATEGORY_ORDER) + len(PAIRS))
         verify.assert_called_once()
         self.assertEqual(verify.call_args[0][0], ops.EN_URLS.split(','))
         self.assertTrue(rest.state['live'])
         self.assertEqual(log[-1]['outcome'], 'VERIFIED')
         self.assertEqual(log[-1]['writes'], len(rest.writes))
-        self.assertEqual(log[-1]['english_categories'], sorted(PARENTS + LEAVES))
+        self.assertEqual(log[-1]['english_categories'], sorted(CATEGORY_ORDER))
         self.assertEqual(log[-1]['page_pairs'], dict(PAIRS))
 
     def test_second_pass_skips_everything_already_done(self):
@@ -147,15 +150,15 @@ class Rollout(unittest.TestCase):
         self.assertEqual(outcome, 'VERIFIED')
         self.assertEqual(rest.writes, [])
         verify.assert_called_once()
-        self.assertEqual(sum(1 for e in log if e.get('skipped')), 1 + len(PARENTS) + len(LEAVES) + len(PAIRS))
+        self.assertEqual(sum(1 for e in log if e.get('skipped')), 1 + len(CATEGORY_ORDER) + len(PAIRS))
 
     def test_partial_state_only_writes_what_is_missing(self):
         rest = FakeRest(live=True, categories=PARENTS + [49], pairs={14: 1759})
         outcome, _, _ = run(rest)
         self.assertEqual(outcome, 'VERIFIED')
         self.assertEqual([r for r, _ in rest.writes if r == 'nh-vien/v1/routes'], [])
-        self.assertEqual([p['id'] for r, p in rest.writes if r == 'nh-vien/v1/categories'], [50, 51, 52, 53, 54, 55, 56])
-        self.assertEqual([(p['vi'], p['en']) for r, p in rest.writes if r == 'nh-vien/v1/pages'], [(19, 1760), (25, 1761), (24, 1763)])
+        self.assertEqual([p['id'] for r, p in rest.writes if r == 'nh-vien/v1/categories'], [term for term in CATEGORY_ORDER if term not in set(PARENTS + [49])])
+        self.assertEqual([(p['vi'], p['en']) for r, p in rest.writes if r == 'nh-vien/v1/pages'], PAIRS[1:])
 
     def test_confirmation_flag_is_passed_through(self):
         rest = FakeRest()
@@ -177,7 +180,7 @@ class Rollout(unittest.TestCase):
         rest = FakeRest(live=True, fail={'categories': (50,)})
         outcome, log, _ = run(rest)
         self.assertEqual(outcome, 'FAILED')
-        self.assertEqual([p['id'] for r, p in rest.writes], [46, 47, 48, 49, 50])
+        self.assertEqual([p['id'] for r, p in rest.writes], CATEGORY_ORDER[:CATEGORY_ORDER.index(50) + 1])
         self.assertEqual(log[-1]['step'], 'register-category')
         self.assertEqual(log[-1]['id'], 50)
 
