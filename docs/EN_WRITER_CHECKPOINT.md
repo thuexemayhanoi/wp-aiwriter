@@ -1,3 +1,41 @@
+# CURRENT EN 478 AI HANDOFF — 20 October 2026
+
+> **READ FIRST:** [Full A–Z guide](EN_478_AI_PLAYBOOK.md) · [478 planning rows](../en/title-plan-478.csv) · [EN pipeline](EN_PIPELINE.md). This section **supersedes stale historical counts below**. The prior dated report remains for archaeology only; do NOT restart its 2026-10-19 pilot or reinstall old plugins from the obsolete next steps.
+
+## Current verified GitHub baseline (snapshot, not a live counter)
+
+- Repository: `thuexemayhanoi/wp-aiwriter` — English-only post pipeline to `https://blog.rentbikehanoi.com/en/`.
+- `en/topics.json` = **500** English ID/title/slug/category mappings; `en/title-plan-478.csv` = exactly **478** not-in-original-ledger candidate IDs, 60–80-character *proposed* titles.
+- `data/en-publication-state.json` held **22** `VERIFIED`, `publish` English posts on 2026-10-20; the 22 live EN posts were separately checked using WP Agent. **Never overwrite or republish them.** Subsequent completions MUST be derived from the updated ledger, not this snapshot.
+- `en/publication-policy.json` at this checkpoint: `enabled=true`, `mode=batch`, `batch_size=3`, `max_batches_per_run=1`, `min_score=85`, `min_words=1600`. Current policy file always wins over prose.
+- 21 EN WordPress category IDs are represented in existing taxonomy. Only **18 of 35 owner thematic groups** have candidates in the old 500-ID matrix; remaining clusters are future research gaps, not automatically publishable topics.
+- Original 22 English post URLs and all Vietnamese data must remain unchanged. Public future EN slugs are exact `en/topics.json` slugs **without** Excel/internal numeric prefix.
+- **Next safe work:** `python scripts/en_title_plan.py --check` → `python scripts/en_title_plan.py --next 3`; reconcile selected IDs with live WP (including drafts) and `en/posts/`, review proposed titles, sync only approved unpublished/unwritten titles to `en/topics.json`, author original English content, QA and push.
+- **Checkpoint status for this documentation pass:** only instructions/documents updated; **no new EN article authored and no WordPress publication claimed here**. Running the automated tests/GitHub Actions must be independently confirmed, never inferred from a commit.
+
+## Append this SMALL checkpoint per writer batch (put the newest ABOVE this template)
+
+```text
+UTC date/time:
+Repo HEAD before / after:
+TARGET=EN ; only blog.rentbikehanoi.com/en/
+Selected topic IDs (<=3) + term ID + parent ancestry:
+Live WP collision/title/slug/intent check: PASS/BLOCK/NOT CHECKED
+Title decision: original/approved proposal; CSV and en/topics.json synchronized?:
+EN manuscript paths + research links:
+QA command + actual result/score: PASS/FAIL/NOT RUN
+Commit SHA + GitHub Actions receipt:
+WordPress English post ID, verified URL and exact ledger phase:
+Pending risk/error (include POST_INTENT or VERIFY_PENDING; do not clear):
+Next safe candidates (re-evaluate from GitHub ledger when resuming):
+```
+
+**Recover after a disconnect:** git fetch/check `main` → current EN ledger phases → existing `en/posts/NNNN.md` → this checkpoint → WP live → next 3. Never blindly retry an uncertain WordPress POST, reset ledger phases or trust spreadsheet `writing_status` over WordPress readback. GitHub Actions handles QA/publishing, **not** standalone AI authoring.
+
+---
+
+## ARCHIVED HISTORICAL REPORT — prior session only (obsolete deployment instructions follow)
+
 # EN writer checkpoint — 2026-10-20 (session 01KGiU6TaMPFJi6KEAjSmXge)
 
 ## State
