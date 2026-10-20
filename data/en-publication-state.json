@@ -176,7 +176,15 @@
       "wp_id": 1881,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/honda-wave-vs-yamaha-sirius-rental/"
+    },
+    "40": {
+      "title": "Gia Lam and the East Bank: Quiet Roads, Craft Villages and Bat Trang by Scooter",
+      "slug": "gia-lam-east-bank-bat-trang-by-scooter",
+      "source_hash": "6bf3cc126ba3661118d01e61bbbafdfd6701206dc8ff53da51553aed8d4c05ba",
+      "checked_at": "2026-10-20T10:34:21.302441+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 64
     }
   },
-  "updated_at": "2026-10-20T10:34:19.927029+00:00"
+  "updated_at": "2026-10-20T10:34:21.302449+00:00"
 }
