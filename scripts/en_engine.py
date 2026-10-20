@@ -35,7 +35,13 @@ MARKER = 'wp-aiwriter-en:en_id={id};sha256={hash}'
 
 ROUTE_RESERVED = {'page', 'category', 'tag', 'author', 'search', 'feed', 'embed', 'comments', 'attachment', 'trackback',
                   'wp-json', 'wp-admin', 'wp-content', 'wp-includes'}
-EN_PAGE_SLUGS = {'about', 'prices', 'contact', 'rental-guide', 'faq', 'motorbikes'}
+# Protect the English service and legal pages from future article slug collisions.
+EN_PAGE_SLUGS = {
+    'about', 'prices', 'contact', 'rental-guide', 'faq', 'motorbikes',
+    'services', '50cc-bikes', 'electric-scooters', 'guides', 'areas',
+    'hoan-kiem', 'old-quarter', 'long-bien', 'ba-dinh', 'gia-lam',
+    'privacy', 'terms',
+}
 SLUG_RE = re.compile(r'^[a-z0-9][a-z0-9-]{0,74}$')
 VI_LETTERS = re.compile(r'[ăâđêôơưàáảãạằắẳẵặầấẩẫậèéẻẽẹềếểễệìíỉĩịòóỏõọồốổỗộờớởỡợùúủũụừứửữựỳýỷỹỵĂÂĐÊÔƠƯÀÁẢÃẠẰẮẲẴẶẦẤẨẪẬÈÉẺẼẸỀẾỂỄỆÌÍỈĨỊÒÓỎÕỌỒỐỔỖỘỜỚỞỠỢÙÚỦŨỤỪỨỬỮỰỲÝỶỸỴ]')
 VI_STOPWORDS = re.compile(r'\b(của|và|là|các|những|được|trong|không|với|cho|này|bạn|thuê|giá|khi|để)\b', re.I)
