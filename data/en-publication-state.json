@@ -104,10 +104,11 @@
       "title": "Weekly and Monthly Motorbike Rental in Hanoi: What Long-Term Renters Should Ask",
       "slug": "weekly-monthly-motorbike-rental-hanoi",
       "source_hash": "7bdc2f60e81a12c5380d8eb7819d6bcad9306de12bf4190d9a93177e1742cb29",
-      "checked_at": "2026-10-20T10:16:13.983280+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 69
+      "checked_at": "2026-10-20T10:16:15.817819+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 69,
+      "wp_id": 1869
     }
   },
-  "updated_at": "2026-10-20T10:16:13.983292+00:00"
+  "updated_at": "2026-10-20T10:16:15.817835+00:00"
 }
