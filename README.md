@@ -1,5 +1,9 @@
 # WP AIWriter — GitHub → WordPress QA-gated autopublish
 
+> **AI START HERE — 478 EN topics (20/10/2026):** For new English writing at `/en/`, read [`docs/EN_478_AI_PLAYBOOK.md`](docs/EN_478_AI_PLAYBOOK.md) first. The approved-title planning CSV is [`en/title-plan-478.csv`](en/title-plan-478.csv); `en/topics.json` supplies the actual English article IDs/titles/slugs/category IDs, and `data/en-publication-state.json` prevents republishing the 22 baseline VERIFIED articles. Run `python scripts/en_title_plan.py --check` and `--next 3` before starting. **English only; no `excel-` URL prefix; QA >=85; 1,600–5,000 English words; maximum 3 new EN publications per authorised run.** On a lost connection, resume from the GitHub ledger, manuscripts and [EN checkpoint](docs/EN_WRITER_CHECKPOINT.md), not from chat memory. The Vietnamese instructions below remain unchanged.
+
+
+
 **WordPress:** https://blog.rentbikehanoi.com/  
 **Repo:** https://github.com/thuexemayhanoi/wp-aiwriter  
 **Immutable Excel topics:** `data/topics.json`, IDs #146–500 (355 titles/categories).
