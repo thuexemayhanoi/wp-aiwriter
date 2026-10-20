@@ -148,11 +148,13 @@
       "title": "Visiting Hanoi Train Street: Why Parking and Access Rules Matter",
       "slug": "visiting-hanoi-train-street-why-parking-and-access-rules-matter",
       "source_hash": "462f9e46e19b01b1aba175ec4dabdcab64942c87f0e2635ac4030cb3a6930202",
-      "checked_at": "2026-10-20T10:28:40.494166+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-20T10:28:43.971661+00:00",
+      "phase": "VERIFIED",
       "category_id": 61,
-      "wp_id": 1877
+      "wp_id": 1877,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/visiting-hanoi-train-street-why-parking-and-access-rules-matter/"
     }
   },
-  "updated_at": "2026-10-20T10:28:40.494183+00:00"
+  "updated_at": "2026-10-20T10:28:43.971677+00:00"
 }
