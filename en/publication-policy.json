@@ -8,7 +8,7 @@
     3
   ],
   "batch_size": 3,
-  "max_batches_per_run": 2,
+  "max_batches_per_run": 1,
   "require_live_routes": true,
   "category_ids": {
     "parents": [
@@ -143,5 +143,5 @@
       "en_slug": "terms"
     }
   ],
-  "notes": "Owner requested original English content with same service/page navigational coverage as Vietnamese. On 2026-10-20 WordPress has 19 published EN static pages, 21 registered EN topic categories (ID 46–56, 60–69), 16 explicitly linked VI/EN page pairs, 9 verified live EN posts. The 500-topic backlog remains 500 planned, NOT 500 authored or published; 47 unwritten candidates were reclassified to relevant additional EN categories while previously written IDs 1–9 stay unchanged. Safeguards remain: Writer QA >=85, publish at most 2 batches x 3 per run, create-only and no changes to Vietnamese URLs, slugs, canonical or posts. Newly-created categories appear in public navigation only when they have published English posts; empty English category archives return 404 by design."
+  "notes": "Owner-approved 3-post review batches for seeding EN taxonomy (2026-10-20). Publish at most three new QA-ready original English articles per successful EN Writer QA trigger. Existing 9 live posts preserved. First seed batch: #31 category 69 Weekly & Monthly, #49 category 66 Handover & Maintenance, #285 category 60 Hoan Kiem Area. The 500-topic plan remains a backlog; 21 EN categories exist, and all previously published posts retain their canonical slugs and term IDs. Never auto-publish more than 3 before the owner's next approval; follow-up batches should target categories without directly assigned published EN articles. Leave WP Vietnamese content and VI/EN true page pairs unchanged."
 }
