@@ -88,7 +88,15 @@
       "wp_id": 1821,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/renting-an-electric-scooter-in-hanoi/"
+    },
+    "9": {
+      "title": "Riding in Hanoi's Old Quarter: Streets, Parking and When to Walk Instead",
+      "slug": "riding-in-hanoi-old-quarter",
+      "source_hash": "7ff6de49feb532ff06e0b4a241f6b7e184b9f54a97bfbd45b835e720bfd340b0",
+      "checked_at": "2026-10-20T06:21:26.846463+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 53
     }
   },
-  "updated_at": "2026-10-20T06:21:25.276380+00:00"
+  "updated_at": "2026-10-20T06:21:26.846471+00:00"
 }
