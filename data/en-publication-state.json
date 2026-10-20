@@ -71,11 +71,13 @@
       "title": "Renting a 50cc Scooter in Hanoi: Who It Suits and What the Rules Say",
       "slug": "renting-a-50cc-scooter-in-hanoi",
       "source_hash": "bef53cf34a5c7004e66fefee558a10da361f4eed49bc3886dc29bc2ba2b453e3",
-      "checked_at": "2026-10-20T06:21:08.339183+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-20T06:21:12.484517+00:00",
+      "phase": "VERIFIED",
       "category_id": 51,
-      "wp_id": 1819
+      "wp_id": 1819,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/renting-a-50cc-scooter-in-hanoi/"
     }
   },
-  "updated_at": "2026-10-20T06:21:08.339200+00:00"
+  "updated_at": "2026-10-20T06:21:12.484534+00:00"
 }
