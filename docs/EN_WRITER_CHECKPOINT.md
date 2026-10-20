@@ -1,15 +1,17 @@
-# EN WRITER BATCH CHECKPOINT — 2026-10-20 · IDs 13, 14, 15 authored (publication PENDING)
+# EN WRITER RELEASE CHECKPOINT — 2026-10-20 (2nd batch) · IDs 13, 14, 15 · 3/3 VERIFIED
 
-- UTC date: 2026-10-20 · Repo HEAD before: `b8b6142` · TARGET=EN only (https://blog.rentbikehanoi.com/en/).
-- **EN-0013** `en/posts/0013.md` · term **56** Road Rules & Rider Safety (parent **48** Riding Advice & Safety) · original title kept · slug `traffic-fines-vietnam-foreign-riders` · local QA **100**, 2,162 words.
-- **EN-0014** `en/posts/0014.md` · term **56** (parent **48**) · original title kept · slug `drink-driving-rules-motorbike-vietnam` · local QA **100**, 1,820 words.
-- **EN-0015** `en/posts/0015.md` · term **55** Rental Tips & Paperwork (parent **48**) · original title kept (72 chars, -4) · slug `rental-scooter-inspection-checklist` · local QA **96**, 1,855 words; intent distinct from EN-0049 (semi-automatic mechanics) — this is the generic handover/documentation routine.
-- Title decision: 60–80-char CSV proposals NOT adopted (padded); canonical `en/topics.json` titles used verbatim; no title sync, CSV unchanged.
-- Legal research: Decree 168/2024/ND-CP (Art. 7, 14, 18), Law 36/2024/QH15, Law 44/2019/QH14, and **Decree 238/2026/ND-CP amending 168, in force 15 Aug 2026** (no change found to the motorbike amounts quoted). Sources: chinhphu.vn, congbao.chinhphu.vn, bocongan.gov.vn, thuvienphapluat.vn, provincial .gov.vn.
-- Local checks: `unittest` 130 OK; `en_title_plan.py --check` OK; `en_engine.py --mode qa` 0 errors; sync dry-run 0 errors.
-- Live WP collision check: **NOT CHECKED from this container** (blog host blocked by egress proxy); relies on EN Publisher preflight (slug/duplicate checks before any POST).
-- WordPress: PENDING — publication only counts after EN Publisher writes VERIFIED to `data/en-publication-state.json`.
-- Next candidates: re-run `python scripts/en_writer_brief.py --limit 3` after this batch is VERIFIED (expected 16, 19, 20).
+> Verified release receipt. On resume, read the current ledger and WordPress before trusting these counts; never retry a published or unresolved post.
+
+- Scope: EN only → `https://blog.rentbikehanoi.com/en/`. Repo HEAD before: `b8b6142`; source commit `e013fe6552bb3b1d1e2a469c9c3525f0c910d29e`; QA run `39483774590`; publisher run `39483890295` (success).
+- **EN-0013** `en/posts/0013.md` · `Traffic Fines in Vietnam That Catch Foreign Riders Out` · term **56** Road Rules & Rider Safety (parent **48**) · **QA 100/100**, 2,162 words · WordPress **1901**, **VERIFIED/publish**: https://blog.rentbikehanoi.com/en/traffic-fines-vietnam-foreign-riders/
+- **EN-0014** `en/posts/0014.md` · `Drink-Driving Rules for Motorbike Riders in Vietnam` · term **56** (parent **48**) · **QA 100/100**, 1,820 words · WordPress **1903**, **VERIFIED/publish**: https://blog.rentbikehanoi.com/en/drink-driving-rules-motorbike-vietnam/
+- **EN-0015** `en/posts/0015.md` · `What to Check Before You Ride Off: A 10-Minute Rental Scooter Inspection` · term **55** Rental Tips & Paperwork (parent **48**) · **QA 96/100** (-4 title length), 1,855 words · WordPress **1905**, **VERIFIED/publish**: https://blog.rentbikehanoi.com/en/rental-scooter-inspection-checklist/ — intent kept distinct from EN-0049 (semi-automatic mechanics).
+- Title decision: original `en/topics.json` titles used verbatim; the padded 60–80-char proposals for 13/14 were NOT adopted (CSV note added, must not be applied to these VERIFIED posts); 15 proposal = original → `SYNCED`. CSV rows 13–15 now `VERIFIED` with QA, WP IDs and URLs.
+- Legal basis cited: Decree 168/2024/ND-CP (Art. 7, 14, 18), Law 36/2024/QH15, Law 44/2019/QH14 and **Decree 238/2026/ND-CP (amends 168, in force 15 Aug 2026)**; no change found to the motorbike amounts quoted. Official sources: chinhphu.vn, congbao.chinhphu.vn, bocongan.gov.vn, provincial .gov.vn, thuvienphapluat.vn.
+- Local checks before push: `unittest` 130 OK; `en_title_plan.py --check` OK; `en_engine.py --mode qa` 0 errors; sync dry-run 0 errors. Live duplicate preflight done by the publisher (container cannot reach the blog).
+- **Proposed revision, NOT applied (needs owner approval; VERIFIED posts are immutable):** EN-0013 — (a) drop the uniform-colour description of traffic police; (b) replace "rental shops hand over the registration and insurance documents…" with "ask the shop which documents travel with the bike"; (c) remove "may be settled against the deposit" for camera fines (EN-0005 does not list fines as a deposit deduction); (d) note that a small on-the-spot fine can be collected only against an official receipt. EN-0014 — reword "the passenger is not fined" to "the rider is the one fined". Applying any of these requires a manual, approved WordPress update plus ledger hash reconciliation; the publisher will not update existing posts.
+- Durable state: `data/en-publication-state.json` = **28 VERIFIED English posts**.
+- Next candidates (re-check before claiming): **16, 19, 20**. Policy unchanged: 3 per run.
 
 ---
 
