@@ -38,11 +38,13 @@
       "title": "Helmet Rules in Vietnam: What Riders and Passengers Must Wear",
       "slug": "helmet-rules-in-vietnam",
       "source_hash": "c99be4712f140fc7d63b325153cb23a190431527ca3347238f716b62303bd20e",
-      "checked_at": "2026-10-20T06:20:19.617973+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-20T06:20:23.835878+00:00",
+      "phase": "VERIFIED",
       "category_id": 56,
-      "wp_id": 1813
+      "wp_id": 1813,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/helmet-rules-in-vietnam/"
     }
   },
-  "updated_at": "2026-10-20T06:20:19.617990+00:00"
+  "updated_at": "2026-10-20T06:20:23.835896+00:00"
 }
