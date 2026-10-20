@@ -16,28 +16,158 @@
     "contact": "https://blog.rentbikehanoi.com/en/contact/",
     "rental_guide": "https://blog.rentbikehanoi.com/en/rental-guide/",
     "faq": "https://blog.rentbikehanoi.com/en/faq/",
-    "motorbikes": "https://blog.rentbikehanoi.com/en/motorbikes/"
+    "motorbikes": "https://blog.rentbikehanoi.com/en/motorbikes/",
+    "services": "https://blog.rentbikehanoi.com/en/services/",
+    "50cc_bikes": "https://blog.rentbikehanoi.com/en/50cc-bikes/",
+    "electric_scooters": "https://blog.rentbikehanoi.com/en/electric-scooters/",
+    "guides": "https://blog.rentbikehanoi.com/en/guides/",
+    "areas": "https://blog.rentbikehanoi.com/en/areas/",
+    "hoan_kiem": "https://blog.rentbikehanoi.com/en/hoan-kiem/",
+    "old_quarter": "https://blog.rentbikehanoi.com/en/old-quarter/",
+    "long_bien": "https://blog.rentbikehanoi.com/en/long-bien/",
+    "ba_dinh": "https://blog.rentbikehanoi.com/en/ba-dinh/",
+    "gia_lam": "https://blog.rentbikehanoi.com/en/gia-lam/",
+    "privacy": "https://blog.rentbikehanoi.com/en/privacy/",
+    "terms": "https://blog.rentbikehanoi.com/en/terms/"
   },
   "prices_vnd": {
-    "manual": {"day": [150000, 200000], "week": [700000, 800000], "month": [1000000, 1200000]},
-    "automatic": {"day": [150000, 200000], "week": [600000, 1000000], "month": [1200000, 2000000]},
-    "electric": {"day": null, "week": [600000, 800000], "month": [1500000, 1800000]},
-    "50cc": {"day": [200000, 200000], "week": [1000000, 1000000], "month": [2000000, 2000000]}
+    "manual": {
+      "day": [
+        150000,
+        200000
+      ],
+      "week": [
+        700000,
+        800000
+      ],
+      "month": [
+        1000000,
+        1200000
+      ]
+    },
+    "automatic": {
+      "day": [
+        150000,
+        200000
+      ],
+      "week": [
+        600000,
+        1000000
+      ],
+      "month": [
+        1200000,
+        2000000
+      ]
+    },
+    "electric": {
+      "day": null,
+      "week": [
+        600000,
+        800000
+      ],
+      "month": [
+        1500000,
+        1800000
+      ]
+    },
+    "50cc": {
+      "day": [
+        200000,
+        200000
+      ],
+      "week": [
+        1000000,
+        1000000
+      ],
+      "month": [
+        2000000,
+        2000000
+      ]
+    }
   },
-  "deposit_vnd": [2000000, 5000000],
-  "delivery_vnd": {"within_10km_of_hoan_kiem_lake_per_trip": 50000, "within_10km_both_ways": 100000, "beyond_10km": "agreed in advance", "airport": null},
-  "late_return_vnd": {"per_hour_1_to_5_hours": 30000, "from_6_hours": "one extra rental day"},
-  "fuel": {"litres_at_handover": [0.5, 2], "litres_expected_at_return": [0.5, 1], "empty_tank_fee_vnd": 20000, "electric": "battery level and charging confirmed at handover"},
-  "included": {"helmet": "one basic helmet per rider, free", "raincoat": "not included for short rentals; may be considered for monthly rentals", "extra_lock": "not provided; lock the steering and park in guarded places"},
+  "deposit_vnd": [
+    2000000,
+    5000000
+  ],
+  "delivery_vnd": {
+    "within_10km_of_hoan_kiem_lake_per_trip": 50000,
+    "within_10km_both_ways": 100000,
+    "beyond_10km": "agreed in advance",
+    "airport": null
+  },
+  "late_return_vnd": {
+    "per_hour_1_to_5_hours": 30000,
+    "from_6_hours": "one extra rental day"
+  },
+  "fuel": {
+    "litres_at_handover": [
+      0.5,
+      2
+    ],
+    "litres_expected_at_return": [
+      0.5,
+      1
+    ],
+    "empty_tank_fee_vnd": 20000,
+    "electric": "battery level and charging confirmed at handover"
+  },
+  "included": {
+    "helmet": "one basic helmet per rider, free",
+    "raincoat": "not included for short rentals; may be considered for monthly rentals",
+    "extra_lock": "not provided; lock the steering and park in guarded places"
+  },
   "vehicles": {
-    "manual": ["Honda Wave", "Yamaha Sirius", "Honda Blade"],
-    "automatic": ["Honda Vision", "Honda Air Blade", "Honda Click", "Honda Lead", "Yamaha Mio", "Yamaha Mio Ultimo"],
-    "50cc": ["Cub 50cc", "50cc scooters"],
-    "electric": ["electric bicycles", "50cc-equivalent electric scooters", "some VinFast electric motorbikes"],
+    "manual": [
+      "Honda Wave",
+      "Yamaha Sirius",
+      "Honda Blade"
+    ],
+    "automatic": [
+      "Honda Vision",
+      "Honda Air Blade",
+      "Honda Click",
+      "Honda Lead",
+      "Yamaha Mio",
+      "Yamaha Mio Ultimo"
+    ],
+    "50cc": [
+      "Cub 50cc",
+      "50cc scooters"
+    ],
+    "electric": [
+      "electric bicycles",
+      "50cc-equivalent electric scooters",
+      "some VinFast electric motorbikes"
+    ],
     "note": "Models the Vietnamese price page names as possible; the bike actually available is confirmed when booking."
   },
   "landmark": "near Gia Lam bus station",
-  "allowed_amounts_vnd": [20000, 30000, 50000, 100000, 150000, 200000, 600000, 700000, 800000, 1000000, 1200000, 1500000, 1800000, 2000000, 5000000],
-  "forbidden_fragments": ["0942 467 674", "0942467674", "+84 942 467 674", "112 Nguyễn Văn Cừ", "112 Nguyen Van Cu", "Nguyễn Tú", "Nguyen Tu", "thuexemaynguyentu"],
+  "allowed_amounts_vnd": [
+    20000,
+    30000,
+    50000,
+    100000,
+    150000,
+    200000,
+    600000,
+    700000,
+    800000,
+    1000000,
+    1200000,
+    1500000,
+    1800000,
+    2000000,
+    5000000
+  ],
+  "forbidden_fragments": [
+    "0942 467 674",
+    "0942467674",
+    "+84 942 467 674",
+    "112 Nguyễn Văn Cừ",
+    "112 Nguyen Van Cu",
+    "Nguyễn Tú",
+    "Nguyen Tu",
+    "thuexemaynguyentu"
+  ],
   "facts_note": "One day is 24 hours; shorter use is charged as a full day; weekly and monthly packages are priced on their own, not day x n. The cash deposit (VND 2-5 million by bike and contract) is separate from the rent; identity documents and the licence are checked and photographed for the contract, originals are not kept, and this is not a no-deposit service. Delivery only for weekly/monthly agreements, within 10 km of Hoan Kiem Lake, VND 50,000 per trip or VND 100,000 both ways, beyond 10 km by agreement; no airport service. Late return: VND 30,000 per hour for 1-5 hours, one extra day from 6 hours; early return does not refund unused rent. Petrol bikes are handed over with about 0.5-2 litres and come back with about 0.5-1 litre; an empty tank at return costs VND 20,000. One basic helmet is free; no raincoat for short rentals; no extra lock. The final price is confirmed on the actual bike before the contract is signed. Prices are editorial snapshots of the Vietnamese price page (read 2026-10-19); writers must not state amounts outside allowed_amounts_vnd."
 }

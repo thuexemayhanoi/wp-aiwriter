@@ -2,11 +2,11 @@
 """The English pages of the live site, kept in the repository: QA, then an update-only publisher.
 
   python scripts/en_pages.py --mode qa            # the gates below; no network
-  python scripts/en_pages.py --mode sync          # preview: reads the seven live pages, writes nothing
+  python scripts/en_pages.py --mode sync          # preview: reads only locally authored, QA-ready EN page files; no writes
   python scripts/en_pages.py --mode sync --live   # updates the pages whose content changed (GitHub Actions)
 
-Scope: only the English pages listed in PAGES (WordPress IDs 1758-1764, created by the bilingual project) are ever
-written, and only after the live page answered with the expected slug, parent, type, status and address. No page is
+Scope: only the English pages listed in PAGES (the original seven and twelve EN pages created for the 500-topic expansion) are ever
+written, and only when an EN Markdown page exists, passes QA and the live page answered with the expected slug, parent, type, status and address. No page is
 created, deleted, unpublished, moved or renamed; a Vietnamese page is never written. WordPress keeps a revision of
 every update, and the previous title, excerpt and content are saved in the run's report before the write. Nothing is
 written while any page file fails QA. The content is Markdown with front matter, rendered like the English articles.
@@ -38,6 +38,18 @@ PAGES = {
     1762: {'slug': 'rental-guide', 'parent': 1758, 'file': 'rental-guide.md', 'url': EN_HOME + 'rental-guide/', 'min_words': 900, 'min_questions': 0},
     1763: {'slug': 'faq', 'parent': 1758, 'file': 'faq.md', 'url': EN_HOME + 'faq/', 'min_words': 900, 'min_questions': 15},
     1764: {'slug': 'motorbikes', 'parent': 1758, 'file': 'motorbikes.md', 'url': EN_HOME + 'motorbikes/', 'min_words': 700, 'min_questions': 0},
+    1827: {'slug': 'services', 'parent': 1758, 'file': 'services.md', 'url': EN_HOME + 'services/', 'min_words': 350, 'min_questions': 0},
+    1828: {'slug': '50cc-bikes', 'parent': 1758, 'file': '50cc-bikes.md', 'url': EN_HOME + '50cc-bikes/', 'min_words': 330, 'min_questions': 0},
+    1829: {'slug': 'electric-scooters', 'parent': 1758, 'file': 'electric-scooters.md', 'url': EN_HOME + 'electric-scooters/', 'min_words': 330, 'min_questions': 0},
+    1830: {'slug': 'guides', 'parent': 1758, 'file': 'guides.md', 'url': EN_HOME + 'guides/', 'min_words': 300, 'min_questions': 0},
+    1831: {'slug': 'areas', 'parent': 1758, 'file': 'areas.md', 'url': EN_HOME + 'areas/', 'min_words': 300, 'min_questions': 0},
+    1832: {'slug': 'hoan-kiem', 'parent': 1758, 'file': 'hoan-kiem.md', 'url': EN_HOME + 'hoan-kiem/', 'min_words': 280, 'min_questions': 0},
+    1833: {'slug': 'old-quarter', 'parent': 1758, 'file': 'old-quarter.md', 'url': EN_HOME + 'old-quarter/', 'min_words': 280, 'min_questions': 0},
+    1834: {'slug': 'long-bien', 'parent': 1758, 'file': 'long-bien.md', 'url': EN_HOME + 'long-bien/', 'min_words': 280, 'min_questions': 0},
+    1835: {'slug': 'ba-dinh', 'parent': 1758, 'file': 'ba-dinh.md', 'url': EN_HOME + 'ba-dinh/', 'min_words': 280, 'min_questions': 0},
+    1836: {'slug': 'gia-lam', 'parent': 1758, 'file': 'gia-lam.md', 'url': EN_HOME + 'gia-lam/', 'min_words': 280, 'min_questions': 0},
+    1837: {'slug': 'privacy', 'parent': 1758, 'file': 'privacy.md', 'url': EN_HOME + 'privacy/', 'min_words': 300, 'min_questions': 0},
+    1838: {'slug': 'terms', 'parent': 1758, 'file': 'terms.md', 'url': EN_HOME + 'terms/', 'min_words': 350, 'min_questions': 0},
 }
 MAX_WORDS = 4000
 OVERLAP = 0.3   # share of the 7-word phrases of the shorter page that may also appear in another page
