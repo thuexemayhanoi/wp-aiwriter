@@ -1,5 +1,9 @@
 # English title-plan queue — 478 unpublished topic IDs (2026-10-20)
 
+> **AI ENTRYPOINT:** [`docs/EN_478_AI_PLAYBOOK.md`](EN_478_AI_PLAYBOOK.md) is the single A–Z instruction and restart guide. It is referenced from `README.md`, `AGENTS.md` and `CLAUDE.md`. Use GitHub CSV for planning/approval, `en/topics.json` for publisher metadata, the EN ledger for VERIFIED, and `docs/EN_WRITER_CHECKPOINT.md` for handoff. Google Sheets/Excel does not automatically sync to this repo.
+
+
+
 **Site:** https://blog.rentbikehanoi.com/en/  
 **Repo:** `thuexemayhanoi/wp-aiwriter`  
 **Data:** `en/title-plan-478.csv` (478 rows; working English titles 60–80 characters).
