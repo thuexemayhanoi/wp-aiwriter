@@ -49,11 +49,13 @@
       "title": "How a Motorbike Rental Deposit Works in Hanoi (and How to Get It Back)",
       "slug": "motorbike-rental-deposit-hanoi",
       "source_hash": "682b557bd01dd1b25493bb5225ba7ddf2d853eacb9a76e46f8747d7803313e04",
-      "checked_at": "2026-10-20T06:20:31.957329+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-20T06:20:36.351812+00:00",
+      "phase": "VERIFIED",
       "category_id": 55,
-      "wp_id": 1815
+      "wp_id": 1815,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/motorbike-rental-deposit-hanoi/"
     }
   },
-  "updated_at": "2026-10-20T06:20:31.957346+00:00"
+  "updated_at": "2026-10-20T06:20:36.351830+00:00"
 }
