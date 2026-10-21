@@ -4416,10 +4416,11 @@
       "title": "Reading a Motorbike Rental Agreement in English",
       "slug": "reading-a-motorbike-rental-agreement-in-english",
       "source_hash": "b39b6131bbba09a800b4bf44a47957e2c89a1a42f74842e5f4205289bdbbfd60",
-      "checked_at": "2026-10-21T16:56:15.513569+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 55
+      "checked_at": "2026-10-21T16:56:17.846873+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 55,
+      "wp_id": 2655
     }
   },
-  "updated_at": "2026-10-21T16:56:15.513579+00:00"
+  "updated_at": "2026-10-21T16:56:17.846894+00:00"
 }
