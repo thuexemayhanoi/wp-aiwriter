@@ -3921,11 +3921,13 @@
       "title": "Hanoi to Hai Phong on a Motorbike: Route Safety",
       "slug": "hanoi-to-hai-phong-on-a-motorbike-route-safety",
       "source_hash": "9b867e3c1f36a033c76169e19fa8183dd5645aacfc6dbbe5c6ce4c98bc999108",
-      "checked_at": "2026-10-21T16:44:10.618142+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:44:15.740699+00:00",
+      "phase": "VERIFIED",
       "category_id": 54,
-      "wp_id": 2565
+      "wp_id": 2565,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/hanoi-to-hai-phong-on-a-motorbike-route-safety/"
     }
   },
-  "updated_at": "2026-10-21T16:44:10.618160+00:00"
+  "updated_at": "2026-10-21T16:44:15.740716+00:00"
 }
