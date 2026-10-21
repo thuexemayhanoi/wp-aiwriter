@@ -2656,11 +2656,13 @@
       "title": "Recognising a Damaged Electric Scooter Charging Plug",
       "slug": "recognising-a-damaged-electric-scooter-charging-plug",
       "source_hash": "75c8061efa6cb47677e7f175b23cac856c3e06da77c8e7d94ad6a5c98591caa9",
-      "checked_at": "2026-10-21T16:11:23.817565+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:11:28.984112+00:00",
+      "phase": "VERIFIED",
       "category_id": 52,
-      "wp_id": 2334
+      "wp_id": 2334,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/recognising-a-damaged-electric-scooter-charging-plug/"
     }
   },
-  "updated_at": "2026-10-21T16:11:23.817722+00:00"
+  "updated_at": "2026-10-21T16:11:28.984133+00:00"
 }
