@@ -1446,10 +1446,11 @@
       "title": "What to Do If a Scooter Smart Key Battery Runs Low",
       "slug": "what-to-do-if-a-scooter-smart-key-battery-runs-low",
       "source_hash": "80606bf459c2865c7348f949ead6a1565c437b1370ca5812a73c0dd308614eb8",
-      "checked_at": "2026-10-21T15:40:47.922544+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 50
+      "checked_at": "2026-10-21T15:40:50.279220+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 50,
+      "wp_id": 2114
     }
   },
-  "updated_at": "2026-10-21T15:40:47.922553+00:00"
+  "updated_at": "2026-10-21T15:40:50.279237+00:00"
 }
