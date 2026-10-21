@@ -2992,7 +2992,15 @@
       "wp_id": 2394,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/electric-bicycle-rental-for-travellers-who-do-not-ride-motorbikes/"
+    },
+    "269": {
+      "title": "Electric Bike versus 50cc Scooter for Visitors without a Licence",
+      "slug": "electric-bike-versus-50cc-scooter-for-visitors-without-a-licence",
+      "source_hash": "df9e9427b3ef60a74df9743ed70a95dc42c2a9a6fc2132367e5ef2222bc2c780",
+      "checked_at": "2026-10-21T16:19:12.771640+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 52
     }
   },
-  "updated_at": "2026-10-21T16:19:10.931777+00:00"
+  "updated_at": "2026-10-21T16:19:12.771649+00:00"
 }
