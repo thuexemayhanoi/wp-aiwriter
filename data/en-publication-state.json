@@ -2040,11 +2040,11 @@
       "title": "50cc Motorbike Brakes: A Basic Rental Inspection",
       "slug": "50cc-motorbike-brakes-a-basic-rental-inspection",
       "source_hash": "7644abba82c631ec0f1b8855bff45aee3aef5841d5d742d964aefe1f50b904d0",
-      "checked_at": "2026-10-21T15:55:15.229258+00:00",
-      "phase": "REGISTERED",
+      "checked_at": "2026-10-21T15:55:17.779128+00:00",
+      "phase": "VERIFY_PENDING",
       "category_id": 66,
       "wp_id": 2222
     }
   },
-  "updated_at": "2026-10-21T15:55:15.229276+00:00"
+  "updated_at": "2026-10-21T15:55:17.779146+00:00"
 }
