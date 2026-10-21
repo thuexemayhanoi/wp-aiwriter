@@ -2744,11 +2744,13 @@
       "title": "An Electric Bike Pickup Inspection Checklist",
       "slug": "an-electric-bike-pickup-inspection-checklist",
       "source_hash": "7a2ba70d360f54979c72cb855f3ab0127f7fee39b73268d2c5cb5370a829611a",
-      "checked_at": "2026-10-21T16:13:23.064709+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:13:27.744872+00:00",
+      "phase": "VERIFIED",
       "category_id": 66,
-      "wp_id": 2350
+      "wp_id": 2350,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/an-electric-bike-pickup-inspection-checklist/"
     }
   },
-  "updated_at": "2026-10-21T16:13:23.064728+00:00"
+  "updated_at": "2026-10-21T16:13:27.744893+00:00"
 }
