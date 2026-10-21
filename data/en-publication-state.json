@@ -3982,7 +3982,15 @@
       "wp_id": 2575,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/hanoi-to-van-long-nature-reserve-on-two-wheels/"
+    },
+    "362": {
+      "title": "Hanoi to Phat Diem Cathedral by Scooter: A Longer Day Plan",
+      "slug": "hanoi-to-phat-diem-cathedral-by-scooter-a-longer-day-plan",
+      "source_hash": "cf7fc92379cad6d78d49b0dfec6f19d87516bdd659e3f56f5a6ce8fcb9f4d309",
+      "checked_at": "2026-10-21T16:45:41.511610+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 54
     }
   },
-  "updated_at": "2026-10-21T16:45:39.571043+00:00"
+  "updated_at": "2026-10-21T16:45:41.511618+00:00"
 }
