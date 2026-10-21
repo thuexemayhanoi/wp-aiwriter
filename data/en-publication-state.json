@@ -2183,11 +2183,13 @@
       "title": "Moped Helmets: Fit Matters at Lower Speeds Too",
       "slug": "moped-helmets-fit-matters-at-lower-speeds-too",
       "source_hash": "b679ece6c25b38ab2179524871a9c3132880441d31d2d7991385e08f6c91f882",
-      "checked_at": "2026-10-21T15:58:27.643049+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:58:32.394202+00:00",
+      "phase": "VERIFIED",
       "category_id": 51,
-      "wp_id": 2248
+      "wp_id": 2248,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/moped-helmets-fit-matters-at-lower-speeds-too/"
     }
   },
-  "updated_at": "2026-10-21T15:58:27.643066+00:00"
+  "updated_at": "2026-10-21T15:58:32.394220+00:00"
 }
