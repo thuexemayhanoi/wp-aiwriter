@@ -1985,11 +1985,13 @@
       "title": "Can a Tourist Rent a 50cc Bike without an IDP?",
       "slug": "can-a-tourist-rent-a-50cc-bike-without-an-idp",
       "source_hash": "31c58e2b09f04e3c566389216a4cc47f0f596dd25f73e05c7597d7b96be45d5c",
-      "checked_at": "2026-10-21T15:53:59.131694+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:54:03.860743+00:00",
+      "phase": "VERIFIED",
       "category_id": 51,
-      "wp_id": 2212
+      "wp_id": 2212,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/can-a-tourist-rent-a-50cc-bike-without-an-idp/"
     }
   },
-  "updated_at": "2026-10-21T15:53:59.131713+00:00"
+  "updated_at": "2026-10-21T15:54:03.860783+00:00"
 }
