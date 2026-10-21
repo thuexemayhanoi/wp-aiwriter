@@ -2491,11 +2491,13 @@
       "title": "What Questions to Ask before Booking a 50cc Scooter",
       "slug": "what-questions-to-ask-before-booking-a-50cc-scooter",
       "source_hash": "e08ccdd1c5659ec1edf160c6ba856acd6f832e7f9dfa36a0c53eaed547e49b47",
-      "checked_at": "2026-10-21T16:06:51.770760+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:06:57.018489+00:00",
+      "phase": "VERIFIED",
       "category_id": 51,
-      "wp_id": 2304
+      "wp_id": 2304,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/what-questions-to-ask-before-booking-a-50cc-scooter/"
     }
   },
-  "updated_at": "2026-10-21T16:06:51.770780+00:00"
+  "updated_at": "2026-10-21T16:06:57.018508+00:00"
 }
