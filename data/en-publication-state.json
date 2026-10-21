@@ -3179,7 +3179,15 @@
       "wp_id": 2428,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/truc-bach-by-scooter-cafes-and-small-street-navigation/"
+    },
+    "288": {
+      "title": "Getting Around Dong Da on a Rented Motorbike",
+      "slug": "getting-around-dong-da-on-a-rented-motorbike",
+      "source_hash": "57d56ddd5762649c0dde0597bdfed4ac9352a21a397616aab6878c530defff8b",
+      "checked_at": "2026-10-21T16:24:16.463428+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 53
     }
   },
-  "updated_at": "2026-10-21T16:24:14.440662+00:00"
+  "updated_at": "2026-10-21T16:24:16.463437+00:00"
 }
