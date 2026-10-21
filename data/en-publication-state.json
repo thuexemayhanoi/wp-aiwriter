@@ -1683,7 +1683,15 @@
       "wp_id": 2156,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/choosing-a-scooter-with-space-for-a-passenger-helmet/"
+    },
+    "150": {
+      "title": "Protecting Items in a Scooter Under-Seat Compartment",
+      "slug": "protecting-items-in-a-scooter-under-seat-compartment",
+      "source_hash": "fd1d7a665957414862b328fef1026dfc848239edc1cd88489f3c95134cd1e895",
+      "checked_at": "2026-10-21T15:47:04.012263+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 50
     }
   },
-  "updated_at": "2026-10-21T15:47:02.385168+00:00"
+  "updated_at": "2026-10-21T15:47:04.012274+00:00"
 }
