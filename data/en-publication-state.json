@@ -2788,10 +2788,11 @@
       "title": "Electric Scooter Theft Prevention in Hanoi",
       "slug": "electric-scooter-theft-prevention-in-hanoi",
       "source_hash": "631c50b7328d7e68b3fb9ea5038e5ff900ae2077423b7949efd67720dca5c216",
-      "checked_at": "2026-10-21T16:14:17.599990+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 52
+      "checked_at": "2026-10-21T16:14:20.015204+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 52,
+      "wp_id": 2358
     }
   },
-  "updated_at": "2026-10-21T16:14:17.599998+00:00"
+  "updated_at": "2026-10-21T16:14:20.015224+00:00"
 }
