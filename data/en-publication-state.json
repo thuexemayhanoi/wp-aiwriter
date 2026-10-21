@@ -1688,11 +1688,13 @@
       "title": "Protecting Items in a Scooter Under-Seat Compartment",
       "slug": "protecting-items-in-a-scooter-under-seat-compartment",
       "source_hash": "fd1d7a665957414862b328fef1026dfc848239edc1cd88489f3c95134cd1e895",
-      "checked_at": "2026-10-21T15:47:11.356620+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:47:15.795206+00:00",
+      "phase": "VERIFIED",
       "category_id": 50,
-      "wp_id": 2158
+      "wp_id": 2158,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/protecting-items-in-a-scooter-under-seat-compartment/"
     }
   },
-  "updated_at": "2026-10-21T15:47:11.356639+00:00"
+  "updated_at": "2026-10-21T15:47:15.795225+00:00"
 }
