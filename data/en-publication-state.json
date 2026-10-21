@@ -1699,11 +1699,13 @@
       "title": "Honda Vision for Hanoi Sightseeing: Pros and Limits",
       "slug": "honda-vision-for-hanoi-sightseeing-pros-and-limits",
       "source_hash": "005c6a55106e02f8105437e6403a3d926bab4e3b7337d2428cc187d4fab8d8c5",
-      "checked_at": "2026-10-21T15:47:24.739259+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:47:28.981389+00:00",
+      "phase": "VERIFIED",
       "category_id": 50,
-      "wp_id": 2160
+      "wp_id": 2160,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/honda-vision-for-hanoi-sightseeing-pros-and-limits/"
     }
   },
-  "updated_at": "2026-10-21T15:47:24.739278+00:00"
+  "updated_at": "2026-10-21T15:47:28.981409+00:00"
 }
