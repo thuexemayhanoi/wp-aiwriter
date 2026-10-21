@@ -770,7 +770,15 @@
       "wp_id": 1990,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/what-a-slipping-gear-feels-like-on-a-rented-motorbike/"
+    },
+    "67": {
+      "title": "Recognising Chain Noise on a Honda Wave or Yamaha Sirius",
+      "slug": "recognising-chain-noise-on-a-honda-wave-or-yamaha-sirius",
+      "source_hash": "0e67b74273bb0c2523c619e2ff4e0e0768e0b5532af08ceb2c7865f632f02b44",
+      "checked_at": "2026-10-21T14:34:41.966623+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 49
     }
   },
-  "updated_at": "2026-10-21T14:34:40.023852+00:00"
+  "updated_at": "2026-10-21T14:34:41.966631+00:00"
 }
