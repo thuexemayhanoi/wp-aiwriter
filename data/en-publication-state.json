@@ -4070,7 +4070,15 @@
       "wp_id": 2591,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/a-first-countryside-ride-from-hanoi-for-experienced-tourists/"
+    },
+    "370": {
+      "title": "Motorbike Route Planning around Hanoi's Restricted Roads",
+      "slug": "motorbike-route-planning-around-hanois-restricted-roads",
+      "source_hash": "695b16b08b7e09be24a5add53db175885df3fcf8915cdcdffac2d9e443b20b32",
+      "checked_at": "2026-10-21T16:47:54.117897+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 54
     }
   },
-  "updated_at": "2026-10-21T16:47:52.556898+00:00"
+  "updated_at": "2026-10-21T16:47:54.117906+00:00"
 }
