@@ -918,11 +918,13 @@
       "title": "What Makes a Small Manual Bike Feel Unstable?",
       "slug": "what-makes-a-small-manual-bike-feel-unstable",
       "source_hash": "b3a6797536e6169dffd2f25cc5939f247316651ecfa8a2f9842c86598c803d7b",
-      "checked_at": "2026-10-21T14:48:11.308744+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T14:48:16.097250+00:00",
+      "phase": "VERIFIED",
       "category_id": 49,
-      "wp_id": 2018
+      "wp_id": 2018,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/what-makes-a-small-manual-bike-feel-unstable/"
     }
   },
-  "updated_at": "2026-10-21T14:48:11.308763+00:00"
+  "updated_at": "2026-10-21T14:48:16.097269+00:00"
 }
