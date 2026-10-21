@@ -3905,7 +3905,15 @@
       "wp_id": 2560,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/hanoi-to-con-son-and-kiep-bac-on-a-motorcycle/"
+    },
+    "355": {
+      "title": "Hanoi to Hai Duong by Scooter: Is the Trip Worth It?",
+      "slug": "hanoi-to-hai-duong-by-scooter-is-the-trip-worth-it",
+      "source_hash": "5283f6abb63c943efa5fe1dee7a35c7e80d2a4d031e8c18b01cfbd633bba4133",
+      "checked_at": "2026-10-21T16:43:41.057397+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 54
     }
   },
-  "updated_at": "2026-10-21T16:43:38.229354+00:00"
+  "updated_at": "2026-10-21T16:43:41.057407+00:00"
 }
