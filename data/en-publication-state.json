@@ -682,7 +682,15 @@
       "wp_id": 1974,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/riding-a-manual-motorbike-with-a-passenger-in-hanoi/"
+    },
+    "59": {
+      "title": "Honda Wave vs Honda Blade for City Commuting",
+      "slug": "honda-wave-vs-honda-blade-for-city-commuting",
+      "source_hash": "47ee013f2d0d3ffe981cb5ff7a1d390516e24b97fe76c4e9076cf54ae5930ac8",
+      "checked_at": "2026-10-21T14:31:40.947205+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 65
     }
   },
-  "updated_at": "2026-10-21T14:31:39.418618+00:00"
+  "updated_at": "2026-10-21T14:31:40.947214+00:00"
 }
