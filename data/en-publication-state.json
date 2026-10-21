@@ -4202,7 +4202,15 @@
       "wp_id": 2615,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/a-long-bien-to-gia-lam-half-day-scooter-itinerary/"
+    },
+    "383": {
+      "title": "How to Combine Co Loa and Bat Trang without Rushing",
+      "slug": "how-to-combine-co-loa-and-bat-trang-without-rushing",
+      "source_hash": "5a451b95b60973b518e77e5653b8b24909b1504aae2a185da287e901c83f45e0",
+      "checked_at": "2026-10-21T16:51:14.812135+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 54
     }
   },
-  "updated_at": "2026-10-21T16:51:13.243511+00:00"
+  "updated_at": "2026-10-21T16:51:14.812144+00:00"
 }
