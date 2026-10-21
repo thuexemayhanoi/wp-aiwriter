@@ -3811,11 +3811,13 @@
       "title": "Hanoi to Ecopark by Scooter: Roads and Parking",
       "slug": "hanoi-to-ecopark-by-scooter-roads-and-parking",
       "source_hash": "b2aa8efd3a004b685239d040b3dd5fcc9de7dfd81343485a01158dc7dc0b5477",
-      "checked_at": "2026-10-21T16:41:20.623894+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:41:25.992166+00:00",
+      "phase": "VERIFIED",
       "category_id": 54,
-      "wp_id": 2544
+      "wp_id": 2544,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/hanoi-to-ecopark-by-scooter-roads-and-parking/"
     }
   },
-  "updated_at": "2026-10-21T16:41:20.623913+00:00"
+  "updated_at": "2026-10-21T16:41:25.992181+00:00"
 }
