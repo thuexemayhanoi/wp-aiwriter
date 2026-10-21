@@ -2524,10 +2524,11 @@
       "title": "Electric Bicycle versus Electric Scooter Rental in Hanoi",
       "slug": "electric-bicycle-versus-electric-scooter-rental-in-hanoi",
       "source_hash": "b3cf04e3c9a466aa76d94ccaf8259f99e11b23da2e80d24e00f7e52e6d47bedd",
-      "checked_at": "2026-10-21T16:07:38.225477+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 52
+      "checked_at": "2026-10-21T16:07:41.173338+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 52,
+      "wp_id": 2310
     }
   },
-  "updated_at": "2026-10-21T16:07:38.225485+00:00"
+  "updated_at": "2026-10-21T16:07:41.173358+00:00"
 }
