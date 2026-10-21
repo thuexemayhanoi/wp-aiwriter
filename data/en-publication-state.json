@@ -3899,10 +3899,11 @@
       "title": "Hanoi to Con Son and Kiep Bac on a Motorcycle",
       "slug": "hanoi-to-con-son-and-kiep-bac-on-a-motorcycle",
       "source_hash": "312db0b4dd73ea32d2adea711a53f5388b0387c9ac41c3ff712a4aa7e5f1b58b",
-      "checked_at": "2026-10-21T16:43:24.073927+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 54
+      "checked_at": "2026-10-21T16:43:27.509133+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 54,
+      "wp_id": 2560
     }
   },
-  "updated_at": "2026-10-21T16:43:24.073936+00:00"
+  "updated_at": "2026-10-21T16:43:27.509151+00:00"
 }
