@@ -484,7 +484,15 @@
       "wp_id": 1938,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/hanoi-ninh-binh-one-day-motorbike-itinerary/"
+    },
+    "42": {
+      "title": "Speed Limits for Motorbikes in Vietnam: City, Rural and Expressway Rules",
+      "slug": "speed-limits-motorbikes-vietnam",
+      "source_hash": "a897d7d65654b77b696989e56c12c534246a13388bbc08fff1c99c9dc0dc5852",
+      "checked_at": "2026-10-21T04:20:23.885036+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 56
     }
   },
-  "updated_at": "2026-10-21T04:20:22.700176+00:00"
+  "updated_at": "2026-10-21T04:20:23.885048+00:00"
 }
