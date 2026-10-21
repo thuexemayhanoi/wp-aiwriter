@@ -4152,10 +4152,11 @@
       "title": "Rainy-Season Routes from Hanoi: When to Postpone",
       "slug": "rainy-season-routes-from-hanoi-when-to-postpone",
       "source_hash": "a01cd7ea671b9f63f162f921ce4fdd3b61bd01fa2cc99760aba3b159583b7a77",
-      "checked_at": "2026-10-21T16:49:53.984776+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 54
+      "checked_at": "2026-10-21T16:49:56.358316+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 54,
+      "wp_id": 2607
     }
   },
-  "updated_at": "2026-10-21T16:49:53.984785+00:00"
+  "updated_at": "2026-10-21T16:49:56.358336+00:00"
 }
