@@ -3498,7 +3498,15 @@
       "wp_id": 2486,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/vietnamese-womens-museum-by-motorbike-parking-options/"
+    },
+    "318": {
+      "title": "Vietnam National Museum of History by Rental Scooter",
+      "slug": "vietnam-national-museum-of-history-by-rental-scooter",
+      "source_hash": "156fe87834414bfbaf0bc21822d51322a14e37f297d93771e0d5bee4a45050e6",
+      "checked_at": "2026-10-21T16:32:08.923768+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 53
     }
   },
-  "updated_at": "2026-10-21T16:32:07.137870+00:00"
+  "updated_at": "2026-10-21T16:32:08.923776+00:00"
 }
