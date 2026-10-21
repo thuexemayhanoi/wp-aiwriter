@@ -4240,11 +4240,13 @@
       "title": "When an Intercity Bus Is Safer than a Rental Motorbike",
       "slug": "when-an-intercity-bus-is-safer-than-a-rental-motorbike",
       "source_hash": "05fd05844291d6e8967ec8c7d518fe34cde6ba24ca726fe4ead4bf28c4aa6a5b",
-      "checked_at": "2026-10-21T16:52:12.278114+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:52:17.321671+00:00",
+      "phase": "VERIFIED",
       "category_id": 54,
-      "wp_id": 2623
+      "wp_id": 2623,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/when-an-intercity-bus-is-safer-than-a-rental-motorbike/"
     }
   },
-  "updated_at": "2026-10-21T16:52:12.278128+00:00"
+  "updated_at": "2026-10-21T16:52:17.321690+00:00"
 }
