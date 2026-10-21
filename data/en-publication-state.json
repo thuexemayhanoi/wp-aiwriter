@@ -357,10 +357,11 @@
       "title": "Hanoi to Ba Vi National Park by Motorbike",
       "slug": "hanoi-to-ba-vi-by-motorbike",
       "source_hash": "92bac7fc49d87db24da68e6dbfb198d77eec02b13b06b1674b8a5f2677146d3e",
-      "checked_at": "2026-10-21T04:15:49.276237+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 54
+      "checked_at": "2026-10-21T04:15:51.319331+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 54,
+      "wp_id": 1916
     }
   },
-  "updated_at": "2026-10-21T04:15:49.276246+00:00"
+  "updated_at": "2026-10-21T04:15:51.319350+00:00"
 }
