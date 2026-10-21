@@ -1798,11 +1798,13 @@
       "title": "Handling a Scooter Pillion Passenger in Slow Traffic",
       "slug": "handling-a-scooter-pillion-passenger-in-slow-traffic",
       "source_hash": "b4f1bdb8317f006d9031815527d8457a5a92c6663c35aca1f2cc897765b561ff",
-      "checked_at": "2026-10-21T15:49:31.416358+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:49:35.927160+00:00",
+      "phase": "VERIFIED",
       "category_id": 50,
-      "wp_id": 2178
+      "wp_id": 2178,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/handling-a-scooter-pillion-passenger-in-slow-traffic/"
     }
   },
-  "updated_at": "2026-10-21T15:49:31.416376+00:00"
+  "updated_at": "2026-10-21T15:49:35.927179+00:00"
 }
