@@ -4185,11 +4185,13 @@
       "title": "How to Use Offline Maps for Countryside Rides near Hanoi",
       "slug": "how-to-use-offline-maps-for-countryside-rides-near-hanoi",
       "source_hash": "eca61824b92ed147ceffa82fad45d9765f482bdf257fceca5a61ac56db65876e",
-      "checked_at": "2026-10-21T16:50:50.246529+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:50:55.030330+00:00",
+      "phase": "VERIFIED",
       "category_id": 67,
-      "wp_id": 2613
+      "wp_id": 2613,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-use-offline-maps-for-countryside-rides-near-hanoi/"
     }
   },
-  "updated_at": "2026-10-21T16:50:50.246547+00:00"
+  "updated_at": "2026-10-21T16:50:55.030344+00:00"
 }
