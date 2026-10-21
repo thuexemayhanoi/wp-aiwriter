@@ -3245,7 +3245,15 @@
       "wp_id": 2440,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/nam-tu-liem-by-scooter-stadiums-events-and-parking/"
+    },
+    "294": {
+      "title": "Bac Tu Liem by Scooter: Universities and Residential Roads",
+      "slug": "bac-tu-liem-by-scooter-universities-and-residential-roads",
+      "source_hash": "5632095387f876f1624db09647159006e9a4f8c8af7fa851e4cffa74bc224d0b",
+      "checked_at": "2026-10-21T16:25:54.876922+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 53
     }
   },
-  "updated_at": "2026-10-21T16:25:52.948387+00:00"
+  "updated_at": "2026-10-21T16:25:54.876930+00:00"
 }
