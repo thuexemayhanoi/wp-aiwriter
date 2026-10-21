@@ -1584,7 +1584,15 @@
       "wp_id": 2138,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/checking-a-manual-bikes-lights-before-riding-at-night/"
+    },
+    "101": {
+      "title": "A First-Day Practice Route for an Experienced Manual-Bike Rider",
+      "slug": "a-first-day-practice-route-for-an-experienced-manual-bike-rider",
+      "source_hash": "a7872d74bcdb6f2464dbfa5bb86cf3c700e254f73ab980367cecc886cad97f85",
+      "checked_at": "2026-10-21T15:45:01.371214+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 49
     }
   },
-  "updated_at": "2026-10-21T15:44:59.705410+00:00"
+  "updated_at": "2026-10-21T15:45:01.371224+00:00"
 }
