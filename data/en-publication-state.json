@@ -896,10 +896,11 @@
       "title": "Honda Wave Fuel Economy: How to Estimate a Trip Budget",
       "slug": "honda-wave-fuel-economy-how-to-estimate-a-trip-budget",
       "source_hash": "cbdc2ac1fd6c213ddd1d4ba47036ae38501290eea8eaaf9d076fc2506359a8af",
-      "checked_at": "2026-10-21T14:43:25.809413+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 49
+      "checked_at": "2026-10-21T14:43:28.242621+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 49,
+      "wp_id": 2014
     }
   },
-  "updated_at": "2026-10-21T14:43:25.809422+00:00"
+  "updated_at": "2026-10-21T14:43:28.242638+00:00"
 }
