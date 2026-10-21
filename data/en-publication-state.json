@@ -2480,11 +2480,13 @@
       "title": "How to Photograph a 50cc Bike's Condition at Pickup",
       "slug": "how-to-photograph-a-50cc-bikes-condition-at-pickup",
       "source_hash": "59817b1fe5d87181871e744462969358910cd9b065956f0e19b91431d38f61f3",
-      "checked_at": "2026-10-21T16:06:34.759947+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:06:39.506709+00:00",
+      "phase": "VERIFIED",
       "category_id": 51,
-      "wp_id": 2302
+      "wp_id": 2302,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-photograph-a-50cc-bikes-condition-at-pickup/"
     }
   },
-  "updated_at": "2026-10-21T16:06:34.759967+00:00"
+  "updated_at": "2026-10-21T16:06:39.506730+00:00"
 }
