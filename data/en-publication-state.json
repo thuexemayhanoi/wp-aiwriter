@@ -2546,10 +2546,11 @@
       "title": "What Affects Battery Range in Hanoi Stop-and-Go Traffic",
       "slug": "what-affects-battery-range-in-hanoi-stop-and-go-traffic",
       "source_hash": "56074836e4eb6ed06a76728e2166eeb7c534e6821f8243319020535decc09c9e",
-      "checked_at": "2026-10-21T16:08:18.015535+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 52
+      "checked_at": "2026-10-21T16:08:22.099274+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 52,
+      "wp_id": 2314
     }
   },
-  "updated_at": "2026-10-21T16:08:18.015543+00:00"
+  "updated_at": "2026-10-21T16:08:22.099294+00:00"
 }
