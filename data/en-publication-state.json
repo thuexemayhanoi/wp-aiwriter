@@ -1215,11 +1215,13 @@
       "title": "Honda Air Blade vs Honda Lead for Daily City Travel",
       "slug": "honda-air-blade-vs-honda-lead-for-daily-city-travel",
       "source_hash": "415d1be9b025206e96688fa8cd36c4c0554e3f8e50a710974b80954bef556838",
-      "checked_at": "2026-10-21T15:34:56.215417+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:35:00.813897+00:00",
+      "phase": "VERIFIED",
       "category_id": 50,
-      "wp_id": 2072
+      "wp_id": 2072,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/honda-air-blade-vs-honda-lead-for-daily-city-travel/"
     }
   },
-  "updated_at": "2026-10-21T15:34:56.215434+00:00"
+  "updated_at": "2026-10-21T15:35:00.813914+00:00"
 }
