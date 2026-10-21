@@ -440,7 +440,15 @@
       "wp_id": 1930,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/hanoi-ring-roads-highways-motorbikes-allowed/"
+    },
+    "35": {
+      "title": "Child Passengers on a Motorbike in Vietnam: Rules and Safer Choices",
+      "slug": "child-passengers-motorbike-vietnam",
+      "source_hash": "d226fafcf44f94ff7bdd1548eaf53be34ffc73d232aa824eb451b1c1cb8586b9",
+      "checked_at": "2026-10-21T04:18:43.501274+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 56
     }
   },
-  "updated_at": "2026-10-21T04:18:42.324794+00:00"
+  "updated_at": "2026-10-21T04:18:43.501282+00:00"
 }
