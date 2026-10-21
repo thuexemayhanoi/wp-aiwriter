@@ -2887,10 +2887,11 @@
       "title": "Electric Scooter Speed Settings Explained",
       "slug": "electric-scooter-speed-settings-explained",
       "source_hash": "3961401e3e0fae5e6c3ef2e4a7f7f55ab35904b77e832b37bc3d0c2fe2aaef64",
-      "checked_at": "2026-10-21T16:16:27.552545+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 52
+      "checked_at": "2026-10-21T16:16:29.963064+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 52,
+      "wp_id": 2376
     }
   },
-  "updated_at": "2026-10-21T16:16:27.552553+00:00"
+  "updated_at": "2026-10-21T16:16:29.963084+00:00"
 }
