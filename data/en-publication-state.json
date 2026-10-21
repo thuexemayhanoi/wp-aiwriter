@@ -1089,7 +1089,15 @@
       "wp_id": 2048,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-avoid-lurching-when-changing-gears/"
+    },
+    "96": {
+      "title": "Manual Motorbike Rental: Daily versus Monthly Use Cases",
+      "slug": "manual-motorbike-rental-daily-versus-monthly-use-cases",
+      "source_hash": "a374f0a6c2cf53f878bf0e5f8510c2836f348cf29dff85f1f83174e4bc7968b0",
+      "checked_at": "2026-10-21T15:09:59.174321+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 69
     }
   },
-  "updated_at": "2026-10-21T15:09:56.904056+00:00"
+  "updated_at": "2026-10-21T15:09:59.174330+00:00"
 }
