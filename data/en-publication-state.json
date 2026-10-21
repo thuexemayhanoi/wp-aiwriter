@@ -638,7 +638,15 @@
       "wp_id": 1966,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/charging-an-electric-scooter-in-hanoi/"
+    },
+    "50": {
+      "title": "Honda Wave Gears: Starting, Shifting and Stopping Smoothly",
+      "slug": "honda-wave-gears-starting-shifting-and-stopping-smoothly",
+      "source_hash": "d1ecc83afef4f24c90fa392f7a8a2d30ecb6654644a9cdd76925bad2d665a1a3",
+      "checked_at": "2026-10-21T14:30:40.682788+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 49
     }
   },
-  "updated_at": "2026-10-21T14:30:38.591772+00:00"
+  "updated_at": "2026-10-21T14:30:40.682798+00:00"
 }
