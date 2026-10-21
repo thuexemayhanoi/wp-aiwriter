@@ -924,7 +924,15 @@
       "wp_id": 2018,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/what-makes-a-small-manual-bike-feel-unstable/"
+    },
+    "81": {
+      "title": "How to Adjust Mirrors on a Honda Wave Rental",
+      "slug": "how-to-adjust-mirrors-on-a-honda-wave-rental",
+      "source_hash": "92de4aa0a856045eb063fb134b64691e81c398b73f9dc62b8acbb712c6cfcbea",
+      "checked_at": "2026-10-21T14:48:17.798026+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 49
     }
   },
-  "updated_at": "2026-10-21T14:48:16.097269+00:00"
+  "updated_at": "2026-10-21T14:48:17.798034+00:00"
 }
