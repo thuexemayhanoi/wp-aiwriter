@@ -1331,7 +1331,15 @@
       "wp_id": 2092,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-spot-uneven-scooter-brake-feel/"
+    },
+    "123": {
+      "title": "Honda Vision Seat Height: What Shorter Riders Should Check",
+      "slug": "honda-vision-seat-height-what-shorter-riders-should-check",
+      "source_hash": "92797060a545e7be6e16e164c9c7b355b5726d6d8399f908d489af1e1ae80e86",
+      "checked_at": "2026-10-21T15:37:46.735290+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 50
     }
   },
-  "updated_at": "2026-10-21T15:37:44.461241+00:00"
+  "updated_at": "2026-10-21T15:37:46.735298+00:00"
 }
