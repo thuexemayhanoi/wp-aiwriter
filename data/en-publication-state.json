@@ -2629,7 +2629,15 @@
       "wp_id": 2328,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/electric-bike-monthly-rental-questions-before-signing/"
+    },
+    "236": {
+      "title": "How to Read an Electric Scooter Battery Indicator",
+      "slug": "how-to-read-an-electric-scooter-battery-indicator",
+      "source_hash": "1ba2cf6b2146442bdcfb6fe539479297a233ff61f2ebec20e618081cddc2158d",
+      "checked_at": "2026-10-21T16:10:41.558327+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 52
     }
   },
-  "updated_at": "2026-10-21T16:10:39.265094+00:00"
+  "updated_at": "2026-10-21T16:10:41.558336+00:00"
 }
