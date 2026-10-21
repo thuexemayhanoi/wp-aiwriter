@@ -3003,7 +3003,15 @@
       "wp_id": 2396,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/electric-bike-versus-50cc-scooter-for-visitors-without-a-licence/"
+    },
+    "270": {
+      "title": "Charging Etiquette in Shared Accommodation",
+      "slug": "charging-etiquette-in-shared-accommodation",
+      "source_hash": "86f766bef1a19c76c78035a740db5f1d1f469c2e4c10d30bdc426faf616587b8",
+      "checked_at": "2026-10-21T16:19:29.543356+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 52
     }
   },
-  "updated_at": "2026-10-21T16:19:27.725801+00:00"
+  "updated_at": "2026-10-21T16:19:29.543365+00:00"
 }
