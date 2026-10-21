@@ -1540,7 +1540,15 @@
       "wp_id": 2130,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/what-to-check-around-a-scooters-exhaust-after-a-ride/"
+    },
+    "147": {
+      "title": "Automatic Scooter Cooling: Signs of Overheating",
+      "slug": "automatic-scooter-cooling-signs-of-overheating",
+      "source_hash": "b21de01aebfa375f2f06bb76468818233c02e2a8e32690a0d4046d909454619f",
+      "checked_at": "2026-10-21T15:43:00.577825+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 50
     }
   },
-  "updated_at": "2026-10-21T15:42:58.834113+00:00"
+  "updated_at": "2026-10-21T15:43:00.577834+00:00"
 }
