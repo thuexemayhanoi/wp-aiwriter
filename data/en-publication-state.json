@@ -478,11 +478,13 @@
       "title": "Hanoi to Ninh Binh and Back in One Day: A Realistic Motorbike Itinerary",
       "slug": "hanoi-ninh-binh-one-day-motorbike-itinerary",
       "source_hash": "7b11ba33869f1b1d0718702e61eabe4e93388cd0ef227a026a4b977a172fd288",
-      "checked_at": "2026-10-21T04:20:18.894125+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T04:20:22.700157+00:00",
+      "phase": "VERIFIED",
       "category_id": 54,
-      "wp_id": 1938
+      "wp_id": 1938,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/hanoi-ninh-binh-one-day-motorbike-itinerary/"
     }
   },
-  "updated_at": "2026-10-21T04:20:18.894143+00:00"
+  "updated_at": "2026-10-21T04:20:22.700176+00:00"
 }
