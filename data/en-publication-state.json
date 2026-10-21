@@ -709,10 +709,11 @@
       "title": "How to Handle Stop-and-Go Traffic on a Semi-Automatic Bike",
       "slug": "how-to-handle-stop-and-go-traffic-on-a-semi-automatic-bike",
       "source_hash": "641f0609cbf4ad7bfd37918bef831aedce232b5298ef82fcb11806724b812fc5",
-      "checked_at": "2026-10-21T14:32:09.792654+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 49
+      "checked_at": "2026-10-21T14:32:11.914521+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 49,
+      "wp_id": 1980
     }
   },
-  "updated_at": "2026-10-21T14:32:09.792663+00:00"
+  "updated_at": "2026-10-21T14:32:11.914539+00:00"
 }
