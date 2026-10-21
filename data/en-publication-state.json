@@ -869,7 +869,15 @@
       "wp_id": 2008,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/safely-parking-a-semi-automatic-motorbike-on-a-slope/"
+    },
+    "71": {
+      "title": "Riding a Semi-Automatic Bike in Heavy Hanoi Rain",
+      "slug": "riding-a-semi-automatic-bike-in-heavy-hanoi-rain",
+      "source_hash": "3ea3e2e130242a7d987a238cfa7adf70cf70791a8a267d8829cfb5812e237042",
+      "checked_at": "2026-10-21T14:42:56.013108+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 49
     }
   },
-  "updated_at": "2026-10-21T14:41:03.368030+00:00"
+  "updated_at": "2026-10-21T14:42:56.013121+00:00"
 }
