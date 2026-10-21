@@ -1743,11 +1743,13 @@
       "title": "Comparing Two Used Scooters before Accepting a Rental",
       "slug": "comparing-two-used-scooters-before-accepting-a-rental",
       "source_hash": "4014151ee7a6f469297b18644c3b829461dc70f1b1a5cbfaba8d05fc6f314402",
-      "checked_at": "2026-10-21T15:48:19.255653+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:48:23.579100+00:00",
+      "phase": "VERIFIED",
       "category_id": 50,
-      "wp_id": 2168
+      "wp_id": 2168,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/comparing-two-used-scooters-before-accepting-a-rental/"
     }
   },
-  "updated_at": "2026-10-21T15:48:19.255670+00:00"
+  "updated_at": "2026-10-21T15:48:23.579118+00:00"
 }
