@@ -1028,10 +1028,11 @@
       "title": "How to Read a Honda Wave Tyre Size and Pressure Label",
       "slug": "how-to-read-a-honda-wave-tyre-size-and-pressure-label",
       "source_hash": "650b07a37c670346b17a486fc619afdf3a5ca5b080c0ff822a01ac0f49be2d42",
-      "checked_at": "2026-10-21T14:57:17.709263+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 66
+      "checked_at": "2026-10-21T14:57:20.721419+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 66,
+      "wp_id": 2038
     }
   },
-  "updated_at": "2026-10-21T14:57:17.709275+00:00"
+  "updated_at": "2026-10-21T14:57:20.721437+00:00"
 }
