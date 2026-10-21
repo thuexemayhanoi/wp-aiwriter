@@ -2425,10 +2425,11 @@
       "title": "Choosing a 50cc Bike with a Comfortable Riding Position",
       "slug": "choosing-a-50cc-bike-with-a-comfortable-riding-position",
       "source_hash": "d63e7eca4600809edefb5ab33b597d530e4a1aea7c1e202d877801299ac29eef",
-      "checked_at": "2026-10-21T16:05:01.969262+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 51
+      "checked_at": "2026-10-21T16:05:04.575403+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 51,
+      "wp_id": 2292
     }
   },
-  "updated_at": "2026-10-21T16:05:01.969271+00:00"
+  "updated_at": "2026-10-21T16:05:04.575423+00:00"
 }
