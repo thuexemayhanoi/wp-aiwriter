@@ -467,11 +467,13 @@
       "title": "Electric Bikes in Hanoi: Rules, Speed Limits and Where You Can Ride",
       "slug": "electric-bikes-in-hanoi-rules",
       "source_hash": "acf497ca70fbcebf928a47ceaf3410b5339612b8880d4746f420fb5cac3c3fbb",
-      "checked_at": "2026-10-21T04:19:13.275225+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T04:19:17.222177+00:00",
+      "phase": "VERIFIED",
       "category_id": 52,
-      "wp_id": 1936
+      "wp_id": 1936,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/electric-bikes-in-hanoi-rules/"
     }
   },
-  "updated_at": "2026-10-21T04:19:13.275241+00:00"
+  "updated_at": "2026-10-21T04:19:17.222193+00:00"
 }
