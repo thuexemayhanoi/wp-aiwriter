@@ -3811,10 +3811,11 @@
       "title": "Hanoi to Ecopark by Scooter: Roads and Parking",
       "slug": "hanoi-to-ecopark-by-scooter-roads-and-parking",
       "source_hash": "b2aa8efd3a004b685239d040b3dd5fcc9de7dfd81343485a01158dc7dc0b5477",
-      "checked_at": "2026-10-21T16:41:12.591809+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 54
+      "checked_at": "2026-10-21T16:41:14.874086+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 54,
+      "wp_id": 2544
     }
   },
-  "updated_at": "2026-10-21T16:41:12.591817+00:00"
+  "updated_at": "2026-10-21T16:41:14.874103+00:00"
 }
