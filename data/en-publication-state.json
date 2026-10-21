@@ -1606,7 +1606,15 @@
       "wp_id": 2142,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/honda-wave-storage-options-when-renting-without-a-top-box/"
+    },
+    "103": {
+      "title": "Should You Rent a Manual Bike for Touring Outside Hanoi?",
+      "slug": "should-you-rent-a-manual-bike-for-touring-outside-hanoi",
+      "source_hash": "adcb75abe0c03d4cf2980d563becc9379485d2dc78ba457db667897942dcefc4",
+      "checked_at": "2026-10-21T15:45:28.191386+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 49
     }
   },
-  "updated_at": "2026-10-21T15:45:26.737866+00:00"
+  "updated_at": "2026-10-21T15:45:28.191397+00:00"
 }
