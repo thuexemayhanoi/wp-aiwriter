@@ -2238,10 +2238,11 @@
       "title": "What to Do If a 50cc Rental Breaks Down",
       "slug": "what-to-do-if-a-50cc-rental-breaks-down",
       "source_hash": "3e8912cbe383f2714c4f3419686b283dca330ef64757706ebd6048ecd3065182",
-      "checked_at": "2026-10-21T16:00:38.789047+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 51
+      "checked_at": "2026-10-21T16:00:41.539600+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 51,
+      "wp_id": 2258
     }
   },
-  "updated_at": "2026-10-21T16:00:38.789063+00:00"
+  "updated_at": "2026-10-21T16:00:41.539643+00:00"
 }
