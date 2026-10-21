@@ -649,7 +649,15 @@
       "wp_id": 1968,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/honda-wave-gears-starting-shifting-and-stopping-smoothly/"
+    },
+    "54": {
+      "title": "Can a New Rider Learn Semi-Automatic Shifting in Hanoi Traffic?",
+      "slug": "can-a-new-rider-learn-semi-automatic-shifting-in-hanoi-traffic",
+      "source_hash": "66abb631a526dbc1e97fe2d6ffb9d599f4fa5c71bd761994a6367921d60421c1",
+      "checked_at": "2026-10-21T14:30:55.549903+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 49
     }
   },
-  "updated_at": "2026-10-21T14:30:53.417388+00:00"
+  "updated_at": "2026-10-21T14:30:55.549911+00:00"
 }
