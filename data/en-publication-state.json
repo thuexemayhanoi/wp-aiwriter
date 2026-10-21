@@ -1012,7 +1012,15 @@
       "wp_id": 2034,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/small-engine-manual-bikes-for-rural-roads-near-hanoi/"
+    },
+    "89": {
+      "title": "Manual Bikes and Steep Mountain Roads: When to Choose Another Vehicle",
+      "slug": "manual-bikes-and-steep-mountain-roads-when-to-choose-another-vehicle",
+      "source_hash": "2607747ddb74efc28a7f39d77add797df0bacda56ffbe0223277ac3d955e8704",
+      "checked_at": "2026-10-21T14:52:42.826844+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 49
     }
   },
-  "updated_at": "2026-10-21T14:52:40.847137+00:00"
+  "updated_at": "2026-10-21T14:52:42.826879+00:00"
 }
