@@ -3630,7 +3630,15 @@
       "wp_id": 2510,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-handle-parking-near-major-hanoi-hospitals/"
+    },
+    "330": {
+      "title": "Hanoi Shopping Centres by Scooter: Ticketed Parking Basics",
+      "slug": "hanoi-shopping-centres-by-scooter-ticketed-parking-basics",
+      "source_hash": "e5a270f8600ec4495cce3b28ade115507e57a2053083328a89d9ab5a6877d7af",
+      "checked_at": "2026-10-21T16:35:47.940032+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 53
     }
   },
-  "updated_at": "2026-10-21T16:35:45.588831+00:00"
+  "updated_at": "2026-10-21T16:35:47.940040+00:00"
 }
