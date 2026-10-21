@@ -2392,11 +2392,13 @@
       "title": "How to Estimate Travel Time Conservatively on a 50cc Moped",
       "slug": "how-to-estimate-travel-time-conservatively-on-a-50cc-moped",
       "source_hash": "42f6d94d80326ec89f6facbc0f536951ebc0e01b70c4b7f294d6c76be9db62b5",
-      "checked_at": "2026-10-21T16:04:22.633286+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:04:27.606672+00:00",
+      "phase": "VERIFIED",
       "category_id": 51,
-      "wp_id": 2286
+      "wp_id": 2286,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-estimate-travel-time-conservatively-on-a-50cc-moped/"
     }
   },
-  "updated_at": "2026-10-21T16:04:22.633310+00:00"
+  "updated_at": "2026-10-21T16:04:27.606693+00:00"
 }
