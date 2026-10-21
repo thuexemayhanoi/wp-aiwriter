@@ -1738,7 +1738,15 @@
       "wp_id": 2166,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/what-a-premium-scooter-rental-actually-adds/"
+    },
+    "155": {
+      "title": "Comparing Two Used Scooters before Accepting a Rental",
+      "slug": "comparing-two-used-scooters-before-accepting-a-rental",
+      "source_hash": "4014151ee7a6f469297b18644c3b829461dc70f1b1a5cbfaba8d05fc6f314402",
+      "checked_at": "2026-10-21T15:48:11.963995+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 50
     }
   },
-  "updated_at": "2026-10-21T15:48:10.483332+00:00"
+  "updated_at": "2026-10-21T15:48:11.964004+00:00"
 }
