@@ -3624,10 +3624,11 @@
       "title": "How to Handle Parking near Major Hanoi Hospitals",
       "slug": "how-to-handle-parking-near-major-hanoi-hospitals",
       "source_hash": "2ef1a6752c3f1ad1c094da65debf1af0edcc5f00c71d60d0d15b0ef6b20a2349",
-      "checked_at": "2026-10-21T16:35:28.162895+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 53
+      "checked_at": "2026-10-21T16:35:31.261667+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 53,
+      "wp_id": 2510
     }
   },
-  "updated_at": "2026-10-21T16:35:28.162903+00:00"
+  "updated_at": "2026-10-21T16:35:31.261686+00:00"
 }
