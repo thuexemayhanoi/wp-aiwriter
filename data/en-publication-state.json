@@ -2975,11 +2975,13 @@
       "title": "Electric Scooter Storage during an Extended Rental",
       "slug": "electric-scooter-storage-during-an-extended-rental",
       "source_hash": "7b30a5f11b9c082a346f4ce9566fafa1c5cb658015bc34d82d919742133a6829",
-      "checked_at": "2026-10-21T16:18:47.469644+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:18:52.566932+00:00",
+      "phase": "VERIFIED",
       "category_id": 52,
-      "wp_id": 2392
+      "wp_id": 2392,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/electric-scooter-storage-during-an-extended-rental/"
     }
   },
-  "updated_at": "2026-10-21T16:18:47.469666+00:00"
+  "updated_at": "2026-10-21T16:18:52.566952+00:00"
 }
