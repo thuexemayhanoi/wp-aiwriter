@@ -3861,7 +3861,15 @@
       "wp_id": 2552,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/hanoi-to-hoa-binh-city-by-motorbike-rider-preparation/"
+    },
+    "351": {
+      "title": "Hanoi to Kim Boi by Motorcycle: Hot Springs and Road Conditions",
+      "slug": "hanoi-to-kim-boi-by-motorcycle-hot-springs-and-road-conditions",
+      "source_hash": "1f18eaa6c2d79378874223bbbfaa8eee2423bf4f377f937bdeba6d5aa1e268a6",
+      "checked_at": "2026-10-21T16:42:33.183771+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 54
     }
   },
-  "updated_at": "2026-10-21T16:42:28.916082+00:00"
+  "updated_at": "2026-10-21T16:42:33.183779+00:00"
 }
