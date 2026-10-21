@@ -3828,7 +3828,15 @@
       "wp_id": 2546,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/hanoi-to-hung-yen-by-motorbike-what-to-plan/"
+    },
+    "348": {
+      "title": "Hanoi to Thai Nguyen by Motorbike: Road Choices",
+      "slug": "hanoi-to-thai-nguyen-by-motorbike-road-choices",
+      "source_hash": "7f4719b061a4864d1a54a07bde07d6e2305241e0c8d2ee73b5ead75fb85c7d80",
+      "checked_at": "2026-10-21T16:41:43.731554+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 54
     }
   },
-  "updated_at": "2026-10-21T16:41:41.964201+00:00"
+  "updated_at": "2026-10-21T16:41:43.731563+00:00"
 }
