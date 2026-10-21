@@ -1930,10 +1930,11 @@
       "title": "What a 50cc Scooter Can and Cannot Carry Comfortably",
       "slug": "what-a-50cc-scooter-can-and-cannot-carry-comfortably",
       "source_hash": "fbb43412bde4f61b2311c897c4fc56c5ce7281c1bb7e498cab130c2e5f6109ba",
-      "checked_at": "2026-10-21T15:52:22.308507+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 51
+      "checked_at": "2026-10-21T15:52:25.674241+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 51,
+      "wp_id": 2202
     }
   },
-  "updated_at": "2026-10-21T15:52:22.308518+00:00"
+  "updated_at": "2026-10-21T15:52:25.674259+00:00"
 }
