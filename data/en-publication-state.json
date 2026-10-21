@@ -3410,7 +3410,15 @@
       "wp_id": 2470,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/nhat-tan-bridge-approaches-what-motorbike-riders-should-check/"
+    },
+    "310": {
+      "title": "Long Bien Bridge Area: Where a Scooter Can Legally Travel",
+      "slug": "long-bien-bridge-area-where-a-scooter-can-legally-travel",
+      "source_hash": "ce1056e4c8cb1ae384139424b13e852564a63abdc234e49d37b6d33254b8a73e",
+      "checked_at": "2026-10-21T16:29:59.214995+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 62
     }
   },
-  "updated_at": "2026-10-21T16:29:57.259526+00:00"
+  "updated_at": "2026-10-21T16:29:59.215004+00:00"
 }
