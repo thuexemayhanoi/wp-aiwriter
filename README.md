@@ -10,6 +10,9 @@
 
 **EN quick-start:** `python scripts/en_writer_brief.py --limit 3` prints the next three safe *research candidates* with exact source title, locked slug, EN taxonomy parents, search intent, source priority and unchanged QA rules. It is read-only, needs no AI/API keys and does not verify live WordPress or publish. Check `docs/EN_478_AI_PLAYBOOK.md` before writing.
 
+**EN publishing policy (21 October 2026):** The `--limit 3` selector produces **research suggestions only**, not a publishing cap. Every EN manuscript passing QA >=85, word minimum, factual/duplicate/taxonomy guards and live WordPress checks is eligible for continuous automatic publication; no three-post approval cycle. `en/publication-policy.json` has no `batch_size` or `max_batches_per_run`. The serialized EN publisher preserves `POST_INTENT`/`VERIFIED` receipts and resumes between GitHub runner windows. The Vietnamese/Excel publisher below remains a **separate workflow**.
+
+
 ## Zero wait after QA PASS
 
 1. An active Claude / ChatGPT Work / Gemini writer or person writes `posts/NNNN.md` using the exact Excel `matrix_id`, `title`, `category_path`, `ready: true`, and original, verified Vietnamese prose.

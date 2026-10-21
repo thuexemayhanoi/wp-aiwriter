@@ -1,4 +1,4 @@
-# English title-plan queue — 478 unpublished topic IDs (2026-10-20)
+# English title-plan queue — fixed 478-topic cohort (baseline 2026-10-20)
 
 > **AI ENTRYPOINT:** [`docs/EN_478_AI_PLAYBOOK.md`](EN_478_AI_PLAYBOOK.md) is the single A–Z instruction and restart guide. It is referenced from `README.md`, `AGENTS.md` and `CLAUDE.md`. Use GitHub CSV for planning/approval, `en/topics.json` for publisher metadata, the EN ledger for VERIFIED, and `docs/EN_WRITER_CHECKPOINT.md` for handoff. Google Sheets/Excel does not automatically sync to this repo.
 
@@ -29,7 +29,7 @@
 3. Research search intent thoroughly, validate facts with sources (especially legal content), check title + semantic overlap against existing EN posts, approved EN pages, 500-topic matrix and live WordPress. Working-title extensions may be generic; **they are candidates, not editorially approved headlines**.
 4. Mark only reviewed, genuinely unique headings as `title_approval=APPROVED`; run `python scripts/en_title_plan.py --apply-approved` to synchronise those approved, *unwritten, unledgered* titles into `en/topics.json`. This preserves original ID, slug, category, published legacy posts and 500-topic count. Inspect the diff and commit.
 5. Write `en/posts/NNNN.md` using **the exact now-synchronised title, slug and category ID from `en/topics.json`**. English prose only; 1,600–5,000 words for new work; QA >=85, sources, internal links and fact-checks. Never write a proposal title as a post before synchronisation.
-6. Existing `EN Writer QA` then `EN Publisher` handles QA → draft → VI/EN registration → publish → live readback; respect `en/publication-policy.json` limits (3 per run) and any required next-batch approval. When publisher verifies an item, ledger is authority; a stale CSV status does not trigger republishing.
+6. Existing `EN Writer QA` then `EN Publisher` handles QA → draft → VI/EN registration → publish → live readback. **Owner update 2026-10-21:** no EN article/batch-count limit or next-three approval. All eligible manuscripts pass full QA and WordPress gates; the publisher resumes across runner time windows. `--next 3` remains an **editorial research preview only**. Only the live-verified `VERIFIED` ledger establishes a publication, never a stale CSV status.
 
 **Non-negotiable:** Do not edit any Vietnamese content, menu, categories, canonical, slug or sitemap; no API-based AI writing, no mass automatic publication, no overwrites. Do not change a post with any ledger entry or existing manuscript. Never silently change a category to fit a topic. The 35 group labels in the CSV are topical descriptions, not WordPress taxonomy IDs.
 

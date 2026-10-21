@@ -1,5 +1,8 @@
 # EN 500 — Editorial rollout and QA contract (20 Oct 2026)
 
+> **CURRENT POLICY UPDATE (21 Oct 2026):** The disabled-policy and 9-post figures below are **historical launch snapshots**, not current state. The pilot is finished. The owner authorised `enabled=true, mode=batch` without `batch_size` or `max_batches_per_run`. The EN Publisher continuously processes eligible manuscripts (resuming on GitHub runner time cutoff), without approval per group of 3. QA >=85, 1,600–5,000 words for new/revised posts, WordPress gates and immutable EN ledger remain mandatory.
+
+
 **WordPress:** https://blog.rentbikehanoi.com/  
 **Repository:** `thuexemayhanoi/wp-aiwriter`  
 **Theme/SEO routing:** `thuexemayhanoi/wordpress-theme`, VI/EN Core 0.5.2, Yoast SEO.
@@ -27,7 +30,7 @@ At the time of this plan:
 
 1. **Preflight**: Back up WordPress; inspect the live VI/EN REST status, homepage `/` and `/en/`, category registrations, reserved URL collisions, published English pages and true page pairs; ensure GitHub publisher has valid existing WordPress credentials. Do not replace Vietnamese URLs, metadata or taxonomy.
 2. **Pilot**: After all rollout checks pass, let the existing autopilot turn on the policy and publish only IDs 1–3. For legal topics (notably #1), verify law citations against current official sources **before publishing**, regardless of mechanical QA. Independently verify all three public pages, self-canonicals, `lang=en-US`, no `noindex`, correct EN category and the Yoast sitemap.
-3. **Scale up only on success**: Change the existing policy to `mode=batch` and increase `batch_size` in stages 3 → 10 → 20 once the previous stage has zero unresolved publish/SEO errors. No new GitHub workflow is required; do not schedule runs just to make green statuses.
+3. **Continuous publishing after successful pilot (current)**: `mode=batch` is enabled and article-count/batch-count limits have been removed. After push QA success, the serialized EN Publisher handles all eligible manuscripts, enforces every existing gate, checkpoints before WordPress writes and safely dispatches continuation near the GitHub runner deadline. The old 3 → 10 → 20 staging recommendation was superseded by owner approval on 2026-10-21.
 4. **Writers**: Research and write small original English batches under `en/posts/NNNN.md`, with exact topic ID/title/slug/category, `ready: true`, appropriate independent English title and meta description, current sources for legal/safety claims, no unsupported numbers and non-duplicated search intent. Prefer source-backed original explanations and internal links to already-live `/en/` pages. A candidate in `en/topics.json` is **not** QA-approved content and should be researched and pruned/merged if it collides with another intent before drafting.
 5. **Create-only release**: Successful EN Writer QA triggers the current EN Publisher. No blind retry after an unknown POST; preserve `POST_INTENT`, `VERIFY_PENDING` and any existing WordPress post ID. Stop on authentication, sitemap, canonical, collision or taxonomy errors and repair the exact cause. Count only WordPress-verified `publish` articles toward 500.
 6. **Completion**: Stop English publication at 500 verified unique EN posts (not 500 planned topics). Report `planned`, `authored`, `QA PASS`, `VERIFIED`, `duplicates`, `blocked`, `remaining`. Continue protecting existing Vietnamese articles, all original slugs and the Yoast `sitemap_index.xml`.

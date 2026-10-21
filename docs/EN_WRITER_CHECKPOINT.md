@@ -1,5 +1,8 @@
 # EN WRITER RELEASE CHECKPOINT — 2026-10-21 · IDs 16, 19, 20 · 3/3 VERIFIED
 
+> **CURRENT EN POLICY OVERRIDE (21 Oct 2026):** `batch_size` and `max_batches_per_run` were removed from `en/publication-policy.json`, `scripts/en_engine.py` and `.github/workflows/en-publisher.yml`. Every manuscript that passes all English QA/Gates enters the serialized, uncapped publishing queue, with safe checkpoint/continuation near runner time limits. The older three-post approval notes below document history **only**. For live progress consult `data/en-publication-state.json` + live WordPress, not historical numbers.
+
+
 > Verified release receipt. On resume, read the current ledger and WordPress before trusting these counts; never retry a published or unresolved post.
 
 - Scope: EN only → `https://blog.rentbikehanoi.com/en/`. Repo HEAD before: `26af875`; source commit `9d730ddc57ccdac4804bdee502c9c05e03244b2f`; QA run `39540805667`; publisher run `39540863786` (success).

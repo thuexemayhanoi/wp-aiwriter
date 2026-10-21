@@ -63,7 +63,7 @@ Description 110–175 characters (−10 missing, −5 length), **hard minimum 1,
 1. Runs after a successful push-triggered `EN Writer QA` on `main`, manually, or started live by the `EN autopilot` once
    its rollout pass verified; writes only with `--live` **and** `enabled: true` in the policy. It drains all QA-ready
    English manuscripts without a numeric cap; on a GitHub runner time cutoff it checkpoints and dispatches the next serialized run.
-2. Gate: `GET /wp-json/nh-vien/v1/status` must say `live: true` and list every needed English category (46–56) as
+2. Gate: `GET /wp-json/nh-vien/v1/status` must say `live: true` and list every needed English category (including EN terms 46–56 and 60–69 where needed) as
    registered; otherwise BLOCKED with zero writes.
 3. For each eligible article (no duplicate title/slug/marker in WordPress, no unresolved ledger phase): POST_INTENT →
    create as **draft** (`categories: [leaf]`, excerpt = description, `meta.nh_summary`, `meta.nh_content_updated`, marker
