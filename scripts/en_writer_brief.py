@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Read-only, English-only brief for the next three unclaimed WP-AIWriter topics.
+"""Read-only, English-only brief for up to ten unclaimed WP-AIWriter topics.
 
 No API calls, WordPress writes, article generation, title approval or file mutation.
 This packet is a *research plan*, not QA PASS or a publishing authorisation.
@@ -37,9 +37,9 @@ def category_chain(term_id, categories):
     return list(reversed(chain))
 
 
-def build_packet(limit=3):
-    if not 1 <= limit <= 3:
-        raise ValueError("One editorial batch must contain 1 to 3 topics")
+def build_packet(limit=10):
+    if not 1 <= limit <= 10:
+        raise ValueError("One editorial batch must contain 1 to 10 topics")
     rows, topics, ledger = en_title_plan.check()
     nav = json.loads(NAV.read_text(encoding="utf-8"))
     policy = json.loads(POLICY.read_text(encoding="utf-8"))
@@ -54,7 +54,7 @@ def build_packet(limit=3):
         "repo": "thuexemayhanoi/wp-aiwriter",
         "target_site": EN_URL,
         "live_wordpress_verified": False,
-        "note": "The ledger and taxonomy snapshot are local GitHub data; recheck WordPress live before writing.",
+        "note": "Canonical en/topics.json titles are ready for writing. GitHub EN Publisher performs live WordPress duplicate, route, taxonomy and readback checks before publication.",
         "snapshot_date": nav.get("snapshot_date", "unknown"),
         "campaign": {"original_topic_ids": 500, "original_cohort": 478,
                      "verified_by_local_ledger": published,
@@ -80,6 +80,8 @@ def build_packet(limit=3):
             "source_title_en": source["title"],
             "proposed_title_en": item["proposed_title_en"],
             "title_approval": item["title_approval"],
+            "canonical_title_status": "READY_TO_WRITE",
+            "proposal_review_required": False,
             "write_with_title": source["title"],
             "article_path": f"en/posts/{topic_id:04d}.md",
             "slug_locked": source["slug"],
@@ -93,10 +95,9 @@ def build_packet(limit=3):
                                    else "FIRST_PARTY_AND_RELIABLE_SOURCES"),
             "legal_qa_hard_gate": legal_hard_gate,
             "blockers_before_write": [
-                "Recheck live WP titles, drafts, slug, actual term/ancestors and overlapping intent",
-                "Review the proposed title; sync an approved change to en/topics.json BEFORE writing",
-                "Resolve missing or changed taxonomy rather than inventing a term",
-                "Keep all existing English and Vietnamese published URLs untouched",
+                "Skip claimed or ledgered IDs; refresh the packet before another writing batch",
+                "Research topic accuracy and distinct search intent; keep canonical title, slug and category",
+                "Do not write if actual WordPress taxonomy conflict has been discovered; publisher verifies live",
             ],
             "fixed_metadata": {"en_id": topic_id, "slug": source["slug"], "category_id": term_id},
         })
@@ -108,13 +109,14 @@ def markdown(packet):
     lines = [
         "# EN writer packet — next " + str(len(packet["topics"])) + " candidates",
         "",
-        "**READ ONLY — this does not claim a row, research the web, run QA or publish.**",
-        "**Live WordPress checks are NOT completed by this packet.**",
+        "**READ ONLY — does not claim a row, research, QA or publish.**",
+        "**Canonical en/topics.json title is READY now; Excel proposal review is OPTIONAL.**",
+        "**Live WordPress duplicate, taxonomy, URL and readback checks run in the EN Publisher.**",
         "",
         f"- Repository: `{packet['repo']}` · destination: `{packet['target_site']}`",
         f"- Ledger: {packet['campaign']['verified_by_local_ledger']} EN VERIFIED; {packet['campaign']['remaining_in_original_cohort_by_local_ledger']} originally planned EN IDs not represented in the local ledger.",
         f"- Unchanged hard gates: QA >= {q['minimum_score']}; {q['minimum_words']}–{q['maximum_words']} English words; EN publisher drains every QA-passing manuscript without a count cap.",
-        "- Research using current sources; follow docs/EN_478_AI_PLAYBOOK.md and docs/MENU_TAXONOMY_MAP_VI_EN.md.",
+        "- Fast EN instructions: docs/EN_FAST_WRITER.md; consult full mapping docs only for exceptions.",
         "- Never turn spreadsheet row numbers or `excel-` into WordPress slugs. Never change the VI pipeline.",
         "",
     ]
@@ -126,8 +128,8 @@ def markdown(packet):
             f"## EN-{topic['topic_id']:04d}: {topic['source_title_en']}",
             "",
             f"- Canonical title for manuscript NOW: **{topic['write_with_title']}**",
-            f"- 60–80-character title proposal: **{topic['proposed_title_en']}**",
-            f"- Editorial title status: `{topic['title_approval']}` — proposal is NOT publishable metadata until approved and synced.",
+            f"- Optional Excel headline suggestion: {topic['proposed_title_en']} (proposal status: {topic['title_approval']}; IGNORE unless changing canonical title).",
+            "- CAN WRITE NOW using canonical title. No editorial approval/synchronization required for unchanged title.",
             f"- Exact GitHub file: `{topic['article_path']}`",
             f"- Locked slug: `{topic['slug_locked']}`",
             f"- Expected permalink: {topic['expected_url']}",
@@ -136,30 +138,46 @@ def markdown(packet):
             f"- Keywords in original source: {', '.join(topic['keywords_from_source']) or '(research required)'}",
             f"- Source research priority: **{topic['research_priority']}**",
             "",
-            "**Before writing:** Check this title, URL, WP drafts, taxonomy and intent on LIVE WordPress; research factual and legal claims with dates, and use the real business facts from `en/business.json`.",
+            "**Before writing:** Confirm ID remains unclaimed in GitHub; research factual/legal claims using reliable sources and `en/business.json`. EN Publisher separately checks live WordPress before creating anything.",
             "",
         ]
     lines += [
         "## Publish-only-after-QA procedure",
         "",
-        "1. Use the exact original `en/topics.json` title/slug/category, or approve and synchronise a revised title before authoring.",
+        "1. Use the existing `en/topics.json` title/slug/category without approval. Optional headline changes are a separate, explicitly reviewed process.",
         "2. Write 1,600–5,000 original English words with strong headings, FAQ, sources and genuine EN internal links. Do not copy Vietnamese articles.",
-        "3. Run `python scripts/en_title_plan.py --check`, `python -m unittest discover -s tests -v`, `python scripts/en_engine.py --mode qa` and dry-run `python scripts/en_engine.py --mode sync`.",
+        "3. Run `python scripts/en_engine.py --mode qa` on manuscripts before push. GitHub Actions runs title-plan validation, regression tests and the live Publisher automatically after a green push.",
         f"4. QA >= {q['minimum_score']} is necessary but not sufficient: verify no duplicates, lawful routes, accurate dated facts, category and WordPress readiness.",
         "5. Push reviewed files to GitHub; trust `data/en-publication-state.json` VERIFIED + WP readback before marking published. Do not retry uncertain POSTs.",
-        "6. Record the last verified ID and URL in `docs/EN_WRITER_CHECKPOINT.md`, then rerun this command to obtain a new packet.",
+        "6. Confirm WordPress URLs from the publisher ledger, then obtain the next unclaimed packet. Add a short checkpoint after meaningful completed work, not after every single article.",
         "",
     ]
     return "\n".join(lines)
 
 
+def compact(packet):
+    """Token-efficient canonical writing queue; no optional headline review steps."""
+    lines = [
+        f"# EN READY: {len(packet['topics'])} candidates | ledger VERIFIED: {packet['campaign']['verified_by_local_ledger']}",
+        "Use en/topics.json titles EXACTLY; QA >=76 + hard gates; publish via existing EN Actions.",
+        "ID | CANONICAL TITLE | TERM | SLUG | LEGAL RESEARCH",
+    ]
+    for t in packet["topics"]:
+        lines.append(
+            f"{t['topic_id']:04d} | {t['write_with_title']} | {t['category_id']} "
+            f"| {t['slug_locked']} | {t['research_priority']}"
+        )
+    return "\n".join(lines)
+
+
 def main():
     parser = argparse.ArgumentParser(description="Produce an English-only, read-only next-batch writer brief")
-    parser.add_argument("--limit", type=int, default=3, help="1–3 read-only research candidates per packet; NOT a publishing limit")
-    parser.add_argument("--format", choices=["markdown", "json"], default="markdown")
+    parser.add_argument("--limit", type=int, default=10, help="1–10 read-only research candidates per packet; NOT a publishing limit")
+    parser.add_argument("--format", choices=["markdown", "json", "compact"], default="compact")
     args = parser.parse_args()
     packet = build_packet(args.limit)
-    print(json.dumps(packet, ensure_ascii=False, indent=2) if args.format == "json" else markdown(packet))
+    print(json.dumps(packet, ensure_ascii=False, indent=2) if args.format == "json" else
+          markdown(packet) if args.format == "markdown" else compact(packet))
 
 
 if __name__ == "__main__":

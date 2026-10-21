@@ -1,0 +1,22 @@
+# EN FAST WRITER — Nguyễn Hà /wp-aiwriter (owner-approved 21 Oct 2026)
+
+**Use this one-page path for ordinary EN article authoring.** Older three-post/title-proposal approval instructions in longer historical playbooks are superseded here. Scope: `https://blog.rentbikehanoi.com/en/` ONLY. Do not touch VI, Nguyễn Tú, published EN URLs, menus, categories, Yoast, or canonical tags.
+
+## Source of truth; no duplicate title review loop
+
+- `en/topics.json` is the **already approved canonical metadata** for 500 stable IDs. Use its exact `title`, `slug`, `category_id`. **No per-title approval, CSV sync, 60–80-character expansion or manual "APPROVED" flag is needed** when keeping that title.
+- `en/title-plan-478.csv` is an **optional title idea sheet**. Its `title_approval=NEEDS_EDITORIAL_REVIEW` applies ONLY to the optional suggested replacement headline; it does **not** block writing with the canonical title. An unsynced proposal is not a writer failure. Changes to canonical title are exceptional and use the opt-in `--apply-approved` route **only for unpublished/unwritten IDs**, with independent review; never modify published slugs.
+- `data/en-publication-state.json` + `en/posts/NNNN.md` decide which IDs remain. Never write an ID with any ledger phase, existing manuscript, or parallel writer claim. The English Publisher independently verifies WordPress inventory (including drafts), language, category, canonical and ledger before reporting `VERIFIED`. Do not claim success on push alone.
+
+## Normal 5–10 article workflow
+
+1. Fetch latest `main` and run `python scripts/en_writer_brief.py --limit 10 --format compact`. The script reads the CSV, source topics, ledger and taxonomy snapshot; no need to manually open all 478 CSV rows or the entire 500-topic JSON. For full per-topic research context use `--format json`. Refresh the queue when another AI has pushed. Do not use the historical three-ID packet.
+2. Select only unclaimed IDs. Write **original useful English prose** `en/posts/NNNN.md`, `ready: true`, with exact `en_id/title/slug/category_id` from the packet/source and unique description. **1,600–5,000 words**, one distinct intent, direct answer, H2 sections, FAQ when useful, credible dated facts, genuinely useful EN internal links. `en/business.json` is the only business facts source: **Nguyễn Hà**, not Nguyễn Tú.
+3. Check important factual/legal claims in current reputable/official sources. Legal topics need official source in `## Sources` and effective date. Do not invent prices, laws, times, personal experience or routes; no keyword stuffing or thin city-swaps. For uncertain taxonomy, source drift, or potential overlapping intent, inspect `docs/MENU_TAXONOMY_MAP_VI_EN.md`, `data/navigation-map.json` and live WP; do not change structure to make a post fit.
+4. Run `python scripts/en_engine.py --mode qa`. Repair failures before push; QA **76–100 PASS**, **0–75 FAIL**, and all hard gates remain mandatory. **Avoid manually running the entire regression suite for each manuscript**: GitHub EN Writer QA runs the unit suite, CSV check and full QA after push. Only run full local regression tests when changing scripts/policies/tests.
+5. Commit the small set of QA-ready EN Markdown files and push to `main`. The existing green EN Writer QA triggers the serialized EN Publisher automatically; there is **no publish count cap** and no manual three-post approval. The publisher rechecks live WP before writing and records `POST_INTENT → DRAFT_CREATED → REGISTERED → VERIFY_PENDING → VERIFIED`. On failure/uncertain POST, stop and reconcile; NEVER force duplicate publishing.
+6. Confirm every new post in `data/en-publication-state.json` with `VERIFIED`, WP ID and real `/en/<slug>/` URL. Record a short checkpoint once per successful batch or notable blocker, then immediately pick the next available batch.
+
+**No AI authoring automation:** GitHub Actions publishes existing text, but does not write the remaining English articles. An active AI writer must create the Markdown manuscripts and push them. Use the full [EN A–Z playbook](EN_478_AI_PLAYBOOK.md) only for edge cases and editorial changes, not as a repeated ten-file startup checklist.
+
+**Safe throughput:** choose 5–10 individually researched articles per active writer pass; do not sacrifice accuracy to meet a batch count. Do not lower the hard gates, reset ledger, or modify previously verified WordPress content.

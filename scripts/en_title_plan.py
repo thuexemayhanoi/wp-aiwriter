@@ -24,7 +24,8 @@ def check():
     rows, topics, ledger = load()
     if len(rows) != 478 or len({x["topic_id"] for x in rows}) != 478:
         raise ValueError("Plan must contain 478 unique stable English topic IDs")
-    proposals = set()
+    # The 478 spreadsheet proposals are advisory. Canonical en/topics.json titles are
+    # already eligible; validating optional headline lengths must never stall writing.
     for row in rows:
         i = int(row["topic_id"])
         topic = topics.get(i)
@@ -37,13 +38,8 @@ def check():
             raise ValueError(f"Existing English source title drift at {i}; investigate before writing")
         if str(topic["category_id"]) != row["category_id"] or topic["slug"] != row["slug_locked"]:
             raise ValueError(f"Source category/slug drift at {i}; stop")
-        name = row["planned_title_en"].strip()
-        if not 60 <= len(name) <= 80:
-            raise ValueError(f"Title at {i} has {len(name)} chars, expected 60–80")
-        norm = re.sub(r"[^a-z0-9]+", " ", name.lower()).strip()
-        if norm in proposals:
-            raise ValueError(f"Duplicate planned English title at {i}")
-        proposals.add(norm)
+        # An imperfect or duplicated OPTIONAL proposal does not block canonical
+        # manuscript creation. apply_approved() validates proposals that are used.
         if str(i) in ledger:
             # A previously queued post may have published since the plan was generated.
             # Do not rewrite, remove or re-publish it.
@@ -51,7 +47,9 @@ def check():
                 raise ValueError(f"Unrecognised publication phase at {i}")
     return rows, topics, ledger
 
-def pending(limit=3):
+def pending(limit=10):
+    if not 1 <= limit <= 10:
+        raise ValueError("English writer preview limit must be 1 to 10")
     rows, topics, ledger = check()
     result = []
     for row in rows:
@@ -62,7 +60,11 @@ def pending(limit=3):
                        "category_en": row["category_en"], "subject_cluster_en": row["subject_cluster_en"],
                        "source_title_en": row["existing_title_en"],
                        "proposed_title_en": row["planned_title_en"], "locked_slug": row["slug_locked"],
-                       "title_approval": row["title_approval"], "status": "RESEARCH_NOT_STARTED"})
+                       "title_approval": row["title_approval"],
+                       "canonical_title": topics[i]["title"],
+                       "canonical_ready": True,
+                       "proposal_optional": True,
+                       "status": "READY_TO_WRITE_CANONICAL"})
         if len(result) >= limit:
             break
     return result
@@ -79,7 +81,10 @@ def apply_approved():
         i = int(row["topic_id"])
         if str(i) in ledger or (POSTS / f"{i:04}.md").exists():
             raise ValueError(f"Refuse change to authored / ledger topic ID {i}")
-        if index[i]["title"] == row["planned_title_en"]:
+        candidate = row["planned_title_en"].strip()
+        if not 60 <= len(candidate) <= 80:
+            raise ValueError(f"Approved title at {i} needs 60–80 characters")
+        if index[i]["title"] == candidate:
             continue  # An earlier approved batch was already synced; keep it unchanged.
         if index[i]["title"] != row["existing_title_en"]:
             raise ValueError(f"Source title drift at {i}")
@@ -99,12 +104,14 @@ def main():
     if args.apply_approved:
         print(json.dumps({"synchronised_en_titles": apply_approved()}))
     elif args.next is not None:
-        print(json.dumps({"english_only": True, "queue": pending(max(1, args.next))}, ensure_ascii=False, indent=2))
+        print(json.dumps({"english_only": True, "queue": pending(args.next)}, ensure_ascii=False, indent=2))
     else:
         count = sum(1 for r in rows if str(r["topic_id"]) in ledger)
         print(json.dumps({"english_only": True, "plan_rows": len(rows), "covered_by_ledger": count,
                           "unsynced_title_candidates": sum(r["planned_title_en"] != r["existing_title_en"] for r in rows),
-                          "ready_for_writing": "ONLY AFTER English title QA and topic sync", "source": str(PLAN.relative_to(ROOT))}))
+                          "ready_for_writing": "YES_WITH_CANONICAL_EN_TOPICS_TITLE; proposals optional",
+                          "proposal_review_is_not_a_blocker": True,
+                          "source": str(PLAN.relative_to(ROOT))}))
 
 if __name__ == "__main__":
     main()

@@ -1,4 +1,4 @@
-"""Regression tests for the zero-write English next-three research packet."""
+"""Regression tests for the zero-write English ten-topic canonical writing packet."""
 import json
 import pathlib
 import sys
@@ -14,12 +14,12 @@ class EnWriterBrief(unittest.TestCase):
         original_topics = (ROOT / "en" / "topics.json").read_bytes()
         original_ledger = (ROOT / "data" / "en-publication-state.json").read_bytes()
         original_csv = (ROOT / "en" / "title-plan-478.csv").read_bytes()
-        packet = en_writer_brief.build_packet(3)
+        packet = en_writer_brief.build_packet(10)
         ledger = json.loads(original_ledger)["posts"]
         source = {int(x["id"]): x for x in json.loads(original_topics)}
         self.assertEqual(packet["mode"], "READ_ONLY_EN_EDITORIAL_BRIEF")
         self.assertFalse(packet["live_wordpress_verified"])
-        self.assertLessEqual(len(packet["topics"]), 3)
+        self.assertLessEqual(len(packet["topics"]), 10)
         self.assertGreaterEqual(len(packet["topics"]), 1)
         self.assertEqual(len({p["topic_id"] for p in packet["topics"]}), len(packet["topics"]))
         for item in packet["topics"]:
@@ -27,6 +27,8 @@ class EnWriterBrief(unittest.TestCase):
             self.assertNotIn(str(i), ledger)
             self.assertFalse((ROOT / item["article_path"]).exists())
             self.assertEqual(item["write_with_title"], source[i]["title"])
+            self.assertEqual(item["canonical_title_status"], "READY_TO_WRITE")
+            self.assertFalse(item["proposal_review_required"])
             self.assertEqual(item["slug_locked"], source[i]["slug"])
             self.assertEqual(item["category_id"], source[i]["category_id"])
             self.assertEqual(item["category_ancestors_from_snapshot"][-1]["term_id"], item["category_id"])
@@ -45,18 +47,22 @@ class EnWriterBrief(unittest.TestCase):
         self.assertTrue(packet["quality_gate"]["continuous_publishing"])
         self.assertNotIn("batch_size", packet["quality_gate"])
         self.assertNotIn("max_batches_per_run", policy)
-        with self.assertRaisesRegex(ValueError, "1 to 3"):
-            en_writer_brief.build_packet(4)
+        self.assertLessEqual(len(en_writer_brief.build_packet(10)["topics"]), 10)
+        with self.assertRaisesRegex(ValueError, "1 to 10"):
+            en_writer_brief.build_packet(11)
         with self.assertRaises(ValueError):
             en_writer_brief.build_packet(0)
 
     def test_legal_source_warning_and_markdown(self):
         packet = en_writer_brief.build_packet(3)
         rendered = en_writer_brief.markdown(packet)
-        self.assertIn("LIVE WordPress", rendered)
+        self.assertIn("Live WordPress", rendered)
+        self.assertIn("CAN WRITE NOW", rendered)
+        self.assertIn("CANONICAL TITLE", en_writer_brief.compact(packet))
         self.assertIn("QA >= 76", rendered)
-        self.assertIn("data/en-publication-state.json", rendered)
+        self.assertIn("ledger VERIFIED:", en_writer_brief.compact(packet))
         self.assertNotIn("ready: true", rendered)
+        self.assertNotIn("review the proposed title before writing", rendered.lower())
         for topic in packet["topics"]:
             self.assertIn(topic["source_title_en"], rendered)
             if topic["legal_qa_hard_gate"]:
