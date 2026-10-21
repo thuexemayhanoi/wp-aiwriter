@@ -3976,10 +3976,11 @@
       "title": "Hanoi to Van Long Nature Reserve on Two Wheels",
       "slug": "hanoi-to-van-long-nature-reserve-on-two-wheels",
       "source_hash": "c4f5f2a20ee5627312be4810069d6c1d10b301ce669b832637a2095634c00ca5",
-      "checked_at": "2026-10-21T16:45:24.933241+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 54
+      "checked_at": "2026-10-21T16:45:28.006874+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 54,
+      "wp_id": 2575
     }
   },
-  "updated_at": "2026-10-21T16:45:24.933250+00:00"
+  "updated_at": "2026-10-21T16:45:28.006891+00:00"
 }
