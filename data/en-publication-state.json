@@ -1193,11 +1193,13 @@
       "title": "Honda Click vs Honda Vision for Short Hanoi Rentals",
       "slug": "honda-click-vs-honda-vision-for-short-hanoi-rentals",
       "source_hash": "8dbd7522cac21c07bddadc88d0fd34bb0e9c7f0867307517bfe2b5208fbbf42c",
-      "checked_at": "2026-10-21T15:34:23.923698+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:34:28.667632+00:00",
+      "phase": "VERIFIED",
       "category_id": 50,
-      "wp_id": 2068
+      "wp_id": 2068,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/honda-click-vs-honda-vision-for-short-hanoi-rentals/"
     }
   },
-  "updated_at": "2026-10-21T15:34:23.923714+00:00"
+  "updated_at": "2026-10-21T15:34:28.667648+00:00"
 }
