@@ -885,10 +885,11 @@
       "title": "Choosing Tyres for a Manual Bike Rental in Wet Weather",
       "slug": "choosing-tyres-for-a-manual-bike-rental-in-wet-weather",
       "source_hash": "ea4804e51a828c2092cfc894a876873ac0cf41159151bc76cb25857974cf4e98",
-      "checked_at": "2026-10-21T14:43:10.614870+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 49
+      "checked_at": "2026-10-21T14:43:13.224408+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 49,
+      "wp_id": 2012
     }
   },
-  "updated_at": "2026-10-21T14:43:10.614880+00:00"
+  "updated_at": "2026-10-21T14:43:13.224423+00:00"
 }
