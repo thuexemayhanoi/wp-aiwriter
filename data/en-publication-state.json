@@ -2343,7 +2343,15 @@
       "wp_id": 2276,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/50cc-petrol-bike-versus-electric-moped-what-changes/"
+    },
+    "210": {
+      "title": "How to Check a 50cc Bike's Mirrors and Horn",
+      "slug": "how-to-check-a-50cc-bikes-mirrors-and-horn",
+      "source_hash": "fd3b2640548eafbe81f6afa5584e970e361bac10743d26272b99d9d49768c204",
+      "checked_at": "2026-10-21T16:03:09.863034+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 66
     }
   },
-  "updated_at": "2026-10-21T16:03:08.049447+00:00"
+  "updated_at": "2026-10-21T16:03:09.863042+00:00"
 }
