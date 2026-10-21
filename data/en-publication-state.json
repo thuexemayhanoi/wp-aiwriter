@@ -2766,11 +2766,13 @@
       "title": "Checking Tyres on an Electric Moped Rental",
       "slug": "checking-tyres-on-an-electric-moped-rental",
       "source_hash": "5bace6258c99a04601b7747ac7bee4bfa4048f7c6cfa2d878692407f88664c13",
-      "checked_at": "2026-10-21T16:13:55.558938+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:14:00.672998+00:00",
+      "phase": "VERIFIED",
       "category_id": 52,
-      "wp_id": 2354
+      "wp_id": 2354,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/checking-tyres-on-an-electric-moped-rental/"
     }
   },
-  "updated_at": "2026-10-21T16:13:55.558959+00:00"
+  "updated_at": "2026-10-21T16:14:00.673018+00:00"
 }
