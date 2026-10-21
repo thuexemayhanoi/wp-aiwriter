@@ -4312,7 +4312,15 @@
       "wp_id": 2635,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/returning-to-hanoi-from-the-countryside-in-afternoon-traffic/"
+    },
+    "393": {
+      "title": "How to Book a Hanoi Motorbike Rental on WhatsApp",
+      "slug": "how-to-book-a-hanoi-motorbike-rental-on-whatsapp",
+      "source_hash": "c76566e7ad3358494f0de98fa404cf15b76ed6045a914f8112c6b91d8845974e",
+      "checked_at": "2026-10-21T16:53:52.032198+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 55
     }
   },
-  "updated_at": "2026-10-21T16:53:50.393621+00:00"
+  "updated_at": "2026-10-21T16:53:52.032208+00:00"
 }
