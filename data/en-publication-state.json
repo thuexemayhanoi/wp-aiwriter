@@ -4174,11 +4174,11 @@
       "title": "Planning a Route with a Passenger and Luggage",
       "slug": "planning-a-route-with-a-passenger-and-luggage",
       "source_hash": "dba678fe7df73a0c5a897c06320d154e0915318406e8482cc808f8e7f8dedc7e",
-      "checked_at": "2026-10-21T16:50:30.753311+00:00",
-      "phase": "REGISTERED",
+      "checked_at": "2026-10-21T16:50:33.369756+00:00",
+      "phase": "VERIFY_PENDING",
       "category_id": 54,
       "wp_id": 2611
     }
   },
-  "updated_at": "2026-10-21T16:50:30.753331+00:00"
+  "updated_at": "2026-10-21T16:50:33.369776+00:00"
 }
