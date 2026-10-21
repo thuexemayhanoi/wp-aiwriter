@@ -786,11 +786,13 @@
       "title": "Checking Chain Tension Before a Longer Ride",
       "slug": "checking-chain-tension-before-a-longer-ride",
       "source_hash": "0c8953194291ee2d46b37cc5911131ca4c1a0d085168be8d4a2da8828ed56b46",
-      "checked_at": "2026-10-21T14:35:13.869459+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T14:35:18.361532+00:00",
+      "phase": "VERIFIED",
       "category_id": 66,
-      "wp_id": 1994
+      "wp_id": 1994,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/checking-chain-tension-before-a-longer-ride/"
     }
   },
-  "updated_at": "2026-10-21T14:35:13.869477+00:00"
+  "updated_at": "2026-10-21T14:35:18.361550+00:00"
 }
