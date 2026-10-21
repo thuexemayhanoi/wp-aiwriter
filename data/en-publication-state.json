@@ -1963,11 +1963,13 @@
       "title": "How 50cc Scooters Accelerate in Heavy Traffic",
       "slug": "how-50cc-scooters-accelerate-in-heavy-traffic",
       "source_hash": "06c455f84dc44bb808933e75f02ed5a8ead50ff3cd18f5ae80d3edbc09976b2a",
-      "checked_at": "2026-10-21T15:53:26.378976+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:53:30.982385+00:00",
+      "phase": "VERIFIED",
       "category_id": 51,
-      "wp_id": 2208
+      "wp_id": 2208,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-50cc-scooters-accelerate-in-heavy-traffic/"
     }
   },
-  "updated_at": "2026-10-21T15:53:26.378994+00:00"
+  "updated_at": "2026-10-21T15:53:30.982405+00:00"
 }
