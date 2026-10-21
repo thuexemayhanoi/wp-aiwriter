@@ -1930,11 +1930,13 @@
       "title": "What a 50cc Scooter Can and Cannot Carry Comfortably",
       "slug": "what-a-50cc-scooter-can-and-cannot-carry-comfortably",
       "source_hash": "fbb43412bde4f61b2311c897c4fc56c5ce7281c1bb7e498cab130c2e5f6109ba",
-      "checked_at": "2026-10-21T15:52:30.869101+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:52:37.123254+00:00",
+      "phase": "VERIFIED",
       "category_id": 51,
-      "wp_id": 2202
+      "wp_id": 2202,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/what-a-50cc-scooter-can-and-cannot-carry-comfortably/"
     }
   },
-  "updated_at": "2026-10-21T15:52:30.869120+00:00"
+  "updated_at": "2026-10-21T15:52:37.123273+00:00"
 }
