@@ -4284,11 +4284,13 @@
       "title": "Motorbike Navigation near Hanoi: Toll Roads and Detours",
       "slug": "motorbike-navigation-near-hanoi-toll-roads-and-detours",
       "source_hash": "b46523694451110d7f647320711050ac441dae06b2fdbeda30d355cd7b7e37b6",
-      "checked_at": "2026-10-21T16:53:14.864587+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:53:19.668221+00:00",
+      "phase": "VERIFIED",
       "category_id": 67,
-      "wp_id": 2631
+      "wp_id": 2631,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/motorbike-navigation-near-hanoi-toll-roads-and-detours/"
     }
   },
-  "updated_at": "2026-10-21T16:53:14.864608+00:00"
+  "updated_at": "2026-10-21T16:53:19.668238+00:00"
 }
