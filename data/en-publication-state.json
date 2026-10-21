@@ -1265,7 +1265,15 @@
       "wp_id": 2080,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/automatic-scooter-braking-front-and-rear-controls/"
+    },
+    "117": {
+      "title": "How to Start an Automatic Scooter without Confusing the Switches",
+      "slug": "how-to-start-an-automatic-scooter-without-confusing-the-switches",
+      "source_hash": "0bb0b042cd26db61ebf66e34822ffe5f919e606f5dd7f783af7db6ed2406ba5f",
+      "checked_at": "2026-10-21T15:36:05.367178+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 50
     }
   },
-  "updated_at": "2026-10-21T15:36:03.478640+00:00"
+  "updated_at": "2026-10-21T15:36:05.367188+00:00"
 }
