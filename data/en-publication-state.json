@@ -841,11 +841,13 @@
       "title": "Semi-Automatic Motorbike Dashboard Lights Explained",
       "slug": "semi-automatic-motorbike-dashboard-lights-explained",
       "source_hash": "7da83fe1af3be8e9fac373b235b1e8ca195a91a0e790e1213b32271d3752240b",
-      "checked_at": "2026-10-21T14:40:31.235755+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T14:40:35.115107+00:00",
+      "phase": "VERIFIED",
       "category_id": 49,
-      "wp_id": 2004
+      "wp_id": 2004,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/semi-automatic-motorbike-dashboard-lights-explained/"
     }
   },
-  "updated_at": "2026-10-21T14:40:31.235771+00:00"
+  "updated_at": "2026-10-21T14:40:35.115123+00:00"
 }
