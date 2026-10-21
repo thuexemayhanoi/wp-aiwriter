@@ -3795,7 +3795,15 @@
       "wp_id": 2540,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/hanoi-to-son-tay-on-two-wheels-a-leisurely-day-plan/"
+    },
+    "345": {
+      "title": "West Lake to Long Bien: An Urban Scenic Route",
+      "slug": "west-lake-to-long-bien-an-urban-scenic-route",
+      "source_hash": "e2472ee25268da1705c934dde202f33c169f6a66c096fd9b2723dcb19c00014d",
+      "checked_at": "2026-10-21T16:40:57.724967+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 54
     }
   },
-  "updated_at": "2026-10-21T16:40:56.009530+00:00"
+  "updated_at": "2026-10-21T16:40:57.724976+00:00"
 }
