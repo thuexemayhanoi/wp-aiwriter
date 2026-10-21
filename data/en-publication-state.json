@@ -3041,11 +3041,13 @@
       "title": "Understanding Battery Percentage versus Estimated Range",
       "slug": "understanding-battery-percentage-versus-estimated-range",
       "source_hash": "ccab7beb6dfa0657f532850f9c5e5e1e7350c5c0b0c0d58c5f26e30ebf009abd",
-      "checked_at": "2026-10-21T16:20:30.328937+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:20:36.671641+00:00",
+      "phase": "VERIFIED",
       "category_id": 52,
-      "wp_id": 2404
+      "wp_id": 2404,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/understanding-battery-percentage-versus-estimated-range/"
     }
   },
-  "updated_at": "2026-10-21T16:20:30.328957+00:00"
+  "updated_at": "2026-10-21T16:20:36.671662+00:00"
 }
