@@ -3316,11 +3316,13 @@
       "title": "Finding Parking near Hoa Lo Prison Museum",
       "slug": "finding-parking-near-hoa-lo-prison-museum",
       "source_hash": "8f44f459f391d3e3281da0b76a3017f818579a43ac2599507ca1208fd471a36d",
-      "checked_at": "2026-10-21T16:27:46.636940+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:27:51.748355+00:00",
+      "phase": "VERIFIED",
       "category_id": 53,
-      "wp_id": 2454
+      "wp_id": 2454,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/finding-parking-near-hoa-lo-prison-museum/"
     }
   },
-  "updated_at": "2026-10-21T16:27:46.636961+00:00"
+  "updated_at": "2026-10-21T16:27:51.748377+00:00"
 }
