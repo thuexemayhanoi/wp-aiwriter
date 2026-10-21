@@ -3091,7 +3091,15 @@
       "wp_id": 2412,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/planning-an-electric-bike-day-around-hanois-west-lake/"
+    },
+    "278": {
+      "title": "What an Electric Scooter Rental Contract Says about Batteries",
+      "slug": "what-an-electric-scooter-rental-contract-says-about-batteries",
+      "source_hash": "d7fc3995e60ab667135f65a243dfdd85a09c420d0feb2c69a6517fe451047ffb",
+      "checked_at": "2026-10-21T16:21:58.059771+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 52
     }
   },
-  "updated_at": "2026-10-21T16:21:56.030950+00:00"
+  "updated_at": "2026-10-21T16:21:58.059784+00:00"
 }
