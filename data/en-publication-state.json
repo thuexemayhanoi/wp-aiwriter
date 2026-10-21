@@ -4141,11 +4141,13 @@
       "title": "Motorbike Day Trips during Hanoi's Hot Season",
       "slug": "motorbike-day-trips-during-hanois-hot-season",
       "source_hash": "016772232d6e7103fe363c5d598a81b207033fc93e21e684c634ea9f83ae1cea",
-      "checked_at": "2026-10-21T16:49:47.058186+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:49:51.952084+00:00",
+      "phase": "VERIFIED",
       "category_id": 54,
-      "wp_id": 2605
+      "wp_id": 2605,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/motorbike-day-trips-during-hanois-hot-season/"
     }
   },
-  "updated_at": "2026-10-21T16:49:47.058205+00:00"
+  "updated_at": "2026-10-21T16:49:51.952104+00:00"
 }
