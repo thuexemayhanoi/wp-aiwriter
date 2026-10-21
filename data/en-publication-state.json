@@ -1133,7 +1133,15 @@
       "wp_id": 2056,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-notice-a-worn-chain-and-sprocket-set/"
+    },
+    "105": {
+      "title": "How to Compare Two Available Semi-Automatic Rental Bikes",
+      "slug": "how-to-compare-two-available-semi-automatic-rental-bikes",
+      "source_hash": "ffdade6ba12d4f10b082998b01a4d157c94f308c3072b8fc0eebe8d0559afc16",
+      "checked_at": "2026-10-21T15:33:00.960274+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 49
     }
   },
-  "updated_at": "2026-10-21T15:11:02.862386+00:00"
+  "updated_at": "2026-10-21T15:33:00.960287+00:00"
 }
