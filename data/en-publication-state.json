@@ -2497,7 +2497,15 @@
       "wp_id": 2304,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/what-questions-to-ask-before-booking-a-50cc-scooter/"
+    },
+    "224": {
+      "title": "How to Check a 50cc Bike's Headlight for Night Riding",
+      "slug": "how-to-check-a-50cc-bikes-headlight-for-night-riding",
+      "source_hash": "58191b46bb4a84d28b244237f795c5197fe47d714f7cb103eef86977373f15b0",
+      "checked_at": "2026-10-21T16:06:59.873990+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 51
     }
   },
-  "updated_at": "2026-10-21T16:06:57.018508+00:00"
+  "updated_at": "2026-10-21T16:06:59.873998+00:00"
 }
