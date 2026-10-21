@@ -1303,11 +1303,13 @@
       "title": "What Does a Worn Scooter Drive Belt Feel Like?",
       "slug": "what-does-a-worn-scooter-drive-belt-feel-like",
       "source_hash": "48daf9e17ed4082e1da3d537b8b88a83cb616d1fb8888c14776b0edfcf613197",
-      "checked_at": "2026-10-21T15:37:05.518286+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:37:10.328318+00:00",
+      "phase": "VERIFIED",
       "category_id": 50,
-      "wp_id": 2088
+      "wp_id": 2088,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/what-does-a-worn-scooter-drive-belt-feel-like/"
     }
   },
-  "updated_at": "2026-10-21T15:37:05.518303+00:00"
+  "updated_at": "2026-10-21T15:37:10.328334+00:00"
 }
