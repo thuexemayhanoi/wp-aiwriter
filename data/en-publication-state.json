@@ -1985,10 +1985,11 @@
       "title": "Can a Tourist Rent a 50cc Bike without an IDP?",
       "slug": "can-a-tourist-rent-a-50cc-bike-without-an-idp",
       "source_hash": "31c58e2b09f04e3c566389216a4cc47f0f596dd25f73e05c7597d7b96be45d5c",
-      "checked_at": "2026-10-21T15:53:51.333645+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 51
+      "checked_at": "2026-10-21T15:53:53.779343+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 51,
+      "wp_id": 2212
     }
   },
-  "updated_at": "2026-10-21T15:53:51.333654+00:00"
+  "updated_at": "2026-10-21T15:53:53.779362+00:00"
 }
