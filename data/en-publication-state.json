@@ -3536,10 +3536,11 @@
       "title": "Hanoi Weekend Walking Streets: Where to Leave Your Scooter",
       "slug": "hanoi-weekend-walking-streets-where-to-leave-your-scooter",
       "source_hash": "ef5e58fac70170e2f9b5472229c3f82f7d8382aebd47679884a6ecd7f8eadc74",
-      "checked_at": "2026-10-21T16:32:57.391155+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 53
+      "checked_at": "2026-10-21T16:33:00.960497+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 53,
+      "wp_id": 2494
     }
   },
-  "updated_at": "2026-10-21T16:32:57.391162+00:00"
+  "updated_at": "2026-10-21T16:33:00.960519+00:00"
 }
