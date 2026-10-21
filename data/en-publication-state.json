@@ -4499,7 +4499,15 @@
       "wp_id": 2669,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/choosing-a-rental-period-when-your-travel-plans-may-change/"
+    },
+    "410": {
+      "title": "How to Ask for an Extension on a Motorbike Rental",
+      "slug": "how-to-ask-for-an-extension-on-a-motorbike-rental",
+      "source_hash": "4cf1626077074f0d68a7ee6240c7d0c88226cdd05b1dd9af672b26e049c76dfe",
+      "checked_at": "2026-10-21T16:58:19.119176+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 55
     }
   },
-  "updated_at": "2026-10-21T16:58:17.552553+00:00"
+  "updated_at": "2026-10-21T16:58:19.119184+00:00"
 }
