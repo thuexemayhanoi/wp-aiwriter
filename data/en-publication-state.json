@@ -374,7 +374,15 @@
       "wp_id": 1918,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/hanoi-to-ha-giang-ride-or-rent-there/"
+    },
+    "26": {
+      "title": "Crossing Hanoi Intersections: How Traffic Actually Flows and How to Merge",
+      "slug": "crossing-hanoi-intersections",
+      "source_hash": "f9fe4a4851c7a8bc6a55ecba01c9c7b27e635c6a39d45c5553dcb2654997d116",
+      "checked_at": "2026-10-21T04:16:16.171110+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 56
     }
   },
-  "updated_at": "2026-10-21T04:16:14.572500+00:00"
+  "updated_at": "2026-10-21T04:16:16.171118+00:00"
 }
