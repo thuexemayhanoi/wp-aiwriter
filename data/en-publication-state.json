@@ -1699,10 +1699,11 @@
       "title": "Honda Vision for Hanoi Sightseeing: Pros and Limits",
       "slug": "honda-vision-for-hanoi-sightseeing-pros-and-limits",
       "source_hash": "005c6a55106e02f8105437e6403a3d926bab4e3b7337d2428cc187d4fab8d8c5",
-      "checked_at": "2026-10-21T15:47:17.419407+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 50
+      "checked_at": "2026-10-21T15:47:19.647497+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 50,
+      "wp_id": 2160
     }
   },
-  "updated_at": "2026-10-21T15:47:17.419417+00:00"
+  "updated_at": "2026-10-21T15:47:19.647516+00:00"
 }
