@@ -797,11 +797,13 @@
       "title": "What to Do If a Rental Motorbike Will Not Shift Gears",
       "slug": "what-to-do-if-a-rental-motorbike-will-not-shift-gears",
       "source_hash": "bd966176e98a7206af83cc5f1b68953b944b69d1c45a76294a7d6832ca3f8e89",
-      "checked_at": "2026-10-21T14:35:28.045297+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T14:35:32.576287+00:00",
+      "phase": "VERIFIED",
       "category_id": 49,
-      "wp_id": 1996
+      "wp_id": 1996,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/what-to-do-if-a-rental-motorbike-will-not-shift-gears/"
     }
   },
-  "updated_at": "2026-10-21T14:35:28.045314+00:00"
+  "updated_at": "2026-10-21T14:35:32.576304+00:00"
 }
