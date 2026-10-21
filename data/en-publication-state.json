@@ -4229,10 +4229,11 @@
       "title": "How to Compare a Northbound and Southbound Day Trip",
       "slug": "how-to-compare-a-northbound-and-southbound-day-trip",
       "source_hash": "6b528716e3e46c8a56cf5920908a321cb434d9ff20c7b5f1846235b192650103",
-      "checked_at": "2026-10-21T16:51:45.749353+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 54
+      "checked_at": "2026-10-21T16:51:48.163880+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 54,
+      "wp_id": 2621
     }
   },
-  "updated_at": "2026-10-21T16:51:45.749362+00:00"
+  "updated_at": "2026-10-21T16:51:48.163900+00:00"
 }
