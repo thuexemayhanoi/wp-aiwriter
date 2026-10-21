@@ -3685,7 +3685,15 @@
       "wp_id": 2520,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/exploring-the-ceramic-mosaic-mural-along-the-red-river/"
+    },
+    "335": {
+      "title": "Hanoi Rainy-Day Sightseeing: When to Leave the Bike Parked",
+      "slug": "hanoi-rainy-day-sightseeing-when-to-leave-the-bike-parked",
+      "source_hash": "254d5f2b470ad98b37fb9a628f60a558d6b1024b429def7da3d3076b87e38b13",
+      "checked_at": "2026-10-21T16:38:26.487042+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 53
     }
   },
-  "updated_at": "2026-10-21T16:38:24.473404+00:00"
+  "updated_at": "2026-10-21T16:38:26.487049+00:00"
 }
