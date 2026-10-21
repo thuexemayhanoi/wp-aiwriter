@@ -1875,11 +1875,13 @@
       "title": "50cc Motorbike versus 125cc Scooter: Which Rental Fits Your Trip?",
       "slug": "50cc-motorbike-versus-125cc-scooter-which-rental-fits-your-trip",
       "source_hash": "998a7697736a4402b4a2a2105542fc5aeef93432fa94001a31bce96629438a4c",
-      "checked_at": "2026-10-21T15:51:11.264134+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:51:16.765330+00:00",
+      "phase": "VERIFIED",
       "category_id": 51,
-      "wp_id": 2192
+      "wp_id": 2192,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/50cc-motorbike-versus-125cc-scooter-which-rental-fits-your-trip/"
     }
   },
-  "updated_at": "2026-10-21T15:51:11.264153+00:00"
+  "updated_at": "2026-10-21T15:51:16.765348+00:00"
 }
