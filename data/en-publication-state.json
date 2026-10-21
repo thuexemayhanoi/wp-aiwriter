@@ -495,7 +495,15 @@
       "wp_id": 1940,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/speed-limits-motorbikes-vietnam/"
+    },
+    "44": {
+      "title": "How to Pay for Fuel, Parking and Tolls as a Visitor in Hanoi",
+      "slug": "paying-fuel-parking-tolls-hanoi-visitor",
+      "source_hash": "1fef26e288f6ea3681b1925a44cff828f8b6ed0aa9853c728d046b83866a25b1",
+      "checked_at": "2026-10-21T04:20:34.787487+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 55
     }
   },
-  "updated_at": "2026-10-21T04:20:33.181432+00:00"
+  "updated_at": "2026-10-21T04:20:34.787496+00:00"
 }
