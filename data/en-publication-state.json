@@ -1083,10 +1083,11 @@
       "title": "How to Avoid Lurching When Changing Gears",
       "slug": "how-to-avoid-lurching-when-changing-gears",
       "source_hash": "a58b9fe4276fe51239bfc8ced32bcb8b1135ede8170382a51b8a049ddce399c3",
-      "checked_at": "2026-10-21T15:09:42.756877+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 49
+      "checked_at": "2026-10-21T15:09:45.196725+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 49,
+      "wp_id": 2048
     }
   },
-  "updated_at": "2026-10-21T15:09:42.756886+00:00"
+  "updated_at": "2026-10-21T15:09:45.196742+00:00"
 }
