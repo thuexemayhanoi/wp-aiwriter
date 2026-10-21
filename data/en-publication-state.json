@@ -2414,11 +2414,13 @@
       "title": "What a 50cc Rental Deposit Usually Covers",
       "slug": "what-a-50cc-rental-deposit-usually-covers",
       "source_hash": "34021153f7a5edf5bc1589de2f470ebf7569c03d04bdf9964cdfcdf5e27383d7",
-      "checked_at": "2026-10-21T16:04:54.900470+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:05:00.042209+00:00",
+      "phase": "VERIFIED",
       "category_id": 51,
-      "wp_id": 2290
+      "wp_id": 2290,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/what-a-50cc-rental-deposit-usually-covers/"
     }
   },
-  "updated_at": "2026-10-21T16:04:54.900490+00:00"
+  "updated_at": "2026-10-21T16:05:00.042229+00:00"
 }
