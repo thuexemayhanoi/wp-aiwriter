@@ -2172,11 +2172,13 @@
       "title": "Small Wheels on 50cc Scooters: Handling Potholes",
       "slug": "small-wheels-on-50cc-scooters-handling-potholes",
       "source_hash": "4be36912b70fadede53161024678ac2a5ce17037e0e5cdfe011dcbff528528a0",
-      "checked_at": "2026-10-21T15:58:13.089381+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:58:17.365657+00:00",
+      "phase": "VERIFIED",
       "category_id": 51,
-      "wp_id": 2246
+      "wp_id": 2246,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/small-wheels-on-50cc-scooters-handling-potholes/"
     }
   },
-  "updated_at": "2026-10-21T15:58:13.089400+00:00"
+  "updated_at": "2026-10-21T15:58:17.365676+00:00"
 }
