@@ -3938,7 +3938,15 @@
       "wp_id": 2567,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/can-you-reach-cat-ba-from-hanoi-with-a-rental-motorbike/"
+    },
+    "358": {
+      "title": "Hanoi to Cuc Phuong National Park by Motorbike",
+      "slug": "hanoi-to-cuc-phuong-national-park-by-motorbike",
+      "source_hash": "2fa298f1fe1bb99c1df1ca054ddd3c5afc259eb7fe59cfa71712d64b9bb95218",
+      "checked_at": "2026-10-21T16:44:35.579443+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 54
     }
   },
-  "updated_at": "2026-10-21T16:44:32.813109+00:00"
+  "updated_at": "2026-10-21T16:44:35.579452+00:00"
 }
