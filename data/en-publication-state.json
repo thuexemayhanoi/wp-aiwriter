@@ -1039,11 +1039,13 @@
       "title": "Riding a Manual Motorbike Through Standing Water",
       "slug": "riding-a-manual-motorbike-through-standing-water",
       "source_hash": "3c75ecbf51cf7d78ba60edbed27c5a361078cc892f95ef3ca0c01173cd9ef1cd",
-      "checked_at": "2026-10-21T14:57:45.006026+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T14:57:50.250899+00:00",
+      "phase": "VERIFIED",
       "category_id": 49,
-      "wp_id": 2040
+      "wp_id": 2040,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/riding-a-manual-motorbike-through-standing-water/"
     }
   },
-  "updated_at": "2026-10-21T14:57:45.006043+00:00"
+  "updated_at": "2026-10-21T14:57:50.250916+00:00"
 }
