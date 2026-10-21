@@ -1138,11 +1138,13 @@
       "title": "How to Compare Two Available Semi-Automatic Rental Bikes",
       "slug": "how-to-compare-two-available-semi-automatic-rental-bikes",
       "source_hash": "ffdade6ba12d4f10b082998b01a4d157c94f308c3072b8fc0eebe8d0559afc16",
-      "checked_at": "2026-10-21T15:33:08.338473+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:33:12.361553+00:00",
+      "phase": "VERIFIED",
       "category_id": 49,
-      "wp_id": 2058
+      "wp_id": 2058,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-compare-two-available-semi-automatic-rental-bikes/"
     }
   },
-  "updated_at": "2026-10-21T15:33:08.338488+00:00"
+  "updated_at": "2026-10-21T15:33:12.361571+00:00"
 }
