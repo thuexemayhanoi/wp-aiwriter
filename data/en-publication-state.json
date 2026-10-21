@@ -3283,11 +3283,13 @@
       "title": "Motorbike Parking near the Temple of Literature",
       "slug": "motorbike-parking-near-the-temple-of-literature",
       "source_hash": "6f33044ca6db514f652c74fedce56b3aaeb0615a02bf2c7aff4b4003b8569908",
-      "checked_at": "2026-10-21T16:26:56.685585+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:27:02.916036+00:00",
+      "phase": "VERIFIED",
       "category_id": 53,
-      "wp_id": 2448
+      "wp_id": 2448,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/motorbike-parking-near-the-temple-of-literature/"
     }
   },
-  "updated_at": "2026-10-21T16:26:56.685605+00:00"
+  "updated_at": "2026-10-21T16:27:02.916056+00:00"
 }
