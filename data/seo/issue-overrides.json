@@ -1,0 +1,4 @@
+{
+  "notes": "Optional human decisions per Issue Key from reports/seo-matrix.csv, e.g. {\"T-NOINDEX|post:123\": {\"status\": \"ACCEPTED\", \"note\": \"intentionally noindex\"}}. Allowed statuses: ACCEPTED, WONTFIX, IN_PROGRESS, FIXED_PENDING_VERIFY.",
+  "issues": {}
+}

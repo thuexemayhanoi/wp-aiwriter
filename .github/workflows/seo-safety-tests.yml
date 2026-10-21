@@ -1,0 +1,28 @@
+name: SEO Safety Regression Tests (read-only)
+on:
+  pull_request:
+    paths:
+      - 'seo/**'
+      - 'tests/test_seo_engine.py'
+      - '.github/workflows/approved-seo-fixes.yml'
+      - '.github/workflows/seo-safety-tests.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  regression:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compile Python safety code
+        run: python -m compileall -q seo tests
+      - name: Run publisher and SEO offline regressions (no WordPress credentials)
+        run: |
+          python -m pip install -r requirements.txt
+          python -m unittest discover -s tests -v
+      - name: Verify 336 article sources still pass QA (read-only)
+        run: python scripts/engine.py --mode qa

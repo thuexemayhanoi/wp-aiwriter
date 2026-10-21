@@ -1,0 +1,25 @@
+name: Technical SEO Audit (manual, read-only)
+on:
+  workflow_dispatch:
+    inputs:
+      full:
+        description: 'Re-crawl every URL (otherwise only changed/stale pages)'
+        type: boolean
+        default: true
+      pagespeed:
+        description: 'Query PageSpeed Insights (lab + CrUX field data)'
+        type: boolean
+        default: true
+permissions:
+  contents: write
+concurrency:
+  group: seo-engine-${{ github.ref_name }}
+  cancel-in-progress: false
+jobs:
+  technical:
+    uses: ./.github/workflows/seo-engine.yml
+    with:
+      label: technical
+      args: run --mode technical ${{ inputs.full && '--full' || '' }} ${{ inputs.pagespeed && '--psi' || '' }}
+    secrets:
+      PSI_API_KEY: ${{ secrets.PSI_API_KEY }}

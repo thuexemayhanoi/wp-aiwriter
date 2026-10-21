@@ -1,0 +1,46 @@
+name: SEO Matrix Report (weekly full audit, read-only)
+on:
+  schedule:
+    - cron: '47 20 * * 0'   # Sunday 20:47 UTC = Monday 03:47 Asia/Ho_Chi_Minh
+  workflow_dispatch:
+    inputs:
+      external_links:
+        description: 'Also check outbound links'
+        type: boolean
+        default: true
+      pagespeed:
+        description: 'Also query PageSpeed Insights for a few key URLs'
+        type: boolean
+        default: true
+  pull_request:
+    paths:
+      - 'seo/**'
+      - 'tests/test_seo_engine.py'
+      - 'data/seo/config.json'
+      - '.github/workflows/seo-*.yml'
+      - '.github/workflows/wordpress-content-sync.yml'
+      - '.github/workflows/technical-seo-audit.yml'
+      - '.github/workflows/internal-link-audit.yml'
+      - '.github/workflows/content-quality-audit.yml'
+      - '.github/workflows/aeo-geo-audit.yml'
+      - '.github/workflows/gsc-monitor.yml'
+      - '.github/workflows/approved-seo-fixes.yml'
+permissions:
+  contents: write
+concurrency:
+  group: seo-engine-${{ github.head_ref || github.ref_name }}
+  cancel-in-progress: false
+jobs:
+  matrix:
+    uses: ./.github/workflows/seo-engine.yml
+    with:
+      label: matrix
+      install_gsc: true
+      args: >-
+        run --full --mode matrix
+        ${{ (github.event_name != 'workflow_dispatch' || inputs.external_links) && '--external' || '' }}
+        ${{ (github.event_name != 'workflow_dispatch' || inputs.pagespeed) && '--psi' || '' }}
+    secrets:
+      GSC_SERVICE_ACCOUNT_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
+      GSC_PROPERTY: ${{ secrets.GSC_PROPERTY }}
+      PSI_API_KEY: ${{ secrets.PSI_API_KEY }}

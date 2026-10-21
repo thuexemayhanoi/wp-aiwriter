@@ -1,0 +1,14 @@
+name: Content Quality Audit (manual, read-only)
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: seo-engine-${{ github.ref_name }}
+  cancel-in-progress: false
+jobs:
+  content:
+    uses: ./.github/workflows/seo-engine.yml
+    with:
+      label: content-quality
+      args: run --no-crawl --mode content-quality
