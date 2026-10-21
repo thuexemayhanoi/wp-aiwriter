@@ -3844,10 +3844,11 @@
       "title": "Hanoi to Pho Yen by Scooter: Is It a Sensible Ride?",
       "slug": "hanoi-to-pho-yen-by-scooter-is-it-a-sensible-ride",
       "source_hash": "3bfd17f58dc2caf2ed179f0519bc7361c9d21c29d537182a04a72d3cad2fd7a4",
-      "checked_at": "2026-10-21T16:41:58.130771+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 54
+      "checked_at": "2026-10-21T16:42:00.321488+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 54,
+      "wp_id": 2550
     }
   },
-  "updated_at": "2026-10-21T16:41:58.130779+00:00"
+  "updated_at": "2026-10-21T16:42:00.321507+00:00"
 }
