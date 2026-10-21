@@ -3465,7 +3465,15 @@
       "wp_id": 2480,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/duong-lam-ancient-village-by-scooter-respecting-pedestrian-lanes/"
+    },
+    "315": {
+      "title": "Exploring Hanoi's French Quarter on a Scooter",
+      "slug": "exploring-hanois-french-quarter-on-a-scooter",
+      "source_hash": "52f287de5b117bc2f07166612f1c860e75e5473aaa37fd3b63afa70bcdd4cccf",
+      "checked_at": "2026-10-21T16:31:17.989876+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 53
     }
   },
-  "updated_at": "2026-10-21T16:31:16.157444+00:00"
+  "updated_at": "2026-10-21T16:31:17.989884+00:00"
 }
