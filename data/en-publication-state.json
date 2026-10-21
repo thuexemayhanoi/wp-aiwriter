@@ -1826,7 +1826,15 @@
       "wp_id": 2182,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/scooter-headlight-checks-for-evening-rentals/"
+    },
+    "163": {
+      "title": "What a Scooter's Dashboard Warning Lights Mean",
+      "slug": "what-a-scooters-dashboard-warning-lights-mean",
+      "source_hash": "d7c8e0eb9b24201966bed4540628c838b7ffa16d1af22a0901d2d4c7423c689b",
+      "checked_at": "2026-10-21T15:50:07.425115+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 50
     }
   },
-  "updated_at": "2026-10-21T15:50:05.758929+00:00"
+  "updated_at": "2026-10-21T15:50:07.425124+00:00"
 }
