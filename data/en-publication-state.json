@@ -1639,7 +1639,15 @@
       "wp_id": 2148,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/when-to-avoid-a-long-mountain-route-on-an-automatic-scooter/"
+    },
+    "141": {
+      "title": "How to Recognise Scooter Vibration that Needs Inspection",
+      "slug": "how-to-recognise-scooter-vibration-that-needs-inspection",
+      "source_hash": "73b22847b6cda5b3f98efa1f79542186f2679c26d505d405dae36c57b16c4a14",
+      "checked_at": "2026-10-21T15:46:10.792115+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 50
     }
   },
-  "updated_at": "2026-10-21T15:46:09.264591+00:00"
+  "updated_at": "2026-10-21T15:46:10.792124+00:00"
 }
