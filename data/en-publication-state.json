@@ -4257,7 +4257,15 @@
       "wp_id": 2625,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-plan-a-motorbike-trip-with-limited-fuel-range/"
+    },
+    "388": {
+      "title": "Riding beyond Hanoi: Rental Permission and Contract Limits",
+      "slug": "riding-beyond-hanoi-rental-permission-and-contract-limits",
+      "source_hash": "f500cb2ff73bf005083965523e090ffae4f26314c75d52d7d8d013dc27cf6ca0",
+      "checked_at": "2026-10-21T16:52:37.149812+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 54
     }
   },
-  "updated_at": "2026-10-21T16:52:34.876224+00:00"
+  "updated_at": "2026-10-21T16:52:37.149821+00:00"
 }
