@@ -1903,7 +1903,15 @@
       "wp_id": 2196,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-confirm-a-rental-bike-is-legally-in-the-moped-class/"
+    },
+    "170": {
+      "title": "Cub 50cc versus 50cc Automatic Scooter for City Riding",
+      "slug": "cub-50cc-versus-50cc-automatic-scooter-for-city-riding",
+      "source_hash": "ddc558f8632dc881668e76e7fca3549aee48eb63fd171afd1590659502429f55",
+      "checked_at": "2026-10-21T15:51:50.771147+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 51
     }
   },
-  "updated_at": "2026-10-21T15:51:47.043358+00:00"
+  "updated_at": "2026-10-21T15:51:50.771156+00:00"
 }
