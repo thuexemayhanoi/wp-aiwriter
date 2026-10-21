@@ -390,11 +390,13 @@
       "title": "Hanoi Motorbike Rental Contract: What the Clauses Mean",
       "slug": "hanoi-motorbike-rental-contract-explained",
       "source_hash": "8ca0799980e3afbf44dce8a0b08630e7f647b49e55d44c4d1656258665a27052",
-      "checked_at": "2026-10-21T04:16:35.471986+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T04:16:39.412359+00:00",
+      "phase": "VERIFIED",
       "category_id": 55,
-      "wp_id": 1922
+      "wp_id": 1922,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/hanoi-motorbike-rental-contract-explained/"
     }
   },
-  "updated_at": "2026-10-21T04:16:35.472010+00:00"
+  "updated_at": "2026-10-21T04:16:39.412377+00:00"
 }
