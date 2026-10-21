@@ -643,11 +643,13 @@
       "title": "Honda Wave Gears: Starting, Shifting and Stopping Smoothly",
       "slug": "honda-wave-gears-starting-shifting-and-stopping-smoothly",
       "source_hash": "d1ecc83afef4f24c90fa392f7a8a2d30ecb6654644a9cdd76925bad2d665a1a3",
-      "checked_at": "2026-10-21T14:30:48.799627+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T14:30:53.417368+00:00",
+      "phase": "VERIFIED",
       "category_id": 49,
-      "wp_id": 1968
+      "wp_id": 1968,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/honda-wave-gears-starting-shifting-and-stopping-smoothly/"
     }
   },
-  "updated_at": "2026-10-21T14:30:48.799646+00:00"
+  "updated_at": "2026-10-21T14:30:53.417388+00:00"
 }
