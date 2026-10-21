@@ -2403,11 +2403,13 @@
       "title": "Returning a Cub 50cc: Condition and Fuel Checklist",
       "slug": "returning-a-cub-50cc-condition-and-fuel-checklist",
       "source_hash": "66adfdabb134908ee3ced7eef380eedef25732348bf64ea9941080f981ee4ca1",
-      "checked_at": "2026-10-21T16:04:37.880538+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:04:43.634153+00:00",
+      "phase": "VERIFIED",
       "category_id": 51,
-      "wp_id": 2288
+      "wp_id": 2288,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/returning-a-cub-50cc-condition-and-fuel-checklist/"
     }
   },
-  "updated_at": "2026-10-21T16:04:37.880559+00:00"
+  "updated_at": "2026-10-21T16:04:43.634173+00:00"
 }
