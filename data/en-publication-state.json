@@ -2315,11 +2315,13 @@
       "title": "50cc Rental for a Short Visit to Long Bien",
       "slug": "50cc-rental-for-a-short-visit-to-long-bien",
       "source_hash": "c1fde8679bbc6f772ab425a5bc3242897734e07493f62d6397c659203d7acdbb",
-      "checked_at": "2026-10-21T16:02:32.205363+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:02:38.155938+00:00",
+      "phase": "VERIFIED",
       "category_id": 51,
-      "wp_id": 2272
+      "wp_id": 2272,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/50cc-rental-for-a-short-visit-to-long-bien/"
     }
   },
-  "updated_at": "2026-10-21T16:02:32.205384+00:00"
+  "updated_at": "2026-10-21T16:02:38.155959+00:00"
 }
