@@ -632,11 +632,13 @@
       "title": "Charging an Electric Scooter in Hanoi: Hotels, Swap Stations and Timing",
       "slug": "charging-an-electric-scooter-in-hanoi",
       "source_hash": "c78bd14654d597b49a8303cdb25f60c0430a1de471b3e7aa71ad7ab1387d1739",
-      "checked_at": "2026-10-21T14:30:33.975854+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T14:30:38.591751+00:00",
+      "phase": "VERIFIED",
       "category_id": 52,
-      "wp_id": 1966
+      "wp_id": 1966,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/charging-an-electric-scooter-in-hanoi/"
     }
   },
-  "updated_at": "2026-10-21T14:30:33.975875+00:00"
+  "updated_at": "2026-10-21T14:30:38.591772+00:00"
 }
