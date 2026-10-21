@@ -2865,10 +2865,11 @@
       "title": "Helmet Rules for Different Electric Two-Wheeler Classes",
       "slug": "helmet-rules-for-different-electric-two-wheeler-classes",
       "source_hash": "7bb1cd1754ad170f10bf2e68d0817f4b1f90d5365194e5f0965c6b2aacbf2cdc",
-      "checked_at": "2026-10-21T16:15:57.956873+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 52
+      "checked_at": "2026-10-21T16:16:00.317217+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 52,
+      "wp_id": 2372
     }
   },
-  "updated_at": "2026-10-21T16:15:57.956882+00:00"
+  "updated_at": "2026-10-21T16:16:00.317237+00:00"
 }
