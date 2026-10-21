@@ -1292,11 +1292,11 @@
       "title": "Automatic Scooter Tyre Checks before a Daily Rental",
       "slug": "automatic-scooter-tyre-checks-before-a-daily-rental",
       "source_hash": "697ddb0ae88ce024827ec85fe6deae122ca34799a16788c85a3d468548c281bb",
-      "checked_at": "2026-10-21T15:36:46.237302+00:00",
-      "phase": "REGISTERED",
+      "checked_at": "2026-10-21T15:36:49.218815+00:00",
+      "phase": "VERIFY_PENDING",
       "category_id": 66,
       "wp_id": 2086
     }
   },
-  "updated_at": "2026-10-21T15:36:46.237317+00:00"
+  "updated_at": "2026-10-21T15:36:49.218831+00:00"
 }
