@@ -2475,7 +2475,15 @@
       "wp_id": 2300,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/when-to-choose-walking-or-public-transport-over-a-50cc-rental/"
+    },
+    "222": {
+      "title": "How to Photograph a 50cc Bike's Condition at Pickup",
+      "slug": "how-to-photograph-a-50cc-bikes-condition-at-pickup",
+      "source_hash": "59817b1fe5d87181871e744462969358910cd9b065956f0e19b91431d38f61f3",
+      "checked_at": "2026-10-21T16:06:26.186050+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 51
     }
   },
-  "updated_at": "2026-10-21T16:06:24.066670+00:00"
+  "updated_at": "2026-10-21T16:06:26.186059+00:00"
 }
