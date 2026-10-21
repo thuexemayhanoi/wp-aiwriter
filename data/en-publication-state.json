@@ -3591,10 +3591,11 @@
       "title": "West Lake Sunset by Scooter without Blocking the Waterfront",
       "slug": "west-lake-sunset-by-scooter-without-blocking-the-waterfront",
       "source_hash": "ea7d2ec2e72baecdce6d2e3e9ccc6c6b94a710d2b610ae2b83468d450776d946",
-      "checked_at": "2026-10-21T16:34:34.167028+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 53
+      "checked_at": "2026-10-21T16:34:36.575578+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 53,
+      "wp_id": 2504
     }
   },
-  "updated_at": "2026-10-21T16:34:34.167036+00:00"
+  "updated_at": "2026-10-21T16:34:36.575597+00:00"
 }
