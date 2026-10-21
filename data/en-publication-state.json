@@ -489,11 +489,13 @@
       "title": "Speed Limits for Motorbikes in Vietnam: City, Rural and Expressway Rules",
       "slug": "speed-limits-motorbikes-vietnam",
       "source_hash": "a897d7d65654b77b696989e56c12c534246a13388bbc08fff1c99c9dc0dc5852",
-      "checked_at": "2026-10-21T04:20:29.633871+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T04:20:33.181411+00:00",
+      "phase": "VERIFIED",
       "category_id": 56,
-      "wp_id": 1940
+      "wp_id": 1940,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/speed-limits-motorbikes-vietnam/"
     }
   },
-  "updated_at": "2026-10-21T04:20:29.633889+00:00"
+  "updated_at": "2026-10-21T04:20:33.181432+00:00"
 }
