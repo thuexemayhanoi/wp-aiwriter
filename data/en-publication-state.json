@@ -3118,10 +3118,11 @@
       "title": "Electric Bike Luggage Limits and Safe Storage",
       "slug": "electric-bike-luggage-limits-and-safe-storage",
       "source_hash": "81383252c767b24b3ece01eccbb0b0fc6ce845fc0aa903b4465d9c073a722dd5",
-      "checked_at": "2026-10-21T16:22:33.292074+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 52
+      "checked_at": "2026-10-21T16:22:36.085779+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 52,
+      "wp_id": 2418
     }
   },
-  "updated_at": "2026-10-21T16:22:33.292081+00:00"
+  "updated_at": "2026-10-21T16:22:36.085799+00:00"
 }
