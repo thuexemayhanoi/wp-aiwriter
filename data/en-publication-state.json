@@ -1749,7 +1749,15 @@
       "wp_id": 2168,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/comparing-two-used-scooters-before-accepting-a-rental/"
+    },
+    "156": {
+      "title": "Automatic Scooter Rental: Daily, Weekly or Monthly?",
+      "slug": "automatic-scooter-rental-daily-weekly-or-monthly",
+      "source_hash": "e79a3bb76959d459f6aa55526fbf9c47a0c8f64486acfd5e308ad3b69135e880",
+      "checked_at": "2026-10-21T15:48:26.825596+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 69
     }
   },
-  "updated_at": "2026-10-21T15:48:23.579118+00:00"
+  "updated_at": "2026-10-21T15:48:26.825605+00:00"
 }
