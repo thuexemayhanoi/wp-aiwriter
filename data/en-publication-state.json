@@ -2255,7 +2255,15 @@
       "wp_id": 2260,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/a-50cc-bikes-starter-battery-and-lights-checklist/"
+    },
+    "202": {
+      "title": "50cc Bike Registration Papers: What to Check",
+      "slug": "50cc-bike-registration-papers-what-to-check",
+      "source_hash": "f62d9ae0f51a895f4b675fae82a7d8b5e578dcacdec50d1eb1700fd5a4d84039",
+      "checked_at": "2026-10-21T16:01:09.387802+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 51
     }
   },
-  "updated_at": "2026-10-21T16:01:07.757805+00:00"
+  "updated_at": "2026-10-21T16:01:09.387810+00:00"
 }
