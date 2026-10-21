@@ -1721,11 +1721,13 @@
       "title": "Honda Air Blade for Longer Rides: Comfort Trade-Offs",
       "slug": "honda-air-blade-for-longer-rides-comfort-trade-offs",
       "source_hash": "06fc53ea5a20f628b081dfb0f69933f15f0841f2574d7489815eb9921a4e62de",
-      "checked_at": "2026-10-21T15:47:52.197275+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:47:56.752044+00:00",
+      "phase": "VERIFIED",
       "category_id": 50,
-      "wp_id": 2164
+      "wp_id": 2164,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/honda-air-blade-for-longer-rides-comfort-trade-offs/"
     }
   },
-  "updated_at": "2026-10-21T15:47:52.197294+00:00"
+  "updated_at": "2026-10-21T15:47:56.752061+00:00"
 }
