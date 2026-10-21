@@ -2491,10 +2491,11 @@
       "title": "What Questions to Ask before Booking a 50cc Scooter",
       "slug": "what-questions-to-ask-before-booking-a-50cc-scooter",
       "source_hash": "e08ccdd1c5659ec1edf160c6ba856acd6f832e7f9dfa36a0c53eaed547e49b47",
-      "checked_at": "2026-10-21T16:06:43.505530+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 51
+      "checked_at": "2026-10-21T16:06:46.196420+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 51,
+      "wp_id": 2304
     }
   },
-  "updated_at": "2026-10-21T16:06:43.505538+00:00"
+  "updated_at": "2026-10-21T16:06:46.196439+00:00"
 }
