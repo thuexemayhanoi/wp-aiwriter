@@ -3844,11 +3844,13 @@
       "title": "Hanoi to Pho Yen by Scooter: Is It a Sensible Ride?",
       "slug": "hanoi-to-pho-yen-by-scooter-is-it-a-sensible-ride",
       "source_hash": "3bfd17f58dc2caf2ed179f0519bc7361c9d21c29d537182a04a72d3cad2fd7a4",
-      "checked_at": "2026-10-21T16:42:07.152983+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:42:11.828482+00:00",
+      "phase": "VERIFIED",
       "category_id": 54,
-      "wp_id": 2550
+      "wp_id": 2550,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/hanoi-to-pho-yen-by-scooter-is-it-a-sensible-ride/"
     }
   },
-  "updated_at": "2026-10-21T16:42:07.152999+00:00"
+  "updated_at": "2026-10-21T16:42:11.828497+00:00"
 }
