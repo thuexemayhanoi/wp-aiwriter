@@ -1512,11 +1512,11 @@
       "title": "Scooter Engine Braking on Downhill Roads",
       "slug": "scooter-engine-braking-on-downhill-roads",
       "source_hash": "53c02fcade8387b9b5a0fb8914c85923be6641b8e594bd37550b19a22d71b249",
-      "checked_at": "2026-10-21T15:42:22.707255+00:00",
-      "phase": "REGISTERED",
+      "checked_at": "2026-10-21T15:42:25.180800+00:00",
+      "phase": "VERIFY_PENDING",
       "category_id": 50,
       "wp_id": 2126
     }
   },
-  "updated_at": "2026-10-21T15:42:22.707271+00:00"
+  "updated_at": "2026-10-21T15:42:25.180817+00:00"
 }
