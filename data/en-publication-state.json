@@ -2194,11 +2194,13 @@
       "title": "Riding a 50cc Bike in Rain and Poor Visibility",
       "slug": "riding-a-50cc-bike-in-rain-and-poor-visibility",
       "source_hash": "63bd87aeeb5abbd5f81a01615147d5a9af90d682119f7dc979fe7b136ab7692d",
-      "checked_at": "2026-10-21T15:58:42.557697+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:58:47.146243+00:00",
+      "phase": "VERIFIED",
       "category_id": 51,
-      "wp_id": 2250
+      "wp_id": 2250,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/riding-a-50cc-bike-in-rain-and-poor-visibility/"
     }
   },
-  "updated_at": "2026-10-21T15:58:42.557716+00:00"
+  "updated_at": "2026-10-21T15:58:47.146262+00:00"
 }
