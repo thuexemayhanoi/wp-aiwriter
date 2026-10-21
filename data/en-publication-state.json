@@ -3025,7 +3025,15 @@
       "wp_id": 2400,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/electric-scooter-rider-comfort-on-uneven-hanoi-streets/"
+    },
+    "272": {
+      "title": "How to Handle an Electric Scooter with a Dead Display",
+      "slug": "how-to-handle-an-electric-scooter-with-a-dead-display",
+      "source_hash": "a84fadb2d7082afb63eb5082da16856b654732b6a4664c5ee7b5f9450bbe5536",
+      "checked_at": "2026-10-21T16:20:04.897058+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 52
     }
   },
-  "updated_at": "2026-10-21T16:20:01.920599+00:00"
+  "updated_at": "2026-10-21T16:20:04.897067+00:00"
 }
