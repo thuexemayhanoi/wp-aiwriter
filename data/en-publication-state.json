@@ -1644,11 +1644,13 @@
       "title": "How to Recognise Scooter Vibration that Needs Inspection",
       "slug": "how-to-recognise-scooter-vibration-that-needs-inspection",
       "source_hash": "73b22847b6cda5b3f98efa1f79542186f2679c26d505d405dae36c57b16c4a14",
-      "checked_at": "2026-10-21T15:46:18.131736+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:46:22.630214+00:00",
+      "phase": "VERIFIED",
       "category_id": 50,
-      "wp_id": 2150
+      "wp_id": 2150,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-recognise-scooter-vibration-that-needs-inspection/"
     }
   },
-  "updated_at": "2026-10-21T15:46:18.131773+00:00"
+  "updated_at": "2026-10-21T15:46:22.630232+00:00"
 }
