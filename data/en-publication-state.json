@@ -1204,11 +1204,13 @@
       "title": "Yamaha Mio vs Honda Vision: Comfort and Handling",
       "slug": "yamaha-mio-vs-honda-vision-comfort-and-handling",
       "source_hash": "9c8a9ffbadeb0be52f7a703f1c7a6b73118df19572b17cacc877df27b13c304b",
-      "checked_at": "2026-10-21T15:34:39.886891+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:34:44.527813+00:00",
+      "phase": "VERIFIED",
       "category_id": 50,
-      "wp_id": 2070
+      "wp_id": 2070,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/yamaha-mio-vs-honda-vision-comfort-and-handling/"
     }
   },
-  "updated_at": "2026-10-21T15:34:39.886907+00:00"
+  "updated_at": "2026-10-21T15:34:44.527829+00:00"
 }
