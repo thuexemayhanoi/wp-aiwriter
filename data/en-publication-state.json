@@ -2216,10 +2216,11 @@
       "title": "Are 50cc Bikes Suitable for Steep Hills?",
       "slug": "are-50cc-bikes-suitable-for-steep-hills",
       "source_hash": "11d3df4a005e7be3fef772633d8fe3c3117e47367cee40201a27ccf18de0cf17",
-      "checked_at": "2026-10-21T15:59:06.135618+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 51
+      "checked_at": "2026-10-21T15:59:08.230466+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 51,
+      "wp_id": 2254
     }
   },
-  "updated_at": "2026-10-21T15:59:06.135628+00:00"
+  "updated_at": "2026-10-21T15:59:08.230484+00:00"
 }
