@@ -1,3 +1,18 @@
+## EN WRITE/PUBLISH SMOKE TEST — 2026-10-21 · IDs 46, 47 · 2/2 VERIFIED
+
+> Owner-authorised English-only real publication test after the QA score cutoff changed to 76/100. All hard gates remain required, and this is a verified GitHub + WordPress result, not merely a manuscript commit.
+
+- Source commit: `ef484c356ba921577d67d50eff5e10dbfe3c8210` on `main`; files `en/posts/0046.md` and `en/posts/0047.md`. Titles, slugs and category IDs were taken unchanged from `en/topics.json`; no Excel prefix and no VI changes.
+- EN Writer QA run `39583332710`: success, 48 authored, 48 PASS, 0 FAIL. Topic 46: **2,007 words, QA 96/100** (4-point title-length deduction); topic 47: **2,185 words, QA 96/100** (4-point title-length deduction).
+- EN Publisher run `39583428444`: success, **2 newly created and VERIFIED**, 46 previously existing, 0 duplicates, 0 errors, empty remaining eligible queue.
+- **EN-0046:** `Semi-Automatic Bikes Explained: How to Ride a Honda Wave Without a Clutch` — term **49**, WP post **1944**, `VERIFIED/publish`, https://blog.rentbikehanoi.com/en/how-to-ride-a-semi-automatic-honda-wave/
+- **EN-0047:** `Hanoi Street Food by Scooter: A Loop That Avoids the Worst Traffic` — term **53**, WP post **1946**, `VERIFIED/publish`, https://blog.rentbikehanoi.com/en/hanoi-street-food-loop-by-scooter/
+- Ledger now: **48 VERIFIED / 500 planned**, with **452 not yet authored and verified**. Publication succeeded without manual per-article approval; the main remaining throughput constraint is researching/writing new English manuscripts and safely resolving pending title proposals, not an EN Publisher batch cap.
+- Independent monitoring caveat: a prior `SEO Protection` run `39582145731` reported **17 blocking findings** in its own live drift check (its repository guard was clean). This did **not** stop these two EN publications. Investigate separately; do not automatically weaken that guard.
+- Before choosing the next EN IDs, re-read `data/en-publication-state.json`, live WordPress, `en/topics.json`, the 478-row title plan, and the latest GitHub Actions logs. Never republish a `VERIFIED` entry.
+
+---
+
 # EN WRITER RELEASE CHECKPOINT — 2026-10-21 · IDs 16, 19, 20 · 3/3 VERIFIED
 
 > **CURRENT EN QA SCORE OVERRIDE (21 Oct 2026):** Owner approved a soft QA threshold of **76/100**: scores **76–100 PASS**, scores **0–75 FAIL**. Hard safety gates (1,600–5,000 words for new/revised manuscripts, legal sources, factual accuracy checks, duplication, categories, slug and WordPress verification) are unchanged. Earlier checkpoint values of QA ≥85 are historical only; `en/publication-policy.json` is authoritative.
