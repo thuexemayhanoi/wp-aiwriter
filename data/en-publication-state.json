@@ -3481,10 +3481,11 @@
       "title": "Hanoi Museum by Scooter: Planning a Visit",
       "slug": "hanoi-museum-by-scooter-planning-a-visit",
       "source_hash": "20fe3f46c5577714d4687da85eac7b73af51af316678053cc8038c577539e2a1",
-      "checked_at": "2026-10-21T16:31:33.190000+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 53
+      "checked_at": "2026-10-21T16:31:37.574400+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 53,
+      "wp_id": 2484
     }
   },
-  "updated_at": "2026-10-21T16:31:33.190009+00:00"
+  "updated_at": "2026-10-21T16:31:37.574420+00:00"
 }
