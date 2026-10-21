@@ -1254,7 +1254,15 @@
       "wp_id": 2078,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-use-a-scooters-side-stand-and-centre-stand/"
+    },
+    "116": {
+      "title": "Automatic Scooter Braking: Front and Rear Controls",
+      "slug": "automatic-scooter-braking-front-and-rear-controls",
+      "source_hash": "2ecf8a5b224209460792843e6f81e9bcdc4041d639525b0515537ec257f47514",
+      "checked_at": "2026-10-21T15:35:51.706385+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 50
     }
   },
-  "updated_at": "2026-10-21T15:35:48.172887+00:00"
+  "updated_at": "2026-10-21T15:35:51.706393+00:00"
 }
