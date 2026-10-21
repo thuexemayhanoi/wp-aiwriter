@@ -1853,10 +1853,11 @@
       "title": "Choosing Between a Newer and an Older Rental Scooter",
       "slug": "choosing-between-a-newer-and-an-older-rental-scooter",
       "source_hash": "07f1da8386fa85c529dcfd8f3f084025e6c80ba45cec946f925a2566eb2cd495",
-      "checked_at": "2026-10-21T15:50:34.790546+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 50
+      "checked_at": "2026-10-21T15:50:37.170210+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 50,
+      "wp_id": 2188
     }
   },
-  "updated_at": "2026-10-21T15:50:34.790555+00:00"
+  "updated_at": "2026-10-21T15:50:37.170227+00:00"
 }
