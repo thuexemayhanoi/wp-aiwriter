@@ -3327,11 +3327,13 @@
       "title": "Getting to the Hanoi Opera House by Rental Scooter",
       "slug": "getting-to-the-hanoi-opera-house-by-rental-scooter",
       "source_hash": "ea71adf693c66689dca0e732963ed7612be4c64b8c6f9eff3e47eaa4869a3ee2",
-      "checked_at": "2026-10-21T16:28:03.932529+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:28:08.759541+00:00",
+      "phase": "VERIFIED",
       "category_id": 53,
-      "wp_id": 2456
+      "wp_id": 2456,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/getting-to-the-hanoi-opera-house-by-rental-scooter/"
     }
   },
-  "updated_at": "2026-10-21T16:28:03.932550+00:00"
+  "updated_at": "2026-10-21T16:28:08.759563+00:00"
 }
