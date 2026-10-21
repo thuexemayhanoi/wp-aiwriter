@@ -2293,10 +2293,11 @@
       "title": "How to Carry a Backpack on a Cub 50cc",
       "slug": "how-to-carry-a-backpack-on-a-cub-50cc",
       "source_hash": "ebdf8292ccb762d918f5c1ea79700a99ed4b0133e4cabd67efb879d58e764100",
-      "checked_at": "2026-10-21T16:01:52.175136+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 51
+      "checked_at": "2026-10-21T16:01:54.639993+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 51,
+      "wp_id": 2268
     }
   },
-  "updated_at": "2026-10-21T16:01:52.175145+00:00"
+  "updated_at": "2026-10-21T16:01:54.640012+00:00"
 }
