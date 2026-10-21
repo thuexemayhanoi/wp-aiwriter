@@ -577,11 +577,11 @@
       "title": "Manual Bike Brakes: What to Test Before Leaving the Rental Shop",
       "slug": "manual-bike-brakes-what-to-test-before-leaving-the-rental-shop",
       "source_hash": "10c51ea499f9f45f0291e386db663dd6d977d9e22ffe24ef5cf9fb077c864acf",
-      "checked_at": "2026-10-21T12:12:10.890914+00:00",
-      "phase": "REGISTERED",
+      "checked_at": "2026-10-21T12:12:13.089819+00:00",
+      "phase": "VERIFY_PENDING",
       "category_id": 66,
       "wp_id": 1956
     }
   },
-  "updated_at": "2026-10-21T12:12:10.890933+00:00"
+  "updated_at": "2026-10-21T12:12:13.089833+00:00"
 }
