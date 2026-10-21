@@ -1166,7 +1166,15 @@
       "wp_id": 2062,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-carry-a-raincoat-and-helmet-on-a-small-manual-bike/"
+    },
+    "108": {
+      "title": "Honda Vision Storage Space: What Fits Under the Seat?",
+      "slug": "honda-vision-storage-space-what-fits-under-the-seat",
+      "source_hash": "53c71b1dcf9a6ea4e75fd535a8c50575415fb8fe49b5b10da949c9f849542f34",
+      "checked_at": "2026-10-21T15:33:44.051159+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 50
     }
   },
-  "updated_at": "2026-10-21T15:33:41.539378+00:00"
+  "updated_at": "2026-10-21T15:33:44.051168+00:00"
 }
