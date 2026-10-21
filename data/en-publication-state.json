@@ -555,10 +555,11 @@
       "title": "When a Semi-Automatic Bike Is Easier Than an Automatic Scooter",
       "slug": "when-a-semi-automatic-bike-is-easier-than-an-automatic-scooter",
       "source_hash": "357dea209e39f48b34c72d35b95671eaada7018ee7784b9eaa32b3a6430d3870",
-      "checked_at": "2026-10-21T12:11:42.048387+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 49
+      "checked_at": "2026-10-21T12:11:44.104521+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 49,
+      "wp_id": 1952
     }
   },
-  "updated_at": "2026-10-21T12:11:42.048401+00:00"
+  "updated_at": "2026-10-21T12:11:44.104540+00:00"
 }
