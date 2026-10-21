@@ -4306,11 +4306,11 @@
       "title": "Returning to Hanoi from the Countryside in Afternoon Traffic",
       "slug": "returning-to-hanoi-from-the-countryside-in-afternoon-traffic",
       "source_hash": "0a16df69133921a0294c584d46ea11219541079b656a278043d0dec7e76829c8",
-      "checked_at": "2026-10-21T16:53:42.799217+00:00",
-      "phase": "REGISTERED",
+      "checked_at": "2026-10-21T16:53:46.055555+00:00",
+      "phase": "VERIFY_PENDING",
       "category_id": 54,
       "wp_id": 2635
     }
   },
-  "updated_at": "2026-10-21T16:53:42.799235+00:00"
+  "updated_at": "2026-10-21T16:53:46.055575+00:00"
 }
