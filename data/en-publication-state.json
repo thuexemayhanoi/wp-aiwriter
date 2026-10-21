@@ -1947,7 +1947,15 @@
       "wp_id": 2204,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/are-50cc-scooters-suitable-for-two-adults/"
+    },
+    "174": {
+      "title": "Riding a 50cc Bike near Hanoi's Large Intersections",
+      "slug": "riding-a-50cc-bike-near-hanois-large-intersections",
+      "source_hash": "95e15c44fe55b7edf54aff63d43804f720606bae2d2e417a5007a6a5fa1a8b7f",
+      "checked_at": "2026-10-21T15:52:58.765946+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 51
     }
   },
-  "updated_at": "2026-10-21T15:52:54.988282+00:00"
+  "updated_at": "2026-10-21T15:52:58.765956+00:00"
 }
