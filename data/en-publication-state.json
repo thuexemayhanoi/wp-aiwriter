@@ -2975,11 +2975,11 @@
       "title": "Electric Scooter Storage during an Extended Rental",
       "slug": "electric-scooter-storage-during-an-extended-rental",
       "source_hash": "7b30a5f11b9c082a346f4ce9566fafa1c5cb658015bc34d82d919742133a6829",
-      "checked_at": "2026-10-21T16:18:43.749534+00:00",
-      "phase": "REGISTERED",
+      "checked_at": "2026-10-21T16:18:47.469644+00:00",
+      "phase": "VERIFY_PENDING",
       "category_id": 52,
       "wp_id": 2392
     }
   },
-  "updated_at": "2026-10-21T16:18:43.749554+00:00"
+  "updated_at": "2026-10-21T16:18:47.469666+00:00"
 }
