@@ -1237,11 +1237,13 @@
       "title": "Automatic Scooter Rental for a First-Time Visitor to Hanoi",
       "slug": "automatic-scooter-rental-for-a-first-time-visitor-to-hanoi",
       "source_hash": "0e0347f296503feae150fc8d1a63a3abd7cc050531451a2e8610a5e402125a58",
-      "checked_at": "2026-10-21T15:35:28.184433+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:35:34.520531+00:00",
+      "phase": "VERIFIED",
       "category_id": 50,
-      "wp_id": 2076
+      "wp_id": 2076,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/automatic-scooter-rental-for-a-first-time-visitor-to-hanoi/"
     }
   },
-  "updated_at": "2026-10-21T15:35:28.184863+00:00"
+  "updated_at": "2026-10-21T15:35:34.520548+00:00"
 }
