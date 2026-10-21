@@ -3223,7 +3223,15 @@
       "wp_id": 2436,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/hoang-mai-by-motorbike-practical-tips-for-visitors/"
+    },
+    "292": {
+      "title": "Thanh Xuan by Scooter: Larger Roads and Local Streets",
+      "slug": "thanh-xuan-by-scooter-larger-roads-and-local-streets",
+      "source_hash": "129e544cc9f9403d9c9d54ee013d6fcf3f2c94adce3594a8dc57608040271d07",
+      "checked_at": "2026-10-21T16:25:24.055226+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 53
     }
   },
-  "updated_at": "2026-10-21T16:25:22.152354+00:00"
+  "updated_at": "2026-10-21T16:25:24.055235+00:00"
 }
