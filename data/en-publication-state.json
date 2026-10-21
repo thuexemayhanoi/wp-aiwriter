@@ -2634,11 +2634,13 @@
       "title": "How to Read an Electric Scooter Battery Indicator",
       "slug": "how-to-read-an-electric-scooter-battery-indicator",
       "source_hash": "1ba2cf6b2146442bdcfb6fe539479297a233ff61f2ebec20e618081cddc2158d",
-      "checked_at": "2026-10-21T16:10:51.158022+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:10:56.443273+00:00",
+      "phase": "VERIFIED",
       "category_id": 52,
-      "wp_id": 2330
+      "wp_id": 2330,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-read-an-electric-scooter-battery-indicator/"
     }
   },
-  "updated_at": "2026-10-21T16:10:51.158042+00:00"
+  "updated_at": "2026-10-21T16:10:56.443292+00:00"
 }
