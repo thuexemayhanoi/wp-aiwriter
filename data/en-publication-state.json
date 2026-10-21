@@ -2161,11 +2161,13 @@
       "title": "Seat Height and Fit on Common 50cc Bike Styles",
       "slug": "seat-height-and-fit-on-common-50cc-bike-styles",
       "source_hash": "0cdc601263f193fa3dc0305d189285284ae8fb6b8a906dabf9f9d70b965e1a6a",
-      "checked_at": "2026-10-21T15:57:58.803259+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:58:03.825095+00:00",
+      "phase": "VERIFIED",
       "category_id": 51,
-      "wp_id": 2244
+      "wp_id": 2244,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/seat-height-and-fit-on-common-50cc-bike-styles/"
     }
   },
-  "updated_at": "2026-10-21T15:57:58.803279+00:00"
+  "updated_at": "2026-10-21T15:58:03.825112+00:00"
 }
