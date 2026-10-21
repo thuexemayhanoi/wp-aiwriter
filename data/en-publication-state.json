@@ -786,10 +786,11 @@
       "title": "Checking Chain Tension Before a Longer Ride",
       "slug": "checking-chain-tension-before-a-longer-ride",
       "source_hash": "0c8953194291ee2d46b37cc5911131ca4c1a0d085168be8d4a2da8828ed56b46",
-      "checked_at": "2026-10-21T14:34:57.317829+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 66
+      "checked_at": "2026-10-21T14:35:08.244941+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 66,
+      "wp_id": 1994
     }
   },
-  "updated_at": "2026-10-21T14:34:57.317838+00:00"
+  "updated_at": "2026-10-21T14:35:08.244959+00:00"
 }
