@@ -3663,7 +3663,15 @@
       "wp_id": 2516,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/a-museum-day-in-hanoi-scooter-or-taxi-between-stops/"
+    },
+    "333": {
+      "title": "How to Plan a Scooter Visit to Phung Hung Mural Street",
+      "slug": "how-to-plan-a-scooter-visit-to-phung-hung-mural-street",
+      "source_hash": "3217528de725920fe1106cf4958f9b4fc7a16d3d069c8a8a628cfb5c027317d0",
+      "checked_at": "2026-10-21T16:37:51.912765+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 53
     }
   },
-  "updated_at": "2026-10-21T16:36:35.992870+00:00"
+  "updated_at": "2026-10-21T16:37:51.912779+00:00"
 }
