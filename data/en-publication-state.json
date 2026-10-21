@@ -1771,7 +1771,15 @@
       "wp_id": 2172,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/can-you-ride-an-automatic-scooter-with-large-luggage/"
+    },
+    "158": {
+      "title": "How Scooter Wheel Size Affects Rough-Road Comfort",
+      "slug": "how-scooter-wheel-size-affects-rough-road-comfort",
+      "source_hash": "656ffad76fb8239898a7bb92c9fcff2b401f23021eaf08e9cdcae5a5ded50223",
+      "checked_at": "2026-10-21T15:48:54.296677+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 50
     }
   },
-  "updated_at": "2026-10-21T15:48:52.685727+00:00"
+  "updated_at": "2026-10-21T15:48:54.296687+00:00"
 }
