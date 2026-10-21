@@ -4350,10 +4350,11 @@
       "title": "How a 24-Hour Rental Day Is Counted in Hanoi",
       "slug": "how-a-24-hour-rental-day-is-counted-in-hanoi",
       "source_hash": "01074f9a073be8983a896bee98b78ef3432260e067575ba8e63ea73ccf062076",
-      "checked_at": "2026-10-21T16:54:37.750361+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 55
+      "checked_at": "2026-10-21T16:54:41.280937+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 55,
+      "wp_id": 2643
     }
   },
-  "updated_at": "2026-10-21T16:54:37.750369+00:00"
+  "updated_at": "2026-10-21T16:54:41.280957+00:00"
 }
