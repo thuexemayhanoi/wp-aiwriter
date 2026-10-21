@@ -2106,10 +2106,11 @@
       "title": "Parking a Lightweight 50cc Bike in Hanoi",
       "slug": "parking-a-lightweight-50cc-bike-in-hanoi",
       "source_hash": "25896cab5a196407bf1cd8cea428cf482ab5216b9d6a37ec73a3f93f7849d9f6",
-      "checked_at": "2026-10-21T15:56:37.978434+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 51
+      "checked_at": "2026-10-21T15:56:40.228587+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 51,
+      "wp_id": 2234
     }
   },
-  "updated_at": "2026-10-21T15:56:37.978444+00:00"
+  "updated_at": "2026-10-21T15:56:40.228606+00:00"
 }
