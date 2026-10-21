@@ -1111,7 +1111,15 @@
       "wp_id": 2052,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/what-counts-as-normal-wear-on-a-rented-honda-wave/"
+    },
+    "98": {
+      "title": "Questions to Ask About a High-Mileage Manual Rental Bike",
+      "slug": "questions-to-ask-about-a-high-mileage-manual-rental-bike",
+      "source_hash": "d418d3e1520960add4462efaafa7131a8421fd8ee1a2663f5f9c4ad74458a60e",
+      "checked_at": "2026-10-21T15:10:32.831484+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 49
     }
   },
-  "updated_at": "2026-10-21T15:10:30.332000+00:00"
+  "updated_at": "2026-10-21T15:10:32.831492+00:00"
 }
