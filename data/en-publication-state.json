@@ -313,11 +313,13 @@
       "title": "Fuel in Hanoi: Petrol Stations, Prices and Filling Up a Rental Scooter",
       "slug": "fuel-in-hanoi-petrol-stations-rental-scooter",
       "source_hash": "458e2619f8723d7ea71eb94949d103614db3eee46c226a76cbeea57ead5fc99e",
-      "checked_at": "2026-10-21T03:52:26.648478+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T03:52:30.257896+00:00",
+      "phase": "VERIFIED",
       "category_id": 55,
-      "wp_id": 1907
+      "wp_id": 1907,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/fuel-in-hanoi-petrol-stations-rental-scooter/"
     }
   },
-  "updated_at": "2026-10-21T03:52:26.648492+00:00"
+  "updated_at": "2026-10-21T03:52:30.257908+00:00"
 }
