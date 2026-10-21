@@ -1171,11 +1171,13 @@
       "title": "Honda Vision Storage Space: What Fits Under the Seat?",
       "slug": "honda-vision-storage-space-what-fits-under-the-seat",
       "source_hash": "53c71b1dcf9a6ea4e75fd535a8c50575415fb8fe49b5b10da949c9f849542f34",
-      "checked_at": "2026-10-21T15:33:52.478924+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:33:57.164559+00:00",
+      "phase": "VERIFIED",
       "category_id": 50,
-      "wp_id": 2064
+      "wp_id": 2064,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/honda-vision-storage-space-what-fits-under-the-seat/"
     }
   },
-  "updated_at": "2026-10-21T15:33:52.478940+00:00"
+  "updated_at": "2026-10-21T15:33:57.164576+00:00"
 }
