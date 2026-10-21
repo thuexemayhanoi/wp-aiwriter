@@ -4103,7 +4103,15 @@
       "wp_id": 2597,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/what-to-check-before-crossing-major-hanoi-bridges/"
+    },
+    "374": {
+      "title": "Planning Fuel Stops between Hanoi and Rural Destinations",
+      "slug": "planning-fuel-stops-between-hanoi-and-rural-destinations",
+      "source_hash": "fe21ed255fa17516eb751b60d1cb63e44b730b9ece447d77e582e763aba95703",
+      "checked_at": "2026-10-21T16:48:47.948276+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 54
     }
   },
-  "updated_at": "2026-10-21T16:48:44.737142+00:00"
+  "updated_at": "2026-10-21T16:48:47.948284+00:00"
 }
