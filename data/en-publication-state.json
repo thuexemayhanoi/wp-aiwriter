@@ -962,11 +962,13 @@
       "title": "Motorbike Footwear for Hanoi: Comfort versus Protection",
       "slug": "motorbike-footwear-for-hanoi-comfort-versus-protection",
       "source_hash": "bcecd6e819eac4d339e815845756885421b01223c1bb8b4f6150f1cae09292a1",
-      "checked_at": "2026-10-21T14:49:19.023572+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T14:49:24.639549+00:00",
+      "phase": "VERIFIED",
       "category_id": 49,
-      "wp_id": 2026
+      "wp_id": 2026,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/motorbike-footwear-for-hanoi-comfort-versus-protection/"
     }
   },
-  "updated_at": "2026-10-21T14:49:19.023591+00:00"
+  "updated_at": "2026-10-21T14:49:24.639566+00:00"
 }
