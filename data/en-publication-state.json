@@ -929,11 +929,13 @@
       "title": "How to Adjust Mirrors on a Honda Wave Rental",
       "slug": "how-to-adjust-mirrors-on-a-honda-wave-rental",
       "source_hash": "92de4aa0a856045eb063fb134b64691e81c398b73f9dc62b8acbb712c6cfcbea",
-      "checked_at": "2026-10-21T14:48:26.707934+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T14:48:31.417474+00:00",
+      "phase": "VERIFIED",
       "category_id": 49,
-      "wp_id": 2020
+      "wp_id": 2020,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-adjust-mirrors-on-a-honda-wave-rental/"
     }
   },
-  "updated_at": "2026-10-21T14:48:26.707951+00:00"
+  "updated_at": "2026-10-21T14:48:31.417492+00:00"
 }
