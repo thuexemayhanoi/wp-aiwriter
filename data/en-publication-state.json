@@ -4268,7 +4268,15 @@
       "wp_id": 2627,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/riding-beyond-hanoi-rental-permission-and-contract-limits/"
+    },
+    "389": {
+      "title": "What to Check at a Ferry Crossing on a Motorbike Route",
+      "slug": "what-to-check-at-a-ferry-crossing-on-a-motorbike-route",
+      "source_hash": "48a2a5800efc28ddd93ac177cd20c0fd05c4faeb443dd93e76035dcb66edf890",
+      "checked_at": "2026-10-21T16:52:52.234528+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 54
     }
   },
-  "updated_at": "2026-10-21T16:52:50.489047+00:00"
+  "updated_at": "2026-10-21T16:52:52.234536+00:00"
 }
