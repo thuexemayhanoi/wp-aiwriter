@@ -1919,11 +1919,13 @@
       "title": "Choosing a 50cc Motorbike for Short Local Errands",
       "slug": "choosing-a-50cc-motorbike-for-short-local-errands",
       "source_hash": "6f88689b6f63658eb313133d774dd2d2577e8c4d6234e335e00ca7b2665aadbf",
-      "checked_at": "2026-10-21T15:52:14.959623+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:52:19.397281+00:00",
+      "phase": "VERIFIED",
       "category_id": 51,
-      "wp_id": 2200
+      "wp_id": 2200,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/choosing-a-50cc-motorbike-for-short-local-errands/"
     }
   },
-  "updated_at": "2026-10-21T15:52:14.959641+00:00"
+  "updated_at": "2026-10-21T15:52:19.397301+00:00"
 }
