@@ -1518,7 +1518,15 @@
       "wp_id": 2126,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/scooter-engine-braking-on-downhill-roads/"
+    },
+    "145": {
+      "title": "Riding an Automatic Scooter through a Narrow Market Lane",
+      "slug": "riding-an-automatic-scooter-through-a-narrow-market-lane",
+      "source_hash": "145a3b9293f41ae2fe7ad1817417af74bb64d8fe383682d8efc0f56adf2f3d75",
+      "checked_at": "2026-10-21T15:42:30.839428+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 50
     }
   },
-  "updated_at": "2026-10-21T15:42:29.225343+00:00"
+  "updated_at": "2026-10-21T15:42:30.839436+00:00"
 }
