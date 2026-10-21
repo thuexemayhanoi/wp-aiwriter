@@ -610,11 +610,13 @@
       "title": "Honda Winner X and Yamaha Exciter: Manual Bikes for Riders Who Want Gears",
       "slug": "honda-winner-x-yamaha-exciter-manual-rental",
       "source_hash": "4c32cec7518595838d573847fabdc0613b7356ef907671930fb8738413381c38",
-      "checked_at": "2026-10-21T14:16:51.576138+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T14:16:56.480372+00:00",
+      "phase": "VERIFIED",
       "category_id": 65,
-      "wp_id": 1962
+      "wp_id": 1962,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/honda-winner-x-yamaha-exciter-manual-rental/"
     }
   },
-  "updated_at": "2026-10-21T14:16:51.576155+00:00"
+  "updated_at": "2026-10-21T14:16:56.480389+00:00"
 }
