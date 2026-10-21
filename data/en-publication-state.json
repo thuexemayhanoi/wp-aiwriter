@@ -4400,7 +4400,15 @@
       "wp_id": 2651,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-photograph-a-rental-motorbike-before-handover/"
+    },
+    "401": {
+      "title": "What a Motorbike Handover Checklist Should Include",
+      "slug": "what-a-motorbike-handover-checklist-should-include",
+      "source_hash": "e5bb17201bbeb565239be15d4390ec7d74eb884bdde228f28927046a1f6aea88",
+      "checked_at": "2026-10-21T16:55:59.748847+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 66
     }
   },
-  "updated_at": "2026-10-21T16:55:56.962914+00:00"
+  "updated_at": "2026-10-21T16:55:59.748874+00:00"
 }
