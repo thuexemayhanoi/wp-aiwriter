@@ -1248,11 +1248,13 @@
       "title": "How to Use a Scooter's Side Stand and Centre Stand",
       "slug": "how-to-use-a-scooters-side-stand-and-centre-stand",
       "source_hash": "7ae5410ddc4dc2c4895ff159b1b3aafb49aa243a74e91a10ca32c7f3fb051e8e",
-      "checked_at": "2026-10-21T15:35:43.643691+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:35:48.172871+00:00",
+      "phase": "VERIFIED",
       "category_id": 50,
-      "wp_id": 2078
+      "wp_id": 2078,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-use-a-scooters-side-stand-and-centre-stand/"
     }
   },
-  "updated_at": "2026-10-21T15:35:43.643708+00:00"
+  "updated_at": "2026-10-21T15:35:48.172887+00:00"
 }
