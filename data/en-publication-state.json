@@ -335,10 +335,11 @@
       "title": "Riding in Hanoi Rain: Season, Gear and the Streets That Flood",
       "slug": "riding-in-hanoi-rain",
       "source_hash": "88c191386e8f384f117ef39fcf33b953add17a082b3a116fb447f4bdd8176ce3",
-      "checked_at": "2026-10-21T03:52:43.685792+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 56
+      "checked_at": "2026-10-21T03:52:45.661824+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 56,
+      "wp_id": 1911
     }
   },
-  "updated_at": "2026-10-21T03:52:43.685799+00:00"
+  "updated_at": "2026-10-21T03:52:45.661836+00:00"
 }
