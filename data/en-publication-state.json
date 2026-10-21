@@ -2112,7 +2112,15 @@
       "wp_id": 2234,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/parking-a-lightweight-50cc-bike-in-hanoi/"
+    },
+    "189": {
+      "title": "How Much Fuel to Budget for a 50cc Day Trip",
+      "slug": "how-much-fuel-to-budget-for-a-50cc-day-trip",
+      "source_hash": "e849fc3a647ec8b9abb3183865afecd0db557ee242a1d0930dfcfb02b4ee43d3",
+      "checked_at": "2026-10-21T15:56:54.545480+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 51
     }
   },
-  "updated_at": "2026-10-21T15:56:50.155778+00:00"
+  "updated_at": "2026-10-21T15:56:54.545489+00:00"
 }
