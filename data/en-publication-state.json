@@ -4493,11 +4493,13 @@
       "title": "Choosing a Rental Period when Your Travel Plans May Change",
       "slug": "choosing-a-rental-period-when-your-travel-plans-may-change",
       "source_hash": "fb980cb3c8884383c20cd135636190e2b92c3011c0e1d8a36d20fc6d140e3dd9",
-      "checked_at": "2026-10-21T16:58:12.818518+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:58:17.552534+00:00",
+      "phase": "VERIFIED",
       "category_id": 55,
-      "wp_id": 2669
+      "wp_id": 2669,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/choosing-a-rental-period-when-your-travel-plans-may-change/"
     }
   },
-  "updated_at": "2026-10-21T16:58:12.818539+00:00"
+  "updated_at": "2026-10-21T16:58:17.552553+00:00"
 }
