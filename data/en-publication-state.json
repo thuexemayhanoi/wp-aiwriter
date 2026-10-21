@@ -1534,10 +1534,11 @@
       "title": "What to Check around a Scooter's Exhaust after a Ride",
       "slug": "what-to-check-around-a-scooters-exhaust-after-a-ride",
       "source_hash": "b2adb7b254f55135b41aa801b06e7027693f97fb25097eb59848ba4f6e75935e",
-      "checked_at": "2026-10-21T15:42:45.379053+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 50
+      "checked_at": "2026-10-21T15:42:47.781339+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 50,
+      "wp_id": 2130
     }
   },
-  "updated_at": "2026-10-21T15:42:45.379061+00:00"
+  "updated_at": "2026-10-21T15:42:47.781356+00:00"
 }
