@@ -4438,10 +4438,11 @@
       "title": "How to Check the Rental Shop's Opening Hours and Pickup Location",
       "slug": "how-to-check-the-rental-shops-opening-hours-and-pickup-location",
       "source_hash": "bc4a2258b06fc4e83714c5d7f088442ebd73fc127b2e6cdd5794a6e6bcd5d953",
-      "checked_at": "2026-10-21T16:56:43.982921+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 55
+      "checked_at": "2026-10-21T16:56:47.076439+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 55,
+      "wp_id": 2659
     }
   },
-  "updated_at": "2026-10-21T16:56:43.982930+00:00"
+  "updated_at": "2026-10-21T16:56:47.076461+00:00"
 }
