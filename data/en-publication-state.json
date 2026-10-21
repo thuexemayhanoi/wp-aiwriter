@@ -825,7 +825,15 @@
       "wp_id": 2000,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-use-the-kick-starter-on-an-older-rental-motorbike/"
+    },
+    "75": {
+      "title": "What to Check on a Manual Bike's Electric Starter",
+      "slug": "what-to-check-on-a-manual-bikes-electric-starter",
+      "source_hash": "af5083b70175acb3be72e16a3b01ea57c0491b437bd537fe712a4dc85177d088",
+      "checked_at": "2026-10-21T14:40:09.386032+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 49
     }
   },
-  "updated_at": "2026-10-21T14:40:07.249133+00:00"
+  "updated_at": "2026-10-21T14:40:09.386041+00:00"
 }
