@@ -2436,10 +2436,11 @@
       "title": "What to Do after a Minor Fall on a 50cc Scooter",
       "slug": "what-to-do-after-a-minor-fall-on-a-50cc-scooter",
       "source_hash": "def48d62b57f7b4a3c35158dfe741aad25524cf1eed5bb3cfc4793f14a60d0ea",
-      "checked_at": "2026-10-21T16:05:18.015890+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 51
+      "checked_at": "2026-10-21T16:05:21.445839+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 51,
+      "wp_id": 2294
     }
   },
-  "updated_at": "2026-10-21T16:05:18.015899+00:00"
+  "updated_at": "2026-10-21T16:05:21.445859+00:00"
 }
