@@ -1435,11 +1435,13 @@
       "title": "Smart Key versus Traditional Key on Rental Scooters",
       "slug": "smart-key-versus-traditional-key-on-rental-scooters",
       "source_hash": "7000653d224109ae93d4535e8a1b264821f1028190d538e52cd7e3e1c6d7db2e",
-      "checked_at": "2026-10-21T15:40:41.535560+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:40:46.233625+00:00",
+      "phase": "VERIFIED",
       "category_id": 50,
-      "wp_id": 2112
+      "wp_id": 2112,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/smart-key-versus-traditional-key-on-rental-scooters/"
     }
   },
-  "updated_at": "2026-10-21T15:40:41.535577+00:00"
+  "updated_at": "2026-10-21T15:40:46.233642+00:00"
 }
