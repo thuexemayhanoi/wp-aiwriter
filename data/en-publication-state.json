@@ -3762,7 +3762,15 @@
       "wp_id": 2534,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/hanoi-to-co-loa-and-back-an-easy-history-day/"
+    },
+    "342": {
+      "title": "A Bat Trang Pottery Day Trip on a Rental Scooter",
+      "slug": "a-bat-trang-pottery-day-trip-on-a-rental-scooter",
+      "source_hash": "9dc4a2568931d8f7de583fa1db66459ee02941504acbcbdd3d63d70ca36cbb00",
+      "checked_at": "2026-10-21T16:40:11.278216+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 54
     }
   },
-  "updated_at": "2026-10-21T16:40:09.585488+00:00"
+  "updated_at": "2026-10-21T16:40:11.278225+00:00"
 }
