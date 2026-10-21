@@ -462,7 +462,15 @@
       "wp_id": 1934,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/travel-insurance-motorbike-rental-vietnam/"
+    },
+    "37": {
+      "title": "Electric Bikes in Hanoi: Rules, Speed Limits and Where You Can Ride",
+      "slug": "electric-bikes-in-hanoi-rules",
+      "source_hash": "acf497ca70fbcebf928a47ceaf3410b5339612b8880d4746f420fb5cac3c3fbb",
+      "checked_at": "2026-10-21T04:19:06.927496+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 52
     }
   },
-  "updated_at": "2026-10-21T04:19:05.700031+00:00"
+  "updated_at": "2026-10-21T04:19:06.927505+00:00"
 }
