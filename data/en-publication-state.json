@@ -1523,11 +1523,13 @@
       "title": "Riding an Automatic Scooter through a Narrow Market Lane",
       "slug": "riding-an-automatic-scooter-through-a-narrow-market-lane",
       "source_hash": "145a3b9293f41ae2fe7ad1817417af74bb64d8fe383682d8efc0f56adf2f3d75",
-      "checked_at": "2026-10-21T15:42:38.129733+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:42:43.398646+00:00",
+      "phase": "VERIFIED",
       "category_id": 50,
-      "wp_id": 2128
+      "wp_id": 2128,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/riding-an-automatic-scooter-through-a-narrow-market-lane/"
     }
   },
-  "updated_at": "2026-10-21T15:42:38.129750+00:00"
+  "updated_at": "2026-10-21T15:42:43.398663+00:00"
 }
