@@ -451,7 +451,15 @@
       "wp_id": 1932,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/child-passengers-motorbike-vietnam/"
+    },
+    "36": {
+      "title": "Travel Insurance and Motorbike Rentals: What Usually Isn't Covered",
+      "slug": "travel-insurance-motorbike-rental-vietnam",
+      "source_hash": "3d7ab7500f47bc604a2301e5d7dcf631f2c4b8c111d78f0f79437af606be57b9",
+      "checked_at": "2026-10-21T04:18:54.218442+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 55
     }
   },
-  "updated_at": "2026-10-21T04:18:53.003680+00:00"
+  "updated_at": "2026-10-21T04:18:54.218450+00:00"
 }
