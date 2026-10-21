@@ -3564,7 +3564,15 @@
       "wp_id": 2498,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/arriving-at-gia-lam-bus-station-with-a-rental-scooter/"
+    },
+    "324": {
+      "title": "Scooter Access to Long Bien's Residential Alleys",
+      "slug": "scooter-access-to-long-biens-residential-alleys",
+      "source_hash": "63196800d76bd9d32b3cdfa098e2dfbc3506fb2a2b4087bfab4d643cdf9f9e24",
+      "checked_at": "2026-10-21T16:33:45.619754+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 62
     }
   },
-  "updated_at": "2026-10-21T16:33:43.447520+00:00"
+  "updated_at": "2026-10-21T16:33:45.619763+00:00"
 }
