@@ -1204,10 +1204,11 @@
       "title": "Yamaha Mio vs Honda Vision: Comfort and Handling",
       "slug": "yamaha-mio-vs-honda-vision-comfort-and-handling",
       "source_hash": "9c8a9ffbadeb0be52f7a703f1c7a6b73118df19572b17cacc877df27b13c304b",
-      "checked_at": "2026-10-21T15:34:31.208653+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 50
+      "checked_at": "2026-10-21T15:34:33.979519+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 50,
+      "wp_id": 2070
     }
   },
-  "updated_at": "2026-10-21T15:34:31.208661+00:00"
+  "updated_at": "2026-10-21T15:34:33.979536+00:00"
 }
