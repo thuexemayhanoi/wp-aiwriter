@@ -1072,11 +1072,13 @@
       "title": "Front Brake versus Rear Brake on Small Manual Motorbikes",
       "slug": "front-brake-versus-rear-brake-on-small-manual-motorbikes",
       "source_hash": "5e993f6444198ed49ca3a38b950ae1845a0219567c11c43cb7309dbb57ff18cc",
-      "checked_at": "2026-10-21T15:09:35.732096+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:09:40.417265+00:00",
+      "phase": "VERIFIED",
       "category_id": 49,
-      "wp_id": 2046
+      "wp_id": 2046,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/front-brake-versus-rear-brake-on-small-manual-motorbikes/"
     }
   },
-  "updated_at": "2026-10-21T15:09:35.732113+00:00"
+  "updated_at": "2026-10-21T15:09:40.417282+00:00"
 }
