@@ -566,11 +566,13 @@
       "title": "Manual Motorbike Rental for Solo Travellers with a Backpack",
       "slug": "manual-motorbike-rental-for-solo-travellers-with-a-backpack",
       "source_hash": "6ebbccd084d4b80694039493386ffce1859d21a75191a9f851a0af34e830fa26",
-      "checked_at": "2026-10-21T12:12:01.027690+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T12:12:05.008462+00:00",
+      "phase": "VERIFIED",
       "category_id": 49,
-      "wp_id": 1954
+      "wp_id": 1954,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/manual-motorbike-rental-for-solo-travellers-with-a-backpack/"
     }
   },
-  "updated_at": "2026-10-21T12:12:01.027707+00:00"
+  "updated_at": "2026-10-21T12:12:05.008476+00:00"
 }
