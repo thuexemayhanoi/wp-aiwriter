@@ -594,7 +594,15 @@
       "wp_id": 1958,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/documents-to-carry-riding-in-vietnam/"
+    },
+    "43": {
+      "title": "Lane Rules in Vietnam: Where Motorbikes Belong on Multi-Lane Roads",
+      "slug": "lane-rules-motorbikes-vietnam",
+      "source_hash": "7c1f79586b7433d2ced696a5ed95b1fa1ddeaf2b21544cb1bbb55e267533e5c8",
+      "checked_at": "2026-10-21T14:16:28.307402+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 56
     }
   },
-  "updated_at": "2026-10-21T14:16:26.016656+00:00"
+  "updated_at": "2026-10-21T14:16:28.307411+00:00"
 }
