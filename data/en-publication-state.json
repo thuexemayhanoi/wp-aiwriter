@@ -4119,10 +4119,11 @@
       "title": "Choosing Safe Turnaround Points on a Long Day Ride",
       "slug": "choosing-safe-turnaround-points-on-a-long-day-ride",
       "source_hash": "9074e7eb211e1137f8cb5d2af164e54332a654ed6bd4d49c74f81169d7b2bccc",
-      "checked_at": "2026-10-21T16:49:05.053943+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 54
+      "checked_at": "2026-10-21T16:49:08.877045+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 54,
+      "wp_id": 2601
     }
   },
-  "updated_at": "2026-10-21T16:49:05.053951+00:00"
+  "updated_at": "2026-10-21T16:49:08.877060+00:00"
 }
