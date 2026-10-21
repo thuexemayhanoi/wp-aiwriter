@@ -2854,10 +2854,11 @@
       "title": "Electric Motorbike Power Ratings and Licence Categories",
       "slug": "electric-motorbike-power-ratings-and-licence-categories",
       "source_hash": "28a2a33637b423d2f8bc57de133aa948fe99c2fe40adefb5d726ac1afdbeac25",
-      "checked_at": "2026-10-21T16:15:43.386734+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 52
+      "checked_at": "2026-10-21T16:15:45.735987+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 52,
+      "wp_id": 2370
     }
   },
-  "updated_at": "2026-10-21T16:15:43.386745+00:00"
+  "updated_at": "2026-10-21T16:15:45.736008+00:00"
 }
