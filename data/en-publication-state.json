@@ -3602,10 +3602,11 @@
       "title": "Riding through Hanoi University Neighbourhoods",
       "slug": "riding-through-hanoi-university-neighbourhoods",
       "source_hash": "3f0d90b744ac2ba5508c17ee3cb779edf28b5585004177594096c1bdcbd39b5d",
-      "checked_at": "2026-10-21T16:34:49.439947+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 53
+      "checked_at": "2026-10-21T16:34:52.138927+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 53,
+      "wp_id": 2506
     }
   },
-  "updated_at": "2026-10-21T16:34:49.439956+00:00"
+  "updated_at": "2026-10-21T16:34:52.138947+00:00"
 }
