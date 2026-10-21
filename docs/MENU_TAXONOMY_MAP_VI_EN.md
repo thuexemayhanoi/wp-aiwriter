@@ -1,3 +1,5 @@
+> **EN FAST WRITER OVERRIDE (21/10/2026):** For routine EN article creation, use [EN_FAST_WRITER.md](EN_FAST_WRITER.md) and `python scripts/en_writer_brief.py --limit 10 --format compact`; the packet already provides this taxonomy snapshot's ancestors. Existing `en/topics.json` titles are write-ready without Excel editorial approval. Consult the full map only for exceptional taxonomy/structural changes. QA ≥76; no 3-post publishing cap. Historical instructions below are retained for audit.
+
 # BẢN ĐỒ MENU – DANH MỤC – TRANG VI/EN (NGUYỄN HÀ)
 
 > **ĐỌC TRƯỚC KHI VIẾT BẤT KỲ BÀI NÀO.** Áp dụng cho ChatGPT, Claude, GitHub Copilot và các Writer làm việc trong `thuexemayhanoi/wp-aiwriter`. Đây là bản đồ **cấu trúc site**, không phải lệnh để tự sửa menu hoặc URL.  
@@ -283,7 +285,7 @@ Các ví dụ cho thấy **VI và EN có cấu trúc nội dung khác nhau**, d�
 
 ## 10. Câu lệnh chuyển giao giữa ChatGPT ⇄ Claude (copy nguyên văn)
 
-> Trước khi viết/publish WordPress Nguyễn Hà, đọc `AGENTS.md`, `docs/MENU_TAXONOMY_MAP_VI_EN.md`, `data/navigation-map.json`, file matrix VI/EN tương ứng và ledger hiện tại. Xác định chính xác Term ID và hierarchy cha/con dựa trên WordPress live, không dùng Page ID hoặc Menu Item ID thay Term ID. Không tạo danh mục, không đổi URL/canonical, không dùng nội dung Nguyễn Tú. Bài EN mới phải 1.600–5.000 từ, QA ≥85, tránh trùng intent, tối đa 3 bài/lượt, chỉ publish khi QA PASS và xác minh WordPress VERIFIED. Nếu thiếu thông tin hoặc lệch cấu trúc, BLOCK và báo rõ thay vì đoán.
+> Trước khi viết/publish WordPress Nguyễn Hà, đọc `AGENTS.md`, `docs/MENU_TAXONOMY_MAP_VI_EN.md`, `data/navigation-map.json`, file matrix VI/EN tương ứng và ledger hiện tại. Xác định chính xác Term ID và hierarchy cha/con dựa trên WordPress live, không dùng Page ID hoặc Menu Item ID thay Term ID. Không tạo danh mục, không đổi URL/canonical, không dùng nội dung Nguyễn Tú. Bài EN mới phải 1.600–5.000 từ, QA ≥76, tránh trùng intent, không giới hạn xuất bản theo batch, chỉ publish khi QA PASS và xác minh WordPress VERIFIED. Nếu thiếu thông tin hoặc lệch cấu trúc, BLOCK và báo rõ thay vì đoán.
 
 ---
 *Chỉ là bản đồ/hướng dẫn cho Writer; commit này không sửa WordPress hoặc nội dung bài viết.*

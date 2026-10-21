@@ -1,5 +1,7 @@
 # English category seeding — historical 2026-10-20 plan and current policy
 
+> **EN CURRENT FAST-WRITER POLICY:** [EN_FAST_WRITER.md](EN_FAST_WRITER.md) is authoritative for ordinary authors: 10-ID compact research queue, write unchanged titles from `en/topics.json` without Excel proposal approval. All live publication hard gates remain unchanged.
+
 > **CURRENT EN RULE (owner-approved 2026-10-21):** The table is a historical category-seeding proposal, **not** an active per-batch approval queue. No three-post publishing limit and no next-batch approval remain. English articles still require QA >=76, minimum 1,600 words for new/revised work, distinct intent, genuine sources, live registered taxonomy, duplicate preflight, WordPress verification and durable ledger checkpoints. This authorisation does **not** permit changing taxonomy, previous published articles, or URLs.
 
 

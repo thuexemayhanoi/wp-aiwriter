@@ -6,7 +6,7 @@
 
 **Site:** https://blog.rentbikehanoi.com (Nguyễn Hà only). **Do not confuse with Nguyễn Tú, /wp-writer or /global.**
 
-**FAST EN COMMAND (optional shell):** `python scripts/en_writer_brief.py --limit 3` (`--format json` for structured use). This creates a read-only research packet; DO NOT treat its proposed titles as approved, and live-check WordPress before authoring. Existing QA/publish rules in `AGENTS.md` remain mandatory.
+**FAST EN COMMAND:** `python scripts/en_writer_brief.py --limit 10 --format compact` (`--format json` for detailed research context). This queues original canonical titles directly with no proposed-title review; EN Publisher performs final live WordPress checks. The one-page EN fast guide and QA safeguards are mandatory.
 
 ## Detailed startup reading — required for VI, taxonomy/structure changes and EN exceptions; ordinary EN uses Fast Writer
 
@@ -30,4 +30,4 @@
 
 ## Fast handoff to another AI session
 
-> Read AGENTS.md, docs/MENU_TAXONOMY_MAP_VI_EN.md, data/navigation-map.json, the relevant VI/EN topic matrix and publication ledger before changing anything. Print target topic ID, chosen category Term ID and all ancestors, hub/page links, QA plan and expected WordPress URL. Keep the WordPress site unchanged until the publisher's QA gates authorize an existing planned article; do not guess a category or invent an additional branch.
+> EN standard manuscript: read docs/EN_FAST_WRITER.md, run --limit 10 --format compact and write current canonical titles. For VI work or taxonomy conflicts, use AGENTS.md and full menu map; never invent category IDs or change existing URLs. Publisher checks WordPress live and records VERIFIED before counting any post.
