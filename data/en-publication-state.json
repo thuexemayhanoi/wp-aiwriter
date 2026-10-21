@@ -533,10 +533,11 @@
       "title": "Yamaha Sirius Controls Explained for First-Time Renters",
       "slug": "yamaha-sirius-controls-explained-for-first-time-renters",
       "source_hash": "176557f4f0a8b6ab62414dfac9bfe8db90bd00281a50515bad630da76616cff7",
-      "checked_at": "2026-10-21T11:59:51.820016+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 49
+      "checked_at": "2026-10-21T11:59:54.200170+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 49,
+      "wp_id": 1948
     }
   },
-  "updated_at": "2026-10-21T11:59:51.820028+00:00"
+  "updated_at": "2026-10-21T11:59:54.200187+00:00"
 }
