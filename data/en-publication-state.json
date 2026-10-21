@@ -3228,11 +3228,13 @@
       "title": "Thanh Xuan by Scooter: Larger Roads and Local Streets",
       "slug": "thanh-xuan-by-scooter-larger-roads-and-local-streets",
       "source_hash": "129e544cc9f9403d9c9d54ee013d6fcf3f2c94adce3594a8dc57608040271d07",
-      "checked_at": "2026-10-21T16:25:32.534645+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:25:37.523100+00:00",
+      "phase": "VERIFIED",
       "category_id": 53,
-      "wp_id": 2438
+      "wp_id": 2438,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/thanh-xuan-by-scooter-larger-roads-and-local-streets/"
     }
   },
-  "updated_at": "2026-10-21T16:25:32.534668+00:00"
+  "updated_at": "2026-10-21T16:25:37.523121+00:00"
 }
