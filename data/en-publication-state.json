@@ -1364,7 +1364,15 @@
       "wp_id": 2098,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/honda-lead-vs-air-blade-for-taller-riders/"
+    },
+    "126": {
+      "title": "Scooter Turning Radius in Hanoi Alleys",
+      "slug": "scooter-turning-radius-in-hanoi-alleys",
+      "source_hash": "f9308dbf68c34da897b7959c9d83c08b192f46b6d4bbd8a276a7c0fea13f49b0",
+      "checked_at": "2026-10-21T15:38:40.675810+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 50
     }
   },
-  "updated_at": "2026-10-21T15:38:38.497234+00:00"
+  "updated_at": "2026-10-21T15:38:40.675818+00:00"
 }
