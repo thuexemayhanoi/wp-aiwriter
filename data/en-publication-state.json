@@ -968,7 +968,15 @@
       "wp_id": 2026,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/motorbike-footwear-for-hanoi-comfort-versus-protection/"
+    },
+    "85": {
+      "title": "When to Refuel a Manual Motorbike During a Day Trip",
+      "slug": "when-to-refuel-a-manual-motorbike-during-a-day-trip",
+      "source_hash": "bb0179b267b3a62ffc5e35dd05637d9d295c7681d7e48697e8792c4dfadfccb8",
+      "checked_at": "2026-10-21T14:51:43.903165+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 49
     }
   },
-  "updated_at": "2026-10-21T14:49:24.639566+00:00"
+  "updated_at": "2026-10-21T14:51:43.903177+00:00"
 }
