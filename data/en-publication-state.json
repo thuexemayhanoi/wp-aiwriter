@@ -2128,10 +2128,11 @@
       "title": "50cc Scooter Rental by the Week: What to Ask",
       "slug": "50cc-scooter-rental-by-the-week-what-to-ask",
       "source_hash": "8ba8cfec9e449512b60f506028b725efb9c138b948cdda93839a0cf323feb987",
-      "checked_at": "2026-10-21T15:57:08.926967+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 51
+      "checked_at": "2026-10-21T15:57:11.206742+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 51,
+      "wp_id": 2238
     }
   },
-  "updated_at": "2026-10-21T15:57:08.926977+00:00"
+  "updated_at": "2026-10-21T15:57:11.206784+00:00"
 }
