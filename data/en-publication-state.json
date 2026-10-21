@@ -511,11 +511,13 @@
       "title": "Semi-Automatic Bikes Explained: How to Ride a Honda Wave Without a Clutch",
       "slug": "how-to-ride-a-semi-automatic-honda-wave",
       "source_hash": "3a4984f0c0ac9986499dae413ef5892c981dbd39b7818ece8c4a3efe17479a2b",
-      "checked_at": "2026-10-21T10:17:53.676970+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T10:17:59.035715+00:00",
+      "phase": "VERIFIED",
       "category_id": 49,
-      "wp_id": 1944
+      "wp_id": 1944,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-ride-a-semi-automatic-honda-wave/"
     }
   },
-  "updated_at": "2026-10-21T10:17:53.676990+00:00"
+  "updated_at": "2026-10-21T10:17:59.035745+00:00"
 }
