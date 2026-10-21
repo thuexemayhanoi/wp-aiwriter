@@ -3289,7 +3289,15 @@
       "wp_id": 2448,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/motorbike-parking-near-the-temple-of-literature/"
+    },
+    "298": {
+      "title": "Visiting the Vietnam Museum of Ethnology by Scooter",
+      "slug": "visiting-the-vietnam-museum-of-ethnology-by-scooter",
+      "source_hash": "758334e04d9ecf16e64120a0680e110318d7b95538ba29d98676e17efc156fcd",
+      "checked_at": "2026-10-21T16:27:04.836071+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 53
     }
   },
-  "updated_at": "2026-10-21T16:27:02.916056+00:00"
+  "updated_at": "2026-10-21T16:27:04.836080+00:00"
 }
