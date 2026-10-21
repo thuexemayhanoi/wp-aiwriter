@@ -2755,11 +2755,13 @@
       "title": "Electric Scooter Brake Checks before Leaving the Shop",
       "slug": "electric-scooter-brake-checks-before-leaving-the-shop",
       "source_hash": "b3c6c1574480743484e606c415c764f74ffb4e1bd49dee027547a598183c7e94",
-      "checked_at": "2026-10-21T16:13:38.526355+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:13:44.108978+00:00",
+      "phase": "VERIFIED",
       "category_id": 66,
-      "wp_id": 2352
+      "wp_id": 2352,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/electric-scooter-brake-checks-before-leaving-the-shop/"
     }
   },
-  "updated_at": "2026-10-21T16:13:38.526375+00:00"
+  "updated_at": "2026-10-21T16:13:44.108998+00:00"
 }
