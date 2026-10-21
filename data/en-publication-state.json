@@ -1281,11 +1281,13 @@
       "title": "How to Park a Larger Scooter on a Narrow Hanoi Street",
       "slug": "how-to-park-a-larger-scooter-on-a-narrow-hanoi-street",
       "source_hash": "50425a06d2245ebeb402b52102f5075842a8c863001436b306245e05f099b526",
-      "checked_at": "2026-10-21T15:36:30.619072+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:36:35.408388+00:00",
+      "phase": "VERIFIED",
       "category_id": 50,
-      "wp_id": 2084
+      "wp_id": 2084,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-park-a-larger-scooter-on-a-narrow-hanoi-street/"
     }
   },
-  "updated_at": "2026-10-21T15:36:30.619088+00:00"
+  "updated_at": "2026-10-21T15:36:35.408403+00:00"
 }
