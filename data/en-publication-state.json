@@ -2700,11 +2700,13 @@
       "title": "Electric Bicycle Pedal Assist versus Throttle Control",
       "slug": "electric-bicycle-pedal-assist-versus-throttle-control",
       "source_hash": "e78983b07b9dd600a15c9c782b4aeaa05811d32bb53fb9ba892e5f85ce33789e",
-      "checked_at": "2026-10-21T16:12:24.339347+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:12:29.151610+00:00",
+      "phase": "VERIFIED",
       "category_id": 52,
-      "wp_id": 2342
+      "wp_id": 2342,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/electric-bicycle-pedal-assist-versus-throttle-control/"
     }
   },
-  "updated_at": "2026-10-21T16:12:24.339366+00:00"
+  "updated_at": "2026-10-21T16:12:29.151651+00:00"
 }
