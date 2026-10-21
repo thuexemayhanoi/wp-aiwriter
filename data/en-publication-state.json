@@ -3239,11 +3239,13 @@
       "title": "Nam Tu Liem by Scooter: Stadiums, Events and Parking",
       "slug": "nam-tu-liem-by-scooter-stadiums-events-and-parking",
       "source_hash": "e4476980bae0f413791413f979b93e39dbf9f1ba59f6167557406ebd88107bd5",
-      "checked_at": "2026-10-21T16:25:47.967434+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:25:52.948368+00:00",
+      "phase": "VERIFIED",
       "category_id": 53,
-      "wp_id": 2440
+      "wp_id": 2440,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/nam-tu-liem-by-scooter-stadiums-events-and-parking/"
     }
   },
-  "updated_at": "2026-10-21T16:25:47.967455+00:00"
+  "updated_at": "2026-10-21T16:25:52.948387+00:00"
 }
