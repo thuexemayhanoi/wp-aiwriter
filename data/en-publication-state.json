@@ -3382,10 +3382,11 @@
       "title": "Tran Quoc Pagoda: Scooter Access and Visitor Etiquette",
       "slug": "tran-quoc-pagoda-scooter-access-and-visitor-etiquette",
       "source_hash": "f11dad2ea202852fda68dd3fe56fc8df7bfafcd77f2b0af7b5c0156add10a786",
-      "checked_at": "2026-10-21T16:29:11.070148+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 53
+      "checked_at": "2026-10-21T16:29:13.605577+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 53,
+      "wp_id": 2466
     }
   },
-  "updated_at": "2026-10-21T16:29:11.070156+00:00"
+  "updated_at": "2026-10-21T16:29:13.605597+00:00"
 }
