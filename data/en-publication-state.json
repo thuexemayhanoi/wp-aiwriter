@@ -2145,7 +2145,15 @@
       "wp_id": 2240,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/50cc-monthly-rental-for-local-commuting/"
+    },
+    "192": {
+      "title": "Comparing Old and New 50cc Bikes before Renting",
+      "slug": "comparing-old-and-new-50cc-bikes-before-renting",
+      "source_hash": "162b17d73e638b26f2a027445615a1c4a127a0fe7b082294d40e2048f6a3f64c",
+      "checked_at": "2026-10-21T15:57:36.511810+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 51
     }
   },
-  "updated_at": "2026-10-21T15:57:34.962380+00:00"
+  "updated_at": "2026-10-21T15:57:36.511820+00:00"
 }
