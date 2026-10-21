@@ -2579,11 +2579,13 @@
       "title": "Battery Swapping versus Plug-In Charging for Renters",
       "slug": "battery-swapping-versus-plug-in-charging-for-renters",
       "source_hash": "5581dfa2d5646c0d95d3520ad18a37d92c5b020fb02e6c85081b6416d5294c7a",
-      "checked_at": "2026-10-21T16:09:22.510521+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:09:27.643966+00:00",
+      "phase": "VERIFIED",
       "category_id": 52,
-      "wp_id": 2320
+      "wp_id": 2320,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/battery-swapping-versus-plug-in-charging-for-renters/"
     }
   },
-  "updated_at": "2026-10-21T16:09:22.510541+00:00"
+  "updated_at": "2026-10-21T16:09:27.643986+00:00"
 }
