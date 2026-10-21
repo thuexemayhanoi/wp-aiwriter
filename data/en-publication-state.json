@@ -3234,7 +3234,15 @@
       "wp_id": 2438,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/thanh-xuan-by-scooter-larger-roads-and-local-streets/"
+    },
+    "293": {
+      "title": "Nam Tu Liem by Scooter: Stadiums, Events and Parking",
+      "slug": "nam-tu-liem-by-scooter-stadiums-events-and-parking",
+      "source_hash": "e4476980bae0f413791413f979b93e39dbf9f1ba59f6167557406ebd88107bd5",
+      "checked_at": "2026-10-21T16:25:39.398430+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 53
     }
   },
-  "updated_at": "2026-10-21T16:25:37.523121+00:00"
+  "updated_at": "2026-10-21T16:25:39.398439+00:00"
 }
