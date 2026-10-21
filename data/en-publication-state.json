@@ -3558,11 +3558,13 @@
       "title": "Arriving at Gia Lam Bus Station with a Rental Scooter",
       "slug": "arriving-at-gia-lam-bus-station-with-a-rental-scooter",
       "source_hash": "96d0329b694bc89410807550a2b77794248ebcbdbbeae500cf10fde33589ab41",
-      "checked_at": "2026-10-21T16:33:37.528287+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:33:43.447500+00:00",
+      "phase": "VERIFIED",
       "category_id": 64,
-      "wp_id": 2498
+      "wp_id": 2498,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/arriving-at-gia-lam-bus-station-with-a-rental-scooter/"
     }
   },
-  "updated_at": "2026-10-21T16:33:37.528307+00:00"
+  "updated_at": "2026-10-21T16:33:43.447520+00:00"
 }
