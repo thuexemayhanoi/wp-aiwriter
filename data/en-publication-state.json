@@ -4207,10 +4207,11 @@
       "title": "How to Combine Co Loa and Bat Trang without Rushing",
       "slug": "how-to-combine-co-loa-and-bat-trang-without-rushing",
       "source_hash": "5a451b95b60973b518e77e5653b8b24909b1504aae2a185da287e901c83f45e0",
-      "checked_at": "2026-10-21T16:51:14.812135+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 54
+      "checked_at": "2026-10-21T16:51:17.349553+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 54,
+      "wp_id": 2617
     }
   },
-  "updated_at": "2026-10-21T16:51:14.812144+00:00"
+  "updated_at": "2026-10-21T16:51:17.349573+00:00"
 }
