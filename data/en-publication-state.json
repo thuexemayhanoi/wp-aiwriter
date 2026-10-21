@@ -715,7 +715,15 @@
       "wp_id": 1980,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-handle-stop-and-go-traffic-on-a-semi-automatic-bike/"
+    },
+    "62": {
+      "title": "Shifting Gears on Hills Without Straining a Rental Motorbike",
+      "slug": "shifting-gears-on-hills-without-straining-a-rental-motorbike",
+      "source_hash": "4a4240190d492022a5278562088273612c4eafc612223259fbfbb278facf5288",
+      "checked_at": "2026-10-21T14:32:25.638112+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 49
     }
   },
-  "updated_at": "2026-10-21T14:32:22.404217+00:00"
+  "updated_at": "2026-10-21T14:32:25.638120+00:00"
 }
