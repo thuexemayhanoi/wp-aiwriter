@@ -3058,7 +3058,15 @@
       "wp_id": 2406,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/electric-scooter-rental-how-pickup-battery-level-is-recorded/"
+    },
+    "275": {
+      "title": "What to Check before Returning an Electric Scooter",
+      "slug": "what-to-check-before-returning-an-electric-scooter",
+      "source_hash": "33a596a987a60b6211b29a800c5385dcb4d724d5937aa9a53800c0f8680da10a",
+      "checked_at": "2026-10-21T16:20:56.596734+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 52
     }
   },
-  "updated_at": "2026-10-21T16:20:54.718581+00:00"
+  "updated_at": "2026-10-21T16:20:56.596746+00:00"
 }
