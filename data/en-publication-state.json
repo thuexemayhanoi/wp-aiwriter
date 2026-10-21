@@ -2871,7 +2871,15 @@
       "wp_id": 2372,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/helmet-rules-for-different-electric-two-wheeler-classes/"
+    },
+    "258": {
+      "title": "Can an Electric Bicycle Carry a Passenger Legally?",
+      "slug": "can-an-electric-bicycle-carry-a-passenger-legally",
+      "source_hash": "7d6e7c7370cad2b9bccd8495576d5b884dc8e7693e7c62179348d43e11edd17a",
+      "checked_at": "2026-10-21T16:16:12.860759+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 52
     }
   },
-  "updated_at": "2026-10-21T16:16:10.850807+00:00"
+  "updated_at": "2026-10-21T16:16:12.860769+00:00"
 }
