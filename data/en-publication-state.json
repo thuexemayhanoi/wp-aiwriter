@@ -3459,10 +3459,11 @@
       "title": "Duong Lam Ancient Village by Scooter: Respecting Pedestrian Lanes",
       "slug": "duong-lam-ancient-village-by-scooter-respecting-pedestrian-lanes",
       "source_hash": "92dd265a32731bbd731ad807091dbb86c94d8e3b5f176b757e3e4a95094fb244",
-      "checked_at": "2026-10-21T16:31:02.762774+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 53
+      "checked_at": "2026-10-21T16:31:05.500674+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 53,
+      "wp_id": 2480
     }
   },
-  "updated_at": "2026-10-21T16:31:02.762784+00:00"
+  "updated_at": "2026-10-21T16:31:05.500696+00:00"
 }
