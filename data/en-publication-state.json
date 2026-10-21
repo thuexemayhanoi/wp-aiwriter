@@ -2678,10 +2678,11 @@
       "title": "Electric Scooter Range with a Passenger and Luggage",
       "slug": "electric-scooter-range-with-a-passenger-and-luggage",
       "source_hash": "56a146ff23b16caf75e45ef342ee44cbe784a0884ddce733971f97930e35574a",
-      "checked_at": "2026-10-21T16:11:45.791266+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 52
+      "checked_at": "2026-10-21T16:11:48.353234+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 52,
+      "wp_id": 2338
     }
   },
-  "updated_at": "2026-10-21T16:11:45.791276+00:00"
+  "updated_at": "2026-10-21T16:11:48.353254+00:00"
 }
