@@ -4235,7 +4235,15 @@
       "wp_id": 2621,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-compare-a-northbound-and-southbound-day-trip/"
+    },
+    "386": {
+      "title": "When an Intercity Bus Is Safer than a Rental Motorbike",
+      "slug": "when-an-intercity-bus-is-safer-than-a-rental-motorbike",
+      "source_hash": "05fd05844291d6e8967ec8c7d518fe34cde6ba24ca726fe4ead4bf28c4aa6a5b",
+      "checked_at": "2026-10-21T16:52:02.562699+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 54
     }
   },
-  "updated_at": "2026-10-21T16:52:00.433155+00:00"
+  "updated_at": "2026-10-21T16:52:02.562707+00:00"
 }
