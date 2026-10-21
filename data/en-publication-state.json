@@ -2381,10 +2381,11 @@
       "title": "Why a 50cc Bike May Struggle on an Open Road",
       "slug": "why-a-50cc-bike-may-struggle-on-an-open-road",
       "source_hash": "ffff6bd81167713bbd1482816ad67fb29a625491ebe11eba966c9988f5050426",
-      "checked_at": "2026-10-21T16:03:58.721409+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 51
+      "checked_at": "2026-10-21T16:04:01.365031+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 51,
+      "wp_id": 2284
     }
   },
-  "updated_at": "2026-10-21T16:03:58.721418+00:00"
+  "updated_at": "2026-10-21T16:04:01.365051+00:00"
 }
