@@ -1661,7 +1661,15 @@
       "wp_id": 2152,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/why-a-scooter-pulls-to-one-side-during-a-test-ride/"
+    },
+    "143": {
+      "title": "How to Check a Scooter's Horn and Turn Signals",
+      "slug": "how-to-check-a-scooters-horn-and-turn-signals",
+      "source_hash": "357e74a776909b0fd562e0856b29538b1e60afa54902a19424540f514b7687aa",
+      "checked_at": "2026-10-21T15:46:37.106651+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 66
     }
   },
-  "updated_at": "2026-10-21T15:46:35.554556+00:00"
+  "updated_at": "2026-10-21T15:46:37.106661+00:00"
 }
