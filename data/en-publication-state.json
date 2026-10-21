@@ -2854,11 +2854,13 @@
       "title": "Electric Motorbike Power Ratings and Licence Categories",
       "slug": "electric-motorbike-power-ratings-and-licence-categories",
       "source_hash": "28a2a33637b423d2f8bc57de133aa948fe99c2fe40adefb5d726ac1afdbeac25",
-      "checked_at": "2026-10-21T16:15:51.251962+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:15:56.101239+00:00",
+      "phase": "VERIFIED",
       "category_id": 52,
-      "wp_id": 2370
+      "wp_id": 2370,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/electric-motorbike-power-ratings-and-licence-categories/"
     }
   },
-  "updated_at": "2026-10-21T16:15:51.251982+00:00"
+  "updated_at": "2026-10-21T16:15:56.101258+00:00"
 }
