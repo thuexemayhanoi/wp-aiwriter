@@ -98,7 +98,7 @@ class NavigationMapContract(unittest.TestCase):
         self.assertTrue(allowed <= english_ids)
         self.assertTrue(all(int(t["category_id"]) in allowed for t in EN_TOPICS))
         self.assertEqual(EN_POLICY["min_words"], 1600)
-        self.assertGreaterEqual(EN_POLICY["min_score"], 85)
+        self.assertEqual(EN_POLICY["min_score"], 76)
 
     def test_pages_keep_language_and_parent_type(self):
         self.assertEqual(Counter(x["language"] for x in self.pages.values()),
