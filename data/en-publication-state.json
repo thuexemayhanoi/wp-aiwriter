@@ -3206,11 +3206,13 @@
       "title": "Hai Ba Trung on Two Wheels: Markets, Museums and Parking",
       "slug": "hai-ba-trung-on-two-wheels-markets-museums-and-parking",
       "source_hash": "d9e0e1779e8da7a1e55a0fd86d308a0348867bc3a2aa2633bdbdd3c5e96eaefb",
-      "checked_at": "2026-10-21T16:24:59.879146+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:25:05.510966+00:00",
+      "phase": "VERIFIED",
       "category_id": 68,
-      "wp_id": 2434
+      "wp_id": 2434,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/hai-ba-trung-on-two-wheels-markets-museums-and-parking/"
     }
   },
-  "updated_at": "2026-10-21T16:24:59.879165+00:00"
+  "updated_at": "2026-10-21T16:25:05.510985+00:00"
 }
