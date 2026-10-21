@@ -1820,11 +1820,13 @@
       "title": "Scooter Headlight Checks for Evening Rentals",
       "slug": "scooter-headlight-checks-for-evening-rentals",
       "source_hash": "b5551522272a9d59400b316da3b4df5bc435ab047759c1222058f2afdd86de33",
-      "checked_at": "2026-10-21T15:50:00.586451+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:50:05.758911+00:00",
+      "phase": "VERIFIED",
       "category_id": 50,
-      "wp_id": 2182
+      "wp_id": 2182,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/scooter-headlight-checks-for-evening-rentals/"
     }
   },
-  "updated_at": "2026-10-21T15:50:00.586471+00:00"
+  "updated_at": "2026-10-21T15:50:05.758929+00:00"
 }
