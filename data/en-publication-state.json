@@ -3162,11 +3162,11 @@
       "title": "Are Shared Charging Stations Suitable for Rental Bikes?",
       "slug": "are-shared-charging-stations-suitable-for-rental-bikes",
       "source_hash": "60f36a7eb469a55c895259076f8458ee0846e5c01052791c88889a57ef213ff8",
-      "checked_at": "2026-10-21T16:23:51.060889+00:00",
-      "phase": "REGISTERED",
+      "checked_at": "2026-10-21T16:23:54.084040+00:00",
+      "phase": "VERIFY_PENDING",
       "category_id": 52,
       "wp_id": 2426
     }
   },
-  "updated_at": "2026-10-21T16:23:51.060909+00:00"
+  "updated_at": "2026-10-21T16:23:54.084061+00:00"
 }
