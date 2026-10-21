@@ -3124,7 +3124,15 @@
       "wp_id": 2418,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/electric-bike-luggage-limits-and-safe-storage/"
+    },
+    "281": {
+      "title": "What Happens if a Rental Scooter Charger Goes Missing?",
+      "slug": "what-happens-if-a-rental-scooter-charger-goes-missing",
+      "source_hash": "b244f990a96ee0ace9c89ae2f4dbe0c1e87873c6563badfb025972240872d330",
+      "checked_at": "2026-10-21T16:22:50.671342+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 52
     }
   },
-  "updated_at": "2026-10-21T16:22:48.494121+00:00"
+  "updated_at": "2026-10-21T16:22:50.671353+00:00"
 }
