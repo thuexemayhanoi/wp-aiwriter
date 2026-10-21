@@ -4427,11 +4427,13 @@
       "title": "What to Ask about Damage Liability before Renting",
       "slug": "what-to-ask-about-damage-liability-before-renting",
       "source_hash": "964a136bdc308d609083f1cce33c907eafb0fa9b254a25db2640fbc4dee7b040",
-      "checked_at": "2026-10-21T16:56:37.705689+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:56:42.295307+00:00",
+      "phase": "VERIFIED",
       "category_id": 55,
-      "wp_id": 2657
+      "wp_id": 2657,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/what-to-ask-about-damage-liability-before-renting/"
     }
   },
-  "updated_at": "2026-10-21T16:56:37.705708+00:00"
+  "updated_at": "2026-10-21T16:56:42.295325+00:00"
 }
