@@ -1468,11 +1468,11 @@
       "title": "Comparing Scooters for a Daily Commute across the Red River",
       "slug": "comparing-scooters-for-a-daily-commute-across-the-red-river",
       "source_hash": "56afd39872ef35f8a12c1b06df0c040cf758fcad6b9fbdca5684c15aa53bf15e",
-      "checked_at": "2026-10-21T15:41:20.932395+00:00",
-      "phase": "REGISTERED",
+      "checked_at": "2026-10-21T15:41:23.415635+00:00",
+      "phase": "VERIFY_PENDING",
       "category_id": 50,
       "wp_id": 2118
     }
   },
-  "updated_at": "2026-10-21T15:41:20.932411+00:00"
+  "updated_at": "2026-10-21T15:41:23.415653+00:00"
 }
