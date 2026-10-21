@@ -660,7 +660,15 @@
       "wp_id": 1970,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/can-a-new-rider-learn-semi-automatic-shifting-in-hanoi-traffic/"
+    },
+    "56": {
+      "title": "How Much Luggage Can You Safely Carry on a Honda Wave?",
+      "slug": "how-much-luggage-can-you-safely-carry-on-a-honda-wave",
+      "source_hash": "4fd6bc52c4045e295796136bc58034b375fada6d2fcb832ed538644aa6a9edc3",
+      "checked_at": "2026-10-21T14:31:09.936235+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 49
     }
   },
-  "updated_at": "2026-10-21T14:31:07.864065+00:00"
+  "updated_at": "2026-10-21T14:31:09.936245+00:00"
 }
