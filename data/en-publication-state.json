@@ -2079,7 +2079,15 @@
       "wp_id": 2228,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-start-a-classic-cub-50cc-motorbike/"
+    },
+    "186": {
+      "title": "Riding a Cub 50cc Smoothly in Stop-and-Go Traffic",
+      "slug": "riding-a-cub-50cc-smoothly-in-stop-and-go-traffic",
+      "source_hash": "662bb8613142f91fad63389fc538082e824d15ea7aac0e1ea02de5270a73d7af",
+      "checked_at": "2026-10-21T15:56:09.215187+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 51
     }
   },
-  "updated_at": "2026-10-21T15:56:07.469566+00:00"
+  "updated_at": "2026-10-21T15:56:09.215196+00:00"
 }
