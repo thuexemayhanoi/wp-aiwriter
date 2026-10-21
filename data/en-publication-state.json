@@ -2453,7 +2453,15 @@
       "wp_id": 2296,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/50cc-motorbike-rental-for-university-neighbourhoods/"
+    },
+    "220": {
+      "title": "The Difference between a Moped and an Electric Bicycle",
+      "slug": "the-difference-between-a-moped-and-an-electric-bicycle",
+      "source_hash": "be76664f4231e801cfe722dc8e435da8367f02ae12ee21d537812fc424a6b392",
+      "checked_at": "2026-10-21T16:05:53.140579+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 51
     }
   },
-  "updated_at": "2026-10-21T16:05:49.985903+00:00"
+  "updated_at": "2026-10-21T16:05:53.140587+00:00"
 }
