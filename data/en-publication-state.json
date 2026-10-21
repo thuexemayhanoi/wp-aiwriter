@@ -4372,11 +4372,11 @@
       "title": "Comparing Weekly and Monthly Rental Terms",
       "slug": "comparing-weekly-and-monthly-rental-terms",
       "source_hash": "86dc61c6069e265f5e6cad4e973583faf4fb653becc8b36b1c400d4c367b1448",
-      "checked_at": "2026-10-21T16:55:14.217385+00:00",
-      "phase": "REGISTERED",
+      "checked_at": "2026-10-21T16:55:16.695437+00:00",
+      "phase": "VERIFY_PENDING",
       "category_id": 69,
       "wp_id": 2647
     }
   },
-  "updated_at": "2026-10-21T16:55:14.217406+00:00"
+  "updated_at": "2026-10-21T16:55:16.695456+00:00"
 }
