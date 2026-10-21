@@ -3349,11 +3349,13 @@
       "title": "Hang Ma Street by Scooter during Festival Season",
       "slug": "hang-ma-street-by-scooter-during-festival-season",
       "source_hash": "3d0f65d3ca4c095197cb9f183d085d2e4ba1ae1c855917cc1b375c3873672876",
-      "checked_at": "2026-10-21T16:28:34.786290+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:28:39.528507+00:00",
+      "phase": "VERIFIED",
       "category_id": 53,
-      "wp_id": 2460
+      "wp_id": 2460,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/hang-ma-street-by-scooter-during-festival-season/"
     }
   },
-  "updated_at": "2026-10-21T16:28:34.786311+00:00"
+  "updated_at": "2026-10-21T16:28:39.528530+00:00"
 }
