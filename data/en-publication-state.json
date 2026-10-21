@@ -3168,7 +3168,15 @@
       "wp_id": 2426,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/are-shared-charging-stations-suitable-for-rental-bikes/"
+    },
+    "287": {
+      "title": "Truc Bach by Scooter: Cafes and Small-Street Navigation",
+      "slug": "truc-bach-by-scooter-cafes-and-small-street-navigation",
+      "source_hash": "5d6eb5a4cd74a030c7b4efdad461becf8693a393f0caa95343c77f79d8b14381",
+      "checked_at": "2026-10-21T16:24:00.960181+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 53
     }
   },
-  "updated_at": "2026-10-21T16:23:59.171540+00:00"
+  "updated_at": "2026-10-21T16:24:00.960190+00:00"
 }
