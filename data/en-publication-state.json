@@ -946,7 +946,15 @@
       "wp_id": 2022,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/choosing-a-helmet-that-fits-for-a-manual-motorbike-journey/"
+    },
+    "83": {
+      "title": "Riding a Semi-Automatic Bike in Sandals: Practical Safety Risks",
+      "slug": "riding-a-semi-automatic-bike-in-sandals-practical-safety-risks",
+      "source_hash": "aaf747e51d360deb1017e33e179322e58338b7b371a156e2aeaba2ab96e0ed89",
+      "checked_at": "2026-10-21T14:48:51.392013+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 49
     }
   },
-  "updated_at": "2026-10-21T14:48:48.951732+00:00"
+  "updated_at": "2026-10-21T14:48:51.392021+00:00"
 }
