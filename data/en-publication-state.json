@@ -1870,7 +1870,15 @@
       "wp_id": 2190,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-transport-a-helmet-on-a-scooter-while-parked/"
+    },
+    "167": {
+      "title": "50cc Motorbike versus 125cc Scooter: Which Rental Fits Your Trip?",
+      "slug": "50cc-motorbike-versus-125cc-scooter-which-rental-fits-your-trip",
+      "source_hash": "998a7697736a4402b4a2a2105542fc5aeef93432fa94001a31bce96629438a4c",
+      "checked_at": "2026-10-21T15:51:02.329346+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 51
     }
   },
-  "updated_at": "2026-10-21T15:51:00.695727+00:00"
+  "updated_at": "2026-10-21T15:51:02.329360+00:00"
 }
