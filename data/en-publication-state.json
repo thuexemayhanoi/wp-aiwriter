@@ -3635,10 +3635,11 @@
       "title": "Hanoi Shopping Centres by Scooter: Ticketed Parking Basics",
       "slug": "hanoi-shopping-centres-by-scooter-ticketed-parking-basics",
       "source_hash": "e5a270f8600ec4495cce3b28ade115507e57a2053083328a89d9ab5a6877d7af",
-      "checked_at": "2026-10-21T16:35:47.940032+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 53
+      "checked_at": "2026-10-21T16:35:50.603357+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 53,
+      "wp_id": 2512
     }
   },
-  "updated_at": "2026-10-21T16:35:47.940040+00:00"
+  "updated_at": "2026-10-21T16:35:50.603376+00:00"
 }
