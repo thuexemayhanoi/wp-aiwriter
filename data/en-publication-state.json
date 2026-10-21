@@ -3690,11 +3690,13 @@
       "title": "Hanoi Rainy-Day Sightseeing: When to Leave the Bike Parked",
       "slug": "hanoi-rainy-day-sightseeing-when-to-leave-the-bike-parked",
       "source_hash": "254d5f2b470ad98b37fb9a628f60a558d6b1024b429def7da3d3076b87e38b13",
-      "checked_at": "2026-10-21T16:38:34.767488+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:38:39.425238+00:00",
+      "phase": "VERIFIED",
       "category_id": 53,
-      "wp_id": 2522
+      "wp_id": 2522,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/hanoi-rainy-day-sightseeing-when-to-leave-the-bike-parked/"
     }
   },
-  "updated_at": "2026-10-21T16:38:34.767510+00:00"
+  "updated_at": "2026-10-21T16:38:39.425258+00:00"
 }
