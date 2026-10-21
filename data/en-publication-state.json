@@ -2007,11 +2007,13 @@
       "title": "Minimum Rider Age versus Rental Shop Age Requirements",
       "slug": "minimum-rider-age-versus-rental-shop-age-requirements",
       "source_hash": "b472b9fc22dc97217f45ab124a94676e1fedd7ecbe68a9a4a3f9d9e9cc95f540",
-      "checked_at": "2026-10-21T15:54:29.329847+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:54:33.902695+00:00",
+      "phase": "VERIFIED",
       "category_id": 51,
-      "wp_id": 2216
+      "wp_id": 2216,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/minimum-rider-age-versus-rental-shop-age-requirements/"
     }
   },
-  "updated_at": "2026-10-21T15:54:29.329864+00:00"
+  "updated_at": "2026-10-21T15:54:33.902714+00:00"
 }
