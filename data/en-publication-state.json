@@ -1325,10 +1325,11 @@
       "title": "How to Spot Uneven Scooter Brake Feel",
       "slug": "how-to-spot-uneven-scooter-brake-feel",
       "source_hash": "13dffc54ce8963a4b27a2bd2172f157c438e24c4b072d7343ee84385fb5d9660",
-      "checked_at": "2026-10-21T15:37:29.798839+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 66
+      "checked_at": "2026-10-21T15:37:33.906183+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 66,
+      "wp_id": 2092
     }
   },
-  "updated_at": "2026-10-21T15:37:29.798848+00:00"
+  "updated_at": "2026-10-21T15:37:33.906199+00:00"
 }
