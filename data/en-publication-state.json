@@ -4130,11 +4130,13 @@
       "title": "How to Plan a Scooter Route with Limited Daylight",
       "slug": "how-to-plan-a-scooter-route-with-limited-daylight",
       "source_hash": "ea3fa61b4649f89aa4b2fc22725ce853003892e5ffad38176be69aac3b91b416",
-      "checked_at": "2026-10-21T16:49:30.835557+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:49:35.986576+00:00",
+      "phase": "VERIFIED",
       "category_id": 54,
-      "wp_id": 2603
+      "wp_id": 2603,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-plan-a-scooter-route-with-limited-daylight/"
     }
   },
-  "updated_at": "2026-10-21T16:49:30.835574+00:00"
+  "updated_at": "2026-10-21T16:49:35.986594+00:00"
 }
