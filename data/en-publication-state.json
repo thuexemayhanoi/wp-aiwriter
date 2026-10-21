@@ -1760,7 +1760,15 @@
       "wp_id": 2170,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/automatic-scooter-rental-daily-weekly-or-monthly/"
+    },
+    "157": {
+      "title": "Can You Ride an Automatic Scooter with Large Luggage?",
+      "slug": "can-you-ride-an-automatic-scooter-with-large-luggage",
+      "source_hash": "945476ec47a3779d4c64b35188588d7aafc19b9f1b41ff4895a7928a629dd180",
+      "checked_at": "2026-10-21T15:48:39.938637+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 50
     }
   },
-  "updated_at": "2026-10-21T15:48:38.496290+00:00"
+  "updated_at": "2026-10-21T15:48:39.938646+00:00"
 }
