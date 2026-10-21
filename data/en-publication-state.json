@@ -720,11 +720,13 @@
       "title": "Shifting Gears on Hills Without Straining a Rental Motorbike",
       "slug": "shifting-gears-on-hills-without-straining-a-rental-motorbike",
       "source_hash": "4a4240190d492022a5278562088273612c4eafc612223259fbfbb278facf5288",
-      "checked_at": "2026-10-21T14:32:32.911800+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T14:32:38.208037+00:00",
+      "phase": "VERIFIED",
       "category_id": 49,
-      "wp_id": 1982
+      "wp_id": 1982,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/shifting-gears-on-hills-without-straining-a-rental-motorbike/"
     }
   },
-  "updated_at": "2026-10-21T14:32:32.911816+00:00"
+  "updated_at": "2026-10-21T14:32:38.208058+00:00"
 }
