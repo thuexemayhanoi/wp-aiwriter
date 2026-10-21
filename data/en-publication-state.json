@@ -2348,11 +2348,13 @@
       "title": "How to Check a 50cc Bike's Mirrors and Horn",
       "slug": "how-to-check-a-50cc-bikes-mirrors-and-horn",
       "source_hash": "fd3b2640548eafbe81f6afa5584e970e361bac10743d26272b99d9d49768c204",
-      "checked_at": "2026-10-21T16:03:18.166872+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:03:23.732460+00:00",
+      "phase": "VERIFIED",
       "category_id": 66,
-      "wp_id": 2278
+      "wp_id": 2278,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-check-a-50cc-bikes-mirrors-and-horn/"
     }
   },
-  "updated_at": "2026-10-21T16:03:18.166893+00:00"
+  "updated_at": "2026-10-21T16:03:23.732480+00:00"
 }
