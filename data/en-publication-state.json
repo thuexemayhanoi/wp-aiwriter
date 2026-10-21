@@ -2535,10 +2535,11 @@
       "title": "How to Estimate Electric Scooter Range before a Day Trip",
       "slug": "how-to-estimate-electric-scooter-range-before-a-day-trip",
       "source_hash": "72e72f983889f6d9f64e668eea2896a0b6cad50f012627094c6b21ea3727126a",
-      "checked_at": "2026-10-21T16:07:58.559603+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 52
+      "checked_at": "2026-10-21T16:08:01.345026+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 52,
+      "wp_id": 2312
     }
   },
-  "updated_at": "2026-10-21T16:07:58.559612+00:00"
+  "updated_at": "2026-10-21T16:08:01.345046+00:00"
 }
