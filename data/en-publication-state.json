@@ -2447,10 +2447,11 @@
       "title": "50cc Motorbike Rental for University Neighbourhoods",
       "slug": "50cc-motorbike-rental-for-university-neighbourhoods",
       "source_hash": "28a03d7b9b30bc56e1be6a2d60ae57c66d9fd39a0b2517b63439deb00c0c4922",
-      "checked_at": "2026-10-21T16:05:35.714888+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 51
+      "checked_at": "2026-10-21T16:05:38.393427+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 51,
+      "wp_id": 2296
     }
   },
-  "updated_at": "2026-10-21T16:05:35.714896+00:00"
+  "updated_at": "2026-10-21T16:05:38.393447+00:00"
 }
