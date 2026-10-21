@@ -3740,7 +3740,15 @@
       "wp_id": 2530,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/hanoi-to-bac-ninh-by-motorbike-cultural-stops-and-road-planning/"
+    },
+    "340": {
+      "title": "Hanoi to Soc Son by Scooter: Forest Stops and Traffic Checks",
+      "slug": "hanoi-to-soc-son-by-scooter-forest-stops-and-traffic-checks",
+      "source_hash": "87d9ee50a45703b163c6e4c0e37933cd1df601643d28b37f35281030f73c47ff",
+      "checked_at": "2026-10-21T16:39:43.545116+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 54
     }
   },
-  "updated_at": "2026-10-21T16:39:41.772168+00:00"
+  "updated_at": "2026-10-21T16:39:43.545124+00:00"
 }
