@@ -1325,11 +1325,13 @@
       "title": "How to Spot Uneven Scooter Brake Feel",
       "slug": "how-to-spot-uneven-scooter-brake-feel",
       "source_hash": "13dffc54ce8963a4b27a2bd2172f157c438e24c4b072d7343ee84385fb5d9660",
-      "checked_at": "2026-10-21T15:37:39.849754+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:37:44.461224+00:00",
+      "phase": "VERIFIED",
       "category_id": 66,
-      "wp_id": 2092
+      "wp_id": 2092,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-spot-uneven-scooter-brake-feel/"
     }
   },
-  "updated_at": "2026-10-21T15:37:39.849770+00:00"
+  "updated_at": "2026-10-21T15:37:44.461241+00:00"
 }
