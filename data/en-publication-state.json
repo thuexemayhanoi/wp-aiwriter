@@ -4169,7 +4169,15 @@
       "wp_id": 2609,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/avoiding-night-riding-on-a-hanoi-return-trip/"
+    },
+    "380": {
+      "title": "Planning a Route with a Passenger and Luggage",
+      "slug": "planning-a-route-with-a-passenger-and-luggage",
+      "source_hash": "dba678fe7df73a0c5a897c06320d154e0915318406e8482cc808f8e7f8dedc7e",
+      "checked_at": "2026-10-21T16:50:25.349798+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 54
     }
   },
-  "updated_at": "2026-10-21T16:50:21.748694+00:00"
+  "updated_at": "2026-10-21T16:50:25.349807+00:00"
 }
