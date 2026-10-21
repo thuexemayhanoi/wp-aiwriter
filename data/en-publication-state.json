@@ -3547,11 +3547,13 @@
       "title": "Motorbike Parking near Hanoi Railway Station",
       "slug": "motorbike-parking-near-hanoi-railway-station",
       "source_hash": "8e20a26e1804acb43a6555153808dd4caf258e4b0eec45158f72f6ae05246e4f",
-      "checked_at": "2026-10-21T16:33:22.506321+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:33:27.273432+00:00",
+      "phase": "VERIFIED",
       "category_id": 53,
-      "wp_id": 2496
+      "wp_id": 2496,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/motorbike-parking-near-hanoi-railway-station/"
     }
   },
-  "updated_at": "2026-10-21T16:33:22.506341+00:00"
+  "updated_at": "2026-10-21T16:33:27.273455+00:00"
 }
