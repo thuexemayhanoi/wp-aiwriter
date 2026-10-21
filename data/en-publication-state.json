@@ -572,7 +572,15 @@
       "wp_id": 1954,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/manual-motorbike-rental-for-solo-travellers-with-a-backpack/"
+    },
+    "58": {
+      "title": "Manual Bike Brakes: What to Test Before Leaving the Rental Shop",
+      "slug": "manual-bike-brakes-what-to-test-before-leaving-the-rental-shop",
+      "source_hash": "10c51ea499f9f45f0291e386db663dd6d977d9e22ffe24ef5cf9fb077c864acf",
+      "checked_at": "2026-10-21T12:12:06.444440+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 66
     }
   },
-  "updated_at": "2026-10-21T12:12:05.008476+00:00"
+  "updated_at": "2026-10-21T12:12:06.444449+00:00"
 }
