@@ -1067,7 +1067,15 @@
       "wp_id": 2044,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/checking-the-rear-brake-on-a-honda-wave/"
+    },
+    "94": {
+      "title": "Front Brake versus Rear Brake on Small Manual Motorbikes",
+      "slug": "front-brake-versus-rear-brake-on-small-manual-motorbikes",
+      "source_hash": "5e993f6444198ed49ca3a38b950ae1845a0219567c11c43cb7309dbb57ff18cc",
+      "checked_at": "2026-10-21T15:09:26.562068+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 49
     }
   },
-  "updated_at": "2026-10-21T15:09:23.508523+00:00"
+  "updated_at": "2026-10-21T15:09:26.562076+00:00"
 }
