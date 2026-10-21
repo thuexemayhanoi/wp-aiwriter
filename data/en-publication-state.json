@@ -2590,10 +2590,11 @@
       "title": "Electric Motorbike Charging Safety in the Rain",
       "slug": "electric-motorbike-charging-safety-in-the-rain",
       "source_hash": "0063fc8771a030ad36de19067b7630b0e445c6a1e7ac38c0ca080ff71eb37945",
-      "checked_at": "2026-10-21T16:09:29.848083+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 52
+      "checked_at": "2026-10-21T16:09:32.602353+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 52,
+      "wp_id": 2322
     }
   },
-  "updated_at": "2026-10-21T16:09:29.848092+00:00"
+  "updated_at": "2026-10-21T16:09:32.602374+00:00"
 }
