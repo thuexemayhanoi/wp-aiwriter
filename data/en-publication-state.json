@@ -3190,7 +3190,15 @@
       "wp_id": 2430,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/getting-around-dong-da-on-a-rented-motorbike/"
+    },
+    "289": {
+      "title": "Cau Giay by Scooter: Office District Traffic and Parking",
+      "slug": "cau-giay-by-scooter-office-district-traffic-and-parking",
+      "source_hash": "472116932acd9bfda0607c685cf4dd398db47b2c9f8406f222f667543c2e296f",
+      "checked_at": "2026-10-21T16:24:32.964942+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 68
     }
   },
-  "updated_at": "2026-10-21T16:24:29.976418+00:00"
+  "updated_at": "2026-10-21T16:24:32.964951+00:00"
 }
