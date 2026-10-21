@@ -4405,11 +4405,13 @@
       "title": "What a Motorbike Handover Checklist Should Include",
       "slug": "what-a-motorbike-handover-checklist-should-include",
       "source_hash": "e5bb17201bbeb565239be15d4390ec7d74eb884bdde228f28927046a1f6aea88",
-      "checked_at": "2026-10-21T16:56:08.728921+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:56:13.486177+00:00",
+      "phase": "VERIFIED",
       "category_id": 66,
-      "wp_id": 2653
+      "wp_id": 2653,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/what-a-motorbike-handover-checklist-should-include/"
     }
   },
-  "updated_at": "2026-10-21T16:56:08.728941+00:00"
+  "updated_at": "2026-10-21T16:56:13.486198+00:00"
 }
