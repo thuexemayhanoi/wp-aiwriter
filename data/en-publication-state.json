@@ -1765,10 +1765,11 @@
       "title": "Can You Ride an Automatic Scooter with Large Luggage?",
       "slug": "can-you-ride-an-automatic-scooter-with-large-luggage",
       "source_hash": "945476ec47a3779d4c64b35188588d7aafc19b9f1b41ff4895a7928a629dd180",
-      "checked_at": "2026-10-21T15:48:39.938637+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 50
+      "checked_at": "2026-10-21T15:48:42.153158+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 50,
+      "wp_id": 2172
     }
   },
-  "updated_at": "2026-10-21T15:48:39.938646+00:00"
+  "updated_at": "2026-10-21T15:48:42.153178+00:00"
 }
