@@ -1501,11 +1501,13 @@
       "title": "Automatic Scooters and Steep Hills: What Riders Should Know",
       "slug": "automatic-scooters-and-steep-hills-what-riders-should-know",
       "source_hash": "1e814c6103efda41073c942b6e807f1b797b4ac6d11cdfebfe1165aed596e86c",
-      "checked_at": "2026-10-21T15:42:11.100602+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:42:15.430503+00:00",
+      "phase": "VERIFIED",
       "category_id": 50,
-      "wp_id": 2124
+      "wp_id": 2124,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/automatic-scooters-and-steep-hills-what-riders-should-know/"
     }
   },
-  "updated_at": "2026-10-21T15:42:11.100619+00:00"
+  "updated_at": "2026-10-21T15:42:15.430520+00:00"
 }
