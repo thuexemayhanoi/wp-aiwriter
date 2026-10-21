@@ -4449,11 +4449,11 @@
       "title": "Motorbike Rental with Hotel Pickup: Questions before Booking",
       "slug": "motorbike-rental-with-hotel-pickup-questions-before-booking",
       "source_hash": "0fd2e26aec7f3daf4aec7d51b185695a5fcede03e14996de3d5c8b0b277ecdaf",
-      "checked_at": "2026-10-21T16:57:06.721148+00:00",
-      "phase": "REGISTERED",
+      "checked_at": "2026-10-21T16:57:09.301935+00:00",
+      "phase": "VERIFY_PENDING",
       "category_id": 55,
       "wp_id": 2661
     }
   },
-  "updated_at": "2026-10-21T16:57:06.721168+00:00"
+  "updated_at": "2026-10-21T16:57:09.301956+00:00"
 }
