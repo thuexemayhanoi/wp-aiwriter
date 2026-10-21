@@ -979,7 +979,15 @@
       "wp_id": 2028,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/when-to-refuel-a-manual-motorbike-during-a-day-trip/"
+    },
+    "86": {
+      "title": "Manual Motorbike Rental for Two People: Size and Comfort",
+      "slug": "manual-motorbike-rental-for-two-people-size-and-comfort",
+      "source_hash": "7b84ef80aea489d5f8fe504d5ce4fe9167da66ff8b64caf422cbd4a689b14fa3",
+      "checked_at": "2026-10-21T14:51:57.683165+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 49
     }
   },
-  "updated_at": "2026-10-21T14:51:56.030178+00:00"
+  "updated_at": "2026-10-21T14:51:57.683174+00:00"
 }
