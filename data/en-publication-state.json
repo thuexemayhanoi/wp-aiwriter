@@ -3624,11 +3624,13 @@
       "title": "How to Handle Parking near Major Hanoi Hospitals",
       "slug": "how-to-handle-parking-near-major-hanoi-hospitals",
       "source_hash": "2ef1a6752c3f1ad1c094da65debf1af0edcc5f00c71d60d0d15b0ef6b20a2349",
-      "checked_at": "2026-10-21T16:35:39.081358+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:35:45.588812+00:00",
+      "phase": "VERIFIED",
       "category_id": 53,
-      "wp_id": 2510
+      "wp_id": 2510,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-handle-parking-near-major-hanoi-hospitals/"
     }
   },
-  "updated_at": "2026-10-21T16:35:39.081378+00:00"
+  "updated_at": "2026-10-21T16:35:45.588831+00:00"
 }
