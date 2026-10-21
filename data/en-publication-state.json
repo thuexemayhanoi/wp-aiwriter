@@ -385,7 +385,15 @@
       "wp_id": 1920,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/crossing-hanoi-intersections/"
+    },
+    "27": {
+      "title": "Hanoi Motorbike Rental Contract: What the Clauses Mean",
+      "slug": "hanoi-motorbike-rental-contract-explained",
+      "source_hash": "8ca0799980e3afbf44dce8a0b08630e7f647b49e55d44c4d1656258665a27052",
+      "checked_at": "2026-10-21T04:16:28.839417+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 55
     }
   },
-  "updated_at": "2026-10-21T04:16:27.343268+00:00"
+  "updated_at": "2026-10-21T04:16:28.839426+00:00"
 }
