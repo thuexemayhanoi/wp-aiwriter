@@ -3833,11 +3833,13 @@
       "title": "Hanoi to Thai Nguyen by Motorbike: Road Choices",
       "slug": "hanoi-to-thai-nguyen-by-motorbike-road-choices",
       "source_hash": "7f4719b061a4864d1a54a07bde07d6e2305241e0c8d2ee73b5ead75fb85c7d80",
-      "checked_at": "2026-10-21T16:41:51.692315+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:41:56.526250+00:00",
+      "phase": "VERIFIED",
       "category_id": 54,
-      "wp_id": 2548
+      "wp_id": 2548,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/hanoi-to-thai-nguyen-by-motorbike-road-choices/"
     }
   },
-  "updated_at": "2026-10-21T16:41:51.692332+00:00"
+  "updated_at": "2026-10-21T16:41:56.526266+00:00"
 }
