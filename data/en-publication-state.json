@@ -3327,10 +3327,11 @@
       "title": "Getting to the Hanoi Opera House by Rental Scooter",
       "slug": "getting-to-the-hanoi-opera-house-by-rental-scooter",
       "source_hash": "ea71adf693c66689dca0e732963ed7612be4c64b8c6f9eff3e47eaa4869a3ee2",
-      "checked_at": "2026-10-21T16:27:54.962069+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 53
+      "checked_at": "2026-10-21T16:27:57.309395+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 53,
+      "wp_id": 2456
     }
   },
-  "updated_at": "2026-10-21T16:27:54.962078+00:00"
+  "updated_at": "2026-10-21T16:27:57.309416+00:00"
 }
