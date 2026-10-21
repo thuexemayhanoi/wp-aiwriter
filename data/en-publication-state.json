@@ -1287,7 +1287,15 @@
       "wp_id": 2084,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-park-a-larger-scooter-on-a-narrow-hanoi-street/"
+    },
+    "119": {
+      "title": "Automatic Scooter Tyre Checks before a Daily Rental",
+      "slug": "automatic-scooter-tyre-checks-before-a-daily-rental",
+      "source_hash": "697ddb0ae88ce024827ec85fe6deae122ca34799a16788c85a3d468548c281bb",
+      "checked_at": "2026-10-21T15:36:37.709180+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 66
     }
   },
-  "updated_at": "2026-10-21T15:36:35.408403+00:00"
+  "updated_at": "2026-10-21T15:36:37.709190+00:00"
 }
