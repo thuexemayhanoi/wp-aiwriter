@@ -2271,10 +2271,11 @@
       "title": "Insurance Questions for Tourists Riding 50cc Bikes",
       "slug": "insurance-questions-for-tourists-riding-50cc-bikes",
       "source_hash": "f8034cf6192208341e927b31bc627c59e5270384849c54d607d0581ad249c03f",
-      "checked_at": "2026-10-21T16:01:23.443310+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 51
+      "checked_at": "2026-10-21T16:01:25.939353+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 51,
+      "wp_id": 2264
     }
   },
-  "updated_at": "2026-10-21T16:01:23.443319+00:00"
+  "updated_at": "2026-10-21T16:01:25.939373+00:00"
 }
