@@ -4394,10 +4394,11 @@
       "title": "How to Photograph a Rental Motorbike before Handover",
       "slug": "how-to-photograph-a-rental-motorbike-before-handover",
       "source_hash": "da690b5f182e3f9605d46443f4209f455f61197e6a3988a58ee6017402a862a8",
-      "checked_at": "2026-10-21T16:55:43.137163+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 66
+      "checked_at": "2026-10-21T16:55:45.703285+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 66,
+      "wp_id": 2651
     }
   },
-  "updated_at": "2026-10-21T16:55:43.137172+00:00"
+  "updated_at": "2026-10-21T16:55:45.703305+00:00"
 }
