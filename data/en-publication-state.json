@@ -3608,7 +3608,15 @@
       "wp_id": 2506,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/riding-through-hanoi-university-neighbourhoods/"
+    },
+    "328": {
+      "title": "Visiting Hanoi's Flower Markets by Scooter",
+      "slug": "visiting-hanois-flower-markets-by-scooter",
+      "source_hash": "d3566c8aba6c6ac5cf766edc4912bd0d46c0742279656e487affbde0404bdf54",
+      "checked_at": "2026-10-21T16:35:09.222926+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 53
     }
   },
-  "updated_at": "2026-10-21T16:35:06.713203+00:00"
+  "updated_at": "2026-10-21T16:35:09.222934+00:00"
 }
