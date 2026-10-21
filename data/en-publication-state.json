@@ -4295,11 +4295,13 @@
       "title": "A Two-Day Hanoi to Ninh Binh Ride with Time for Sightseeing",
       "slug": "a-two-day-hanoi-to-ninh-binh-ride-with-time-for-sightseeing",
       "source_hash": "f9f4fbe09505d4f2f6f4c35a210eed365bc440df46209846d3273e500fed1e47",
-      "checked_at": "2026-10-21T16:53:30.041463+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:53:34.608105+00:00",
+      "phase": "VERIFIED",
       "category_id": 54,
-      "wp_id": 2633
+      "wp_id": 2633,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/a-two-day-hanoi-to-ninh-binh-ride-with-time-for-sightseeing/"
     }
   },
-  "updated_at": "2026-10-21T16:53:30.041482+00:00"
+  "updated_at": "2026-10-21T16:53:34.608123+00:00"
 }
