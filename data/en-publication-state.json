@@ -1298,7 +1298,15 @@
       "wp_id": 2086,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/automatic-scooter-tyre-checks-before-a-daily-rental/"
+    },
+    "120": {
+      "title": "What Does a Worn Scooter Drive Belt Feel Like?",
+      "slug": "what-does-a-worn-scooter-drive-belt-feel-like",
+      "source_hash": "48daf9e17ed4082e1da3d537b8b88a83cb616d1fb8888c14776b0edfcf613197",
+      "checked_at": "2026-10-21T15:36:56.206179+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 50
     }
   },
-  "updated_at": "2026-10-21T15:36:53.863871+00:00"
+  "updated_at": "2026-10-21T15:36:56.206187+00:00"
 }
