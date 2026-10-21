@@ -2486,7 +2486,15 @@
       "wp_id": 2302,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-photograph-a-50cc-bikes-condition-at-pickup/"
+    },
+    "223": {
+      "title": "What Questions to Ask before Booking a 50cc Scooter",
+      "slug": "what-questions-to-ask-before-booking-a-50cc-scooter",
+      "source_hash": "e08ccdd1c5659ec1edf160c6ba856acd6f832e7f9dfa36a0c53eaed547e49b47",
+      "checked_at": "2026-10-21T16:06:43.505530+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 51
     }
   },
-  "updated_at": "2026-10-21T16:06:39.506730+00:00"
+  "updated_at": "2026-10-21T16:06:43.505538+00:00"
 }
