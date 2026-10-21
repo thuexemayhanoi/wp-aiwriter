@@ -4493,10 +4493,11 @@
       "title": "Choosing a Rental Period when Your Travel Plans May Change",
       "slug": "choosing-a-rental-period-when-your-travel-plans-may-change",
       "source_hash": "fb980cb3c8884383c20cd135636190e2b92c3011c0e1d8a36d20fc6d140e3dd9",
-      "checked_at": "2026-10-21T16:58:05.262711+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 55
+      "checked_at": "2026-10-21T16:58:07.706972+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 55,
+      "wp_id": 2669
     }
   },
-  "updated_at": "2026-10-21T16:58:05.262720+00:00"
+  "updated_at": "2026-10-21T16:58:07.706993+00:00"
 }
