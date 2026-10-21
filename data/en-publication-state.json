@@ -4383,10 +4383,11 @@
       "title": "Understanding the Difference between Rent and Deposit",
       "slug": "understanding-the-difference-between-rent-and-deposit",
       "source_hash": "a356d65e3d0045466268bcbd998dcdfa4ce588375bf2d473621d491860de787a",
-      "checked_at": "2026-10-21T16:55:23.039949+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 55
+      "checked_at": "2026-10-21T16:55:26.565018+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 55,
+      "wp_id": 2649
     }
   },
-  "updated_at": "2026-10-21T16:55:23.039960+00:00"
+  "updated_at": "2026-10-21T16:55:26.565034+00:00"
 }
