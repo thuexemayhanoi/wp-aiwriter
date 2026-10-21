@@ -1908,11 +1908,13 @@
       "title": "Cub 50cc versus 50cc Automatic Scooter for City Riding",
       "slug": "cub-50cc-versus-50cc-automatic-scooter-for-city-riding",
       "source_hash": "ddc558f8632dc881668e76e7fca3549aee48eb63fd171afd1590659502429f55",
-      "checked_at": "2026-10-21T15:52:00.108478+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:52:04.944859+00:00",
+      "phase": "VERIFIED",
       "category_id": 51,
-      "wp_id": 2198
+      "wp_id": 2198,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/cub-50cc-versus-50cc-automatic-scooter-for-city-riding/"
     }
   },
-  "updated_at": "2026-10-21T15:52:00.108497+00:00"
+  "updated_at": "2026-10-21T15:52:04.944879+00:00"
 }
