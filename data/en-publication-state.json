@@ -2590,11 +2590,13 @@
       "title": "Electric Motorbike Charging Safety in the Rain",
       "slug": "electric-motorbike-charging-safety-in-the-rain",
       "source_hash": "0063fc8771a030ad36de19067b7630b0e445c6a1e7ac38c0ca080ff71eb37945",
-      "checked_at": "2026-10-21T16:09:38.179797+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:09:43.979773+00:00",
+      "phase": "VERIFIED",
       "category_id": 52,
-      "wp_id": 2322
+      "wp_id": 2322,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/electric-motorbike-charging-safety-in-the-rain/"
     }
   },
-  "updated_at": "2026-10-21T16:09:38.179816+00:00"
+  "updated_at": "2026-10-21T16:09:43.979793+00:00"
 }
