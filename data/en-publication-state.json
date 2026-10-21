@@ -1006,11 +1006,13 @@
       "title": "Small-Engine Manual Bikes for Rural Roads near Hanoi",
       "slug": "small-engine-manual-bikes-for-rural-roads-near-hanoi",
       "source_hash": "5b3a97e05bce81157c08d6fe75fa29556b845269c16f0f098c760abace8f9d3b",
-      "checked_at": "2026-10-21T14:52:35.751811+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T14:52:40.847118+00:00",
+      "phase": "VERIFIED",
       "category_id": 49,
-      "wp_id": 2034
+      "wp_id": 2034,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/small-engine-manual-bikes-for-rural-roads-near-hanoi/"
     }
   },
-  "updated_at": "2026-10-21T14:52:35.751828+00:00"
+  "updated_at": "2026-10-21T14:52:40.847137+00:00"
 }
