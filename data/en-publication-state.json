@@ -2640,7 +2640,15 @@
       "wp_id": 2330,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-read-an-electric-scooter-battery-indicator/"
+    },
+    "237": {
+      "title": "What to Check on an Electric Bike Charging Cable",
+      "slug": "what-to-check-on-an-electric-bike-charging-cable",
+      "source_hash": "3ad33b8bd1eae64bb41fb1ff191736d295134f1683f6e0cf94eeb473c54754f6",
+      "checked_at": "2026-10-21T16:10:59.064299+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 52
     }
   },
-  "updated_at": "2026-10-21T16:10:56.443292+00:00"
+  "updated_at": "2026-10-21T16:10:59.064308+00:00"
 }
