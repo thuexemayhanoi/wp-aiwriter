@@ -2458,11 +2458,13 @@
       "title": "The Difference between a Moped and an Electric Bicycle",
       "slug": "the-difference-between-a-moped-and-an-electric-bicycle",
       "source_hash": "be76664f4231e801cfe722dc8e435da8367f02ae12ee21d537812fc424a6b392",
-      "checked_at": "2026-10-21T16:06:03.178190+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:06:07.852650+00:00",
+      "phase": "VERIFIED",
       "category_id": 51,
-      "wp_id": 2298
+      "wp_id": 2298,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/the-difference-between-a-moped-and-an-electric-bicycle/"
     }
   },
-  "updated_at": "2026-10-21T16:06:03.178210+00:00"
+  "updated_at": "2026-10-21T16:06:07.852670+00:00"
 }
