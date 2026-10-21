@@ -3888,10 +3888,11 @@
       "title": "Hanoi to Chi Linh by Motorbike: Temples and Forest Roads",
       "slug": "hanoi-to-chi-linh-by-motorbike-temples-and-forest-roads",
       "source_hash": "7543872122849cb75bf24a5e1cfccb8e34b35d05b5ef1e0738e85fcfcd36eb96",
-      "checked_at": "2026-10-21T16:43:08.119210+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 54
+      "checked_at": "2026-10-21T16:43:10.797150+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 54,
+      "wp_id": 2558
     }
   },
-  "updated_at": "2026-10-21T16:43:08.119219+00:00"
+  "updated_at": "2026-10-21T16:43:10.797168+00:00"
 }
