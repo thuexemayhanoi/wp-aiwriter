@@ -2612,11 +2612,11 @@
       "title": "Electric Scooter Rental for a Week: Charging Logistics",
       "slug": "electric-scooter-rental-for-a-week-charging-logistics",
       "source_hash": "58b297d620e21cb5fe7fd02d6c459813fcdfe24abda861fa8396e20f626cb06a",
-      "checked_at": "2026-10-21T16:10:09.306716+00:00",
-      "phase": "REGISTERED",
+      "checked_at": "2026-10-21T16:10:12.822705+00:00",
+      "phase": "VERIFY_PENDING",
       "category_id": 52,
       "wp_id": 2326
     }
   },
-  "updated_at": "2026-10-21T16:10:09.306735+00:00"
+  "updated_at": "2026-10-21T16:10:12.822724+00:00"
 }
