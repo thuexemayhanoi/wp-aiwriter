@@ -1397,7 +1397,15 @@
       "wp_id": 2104,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/riding-an-automatic-scooter-on-hanois-slippery-pavement/"
+    },
+    "129": {
+      "title": "Throttle Control in Congested Scooter Traffic",
+      "slug": "throttle-control-in-congested-scooter-traffic",
+      "source_hash": "db38ed0ec425964e9c49d08bc52fced2073c00cb5b2d3143b7ded3a3cef2fa39",
+      "checked_at": "2026-10-21T15:39:33.856932+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 50
     }
   },
-  "updated_at": "2026-10-21T15:39:30.969838+00:00"
+  "updated_at": "2026-10-21T15:39:33.856939+00:00"
 }
