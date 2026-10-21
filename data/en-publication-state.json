@@ -4218,11 +4218,13 @@
       "title": "A Quiet Morning Route around Hanoi's Eastern Outskirts",
       "slug": "a-quiet-morning-route-around-hanois-eastern-outskirts",
       "source_hash": "5ca8a4941cbff54f4386231f7f1b585d33cd8a7d4d9d0b97ad9c001d702265fb",
-      "checked_at": "2026-10-21T16:51:39.108134+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:51:43.845287+00:00",
+      "phase": "VERIFIED",
       "category_id": 54,
-      "wp_id": 2619
+      "wp_id": 2619,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/a-quiet-morning-route-around-hanois-eastern-outskirts/"
     }
   },
-  "updated_at": "2026-10-21T16:51:39.108154+00:00"
+  "updated_at": "2026-10-21T16:51:43.845307+00:00"
 }
