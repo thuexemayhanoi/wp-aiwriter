@@ -3157,7 +3157,15 @@
       "wp_id": 2424,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-confirm-an-electric-vehicles-registration-class/"
+    },
+    "284": {
+      "title": "Are Shared Charging Stations Suitable for Rental Bikes?",
+      "slug": "are-shared-charging-stations-suitable-for-rental-bikes",
+      "source_hash": "60f36a7eb469a55c895259076f8458ee0846e5c01052791c88889a57ef213ff8",
+      "checked_at": "2026-10-21T16:23:44.828181+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 52
     }
   },
-  "updated_at": "2026-10-21T16:23:42.004660+00:00"
+  "updated_at": "2026-10-21T16:23:44.828193+00:00"
 }
