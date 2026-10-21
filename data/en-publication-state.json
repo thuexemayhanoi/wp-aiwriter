@@ -3580,11 +3580,11 @@
       "title": "Parking a Motorbike near West Lake Restaurants",
       "slug": "parking-a-motorbike-near-west-lake-restaurants",
       "source_hash": "7dee2d045a663cdef6d86b7a374c535e0098b706a4a190cdec1364ac24fc406a",
-      "checked_at": "2026-10-21T16:34:23.343815+00:00",
-      "phase": "REGISTERED",
+      "checked_at": "2026-10-21T16:34:26.735958+00:00",
+      "phase": "VERIFY_PENDING",
       "category_id": 53,
       "wp_id": 2502
     }
   },
-  "updated_at": "2026-10-21T16:34:23.343835+00:00"
+  "updated_at": "2026-10-21T16:34:26.735978+00:00"
 }
