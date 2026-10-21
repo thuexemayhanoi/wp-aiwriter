@@ -654,11 +654,13 @@
       "title": "Can a New Rider Learn Semi-Automatic Shifting in Hanoi Traffic?",
       "slug": "can-a-new-rider-learn-semi-automatic-shifting-in-hanoi-traffic",
       "source_hash": "66abb631a526dbc1e97fe2d6ffb9d599f4fa5c71bd761994a6367921d60421c1",
-      "checked_at": "2026-10-21T14:31:03.184951+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T14:31:07.864044+00:00",
+      "phase": "VERIFIED",
       "category_id": 49,
-      "wp_id": 1970
+      "wp_id": 1970,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/can-a-new-rider-learn-semi-automatic-shifting-in-hanoi-traffic/"
     }
   },
-  "updated_at": "2026-10-21T14:31:03.184971+00:00"
+  "updated_at": "2026-10-21T14:31:07.864065+00:00"
 }
