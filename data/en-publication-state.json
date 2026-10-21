@@ -3597,7 +3597,15 @@
       "wp_id": 2504,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/west-lake-sunset-by-scooter-without-blocking-the-waterfront/"
+    },
+    "327": {
+      "title": "Riding through Hanoi University Neighbourhoods",
+      "slug": "riding-through-hanoi-university-neighbourhoods",
+      "source_hash": "3f0d90b744ac2ba5508c17ee3cb779edf28b5585004177594096c1bdcbd39b5d",
+      "checked_at": "2026-10-21T16:34:49.439947+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 53
     }
   },
-  "updated_at": "2026-10-21T16:34:47.439058+00:00"
+  "updated_at": "2026-10-21T16:34:49.439956+00:00"
 }
