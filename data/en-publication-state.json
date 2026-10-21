@@ -1314,11 +1314,13 @@
       "title": "Why an Automatic Scooter Hesitates When Pulling Away",
       "slug": "why-an-automatic-scooter-hesitates-when-pulling-away",
       "source_hash": "7fee1957f3936e0d3a6f64e27e7ff53d207289b3ff27ba93087e3b5c4dea5f5d",
-      "checked_at": "2026-10-21T15:37:21.650095+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:37:26.272425+00:00",
+      "phase": "VERIFIED",
       "category_id": 50,
-      "wp_id": 2090
+      "wp_id": 2090,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/why-an-automatic-scooter-hesitates-when-pulling-away/"
     }
   },
-  "updated_at": "2026-10-21T15:37:21.650111+00:00"
+  "updated_at": "2026-10-21T15:37:26.272442+00:00"
 }
