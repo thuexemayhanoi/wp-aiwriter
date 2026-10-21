@@ -2134,7 +2134,15 @@
       "wp_id": 2238,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/50cc-scooter-rental-by-the-week-what-to-ask/"
+    },
+    "191": {
+      "title": "50cc Monthly Rental for Local Commuting",
+      "slug": "50cc-monthly-rental-for-local-commuting",
+      "source_hash": "34e58242a9dd19ee080717d89bb3d728b446da6fead06a8fd300f1f86d862c14",
+      "checked_at": "2026-10-21T15:57:23.230331+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 69
     }
   },
-  "updated_at": "2026-10-21T15:57:20.807838+00:00"
+  "updated_at": "2026-10-21T15:57:23.230341+00:00"
 }
