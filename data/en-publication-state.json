@@ -3107,11 +3107,13 @@
       "title": "Choosing between Electric and Petrol Vehicles in Hot Weather",
       "slug": "choosing-between-electric-and-petrol-vehicles-in-hot-weather",
       "source_hash": "57de27a0e7f9f7c0bb5a5adbe4b59d927bee62e432cd7fd257dbbff84a66c9c1",
-      "checked_at": "2026-10-21T16:22:25.268860+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:22:30.955201+00:00",
+      "phase": "VERIFIED",
       "category_id": 52,
-      "wp_id": 2416
+      "wp_id": 2416,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/choosing-between-electric-and-petrol-vehicles-in-hot-weather/"
     }
   },
-  "updated_at": "2026-10-21T16:22:25.268880+00:00"
+  "updated_at": "2026-10-21T16:22:30.955221+00:00"
 }
