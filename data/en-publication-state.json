@@ -3756,11 +3756,13 @@
       "title": "Hanoi to Co Loa and Back: An Easy History Day",
       "slug": "hanoi-to-co-loa-and-back-an-easy-history-day",
       "source_hash": "2aca3f423d2c1e36b7cd502864ea91e981f5578b698cb5c75d4f1d947574b005",
-      "checked_at": "2026-10-21T16:40:04.966076+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:40:09.585473+00:00",
+      "phase": "VERIFIED",
       "category_id": 54,
-      "wp_id": 2534
+      "wp_id": 2534,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/hanoi-to-co-loa-and-back-an-easy-history-day/"
     }
   },
-  "updated_at": "2026-10-21T16:40:04.966091+00:00"
+  "updated_at": "2026-10-21T16:40:09.585488+00:00"
 }
