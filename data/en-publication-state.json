@@ -2233,7 +2233,15 @@
       "wp_id": 2256,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/when-a-50cc-bike-is-too-slow-for-a-planned-route/"
+    },
+    "200": {
+      "title": "What to Do If a 50cc Rental Breaks Down",
+      "slug": "what-to-do-if-a-50cc-rental-breaks-down",
+      "source_hash": "3e8912cbe383f2714c4f3419686b283dca330ef64757706ebd6048ecd3065182",
+      "checked_at": "2026-10-21T16:00:38.789047+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 51
     }
   },
-  "updated_at": "2026-10-21T15:59:31.583583+00:00"
+  "updated_at": "2026-10-21T16:00:38.789063+00:00"
 }
