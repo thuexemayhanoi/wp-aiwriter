@@ -2508,7 +2508,15 @@
       "wp_id": 2306,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-check-a-50cc-bikes-headlight-for-night-riding/"
+    },
+    "225": {
+      "title": "What to Bring for a Full Day on a 50cc Moped",
+      "slug": "what-to-bring-for-a-full-day-on-a-50cc-moped",
+      "source_hash": "482fc96248eaf98b80b4d4b4b07ec1d8b0b89f6a6dcfcc6105f42c277c48250e",
+      "checked_at": "2026-10-21T16:07:20.050175+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 51
     }
   },
-  "updated_at": "2026-10-21T16:07:17.222873+00:00"
+  "updated_at": "2026-10-21T16:07:20.050183+00:00"
 }
