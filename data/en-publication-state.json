@@ -2766,10 +2766,11 @@
       "title": "Checking Tyres on an Electric Moped Rental",
       "slug": "checking-tyres-on-an-electric-moped-rental",
       "source_hash": "5bace6258c99a04601b7747ac7bee4bfa4048f7c6cfa2d878692407f88664c13",
-      "checked_at": "2026-10-21T16:13:47.749236+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 52
+      "checked_at": "2026-10-21T16:13:50.133832+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 52,
+      "wp_id": 2354
     }
   },
-  "updated_at": "2026-10-21T16:13:47.749246+00:00"
+  "updated_at": "2026-10-21T16:13:50.133851+00:00"
 }
