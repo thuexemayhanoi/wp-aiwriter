@@ -995,11 +995,13 @@
       "title": "How to Plan Breaks on a Long Semi-Automatic Bike Ride",
       "slug": "how-to-plan-breaks-on-a-long-semi-automatic-bike-ride",
       "source_hash": "1b713072db4764944d9807e270ae14b0d22767da340ecd8be9675af3e2d4ba8e",
-      "checked_at": "2026-10-21T14:52:19.751356+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T14:52:24.736389+00:00",
+      "phase": "VERIFIED",
       "category_id": 49,
-      "wp_id": 2032
+      "wp_id": 2032,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-plan-breaks-on-a-long-semi-automatic-bike-ride/"
     }
   },
-  "updated_at": "2026-10-21T14:52:19.751374+00:00"
+  "updated_at": "2026-10-21T14:52:24.736406+00:00"
 }
