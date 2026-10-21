@@ -4482,11 +4482,13 @@
       "title": "When to Choose a 50cc Bike instead of a Larger Scooter",
       "slug": "when-to-choose-a-50cc-bike-instead-of-a-larger-scooter",
       "source_hash": "a19ed0558e670c366715b36983c1346216c0169ce52d51f97a2949cb228152dc",
-      "checked_at": "2026-10-21T16:57:57.866555+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:58:02.871016+00:00",
+      "phase": "VERIFIED",
       "category_id": 55,
-      "wp_id": 2667
+      "wp_id": 2667,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/when-to-choose-a-50cc-bike-instead-of-a-larger-scooter/"
     }
   },
-  "updated_at": "2026-10-21T16:57:57.866576+00:00"
+  "updated_at": "2026-10-21T16:58:02.871035+00:00"
 }
