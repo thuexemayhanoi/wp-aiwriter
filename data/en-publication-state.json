@@ -3916,7 +3916,15 @@
       "wp_id": 2563,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/hanoi-to-hai-duong-by-scooter-is-the-trip-worth-it/"
+    },
+    "356": {
+      "title": "Hanoi to Hai Phong on a Motorbike: Route Safety",
+      "slug": "hanoi-to-hai-phong-on-a-motorbike-route-safety",
+      "source_hash": "9b867e3c1f36a033c76169e19fa8183dd5645aacfc6dbbe5c6ce4c98bc999108",
+      "checked_at": "2026-10-21T16:43:57.683709+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 54
     }
   },
-  "updated_at": "2026-10-21T16:43:55.316570+00:00"
+  "updated_at": "2026-10-21T16:43:57.683718+00:00"
 }
