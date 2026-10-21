@@ -1369,11 +1369,13 @@
       "title": "Scooter Turning Radius in Hanoi Alleys",
       "slug": "scooter-turning-radius-in-hanoi-alleys",
       "source_hash": "f9308dbf68c34da897b7959c9d83c08b192f46b6d4bbd8a276a7c0fea13f49b0",
-      "checked_at": "2026-10-21T15:38:49.821613+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:38:54.479452+00:00",
+      "phase": "VERIFIED",
       "category_id": 50,
-      "wp_id": 2100
+      "wp_id": 2100,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/scooter-turning-radius-in-hanoi-alleys/"
     }
   },
-  "updated_at": "2026-10-21T15:38:49.821630+00:00"
+  "updated_at": "2026-10-21T15:38:54.479469+00:00"
 }
