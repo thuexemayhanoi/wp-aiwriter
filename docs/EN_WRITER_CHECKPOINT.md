@@ -1,3 +1,5 @@
+> **21 October 2026 FAST WRITER OVERRIDE:** Canonical EN titles already in `en/topics.json` are write-ready; optional Excel title suggestions need no review or synchronization. Use [EN_FAST_WRITER.md](EN_FAST_WRITER.md) and `python scripts/en_writer_brief.py --limit 10 --format compact`. Old 3-topic/manual title review instructions in historical checkpoints are not active. QA ≥76 and all hard publication gates remain.
+
 ## EN WRITE/PUBLISH SMOKE TEST — 2026-10-21 · IDs 46, 47 · 2/2 VERIFIED
 
 > Owner-authorised English-only real publication test after the QA score cutoff changed to 76/100. All hard gates remain required, and this is a verified GitHub + WordPress result, not merely a manuscript commit.

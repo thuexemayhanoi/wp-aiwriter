@@ -59,6 +59,13 @@ class EnglishPublicationContract(unittest.TestCase):
                 self.assertIn(phrase.casefold(), read(path).casefold())
         self.assertNotIn("publish tối đa 3/lượt", read("AGENTS.md"))
         self.assertNotIn("<=3 new EN posts per run", read("CLAUDE.md"))
+        fast = read("docs/EN_FAST_WRITER.md")
+        self.assertIn("not block", fast.lower())
+        self.assertIn("76", fast)
+        self.assertIn("--limit 10", fast)
+        self.assertIn("EN_FAST_WRITER.md", read("AGENTS.md"))
+        self.assertIn("EN_FAST_WRITER.md", read("CLAUDE.md"))
+        self.assertIn("EN_FAST_WRITER.md", read("README.md"))
 
 
 if __name__ == "__main__":

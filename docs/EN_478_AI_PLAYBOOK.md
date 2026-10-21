@@ -3,7 +3,7 @@
 **Applies to:** ChatGPT Work, Claude, Gemini, Codex, GitHub writer, any future AI session.  
 **Repository:** `thuexemayhanoi/wp-aiwriter` — branch `main`.
 
-> **One canonical handoff.** Read this file before touching the 478-row English queue. Do not improvise a replacement Excel or accidentally run the Vietnamese writer. GitHub stores the durable work state. A session being disconnected must not lose an article that was already committed.
+> **FAST OVERRIDE 21/10/2026:** [EN_FAST_WRITER.md](EN_FAST_WRITER.md) is the shorter daily EN writer workflow and supersedes any three-post/manual title-approval requirements below. All canonical `en/topics.json` titles are ready to write; optional Excel suggestions never block. This longer playbook remains for unusual cases.
 
 ## 0. Start in 60 seconds — exact reading order
 
@@ -14,14 +14,14 @@
 5. `data/en-publication-state.json` (durable publish ledger), `en/posts/` (authored manuscripts), `docs/EN_WRITER_CHECKPOINT.md` (handoff/history), latest GitHub Actions status.
 6. For operational or QA detail, `docs/EN_PIPELINE.md` and `tests/test_en_engine.py`.
 
-**Important:** The optional downloadable Excel and the Google Sheets copy are human-friendly views. The actual GitHub pipeline reads **`en/topics.json` and `en/posts/NNNN.md`**. Editing the spreadsheet/Google Sheet does **not** automatically change GitHub. The CSV in GitHub is the authoritative *title-planning/approval queue*, not the WordPress publishing ledger.
+**Important:** The optional downloadable Excel and the Google Sheets copy are human-friendly views. The actual GitHub pipeline reads **`en/topics.json` and `en/posts/NNNN.md`**. Editing the spreadsheet/Google Sheet does **not** automatically change GitHub. The CSV in GitHub is an optional *headline-suggestion* list, not an approval prerequisite nor the WordPress publication ledger.
 
-### Fast-track next three without lowering QA
+### Fast-track up to ten topics without lowering QA
 
-> **Research packet ≠ publishing quota:** `--limit 3` and a recommendation to research three topics at once keep human review manageable; they do **not** cap WordPress publication. The owner removed EN `batch_size` and `max_batches_per_run` on 2026-10-21. No additional owner authorisation is required after each third post, but every new article still needs independent QA >=76, taxonomy/duplicate preflight, live WordPress validation, and ledger `VERIFIED`.
+> **Research packet ≠ publishing quota:** `--limit 10` returns a focused authoring list, not a publisher cap. The 500 canonical source titles in `en/topics.json` are already usable without repeated approval. QA >=76, complete hard gates, WordPress live checks and ledger verification remain mandatory.
 
 
-Once the startup reading above is complete, run `python scripts/en_writer_brief.py --limit 3` (or `--format json`). The script checks the 478-row GitHub plan against the EN topic source, manuscript directory, durable publication ledger, editorial policy, and the read-only taxonomy snapshot; it returns the next three available IDs with an exact slug, current canonical title, proposed title, actual category ancestors and search-intent/legal-research prompts. It writes **nothing**, cannot bypass editorial approval, cannot check live WordPress and cannot publish. The AI must still conduct live duplicate/term verification, factual research, original English writing and the full QA ≥76 procedure. If a shell is unavailable, manually read the same files and do not claim the script ran. Rerun after every verified batch; never use a cached packet after other writers have pushed.
+For ordinary EN work, read `EN_FAST_WRITER.md` and run `python scripts/en_writer_brief.py --limit 10 --format compact`; use `--format json` for fuller topic context. The packet reads the canonical source, ledger and taxonomy snapshot. Live WordPress duplicate/registration checks are handled by the Publisher; inspect WP manually only for suspected conflicts, known source changes or unresolved ledger records. Optional Excel title review is NOT needed to author a canonical topic.
 
 ## 1. Snapshot vs living state
 
@@ -67,19 +67,19 @@ python scripts/en_engine.py --mode sync
 ```
 The last command is a **dry run**, never a publish command. If the session has no shell, read the corresponding GitHub files, list 3 candidate rows, and say tests have not run — do not claim PASS.
 
-**E — Claim the next safe row.** Pick a CSV ID absent from the publication ledger and `en/posts/NNNN.md`, reconfirm absent on **live WP** by English title, slug and search intent, including drafts and existing /en/ pages. Use **max 3 small candidates per editorial pass**; do not assume a GitHub claim alone is a global mutex.
+**E — Select safe IDs.** Use the 1–10 unclaimed IDs returned by the fast packet, checking the local EN ledger and manuscript existence. Publisher handles live WordPress duplicate/title/slug/category checks and refuses uncertain records; inspect live manually for known conflicts. No global mutex is provided by a packet: refresh before pushing if other writers are active.
 
 **F — Research intent & dedupe.** Compare all 500 planned titles, 22+ published EN posts, pages and current WP posts. Different angles must actually answer distinct questions (no doorway pages or same-content location permutations). For regulations, verify official laws/effective dates and source links. Don't fabricate personal experience, booking, travel times, services, models or prices.
 
-**G — Review proposed headline.** The 60–80 character `planned_title_en` is **not automatically approved**. If the original title is better, keep the existing source title and record the editorial decision; if adopting/rewriting the proposal, first update `planned_title_en` and `title_chars` in GitHub CSV and set `title_approval=APPROVED` only after uniqueness/factual check.
+**G — Use canonical title by default.** An unchanged `en/topics.json` title is already approved and DOES NOT require review, title-length padding or synchronisation. The 60–80 character Excel proposal is optional. Only if deliberately replacing the source title should editors perform uniqueness/factual review and mark `title_approval=APPROVED`.
 
-**H — Sync approved titles into the source matrix safely.**
+**H — OPTIONAL title change only, normally SKIP.** If deliberately adopting a better headline for an unclaimed/unpublished ID, use this opt-in path:
 ```bash
 python scripts/en_title_plan.py --check
 python scripts/en_title_plan.py --apply-approved
 git diff -- en/topics.json en/title-plan-478.csv
 ```
-This command changes **only approved, not-yet-authored, not-yet-ledgered EN titles**. It does not change IDs, category IDs or slugs. Commit the source title update before or with the manuscript; don't write a future proposal title as article metadata until `en/topics.json` matches. If original title is retained, use it verbatim; never add `excel-` to `slug_locked`.
+This command changes **only explicitly approved and not-yet-authored/not-yet-ledgered EN titles**. Normal writing must SKIP it. The existing canonical title is always usable as-is; no Excel status blocks it. Preserve ID, slug and category; never add `excel-`.
 
 **I — Author manuscript at `en/posts/NNNN.md`.** Use exact canonical title/slug/category from `en/topics.json`, **not** the current spreadsheet display. Required front matter:
 ```yaml
@@ -94,7 +94,7 @@ ready: true
 ```
 The above is a **shape/example**, not an instruction to force ID 10/category 53 or those placeholders into production. After front matter, produce original English prose with helpful H2 sections, authentic examples, FAQ, dated references and internal /en/ links. Don't insert Markdown H1 inside body. QA requires **1,600–5,000 English words** on new/revised posts.
 
-**J — QA thoroughly.** No duplicated title or URL, no overlapping intent, correct category and term parents, no leaked Vietnamese material, no Nguyễn Tú data, legal citations verified, EN-only internal links to genuine 200 pages, natural meta description, strong original answers. Score **>=85** plus all hard gates:
+**J — QA thoroughly.** No duplicated title or URL, no overlapping intent, correct category and term parents, no leaked Vietnamese material, no Nguyễn Tú data, legal citations verified, EN-only internal links to genuine 200 pages, natural meta description, strong original answers. Score **>=76** plus all hard gates:
 ```bash
 python -m unittest discover -s tests -v
 python scripts/en_title_plan.py --check
@@ -109,7 +109,7 @@ python scripts/en_engine.py --mode sync     # dry-run preview
 
 **M — Verify LIVE.** The EN Publisher creates a WordPress draft, checks actual post slug (rejects if WordPress adds `excel-`), registers with VI-EN Core, publishes, checks WordPress post ID, English category ID, title, public URL `/en/{slug}/`, HTTP 200, English language marker, self canonical and normal-URL redirect; then writes `VERIFIED` to `data/en-publication-state.json`. **Only this combination counts as published.** Check Yoast sitemap where applicable.
 
-**N — Report and checkpoint.** Add a compact new entry to the **TOP of** `docs/EN_WRITER_CHECKPOINT.md` (don't delete previous history): UTC date, Git HEAD, topic IDs, changed files, chosen category IDs and ancestors, proposed-vs-canonical title decision, QA score/evidence, WP ID/URL if live-verified, ledger phase, pending errors, next 3 IDs. Commit checkpoint. CSV planning status can be updated *later*, never used instead of the ledger.
+**N — Report and checkpoint per finished group, not every article.** After a successful publishing run, record the IDs, QA, WordPress IDs/URLs and any blockers once in `docs/EN_WRITER_CHECKPOINT.md`. The publisher ledger is the live progress authority; CSV proposal status need not change.
 
 **O — Resume after lost quota, phone signal or new AI session.** Start back at step 0; fetch latest `main`; check the EN ledger first, then `en/posts/`, then checkpoint, then fresh WP. **Do not restart from #10 by memory**, reset `POST_INTENT`/`VERIFY_PENDING`, duplicate a post, or force a manuscript rewrite. If WordPress write outcome is unknown, BLOCK and reconcile via WP ID/slug before any retry.
 
@@ -141,7 +141,7 @@ python -m unittest discover -s tests -v
 | Condition | Action |
 |---|---|
 | `--check` fails | Fix only the offending EN CSV/source row after inspection; do not reset whole matrix. |
-| Plan title not approved | Research and review; keep existing title or approve + sync into `en/topics.json` before drafting. |
+| Excel proposal unreviewed | **Not a blocker.** Write with the canonical `en/topics.json` title. Review/sync only if intentionally adopting the proposal. |
 | Slug contains `excel-` / `matrix-XX-` | BLOCK publication, correct future planned EN source only after duplicate check; **never rewrite an existing published permalink silently**. |
 | EN category missing or parent mismatch | BLOCK; verify WordPress term ID/ancestry; don't create random terms. |
 | Candidate duplicates a live or drafted EN post | SKIP and record; never POST again. |

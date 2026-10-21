@@ -1,6 +1,6 @@
 # Claude / ChatGPT / AI writer — read before making any change
 
-> **EN 478 FAST HANDOFF:** Follow [`docs/EN_478_AI_PLAYBOOK.md`](docs/EN_478_AI_PLAYBOOK.md) from A to Z. Planning queue: `en/title-plan-478.csv` (478 rows). Publish source: `en/topics.json` (500 stable English topic IDs) + `en/posts/NNNN.md`. Check `data/en-publication-state.json` before each claim. `python scripts/en_title_plan.py --check` then `--next 3`; proposed 60–80-char titles are **not approved** until editorial review and explicit safe sync to `en/topics.json`. EN only, QA ≥76, 1,600–5,000 words, **EN Publisher has no article-count cap**, no per-three-post approval, no public `excel-` prefix. Resume from ledger/checkpoint, not conversational memory. Do not touch the VI writer.
+> **EN FAST HANDOFF (21 Oct 2026):** [`docs/EN_FAST_WRITER.md`](docs/EN_FAST_WRITER.md) is the current short contract. Run `python scripts/en_writer_brief.py --limit 10 --format compact`; use the **unchanged canonical** `en/topics.json` title/slug/category directly. Excel headline proposals are OPTIONAL; no repeated original-title review, no `--apply-approved` unless deliberately changing a title. QA >=76 and 1,600–5,000 English words; no EN publishing cap. Keep VI untouched and protect VERIFIED ledgers and WordPress URLs.
 
 
 
@@ -8,7 +8,7 @@
 
 **FAST EN COMMAND (optional shell):** `python scripts/en_writer_brief.py --limit 3` (`--format json` for structured use). This creates a read-only research packet; DO NOT treat its proposed titles as approved, and live-check WordPress before authoring. Existing QA/publish rules in `AGENTS.md` remain mandatory.
 
-## Mandatory startup reading — in this exact order
+## Detailed startup reading — required for VI, taxonomy/structure changes and EN exceptions; ordinary EN uses Fast Writer
 
 1. [`AGENTS.md`](AGENTS.md) — existing writer/publisher contract and production safety.
 2. [`docs/MENU_TAXONOMY_MAP_VI_EN.md`](docs/MENU_TAXONOMY_MAP_VI_EN.md) — full, human-readable **VI/EN header/footer menus, all category parent/child trees, every Page ID, and writing rules**.
