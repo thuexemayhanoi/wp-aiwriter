@@ -1402,11 +1402,11 @@
       "title": "Throttle Control in Congested Scooter Traffic",
       "slug": "throttle-control-in-congested-scooter-traffic",
       "source_hash": "db38ed0ec425964e9c49d08bc52fced2073c00cb5b2d3143b7ded3a3cef2fa39",
-      "checked_at": "2026-10-21T15:39:40.213029+00:00",
-      "phase": "REGISTERED",
+      "checked_at": "2026-10-21T15:39:43.332323+00:00",
+      "phase": "VERIFY_PENDING",
       "category_id": 50,
       "wp_id": 2106
     }
   },
-  "updated_at": "2026-10-21T15:39:40.213045+00:00"
+  "updated_at": "2026-10-21T15:39:43.332339+00:00"
 }
