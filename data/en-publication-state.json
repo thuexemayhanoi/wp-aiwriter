@@ -1551,7 +1551,15 @@
       "wp_id": 2132,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/automatic-scooter-cooling-signs-of-overheating/"
+    },
+    "148": {
+      "title": "How to Plan Fuel Stops on a Scooter Day Trip",
+      "slug": "how-to-plan-fuel-stops-on-a-scooter-day-trip",
+      "source_hash": "81cccfd8af2813155d7c874b7173830719b2bb99f842c73564200762a1723941",
+      "checked_at": "2026-10-21T15:43:14.628294+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 50
     }
   },
-  "updated_at": "2026-10-21T15:43:13.049313+00:00"
+  "updated_at": "2026-10-21T15:43:14.628303+00:00"
 }
