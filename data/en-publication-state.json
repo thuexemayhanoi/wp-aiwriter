@@ -4339,10 +4339,11 @@
       "title": "What to Send the Rental Shop before Pickup",
       "slug": "what-to-send-the-rental-shop-before-pickup",
       "source_hash": "8f66dd26c04d3d6421b856851f7efccc31a2d0803658ab9a8a5a13bca5e710ec",
-      "checked_at": "2026-10-21T16:54:23.572570+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 55
+      "checked_at": "2026-10-21T16:54:26.192956+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 55,
+      "wp_id": 2641
     }
   },
-  "updated_at": "2026-10-21T16:54:23.572579+00:00"
+  "updated_at": "2026-10-21T16:54:26.192976+00:00"
 }
