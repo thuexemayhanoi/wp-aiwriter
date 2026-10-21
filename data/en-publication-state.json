@@ -2106,11 +2106,13 @@
       "title": "Parking a Lightweight 50cc Bike in Hanoi",
       "slug": "parking-a-lightweight-50cc-bike-in-hanoi",
       "source_hash": "25896cab5a196407bf1cd8cea428cf482ab5216b9d6a37ec73a3f93f7849d9f6",
-      "checked_at": "2026-10-21T15:56:45.590849+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:56:50.155739+00:00",
+      "phase": "VERIFIED",
       "category_id": 51,
-      "wp_id": 2234
+      "wp_id": 2234,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/parking-a-lightweight-50cc-bike-in-hanoi/"
     }
   },
-  "updated_at": "2026-10-21T15:56:45.590868+00:00"
+  "updated_at": "2026-10-21T15:56:50.155778+00:00"
 }
