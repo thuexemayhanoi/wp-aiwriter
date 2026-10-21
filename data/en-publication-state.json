@@ -4394,11 +4394,13 @@
       "title": "How to Photograph a Rental Motorbike before Handover",
       "slug": "how-to-photograph-a-rental-motorbike-before-handover",
       "source_hash": "da690b5f182e3f9605d46443f4209f455f61197e6a3988a58ee6017402a862a8",
-      "checked_at": "2026-10-21T16:55:51.875599+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:55:56.962894+00:00",
+      "phase": "VERIFIED",
       "category_id": 66,
-      "wp_id": 2651
+      "wp_id": 2651,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-photograph-a-rental-motorbike-before-handover/"
     }
   },
-  "updated_at": "2026-10-21T16:55:51.875619+00:00"
+  "updated_at": "2026-10-21T16:55:56.962914+00:00"
 }
