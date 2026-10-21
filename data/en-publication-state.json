@@ -2843,11 +2843,13 @@
       "title": "Do You Need a Licence for Your Specific Electric Vehicle?",
       "slug": "do-you-need-a-licence-for-your-specific-electric-vehicle",
       "source_hash": "dac69e5b0dfab1dcfb2cfa589b05997a897e55897a0414e8408ba0836029540d",
-      "checked_at": "2026-10-21T16:15:36.535657+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:15:41.214915+00:00",
+      "phase": "VERIFIED",
       "category_id": 52,
-      "wp_id": 2368
+      "wp_id": 2368,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/do-you-need-a-licence-for-your-specific-electric-vehicle/"
     }
   },
-  "updated_at": "2026-10-21T16:15:36.535677+00:00"
+  "updated_at": "2026-10-21T16:15:41.214935+00:00"
 }
