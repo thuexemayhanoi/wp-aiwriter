@@ -1815,7 +1815,15 @@
       "wp_id": 2180,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-avoid-sudden-acceleration-on-an-automatic-scooter/"
+    },
+    "162": {
+      "title": "Scooter Headlight Checks for Evening Rentals",
+      "slug": "scooter-headlight-checks-for-evening-rentals",
+      "source_hash": "b5551522272a9d59400b316da3b4df5bc435ab047759c1222058f2afdd86de33",
+      "checked_at": "2026-10-21T15:49:51.079911+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 50
     }
   },
-  "updated_at": "2026-10-21T15:49:49.471889+00:00"
+  "updated_at": "2026-10-21T15:49:51.079921+00:00"
 }
