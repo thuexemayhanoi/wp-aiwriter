@@ -1424,11 +1424,13 @@
       "title": "Checking a Scooter's Fuel Gauge before a Longer Journey",
       "slug": "checking-a-scooters-fuel-gauge-before-a-longer-journey",
       "source_hash": "46ceb83bcb70e697480a1f1ac8fd2caf945b1b3f84eb8b22ab21c1a17b49664d",
-      "checked_at": "2026-10-21T15:40:24.052571+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:40:28.869063+00:00",
+      "phase": "VERIFIED",
       "category_id": 50,
-      "wp_id": 2110
+      "wp_id": 2110,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/checking-a-scooters-fuel-gauge-before-a-longer-journey/"
     }
   },
-  "updated_at": "2026-10-21T15:40:24.052589+00:00"
+  "updated_at": "2026-10-21T15:40:28.869079+00:00"
 }
