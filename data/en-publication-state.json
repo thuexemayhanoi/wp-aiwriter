@@ -1886,11 +1886,13 @@
       "title": "What Does Under 50cc Mean on a Vehicle Registration?",
       "slug": "what-does-under-50cc-mean-on-a-vehicle-registration",
       "source_hash": "b480f4b6fa3f2f9f2b93dedc503bcdcbfd9acde5ae9259cafa16867ad747369a",
-      "checked_at": "2026-10-21T15:51:26.386517+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:51:30.971708+00:00",
+      "phase": "VERIFIED",
       "category_id": 51,
-      "wp_id": 2194
+      "wp_id": 2194,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/what-does-under-50cc-mean-on-a-vehicle-registration/"
     }
   },
-  "updated_at": "2026-10-21T15:51:26.386535+00:00"
+  "updated_at": "2026-10-21T15:51:30.971727+00:00"
 }
