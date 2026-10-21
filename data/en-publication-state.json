@@ -1853,11 +1853,13 @@
       "title": "Choosing Between a Newer and an Older Rental Scooter",
       "slug": "choosing-between-a-newer-and-an-older-rental-scooter",
       "source_hash": "07f1da8386fa85c529dcfd8f3f084025e6c80ba45cec946f925a2566eb2cd495",
-      "checked_at": "2026-10-21T15:50:42.257452+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:50:47.087631+00:00",
+      "phase": "VERIFIED",
       "category_id": 50,
-      "wp_id": 2188
+      "wp_id": 2188,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/choosing-between-a-newer-and-an-older-rental-scooter/"
     }
   },
-  "updated_at": "2026-10-21T15:50:42.257471+00:00"
+  "updated_at": "2026-10-21T15:50:47.087650+00:00"
 }
