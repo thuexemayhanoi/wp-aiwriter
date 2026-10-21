@@ -3074,10 +3074,11 @@
       "title": "How to Avoid Leaving a Rental EV Plugged in Unsafely",
       "slug": "how-to-avoid-leaving-a-rental-ev-plugged-in-unsafely",
       "source_hash": "cf20524bf0b8411766915a0788ff9b25b87d7ce151c69bd3a7a6e3e41b5067f1",
-      "checked_at": "2026-10-21T16:21:16.538247+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 52
+      "checked_at": "2026-10-21T16:21:21.325922+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 52,
+      "wp_id": 2410
     }
   },
-  "updated_at": "2026-10-21T16:21:16.538258+00:00"
+  "updated_at": "2026-10-21T16:21:21.325942+00:00"
 }
