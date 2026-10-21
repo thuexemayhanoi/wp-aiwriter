@@ -676,11 +676,13 @@
       "title": "Riding a Manual Motorbike with a Passenger in Hanoi",
       "slug": "riding-a-manual-motorbike-with-a-passenger-in-hanoi",
       "source_hash": "62afa3d4ba3eaa6d134e6a0d2fe62efc711d59018d0a7049de90beb4a0cacff3",
-      "checked_at": "2026-10-21T14:31:34.401903+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T14:31:39.418599+00:00",
+      "phase": "VERIFIED",
       "category_id": 49,
-      "wp_id": 1974
+      "wp_id": 1974,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/riding-a-manual-motorbike-with-a-passenger-in-hanoi/"
     }
   },
-  "updated_at": "2026-10-21T14:31:34.401924+00:00"
+  "updated_at": "2026-10-21T14:31:39.418618+00:00"
 }
