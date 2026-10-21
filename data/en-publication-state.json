@@ -2156,7 +2156,15 @@
       "wp_id": 2242,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/comparing-old-and-new-50cc-bikes-before-renting/"
+    },
+    "193": {
+      "title": "Seat Height and Fit on Common 50cc Bike Styles",
+      "slug": "seat-height-and-fit-on-common-50cc-bike-styles",
+      "source_hash": "0cdc601263f193fa3dc0305d189285284ae8fb6b8a906dabf9f9d70b965e1a6a",
+      "checked_at": "2026-10-21T15:57:50.439676+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 51
     }
   },
-  "updated_at": "2026-10-21T15:57:48.580846+00:00"
+  "updated_at": "2026-10-21T15:57:50.439687+00:00"
 }
