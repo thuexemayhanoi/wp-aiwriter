@@ -3745,11 +3745,13 @@
       "title": "Hanoi to Soc Son by Scooter: Forest Stops and Traffic Checks",
       "slug": "hanoi-to-soc-son-by-scooter-forest-stops-and-traffic-checks",
       "source_hash": "87d9ee50a45703b163c6e4c0e37933cd1df601643d28b37f35281030f73c47ff",
-      "checked_at": "2026-10-21T16:39:51.414368+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:39:55.863823+00:00",
+      "phase": "VERIFIED",
       "category_id": 54,
-      "wp_id": 2532
+      "wp_id": 2532,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/hanoi-to-soc-son-by-scooter-forest-stops-and-traffic-checks/"
     }
   },
-  "updated_at": "2026-10-21T16:39:51.414383+00:00"
+  "updated_at": "2026-10-21T16:39:55.863840+00:00"
 }
