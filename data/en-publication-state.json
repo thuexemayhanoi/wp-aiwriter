@@ -2244,7 +2244,15 @@
       "wp_id": 2258,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/what-to-do-if-a-50cc-rental-breaks-down/"
+    },
+    "201": {
+      "title": "A 50cc Bike's Starter, Battery and Lights Checklist",
+      "slug": "a-50cc-bikes-starter-battery-and-lights-checklist",
+      "source_hash": "b2f64aa613b903a077aacff66fa86006cda21ec6d8a06dd4cc80135ff76d7de9",
+      "checked_at": "2026-10-21T16:00:55.519458+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 51
     }
   },
-  "updated_at": "2026-10-21T16:00:51.845278+00:00"
+  "updated_at": "2026-10-21T16:00:55.519467+00:00"
 }
