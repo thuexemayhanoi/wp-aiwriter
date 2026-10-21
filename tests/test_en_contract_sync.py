@@ -44,7 +44,7 @@ class EnglishPublicationContract(unittest.TestCase):
     def test_current_agent_and_editorial_docs_agree(self):
         expected = {
             "AGENTS.md": "không giới hạn số bài/lượt",
-            "CLAUDE.md": "no article-count cap",
+            "CLAUDE.md": "no EN publishing cap",
             "README.md": "no `batch_size` or `max_batches_per_run`",
             "docs/EN_478_AI_PLAYBOOK.md": "no article-count or batch-count limit",
             "docs/EN_478_TITLE_PLAN.md": "no EN article/batch-count limit",
@@ -60,7 +60,7 @@ class EnglishPublicationContract(unittest.TestCase):
         self.assertNotIn("publish tối đa 3/lượt", read("AGENTS.md"))
         self.assertNotIn("<=3 new EN posts per run", read("CLAUDE.md"))
         fast = read("docs/EN_FAST_WRITER.md")
-        self.assertIn("not block", fast.lower())
+        self.assertIn("block writing with the canonical title", fast.lower())
         self.assertIn("76", fast)
         self.assertIn("--limit 10", fast)
         self.assertIn("EN_FAST_WRITER.md", read("AGENTS.md"))
