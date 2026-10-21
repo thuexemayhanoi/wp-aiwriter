@@ -852,11 +852,13 @@
       "title": "Understanding Neutral on a Honda Wave",
       "slug": "understanding-neutral-on-a-honda-wave",
       "source_hash": "8f68f02f905858e60c5d9115893f9ade844bf08390c33511af0dd64d7929c54f",
-      "checked_at": "2026-10-21T14:40:46.082719+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T14:40:49.888773+00:00",
+      "phase": "VERIFIED",
       "category_id": 49,
-      "wp_id": 2006
+      "wp_id": 2006,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/understanding-neutral-on-a-honda-wave/"
     }
   },
-  "updated_at": "2026-10-21T14:40:46.082735+00:00"
+  "updated_at": "2026-10-21T14:40:49.888789+00:00"
 }
