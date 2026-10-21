@@ -2706,7 +2706,15 @@
       "wp_id": 2342,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/electric-bicycle-pedal-assist-versus-throttle-control/"
+    },
+    "243": {
+      "title": "How to Compare Electric Scooters by Battery Size",
+      "slug": "how-to-compare-electric-scooters-by-battery-size",
+      "source_hash": "f9d3fa983a8fc44ef1fee1f59f948bbab03f9d41479495f8d9fbae648f60de79",
+      "checked_at": "2026-10-21T16:12:30.961205+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 52
     }
   },
-  "updated_at": "2026-10-21T16:12:29.151651+00:00"
+  "updated_at": "2026-10-21T16:12:30.961214+00:00"
 }
