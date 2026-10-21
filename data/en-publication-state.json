@@ -4466,7 +4466,15 @@
       "wp_id": 2663,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/why-delivery-terms-differ-by-rental-length/"
+    },
+    "407": {
+      "title": "How to Confirm the Exact Model You Will Receive",
+      "slug": "how-to-confirm-the-exact-model-you-will-receive",
+      "source_hash": "ef01df4ce74d8cf4f721195c3b5fa188bd4fa374381837296fdb8584dd4e7cf5",
+      "checked_at": "2026-10-21T16:57:34.237464+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 55
     }
   },
-  "updated_at": "2026-10-21T16:57:32.148839+00:00"
+  "updated_at": "2026-10-21T16:57:34.237472+00:00"
 }
