@@ -2601,11 +2601,13 @@
       "title": "What to Do When a Rental EV Battery Is Almost Empty",
       "slug": "what-to-do-when-a-rental-ev-battery-is-almost-empty",
       "source_hash": "d98eafc4766234ff5cdcbee75cacc0ebff27da1f5bed91feeda0c5da81e97e44",
-      "checked_at": "2026-10-21T16:09:56.981983+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:10:01.697838+00:00",
+      "phase": "VERIFIED",
       "category_id": 52,
-      "wp_id": 2324
+      "wp_id": 2324,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/what-to-do-when-a-rental-ev-battery-is-almost-empty/"
     }
   },
-  "updated_at": "2026-10-21T16:09:56.982004+00:00"
+  "updated_at": "2026-10-21T16:10:01.697858+00:00"
 }
