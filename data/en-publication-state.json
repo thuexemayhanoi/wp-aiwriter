@@ -2794,7 +2794,15 @@
       "wp_id": 2358,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/electric-scooter-theft-prevention-in-hanoi/"
+    },
+    "251": {
+      "title": "Electric Motorbike Weight and Low-Speed Handling",
+      "slug": "electric-motorbike-weight-and-low-speed-handling",
+      "source_hash": "85500e1279a68b3cdbb58e66a95cd0eb7efd3ea2223d3cc83cfcee06f87c308e",
+      "checked_at": "2026-10-21T16:14:32.323274+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 52
     }
   },
-  "updated_at": "2026-10-21T16:14:30.448422+00:00"
+  "updated_at": "2026-10-21T16:14:32.323283+00:00"
 }
