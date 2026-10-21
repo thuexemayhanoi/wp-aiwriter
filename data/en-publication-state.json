@@ -1336,11 +1336,13 @@
       "title": "Honda Vision Seat Height: What Shorter Riders Should Check",
       "slug": "honda-vision-seat-height-what-shorter-riders-should-check",
       "source_hash": "92797060a545e7be6e16e164c9c7b355b5726d6d8399f908d489af1e1ae80e86",
-      "checked_at": "2026-10-21T15:37:54.601482+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:38:00.647858+00:00",
+      "phase": "VERIFIED",
       "category_id": 50,
-      "wp_id": 2094
+      "wp_id": 2094,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/honda-vision-seat-height-what-shorter-riders-should-check/"
     }
   },
-  "updated_at": "2026-10-21T15:37:54.601498+00:00"
+  "updated_at": "2026-10-21T15:38:00.647875+00:00"
 }
