@@ -2541,7 +2541,15 @@
       "wp_id": 2312,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-estimate-electric-scooter-range-before-a-day-trip/"
+    },
+    "228": {
+      "title": "What Affects Battery Range in Hanoi Stop-and-Go Traffic",
+      "slug": "what-affects-battery-range-in-hanoi-stop-and-go-traffic",
+      "source_hash": "56074836e4eb6ed06a76728e2166eeb7c534e6821f8243319020535decc09c9e",
+      "checked_at": "2026-10-21T16:08:18.015535+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 52
     }
   },
-  "updated_at": "2026-10-21T16:08:15.573496+00:00"
+  "updated_at": "2026-10-21T16:08:18.015543+00:00"
 }
