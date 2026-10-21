@@ -368,11 +368,13 @@
       "title": "Hanoi to Ha Giang: Should You Ride From Hanoi or Rent in Ha Giang?",
       "slug": "hanoi-to-ha-giang-ride-or-rent-there",
       "source_hash": "bdfe84b5fa4a0fb280542cc1eb1acf7be6f853c958a5ec8d7e342653281b8fd3",
-      "checked_at": "2026-10-21T04:16:10.337017+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T04:16:14.572481+00:00",
+      "phase": "VERIFIED",
       "category_id": 54,
-      "wp_id": 1918
+      "wp_id": 1918,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/hanoi-to-ha-giang-ride-or-rent-there/"
     }
   },
-  "updated_at": "2026-10-21T04:16:10.337036+00:00"
+  "updated_at": "2026-10-21T04:16:14.572500+00:00"
 }
