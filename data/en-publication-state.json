@@ -3151,11 +3151,11 @@
       "title": "How to Confirm an Electric Vehicle's Registration Class",
       "slug": "how-to-confirm-an-electric-vehicles-registration-class",
       "source_hash": "c955a250e67beb5756d44febbef72905cf4d088d220280fb28693c43edc8981f",
-      "checked_at": "2026-10-21T16:23:34.411728+00:00",
-      "phase": "REGISTERED",
+      "checked_at": "2026-10-21T16:23:37.048925+00:00",
+      "phase": "VERIFY_PENDING",
       "category_id": 52,
       "wp_id": 2424
     }
   },
-  "updated_at": "2026-10-21T16:23:34.411744+00:00"
+  "updated_at": "2026-10-21T16:23:37.048945+00:00"
 }
