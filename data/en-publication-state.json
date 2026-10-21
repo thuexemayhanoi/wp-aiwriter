@@ -4356,7 +4356,15 @@
       "wp_id": 2643,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-a-24-hour-rental-day-is-counted-in-hanoi/"
+    },
+    "397": {
+      "title": "Comparing Daily and Weekly Motorbike Rental Packages",
+      "slug": "comparing-daily-and-weekly-motorbike-rental-packages",
+      "source_hash": "3d66c8a4ede855ef9bfebe26192f7c750c779448331332a52180eb4f27729596",
+      "checked_at": "2026-10-21T16:54:52.685155+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 69
     }
   },
-  "updated_at": "2026-10-21T16:54:51.110367+00:00"
+  "updated_at": "2026-10-21T16:54:52.685164+00:00"
 }
