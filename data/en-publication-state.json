@@ -3657,11 +3657,13 @@
       "title": "A Museum Day in Hanoi: Scooter or Taxi between Stops?",
       "slug": "a-museum-day-in-hanoi-scooter-or-taxi-between-stops",
       "source_hash": "3458f745c84008861542d44920728ec21381f08936324f78029a878a17faf54c",
-      "checked_at": "2026-10-21T16:36:29.308668+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:36:35.992851+00:00",
+      "phase": "VERIFIED",
       "category_id": 53,
-      "wp_id": 2516
+      "wp_id": 2516,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/a-museum-day-in-hanoi-scooter-or-taxi-between-stops/"
     }
   },
-  "updated_at": "2026-10-21T16:36:29.308688+00:00"
+  "updated_at": "2026-10-21T16:36:35.992870+00:00"
 }
