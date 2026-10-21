@@ -1754,11 +1754,13 @@
       "title": "Automatic Scooter Rental: Daily, Weekly or Monthly?",
       "slug": "automatic-scooter-rental-daily-weekly-or-monthly",
       "source_hash": "e79a3bb76959d459f6aa55526fbf9c47a0c8f64486acfd5e308ad3b69135e880",
-      "checked_at": "2026-10-21T15:48:34.098117+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:48:38.496272+00:00",
+      "phase": "VERIFIED",
       "category_id": 69,
-      "wp_id": 2170
+      "wp_id": 2170,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/automatic-scooter-rental-daily-weekly-or-monthly/"
     }
   },
-  "updated_at": "2026-10-21T15:48:34.098135+00:00"
+  "updated_at": "2026-10-21T15:48:38.496290+00:00"
 }
