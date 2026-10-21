@@ -1,6 +1,6 @@
 # English pipeline (EN) — research, write, QA, publish, verify
 
-> **NEW AGENT / 478 EN TITLE QUEUE:** [Read the complete EN A–Z AI playbook first](EN_478_AI_PLAYBOOK.md). It explains `en/title-plan-478.csv` planning vs `en/topics.json` publish metadata, 22 original EN posts, slug protection, title approval, QA >=85, three-per-run policy, checkpoint/resume and safe WordPress verification. The English workflow documented below remains in effect; do not use Vietnamese `scripts/engine.py` for these 478 articles.
+> **NEW AGENT / 478 EN TITLE QUEUE:** [Read the complete EN A–Z AI playbook first](EN_478_AI_PLAYBOOK.md). It explains `en/title-plan-478.csv` planning vs `en/topics.json` publish metadata, 22 original EN posts, slug protection, title approval, QA >=85, continuous QA-gated publishing with no article-count limit, checkpoint/resume and safe WordPress verification. The English workflow documented below remains in effect; do not use Vietnamese `scripts/engine.py` for these 478 articles.
 
 
 
@@ -18,7 +18,7 @@ Nguyen Tu data (`en/business.json` lists the forbidden fragments). The Vietnames
 |---|---|
 | `en/topics.json` | The topic matrix: `id`, `title`, `slug`, `category_id` (an allowed EN category ID from 46–56 or 60–69; the three main parent categories may carry direct pillar articles), `intent`, `hub`, `keywords`. The single source of IDs, titles, slugs and categories; one search intent per row; no duplicates. |
 | `en/business.json` | Nguyen Ha facts for the QA: phone, address, hours, allowed VND amounts (the price table), forbidden fragments of the other business, English page URLs. |
-| `en/publication-policy.json` | `enabled` (false = preview only), `mode` (`pilot` publishes only `pilot_ids`; `batch` publishes every QA-ready article), `batch_size`, `max_batches_per_run`, `require_live_routes`, `legal_categories`, `min_score`, `min_words` (1600). |
+| `en/publication-policy.json` | `enabled` (false = preview only), `mode` (`pilot` publishes only `pilot_ids`; `batch` publishes every QA-ready article), `require_live_routes`, `legal_categories`, `min_score`, `min_words` (1600). |
 | `en/posts/NNNN.md` | One article per topic ID, front matter `en_id`, `title`, `slug`, `category_id`, `description`, `ready`. Original English prose with `## ` sections, a `## FAQ` and a `## Sources` section. |
 | `scripts/en_engine.py` | `--mode qa` (gates and score) and `--mode sync` (publisher; `--live --persist-state` on GitHub Actions). |
 | `scripts/en_ops.py` | Operates VI-EN Core through its REST API: status, enable/disable/undo, register categories, link page pairs, publish pages, public verify, and `rollout` (one idempotent go-live pass: status → routes on if not live → missing categories → missing page pairs, both slugs checked first → public verify; `NOT_INSTALLED` while the site runs a plugin older than 0.5.1). |
@@ -61,8 +61,8 @@ Description 110–175 characters (−10 missing, −5 length), **hard minimum 1,
 ### Publisher (GitHub Actions `EN Publisher (VI-EN Core)`)
 
 1. Runs after a successful push-triggered `EN Writer QA` on `main`, manually, or started live by the `EN autopilot` once
-   its rollout pass verified; writes only with `--live` **and** `enabled: true` in the policy; one action per run,
-   `max_batches_per_run` batches of `batch_size`.
+   its rollout pass verified; writes only with `--live` **and** `enabled: true` in the policy. It drains all QA-ready
+   English manuscripts without a numeric cap; on a GitHub runner time cutoff it checkpoints and dispatches the next serialized run.
 2. Gate: `GET /wp-json/nh-vien/v1/status` must say `live: true` and list every needed English category (46–56) as
    registered; otherwise BLOCKED with zero writes.
 3. For each eligible article (no duplicate title/slug/marker in WordPress, no unresolved ledger phase): POST_INTENT →
@@ -87,7 +87,7 @@ Description 110–175 characters (−10 missing, −5 length), **hard minimum 1,
 3. Automatic too: a `VERIFIED` pass sets `enabled: true` in `en/publication-policy.json` (pilot mode, IDs 1–3), pushes it
    and starts `EN Publisher` live: the three pilot articles are created as drafts, registered as English, published
    and verified. Then check the live URLs, `/en/category/…`, the menus and `/sitemap_index.xml` with the probe.
-4. Switch `mode` to `batch` with `batch_size` 3 → 10 → 20 as each batch verifies (a human decision, by commit); write
+4. After the historical pilot, use `mode: batch` for automatic continuous publishing (owner approval 2026-10-21, no per-run article-count limit); write
    more `en/posts/NNNN.md` from `en/topics.json`; add topics to the matrix as research finds new intents (never
    duplicate an intent).
 

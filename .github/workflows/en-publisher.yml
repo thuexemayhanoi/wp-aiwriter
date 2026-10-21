@@ -1,7 +1,8 @@
 name: EN Publisher (VI-EN Core)
 # Publishes QA-ready English articles: create as draft -> register with VI-EN Core -> publish -> verify at /en/{slug}/.
 # Runs automatically only after a successful push-triggered EN Writer QA on main, and only writes while
-# en/publication-policy.json has enabled=true (the policy also fixes the mode: pilot IDs or batches).
+# en/publication-policy.json has enabled=true; no article-count limit. A time-budgeted
+# runner continues via workflow_dispatch until the QA-ready queue is empty.
 on:
   workflow_run:
     workflows: ['EN Writer QA (No WordPress Writes)']
@@ -59,6 +60,7 @@ jobs:
           WP_USERNAME: ${{ secrets.WP_USERNAME || secrets.WP_USER }}
           WP_APPLICATION_PASSWORD: ${{ secrets.WP_APPLICATION_PASSWORD }}
           LIVE: ${{ github.event_name == 'workflow_run' && 'true' || inputs.live }}
+          EN_PUBLISH_TIME_BUDGET_SECONDS: '2700'
         shell: bash
         run: |
           set -euo pipefail
@@ -68,14 +70,15 @@ jobs:
             python scripts/en_engine.py --mode sync
             exit 0
           fi
-          max="$(python -c "import json; print(int(json.load(open('en/publication-policy.json'))['max_batches_per_run']))")"
-          for batch in $(seq 1 "$max"); do
-            echo "EN publisher batch $batch of at most $max"
-            python scripts/en_engine.py --mode sync --live --persist-state
-            has_more="$(python -c "import json; print(str(json.load(open('reports/en/latest.json'))['has_more']).lower())")"
-            [[ "$has_more" == 'false' ]] && exit 0
-          done
-          echo "Batch limit of this run reached; the remaining QA-ready articles wait for the next run."
+          echo "Continuously publishing all eligible English articles until the queue is drained or the runner time budget is reached."
+          python scripts/en_engine.py --mode sync --live --persist-state
+      - name: Continue remaining QA-ready articles in the next serialized run
+        if: ${{ success() && steps.sync.outputs.has_more == 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh workflow run en-publisher.yml --ref main -f live=true
+          echo "Queued next publisher run; no per-article or per-batch count limit."
       - name: Preserve the receipts
         if: always()
         uses: actions/upload-artifact@v4

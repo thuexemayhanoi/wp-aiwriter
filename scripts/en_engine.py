@@ -15,6 +15,7 @@ import re
 import subprocess
 import sys
 import tempfile
+import time
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 if str(ROOT / 'scripts') not in sys.path:
@@ -79,9 +80,8 @@ def read_json(path):
 
 def load_policy():
     policy = read_json(POLICY_PATH)
-    required = {'enabled', 'mode', 'pilot_ids', 'batch_size', 'category_ids', 'legal_categories', 'min_score', 'require_live_routes', 'min_words'}
+    required = {'enabled', 'mode', 'pilot_ids', 'category_ids', 'legal_categories', 'min_score', 'require_live_routes', 'min_words'}
     if (not required <= set(policy) or policy['mode'] not in ('pilot', 'batch')
-            or not 1 <= int(policy['batch_size']) <= 20
             or not 1600 <= int(policy['min_words']) <= 5000):
         raise ValueError('en/publication-policy.json violates the pipeline safeguards')
     return policy
@@ -452,14 +452,16 @@ def sync(client, rest, ready, ledger, policy, report):
             report['errors'].append({'id': article['id'], 'reason': f"Unresolved prior write ({old['phase']}); reconcile the ledger instead of reposting"})
             continue
         eligible.append(article)
-    limit = int(policy['batch_size'])
-    remaining, attempts = [], 0
-    for article in eligible:
-        # One attempt per article per run, at most batch_size attempts: a failed attempt is never followed by a retry.
-        if attempts >= limit:
-            remaining.append(article['id'])
-            continue
-        attempts += 1
+    # The owner removed per-article/per-batch caps. Drain all eligible manuscripts.
+    # GitHub Actions may impose a job timeout: stop BEFORE it and checkpoint the
+    # remainder, so the workflow can dispatch the next serial run safely.
+    time_budget = int(os.getenv('EN_PUBLISH_TIME_BUDGET_SECONDS', '0'))
+    deadline = time.monotonic() + time_budget if time_budget > 0 else None
+    remaining = []
+    for index, article in enumerate(eligible):
+        if deadline is not None and time.monotonic() >= deadline - 120:
+            remaining = [item['id'] for item in eligible[index:]]
+            break
         try:
             category_id = article['category_id']
             marker = MARKER.format(id=article['id'], hash=article['hash'])
@@ -504,7 +506,7 @@ def write_report(report):
     (REPORT_DIR / 'latest.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     summary = (f"### EN pipeline — {report['mode']}\n\n"
                f"- Topics: {report['topics']}; authored: {report['authored']}; QA PASS: {report['qa_pass']}; QA FAIL: {len(report['qa_errors'])}\n"
-               f"- Policy: enabled={report['policy']['enabled']}, mode={report['policy']['mode']}, batch={report['policy']['batch_size']}\n"
+               f"- Policy: enabled={report['policy']['enabled']}, mode={report['policy']['mode']}, continuous QA-gated publishing\n"
                f"- VI-EN Core: {report.get('vien', 'not checked')}\n"
                f"- Newly created and verified: {len(report['created'])}; existing: {len(report['existing'])}; "
                f"duplicates: {len(report['duplicates'])}; errors: {len(report['errors'])}; next: {report.get('remaining_ready_ids', [])[:5]}\n")
@@ -528,7 +530,7 @@ def run(args):
     all_items, ready, errors = load_articles(topics, business, policy)
     report = {'at': now(), 'mode': args.mode, 'live': args.live, 'topics': len(topics), 'authored': len(all_items), 'qa_pass': len(ready),
               'qa_errors': errors, 'created': [], 'existing': [], 'duplicates': [], 'errors': [], 'has_more': False,
-              'policy': {k: policy[k] for k in ('enabled', 'mode', 'batch_size', 'pilot_ids')},
+              'policy': {k: policy[k] for k in ('enabled', 'mode', 'pilot_ids')},
               'scores': [{'id': a['id'], 'score': a['score'], 'words': a['words'], 'notes': a['notes']} for a in ready]}
     try:
         if policy['mode'] == 'pilot':

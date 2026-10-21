@@ -102,7 +102,7 @@ python scripts/en_engine.py --mode sync     # dry-run preview
 
 **K — Commit early, publish through EXISTING workflow.** Push a small QA-ready EN manuscript/approved title to `main` only after review. A successful push-triggered `EN Writer QA (No WordPress Writes)` can trigger `EN Publisher` (subject to policy). GitHub Actions runs QA/publisher, **not** the AI writer: it will not spontaneously research or generate 478 article bodies. No external AI API keys are needed.
 
-**L — Respect batch/approval limit.** `en/publication-policy.json` currently holds `batch_size=3`, `max_batches_per_run=1`, QA min score 85 and `min_words=1600`. Do not automatically raise limits or grant yourself additional owner approvals. A batch may be queued for the next authorised publish without touching VI.
+**L — Continuous QA-gated publication (owner approved 2026-10-21).** The English publisher has no article-count or batch-count limit. Every ready original EN manuscript must pass QA ≥85, all hard gates, WordPress duplicate preflight and immutable ledger protection. GitHub runner time is a technical boundary: save progress and automatically dispatch the next serialized publisher run when the deadline approaches. No manual approval per 3 posts is required. Keep `min_words=1600`; do not touch VI.
 
 **M — Verify LIVE.** The EN Publisher creates a WordPress draft, checks actual post slug (rejects if WordPress adds `excel-`), registers with VI-EN Core, publishes, checks WordPress post ID, English category ID, title, public URL `/en/{slug}/`, HTTP 200, English language marker, self canonical and normal-URL redirect; then writes `VERIFIED` to `data/en-publication-state.json`. **Only this combination counts as published.** Check Yoast sitemap where applicable.
 
@@ -165,4 +165,4 @@ EN ledger: <actual phase per ID> | Next IDs: <n,n,n>
 Issue and next action: <specific evidence>
 ```
 
-This playbook is a **process document**, not authorisation to skip a verification gate or bypass the current owner-approved publish limits.
+This playbook is a **process document**; owner approval removes EN article-count and batch-count limits but never authorises bypassing QA, safety gates, live verification or existing URL protection.

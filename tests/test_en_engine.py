@@ -299,7 +299,7 @@ def seo_response(url, final, status, headers, text):
 
 class Publisher(unittest.TestCase):
     def policy(self, **overrides):
-        return {**POLICY, 'enabled': True, 'mode': 'batch', 'batch_size': 1, **overrides}
+        return {**POLICY, 'enabled': True, 'mode': 'batch', **overrides}
 
     def test_blocked_when_routes_not_live_or_categories_unregistered(self):
         with self.assertRaisesRegex(RuntimeError, 'not live'):
@@ -311,10 +311,10 @@ class Publisher(unittest.TestCase):
         wp, rest, ledger, r = FakeWP(), FakeRest(live_status()), FakeLedger(), report()
         with patch.object(en.seo_common, 'http_get', side_effect=page_ok):
             en.sync(wp, rest, ready_articles(), ledger, self.policy(), r)
-        self.assertEqual(len(r['created']), 1)
-        self.assertEqual(r['remaining_ready_ids'], [3])
-        self.assertTrue(r['has_more'])
-        self.assertEqual([c[0] for c in wp.calls], ['posts', 'posts/100'])
+        self.assertEqual(len(r['created']), 2)
+        self.assertEqual(r['remaining_ready_ids'], [])
+        self.assertFalse(r['has_more'])
+        self.assertEqual([c[0] for c in wp.calls], ['posts', 'posts/100', 'posts', 'posts/101'])
         self.assertEqual(wp.calls[0][1]['status'], 'draft')
         self.assertEqual(wp.calls[0][1]['categories'], [50])
         self.assertEqual(wp.calls[0][1]['meta']['nh_summary'], ready_articles()[0]['description'])
@@ -322,6 +322,16 @@ class Publisher(unittest.TestCase):
         self.assertIn(('nh-vien/v1/posts', {'id': 100}), rest.calls)
         self.assertEqual(ledger.data['posts']['2']['phase'], 'VERIFIED')
         self.assertEqual(ledger.data['posts']['2']['url'], en.EN_HOME + TOPICS[2]['slug'] + '/')
+        self.assertEqual(ledger.data['posts']['3']['phase'], 'VERIFIED')
+
+    def test_time_budget_pauses_safely_without_starting_a_wordpress_post(self):
+        wp, rest, ledger, r = FakeWP(), FakeRest(live_status()), FakeLedger(), report()
+        with patch.dict(en.os.environ, {'EN_PUBLISH_TIME_BUDGET_SECONDS': '1'}), patch.object(en.time, 'monotonic', return_value=100):
+            en.sync(wp, rest, ready_articles(), ledger, self.policy(), r)
+        self.assertEqual(r['created'], [])
+        self.assertEqual(r['remaining_ready_ids'], [2, 3])
+        self.assertTrue(r['has_more'])
+        self.assertEqual(wp.calls, [])
 
     def test_wordpress_excel_prefix_rewrite_never_becomes_public(self):
         class RewritingWP(FakeWP):
@@ -406,22 +416,16 @@ class Topics(unittest.TestCase):
     def test_policy_defaults_are_safe(self):
         # EN autopilot intentionally changes enabled=False to True only after
         # production VI/EN Core preflight and public-route verification. The QA
-        # must accept that rollout, while retaining the three-article pilot cap.
+        # must accept that rollout without disabling QA or route checks.
         self.assertIsInstance(POLICY['enabled'], bool)
         self.assertIn(POLICY['mode'], ('pilot', 'batch'))
         self.assertEqual(POLICY['pilot_ids'], [1, 2, 3])
         self.assertTrue(POLICY['require_live_routes'])
         self.assertGreaterEqual(POLICY['min_score'], 85)
-        # Batch publication is allowed only after all three live pilot posts
-        # were independently verified. Keep each job's size bounded on shared hosting.
-        if POLICY['mode'] == 'pilot':
-            self.assertEqual(POLICY['batch_size'], 3)
-            self.assertEqual(POLICY['max_batches_per_run'], 1)
-        else:
-            self.assertGreaterEqual(POLICY['batch_size'], 1)
-            self.assertLessEqual(POLICY['batch_size'], 10)
-            self.assertGreaterEqual(POLICY['max_batches_per_run'], 1)
-            self.assertLessEqual(POLICY['batch_size'] * POLICY['max_batches_per_run'], 20)
+        # Unlimited QA-gated EN publishing: no count-based policy caps.
+        # The GitHub runner deadline is handled by a resumable soft stop.
+        self.assertNotIn('batch_size', POLICY)
+        self.assertNotIn('max_batches_per_run', POLICY)
 
 
 if __name__ == '__main__':
