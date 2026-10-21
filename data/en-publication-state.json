@@ -1490,11 +1490,13 @@
       "title": "Scooter Comfort on Paved Roads versus Rough Lanes",
       "slug": "scooter-comfort-on-paved-roads-versus-rough-lanes",
       "source_hash": "5088e850ff9539d6c4c1b65e0124ee0f863ced340bd10a4b9e5fb244352d1021",
-      "checked_at": "2026-10-21T15:41:52.598929+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:41:59.151224+00:00",
+      "phase": "VERIFIED",
       "category_id": 50,
-      "wp_id": 2122
+      "wp_id": 2122,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/scooter-comfort-on-paved-roads-versus-rough-lanes/"
     }
   },
-  "updated_at": "2026-10-21T15:41:52.598946+00:00"
+  "updated_at": "2026-10-21T15:41:59.151241+00:00"
 }
