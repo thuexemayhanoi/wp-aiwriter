@@ -2601,10 +2601,11 @@
       "title": "What to Do When a Rental EV Battery Is Almost Empty",
       "slug": "what-to-do-when-a-rental-ev-battery-is-almost-empty",
       "source_hash": "d98eafc4766234ff5cdcbee75cacc0ebff27da1f5bed91feeda0c5da81e97e44",
-      "checked_at": "2026-10-21T16:09:46.574465+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 52
+      "checked_at": "2026-10-21T16:09:48.981438+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 52,
+      "wp_id": 2324
     }
   },
-  "updated_at": "2026-10-21T16:09:46.574474+00:00"
+  "updated_at": "2026-10-21T16:09:48.981459+00:00"
 }
