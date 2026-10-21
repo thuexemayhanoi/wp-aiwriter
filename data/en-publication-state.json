@@ -2937,7 +2937,15 @@
       "wp_id": 2384,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/electric-scooter-battery-health-questions-to-ask-the-shop/"
+    },
+    "264": {
+      "title": "Can You Charge a Rental EV from an Ordinary Socket?",
+      "slug": "can-you-charge-a-rental-ev-from-an-ordinary-socket",
+      "source_hash": "299c8893a18f9594fdac8dbf6955550a757b4553dc0cd87eb23340c8000bafb4",
+      "checked_at": "2026-10-21T16:17:44.615859+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 52
     }
   },
-  "updated_at": "2026-10-21T16:17:42.627374+00:00"
+  "updated_at": "2026-10-21T16:17:44.615867+00:00"
 }
