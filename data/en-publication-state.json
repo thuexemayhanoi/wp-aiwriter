@@ -3767,10 +3767,11 @@
       "title": "A Bat Trang Pottery Day Trip on a Rental Scooter",
       "slug": "a-bat-trang-pottery-day-trip-on-a-rental-scooter",
       "source_hash": "9dc4a2568931d8f7de583fa1db66459ee02941504acbcbdd3d63d70ca36cbb00",
-      "checked_at": "2026-10-21T16:40:11.278216+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 54
+      "checked_at": "2026-10-21T16:40:13.723471+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 54,
+      "wp_id": 2536
     }
   },
-  "updated_at": "2026-10-21T16:40:11.278225+00:00"
+  "updated_at": "2026-10-21T16:40:13.723487+00:00"
 }
