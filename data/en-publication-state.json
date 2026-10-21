@@ -3872,7 +3872,15 @@
       "wp_id": 2554,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/hanoi-to-kim-boi-by-motorcycle-hot-springs-and-road-conditions/"
+    },
+    "352": {
+      "title": "Hanoi to Xuan Mai: A Short Out-of-City Ride",
+      "slug": "hanoi-to-xuan-mai-a-short-out-of-city-ride",
+      "source_hash": "b761443944f23e24264292eff99989f4eac731945a449322b25f744b13645db7",
+      "checked_at": "2026-10-21T16:42:52.550954+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 54
     }
   },
-  "updated_at": "2026-10-21T16:42:50.636728+00:00"
+  "updated_at": "2026-10-21T16:42:52.550963+00:00"
 }
