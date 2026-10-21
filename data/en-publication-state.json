@@ -1507,7 +1507,15 @@
       "wp_id": 2124,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/automatic-scooters-and-steep-hills-what-riders-should-know/"
+    },
+    "139": {
+      "title": "Scooter Engine Braking on Downhill Roads",
+      "slug": "scooter-engine-braking-on-downhill-roads",
+      "source_hash": "53c02fcade8387b9b5a0fb8914c85923be6641b8e594bd37550b19a22d71b249",
+      "checked_at": "2026-10-21T15:42:17.222426+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 50
     }
   },
-  "updated_at": "2026-10-21T15:42:15.430520+00:00"
+  "updated_at": "2026-10-21T15:42:17.222434+00:00"
 }
