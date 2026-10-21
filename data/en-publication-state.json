@@ -759,7 +759,15 @@
       "wp_id": 1988,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/downshifting-safely-before-corners-on-a-small-motorbike/"
+    },
+    "66": {
+      "title": "What a Slipping Gear Feels Like on a Rented Motorbike",
+      "slug": "what-a-slipping-gear-feels-like-on-a-rented-motorbike",
+      "source_hash": "8f6c64b9fa5699896becc018e93efe3bcd675b982f6b1ae73f7fb49fb80a46e8",
+      "checked_at": "2026-10-21T14:34:27.009873+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 49
     }
   },
-  "updated_at": "2026-10-21T14:34:25.473682+00:00"
+  "updated_at": "2026-10-21T14:34:27.009883+00:00"
 }
