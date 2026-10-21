@@ -3096,11 +3096,13 @@
       "title": "What an Electric Scooter Rental Contract Says about Batteries",
       "slug": "what-an-electric-scooter-rental-contract-says-about-batteries",
       "source_hash": "d7fc3995e60ab667135f65a243dfdd85a09c420d0feb2c69a6517fe451047ffb",
-      "checked_at": "2026-10-21T16:22:06.696663+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:22:11.924106+00:00",
+      "phase": "VERIFIED",
       "category_id": 52,
-      "wp_id": 2414
+      "wp_id": 2414,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/what-an-electric-scooter-rental-contract-says-about-batteries/"
     }
   },
-  "updated_at": "2026-10-21T16:22:06.696684+00:00"
+  "updated_at": "2026-10-21T16:22:11.924127+00:00"
 }
