@@ -1358,11 +1358,13 @@
       "title": "Honda Lead vs Air Blade for Taller Riders",
       "slug": "honda-lead-vs-air-blade-for-taller-riders",
       "source_hash": "0372cbe63280694169151823ebf52704e2d2e3b91606316dfe17bda66136e70d",
-      "checked_at": "2026-10-21T15:38:33.108732+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:38:38.497216+00:00",
+      "phase": "VERIFIED",
       "category_id": 50,
-      "wp_id": 2098
+      "wp_id": 2098,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/honda-lead-vs-air-blade-for-taller-riders/"
     }
   },
-  "updated_at": "2026-10-21T15:38:33.108749+00:00"
+  "updated_at": "2026-10-21T15:38:38.497234+00:00"
 }
