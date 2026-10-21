@@ -16,6 +16,12 @@ on:
       - 'tests/test_en_500_plan.py'
       - 'tests/test_en_ops.py'
       - 'tests/test_en_pages.py'
+      - 'tests/test_en_contract_sync.py'
+      - 'AGENTS.md'
+      - 'CLAUDE.md'
+      - 'README.md'
+      - 'docs/EN_*.md'
+      - 'docs/MENU_TAXONOMY_MAP_VI_EN.md'
       - '.github/workflows/en-writer-qa.yml'
       - '.github/workflows/en-publisher.yml'
   workflow_dispatch:
