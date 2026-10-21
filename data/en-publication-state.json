@@ -2970,7 +2970,15 @@
       "wp_id": 2390,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/electric-bike-range-versus-real-riding-conditions/"
+    },
+    "267": {
+      "title": "Electric Scooter Storage during an Extended Rental",
+      "slug": "electric-scooter-storage-during-an-extended-rental",
+      "source_hash": "7b30a5f11b9c082a346f4ce9566fafa1c5cb658015bc34d82d919742133a6829",
+      "checked_at": "2026-10-21T16:18:37.071603+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 52
     }
   },
-  "updated_at": "2026-10-21T16:18:35.056029+00:00"
+  "updated_at": "2026-10-21T16:18:37.071611+00:00"
 }
