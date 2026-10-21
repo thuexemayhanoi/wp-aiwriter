@@ -2150,11 +2150,11 @@
       "title": "Comparing Old and New 50cc Bikes before Renting",
       "slug": "comparing-old-and-new-50cc-bikes-before-renting",
       "source_hash": "162b17d73e638b26f2a027445615a1c4a127a0fe7b082294d40e2048f6a3f64c",
-      "checked_at": "2026-10-21T15:57:41.770630+00:00",
-      "phase": "REGISTERED",
+      "checked_at": "2026-10-21T15:57:44.163239+00:00",
+      "phase": "VERIFY_PENDING",
       "category_id": 51,
       "wp_id": 2242
     }
   },
-  "updated_at": "2026-10-21T15:57:41.770647+00:00"
+  "updated_at": "2026-10-21T15:57:44.163257+00:00"
 }
