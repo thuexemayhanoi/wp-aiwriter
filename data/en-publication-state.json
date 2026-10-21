@@ -324,11 +324,13 @@
       "title": "Honda Lead and Vision for Two Riders: Carrying a Passenger and Luggage",
       "slug": "scooter-for-two-riders-and-luggage-hanoi",
       "source_hash": "af5dd71cb7187b8dc5392fa0aa81a15fe4527b1f97b9b7fbcbba17d3839f6ca2",
-      "checked_at": "2026-10-21T03:52:38.549137+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T03:52:42.165043+00:00",
+      "phase": "VERIFIED",
       "category_id": 65,
-      "wp_id": 1909
+      "wp_id": 1909,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/scooter-for-two-riders-and-luggage-hanoi/"
     }
   },
-  "updated_at": "2026-10-21T03:52:38.549149+00:00"
+  "updated_at": "2026-10-21T03:52:42.165056+00:00"
 }
