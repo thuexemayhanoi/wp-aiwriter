@@ -1611,10 +1611,11 @@
       "title": "Should You Rent a Manual Bike for Touring Outside Hanoi?",
       "slug": "should-you-rent-a-manual-bike-for-touring-outside-hanoi",
       "source_hash": "adcb75abe0c03d4cf2980d563becc9379485d2dc78ba457db667897942dcefc4",
-      "checked_at": "2026-10-21T15:45:28.191386+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 49
+      "checked_at": "2026-10-21T15:45:30.852328+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 49,
+      "wp_id": 2144
     }
   },
-  "updated_at": "2026-10-21T15:45:28.191397+00:00"
+  "updated_at": "2026-10-21T15:45:30.852347+00:00"
 }
