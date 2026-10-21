@@ -1562,7 +1562,15 @@
       "wp_id": 2134,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-plan-fuel-stops-on-a-scooter-day-trip/"
+    },
+    "149": {
+      "title": "How to Secure a Backpack on an Automatic Scooter",
+      "slug": "how-to-secure-a-backpack-on-an-automatic-scooter",
+      "source_hash": "f1f87ab4b286916591fc652b10f620bae3917bf985521ae284a164230c712829",
+      "checked_at": "2026-10-21T15:43:27.677305+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 50
     }
   },
-  "updated_at": "2026-10-21T15:43:25.954035+00:00"
+  "updated_at": "2026-10-21T15:43:27.677314+00:00"
 }
