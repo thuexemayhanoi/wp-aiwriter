@@ -3250,11 +3250,13 @@
       "title": "Bac Tu Liem by Scooter: Universities and Residential Roads",
       "slug": "bac-tu-liem-by-scooter-universities-and-residential-roads",
       "source_hash": "5632095387f876f1624db09647159006e9a4f8c8af7fa851e4cffa74bc224d0b",
-      "checked_at": "2026-10-21T16:26:04.438929+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:26:09.632305+00:00",
+      "phase": "VERIFIED",
       "category_id": 53,
-      "wp_id": 2442
+      "wp_id": 2442,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/bac-tu-liem-by-scooter-universities-and-residential-roads/"
     }
   },
-  "updated_at": "2026-10-21T16:26:04.438950+00:00"
+  "updated_at": "2026-10-21T16:26:09.632325+00:00"
 }
