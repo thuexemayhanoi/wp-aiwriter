@@ -3437,11 +3437,13 @@
       "title": "Bat Trang Pottery Village: Parking and Local Streets",
       "slug": "bat-trang-pottery-village-parking-and-local-streets",
       "source_hash": "8541b44b04cf2b08be08df091e2c08de64470e64079e32b72c07b2b9c3ce9ac7",
-      "checked_at": "2026-10-21T16:30:39.339357+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:30:44.450134+00:00",
+      "phase": "VERIFIED",
       "category_id": 53,
-      "wp_id": 2476
+      "wp_id": 2476,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/bat-trang-pottery-village-parking-and-local-streets/"
     }
   },
-  "updated_at": "2026-10-21T16:30:39.339377+00:00"
+  "updated_at": "2026-10-21T16:30:44.450155+00:00"
 }
