@@ -742,10 +742,11 @@
       "title": "Engine Braking on a Semi-Automatic Motorcycle",
       "slug": "engine-braking-on-a-semi-automatic-motorcycle",
       "source_hash": "56a5b8e64d7fa33b38ab7d206df27f7dc6e5a22e7f9db03bac6b7c8e45898b13",
-      "checked_at": "2026-10-21T14:32:53.614543+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 49
+      "checked_at": "2026-10-21T14:32:55.612253+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 49,
+      "wp_id": 1986
     }
   },
-  "updated_at": "2026-10-21T14:32:53.614552+00:00"
+  "updated_at": "2026-10-21T14:32:55.612270+00:00"
 }
