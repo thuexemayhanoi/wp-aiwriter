@@ -3448,11 +3448,13 @@
       "title": "Co Loa Citadel from Long Bien: A Short Cultural Ride",
       "slug": "co-loa-citadel-from-long-bien-a-short-cultural-ride",
       "source_hash": "63734595fbbf1e6a7caf1bfc4890e8323c4cf93d273d282bfceaf161df5f65ae",
-      "checked_at": "2026-10-21T16:30:54.716438+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:31:00.740911+00:00",
+      "phase": "VERIFIED",
       "category_id": 53,
-      "wp_id": 2478
+      "wp_id": 2478,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/co-loa-citadel-from-long-bien-a-short-cultural-ride/"
     }
   },
-  "updated_at": "2026-10-21T16:30:54.716458+00:00"
+  "updated_at": "2026-10-21T16:31:00.740932+00:00"
 }
