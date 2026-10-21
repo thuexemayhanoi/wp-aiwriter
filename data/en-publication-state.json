@@ -2689,10 +2689,11 @@
       "title": "How Hills Affect Electric Motorbike Range",
       "slug": "how-hills-affect-electric-motorbike-range",
       "source_hash": "07634b8bc99d8385059ec2cde3dacada8d0f816ca0e40bfc79777b059135d936",
-      "checked_at": "2026-10-21T16:12:01.684342+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 52
+      "checked_at": "2026-10-21T16:12:04.196231+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 52,
+      "wp_id": 2340
     }
   },
-  "updated_at": "2026-10-21T16:12:01.684352+00:00"
+  "updated_at": "2026-10-21T16:12:04.196252+00:00"
 }
