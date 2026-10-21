@@ -3613,11 +3613,13 @@
       "title": "Visiting Hanoi's Flower Markets by Scooter",
       "slug": "visiting-hanois-flower-markets-by-scooter",
       "source_hash": "d3566c8aba6c6ac5cf766edc4912bd0d46c0742279656e487affbde0404bdf54",
-      "checked_at": "2026-10-21T16:35:20.184929+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:35:25.189980+00:00",
+      "phase": "VERIFIED",
       "category_id": 53,
-      "wp_id": 2508
+      "wp_id": 2508,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/visiting-hanois-flower-markets-by-scooter/"
     }
   },
-  "updated_at": "2026-10-21T16:35:20.184948+00:00"
+  "updated_at": "2026-10-21T16:35:25.190000+00:00"
 }
