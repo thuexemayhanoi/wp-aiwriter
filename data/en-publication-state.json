@@ -1413,11 +1413,13 @@
       "title": "What to Do When a Rental Scooter Will Not Start",
       "slug": "what-to-do-when-a-rental-scooter-will-not-start",
       "source_hash": "c9526c70036c9a92efdb774c4b921d8cc5482c95ccefb8f5cf7818585308175c",
-      "checked_at": "2026-10-21T15:40:01.176305+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:40:06.304801+00:00",
+      "phase": "VERIFIED",
       "category_id": 50,
-      "wp_id": 2108
+      "wp_id": 2108,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/what-to-do-when-a-rental-scooter-will-not-start/"
     }
   },
-  "updated_at": "2026-10-21T15:40:01.176322+00:00"
+  "updated_at": "2026-10-21T15:40:06.304819+00:00"
 }
