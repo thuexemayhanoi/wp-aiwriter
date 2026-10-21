@@ -583,7 +583,15 @@
       "wp_id": 1956,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/manual-bike-brakes-what-to-test-before-leaving-the-rental-shop/"
+    },
+    "41": {
+      "title": "What Documents to Carry When Riding in Vietnam",
+      "slug": "documents-to-carry-riding-in-vietnam",
+      "source_hash": "107291730c63c484e2fa7ce2c483838533cc04946af315af7ac3e38c7a0db9b0",
+      "checked_at": "2026-10-21T14:16:11.295517+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 55
     }
   },
-  "updated_at": "2026-10-21T12:12:16.910007+00:00"
+  "updated_at": "2026-10-21T14:16:11.295528+00:00"
 }
