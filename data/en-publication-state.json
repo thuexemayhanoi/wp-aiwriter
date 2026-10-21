@@ -2029,11 +2029,13 @@
       "title": "How to Spot a Modified 50cc Scooter before Renting",
       "slug": "how-to-spot-a-modified-50cc-scooter-before-renting",
       "source_hash": "0336857a4cf9dc5aecc8fd024f6b8a99f4e141268a6e6c413d2e96e454ea092f",
-      "checked_at": "2026-10-21T15:55:01.438807+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:55:06.049387+00:00",
+      "phase": "VERIFIED",
       "category_id": 51,
-      "wp_id": 2220
+      "wp_id": 2220,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-spot-a-modified-50cc-scooter-before-renting/"
     }
   },
-  "updated_at": "2026-10-21T15:55:01.438827+00:00"
+  "updated_at": "2026-10-21T15:55:06.049407+00:00"
 }
