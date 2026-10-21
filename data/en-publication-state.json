@@ -2689,11 +2689,13 @@
       "title": "How Hills Affect Electric Motorbike Range",
       "slug": "how-hills-affect-electric-motorbike-range",
       "source_hash": "07634b8bc99d8385059ec2cde3dacada8d0f816ca0e40bfc79777b059135d936",
-      "checked_at": "2026-10-21T16:12:09.719309+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:12:14.494291+00:00",
+      "phase": "VERIFIED",
       "category_id": 52,
-      "wp_id": 2340
+      "wp_id": 2340,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-hills-affect-electric-motorbike-range/"
     }
   },
-  "updated_at": "2026-10-21T16:12:09.719330+00:00"
+  "updated_at": "2026-10-21T16:12:14.494310+00:00"
 }
