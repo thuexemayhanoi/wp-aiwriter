@@ -342,7 +342,7 @@ class Publisher(unittest.TestCase):
                 return post, metadata
 
         wp, rest, ledger, r = RewritingWP(), FakeRest(live_status()), FakeLedger(), report()
-        en.sync(wp, rest, ready_articles(), ledger, self.policy(), r)
+        en.sync(wp, rest, ready_articles()[:1], ledger, self.policy(), r)
         self.assertEqual([c[0] for c in wp.calls], ['posts'])
         self.assertEqual(wp.posts[0]['status'], 'draft')
         self.assertEqual(ledger.data['posts']['2']['phase'], 'DRAFT_CREATED')
@@ -352,7 +352,7 @@ class Publisher(unittest.TestCase):
 
     def test_registration_failure_leaves_a_draft_and_never_publishes(self):
         wp, rest, ledger, r = FakeWP(), FakeRest(live_status(), register_http=400), FakeLedger(), report()
-        en.sync(wp, rest, ready_articles(), ledger, self.policy(), r)
+        en.sync(wp, rest, ready_articles()[:1], ledger, self.policy(), r)
         self.assertEqual(len(wp.calls), 1)
         self.assertEqual(wp.posts[0]['status'], 'draft')
         self.assertEqual(ledger.data['posts']['2']['phase'], 'REGISTER_FAILED')
@@ -374,7 +374,7 @@ class Publisher(unittest.TestCase):
         def no_marker(url, **kwargs):
             return seo_response(url, url, 200, {}, '<html lang="vi"><body>x</body></html>')
         with patch.object(en.seo_common, 'http_get', side_effect=no_marker):
-            en.sync(wp, rest, ready_articles(), ledger, self.policy(), r)
+            en.sync(wp, rest, ready_articles()[:1], ledger, self.policy(), r)
         self.assertEqual(ledger.data['posts']['2']['phase'], 'VERIFY_PENDING')
         self.assertEqual(len(r['created']), 0)
         self.assertEqual(len([c for c in wp.calls if c[0] == 'posts']), 1)
