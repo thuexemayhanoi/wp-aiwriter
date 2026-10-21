@@ -3454,7 +3454,15 @@
       "wp_id": 2478,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/co-loa-citadel-from-long-bien-a-short-cultural-ride/"
+    },
+    "314": {
+      "title": "Duong Lam Ancient Village by Scooter: Respecting Pedestrian Lanes",
+      "slug": "duong-lam-ancient-village-by-scooter-respecting-pedestrian-lanes",
+      "source_hash": "92dd265a32731bbd731ad807091dbb86c94d8e3b5f176b757e3e4a95094fb244",
+      "checked_at": "2026-10-21T16:31:02.762774+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 53
     }
   },
-  "updated_at": "2026-10-21T16:31:00.740932+00:00"
+  "updated_at": "2026-10-21T16:31:02.762784+00:00"
 }
