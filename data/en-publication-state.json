@@ -3602,11 +3602,13 @@
       "title": "Riding through Hanoi University Neighbourhoods",
       "slug": "riding-through-hanoi-university-neighbourhoods",
       "source_hash": "3f0d90b744ac2ba5508c17ee3cb779edf28b5585004177594096c1bdcbd39b5d",
-      "checked_at": "2026-10-21T16:35:00.931442+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:35:06.713182+00:00",
+      "phase": "VERIFIED",
       "category_id": 53,
-      "wp_id": 2506
+      "wp_id": 2506,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/riding-through-hanoi-university-neighbourhoods/"
     }
   },
-  "updated_at": "2026-10-21T16:35:00.931462+00:00"
+  "updated_at": "2026-10-21T16:35:06.713203+00:00"
 }
