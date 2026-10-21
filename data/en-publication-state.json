@@ -1578,11 +1578,13 @@
       "title": "Checking a Manual Bike's Lights Before Riding at Night",
       "slug": "checking-a-manual-bikes-lights-before-riding-at-night",
       "source_hash": "4018de51adcb0e22d07193fe8540e835f7a0763d36df59e91908317645b79b68",
-      "checked_at": "2026-10-21T15:44:55.254664+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:44:59.705392+00:00",
+      "phase": "VERIFIED",
       "category_id": 49,
-      "wp_id": 2138
+      "wp_id": 2138,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/checking-a-manual-bikes-lights-before-riding-at-night/"
     }
   },
-  "updated_at": "2026-10-21T15:44:55.254683+00:00"
+  "updated_at": "2026-10-21T15:44:59.705410+00:00"
 }
