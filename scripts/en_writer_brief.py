@@ -61,8 +61,7 @@ def build_packet(limit=3):
                      "remaining_in_original_cohort_by_local_ledger": sum(
                          1 for r in rows if str(r["topic_id"]) not in ledger)},
         "quality_gate": {"minimum_score": policy["min_score"], "minimum_words": policy["min_words"],
-                         "maximum_words": 5000, "batch_size": policy["batch_size"],
-                         "max_batches_per_run": policy["max_batches_per_run"],
+                         "maximum_words": 5000, "continuous_publishing": True,
                          "cannot_reduce_QA": True},
         "business": {"name_en": business["name_en"], "source": "en/business.json",
                      "english_home": business["home_en"]},
@@ -114,7 +113,7 @@ def markdown(packet):
         "",
         f"- Repository: `{packet['repo']}` · destination: `{packet['target_site']}`",
         f"- Ledger: {packet['campaign']['verified_by_local_ledger']} EN VERIFIED; {packet['campaign']['remaining_in_original_cohort_by_local_ledger']} originally planned EN IDs not represented in the local ledger.",
-        f"- Unchanged hard gates: QA >= {q['minimum_score']}; {q['minimum_words']}–{q['maximum_words']} English words; max {q['batch_size']} per publisher run (current policy).",
+        f"- Unchanged hard gates: QA >= {q['minimum_score']}; {q['minimum_words']}–{q['maximum_words']} English words; EN publisher drains every QA-passing manuscript without a count cap.",
         "- Research using current sources; follow docs/EN_478_AI_PLAYBOOK.md and docs/MENU_TAXONOMY_MAP_VI_EN.md.",
         "- Never turn spreadsheet row numbers or `excel-` into WordPress slugs. Never change the VI pipeline.",
         "",
@@ -156,7 +155,7 @@ def markdown(packet):
 
 def main():
     parser = argparse.ArgumentParser(description="Produce an English-only, read-only next-batch writer brief")
-    parser.add_argument("--limit", type=int, default=3, help="1–3; cannot exceed current editorial batch size")
+    parser.add_argument("--limit", type=int, default=3, help="1–3 read-only research candidates per packet; NOT a publishing limit")
     parser.add_argument("--format", choices=["markdown", "json"], default="markdown")
     args = parser.parse_args()
     packet = build_packet(args.limit)

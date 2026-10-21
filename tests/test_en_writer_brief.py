@@ -36,13 +36,15 @@ class EnWriterBrief(unittest.TestCase):
         self.assertEqual((ROOT / "data" / "en-publication-state.json").read_bytes(), original_ledger)
         self.assertEqual((ROOT / "en" / "title-plan-478.csv").read_bytes(), original_csv)
 
-    def test_no_qa_bypass_or_batch_size_growth(self):
+    def test_no_qa_bypass_with_unlimited_publishing(self):
         packet = en_writer_brief.build_packet(1)
         policy = json.loads((ROOT / "en" / "publication-policy.json").read_text(encoding="utf-8"))
         self.assertEqual(packet["quality_gate"]["minimum_score"], policy["min_score"])
         self.assertEqual(packet["quality_gate"]["minimum_words"], policy["min_words"])
         self.assertTrue(packet["quality_gate"]["cannot_reduce_QA"])
-        self.assertEqual(packet["quality_gate"]["batch_size"], policy["batch_size"])
+        self.assertTrue(packet["quality_gate"]["continuous_publishing"])
+        self.assertNotIn("batch_size", packet["quality_gate"])
+        self.assertNotIn("max_batches_per_run", policy)
         with self.assertRaisesRegex(ValueError, "1 to 3"):
             en_writer_brief.build_packet(4)
         with self.assertRaises(ValueError):
