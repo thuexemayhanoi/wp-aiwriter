@@ -2805,7 +2805,15 @@
       "wp_id": 2360,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/electric-motorbike-weight-and-low-speed-handling/"
+    },
+    "252": {
+      "title": "Electric Scooter Water Resistance: What Renters Must Check",
+      "slug": "electric-scooter-water-resistance-what-renters-must-check",
+      "source_hash": "060b5ab3843fb2ffd11874c24a04d271b6a6f3d0b677f6eecae915f3ac37f9b1",
+      "checked_at": "2026-10-21T16:14:46.457384+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 52
     }
   },
-  "updated_at": "2026-10-21T16:14:44.677337+00:00"
+  "updated_at": "2026-10-21T16:14:46.457393+00:00"
 }
