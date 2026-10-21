@@ -3525,10 +3525,11 @@
       "title": "One-Way Street Patterns around Hoan Kiem",
       "slug": "one-way-street-patterns-around-hoan-kiem",
       "source_hash": "5e660ad39d39f6e7e9f4f8c6780772870cd2315599e19d9798d5e405c7f5c1cc",
-      "checked_at": "2026-10-21T16:32:39.982785+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 60
+      "checked_at": "2026-10-21T16:32:43.490175+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 60,
+      "wp_id": 2492
     }
   },
-  "updated_at": "2026-10-21T16:32:39.982797+00:00"
+  "updated_at": "2026-10-21T16:32:43.490195+00:00"
 }
