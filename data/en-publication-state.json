@@ -2717,7 +2717,15 @@
       "wp_id": 2344,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-compare-electric-scooters-by-battery-size/"
+    },
+    "244": {
+      "title": "Electric Bike versus Petrol Scooter for a Daily Commute",
+      "slug": "electric-bike-versus-petrol-scooter-for-a-daily-commute",
+      "source_hash": "2a47503a901b213758365c15ee9f4010f09bc6dd264fa50a3ce23202f9a94b15",
+      "checked_at": "2026-10-21T16:12:45.471251+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 52
     }
   },
-  "updated_at": "2026-10-21T16:12:43.716346+00:00"
+  "updated_at": "2026-10-21T16:12:45.471259+00:00"
 }
