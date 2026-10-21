@@ -1716,7 +1716,15 @@
       "wp_id": 2162,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/honda-lead-for-daily-errands-practical-rental-checklist/"
+    },
+    "153": {
+      "title": "Honda Air Blade for Longer Rides: Comfort Trade-Offs",
+      "slug": "honda-air-blade-for-longer-rides-comfort-trade-offs",
+      "source_hash": "06fc53ea5a20f628b081dfb0f69933f15f0841f2574d7489815eb9921a4e62de",
+      "checked_at": "2026-10-21T15:47:45.162236+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 50
     }
   },
-  "updated_at": "2026-10-21T15:47:43.462835+00:00"
+  "updated_at": "2026-10-21T15:47:45.162246+00:00"
 }
