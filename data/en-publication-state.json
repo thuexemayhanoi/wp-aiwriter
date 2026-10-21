@@ -2827,7 +2827,15 @@
       "wp_id": 2364,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-plan-a-charging-stop-on-a-longer-electric-ride/"
+    },
+    "254": {
+      "title": "Electric Scooter Rentals for Short Errands in Hanoi",
+      "slug": "electric-scooter-rentals-for-short-errands-in-hanoi",
+      "source_hash": "2f019e697ed0aa5a4f7ba4a3298a4ce1f5b890ed511c6c8f4acaa88568af0291",
+      "checked_at": "2026-10-21T16:15:14.809990+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 52
     }
   },
-  "updated_at": "2026-10-21T16:15:12.847569+00:00"
+  "updated_at": "2026-10-21T16:15:14.810000+00:00"
 }
