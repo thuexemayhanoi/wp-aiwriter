@@ -2574,7 +2574,15 @@
       "wp_id": 2318,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-ask-a-hotel-about-safe-electric-bike-charging/"
+    },
+    "231": {
+      "title": "Battery Swapping versus Plug-In Charging for Renters",
+      "slug": "battery-swapping-versus-plug-in-charging-for-renters",
+      "source_hash": "5581dfa2d5646c0d95d3520ad18a37d92c5b020fb02e6c85081b6416d5294c7a",
+      "checked_at": "2026-10-21T16:09:13.187196+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 52
     }
   },
-  "updated_at": "2026-10-21T16:09:10.812746+00:00"
+  "updated_at": "2026-10-21T16:09:13.187204+00:00"
 }
