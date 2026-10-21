@@ -1408,7 +1408,15 @@
       "wp_id": 2106,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/throttle-control-in-congested-scooter-traffic/"
+    },
+    "130": {
+      "title": "What to Do When a Rental Scooter Will Not Start",
+      "slug": "what-to-do-when-a-rental-scooter-will-not-start",
+      "source_hash": "c9526c70036c9a92efdb774c4b921d8cc5482c95ccefb8f5cf7818585308175c",
+      "checked_at": "2026-10-21T15:39:51.129205+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 50
     }
   },
-  "updated_at": "2026-10-21T15:39:48.273037+00:00"
+  "updated_at": "2026-10-21T15:39:51.129213+00:00"
 }
