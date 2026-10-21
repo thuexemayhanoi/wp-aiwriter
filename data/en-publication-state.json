@@ -4086,11 +4086,13 @@
       "title": "Motorbike-Friendly Alternatives to Highway Routes near Hanoi",
       "slug": "motorbike-friendly-alternatives-to-highway-routes-near-hanoi",
       "source_hash": "6281ac8548bf8d81e26ef615241cde5fa44260037984b090b089d754cd9206f1",
-      "checked_at": "2026-10-21T16:48:20.117015+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:48:25.399955+00:00",
+      "phase": "VERIFIED",
       "category_id": 54,
-      "wp_id": 2595
+      "wp_id": 2595,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/motorbike-friendly-alternatives-to-highway-routes-near-hanoi/"
     }
   },
-  "updated_at": "2026-10-21T16:48:20.117034+00:00"
+  "updated_at": "2026-10-21T16:48:25.399970+00:00"
 }
