@@ -2337,11 +2337,13 @@
       "title": "50cc Petrol Bike versus Electric Moped: What Changes?",
       "slug": "50cc-petrol-bike-versus-electric-moped-what-changes",
       "source_hash": "6ec5e5474a62ae0ceae7c19f324372ac2d7e7c6ffad676ac8c60a20c146aaf47",
-      "checked_at": "2026-10-21T16:03:03.082279+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:03:08.049427+00:00",
+      "phase": "VERIFIED",
       "category_id": 51,
-      "wp_id": 2276
+      "wp_id": 2276,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/50cc-petrol-bike-versus-electric-moped-what-changes/"
     }
   },
-  "updated_at": "2026-10-21T16:03:03.082299+00:00"
+  "updated_at": "2026-10-21T16:03:08.049447+00:00"
 }
