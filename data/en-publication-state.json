@@ -3569,11 +3569,13 @@
       "title": "Scooter Access to Long Bien's Residential Alleys",
       "slug": "scooter-access-to-long-biens-residential-alleys",
       "source_hash": "63196800d76bd9d32b3cdfa098e2dfbc3506fb2a2b4087bfab4d643cdf9f9e24",
-      "checked_at": "2026-10-21T16:34:06.148114+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:34:11.581813+00:00",
+      "phase": "VERIFIED",
       "category_id": 62,
-      "wp_id": 2500
+      "wp_id": 2500,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/scooter-access-to-long-biens-residential-alleys/"
     }
   },
-  "updated_at": "2026-10-21T16:34:06.148134+00:00"
+  "updated_at": "2026-10-21T16:34:11.581833+00:00"
 }
