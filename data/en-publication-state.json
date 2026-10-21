@@ -3140,11 +3140,13 @@
       "title": "Electric Moped Mirrors, Lights and Horn: A Quick Test",
       "slug": "electric-moped-mirrors-lights-and-horn-a-quick-test",
       "source_hash": "acb81c3bbbbdf00140771e965d24f741dce5728a78649c2e426ca41eecd1cd02",
-      "checked_at": "2026-10-21T16:23:20.301815+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:23:25.728758+00:00",
+      "phase": "VERIFIED",
       "category_id": 52,
-      "wp_id": 2422
+      "wp_id": 2422,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/electric-moped-mirrors-lights-and-horn-a-quick-test/"
     }
   },
-  "updated_at": "2026-10-21T16:23:20.301835+00:00"
+  "updated_at": "2026-10-21T16:23:25.728777+00:00"
 }
