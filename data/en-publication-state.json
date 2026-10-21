@@ -1435,10 +1435,11 @@
       "title": "Smart Key versus Traditional Key on Rental Scooters",
       "slug": "smart-key-versus-traditional-key-on-rental-scooters",
       "source_hash": "7000653d224109ae93d4535e8a1b264821f1028190d538e52cd7e3e1c6d7db2e",
-      "checked_at": "2026-10-21T15:40:32.227293+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 50
+      "checked_at": "2026-10-21T15:40:35.072519+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 50,
+      "wp_id": 2112
     }
   },
-  "updated_at": "2026-10-21T15:40:32.227302+00:00"
+  "updated_at": "2026-10-21T15:40:35.072535+00:00"
 }
