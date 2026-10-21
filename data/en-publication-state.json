@@ -3459,11 +3459,13 @@
       "title": "Duong Lam Ancient Village by Scooter: Respecting Pedestrian Lanes",
       "slug": "duong-lam-ancient-village-by-scooter-respecting-pedestrian-lanes",
       "source_hash": "92dd265a32731bbd731ad807091dbb86c94d8e3b5f176b757e3e4a95094fb244",
-      "checked_at": "2026-10-21T16:31:11.157497+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:31:16.157423+00:00",
+      "phase": "VERIFIED",
       "category_id": 53,
-      "wp_id": 2480
+      "wp_id": 2480,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/duong-lam-ancient-village-by-scooter-respecting-pedestrian-lanes/"
     }
   },
-  "updated_at": "2026-10-21T16:31:11.157516+00:00"
+  "updated_at": "2026-10-21T16:31:16.157444+00:00"
 }
