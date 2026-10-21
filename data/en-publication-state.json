@@ -2128,11 +2128,13 @@
       "title": "50cc Scooter Rental by the Week: What to Ask",
       "slug": "50cc-scooter-rental-by-the-week-what-to-ask",
       "source_hash": "8ba8cfec9e449512b60f506028b725efb9c138b948cdda93839a0cf323feb987",
-      "checked_at": "2026-10-21T15:57:16.393224+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:57:20.807819+00:00",
+      "phase": "VERIFIED",
       "category_id": 51,
-      "wp_id": 2238
+      "wp_id": 2238,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/50cc-scooter-rental-by-the-week-what-to-ask/"
     }
   },
-  "updated_at": "2026-10-21T15:57:16.393243+00:00"
+  "updated_at": "2026-10-21T15:57:20.807838+00:00"
 }
