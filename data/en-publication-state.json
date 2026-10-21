@@ -4009,11 +4009,13 @@
       "title": "Hanoi to Perfume Pagoda: Motorbike and Boat Transfer",
       "slug": "hanoi-to-perfume-pagoda-motorbike-and-boat-transfer",
       "source_hash": "f205537d8e159f6eae2071980c2b1657212c2a69c343447077da20ddd3cb60d0",
-      "checked_at": "2026-10-21T16:46:24.339391+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:46:29.290919+00:00",
+      "phase": "VERIFIED",
       "category_id": 54,
-      "wp_id": 2581
+      "wp_id": 2581,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/hanoi-to-perfume-pagoda-motorbike-and-boat-transfer/"
     }
   },
-  "updated_at": "2026-10-21T16:46:24.339405+00:00"
+  "updated_at": "2026-10-21T16:46:29.290934+00:00"
 }
