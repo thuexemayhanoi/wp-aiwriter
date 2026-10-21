@@ -4081,7 +4081,15 @@
       "wp_id": 2593,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/motorbike-route-planning-around-hanois-restricted-roads/"
+    },
+    "372": {
+      "title": "Motorbike-Friendly Alternatives to Highway Routes near Hanoi",
+      "slug": "motorbike-friendly-alternatives-to-highway-routes-near-hanoi",
+      "source_hash": "6281ac8548bf8d81e26ef615241cde5fa44260037984b090b089d754cd9206f1",
+      "checked_at": "2026-10-21T16:48:11.046673+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 54
     }
   },
-  "updated_at": "2026-10-21T16:48:09.235958+00:00"
+  "updated_at": "2026-10-21T16:48:11.046681+00:00"
 }
