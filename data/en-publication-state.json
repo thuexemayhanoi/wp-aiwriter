@@ -3822,10 +3822,11 @@
       "title": "Hanoi to Hung Yen by Motorbike: What to Plan",
       "slug": "hanoi-to-hung-yen-by-motorbike-what-to-plan",
       "source_hash": "516b1a6d57d7616848788c7c64194d5cae1f57f620aa1b647df32743c502f9ea",
-      "checked_at": "2026-10-21T16:41:28.244955+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 54
+      "checked_at": "2026-10-21T16:41:31.199011+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 54,
+      "wp_id": 2546
     }
   },
-  "updated_at": "2026-10-21T16:41:28.244964+00:00"
+  "updated_at": "2026-10-21T16:41:31.199030+00:00"
 }
