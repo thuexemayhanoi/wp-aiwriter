@@ -2051,10 +2051,11 @@
       "title": "Tyre Checks on Lightweight 50cc Scooters",
       "slug": "tyre-checks-on-lightweight-50cc-scooters",
       "source_hash": "ad2b705d41c46497be3f022318c66dc07b15ab5fe0688a4735d889ef3ea506ce",
-      "checked_at": "2026-10-21T15:55:24.097117+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 51
+      "checked_at": "2026-10-21T15:55:26.749628+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 51,
+      "wp_id": 2224
     }
   },
-  "updated_at": "2026-10-21T15:55:24.097142+00:00"
+  "updated_at": "2026-10-21T15:55:26.749647+00:00"
 }
