@@ -665,10 +665,11 @@
       "title": "How Much Luggage Can You Safely Carry on a Honda Wave?",
       "slug": "how-much-luggage-can-you-safely-carry-on-a-honda-wave",
       "source_hash": "4fd6bc52c4045e295796136bc58034b375fada6d2fcb832ed538644aa6a9edc3",
-      "checked_at": "2026-10-21T14:31:09.936235+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 49
+      "checked_at": "2026-10-21T14:31:12.552737+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 49,
+      "wp_id": 1972
     }
   },
-  "updated_at": "2026-10-21T14:31:09.936245+00:00"
+  "updated_at": "2026-10-21T14:31:12.552755+00:00"
 }
