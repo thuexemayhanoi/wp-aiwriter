@@ -3443,7 +3443,15 @@
       "wp_id": 2476,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/bat-trang-pottery-village-parking-and-local-streets/"
+    },
+    "313": {
+      "title": "Co Loa Citadel from Long Bien: A Short Cultural Ride",
+      "slug": "co-loa-citadel-from-long-bien-a-short-cultural-ride",
+      "source_hash": "63734595fbbf1e6a7caf1bfc4890e8323c4cf93d273d282bfceaf161df5f65ae",
+      "checked_at": "2026-10-21T16:30:46.366369+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 53
     }
   },
-  "updated_at": "2026-10-21T16:30:44.450155+00:00"
+  "updated_at": "2026-10-21T16:30:46.366380+00:00"
 }
