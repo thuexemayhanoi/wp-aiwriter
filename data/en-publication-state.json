@@ -2997,10 +2997,11 @@
       "title": "Electric Bike versus 50cc Scooter for Visitors without a Licence",
       "slug": "electric-bike-versus-50cc-scooter-for-visitors-without-a-licence",
       "source_hash": "df9e9427b3ef60a74df9743ed70a95dc42c2a9a6fc2132367e5ef2222bc2c780",
-      "checked_at": "2026-10-21T16:19:12.771640+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 52
+      "checked_at": "2026-10-21T16:19:15.542906+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 52,
+      "wp_id": 2396
     }
   },
-  "updated_at": "2026-10-21T16:19:12.771649+00:00"
+  "updated_at": "2026-10-21T16:19:15.542926+00:00"
 }
