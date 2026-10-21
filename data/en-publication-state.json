@@ -456,11 +456,13 @@
       "title": "Travel Insurance and Motorbike Rentals: What Usually Isn't Covered",
       "slug": "travel-insurance-motorbike-rental-vietnam",
       "source_hash": "3d7ab7500f47bc604a2301e5d7dcf631f2c4b8c111d78f0f79437af606be57b9",
-      "checked_at": "2026-10-21T04:19:00.936550+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T04:19:05.700016+00:00",
+      "phase": "VERIFIED",
       "category_id": 55,
-      "wp_id": 1934
+      "wp_id": 1934,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/travel-insurance-motorbike-rental-vietnam/"
     }
   },
-  "updated_at": "2026-10-21T04:19:00.936567+00:00"
+  "updated_at": "2026-10-21T04:19:05.700031+00:00"
 }
