@@ -2612,11 +2612,13 @@
       "title": "Electric Scooter Rental for a Week: Charging Logistics",
       "slug": "electric-scooter-rental-for-a-week-charging-logistics",
       "source_hash": "58b297d620e21cb5fe7fd02d6c459813fcdfe24abda861fa8396e20f626cb06a",
-      "checked_at": "2026-10-21T16:10:12.822705+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:10:18.665120+00:00",
+      "phase": "VERIFIED",
       "category_id": 52,
-      "wp_id": 2326
+      "wp_id": 2326,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/electric-scooter-rental-for-a-week-charging-logistics/"
     }
   },
-  "updated_at": "2026-10-21T16:10:12.822724+00:00"
+  "updated_at": "2026-10-21T16:10:18.665140+00:00"
 }
