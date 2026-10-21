@@ -2904,7 +2904,15 @@
       "wp_id": 2378,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-use-regenerative-braking-on-a-rental-ev/"
+    },
+    "261": {
+      "title": "Checking a Rental Electric Scooter's Display Warnings",
+      "slug": "checking-a-rental-electric-scooters-display-warnings",
+      "source_hash": "170bbcf6b8c2a790fad373bfddfde6b1c05b5826a28a4e420c14401a1e9cb06d",
+      "checked_at": "2026-10-21T16:16:56.871218+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 52
     }
   },
-  "updated_at": "2026-10-21T16:16:55.118035+00:00"
+  "updated_at": "2026-10-21T16:16:56.871227+00:00"
 }
