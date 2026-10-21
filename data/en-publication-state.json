@@ -3338,11 +3338,13 @@
       "title": "Dong Xuan Market by Motorbike: Timing and Parking",
       "slug": "dong-xuan-market-by-motorbike-timing-and-parking",
       "source_hash": "0e23fa35312c0c64b66e11c2bffea4affcf49289a607f030f06f6cae458ee36b",
-      "checked_at": "2026-10-21T16:28:20.478967+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:28:25.435724+00:00",
+      "phase": "VERIFIED",
       "category_id": 53,
-      "wp_id": 2458
+      "wp_id": 2458,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/dong-xuan-market-by-motorbike-timing-and-parking/"
     }
   },
-  "updated_at": "2026-10-21T16:28:20.478988+00:00"
+  "updated_at": "2026-10-21T16:28:25.435744+00:00"
 }
