@@ -2414,10 +2414,11 @@
       "title": "What a 50cc Rental Deposit Usually Covers",
       "slug": "what-a-50cc-rental-deposit-usually-covers",
       "source_hash": "34021153f7a5edf5bc1589de2f470ebf7569c03d04bdf9964cdfcdf5e27383d7",
-      "checked_at": "2026-10-21T16:04:45.553873+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 51
+      "checked_at": "2026-10-21T16:04:48.344826+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 51,
+      "wp_id": 2290
     }
   },
-  "updated_at": "2026-10-21T16:04:45.553882+00:00"
+  "updated_at": "2026-10-21T16:04:48.344845+00:00"
 }
