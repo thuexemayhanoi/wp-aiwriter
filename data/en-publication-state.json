@@ -2398,7 +2398,15 @@
       "wp_id": 2286,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-estimate-travel-time-conservatively-on-a-50cc-moped/"
+    },
+    "215": {
+      "title": "Returning a Cub 50cc: Condition and Fuel Checklist",
+      "slug": "returning-a-cub-50cc-condition-and-fuel-checklist",
+      "source_hash": "66adfdabb134908ee3ced7eef380eedef25732348bf64ea9941080f981ee4ca1",
+      "checked_at": "2026-10-21T16:04:29.493176+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 51
     }
   },
-  "updated_at": "2026-10-21T16:04:27.606693+00:00"
+  "updated_at": "2026-10-21T16:04:29.493185+00:00"
 }
