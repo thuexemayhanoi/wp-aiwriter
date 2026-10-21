@@ -1897,11 +1897,11 @@
       "title": "How to Confirm a Rental Bike Is Legally in the Moped Class",
       "slug": "how-to-confirm-a-rental-bike-is-legally-in-the-moped-class",
       "source_hash": "c81d28446a39788549a8834e25f2c5acbc1ea26bc2fc94c3ffbee154753552d7",
-      "checked_at": "2026-10-21T15:51:39.731000+00:00",
-      "phase": "REGISTERED",
+      "checked_at": "2026-10-21T15:51:42.300251+00:00",
+      "phase": "VERIFY_PENDING",
       "category_id": 51,
       "wp_id": 2196
     }
   },
-  "updated_at": "2026-10-21T15:51:39.731017+00:00"
+  "updated_at": "2026-10-21T15:51:42.300270+00:00"
 }
