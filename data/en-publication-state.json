@@ -2315,10 +2315,11 @@
       "title": "50cc Rental for a Short Visit to Long Bien",
       "slug": "50cc-rental-for-a-short-visit-to-long-bien",
       "source_hash": "c1fde8679bbc6f772ab425a5bc3242897734e07493f62d6397c659203d7acdbb",
-      "checked_at": "2026-10-21T16:02:23.961779+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 51
+      "checked_at": "2026-10-21T16:02:26.514364+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 51,
+      "wp_id": 2272
     }
   },
-  "updated_at": "2026-10-21T16:02:23.961788+00:00"
+  "updated_at": "2026-10-21T16:02:26.514383+00:00"
 }
