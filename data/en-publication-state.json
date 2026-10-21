@@ -4097,11 +4097,13 @@
       "title": "What to Check before Crossing Major Hanoi Bridges",
       "slug": "what-to-check-before-crossing-major-hanoi-bridges",
       "source_hash": "ad811f5697781ba526272822222ec74176c309fa84aa81005720b25ba378bfb4",
-      "checked_at": "2026-10-21T16:48:39.879156+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:48:44.737124+00:00",
+      "phase": "VERIFIED",
       "category_id": 54,
-      "wp_id": 2597
+      "wp_id": 2597,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/what-to-check-before-crossing-major-hanoi-bridges/"
     }
   },
-  "updated_at": "2026-10-21T16:48:39.879176+00:00"
+  "updated_at": "2026-10-21T16:48:44.737142+00:00"
 }
