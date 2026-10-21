@@ -3767,11 +3767,13 @@
       "title": "A Bat Trang Pottery Day Trip on a Rental Scooter",
       "slug": "a-bat-trang-pottery-day-trip-on-a-rental-scooter",
       "source_hash": "9dc4a2568931d8f7de583fa1db66459ee02941504acbcbdd3d63d70ca36cbb00",
-      "checked_at": "2026-10-21T16:40:18.941468+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:40:23.682504+00:00",
+      "phase": "VERIFIED",
       "category_id": 54,
-      "wp_id": 2536
+      "wp_id": 2536,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/a-bat-trang-pottery-day-trip-on-a-rental-scooter/"
     }
   },
-  "updated_at": "2026-10-21T16:40:18.941483+00:00"
+  "updated_at": "2026-10-21T16:40:23.682517+00:00"
 }
