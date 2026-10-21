@@ -4136,7 +4136,15 @@
       "wp_id": 2603,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-plan-a-scooter-route-with-limited-daylight/"
+    },
+    "377": {
+      "title": "Motorbike Day Trips during Hanoi's Hot Season",
+      "slug": "motorbike-day-trips-during-hanois-hot-season",
+      "source_hash": "016772232d6e7103fe363c5d598a81b207033fc93e21e684c634ea9f83ae1cea",
+      "checked_at": "2026-10-21T16:49:38.163018+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 54
     }
   },
-  "updated_at": "2026-10-21T16:49:35.986594+00:00"
+  "updated_at": "2026-10-21T16:49:38.163026+00:00"
 }
