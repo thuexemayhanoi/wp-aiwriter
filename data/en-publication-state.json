@@ -671,7 +671,15 @@
       "wp_id": 1972,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-much-luggage-can-you-safely-carry-on-a-honda-wave/"
+    },
+    "57": {
+      "title": "Riding a Manual Motorbike with a Passenger in Hanoi",
+      "slug": "riding-a-manual-motorbike-with-a-passenger-in-hanoi",
+      "source_hash": "62afa3d4ba3eaa6d134e6a0d2fe62efc711d59018d0a7049de90beb4a0cacff3",
+      "checked_at": "2026-10-21T14:31:26.067073+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 49
     }
   },
-  "updated_at": "2026-10-21T14:31:24.190407+00:00"
+  "updated_at": "2026-10-21T14:31:26.067083+00:00"
 }
