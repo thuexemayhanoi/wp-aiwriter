@@ -3366,7 +3366,15 @@
       "wp_id": 2462,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-reach-the-water-puppet-theatre-with-a-rental-bike/"
+    },
+    "306": {
+      "title": "West Lake Pagodas by Scooter: Respectful Parking and Visits",
+      "slug": "west-lake-pagodas-by-scooter-respectful-parking-and-visits",
+      "source_hash": "347d913099c5db66d3f16d48d7e552579e235d0761ffc666d073a8c696d92afa",
+      "checked_at": "2026-10-21T16:28:56.595984+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 53
     }
   },
-  "updated_at": "2026-10-21T16:28:54.685372+00:00"
+  "updated_at": "2026-10-21T16:28:56.595992+00:00"
 }
