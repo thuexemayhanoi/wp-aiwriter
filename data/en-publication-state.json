@@ -1710,10 +1710,11 @@
       "title": "Honda Lead for Daily Errands: Practical Rental Checklist",
       "slug": "honda-lead-for-daily-errands-practical-rental-checklist",
       "source_hash": "45571ada56a5bfd2ab1819c828f72e9c428841fca9f4ee22d6043d3499fdef3b",
-      "checked_at": "2026-10-21T15:47:31.576671+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 50
+      "checked_at": "2026-10-21T15:47:34.104823+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 50,
+      "wp_id": 2162
     }
   },
-  "updated_at": "2026-10-21T15:47:31.576681+00:00"
+  "updated_at": "2026-10-21T15:47:34.104841+00:00"
 }
