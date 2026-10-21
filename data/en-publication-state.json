@@ -2981,7 +2981,15 @@
       "wp_id": 2392,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/electric-scooter-storage-during-an-extended-rental/"
+    },
+    "268": {
+      "title": "Electric Bicycle Rental for Travellers Who Do Not Ride Motorbikes",
+      "slug": "electric-bicycle-rental-for-travellers-who-do-not-ride-motorbikes",
+      "source_hash": "ba90670b91ab49ac0d4e8c68e54e81107d0dc5099d80e3169b80117f0d39f28f",
+      "checked_at": "2026-10-21T16:18:55.539305+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 52
     }
   },
-  "updated_at": "2026-10-21T16:18:52.566952+00:00"
+  "updated_at": "2026-10-21T16:18:55.539313+00:00"
 }
