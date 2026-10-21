@@ -566,10 +566,11 @@
       "title": "Manual Motorbike Rental for Solo Travellers with a Backpack",
       "slug": "manual-motorbike-rental-for-solo-travellers-with-a-backpack",
       "source_hash": "6ebbccd084d4b80694039493386ffce1859d21a75191a9f851a0af34e830fa26",
-      "checked_at": "2026-10-21T12:11:54.374886+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 49
+      "checked_at": "2026-10-21T12:11:56.565207+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 49,
+      "wp_id": 1954
     }
   },
-  "updated_at": "2026-10-21T12:11:54.374895+00:00"
+  "updated_at": "2026-10-21T12:11:56.565224+00:00"
 }
