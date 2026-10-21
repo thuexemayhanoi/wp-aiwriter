@@ -2700,10 +2700,11 @@
       "title": "Electric Bicycle Pedal Assist versus Throttle Control",
       "slug": "electric-bicycle-pedal-assist-versus-throttle-control",
       "source_hash": "e78983b07b9dd600a15c9c782b4aeaa05811d32bb53fb9ba892e5f85ce33789e",
-      "checked_at": "2026-10-21T16:12:16.401284+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 52
+      "checked_at": "2026-10-21T16:12:18.906422+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 52,
+      "wp_id": 2342
     }
   },
-  "updated_at": "2026-10-21T16:12:16.401292+00:00"
+  "updated_at": "2026-10-21T16:12:18.906442+00:00"
 }
