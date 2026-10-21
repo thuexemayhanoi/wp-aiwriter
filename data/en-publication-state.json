@@ -2986,11 +2986,13 @@
       "title": "Electric Bicycle Rental for Travellers Who Do Not Ride Motorbikes",
       "slug": "electric-bicycle-rental-for-travellers-who-do-not-ride-motorbikes",
       "source_hash": "ba90670b91ab49ac0d4e8c68e54e81107d0dc5099d80e3169b80117f0d39f28f",
-      "checked_at": "2026-10-21T16:19:05.243743+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:19:10.931758+00:00",
+      "phase": "VERIFIED",
       "category_id": 52,
-      "wp_id": 2394
+      "wp_id": 2394,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/electric-bicycle-rental-for-travellers-who-do-not-ride-motorbikes/"
     }
   },
-  "updated_at": "2026-10-21T16:19:05.243766+00:00"
+  "updated_at": "2026-10-21T16:19:10.931777+00:00"
 }
