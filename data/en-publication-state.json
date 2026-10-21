@@ -3899,11 +3899,13 @@
       "title": "Hanoi to Con Son and Kiep Bac on a Motorcycle",
       "slug": "hanoi-to-con-son-and-kiep-bac-on-a-motorcycle",
       "source_hash": "312db0b4dd73ea32d2adea711a53f5388b0387c9ac41c3ff712a4aa7e5f1b58b",
-      "checked_at": "2026-10-21T16:43:32.926275+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:43:38.229340+00:00",
+      "phase": "VERIFIED",
       "category_id": 54,
-      "wp_id": 2560
+      "wp_id": 2560,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/hanoi-to-con-son-and-kiep-bac-on-a-motorcycle/"
     }
   },
-  "updated_at": "2026-10-21T16:43:32.926295+00:00"
+  "updated_at": "2026-10-21T16:43:38.229354+00:00"
 }
