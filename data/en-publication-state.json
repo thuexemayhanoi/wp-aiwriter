@@ -3993,7 +3993,15 @@
       "wp_id": 2577,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/hanoi-to-phat-diem-cathedral-by-scooter-a-longer-day-plan/"
+    },
+    "363": {
+      "title": "Hanoi to Bich Dong Pagoda by Motorbike",
+      "slug": "hanoi-to-bich-dong-pagoda-by-motorbike",
+      "source_hash": "f0ac8fd0e98173936c0139e7346bbe5196f5d1ab6b740b410eb2fe4b0f8bffd0",
+      "checked_at": "2026-10-21T16:45:58.233809+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 54
     }
   },
-  "updated_at": "2026-10-21T16:45:56.522046+00:00"
+  "updated_at": "2026-10-21T16:45:58.233817+00:00"
 }
