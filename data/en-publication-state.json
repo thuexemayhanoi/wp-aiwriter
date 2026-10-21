@@ -2189,7 +2189,15 @@
       "wp_id": 2248,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/moped-helmets-fit-matters-at-lower-speeds-too/"
+    },
+    "196": {
+      "title": "Riding a 50cc Bike in Rain and Poor Visibility",
+      "slug": "riding-a-50cc-bike-in-rain-and-poor-visibility",
+      "source_hash": "63bd87aeeb5abbd5f81a01615147d5a9af90d682119f7dc979fe7b136ab7692d",
+      "checked_at": "2026-10-21T15:58:34.075814+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 51
     }
   },
-  "updated_at": "2026-10-21T15:58:32.394220+00:00"
+  "updated_at": "2026-10-21T15:58:34.075824+00:00"
 }
