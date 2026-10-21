@@ -1232,7 +1232,15 @@
       "wp_id": 2074,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/choosing-a-scooter-for-a-passenger-and-two-backpacks/"
+    },
+    "114": {
+      "title": "Automatic Scooter Rental for a First-Time Visitor to Hanoi",
+      "slug": "automatic-scooter-rental-for-a-first-time-visitor-to-hanoi",
+      "source_hash": "0e0347f296503feae150fc8d1a63a3abd7cc050531451a2e8610a5e402125a58",
+      "checked_at": "2026-10-21T15:35:19.048102+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 50
     }
   },
-  "updated_at": "2026-10-21T15:35:16.794216+00:00"
+  "updated_at": "2026-10-21T15:35:19.048110+00:00"
 }
