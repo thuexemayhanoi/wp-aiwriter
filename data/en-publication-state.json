@@ -2552,7 +2552,15 @@
       "wp_id": 2314,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/what-affects-battery-range-in-hanoi-stop-and-go-traffic/"
+    },
+    "229": {
+      "title": "Electric Scooter Charging Options for Hotel Guests",
+      "slug": "electric-scooter-charging-options-for-hotel-guests",
+      "source_hash": "8a496f762a90e35f2b2a21982e4d9f78078fc16b5f58154378530d6c3362eb40",
+      "checked_at": "2026-10-21T16:08:38.690813+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 52
     }
   },
-  "updated_at": "2026-10-21T16:08:36.234133+00:00"
+  "updated_at": "2026-10-21T16:08:38.690821+00:00"
 }
