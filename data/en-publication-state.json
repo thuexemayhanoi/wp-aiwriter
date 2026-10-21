@@ -3107,10 +3107,11 @@
       "title": "Choosing between Electric and Petrol Vehicles in Hot Weather",
       "slug": "choosing-between-electric-and-petrol-vehicles-in-hot-weather",
       "source_hash": "57de27a0e7f9f7c0bb5a5adbe4b59d927bee62e432cd7fd257dbbff84a66c9c1",
-      "checked_at": "2026-10-21T16:22:14.967866+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 52
+      "checked_at": "2026-10-21T16:22:19.403595+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 52,
+      "wp_id": 2416
     }
   },
-  "updated_at": "2026-10-21T16:22:14.967877+00:00"
+  "updated_at": "2026-10-21T16:22:19.403615+00:00"
 }
