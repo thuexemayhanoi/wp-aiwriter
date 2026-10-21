@@ -3305,11 +3305,13 @@
       "title": "How to Ride to the Imperial Citadel of Thang Long",
       "slug": "how-to-ride-to-the-imperial-citadel-of-thang-long",
       "source_hash": "f012d108278ba36f73f2fe0c2125d078439aaa2d875b17473b29601ee2e4ec17",
-      "checked_at": "2026-10-21T16:27:29.909700+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:27:34.560974+00:00",
+      "phase": "VERIFIED",
       "category_id": 53,
-      "wp_id": 2452
+      "wp_id": 2452,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-ride-to-the-imperial-citadel-of-thang-long/"
     }
   },
-  "updated_at": "2026-10-21T16:27:29.909717+00:00"
+  "updated_at": "2026-10-21T16:27:34.560994+00:00"
 }
