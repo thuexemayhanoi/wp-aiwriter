@@ -610,10 +610,11 @@
       "title": "Honda Winner X and Yamaha Exciter: Manual Bikes for Riders Who Want Gears",
       "slug": "honda-winner-x-yamaha-exciter-manual-rental",
       "source_hash": "4c32cec7518595838d573847fabdc0613b7356ef907671930fb8738413381c38",
-      "checked_at": "2026-10-21T14:16:43.299326+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 65
+      "checked_at": "2026-10-21T14:16:45.755799+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 65,
+      "wp_id": 1962
     }
   },
-  "updated_at": "2026-10-21T14:16:43.299335+00:00"
+  "updated_at": "2026-10-21T14:16:45.755816+00:00"
 }
