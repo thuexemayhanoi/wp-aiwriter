@@ -1490,10 +1490,11 @@
       "title": "Scooter Comfort on Paved Roads versus Rough Lanes",
       "slug": "scooter-comfort-on-paved-roads-versus-rough-lanes",
       "source_hash": "5088e850ff9539d6c4c1b65e0124ee0f863ced340bd10a4b9e5fb244352d1021",
-      "checked_at": "2026-10-21T15:41:44.462035+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 50
+      "checked_at": "2026-10-21T15:41:46.721206+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 50,
+      "wp_id": 2122
     }
   },
-  "updated_at": "2026-10-21T15:41:44.462043+00:00"
+  "updated_at": "2026-10-21T15:41:46.721223+00:00"
 }
