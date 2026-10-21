@@ -1787,11 +1787,13 @@
       "title": "What to Check if a Scooter Brake Squeals",
       "slug": "what-to-check-if-a-scooter-brake-squeals",
       "source_hash": "c8f98f8c5440ae6ce3c596dd3f8a3503e751fc95a783862648e8b6edde64e9d9",
-      "checked_at": "2026-10-21T15:49:16.796095+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:49:21.344703+00:00",
+      "phase": "VERIFIED",
       "category_id": 50,
-      "wp_id": 2176
+      "wp_id": 2176,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/what-to-check-if-a-scooter-brake-squeals/"
     }
   },
-  "updated_at": "2026-10-21T15:49:16.796114+00:00"
+  "updated_at": "2026-10-21T15:49:21.344722+00:00"
 }
