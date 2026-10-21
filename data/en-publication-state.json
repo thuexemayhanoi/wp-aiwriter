@@ -1892,7 +1892,15 @@
       "wp_id": 2194,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/what-does-under-50cc-mean-on-a-vehicle-registration/"
+    },
+    "169": {
+      "title": "How to Confirm a Rental Bike Is Legally in the Moped Class",
+      "slug": "how-to-confirm-a-rental-bike-is-legally-in-the-moped-class",
+      "source_hash": "c81d28446a39788549a8834e25f2c5acbc1ea26bc2fc94c3ffbee154753552d7",
+      "checked_at": "2026-10-21T15:51:34.061864+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 51
     }
   },
-  "updated_at": "2026-10-21T15:51:30.971727+00:00"
+  "updated_at": "2026-10-21T15:51:34.061874+00:00"
 }
