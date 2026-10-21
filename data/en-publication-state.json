@@ -1474,7 +1474,15 @@
       "wp_id": 2118,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/comparing-scooters-for-a-daily-commute-across-the-red-river/"
+    },
+    "136": {
+      "title": "Choosing an Automatic Scooter for Weekly Use in Hanoi",
+      "slug": "choosing-an-automatic-scooter-for-weekly-use-in-hanoi",
+      "source_hash": "2f5cf5b6dbaa0830714aadb83f186fcf50707c3c69e70d2983294383e76ea0fe",
+      "checked_at": "2026-10-21T15:41:29.500461+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 50
     }
   },
-  "updated_at": "2026-10-21T15:41:27.562586+00:00"
+  "updated_at": "2026-10-21T15:41:29.500471+00:00"
 }
