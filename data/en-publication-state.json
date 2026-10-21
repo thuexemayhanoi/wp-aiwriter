@@ -2227,11 +2227,13 @@
       "title": "When a 50cc Bike Is Too Slow for a Planned Route",
       "slug": "when-a-50cc-bike-is-too-slow-for-a-planned-route",
       "source_hash": "c112b1807773d1406b026a25a6773b622be3b9e5a65cdec936049590ef5e3cfd",
-      "checked_at": "2026-10-21T15:59:27.168822+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:59:31.583564+00:00",
+      "phase": "VERIFIED",
       "category_id": 51,
-      "wp_id": 2256
+      "wp_id": 2256,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/when-a-50cc-bike-is-too-slow-for-a-planned-route/"
     }
   },
-  "updated_at": "2026-10-21T15:59:27.168841+00:00"
+  "updated_at": "2026-10-21T15:59:31.583583+00:00"
 }
