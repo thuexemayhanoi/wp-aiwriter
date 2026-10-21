@@ -2563,7 +2563,15 @@
       "wp_id": 2316,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/electric-scooter-charging-options-for-hotel-guests/"
+    },
+    "230": {
+      "title": "How to Ask a Hotel about Safe Electric Bike Charging",
+      "slug": "how-to-ask-a-hotel-about-safe-electric-bike-charging",
+      "source_hash": "887564dc30afba60d88b5612546ffb2c6b5812c2ba8a8879e49af0378594a7c5",
+      "checked_at": "2026-10-21T16:08:53.856768+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 52
     }
   },
-  "updated_at": "2026-10-21T16:08:51.806471+00:00"
+  "updated_at": "2026-10-21T16:08:53.856777+00:00"
 }
