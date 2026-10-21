@@ -2304,10 +2304,11 @@
       "title": "How to Secure a 50cc Motorbike Overnight",
       "slug": "how-to-secure-a-50cc-motorbike-overnight",
       "source_hash": "ec996a95b431d0ea085ed885034ff5e48f2b6953d373c70ce0699f28978cde32",
-      "checked_at": "2026-10-21T16:02:08.828924+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 51
+      "checked_at": "2026-10-21T16:02:11.275227+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 51,
+      "wp_id": 2270
     }
   },
-  "updated_at": "2026-10-21T16:02:08.828933+00:00"
+  "updated_at": "2026-10-21T16:02:11.275247+00:00"
 }
