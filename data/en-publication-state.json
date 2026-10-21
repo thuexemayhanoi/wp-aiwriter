@@ -1182,11 +1182,13 @@
       "title": "Honda Lead Storage for Helmets and Shopping Bags",
       "slug": "honda-lead-storage-for-helmets-and-shopping-bags",
       "source_hash": "f5fce765bd012bc05a3070781a10ebe1d1283f8e03b47acc0175f93179e640a0",
-      "checked_at": "2026-10-21T15:34:07.998071+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:34:12.773942+00:00",
+      "phase": "VERIFIED",
       "category_id": 50,
-      "wp_id": 2066
+      "wp_id": 2066,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/honda-lead-storage-for-helmets-and-shopping-bags/"
     }
   },
-  "updated_at": "2026-10-21T15:34:07.998088+00:00"
+  "updated_at": "2026-10-21T15:34:12.773958+00:00"
 }
