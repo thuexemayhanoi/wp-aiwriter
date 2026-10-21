@@ -4433,7 +4433,15 @@
       "wp_id": 2657,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/what-to-ask-about-damage-liability-before-renting/"
+    },
+    "404": {
+      "title": "How to Check the Rental Shop's Opening Hours and Pickup Location",
+      "slug": "how-to-check-the-rental-shops-opening-hours-and-pickup-location",
+      "source_hash": "bc4a2258b06fc4e83714c5d7f088442ebd73fc127b2e6cdd5794a6e6bcd5d953",
+      "checked_at": "2026-10-21T16:56:43.982921+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 55
     }
   },
-  "updated_at": "2026-10-21T16:56:42.295325+00:00"
+  "updated_at": "2026-10-21T16:56:43.982930+00:00"
 }
