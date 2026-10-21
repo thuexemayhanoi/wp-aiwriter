@@ -1122,7 +1122,15 @@
       "wp_id": 2054,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/questions-to-ask-about-a-high-mileage-manual-rental-bike/"
+    },
+    "99": {
+      "title": "How to Notice a Worn Chain and Sprocket Set",
+      "slug": "how-to-notice-a-worn-chain-and-sprocket-set",
+      "source_hash": "5e8de27f1e4da36e6a77163174753a049ee3e66bc709be9bd85e4574e520496d",
+      "checked_at": "2026-10-21T15:10:48.376378+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 49
     }
   },
-  "updated_at": "2026-10-21T15:10:46.090321+00:00"
+  "updated_at": "2026-10-21T15:10:48.376386+00:00"
 }
