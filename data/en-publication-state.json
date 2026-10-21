@@ -3877,11 +3877,13 @@
       "title": "Hanoi to Xuan Mai: A Short Out-of-City Ride",
       "slug": "hanoi-to-xuan-mai-a-short-out-of-city-ride",
       "source_hash": "b761443944f23e24264292eff99989f4eac731945a449322b25f744b13645db7",
-      "checked_at": "2026-10-21T16:43:01.498786+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:43:06.467986+00:00",
+      "phase": "VERIFIED",
       "category_id": 54,
-      "wp_id": 2556
+      "wp_id": 2556,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/hanoi-to-xuan-mai-a-short-out-of-city-ride/"
     }
   },
-  "updated_at": "2026-10-21T16:43:01.498805+00:00"
+  "updated_at": "2026-10-21T16:43:06.468007+00:00"
 }
