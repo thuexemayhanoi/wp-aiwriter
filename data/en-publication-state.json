@@ -2948,7 +2948,15 @@
       "wp_id": 2386,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/can-you-charge-a-rental-ev-from-an-ordinary-socket/"
+    },
+    "265": {
+      "title": "Who Pays for Electricity on a Long-Term Electric Rental?",
+      "slug": "who-pays-for-electricity-on-a-long-term-electric-rental",
+      "source_hash": "8343f8f2a5dc7401b04cbbc94eb818e7de71d92d82387b9dbebc9b5f2a8a8773",
+      "checked_at": "2026-10-21T16:18:04.898416+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 52
     }
   },
-  "updated_at": "2026-10-21T16:18:00.781828+00:00"
+  "updated_at": "2026-10-21T16:18:04.898424+00:00"
 }
