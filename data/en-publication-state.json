@@ -1573,7 +1573,15 @@
       "wp_id": 2136,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-secure-a-backpack-on-an-automatic-scooter/"
+    },
+    "100": {
+      "title": "Checking a Manual Bike's Lights Before Riding at Night",
+      "slug": "checking-a-manual-bikes-lights-before-riding-at-night",
+      "source_hash": "4018de51adcb0e22d07193fe8540e835f7a0763d36df59e91908317645b79b68",
+      "checked_at": "2026-10-21T15:44:47.138141+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 49
     }
   },
-  "updated_at": "2026-10-21T15:43:40.337382+00:00"
+  "updated_at": "2026-10-21T15:44:47.138153+00:00"
 }
