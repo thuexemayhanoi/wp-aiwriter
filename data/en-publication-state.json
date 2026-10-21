@@ -3113,7 +3113,15 @@
       "wp_id": 2416,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/choosing-between-electric-and-petrol-vehicles-in-hot-weather/"
+    },
+    "280": {
+      "title": "Electric Bike Luggage Limits and Safe Storage",
+      "slug": "electric-bike-luggage-limits-and-safe-storage",
+      "source_hash": "81383252c767b24b3ece01eccbb0b0fc6ce845fc0aa903b4465d9c073a722dd5",
+      "checked_at": "2026-10-21T16:22:33.292074+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 52
     }
   },
-  "updated_at": "2026-10-21T16:22:30.955221+00:00"
+  "updated_at": "2026-10-21T16:22:33.292081+00:00"
 }
