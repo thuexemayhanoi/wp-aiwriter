@@ -2238,11 +2238,13 @@
       "title": "What to Do If a 50cc Rental Breaks Down",
       "slug": "what-to-do-if-a-50cc-rental-breaks-down",
       "source_hash": "3e8912cbe383f2714c4f3419686b283dca330ef64757706ebd6048ecd3065182",
-      "checked_at": "2026-10-21T16:00:47.332907+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:00:51.845258+00:00",
+      "phase": "VERIFIED",
       "category_id": 51,
-      "wp_id": 2258
+      "wp_id": 2258,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/what-to-do-if-a-50cc-rental-breaks-down/"
     }
   },
-  "updated_at": "2026-10-21T16:00:47.332927+00:00"
+  "updated_at": "2026-10-21T16:00:51.845278+00:00"
 }
