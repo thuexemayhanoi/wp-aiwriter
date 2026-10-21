@@ -2623,11 +2623,13 @@
       "title": "Electric Bike Monthly Rental: Questions before Signing",
       "slug": "electric-bike-monthly-rental-questions-before-signing",
       "source_hash": "b27160439c35e87e0d1eba27f353fb61f3998be1ed0a0e4f1ff7475718f29b43",
-      "checked_at": "2026-10-21T16:10:34.106580+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:10:39.265077+00:00",
+      "phase": "VERIFIED",
       "category_id": 69,
-      "wp_id": 2328
+      "wp_id": 2328,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/electric-bike-monthly-rental-questions-before-signing/"
     }
   },
-  "updated_at": "2026-10-21T16:10:34.106600+00:00"
+  "updated_at": "2026-10-21T16:10:39.265094+00:00"
 }
