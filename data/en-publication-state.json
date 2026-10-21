@@ -3074,11 +3074,13 @@
       "title": "How to Avoid Leaving a Rental EV Plugged in Unsafely",
       "slug": "how-to-avoid-leaving-a-rental-ev-plugged-in-unsafely",
       "source_hash": "cf20524bf0b8411766915a0788ff9b25b87d7ce151c69bd3a7a6e3e41b5067f1",
-      "checked_at": "2026-10-21T16:21:32.015233+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:21:37.806930+00:00",
+      "phase": "VERIFIED",
       "category_id": 52,
-      "wp_id": 2410
+      "wp_id": 2410,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-avoid-leaving-a-rental-ev-plugged-in-unsafely/"
     }
   },
-  "updated_at": "2026-10-21T16:21:32.015259+00:00"
+  "updated_at": "2026-10-21T16:21:37.806950+00:00"
 }
