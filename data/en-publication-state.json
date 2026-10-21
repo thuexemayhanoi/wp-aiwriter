@@ -957,7 +957,15 @@
       "wp_id": 2024,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/riding-a-semi-automatic-bike-in-sandals-practical-safety-risks/"
+    },
+    "84": {
+      "title": "Motorbike Footwear for Hanoi: Comfort versus Protection",
+      "slug": "motorbike-footwear-for-hanoi-comfort-versus-protection",
+      "source_hash": "bcecd6e819eac4d339e815845756885421b01223c1bb8b4f6150f1cae09292a1",
+      "checked_at": "2026-10-21T14:49:09.880295+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 49
     }
   },
-  "updated_at": "2026-10-21T14:49:08.017463+00:00"
+  "updated_at": "2026-10-21T14:49:09.880304+00:00"
 }
