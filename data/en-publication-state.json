@@ -522,10 +522,11 @@
       "title": "Hanoi Street Food by Scooter: A Loop That Avoids the Worst Traffic",
       "slug": "hanoi-street-food-loop-by-scooter",
       "source_hash": "e0d643d47e5549f34e7914b30ae3a3b47e5520c75caf63a242c86014a9852f36",
-      "checked_at": "2026-10-21T10:18:00.713985+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 53
+      "checked_at": "2026-10-21T10:18:03.155526+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 53,
+      "wp_id": 1946
     }
   },
-  "updated_at": "2026-10-21T10:18:00.713996+00:00"
+  "updated_at": "2026-10-21T10:18:03.155545+00:00"
 }
