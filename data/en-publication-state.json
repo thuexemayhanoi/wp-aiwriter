@@ -2843,10 +2843,11 @@
       "title": "Do You Need a Licence for Your Specific Electric Vehicle?",
       "slug": "do-you-need-a-licence-for-your-specific-electric-vehicle",
       "source_hash": "dac69e5b0dfab1dcfb2cfa589b05997a897e55897a0414e8408ba0836029540d",
-      "checked_at": "2026-10-21T16:15:28.742101+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 52
+      "checked_at": "2026-10-21T16:15:31.296107+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 52,
+      "wp_id": 2368
     }
   },
-  "updated_at": "2026-10-21T16:15:28.742109+00:00"
+  "updated_at": "2026-10-21T16:15:31.296127+00:00"
 }
