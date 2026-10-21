@@ -973,11 +973,13 @@
       "title": "When to Refuel a Manual Motorbike During a Day Trip",
       "slug": "when-to-refuel-a-manual-motorbike-during-a-day-trip",
       "source_hash": "bb0179b267b3a62ffc5e35dd05637d9d295c7681d7e48697e8792c4dfadfccb8",
-      "checked_at": "2026-10-21T14:51:51.606012+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T14:51:56.030161+00:00",
+      "phase": "VERIFIED",
       "category_id": 49,
-      "wp_id": 2028
+      "wp_id": 2028,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/when-to-refuel-a-manual-motorbike-during-a-day-trip/"
     }
   },
-  "updated_at": "2026-10-21T14:51:51.606030+00:00"
+  "updated_at": "2026-10-21T14:51:56.030178+00:00"
 }
