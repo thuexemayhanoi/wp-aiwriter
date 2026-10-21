@@ -2464,7 +2464,15 @@
       "wp_id": 2298,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/the-difference-between-a-moped-and-an-electric-bicycle/"
+    },
+    "221": {
+      "title": "When to Choose Walking or Public Transport over a 50cc Rental",
+      "slug": "when-to-choose-walking-or-public-transport-over-a-50cc-rental",
+      "source_hash": "c232eb464cca76386dcdb4a89175872a843f645b3a288c8bd33bca7da93f8290",
+      "checked_at": "2026-10-21T16:06:09.805437+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 51
     }
   },
-  "updated_at": "2026-10-21T16:06:07.852670+00:00"
+  "updated_at": "2026-10-21T16:06:09.805445+00:00"
 }
