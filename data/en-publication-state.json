@@ -3509,7 +3509,15 @@
       "wp_id": 2488,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/vietnam-national-museum-of-history-by-rental-scooter/"
+    },
+    "319": {
+      "title": "Visiting the Ho Chi Minh Mausoleum Area: Scooter Restrictions",
+      "slug": "visiting-the-ho-chi-minh-mausoleum-area-scooter-restrictions",
+      "source_hash": "9b12684608dabc95dcadb5763a37439add93c9345ff6beba3b519f7b42eaf66f",
+      "checked_at": "2026-10-21T16:32:24.645032+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 53
     }
   },
-  "updated_at": "2026-10-21T16:32:22.381692+00:00"
+  "updated_at": "2026-10-21T16:32:24.645043+00:00"
 }
