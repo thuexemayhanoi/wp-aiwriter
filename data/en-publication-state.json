@@ -1727,7 +1727,15 @@
       "wp_id": 2164,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/honda-air-blade-for-longer-rides-comfort-trade-offs/"
+    },
+    "154": {
+      "title": "What a Premium Scooter Rental Actually Adds",
+      "slug": "what-a-premium-scooter-rental-actually-adds",
+      "source_hash": "e2f903326502f55e3bbce99087addb16a05a8422de52888c0db2bd284e3c75f8",
+      "checked_at": "2026-10-21T15:47:58.479412+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 50
     }
   },
-  "updated_at": "2026-10-21T15:47:56.752061+00:00"
+  "updated_at": "2026-10-21T15:47:58.479422+00:00"
 }
