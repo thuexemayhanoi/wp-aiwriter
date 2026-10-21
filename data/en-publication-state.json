@@ -1353,7 +1353,15 @@
       "wp_id": 2096,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/honda-air-blade-seat-height-and-reach-a-rental-fit-test/"
+    },
+    "125": {
+      "title": "Honda Lead vs Air Blade for Taller Riders",
+      "slug": "honda-lead-vs-air-blade-for-taller-riders",
+      "source_hash": "0372cbe63280694169151823ebf52704e2d2e3b91606316dfe17bda66136e70d",
+      "checked_at": "2026-10-21T15:38:21.134705+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 50
     }
   },
-  "updated_at": "2026-10-21T15:38:18.536621+00:00"
+  "updated_at": "2026-10-21T15:38:21.134716+00:00"
 }
