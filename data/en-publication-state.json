@@ -2172,10 +2172,11 @@
       "title": "Small Wheels on 50cc Scooters: Handling Potholes",
       "slug": "small-wheels-on-50cc-scooters-handling-potholes",
       "source_hash": "4be36912b70fadede53161024678ac2a5ce17037e0e5cdfe011dcbff528528a0",
-      "checked_at": "2026-10-21T15:58:05.589837+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 51
+      "checked_at": "2026-10-21T15:58:07.851582+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 51,
+      "wp_id": 2246
     }
   },
-  "updated_at": "2026-10-21T15:58:05.589846+00:00"
+  "updated_at": "2026-10-21T15:58:07.851601+00:00"
 }
