@@ -2997,11 +2997,13 @@
       "title": "Electric Bike versus 50cc Scooter for Visitors without a Licence",
       "slug": "electric-bike-versus-50cc-scooter-for-visitors-without-a-licence",
       "source_hash": "df9e9427b3ef60a74df9743ed70a95dc42c2a9a6fc2132367e5ef2222bc2c780",
-      "checked_at": "2026-10-21T16:19:22.771504+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:19:27.725782+00:00",
+      "phase": "VERIFIED",
       "category_id": 52,
-      "wp_id": 2396
+      "wp_id": 2396,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/electric-bike-versus-50cc-scooter-for-visitors-without-a-licence/"
     }
   },
-  "updated_at": "2026-10-21T16:19:22.771524+00:00"
+  "updated_at": "2026-10-21T16:19:27.725801+00:00"
 }
