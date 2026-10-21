@@ -2013,7 +2013,15 @@
       "wp_id": 2216,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/minimum-rider-age-versus-rental-shop-age-requirements/"
+    },
+    "180": {
+      "title": "Checking the Engine Capacity on a 50cc Rental",
+      "slug": "checking-the-engine-capacity-on-a-50cc-rental",
+      "source_hash": "914741658d5deb7d27f45ea234f7515a5e4c204dfeac918a6f960a3754a3dc13",
+      "checked_at": "2026-10-21T15:54:37.744626+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 51
     }
   },
-  "updated_at": "2026-10-21T15:54:33.902714+00:00"
+  "updated_at": "2026-10-21T15:54:37.744636+00:00"
 }
