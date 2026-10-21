@@ -2915,7 +2915,15 @@
       "wp_id": 2380,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/checking-a-rental-electric-scooters-display-warnings/"
+    },
+    "262": {
+      "title": "What to Do If an Electric Vehicle Gets Wet in Heavy Rain",
+      "slug": "what-to-do-if-an-electric-vehicle-gets-wet-in-heavy-rain",
+      "source_hash": "faeb5f59c87cde6c5b6956563510ef75e0cc47f6db825ecf0eb2d9d9522d3307",
+      "checked_at": "2026-10-21T16:17:11.629617+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 52
     }
   },
-  "updated_at": "2026-10-21T16:17:09.816802+00:00"
+  "updated_at": "2026-10-21T16:17:11.629637+00:00"
 }
