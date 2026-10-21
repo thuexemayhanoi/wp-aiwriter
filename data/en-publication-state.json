@@ -4273,11 +4273,13 @@
       "title": "What to Check at a Ferry Crossing on a Motorbike Route",
       "slug": "what-to-check-at-a-ferry-crossing-on-a-motorbike-route",
       "source_hash": "48a2a5800efc28ddd93ac177cd20c0fd05c4faeb443dd93e76035dcb66edf890",
-      "checked_at": "2026-10-21T16:53:00.356610+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:53:04.976239+00:00",
+      "phase": "VERIFIED",
       "category_id": 54,
-      "wp_id": 2629
+      "wp_id": 2629,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/what-to-check-at-a-ferry-crossing-on-a-motorbike-route/"
     }
   },
-  "updated_at": "2026-10-21T16:53:00.356629+00:00"
+  "updated_at": "2026-10-21T16:53:04.976258+00:00"
 }
