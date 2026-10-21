@@ -4378,7 +4378,15 @@
       "wp_id": 2647,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/comparing-weekly-and-monthly-rental-terms/"
+    },
+    "399": {
+      "title": "Understanding the Difference between Rent and Deposit",
+      "slug": "understanding-the-difference-between-rent-and-deposit",
+      "source_hash": "a356d65e3d0045466268bcbd998dcdfa4ce588375bf2d473621d491860de787a",
+      "checked_at": "2026-10-21T16:55:23.039949+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 55
     }
   },
-  "updated_at": "2026-10-21T16:55:21.347580+00:00"
+  "updated_at": "2026-10-21T16:55:23.039960+00:00"
 }
