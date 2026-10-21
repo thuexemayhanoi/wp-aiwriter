@@ -3657,10 +3657,11 @@
       "title": "A Museum Day in Hanoi: Scooter or Taxi between Stops?",
       "slug": "a-museum-day-in-hanoi-scooter-or-taxi-between-stops",
       "source_hash": "3458f745c84008861542d44920728ec21381f08936324f78029a878a17faf54c",
-      "checked_at": "2026-10-21T16:36:19.188004+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 53
+      "checked_at": "2026-10-21T16:36:22.085487+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 53,
+      "wp_id": 2516
     }
   },
-  "updated_at": "2026-10-21T16:36:19.188013+00:00"
+  "updated_at": "2026-10-21T16:36:22.085508+00:00"
 }
