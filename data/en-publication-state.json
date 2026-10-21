@@ -3118,11 +3118,13 @@
       "title": "Electric Bike Luggage Limits and Safe Storage",
       "slug": "electric-bike-luggage-limits-and-safe-storage",
       "source_hash": "81383252c767b24b3ece01eccbb0b0fc6ce845fc0aa903b4465d9c073a722dd5",
-      "checked_at": "2026-10-21T16:22:42.986833+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:22:48.494101+00:00",
+      "phase": "VERIFIED",
       "category_id": 52,
-      "wp_id": 2418
+      "wp_id": 2418,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/electric-bike-luggage-limits-and-safe-storage/"
     }
   },
-  "updated_at": "2026-10-21T16:22:42.986854+00:00"
+  "updated_at": "2026-10-21T16:22:48.494121+00:00"
 }
