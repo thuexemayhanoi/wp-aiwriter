@@ -4438,11 +4438,13 @@
       "title": "How to Check the Rental Shop's Opening Hours and Pickup Location",
       "slug": "how-to-check-the-rental-shops-opening-hours-and-pickup-location",
       "source_hash": "bc4a2258b06fc4e83714c5d7f088442ebd73fc127b2e6cdd5794a6e6bcd5d953",
-      "checked_at": "2026-10-21T16:56:53.252295+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:56:59.040570+00:00",
+      "phase": "VERIFIED",
       "category_id": 55,
-      "wp_id": 2659
+      "wp_id": 2659,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-check-the-rental-shops-opening-hours-and-pickup-location/"
     }
   },
-  "updated_at": "2026-10-21T16:56:53.252316+00:00"
+  "updated_at": "2026-10-21T16:56:59.040590+00:00"
 }
