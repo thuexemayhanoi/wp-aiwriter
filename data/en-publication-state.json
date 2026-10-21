@@ -2777,11 +2777,11 @@
       "title": "How to Park and Lock a Rental Electric Bicycle",
       "slug": "how-to-park-and-lock-a-rental-electric-bicycle",
       "source_hash": "a1a0cbf9fde427208e3ae91e006db3a6b89902aaae2b7dad09b07386081d931f",
-      "checked_at": "2026-10-21T16:14:08.918917+00:00",
-      "phase": "REGISTERED",
+      "checked_at": "2026-10-21T16:14:11.316120+00:00",
+      "phase": "VERIFY_PENDING",
       "category_id": 52,
       "wp_id": 2356
     }
   },
-  "updated_at": "2026-10-21T16:14:08.918938+00:00"
+  "updated_at": "2026-10-21T16:14:11.316139+00:00"
 }
