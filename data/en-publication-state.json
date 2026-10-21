@@ -852,10 +852,11 @@
       "title": "Understanding Neutral on a Honda Wave",
       "slug": "understanding-neutral-on-a-honda-wave",
       "source_hash": "8f68f02f905858e60c5d9115893f9ade844bf08390c33511af0dd64d7929c54f",
-      "checked_at": "2026-10-21T14:40:37.575858+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 49
+      "checked_at": "2026-10-21T14:40:40.970320+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 49,
+      "wp_id": 2006
     }
   },
-  "updated_at": "2026-10-21T14:40:37.575866+00:00"
+  "updated_at": "2026-10-21T14:40:40.970335+00:00"
 }
