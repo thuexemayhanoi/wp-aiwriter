@@ -3850,7 +3850,15 @@
       "wp_id": 2550,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/hanoi-to-pho-yen-by-scooter-is-it-a-sensible-ride/"
+    },
+    "350": {
+      "title": "Hanoi to Hoa Binh City by Motorbike: Rider Preparation",
+      "slug": "hanoi-to-hoa-binh-city-by-motorbike-rider-preparation",
+      "source_hash": "fe15b2c3775d2eba0529c7efe3e5d97a46377c141d84cb252fed567b4f3f313e",
+      "checked_at": "2026-10-21T16:42:13.871992+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 54
     }
   },
-  "updated_at": "2026-10-21T16:42:11.828497+00:00"
+  "updated_at": "2026-10-21T16:42:13.872001+00:00"
 }
