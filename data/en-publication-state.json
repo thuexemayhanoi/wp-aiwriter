@@ -3052,11 +3052,13 @@
       "title": "Electric Scooter Rental: How Pickup Battery Level Is Recorded",
       "slug": "electric-scooter-rental-how-pickup-battery-level-is-recorded",
       "source_hash": "ba45466a4bc35b2f1b3a47ea6daa35e0ea2ce15004fd387c95d6b2dd6d42d183",
-      "checked_at": "2026-10-21T16:20:49.414810+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:20:54.718560+00:00",
+      "phase": "VERIFIED",
       "category_id": 52,
-      "wp_id": 2406
+      "wp_id": 2406,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/electric-scooter-rental-how-pickup-battery-level-is-recorded/"
     }
   },
-  "updated_at": "2026-10-21T16:20:49.414831+00:00"
+  "updated_at": "2026-10-21T16:20:54.718581+00:00"
 }
