@@ -1188,7 +1188,15 @@
       "wp_id": 2066,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/honda-lead-storage-for-helmets-and-shopping-bags/"
+    },
+    "110": {
+      "title": "Honda Click vs Honda Vision for Short Hanoi Rentals",
+      "slug": "honda-click-vs-honda-vision-for-short-hanoi-rentals",
+      "source_hash": "8dbd7522cac21c07bddadc88d0fd34bb0e9c7f0867307517bfe2b5208fbbf42c",
+      "checked_at": "2026-10-21T15:34:15.111011+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 50
     }
   },
-  "updated_at": "2026-10-21T15:34:12.773958+00:00"
+  "updated_at": "2026-10-21T15:34:15.111019+00:00"
 }
