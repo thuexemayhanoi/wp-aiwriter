@@ -1347,11 +1347,13 @@
       "title": "Honda Air Blade Seat Height and Reach: A Rental Fit Test",
       "slug": "honda-air-blade-seat-height-and-reach-a-rental-fit-test",
       "source_hash": "9a1dc6275e9ea5c7ce368b4fc309419c56ada955b0415754bfcd379f1ad3dfdc",
-      "checked_at": "2026-10-21T15:38:14.126576+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:38:18.536604+00:00",
+      "phase": "VERIFIED",
       "category_id": 50,
-      "wp_id": 2096
+      "wp_id": 2096,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/honda-air-blade-seat-height-and-reach-a-rental-fit-test/"
     }
   },
-  "updated_at": "2026-10-21T15:38:14.126593+00:00"
+  "updated_at": "2026-10-21T15:38:18.536621+00:00"
 }
