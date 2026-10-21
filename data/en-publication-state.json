@@ -709,11 +709,13 @@
       "title": "How to Handle Stop-and-Go Traffic on a Semi-Automatic Bike",
       "slug": "how-to-handle-stop-and-go-traffic-on-a-semi-automatic-bike",
       "source_hash": "641f0609cbf4ad7bfd37918bef831aedce232b5298ef82fcb11806724b812fc5",
-      "checked_at": "2026-10-21T14:32:17.328581+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T14:32:22.404197+00:00",
+      "phase": "VERIFIED",
       "category_id": 49,
-      "wp_id": 1980
+      "wp_id": 1980,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-handle-stop-and-go-traffic-on-a-semi-automatic-bike/"
     }
   },
-  "updated_at": "2026-10-21T14:32:17.328600+00:00"
+  "updated_at": "2026-10-21T14:32:22.404217+00:00"
 }
