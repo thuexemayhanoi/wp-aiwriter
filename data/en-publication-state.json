@@ -698,10 +698,11 @@
       "title": "Yamaha Sirius vs Honda Blade for Longer Trips",
       "slug": "yamaha-sirius-vs-honda-blade-for-longer-trips",
       "source_hash": "4bad4127418f6b7dfc9cdfb4d9532ce24f7617312881a2935c6280c23e98747f",
-      "checked_at": "2026-10-21T14:31:54.441481+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 65
+      "checked_at": "2026-10-21T14:31:57.252936+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 65,
+      "wp_id": 1978
     }
   },
-  "updated_at": "2026-10-21T14:31:54.441490+00:00"
+  "updated_at": "2026-10-21T14:31:57.252952+00:00"
 }
