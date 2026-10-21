@@ -3014,7 +3014,15 @@
       "wp_id": 2398,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/charging-etiquette-in-shared-accommodation/"
+    },
+    "271": {
+      "title": "Electric Scooter Rider Comfort on Uneven Hanoi Streets",
+      "slug": "electric-scooter-rider-comfort-on-uneven-hanoi-streets",
+      "source_hash": "e6b79cdb5d00ce65978070a7bea9f2f46c91aae1ae6725a1a16af5d0d8130395",
+      "checked_at": "2026-10-21T16:19:45.745945+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 52
     }
   },
-  "updated_at": "2026-10-21T16:19:43.915909+00:00"
+  "updated_at": "2026-10-21T16:19:45.745955+00:00"
 }
