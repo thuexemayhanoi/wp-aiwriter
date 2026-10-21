@@ -1045,7 +1045,15 @@
       "wp_id": 2040,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/riding-a-manual-motorbike-through-standing-water/"
+    },
+    "92": {
+      "title": "What to Do After Dropping a Rented Semi-Automatic Bike",
+      "slug": "what-to-do-after-dropping-a-rented-semi-automatic-bike",
+      "source_hash": "caaa83bad26ab11c2939c4b5cc2725747ba483c8fe9d7c982578d8b38fed54ea",
+      "checked_at": "2026-10-21T14:57:52.724123+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 49
     }
   },
-  "updated_at": "2026-10-21T14:57:50.250916+00:00"
+  "updated_at": "2026-10-21T14:57:52.724131+00:00"
 }
