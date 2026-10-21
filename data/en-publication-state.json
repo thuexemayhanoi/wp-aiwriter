@@ -3998,11 +3998,13 @@
       "title": "Hanoi to Bich Dong Pagoda by Motorbike",
       "slug": "hanoi-to-bich-dong-pagoda-by-motorbike",
       "source_hash": "f0ac8fd0e98173936c0139e7346bbe5196f5d1ab6b740b410eb2fe4b0f8bffd0",
-      "checked_at": "2026-10-21T16:46:06.857289+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:46:12.484143+00:00",
+      "phase": "VERIFIED",
       "category_id": 54,
-      "wp_id": 2579
+      "wp_id": 2579,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/hanoi-to-bich-dong-pagoda-by-motorbike/"
     }
   },
-  "updated_at": "2026-10-21T16:46:06.857305+00:00"
+  "updated_at": "2026-10-21T16:46:12.484158+00:00"
 }
