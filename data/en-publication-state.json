@@ -4229,11 +4229,13 @@
       "title": "How to Compare a Northbound and Southbound Day Trip",
       "slug": "how-to-compare-a-northbound-and-southbound-day-trip",
       "source_hash": "6b528716e3e46c8a56cf5920908a321cb434d9ff20c7b5f1846235b192650103",
-      "checked_at": "2026-10-21T16:51:55.158356+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:52:00.433133+00:00",
+      "phase": "VERIFIED",
       "category_id": 54,
-      "wp_id": 2621
+      "wp_id": 2621,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-compare-a-northbound-and-southbound-day-trip/"
     }
   },
-  "updated_at": "2026-10-21T16:51:55.158376+00:00"
+  "updated_at": "2026-10-21T16:52:00.433155+00:00"
 }
