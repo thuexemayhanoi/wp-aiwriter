@@ -3674,7 +3674,15 @@
       "wp_id": 2518,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-plan-a-scooter-visit-to-phung-hung-mural-street/"
+    },
+    "334": {
+      "title": "Exploring the Ceramic Mosaic Mural along the Red River",
+      "slug": "exploring-the-ceramic-mosaic-mural-along-the-red-river",
+      "source_hash": "5ce56a3c84d4790c892b7c535f1ebfa501699e5d813047d0fd1e99e8d7ad3ca6",
+      "checked_at": "2026-10-21T16:38:11.832801+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 53
     }
   },
-  "updated_at": "2026-10-21T16:38:09.226788+00:00"
+  "updated_at": "2026-10-21T16:38:11.832810+00:00"
 }
