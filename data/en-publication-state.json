@@ -3591,11 +3591,13 @@
       "title": "West Lake Sunset by Scooter without Blocking the Waterfront",
       "slug": "west-lake-sunset-by-scooter-without-blocking-the-waterfront",
       "source_hash": "ea7d2ec2e72baecdce6d2e3e9ccc6c6b94a710d2b610ae2b83468d450776d946",
-      "checked_at": "2026-10-21T16:34:42.525358+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:34:47.439038+00:00",
+      "phase": "VERIFIED",
       "category_id": 53,
-      "wp_id": 2504
+      "wp_id": 2504,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/west-lake-sunset-by-scooter-without-blocking-the-waterfront/"
     }
   },
-  "updated_at": "2026-10-21T16:34:42.525377+00:00"
+  "updated_at": "2026-10-21T16:34:47.439058+00:00"
 }
