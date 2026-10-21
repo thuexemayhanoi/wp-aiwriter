@@ -4323,7 +4323,15 @@
       "wp_id": 2637,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-book-a-hanoi-motorbike-rental-on-whatsapp/"
+    },
+    "394": {
+      "title": "Questions to Ask before Reserving a Rental Scooter",
+      "slug": "questions-to-ask-before-reserving-a-rental-scooter",
+      "source_hash": "9316d2c69359cb4b6ae0214166204f36790245bba6a0149743da28aa5bcf7b78",
+      "checked_at": "2026-10-21T16:54:07.188976+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 55
     }
   },
-  "updated_at": "2026-10-21T16:54:04.406716+00:00"
+  "updated_at": "2026-10-21T16:54:07.188985+00:00"
 }
