@@ -1160,11 +1160,13 @@
       "title": "How to Carry a Raincoat and Helmet on a Small Manual Bike",
       "slug": "how-to-carry-a-raincoat-and-helmet-on-a-small-manual-bike",
       "source_hash": "e145a75ba8f580d313ed7dcc8069a1fa9963d7f642e391b5acb5424b1912c319",
-      "checked_at": "2026-10-21T15:33:37.132768+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:33:41.539361+00:00",
+      "phase": "VERIFIED",
       "category_id": 49,
-      "wp_id": 2062
+      "wp_id": 2062,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-carry-a-raincoat-and-helmet-on-a-small-manual-bike/"
     }
   },
-  "updated_at": "2026-10-21T15:33:37.132784+00:00"
+  "updated_at": "2026-10-21T15:33:41.539378+00:00"
 }
