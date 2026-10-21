@@ -775,10 +775,11 @@
       "title": "Recognising Chain Noise on a Honda Wave or Yamaha Sirius",
       "slug": "recognising-chain-noise-on-a-honda-wave-or-yamaha-sirius",
       "source_hash": "0e67b74273bb0c2523c619e2ff4e0e0768e0b5532af08ceb2c7865f632f02b44",
-      "checked_at": "2026-10-21T14:34:41.966623+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 49
+      "checked_at": "2026-10-21T14:34:44.674240+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 49,
+      "wp_id": 1992
     }
   },
-  "updated_at": "2026-10-21T14:34:41.966631+00:00"
+  "updated_at": "2026-10-21T14:34:44.674257+00:00"
 }
