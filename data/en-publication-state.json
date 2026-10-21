@@ -2838,7 +2838,15 @@
       "wp_id": 2366,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/electric-scooter-rentals-for-short-errands-in-hanoi/"
+    },
+    "255": {
+      "title": "Do You Need a Licence for Your Specific Electric Vehicle?",
+      "slug": "do-you-need-a-licence-for-your-specific-electric-vehicle",
+      "source_hash": "dac69e5b0dfab1dcfb2cfa589b05997a897e55897a0414e8408ba0836029540d",
+      "checked_at": "2026-10-21T16:15:28.742101+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 52
     }
   },
-  "updated_at": "2026-10-21T16:15:27.001988+00:00"
+  "updated_at": "2026-10-21T16:15:28.742109+00:00"
 }
