@@ -4213,7 +4213,15 @@
       "wp_id": 2617,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-combine-co-loa-and-bat-trang-without-rushing/"
+    },
+    "384": {
+      "title": "A Quiet Morning Route around Hanoi's Eastern Outskirts",
+      "slug": "a-quiet-morning-route-around-hanois-eastern-outskirts",
+      "source_hash": "5ca8a4941cbff54f4386231f7f1b585d33cd8a7d4d9d0b97ad9c001d702265fb",
+      "checked_at": "2026-10-21T16:51:31.260975+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 54
     }
   },
-  "updated_at": "2026-10-21T16:51:29.381717+00:00"
+  "updated_at": "2026-10-21T16:51:31.260983+00:00"
 }
