@@ -3437,10 +3437,11 @@
       "title": "Bat Trang Pottery Village: Parking and Local Streets",
       "slug": "bat-trang-pottery-village-parking-and-local-streets",
       "source_hash": "8541b44b04cf2b08be08df091e2c08de64470e64079e32b72c07b2b9c3ce9ac7",
-      "checked_at": "2026-10-21T16:30:31.213558+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 53
+      "checked_at": "2026-10-21T16:30:33.632821+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 53,
+      "wp_id": 2476
     }
   },
-  "updated_at": "2026-10-21T16:30:31.213566+00:00"
+  "updated_at": "2026-10-21T16:30:33.632840+00:00"
 }
