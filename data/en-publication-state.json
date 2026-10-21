@@ -1936,7 +1936,15 @@
       "wp_id": 2202,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/what-a-50cc-scooter-can-and-cannot-carry-comfortably/"
+    },
+    "173": {
+      "title": "Are 50cc Scooters Suitable for Two Adults?",
+      "slug": "are-50cc-scooters-suitable-for-two-adults",
+      "source_hash": "7aae8731a48ad385f84b8ba0ead45902ea61d213e113e2452754072c469f85b1",
+      "checked_at": "2026-10-21T15:52:39.839051+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 51
     }
   },
-  "updated_at": "2026-10-21T15:52:37.123273+00:00"
+  "updated_at": "2026-10-21T15:52:39.839060+00:00"
 }
