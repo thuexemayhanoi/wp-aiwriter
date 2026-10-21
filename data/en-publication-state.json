@@ -3696,7 +3696,15 @@
       "wp_id": 2522,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/hanoi-rainy-day-sightseeing-when-to-leave-the-bike-parked/"
+    },
+    "336": {
+      "title": "Choosing between a Scooter and the Metro in Central Hanoi",
+      "slug": "choosing-between-a-scooter-and-the-metro-in-central-hanoi",
+      "source_hash": "7b5de3637ccb4593deb1a63d92103256b98ff58a8a32c91b69c5b9218c245464",
+      "checked_at": "2026-10-21T16:38:41.066412+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 53
     }
   },
-  "updated_at": "2026-10-21T16:38:39.425258+00:00"
+  "updated_at": "2026-10-21T16:38:41.066421+00:00"
 }
