@@ -621,11 +621,13 @@
       "title": "Returning Your Rental Motorbike in Hanoi: Fuel, Damage Checks and Deposits",
       "slug": "returning-your-rental-motorbike-hanoi",
       "source_hash": "50039df8d2f5e4bae31d2bad432e0d9ea54d273c7712c09835f1ca1ceab7f0a0",
-      "checked_at": "2026-10-21T14:17:06.849070+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T14:17:11.577645+00:00",
+      "phase": "VERIFIED",
       "category_id": 55,
-      "wp_id": 1964
+      "wp_id": 1964,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/returning-your-rental-motorbike-hanoi/"
     }
   },
-  "updated_at": "2026-10-21T14:17:06.849087+00:00"
+  "updated_at": "2026-10-21T14:17:11.577662+00:00"
 }
