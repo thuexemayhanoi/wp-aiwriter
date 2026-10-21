@@ -1567,11 +1567,13 @@
       "title": "How to Secure a Backpack on an Automatic Scooter",
       "slug": "how-to-secure-a-backpack-on-an-automatic-scooter",
       "source_hash": "f1f87ab4b286916591fc652b10f620bae3917bf985521ae284a164230c712829",
-      "checked_at": "2026-10-21T15:43:35.957764+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:43:40.337365+00:00",
+      "phase": "VERIFIED",
       "category_id": 50,
-      "wp_id": 2136
+      "wp_id": 2136,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-secure-a-backpack-on-an-automatic-scooter/"
     }
   },
-  "updated_at": "2026-10-21T15:43:35.957781+00:00"
+  "updated_at": "2026-10-21T15:43:40.337382+00:00"
 }
