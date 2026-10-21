@@ -3393,10 +3393,11 @@
       "title": "Quan Thanh Temple by Motorbike: Where to Leave the Bike",
       "slug": "quan-thanh-temple-by-motorbike-where-to-leave-the-bike",
       "source_hash": "c2f26b40e30a2d0b8c4f4703c5e427fd7b38d0bee850fb4256198d64e5989e8a",
-      "checked_at": "2026-10-21T16:29:28.258020+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 53
+      "checked_at": "2026-10-21T16:29:32.168560+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 53,
+      "wp_id": 2468
     }
   },
-  "updated_at": "2026-10-21T16:29:28.258028+00:00"
+  "updated_at": "2026-10-21T16:29:32.168579+00:00"
 }
