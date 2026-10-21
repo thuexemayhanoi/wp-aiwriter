@@ -4158,7 +4158,15 @@
       "wp_id": 2607,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/rainy-season-routes-from-hanoi-when-to-postpone/"
+    },
+    "379": {
+      "title": "Avoiding Night Riding on a Hanoi Return Trip",
+      "slug": "avoiding-night-riding-on-a-hanoi-return-trip",
+      "source_hash": "f1c15ba0cb6f22cc7af4fada8771f0a04de9c2474852c4d53f95c65b9fe7cabf",
+      "checked_at": "2026-10-21T16:50:08.893115+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 54
     }
   },
-  "updated_at": "2026-10-21T16:50:07.269216+00:00"
+  "updated_at": "2026-10-21T16:50:08.893124+00:00"
 }
