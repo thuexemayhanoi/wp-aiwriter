@@ -2651,7 +2651,15 @@
       "wp_id": 2332,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/what-to-check-on-an-electric-bike-charging-cable/"
+    },
+    "238": {
+      "title": "Recognising a Damaged Electric Scooter Charging Plug",
+      "slug": "recognising-a-damaged-electric-scooter-charging-plug",
+      "source_hash": "75c8061efa6cb47677e7f175b23cac856c3e06da77c8e7d94ad6a5c98591caa9",
+      "checked_at": "2026-10-21T16:11:15.468228+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 52
     }
   },
-  "updated_at": "2026-10-21T16:11:13.538434+00:00"
+  "updated_at": "2026-10-21T16:11:15.468236+00:00"
 }
