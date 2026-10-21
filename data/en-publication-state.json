@@ -4279,7 +4279,15 @@
       "wp_id": 2629,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/what-to-check-at-a-ferry-crossing-on-a-motorbike-route/"
+    },
+    "390": {
+      "title": "Motorbike Navigation near Hanoi: Toll Roads and Detours",
+      "slug": "motorbike-navigation-near-hanoi-toll-roads-and-detours",
+      "source_hash": "b46523694451110d7f647320711050ac441dae06b2fdbeda30d355cd7b7e37b6",
+      "checked_at": "2026-10-21T16:53:06.675521+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 67
     }
   },
-  "updated_at": "2026-10-21T16:53:04.976258+00:00"
+  "updated_at": "2026-10-21T16:53:06.675530+00:00"
 }
