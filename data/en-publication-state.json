@@ -3553,7 +3553,15 @@
       "wp_id": 2496,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/motorbike-parking-near-hanoi-railway-station/"
+    },
+    "323": {
+      "title": "Arriving at Gia Lam Bus Station with a Rental Scooter",
+      "slug": "arriving-at-gia-lam-bus-station-with-a-rental-scooter",
+      "source_hash": "96d0329b694bc89410807550a2b77794248ebcbdbbeae500cf10fde33589ab41",
+      "checked_at": "2026-10-21T16:33:29.331817+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 64
     }
   },
-  "updated_at": "2026-10-21T16:33:27.273455+00:00"
+  "updated_at": "2026-10-21T16:33:29.331827+00:00"
 }
