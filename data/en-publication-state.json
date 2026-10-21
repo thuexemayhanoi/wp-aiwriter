@@ -731,10 +731,11 @@
       "title": "How to Start a Semi-Automatic Bike on an Incline",
       "slug": "how-to-start-a-semi-automatic-bike-on-an-incline",
       "source_hash": "4a20446944ba90adfda1be6ce6568e4b0dacc2710e61ba7668e86bd091b3207e",
-      "checked_at": "2026-10-21T14:32:39.751291+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 49
+      "checked_at": "2026-10-21T14:32:42.617646+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 49,
+      "wp_id": 1984
     }
   },
-  "updated_at": "2026-10-21T14:32:39.751300+00:00"
+  "updated_at": "2026-10-21T14:32:42.617665+00:00"
 }
