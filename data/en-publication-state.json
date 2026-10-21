@@ -2035,7 +2035,15 @@
       "wp_id": 2220,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-spot-a-modified-50cc-scooter-before-renting/"
+    },
+    "182": {
+      "title": "50cc Motorbike Brakes: A Basic Rental Inspection",
+      "slug": "50cc-motorbike-brakes-a-basic-rental-inspection",
+      "source_hash": "7644abba82c631ec0f1b8855bff45aee3aef5841d5d742d964aefe1f50b904d0",
+      "checked_at": "2026-10-21T15:55:09.602414+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 66
     }
   },
-  "updated_at": "2026-10-21T15:55:06.049407+00:00"
+  "updated_at": "2026-10-21T15:55:09.602424+00:00"
 }
