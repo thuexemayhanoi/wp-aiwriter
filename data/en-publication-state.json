@@ -4526,11 +4526,13 @@
       "title": "What to Do if Your Return Time Changes",
       "slug": "what-to-do-if-your-return-time-changes",
       "source_hash": "1f3e8e4fd408d6c0420a0553a7e46ced580b8e44cba36817b5bdcb961d4c29d7",
-      "checked_at": "2026-10-21T16:58:57.918541+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:59:03.738215+00:00",
+      "phase": "VERIFIED",
       "category_id": 55,
-      "wp_id": 2675
+      "wp_id": 2675,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/what-to-do-if-your-return-time-changes/"
     }
   },
-  "updated_at": "2026-10-21T16:58:57.918562+00:00"
+  "updated_at": "2026-10-21T16:59:03.738235+00:00"
 }
