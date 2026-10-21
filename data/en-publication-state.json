@@ -3382,11 +3382,13 @@
       "title": "Tran Quoc Pagoda: Scooter Access and Visitor Etiquette",
       "slug": "tran-quoc-pagoda-scooter-access-and-visitor-etiquette",
       "source_hash": "f11dad2ea202852fda68dd3fe56fc8df7bfafcd77f2b0af7b5c0156add10a786",
-      "checked_at": "2026-10-21T16:29:19.901430+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:29:25.344102+00:00",
+      "phase": "VERIFIED",
       "category_id": 53,
-      "wp_id": 2466
+      "wp_id": 2466,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/tran-quoc-pagoda-scooter-access-and-visitor-etiquette/"
     }
   },
-  "updated_at": "2026-10-21T16:29:19.901453+00:00"
+  "updated_at": "2026-10-21T16:29:25.344121+00:00"
 }
