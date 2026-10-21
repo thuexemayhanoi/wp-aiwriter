@@ -2381,11 +2381,13 @@
       "title": "Why a 50cc Bike May Struggle on an Open Road",
       "slug": "why-a-50cc-bike-may-struggle-on-an-open-road",
       "source_hash": "ffff6bd81167713bbd1482816ad67fb29a625491ebe11eba966c9988f5050426",
-      "checked_at": "2026-10-21T16:04:07.246776+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:04:12.140900+00:00",
+      "phase": "VERIFIED",
       "category_id": 51,
-      "wp_id": 2284
+      "wp_id": 2284,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/why-a-50cc-bike-may-struggle-on-an-open-road/"
     }
   },
-  "updated_at": "2026-10-21T16:04:07.246797+00:00"
+  "updated_at": "2026-10-21T16:04:12.140920+00:00"
 }
