@@ -4444,7 +4444,15 @@
       "wp_id": 2659,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-check-the-rental-shops-opening-hours-and-pickup-location/"
+    },
+    "405": {
+      "title": "Motorbike Rental with Hotel Pickup: Questions before Booking",
+      "slug": "motorbike-rental-with-hotel-pickup-questions-before-booking",
+      "source_hash": "0fd2e26aec7f3daf4aec7d51b185695a5fcede03e14996de3d5c8b0b277ecdaf",
+      "checked_at": "2026-10-21T16:57:01.442970+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 55
     }
   },
-  "updated_at": "2026-10-21T16:56:59.040590+00:00"
+  "updated_at": "2026-10-21T16:57:01.442979+00:00"
 }
