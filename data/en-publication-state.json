@@ -3080,7 +3080,15 @@
       "wp_id": 2410,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-avoid-leaving-a-rental-ev-plugged-in-unsafely/"
+    },
+    "277": {
+      "title": "Planning an Electric Bike Day around Hanoi's West Lake",
+      "slug": "planning-an-electric-bike-day-around-hanois-west-lake",
+      "source_hash": "00d328d962746abfcb7958c0999226bf98aa3bd32af8a0c6de69ddb1ba9ba927",
+      "checked_at": "2026-10-21T16:21:39.883991+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 52
     }
   },
-  "updated_at": "2026-10-21T16:21:37.806950+00:00"
+  "updated_at": "2026-10-21T16:21:39.884003+00:00"
 }
