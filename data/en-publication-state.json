@@ -1496,7 +1496,15 @@
       "wp_id": 2122,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/scooter-comfort-on-paved-roads-versus-rough-lanes/"
+    },
+    "138": {
+      "title": "Automatic Scooters and Steep Hills: What Riders Should Know",
+      "slug": "automatic-scooters-and-steep-hills-what-riders-should-know",
+      "source_hash": "1e814c6103efda41073c942b6e807f1b797b4ac6d11cdfebfe1165aed596e86c",
+      "checked_at": "2026-10-21T15:42:03.165437+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 50
     }
   },
-  "updated_at": "2026-10-21T15:41:59.151241+00:00"
+  "updated_at": "2026-10-21T15:42:03.165445+00:00"
 }
