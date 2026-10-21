@@ -1155,7 +1155,15 @@
       "wp_id": 2060,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/honda-wave-controls-for-riders-used-to-automatic-scooters/"
+    },
+    "107": {
+      "title": "How to Carry a Raincoat and Helmet on a Small Manual Bike",
+      "slug": "how-to-carry-a-raincoat-and-helmet-on-a-small-manual-bike",
+      "source_hash": "e145a75ba8f580d313ed7dcc8069a1fa9963d7f642e391b5acb5424b1912c319",
+      "checked_at": "2026-10-21T15:33:28.905510+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 49
     }
   },
-  "updated_at": "2026-10-21T15:33:26.705615+00:00"
+  "updated_at": "2026-10-21T15:33:28.905518+00:00"
 }
