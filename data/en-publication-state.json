@@ -2139,10 +2139,11 @@
       "title": "50cc Monthly Rental for Local Commuting",
       "slug": "50cc-monthly-rental-for-local-commuting",
       "source_hash": "34e58242a9dd19ee080717d89bb3d728b446da6fead06a8fd300f1f86d862c14",
-      "checked_at": "2026-10-21T15:57:23.230331+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 69
+      "checked_at": "2026-10-21T15:57:25.486287+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 69,
+      "wp_id": 2240
     }
   },
-  "updated_at": "2026-10-21T15:57:23.230341+00:00"
+  "updated_at": "2026-10-21T15:57:25.486305+00:00"
 }
