@@ -175,6 +175,18 @@ class Qa(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'image without alt'):
             self.read(2, text.replace('## FAQ', '![](https://example.com/a.jpg)\n\n## FAQ'))
 
+    def test_qa_score_76_passes_and_75_fails(self):
+        # Exact owner-approved soft-score boundary; hard gates run first.
+        self.assertEqual(POLICY['min_score'], 76)
+        _, text = article()
+        with patch.object(en, 'qa_score', return_value=(75, ['boundary check'])):
+            with self.assertRaisesRegex(ValueError, 'QA score 75 below 76'):
+                self.read(2, text)
+        with patch.object(en, 'qa_score', return_value=(76, [])):
+            result = self.read(2, text)
+        self.assertTrue(result['ready'])
+        self.assertEqual(result['score'], 76)
+
     def test_low_score_is_rejected(self):
         meta, text = article(meta={'description': ''})
         text = text.replace('## FAQ\n\n### Is the Vision enough for two people?\n\n' + para(5, 1) + '\n\n', '')
@@ -421,7 +433,7 @@ class Topics(unittest.TestCase):
         self.assertIn(POLICY['mode'], ('pilot', 'batch'))
         self.assertEqual(POLICY['pilot_ids'], [1, 2, 3])
         self.assertTrue(POLICY['require_live_routes'])
-        self.assertGreaterEqual(POLICY['min_score'], 85)
+        self.assertEqual(POLICY['min_score'], 76)
         # Unlimited QA-gated EN publishing: no count-based policy caps.
         # The GitHub runner deadline is handled by a resumable soft stop.
         self.assertNotIn('batch_size', POLICY)

@@ -45,7 +45,7 @@
     56,
     68
   ],
-  "min_score": 85,
+  "min_score": 76,
   "page_pairs": [
     {
       "vi": 14,
@@ -144,6 +144,6 @@
       "en_slug": "terms"
     }
   ],
-  "notes": "Owner-approved continuous QA-gated publication (2026-10-21). Publish all eligible original English articles without an article-count or batch-count cap; automatically resume between GitHub runner time windows. Existing 9 live posts preserved. First seed batch: #31 category 69 Weekly & Monthly, #49 category 66 Handover & Maintenance, #285 category 60 Hoan Kiem Area. The 500-topic plan remains a backlog; 21 EN categories exist, and all previously published posts retain their canonical slugs and term IDs. No manual per-batch approval required for QA-passing English articles; prioritise categories without directly assigned published EN articles. Leave WP Vietnamese content and VI/EN true page pairs unchanged. Parent EN categories 46/47/48 are also permitted as direct editorial post categories for distinct pillar articles (IDs 32,21,33), without changing any live post. Parent-first category registration is deduplicated by en_ops. Owner explicitly requests at least one directly assigned post for every term. QA word-length rule (2026-10-20): 1600–5000 English words for new or revised manuscripts. The preexisting 22 WordPress posts remain unchanged; previously VERIFIED 1000–1599-word articles are accepted by QA only while the article body hash, exact title, slug and category still match the immutable publication ledger. Any edit to a short legacy manuscript must meet 1600 words before publication QA passes. Never reset ledger, force reposts or weaken QA >=85.",
+  "notes": "Owner-approved continuous QA-gated publication (2026-10-21). Publish all eligible original English articles without an article-count or batch-count cap; automatically resume between GitHub runner time windows. Existing 9 live posts preserved. First seed batch: #31 category 69 Weekly & Monthly, #49 category 66 Handover & Maintenance, #285 category 60 Hoan Kiem Area. The 500-topic plan remains a backlog; 21 EN categories exist, and all previously published posts retain their canonical slugs and term IDs. No manual per-batch approval required for QA-passing English articles; prioritise categories without directly assigned published EN articles. Leave WP Vietnamese content and VI/EN true page pairs unchanged. Parent EN categories 46/47/48 are also permitted as direct editorial post categories for distinct pillar articles (IDs 32,21,33), without changing any live post. Parent-first category registration is deduplicated by en_ops. Owner explicitly requests at least one directly assigned post for every term. QA word-length rule (2026-10-20): 1600–5000 English words for new or revised manuscripts. The preexisting 22 WordPress posts remain unchanged; previously VERIFIED 1000–1599-word articles are accepted by QA only while the article body hash, exact title, slug and category still match the immutable publication ledger. Any edit to a short legacy manuscript must meet 1600 words before publication QA passes. Never reset ledger or force reposts. Owner approval 2026-10-21: soft QA score 76–100 PASS; 75 or below FAIL. Hard QA gates (minimum word count, language, sources, duplicate detection, category, slug, WordPress readback) remain mandatory.",
   "min_words": 1600
 }

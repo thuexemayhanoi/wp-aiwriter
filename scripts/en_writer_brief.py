@@ -145,7 +145,7 @@ def markdown(packet):
         "1. Use the exact original `en/topics.json` title/slug/category, or approve and synchronise a revised title before authoring.",
         "2. Write 1,600–5,000 original English words with strong headings, FAQ, sources and genuine EN internal links. Do not copy Vietnamese articles.",
         "3. Run `python scripts/en_title_plan.py --check`, `python -m unittest discover -s tests -v`, `python scripts/en_engine.py --mode qa` and dry-run `python scripts/en_engine.py --mode sync`.",
-        "4. QA >=85 is necessary but not sufficient: verify no duplicates, lawful routes, accurate dated facts, category and WordPress readiness.",
+        f"4. QA >= {q['minimum_score']} is necessary but not sufficient: verify no duplicates, lawful routes, accurate dated facts, category and WordPress readiness.",
         "5. Push reviewed files to GitHub; trust `data/en-publication-state.json` VERIFIED + WP readback before marking published. Do not retry uncertain POSTs.",
         "6. Record the last verified ID and URL in `docs/EN_WRITER_CHECKPOINT.md`, then rerun this command to obtain a new packet.",
         "",

@@ -1,6 +1,6 @@
 # English pipeline (EN) — research, write, QA, publish, verify
 
-> **NEW AGENT / 478 EN TITLE QUEUE:** [Read the complete EN A–Z AI playbook first](EN_478_AI_PLAYBOOK.md). It explains `en/title-plan-478.csv` planning vs `en/topics.json` publish metadata, 22 original EN posts, slug protection, title approval, QA >=85, continuous QA-gated publishing with no article-count limit, checkpoint/resume and safe WordPress verification. The English workflow documented below remains in effect; do not use Vietnamese `scripts/engine.py` for these 478 articles.
+> **NEW AGENT / 478 EN TITLE QUEUE:** [Read the complete EN A–Z AI playbook first](EN_478_AI_PLAYBOOK.md). It explains `en/title-plan-478.csv` planning vs `en/topics.json` publish metadata, 22 original EN posts, slug protection, title approval, QA >=76, continuous QA-gated publishing with no article-count limit, checkpoint/resume and safe WordPress verification. The English workflow documented below remains in effect; do not use Vietnamese `scripts/engine.py` for these 478 articles.
 
 
 
@@ -52,7 +52,7 @@ Live Verification → Progress (ledger, reports, checkpoint).
   ("effective 1 January 2025", "as of October 2026").
 - Duplicates: 7-word shingle overlap over 70 % with another article, or title+outline cosine over 0.60 (same search intent).
 
-### Score (soft; minimum 85/100)
+### Score (soft; minimum 76/100; score 75 and below fails)
 
 Description 110–175 characters (−10 missing, −5 length), **hard minimum 1,600 words for all new/revised work** (the older soft penalty under 1,200 words remains only for grandfathered published articles); 3,500+ words incur −3, four or more sections, a FAQ (−8), sources
 (−8 unless legal), two or more internal `/en/` links (−8), an external reference (−5), title 35–65 characters (−4), slug

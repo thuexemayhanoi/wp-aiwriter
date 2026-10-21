@@ -1,6 +1,6 @@
 # EN 500 — Editorial rollout and QA contract (20 Oct 2026)
 
-> **CURRENT POLICY UPDATE (21 Oct 2026):** The disabled-policy and 9-post figures below are **historical launch snapshots**, not current state. The pilot is finished. The owner authorised `enabled=true, mode=batch` without `batch_size` or `max_batches_per_run`. The EN Publisher continuously processes eligible manuscripts (resuming on GitHub runner time cutoff), without approval per group of 3. QA >=85, 1,600–5,000 words for new/revised posts, WordPress gates and immutable EN ledger remain mandatory.
+> **CURRENT POLICY UPDATE (21 Oct 2026):** The disabled-policy and 9-post figures below are **historical launch snapshots**, not current state. The pilot is finished. The owner authorised `enabled=true, mode=batch` without `batch_size` or `max_batches_per_run`. The EN Publisher continuously processes eligible manuscripts (resuming on GitHub runner time cutoff), without approval per group of 3. QA >=76, 1,600–5,000 words for new/revised posts, WordPress gates and immutable EN ledger remain mandatory.
 
 
 **WordPress:** https://blog.rentbikehanoi.com/  

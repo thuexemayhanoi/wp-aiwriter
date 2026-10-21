@@ -54,7 +54,7 @@ class EnWriterBrief(unittest.TestCase):
         packet = en_writer_brief.build_packet(3)
         rendered = en_writer_brief.markdown(packet)
         self.assertIn("LIVE WordPress", rendered)
-        self.assertIn("QA >=85", rendered)
+        self.assertIn("QA >= 76", rendered)
         self.assertIn("data/en-publication-state.json", rendered)
         self.assertNotIn("ready: true", rendered)
         for topic in packet["topics"]:

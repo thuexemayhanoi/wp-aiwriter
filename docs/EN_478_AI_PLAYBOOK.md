@@ -18,10 +18,10 @@
 
 ### Fast-track next three without lowering QA
 
-> **Research packet ≠ publishing quota:** `--limit 3` and a recommendation to research three topics at once keep human review manageable; they do **not** cap WordPress publication. The owner removed EN `batch_size` and `max_batches_per_run` on 2026-10-21. No additional owner authorisation is required after each third post, but every new article still needs independent QA >=85, taxonomy/duplicate preflight, live WordPress validation, and ledger `VERIFIED`.
+> **Research packet ≠ publishing quota:** `--limit 3` and a recommendation to research three topics at once keep human review manageable; they do **not** cap WordPress publication. The owner removed EN `batch_size` and `max_batches_per_run` on 2026-10-21. No additional owner authorisation is required after each third post, but every new article still needs independent QA >=76, taxonomy/duplicate preflight, live WordPress validation, and ledger `VERIFIED`.
 
 
-Once the startup reading above is complete, run `python scripts/en_writer_brief.py --limit 3` (or `--format json`). The script checks the 478-row GitHub plan against the EN topic source, manuscript directory, durable publication ledger, editorial policy, and the read-only taxonomy snapshot; it returns the next three available IDs with an exact slug, current canonical title, proposed title, actual category ancestors and search-intent/legal-research prompts. It writes **nothing**, cannot bypass editorial approval, cannot check live WordPress and cannot publish. The AI must still conduct live duplicate/term verification, factual research, original English writing and the full QA ≥85 procedure. If a shell is unavailable, manually read the same files and do not claim the script ran. Rerun after every verified batch; never use a cached packet after other writers have pushed.
+Once the startup reading above is complete, run `python scripts/en_writer_brief.py --limit 3` (or `--format json`). The script checks the 478-row GitHub plan against the EN topic source, manuscript directory, durable publication ledger, editorial policy, and the read-only taxonomy snapshot; it returns the next three available IDs with an exact slug, current canonical title, proposed title, actual category ancestors and search-intent/legal-research prompts. It writes **nothing**, cannot bypass editorial approval, cannot check live WordPress and cannot publish. The AI must still conduct live duplicate/term verification, factual research, original English writing and the full QA ≥76 procedure. If a shell is unavailable, manually read the same files and do not claim the script ran. Rerun after every verified batch; never use a cached packet after other writers have pushed.
 
 ## 1. Snapshot vs living state
 
@@ -48,7 +48,7 @@ Once the startup reading above is complete, run `python scripts/en_writer_brief.
 - `qa_score`, `wp_post_id`, `published_url`: informative reporting fields; values are only trusted after live verification.
 - `note`: safe guidance and collision warnings.
 
-**Title rule:** English-only; proposed length 60–80 characters for the planning file. Headlines must be grammatical, useful, truthful and distinguishable by search intent. Do not force keyword stuffing to hit 80. Current EN article QA may penalize titles above 65 by a few points; QA >=85 remains mandatory.
+**Title rule:** English-only; proposed length 60–80 characters for the planning file. Headlines must be grammatical, useful, truthful and distinguishable by search intent. Do not force keyword stuffing to hit 80. Current EN article QA may penalize titles above 65 by a few points; QA >=76 remains mandatory.
 
 ## 3. A → Z execution for ONE EN article (repeat in small batches)
 
@@ -105,7 +105,7 @@ python scripts/en_engine.py --mode sync     # dry-run preview
 
 **K — Commit early, publish through EXISTING workflow.** Push a small QA-ready EN manuscript/approved title to `main` only after review. A successful push-triggered `EN Writer QA (No WordPress Writes)` can trigger `EN Publisher` (subject to policy). GitHub Actions runs QA/publisher, **not** the AI writer: it will not spontaneously research or generate 478 article bodies. No external AI API keys are needed.
 
-**L — Continuous QA-gated publication (owner approved 2026-10-21).** The English publisher has no article-count or batch-count limit. Every ready original EN manuscript must pass QA ≥85, all hard gates, WordPress duplicate preflight and immutable ledger protection. GitHub runner time is a technical boundary: save progress and automatically dispatch the next serialized publisher run when the deadline approaches. No manual approval per 3 posts is required. Keep `min_words=1600`; do not touch VI.
+**L — Continuous QA-gated publication (owner approved 2026-10-21).** The English publisher has no article-count or batch-count limit. Every ready original EN manuscript must pass QA ≥76, all hard gates, WordPress duplicate preflight and immutable ledger protection. GitHub runner time is a technical boundary: save progress and automatically dispatch the next serialized publisher run when the deadline approaches. No manual approval per 3 posts is required. Keep `min_words=1600`; do not touch VI.
 
 **M — Verify LIVE.** The EN Publisher creates a WordPress draft, checks actual post slug (rejects if WordPress adds `excel-`), registers with VI-EN Core, publishes, checks WordPress post ID, English category ID, title, public URL `/en/{slug}/`, HTTP 200, English language marker, self canonical and normal-URL redirect; then writes `VERIFIED` to `data/en-publication-state.json`. **Only this combination counts as published.** Check Yoast sitemap where applicable.
 
@@ -145,7 +145,7 @@ python -m unittest discover -s tests -v
 | Slug contains `excel-` / `matrix-XX-` | BLOCK publication, correct future planned EN source only after duplicate check; **never rewrite an existing published permalink silently**. |
 | EN category missing or parent mismatch | BLOCK; verify WordPress term ID/ancestry; don't create random terms. |
 | Candidate duplicates a live or drafted EN post | SKIP and record; never POST again. |
-| QA <85 / <1,600 words | Repair draft in GitHub and rerun; don't weaken policy. |
+| QA <76 / <1,600 words | Repair draft in GitHub and rerun; don't weaken policy. |
 | WordPress draft rewrites slug | Keep draft, preserve ledger, reconcile safely; do not publish automatically. |
 | Ledger `POST_INTENT`, `DRAFT_CREATED`, `REGISTERED`, `VERIFY_PENDING` or `REGISTER_FAILED` | Investigate WordPress and Actions receipts before any retry; never erase checkpoint phases. |
 | Network dropped, quota exhausted | Commit what is validated, leave unfinished work unready, write checkpoint, stop; next session resumes from persistent state. |
@@ -154,7 +154,7 @@ python -m unittest discover -s tests -v
 
 ## 6. AI handoff — copy into a new chat if needed
 
-> Tiếp tục repo `thuexemayhanoi/wp-aiwriter`, LUỒNG TIẾNG ANH DUY NHẤT. Đọc `AGENTS.md`, `CLAUDE.md`, `docs/EN_478_AI_PLAYBOOK.md`, `docs/MENU_TAXONOMY_MAP_VI_EN.md`, `data/navigation-map.json`, `en/title-plan-478.csv`, `en/topics.json`, `en/publication-policy.json`, `data/en-publication-state.json` và `docs/EN_WRITER_CHECKPOINT.md`. Đối chiếu WP live và `en/posts/`, bỏ các bài đã VERIFIED, lấy tối đa 3 ID tiếp theo. Duyệt tiêu đề 60–80 ký tự theo intent; nếu dùng tiêu đề mới, phê duyệt và đồng bộ an toàn vào `en/topics.json`, giữ nguyên ID/slug/category. Nghiên cứu bài EN gốc 1.600–5.000 từ, QA ≥85, chống trùng; commit/push rồi theo dõi EN Publisher, chỉ ghi VERIFIED sau khi xác minh WP live. Không sửa VI, bài cũ, URL, canonical hoặc menu; không tạo slug `excel-`. Nếu rớt mạng/quota, ghi checkpoint và phiên sau tiếp tục từ ledger, không đăng lại. Báo cáo ngắn bằng tiếng Việt theo ID/QA/Post ID/URL/trạng thái.
+> Tiếp tục repo `thuexemayhanoi/wp-aiwriter`, LUỒNG TIẾNG ANH DUY NHẤT. Đọc `AGENTS.md`, `CLAUDE.md`, `docs/EN_478_AI_PLAYBOOK.md`, `docs/MENU_TAXONOMY_MAP_VI_EN.md`, `data/navigation-map.json`, `en/title-plan-478.csv`, `en/topics.json`, `en/publication-policy.json`, `data/en-publication-state.json` và `docs/EN_WRITER_CHECKPOINT.md`. Đối chiếu WP live và `en/posts/`, bỏ các bài đã VERIFIED, lấy tối đa 3 ID tiếp theo. Duyệt tiêu đề 60–80 ký tự theo intent; nếu dùng tiêu đề mới, phê duyệt và đồng bộ an toàn vào `en/topics.json`, giữ nguyên ID/slug/category. Nghiên cứu bài EN gốc 1.600–5.000 từ, QA ≥76, chống trùng; commit/push rồi theo dõi EN Publisher, chỉ ghi VERIFIED sau khi xác minh WP live. Không sửa VI, bài cũ, URL, canonical hoặc menu; không tạo slug `excel-`. Nếu rớt mạng/quota, ghi checkpoint và phiên sau tiếp tục từ ledger, không đăng lại. Báo cáo ngắn bằng tiếng Việt theo ID/QA/Post ID/URL/trạng thái.
 
 ## 7. Compact reporting after each pass
 

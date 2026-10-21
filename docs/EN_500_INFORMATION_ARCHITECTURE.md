@@ -62,7 +62,7 @@ The new pages have independent English HTML content and Yoast metadata already p
 ## English editorial pipeline
 
 - `en/topics.json` maintains 500 unique topics with stable IDs 1–500, unique slugs, and **only registered English category IDs**. Later topics are candidates until a separately researched English manuscript exists.
-- `en/publication-policy.json` controls English-only taxonomy, page pairs, batch size, verification and QA threshold. QA must be ≥85, and legal claims need official dated references. First 9 manuscripts retain their original category IDs.
+- `en/publication-policy.json` controls English-only taxonomy, page pairs, batch size, verification and QA threshold. QA must be ≥76, and legal claims need official dated references. First 9 manuscripts retain their original category IDs.
 - English posts are **original articles with their own search intent**, not translated Vietnamese articles. No automatic VI/EN article hreflang pairs unless a genuine authored content counterpart is explicitly registered.
 - `EN Writer QA` → `EN Publisher`: draft → register with VI/EN Core → publish → readback/SEO check; ledger ensures idempotency. Only QA-passing work may publish.
 - **Never** rewrite existing Vietnamese posts/slugs/canonicals or the existing Yoast sitemap. Never redirect broken English archives to the homepage. Unpopulated categories wait until original articles pass QA.

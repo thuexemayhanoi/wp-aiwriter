@@ -1,6 +1,6 @@
 # Claude / ChatGPT / AI writer — read before making any change
 
-> **EN 478 FAST HANDOFF:** Follow [`docs/EN_478_AI_PLAYBOOK.md`](docs/EN_478_AI_PLAYBOOK.md) from A to Z. Planning queue: `en/title-plan-478.csv` (478 rows). Publish source: `en/topics.json` (500 stable English topic IDs) + `en/posts/NNNN.md`. Check `data/en-publication-state.json` before each claim. `python scripts/en_title_plan.py --check` then `--next 3`; proposed 60–80-char titles are **not approved** until editorial review and explicit safe sync to `en/topics.json`. EN only, QA ≥85, 1,600–5,000 words, **EN Publisher has no article-count cap**, no per-three-post approval, no public `excel-` prefix. Resume from ledger/checkpoint, not conversational memory. Do not touch the VI writer.
+> **EN 478 FAST HANDOFF:** Follow [`docs/EN_478_AI_PLAYBOOK.md`](docs/EN_478_AI_PLAYBOOK.md) from A to Z. Planning queue: `en/title-plan-478.csv` (478 rows). Publish source: `en/topics.json` (500 stable English topic IDs) + `en/posts/NNNN.md`. Check `data/en-publication-state.json` before each claim. `python scripts/en_title_plan.py --check` then `--next 3`; proposed 60–80-char titles are **not approved** until editorial review and explicit safe sync to `en/topics.json`. EN only, QA ≥76, 1,600–5,000 words, **EN Publisher has no article-count cap**, no per-three-post approval, no public `excel-` prefix. Resume from ledger/checkpoint, not conversational memory. Do not touch the VI writer.
 
 
 
@@ -23,7 +23,7 @@
 - Identify the precise topic **ID**, search intent, language, destination **Term ID** or VI full `category_path` (including all parent terms) and relevant live hub links.
 - **Never mistake menu item IDs for Term IDs or Page IDs.** Don't infer taxonomy from visible menu labels, and don't equate English category archives with English hub *pages*.
 - The snapshot was read from WordPress on **2026-10-20**. If live taxonomy, menu, routes or page ownership differs, **BLOCK and report the mismatch**. Update map only after inspecting live WordPress and reviewing an explicit PR. Do **not** modify production to make it match the snapshot.
-- EN: author original English prose (not an auto-translation), **1,600–5,000 words** for new/revised content; QA **≥85**, unique intent and slug, valid sources, correct EN `category_id`, publisher **automatically drains every QA-ready article with no count limit**. Previously VERIFIED posts are immutable unless separately approved.
+- EN: author original English prose (not an auto-translation), **1,600–5,000 words** for new/revised content; QA **≥76**, unique intent and slug, valid sources, correct EN `category_id`, publisher **automatically drains every QA-ready article with no count limit**. Previously VERIFIED posts are immutable unless separately approved.
 - VI: maintain Excel Matrix's exact original title and `category_path`; do not rewrite original `data/topics.json`.
 - Protect existing slugs, canonical, menu URLs, Yoast sitemap, plugin VI/EN routes, parent taxonomy and published content. Never create hundreds of location terms or doorway pages merely to mirror menu labels.
 - Publication is **not finished** until WordPress readback + ledger `VERIFIED` confirm correct URL, language, category and content. Never duplicate an uncertain POST or erase the ledger to retry.

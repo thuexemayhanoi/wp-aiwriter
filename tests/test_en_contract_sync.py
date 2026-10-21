@@ -18,7 +18,7 @@ class EnglishPublicationContract(unittest.TestCase):
         policy = json.loads(read("en/publication-policy.json"))
         self.assertNotIn("batch_size", policy)
         self.assertNotIn("max_batches_per_run", policy)
-        self.assertGreaterEqual(policy["min_score"], 85)
+        self.assertEqual(policy["min_score"], 76)
         self.assertGreaterEqual(policy["min_words"], 1600)
         self.assertTrue(policy["require_live_routes"])
 
