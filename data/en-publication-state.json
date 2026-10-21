@@ -1226,10 +1226,11 @@
       "title": "Choosing a Scooter for a Passenger and Two Backpacks",
       "slug": "choosing-a-scooter-for-a-passenger-and-two-backpacks",
       "source_hash": "f0e5740465674d549ad974ca87a6eda75fa947d2b4f7125753f0c4ed832ed366",
-      "checked_at": "2026-10-21T15:35:03.370483+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 50
+      "checked_at": "2026-10-21T15:35:06.462928+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 50,
+      "wp_id": 2074
     }
   },
-  "updated_at": "2026-10-21T15:35:03.370492+00:00"
+  "updated_at": "2026-10-21T15:35:06.462944+00:00"
 }
