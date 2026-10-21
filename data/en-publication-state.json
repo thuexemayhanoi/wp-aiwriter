@@ -2832,11 +2832,13 @@
       "title": "Electric Scooter Rentals for Short Errands in Hanoi",
       "slug": "electric-scooter-rentals-for-short-errands-in-hanoi",
       "source_hash": "2f019e697ed0aa5a4f7ba4a3298a4ce1f5b890ed511c6c8f4acaa88568af0291",
-      "checked_at": "2026-10-21T16:15:22.332576+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:15:27.001967+00:00",
+      "phase": "VERIFIED",
       "category_id": 52,
-      "wp_id": 2366
+      "wp_id": 2366,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/electric-scooter-rentals-for-short-errands-in-hanoi/"
     }
   },
-  "updated_at": "2026-10-21T16:15:22.332597+00:00"
+  "updated_at": "2026-10-21T16:15:27.001988+00:00"
 }
