@@ -2018,11 +2018,13 @@
       "title": "Checking the Engine Capacity on a 50cc Rental",
       "slug": "checking-the-engine-capacity-on-a-50cc-rental",
       "source_hash": "914741658d5deb7d27f45ea234f7515a5e4c204dfeac918a6f960a3754a3dc13",
-      "checked_at": "2026-10-21T15:54:46.192300+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:54:50.840579+00:00",
+      "phase": "VERIFIED",
       "category_id": 51,
-      "wp_id": 2218
+      "wp_id": 2218,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/checking-the-engine-capacity-on-a-50cc-rental/"
     }
   },
-  "updated_at": "2026-10-21T15:54:46.192319+00:00"
+  "updated_at": "2026-10-21T15:54:50.840598+00:00"
 }
