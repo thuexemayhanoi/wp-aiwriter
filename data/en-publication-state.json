@@ -4504,11 +4504,13 @@
       "title": "How to Ask for an Extension on a Motorbike Rental",
       "slug": "how-to-ask-for-an-extension-on-a-motorbike-rental",
       "source_hash": "4cf1626077074f0d68a7ee6240c7d0c88226cdd05b1dd9af672b26e049c76dfe",
-      "checked_at": "2026-10-21T16:58:27.057616+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:58:31.690130+00:00",
+      "phase": "VERIFIED",
       "category_id": 55,
-      "wp_id": 2671
+      "wp_id": 2671,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-ask-for-an-extension-on-a-motorbike-rental/"
     }
   },
-  "updated_at": "2026-10-21T16:58:27.057638+00:00"
+  "updated_at": "2026-10-21T16:58:31.690149+00:00"
 }
