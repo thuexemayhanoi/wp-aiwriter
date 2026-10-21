@@ -1380,11 +1380,13 @@
       "title": "How to Carry Shopping Safely on an Automatic Scooter",
       "slug": "how-to-carry-shopping-safely-on-an-automatic-scooter",
       "source_hash": "3b6c324d1e14bc2de1f4bf28c9a75f8da34f0ade97c591df0a1369f6e2e1093a",
-      "checked_at": "2026-10-21T15:39:10.361729+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:39:15.085547+00:00",
+      "phase": "VERIFIED",
       "category_id": 50,
-      "wp_id": 2102
+      "wp_id": 2102,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-carry-shopping-safely-on-an-automatic-scooter/"
     }
   },
-  "updated_at": "2026-10-21T15:39:10.361747+00:00"
+  "updated_at": "2026-10-21T15:39:15.085565+00:00"
 }
