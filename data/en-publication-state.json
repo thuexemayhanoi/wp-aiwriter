@@ -1419,7 +1419,15 @@
       "wp_id": 2108,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/what-to-do-when-a-rental-scooter-will-not-start/"
+    },
+    "131": {
+      "title": "Checking a Scooter's Fuel Gauge before a Longer Journey",
+      "slug": "checking-a-scooters-fuel-gauge-before-a-longer-journey",
+      "source_hash": "46ceb83bcb70e697480a1f1ac8fd2caf945b1b3f84eb8b22ab21c1a17b49664d",
+      "checked_at": "2026-10-21T15:40:13.723423+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 50
     }
   },
-  "updated_at": "2026-10-21T15:40:06.304819+00:00"
+  "updated_at": "2026-10-21T15:40:13.723431+00:00"
 }
