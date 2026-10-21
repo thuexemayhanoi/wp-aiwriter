@@ -2722,11 +2722,13 @@
       "title": "Electric Bike versus Petrol Scooter for a Daily Commute",
       "slug": "electric-bike-versus-petrol-scooter-for-a-daily-commute",
       "source_hash": "2a47503a901b213758365c15ee9f4010f09bc6dd264fa50a3ce23202f9a94b15",
-      "checked_at": "2026-10-21T16:12:53.270920+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:12:58.134714+00:00",
+      "phase": "VERIFIED",
       "category_id": 52,
-      "wp_id": 2346
+      "wp_id": 2346,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/electric-bike-versus-petrol-scooter-for-a-daily-commute/"
     }
   },
-  "updated_at": "2026-10-21T16:12:53.270939+00:00"
+  "updated_at": "2026-10-21T16:12:58.134732+00:00"
 }
