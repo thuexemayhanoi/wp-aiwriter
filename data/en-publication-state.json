@@ -4345,7 +4345,15 @@
       "wp_id": 2641,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/what-to-send-the-rental-shop-before-pickup/"
+    },
+    "396": {
+      "title": "How a 24-Hour Rental Day Is Counted in Hanoi",
+      "slug": "how-a-24-hour-rental-day-is-counted-in-hanoi",
+      "source_hash": "01074f9a073be8983a896bee98b78ef3432260e067575ba8e63ea73ccf062076",
+      "checked_at": "2026-10-21T16:54:37.750361+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 55
     }
   },
-  "updated_at": "2026-10-21T16:54:35.922204+00:00"
+  "updated_at": "2026-10-21T16:54:37.750369+00:00"
 }
