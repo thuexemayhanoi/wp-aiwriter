@@ -3855,11 +3855,13 @@
       "title": "Hanoi to Hoa Binh City by Motorbike: Rider Preparation",
       "slug": "hanoi-to-hoa-binh-city-by-motorbike-rider-preparation",
       "source_hash": "fe15b2c3775d2eba0529c7efe3e5d97a46377c141d84cb252fed567b4f3f313e",
-      "checked_at": "2026-10-21T16:42:23.126954+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:42:28.916068+00:00",
+      "phase": "VERIFIED",
       "category_id": 54,
-      "wp_id": 2552
+      "wp_id": 2552,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/hanoi-to-hoa-binh-city-by-motorbike-rider-preparation/"
     }
   },
-  "updated_at": "2026-10-21T16:42:23.126969+00:00"
+  "updated_at": "2026-10-21T16:42:28.916082+00:00"
 }
