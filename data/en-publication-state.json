@@ -2332,7 +2332,15 @@
       "wp_id": 2274,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/50cc-bike-versus-electric-bicycle-for-new-riders/"
+    },
+    "209": {
+      "title": "50cc Petrol Bike versus Electric Moped: What Changes?",
+      "slug": "50cc-petrol-bike-versus-electric-moped-what-changes",
+      "source_hash": "6ec5e5474a62ae0ceae7c19f324372ac2d7e7c6ffad676ac8c60a20c146aaf47",
+      "checked_at": "2026-10-21T16:02:54.650012+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 51
     }
   },
-  "updated_at": "2026-10-21T16:02:52.831948+00:00"
+  "updated_at": "2026-10-21T16:02:54.650021+00:00"
 }
