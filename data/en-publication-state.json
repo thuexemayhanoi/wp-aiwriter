@@ -2051,11 +2051,13 @@
       "title": "Tyre Checks on Lightweight 50cc Scooters",
       "slug": "tyre-checks-on-lightweight-50cc-scooters",
       "source_hash": "ad2b705d41c46497be3f022318c66dc07b15ab5fe0688a4735d889ef3ea506ce",
-      "checked_at": "2026-10-21T15:55:31.809259+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:55:37.013307+00:00",
+      "phase": "VERIFIED",
       "category_id": 51,
-      "wp_id": 2224
+      "wp_id": 2224,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/tyre-checks-on-lightweight-50cc-scooters/"
     }
   },
-  "updated_at": "2026-10-21T15:55:31.809277+00:00"
+  "updated_at": "2026-10-21T15:55:37.013326+00:00"
 }
