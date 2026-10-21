@@ -1083,11 +1083,13 @@
       "title": "How to Avoid Lurching When Changing Gears",
       "slug": "how-to-avoid-lurching-when-changing-gears",
       "source_hash": "a58b9fe4276fe51239bfc8ced32bcb8b1135ede8170382a51b8a049ddce399c3",
-      "checked_at": "2026-10-21T15:09:51.887039+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T15:09:56.904038+00:00",
+      "phase": "VERIFIED",
       "category_id": 49,
-      "wp_id": 2048
+      "wp_id": 2048,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-avoid-lurching-when-changing-gears/"
     }
   },
-  "updated_at": "2026-10-21T15:09:51.887056+00:00"
+  "updated_at": "2026-10-21T15:09:56.904056+00:00"
 }
