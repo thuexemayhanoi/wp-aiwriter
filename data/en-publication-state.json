@@ -1655,10 +1655,11 @@
       "title": "Why a Scooter Pulls to One Side during a Test Ride",
       "slug": "why-a-scooter-pulls-to-one-side-during-a-test-ride",
       "source_hash": "11555eda3aeccef227ae7f134a94a32c6d9ef603abf789e9f78e82f62a2bbcd1",
-      "checked_at": "2026-10-21T15:46:24.043874+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 50
+      "checked_at": "2026-10-21T15:46:26.300310+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 50,
+      "wp_id": 2152
     }
   },
-  "updated_at": "2026-10-21T15:46:24.043885+00:00"
+  "updated_at": "2026-10-21T15:46:26.300333+00:00"
 }
