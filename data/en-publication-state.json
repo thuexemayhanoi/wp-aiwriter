@@ -2321,7 +2321,15 @@
       "wp_id": 2272,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/50cc-rental-for-a-short-visit-to-long-bien/"
+    },
+    "208": {
+      "title": "50cc Bike versus Electric Bicycle for New Riders",
+      "slug": "50cc-bike-versus-electric-bicycle-for-new-riders",
+      "source_hash": "fa79e1d105b67682d2dba9b3f67475be5e827ff64485b3defce6a800265f336d",
+      "checked_at": "2026-10-21T16:02:39.828918+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 51
     }
   },
-  "updated_at": "2026-10-21T16:02:38.155959+00:00"
+  "updated_at": "2026-10-21T16:02:39.828927+00:00"
 }
