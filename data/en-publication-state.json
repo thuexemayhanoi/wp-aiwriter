@@ -2354,7 +2354,15 @@
       "wp_id": 2278,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-check-a-50cc-bikes-mirrors-and-horn/"
+    },
+    "211": {
+      "title": "Road Signs 50cc Riders Should Recognise in Hanoi",
+      "slug": "road-signs-50cc-riders-should-recognise-in-hanoi",
+      "source_hash": "f6b82ec282a533f333f116c28d99932c871dead94e76b66353560fe262ac1c98",
+      "checked_at": "2026-10-21T16:03:25.655422+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 51
     }
   },
-  "updated_at": "2026-10-21T16:03:23.732480+00:00"
+  "updated_at": "2026-10-21T16:03:25.655430+00:00"
 }
