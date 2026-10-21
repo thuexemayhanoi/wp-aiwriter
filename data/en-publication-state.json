@@ -2964,11 +2964,13 @@
       "title": "Electric Bike Range versus Real Riding Conditions",
       "slug": "electric-bike-range-versus-real-riding-conditions",
       "source_hash": "d4ebd2b2cdbd22c6a199770621e332aa98860470eaeffe3ed4d6f15e38a73639",
-      "checked_at": "2026-10-21T16:18:30.083072+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:18:35.056008+00:00",
+      "phase": "VERIFIED",
       "category_id": 52,
-      "wp_id": 2390
+      "wp_id": 2390,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/electric-bike-range-versus-real-riding-conditions/"
     }
   },
-  "updated_at": "2026-10-21T16:18:30.083092+00:00"
+  "updated_at": "2026-10-21T16:18:35.056029+00:00"
 }
