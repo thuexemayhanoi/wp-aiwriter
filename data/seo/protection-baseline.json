@@ -8811,6 +8811,72 @@
    "url": "https://blog.rentbikehanoi.com/en/paying-fuel-parking-tolls-hanoi-visitor/",
    "word_count": 2689
   },
+  "1944": {
+   "canonical": "https://blog.rentbikehanoi.com/en/how-to-ride-a-semi-automatic-honda-wave/",
+   "categories": [
+    49
+   ],
+   "content_sha256": "b671a468c957ad345af52ee258f7537f98b64310acb32d99614ef1d44ef41af5",
+   "final_url": "https://blog.rentbikehanoi.com/en/how-to-ride-a-semi-automatic-honda-wave/",
+   "first_seen": "2026-10-21T10:53:05Z",
+   "h1": "Semi-Automatic Bikes Explained: How to Ride a Honda Wave Without a Clutch",
+   "http_status": 200,
+   "jsonld_types": [
+    "Article",
+    "BreadcrumbList",
+    "EntryPoint",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Person",
+    "PropertyValueSpecification",
+    "ReadAction",
+    "SearchAction",
+    "WebPage",
+    "WebSite"
+   ],
+   "modified_gmt": "2026-10-21T10:17:53",
+   "noindex": false,
+   "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+   "slug": "how-to-ride-a-semi-automatic-honda-wave",
+   "title": "Semi-Automatic Bikes Explained: How to Ride a Honda Wave Without a Clutch",
+   "type": "post",
+   "url": "https://blog.rentbikehanoi.com/en/how-to-ride-a-semi-automatic-honda-wave/",
+   "word_count": 1962
+  },
+  "1946": {
+   "canonical": "https://blog.rentbikehanoi.com/en/hanoi-street-food-loop-by-scooter/",
+   "categories": [
+    53
+   ],
+   "content_sha256": "762eddd60b1bbf78c1a3a841e3b4251ae72dc1b35f789b3aefc10906a9775f12",
+   "final_url": "https://blog.rentbikehanoi.com/en/hanoi-street-food-loop-by-scooter/",
+   "first_seen": "2026-10-21T10:53:05Z",
+   "h1": "Hanoi Street Food by Scooter: A Loop That Avoids the Worst Traffic",
+   "http_status": 200,
+   "jsonld_types": [
+    "Article",
+    "BreadcrumbList",
+    "EntryPoint",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Person",
+    "PropertyValueSpecification",
+    "ReadAction",
+    "SearchAction",
+    "WebPage",
+    "WebSite"
+   ],
+   "modified_gmt": "2026-10-21T10:18:08",
+   "noindex": false,
+   "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+   "slug": "hanoi-street-food-loop-by-scooter",
+   "title": "Hanoi Street Food by Scooter: A Loop That Avoids the Worst Traffic",
+   "type": "post",
+   "url": "https://blog.rentbikehanoi.com/en/hanoi-street-food-loop-by-scooter/",
+   "word_count": 2139
+  },
   "20": {
    "canonical": "https://blog.rentbikehanoi.com/khu-vuc/",
    "categories": [],
@@ -19346,6 +19412,6 @@
   "sitemap_url": "https://blog.rentbikehanoi.com/sitemap_index.xml",
   "sitemap_urls": 549
  },
- "updated_at": "2026-10-21T10:08:21Z",
+ "updated_at": "2026-10-21T10:53:05Z",
  "version": 1
 }
