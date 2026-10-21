@@ -4471,11 +4471,13 @@
       "title": "How to Confirm the Exact Model You Will Receive",
       "slug": "how-to-confirm-the-exact-model-you-will-receive",
       "source_hash": "ef01df4ce74d8cf4f721195c3b5fa188bd4fa374381837296fdb8584dd4e7cf5",
-      "checked_at": "2026-10-21T16:57:43.845882+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:57:48.528822+00:00",
+      "phase": "VERIFIED",
       "category_id": 55,
-      "wp_id": 2665
+      "wp_id": 2665,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-confirm-the-exact-model-you-will-receive/"
     }
   },
-  "updated_at": "2026-10-21T16:57:43.845902+00:00"
+  "updated_at": "2026-10-21T16:57:48.528842+00:00"
 }
