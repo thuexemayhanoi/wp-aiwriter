@@ -3729,7 +3729,15 @@
       "wp_id": 2528,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/riding-through-hanoi-during-large-cultural-events/"
+    },
+    "339": {
+      "title": "Hanoi to Bac Ninh by Motorbike: Cultural Stops and Road Planning",
+      "slug": "hanoi-to-bac-ninh-by-motorbike-cultural-stops-and-road-planning",
+      "source_hash": "9dba167fad927aa2c4c43db11d1d6c594f9a15cd3241e1c1ae0cef97ffacb062",
+      "checked_at": "2026-10-21T16:39:28.490708+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 54
     }
   },
-  "updated_at": "2026-10-21T16:39:26.790197+00:00"
+  "updated_at": "2026-10-21T16:39:28.490717+00:00"
 }
