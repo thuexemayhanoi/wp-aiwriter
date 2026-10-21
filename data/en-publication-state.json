@@ -4207,11 +4207,13 @@
       "title": "How to Combine Co Loa and Bat Trang without Rushing",
       "slug": "how-to-combine-co-loa-and-bat-trang-without-rushing",
       "source_hash": "5a451b95b60973b518e77e5653b8b24909b1504aae2a185da287e901c83f45e0",
-      "checked_at": "2026-10-21T16:51:24.762950+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-21T16:51:29.381698+00:00",
+      "phase": "VERIFIED",
       "category_id": 54,
-      "wp_id": 2617
+      "wp_id": 2617,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-combine-co-loa-and-bat-trang-without-rushing/"
     }
   },
-  "updated_at": "2026-10-21T16:51:24.762969+00:00"
+  "updated_at": "2026-10-21T16:51:29.381717+00:00"
 }
