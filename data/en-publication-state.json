@@ -616,7 +616,15 @@
       "wp_id": 1962,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/honda-winner-x-yamaha-exciter-manual-rental/"
+    },
+    "48": {
+      "title": "Returning Your Rental Motorbike in Hanoi: Fuel, Damage Checks and Deposits",
+      "slug": "returning-your-rental-motorbike-hanoi",
+      "source_hash": "50039df8d2f5e4bae31d2bad432e0d9ea54d273c7712c09835f1ca1ceab7f0a0",
+      "checked_at": "2026-10-21T14:16:58.112608+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 55
     }
   },
-  "updated_at": "2026-10-21T14:16:56.480389+00:00"
+  "updated_at": "2026-10-21T14:16:58.112616+00:00"
 }
