@@ -1380,10 +1380,11 @@
       "title": "How to Carry Shopping Safely on an Automatic Scooter",
       "slug": "how-to-carry-shopping-safely-on-an-automatic-scooter",
       "source_hash": "3b6c324d1e14bc2de1f4bf28c9a75f8da34f0ade97c591df0a1369f6e2e1093a",
-      "checked_at": "2026-10-21T15:39:01.338629+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 50
+      "checked_at": "2026-10-21T15:39:04.381451+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 50,
+      "wp_id": 2102
     }
   },
-  "updated_at": "2026-10-21T15:39:01.338637+00:00"
+  "updated_at": "2026-10-21T15:39:04.381467+00:00"
 }
