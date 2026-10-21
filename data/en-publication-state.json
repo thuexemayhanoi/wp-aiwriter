@@ -346,10 +346,11 @@
       "title": "Hanoi to Tam Dao by Motorbike: The Closest Mountain Ride to the City",
       "slug": "hanoi-to-tam-dao-by-motorbike",
       "source_hash": "5a45d3f469d336d59c208ce4388b7fd0098817629209241545f46412ff868150",
-      "checked_at": "2026-10-21T04:15:35.187534+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 54
+      "checked_at": "2026-10-21T04:15:37.451969+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 54,
+      "wp_id": 1914
     }
   },
-  "updated_at": "2026-10-21T04:15:35.187546+00:00"
+  "updated_at": "2026-10-21T04:15:37.451988+00:00"
 }
