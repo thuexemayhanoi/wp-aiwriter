@@ -1,3 +1,19 @@
+# EN WRITER RELEASE CHECKPOINT — 2026-10-21 · IDs 16, 19, 20 · 3/3 VERIFIED
+
+> Verified release receipt. On resume, read the current ledger and WordPress before trusting these counts; never retry a published or unresolved post.
+
+- Scope: EN only → `https://blog.rentbikehanoi.com/en/`. Repo HEAD before: `26af875`; source commit `9d730ddc57ccdac4804bdee502c9c05e03244b2f`; QA run `39540805667`; publisher run `39540863786` (success).
+- **EN-0016** `en/posts/0016.md` · `Fuel in Hanoi: Petrol Stations, Prices and Filling Up a Rental Scooter` · term **55** Rental Tips & Paperwork (parent **48**) · **QA 96/100** (-4 title length), 1,925 words · WordPress **1907**, **VERIFIED/publish**: https://blog.rentbikehanoi.com/en/fuel-in-hanoi-petrol-stations-rental-scooter/
+- **EN-0019** `en/posts/0019.md` · `Honda Lead and Vision for Two Riders: Carrying a Passenger and Luggage` · term **65** Honda & Yamaha Comparisons (parent **46**) · **QA 96/100** (-4 title length), 2,021 words · WordPress **1909**, **VERIFIED/publish**: https://blog.rentbikehanoi.com/en/scooter-for-two-riders-and-luggage-hanoi/ — intent kept distinct from EN-0002 (solo Vision vs Air Blade).
+- **EN-0020** `en/posts/0020.md` · `Riding in Hanoi Rain: Season, Gear and the Streets That Flood` · term **56** Road Rules & Rider Safety (parent **48**) · **QA 100/100**, 1,979 words · WordPress **1911**, **VERIFIED/publish**: https://blog.rentbikehanoi.com/en/riding-in-hanoi-rain/
+- Title decision: original `en/topics.json` titles used verbatim (CSV proposals for 16/19/20 identical to the originals → `SYNCED`).
+- Facts/legal basis: Circular 50/2025/TT-BCT (E10 nationwide from 1 Jun 2026, E5 RON 92 to end-2030), Resolution 55/NQ-CP (19 Mar 2026), Decree 70/2025/ND-CP e-invoices; Law 36/2024/QH15 Art. 20 (lights in rain) and Art. 33 (one passenger, bulky items); Decree 168/2024/ND-CP Art. 7 (lights VND 200,000–400,000, umbrella VND 800,000–1,000,000, extra passenger VND 400,000–600,000); Hanoi 2026 flood plan (up to 220 points). No pump prices quoted (weekly-changing; QA amount gate). Fuel rules only from `en/business.json`.
+- Local checks before push: `unittest` 130 OK; `en_title_plan.py --check` OK; `en_engine.py --mode qa` 0 errors; sync dry-run 0 errors. Live duplicate preflight done by the publisher (container cannot reach the blog).
+- Durable state: `data/en-publication-state.json` = **31 VERIFIED English posts**.
+- Next candidates (re-check before claiming): **23, 24, 25** (Tam Dao, Ba Vi, Ha Giang). Policy unchanged: 3 per run.
+
+---
+
 # EN WRITER RELEASE CHECKPOINT — 2026-10-20 (2nd batch) · IDs 13, 14, 15 · 3/3 VERIFIED
 
 > Verified release receipt. On resume, read the current ledger and WordPress before trusting these counts; never retry a published or unresolved post.
