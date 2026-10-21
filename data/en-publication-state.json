@@ -3987,10 +3987,11 @@
       "title": "Hanoi to Phat Diem Cathedral by Scooter: A Longer Day Plan",
       "slug": "hanoi-to-phat-diem-cathedral-by-scooter-a-longer-day-plan",
       "source_hash": "cf7fc92379cad6d78d49b0dfec6f19d87516bdd659e3f56f5a6ce8fcb9f4d309",
-      "checked_at": "2026-10-21T16:45:41.511610+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 54
+      "checked_at": "2026-10-21T16:45:45.135349+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 54,
+      "wp_id": 2577
     }
   },
-  "updated_at": "2026-10-21T16:45:41.511618+00:00"
+  "updated_at": "2026-10-21T16:45:45.135362+00:00"
 }
