@@ -1,0 +1,36 @@
+name: Nguyen Ha VI 333 Redirect Audit (read-only)
+# Owner-approved one-time live audit. No secrets, WP mutations or scheduled jobs.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/vi_redirect_audit.py'
+      - 'tests/test_vi_redirect_audit.py'
+      - '.github/workflows/vi-redirect-audit.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: nguyen-ha-vi-redirect-audit
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify manifest and audit logic offline
+        run: python -m unittest tests.test_vi_redirect_audit -v
+      - name: Audit all 333 redirects and destination canonicals
+        run: python scripts/vi_redirect_audit.py --workers 5
+      - name: Preserve per-URL results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: vi-333-redirect-audit-${{ github.run_id }}
+          path: reports/seo/vi-redirect-audit.json
+          if-no-files-found: ignore
+          retention-days: 30
