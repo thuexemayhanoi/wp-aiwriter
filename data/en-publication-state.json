@@ -5093,7 +5093,15 @@
       "wp_id": 3390,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/why-motorbike-headlight-alignment-matters-at-night/"
+    },
+    "464": {
+      "title": "Checking Mirrors and Blind Spots before Changing Lanes",
+      "slug": "checking-mirrors-and-blind-spots-before-changing-lanes",
+      "source_hash": "9da9979991ef692a4eead3605f0f55212b00a0d9e405de0e13d580b9d5193236",
+      "checked_at": "2026-10-22T10:29:09.957231+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 56
     }
   },
-  "updated_at": "2026-10-22T10:07:53.378325+00:00"
+  "updated_at": "2026-10-22T10:29:09.957243+00:00"
 }
