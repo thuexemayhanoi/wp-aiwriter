@@ -5164,10 +5164,11 @@
       "title": "What to Do if a Traffic Officer Stops Your Motorbike",
       "slug": "what-to-do-if-a-traffic-officer-stops-your-motorbike",
       "source_hash": "2d0971147984eab6e44b2f65c76296cea7922ac2b0054cd8c66109915820d903",
-      "checked_at": "2026-10-22T10:30:38.783535+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 56
+      "checked_at": "2026-10-22T10:30:41.145263+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 56,
+      "wp_id": 3404
     }
   },
-  "updated_at": "2026-10-22T10:30:38.783543+00:00"
+  "updated_at": "2026-10-22T10:30:41.145279+00:00"
 }
