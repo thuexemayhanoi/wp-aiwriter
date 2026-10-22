@@ -4834,11 +4834,11 @@
       "title": "When a Rental Motorbike Can Be Exchanged for Another",
       "slug": "when-a-rental-motorbike-can-be-exchanged-for-another",
       "source_hash": "a6b26ac34e1cdec4a53f8ba9284bb62d81f60eb882509c0de58d571e071846e7",
-      "checked_at": "2026-10-22T03:54:28.682568+00:00",
-      "phase": "REGISTERED",
+      "checked_at": "2026-10-22T03:54:30.724853+00:00",
+      "phase": "VERIFY_PENDING",
       "category_id": 55,
       "wp_id": 2733
     }
   },
-  "updated_at": "2026-10-22T03:54:28.682585+00:00"
+  "updated_at": "2026-10-22T03:54:30.724872+00:00"
 }
