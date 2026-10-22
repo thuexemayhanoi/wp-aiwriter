@@ -4900,10 +4900,11 @@
       "title": "Rented Motorbike Accessories: Helmet, Mirrors and Phone Holder",
       "slug": "rented-motorbike-accessories-helmet-mirrors-and-phone-holder",
       "source_hash": "37a936a40ce6b4f514b4a9761b5877fa07f8d58a65736b82bf7f86c8fe5ee3a8",
-      "checked_at": "2026-10-22T04:16:58.660891+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 55
+      "checked_at": "2026-10-22T04:17:01.108095+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 55,
+      "wp_id": 2745
     }
   },
-  "updated_at": "2026-10-22T04:16:58.660899+00:00"
+  "updated_at": "2026-10-22T04:17:01.108115+00:00"
 }
