@@ -5115,7 +5115,15 @@
       "wp_id": 3394,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/signalling-turns-while-keeping-control-of-a-scooter/"
+    },
+    "466": {
+      "title": "How to Ride beside Heavy Trucks in Hanoi",
+      "slug": "how-to-ride-beside-heavy-trucks-in-hanoi",
+      "source_hash": "cd416a7872c62e3f5c35d22baadeca507dd7db19633c1fc4b6a8bd93a89d9d8b",
+      "checked_at": "2026-10-22T10:29:39.564621+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 56
     }
   },
-  "updated_at": "2026-10-22T10:29:37.828416+00:00"
+  "updated_at": "2026-10-22T10:29:39.564628+00:00"
 }
