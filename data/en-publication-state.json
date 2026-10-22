@@ -5192,7 +5192,15 @@
       "wp_id": 3408,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-check-which-roads-restrict-motorbikes/"
+    },
+    "473": {
+      "title": "Understanding Prohibited Vehicle Symbols on Vietnamese Signs",
+      "slug": "understanding-prohibited-vehicle-symbols-on-vietnamese-signs",
+      "source_hash": "a49286aa178fdc5d4e637b6a8aa0bb1c817d6a96eb2cc2a173e2447197ab46f4",
+      "checked_at": "2026-10-22T10:31:22.098207+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 56
     }
   },
-  "updated_at": "2026-10-22T10:31:20.298363+00:00"
+  "updated_at": "2026-10-22T10:31:22.098216+00:00"
 }
