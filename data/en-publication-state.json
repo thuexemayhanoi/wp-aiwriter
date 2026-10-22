@@ -4988,11 +4988,13 @@
       "title": "Passing Parked Cars without Entering Oncoming Traffic",
       "slug": "passing-parked-cars-without-entering-oncoming-traffic",
       "source_hash": "1d255abcf1e4ea3f203ef943e31be2476ee5394d52afcca8526cd98725c19291",
-      "checked_at": "2026-10-22T10:03:22.120128+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T10:03:26.804865+00:00",
+      "phase": "VERIFIED",
       "category_id": 68,
-      "wp_id": 3372
+      "wp_id": 3372,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/passing-parked-cars-without-entering-oncoming-traffic/"
     }
   },
-  "updated_at": "2026-10-22T10:03:22.120148+00:00"
+  "updated_at": "2026-10-22T10:03:26.804885+00:00"
 }
