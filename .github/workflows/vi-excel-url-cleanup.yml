@@ -1,0 +1,47 @@
+name: Approved VI Excel Internal-Link Cleanup
+# One-time 2026-10-22 owner-approved migration. WordPress content URLs only.
+# QA/dry-run first; live change uses the site's existing Publisher secrets.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/vi_excel_url_cleanup.py'
+      - '.github/workflows/vi-excel-url-cleanup.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: vi-excel-url-cleanup
+  cancel-in-progress: false
+jobs:
+  migrate:
+    if: github.repository == 'thuexemayhanoi/wp-aiwriter'
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - name: Unit tests and immutable identifier checks
+        run: python -m unittest tests.test_vi_excel_url_cleanup -v
+      - name: WordPress read-only preflight
+        env:
+          WP_USERNAME: ${{ secrets.WP_USERNAME || secrets.WP_USER }}
+          WP_APPLICATION_PASSWORD: ${{ secrets.WP_APPLICATION_PASSWORD }}
+        run: python scripts/vi_excel_url_cleanup.py --dry-run
+      - name: Replace only registered old VI internal links
+        env:
+          WP_USERNAME: ${{ secrets.WP_USERNAME || secrets.WP_USER }}
+          WP_APPLICATION_PASSWORD: ${{ secrets.WP_APPLICATION_PASSWORD }}
+        run: python scripts/vi_excel_url_cleanup.py --apply
+      - name: Store detailed results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: vi-excel-url-cleanup-${{ github.run_id }}
+          path: reports/vi-excel-url-cleanup.json
+          if-no-files-found: ignore
