@@ -4763,7 +4763,15 @@
       "wp_id": 2719,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-plan-a-rental-pickup-from-gia-lam-bus-station/"
+    },
+    "434": {
+      "title": "Comparing Two Rental Quotes for the Same Motorbike Class",
+      "slug": "comparing-two-rental-quotes-for-the-same-motorbike-class",
+      "source_hash": "e8e274cb0e18b1ab0559a97a3e05ce6657594d968cd107b8b60c65c4739c1aa4",
+      "checked_at": "2026-10-22T03:53:03.735010+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 55
     }
   },
-  "updated_at": "2026-10-22T03:46:00.649939+00:00"
+  "updated_at": "2026-10-22T03:53:03.735023+00:00"
 }
