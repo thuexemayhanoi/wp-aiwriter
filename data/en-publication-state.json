@@ -5142,10 +5142,11 @@
       "title": "Where to Stop Safely after a Motorbike Breaks Down",
       "slug": "where-to-stop-safely-after-a-motorbike-breaks-down",
       "source_hash": "e463da8aaad9552d67f25728352f9e7cebb72fe844439ef0f4bec821e4fe0fd9",
-      "checked_at": "2026-10-22T10:30:09.230518+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 56
+      "checked_at": "2026-10-22T10:30:11.778121+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 56,
+      "wp_id": 3400
     }
   },
-  "updated_at": "2026-10-22T10:30:09.230527+00:00"
+  "updated_at": "2026-10-22T10:30:11.778135+00:00"
 }
