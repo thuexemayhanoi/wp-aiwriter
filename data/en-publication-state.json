@@ -4999,11 +4999,13 @@
       "title": "Opening Car Doors: A Hazard for Scooter Riders",
       "slug": "opening-car-doors-a-hazard-for-scooter-riders",
       "source_hash": "4f0e6d230f91893356dc0e1203bd5af18176e8e44684605450dcd2e76e120b12",
-      "checked_at": "2026-10-22T10:03:35.461235+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T10:03:40.150304+00:00",
+      "phase": "VERIFIED",
       "category_id": 56,
-      "wp_id": 3374
+      "wp_id": 3374,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/opening-car-doors-a-hazard-for-scooter-riders/"
     }
   },
-  "updated_at": "2026-10-22T10:03:35.461264+00:00"
+  "updated_at": "2026-10-22T10:03:40.150324+00:00"
 }
