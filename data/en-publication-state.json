@@ -4669,11 +4669,13 @@
       "title": "What to Do after a Minor Collision on a Rental Scooter",
       "slug": "what-to-do-after-a-minor-collision-on-a-rental-scooter",
       "source_hash": "114cafdf73812c225f93429b40142ce125f53600745585441c9d8fd24715bb1c",
-      "checked_at": "2026-10-22T03:44:16.765984+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T03:44:20.770492+00:00",
+      "phase": "VERIFIED",
       "category_id": 55,
-      "wp_id": 2703
+      "wp_id": 2703,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/what-to-do-after-a-minor-collision-on-a-rental-scooter/"
     }
   },
-  "updated_at": "2026-10-22T03:44:16.765998+00:00"
+  "updated_at": "2026-10-22T03:44:20.770505+00:00"
 }
