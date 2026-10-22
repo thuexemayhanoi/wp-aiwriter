@@ -12,6 +12,7 @@ Exit codes: 0 clean, 1 drift/violation, 2 no baseline yet, 3 the live site could
 """
 import argparse
 import collections
+import functools
 import os
 import sys
 
@@ -80,8 +81,19 @@ def repo_guard(ledger, ready, topics, baseline=None):
     return out
 
 
+@functools.lru_cache(maxsize=1)
+def approved_vi_slug_migrations():
+    """Owner-approved legacy VI URL redirects; protects unmodified source prose."""
+    doc = sc.read_json(sc.DATA_DIR / 'vi-excel-slug-migrations.json') or {}
+    posts = doc.get('posts', {})
+    if posts and len(posts) != 333:
+        raise ValueError('Incomplete approved legacy slug map')
+    return {int(topic_id): rec['new_slug'] for topic_id, rec in posts.items()}
+
+
 def engine_slug(article):
-    return sc.engine.article_slug(article)
+    """Keep old Markdown immutable; compare migrated posts to approved new slug."""
+    return approved_vi_slug_migrations().get(int(article['id']), sc.engine.article_slug(article))
 
 
 # ================================================================ live snapshot =====================================
