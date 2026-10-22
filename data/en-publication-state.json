@@ -4928,7 +4928,15 @@
       "wp_id": 2749,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-read-motorbike-lane-markings-in-hanoi/"
+    },
+    "449": {
+      "title": "What Different Traffic-Light Arrows Mean for Riders",
+      "slug": "what-different-traffic-light-arrows-mean-for-riders",
+      "source_hash": "1e6c31ecca5da4e0a08d0bce54b88d179f054a03d79636e7fc7399bbac6945da",
+      "checked_at": "2026-10-22T04:17:41.999857+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 68
     }
   },
-  "updated_at": "2026-10-22T04:17:40.451679+00:00"
+  "updated_at": "2026-10-22T04:17:41.999865+00:00"
 }
