@@ -5467,7 +5467,15 @@
       "wp_id": 3460,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/using-engine-braking-without-losing-traction/"
+    },
+    "498": {
+      "title": "What to Do if Your Tyre Loses Air during a Ride",
+      "slug": "what-to-do-if-your-tyre-loses-air-during-a-ride",
+      "source_hash": "c948932a8888fe85150173b4d508edac8459ddd37e330644318a73cdf9106a5b",
+      "checked_at": "2026-10-22T11:06:42.853861+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 56
     }
   },
-  "updated_at": "2026-10-22T11:06:41.416179+00:00"
+  "updated_at": "2026-10-22T11:06:42.853870+00:00"
 }
