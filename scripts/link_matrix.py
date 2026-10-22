@@ -33,6 +33,14 @@ def build_graph(ready, ledger, site=sc.SITE):
                             'url': entry.get('url', ''), 'words': art['words'],
                             'published': entry.get('phase') == 'VERIFIED' and entry.get('status') == 'publish'}
     url_to_id = {sc.norm_url(n['url']): i for i, n in nodes.items() if n['url']}
+    # Immutable historical Markdown contains old Excel URLs, while WordPress
+    # now serves the clean URL. Resolve the approved aliases in read-only
+    # graph calculations; never rewrite published source bytes or links.
+    approved = sc.read_json(sc.DATA_DIR / 'vi-excel-slug-migrations.json') or {}
+    for key, migration in approved.get('posts', {}).items():
+        topic_id = int(key)
+        if topic_id in nodes and nodes[topic_id]['url'] == migration['new_url']:
+            url_to_id[sc.norm_url(migration['old_url'])] = topic_id
     edges = {}
     unmapped = collections.defaultdict(set)
     self_links = collections.defaultdict(int)
