@@ -5159,7 +5159,15 @@
       "wp_id": 3402,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/emergency-numbers-and-accident-reporting-in-vietnam/"
+    },
+    "470": {
+      "title": "What to Do if a Traffic Officer Stops Your Motorbike",
+      "slug": "what-to-do-if-a-traffic-officer-stops-your-motorbike",
+      "source_hash": "2d0971147984eab6e44b2f65c76296cea7922ac2b0054cd8c66109915820d903",
+      "checked_at": "2026-10-22T10:30:38.783535+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 56
     }
   },
-  "updated_at": "2026-10-22T10:30:37.165866+00:00"
+  "updated_at": "2026-10-22T10:30:38.783543+00:00"
 }
