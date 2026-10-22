@@ -4658,11 +4658,11 @@
       "title": "When a Rental Motorbike Needs to Be Collected",
       "slug": "when-a-rental-motorbike-needs-to-be-collected",
       "source_hash": "3941bdc84584d9d20b5ec47d8af3e97abfa7f667e81ae72bf9a6f6e4570b1d0e",
-      "checked_at": "2026-10-22T03:44:02.424267+00:00",
-      "phase": "REGISTERED",
+      "checked_at": "2026-10-22T03:44:04.492226+00:00",
+      "phase": "VERIFY_PENDING",
       "category_id": 55,
       "wp_id": 2701
     }
   },
-  "updated_at": "2026-10-22T03:44:02.424280+00:00"
+  "updated_at": "2026-10-22T03:44:04.492239+00:00"
 }
