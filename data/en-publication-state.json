@@ -4977,11 +4977,13 @@
       "title": "Sharing the Road with Buses while Riding a Scooter",
       "slug": "sharing-the-road-with-buses-while-riding-a-scooter",
       "source_hash": "17c9202ea033a0b91b1684625bb320dc366b0a13e902e6ed6c962c0a8e93a4b4",
-      "checked_at": "2026-10-22T04:18:47.698664+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T04:18:52.788078+00:00",
+      "phase": "VERIFIED",
       "category_id": 56,
-      "wp_id": 2759
+      "wp_id": 2759,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/sharing-the-road-with-buses-while-riding-a-scooter/"
     }
   },
-  "updated_at": "2026-10-22T04:18:47.698685+00:00"
+  "updated_at": "2026-10-22T04:18:52.788098+00:00"
 }
