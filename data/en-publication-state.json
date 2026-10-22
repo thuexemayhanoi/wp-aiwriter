@@ -4548,11 +4548,13 @@
       "title": "How to Record the Fuel Level at Handover",
       "slug": "how-to-record-the-fuel-level-at-handover",
       "source_hash": "8903356b8dc57a5b91bc50af7245c592c471159b6bf6b188ae81cb5a26ded7dd",
-      "checked_at": "2026-10-22T03:32:00.340644+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T03:32:05.872145+00:00",
+      "phase": "VERIFIED",
       "category_id": 55,
-      "wp_id": 2681
+      "wp_id": 2681,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-record-the-fuel-level-at-handover/"
     }
   },
-  "updated_at": "2026-10-22T03:32:00.340661+00:00"
+  "updated_at": "2026-10-22T03:32:05.872162+00:00"
 }
