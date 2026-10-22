@@ -5291,7 +5291,15 @@
       "wp_id": 3428,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/why-loose-scarves-and-bags-are-dangerous-on-motorbikes/"
+    },
+    "482": {
+      "title": "Riding with a Passenger: Balance and Communication",
+      "slug": "riding-with-a-passenger-balance-and-communication",
+      "source_hash": "5c0893cf19a24714cc2d66d16b7cb3247c3b34ed41c10d61eed07c74b23c9564",
+      "checked_at": "2026-10-22T10:47:05.085194+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 56
     }
   },
-  "updated_at": "2026-10-22T10:47:03.621995+00:00"
+  "updated_at": "2026-10-22T10:47:05.085203+00:00"
 }
