@@ -5043,10 +5043,11 @@
       "title": "Riding on Bridges during Strong Winds",
       "slug": "riding-on-bridges-during-strong-winds",
       "source_hash": "48def19249051568d35a5fdea443a97cadf1d50b2e94c5aaa6e380f5f45e34ec",
-      "checked_at": "2026-10-22T10:04:23.316594+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 56
+      "checked_at": "2026-10-22T10:04:25.518588+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 56,
+      "wp_id": 3382
     }
   },
-  "updated_at": "2026-10-22T10:04:23.316606+00:00"
+  "updated_at": "2026-10-22T10:04:25.518607+00:00"
 }
