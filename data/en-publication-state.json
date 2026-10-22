@@ -4779,11 +4779,13 @@
       "title": "Why a Low Advertised Rental Price May Not Be the Final Price",
       "slug": "why-a-low-advertised-rental-price-may-not-be-the-final-price",
       "source_hash": "077c3ba36d27a1224d2e2e2d9c21456d28398d704446597b4576d6a2d2860034",
-      "checked_at": "2026-10-22T03:53:23.106337+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T03:53:27.508285+00:00",
+      "phase": "VERIFIED",
       "category_id": 55,
-      "wp_id": 2723
+      "wp_id": 2723,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/why-a-low-advertised-rental-price-may-not-be-the-final-price/"
     }
   },
-  "updated_at": "2026-10-22T03:53:23.106356+00:00"
+  "updated_at": "2026-10-22T03:53:27.508308+00:00"
 }
