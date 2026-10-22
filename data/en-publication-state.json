@@ -4873,7 +4873,15 @@
       "wp_id": 2739,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/what-to-photograph-when-returning-a-rental-scooter/"
+    },
+    "444": {
+      "title": "What Happens at the Final Motorbike Return Inspection",
+      "slug": "what-happens-at-the-final-motorbike-return-inspection",
+      "source_hash": "87d17be07d94b84d4d5683904c833b5bcf4eb08612fe97021d00da15aa94d1af",
+      "checked_at": "2026-10-22T04:16:30.146026+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 55
     }
   },
-  "updated_at": "2026-10-22T03:55:14.287316+00:00"
+  "updated_at": "2026-10-22T04:16:30.146040+00:00"
 }
