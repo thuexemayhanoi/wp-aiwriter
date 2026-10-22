@@ -5060,7 +5060,15 @@
       "wp_id": 3384,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/safe-scooter-riding-when-visibility-drops-in-rain/"
+    },
+    "461": {
+      "title": "What to Do during a Sudden Hanoi Thunderstorm",
+      "slug": "what-to-do-during-a-sudden-hanoi-thunderstorm",
+      "source_hash": "2dbaace21eff1e9483b17f4ba29761203857158be2ca88cc3d25be5d455fc740",
+      "checked_at": "2026-10-22T10:04:50.104989+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 56
     }
   },
-  "updated_at": "2026-10-22T10:04:48.649671+00:00"
+  "updated_at": "2026-10-22T10:04:50.105001+00:00"
 }
