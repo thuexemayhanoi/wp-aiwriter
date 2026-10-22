@@ -5274,11 +5274,13 @@
       "title": "Using a Rain Poncho without Obscuring Lights or Wheels",
       "slug": "using-a-rain-poncho-without-obscuring-lights-or-wheels",
       "source_hash": "53ef6e9bea747b3c702158a52ddc344dccf3fa8958b1d2aa392c2624de12a5a9",
-      "checked_at": "2026-10-22T10:46:47.886133+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T10:46:51.859088+00:00",
+      "phase": "VERIFIED",
       "category_id": 56,
-      "wp_id": 3426
+      "wp_id": 3426,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/using-a-rain-poncho-without-obscuring-lights-or-wheels/"
     }
   },
-  "updated_at": "2026-10-22T10:46:47.886148+00:00"
+  "updated_at": "2026-10-22T10:46:51.859104+00:00"
 }
