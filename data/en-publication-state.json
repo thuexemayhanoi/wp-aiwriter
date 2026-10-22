@@ -5230,10 +5230,11 @@
       "title": "Motorbike Safety at Railway Crossings in Hanoi",
       "slug": "motorbike-safety-at-railway-crossings-in-hanoi",
       "source_hash": "937a78e01e95186a0e3bb2d74285167ce84ee0bfc0d2cdc0becc6b22396fc3b0",
-      "checked_at": "2026-10-22T10:45:54.698822+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 56
+      "checked_at": "2026-10-22T10:45:56.535793+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 56,
+      "wp_id": 3418
     }
   },
-  "updated_at": "2026-10-22T10:45:54.698830+00:00"
+  "updated_at": "2026-10-22T10:45:56.535808+00:00"
 }
