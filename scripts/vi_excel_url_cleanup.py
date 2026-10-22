@@ -90,32 +90,25 @@ def get_live_posts(client, expected):
 
 
 def post_batch(client, updates, site=engine.WP_URL):
-    requests = [
-        {'method':'POST',
-         'path':f'/wp/v2/posts/{post_id}?_fields=id,slug,status',
-         'body':{'content':updated}}
-        for post_id, updated in updates
-    ]
-    payload = json.dumps({'validation':'require-all-validate','requests':requests},
-                         ensure_ascii=False).encode('utf-8')
-    url = site + '/wp-json/batch/v1'
-    req = urllib.request.Request(url, data=payload, method='POST', headers={
-        'Authorization':'Basic '+client.auth,
-        'Accept':'application/json',
-        'Content-Type':'application/json; charset=utf-8',
-        'User-Agent':'wp-aiwriter-vi-cleanup/1.0'
-    })
-    # WordPress batch writes are NOT retried after an ambiguous response.
-    with client.opener.open(req, timeout=100) as resp:
-        data = json.loads(resp.read())
-    results = data.get('responses', [])
-    if data.get('failed') or len(results) != len(updates):
-        raise RuntimeError('WordPress batch refused or returned an incomplete response')
-    for (post_id, _), item in zip(updates, results):
-        body = item.get('body') or {}
-        if item.get('status') != 200 or body.get('id') != post_id or body.get('status') != 'publish':
-            raise RuntimeError(f'WordPress batch response for {post_id} requires manual readback')
-    return len(updates)
+    """Use standard WordPress post updates: one safe, non-retried REST write each.
+
+    Some site middleware refuses WordPress /batch/v1 for large post_content.
+    The regular core posts/{id} endpoint saves a revision and invalidates
+    caches. If a write response is uncertain, STOP; a rerun reads live
+    content and skips already-replaced strings, so it is idempotent.
+    """
+    applied = 0
+    for post_id, updated in updates:
+        post = client.request(
+            f'posts/{post_id}?_fields=id,slug,status',
+            payload={'content': updated})[0]
+        if (post.get('id') != post_id or
+            post.get('status') != 'publish' or
+            not isinstance(post.get('slug'), str) or
+            post['slug'].startswith('excel-')):
+            raise RuntimeError(f'WordPress readback for {post_id} requires manual review')
+        applied += 1
+    return applied
 
 
 def execute(dry_run=False):
