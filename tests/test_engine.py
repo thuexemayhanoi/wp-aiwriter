@@ -27,6 +27,7 @@ class FakeLedger:
 class FakeWP:
     def __init__(self, ledger, timeout_ids=()):
         self.posts = []
+        self.pages = []
         self.ledger = ledger
         self.calls = []
         self.timeout_ids = set(timeout_ids)
@@ -39,13 +40,16 @@ class FakeWP:
         post_id = int(path.split('/')[1].split('?')[0])
         return next(p for p in self.posts if p['id'] == post_id)
     def all(self, kind, **params):
-        return copy.deepcopy(self.cats if kind == 'categories' else self.posts)
+        return copy.deepcopy(self.cats if kind == 'categories' else
+                             self.pages if kind == 'pages' else self.posts)
     def request(self, path, payload=None, **kwargs):
         if kwargs.get('webpage'):
             p = next(p for p in self.posts if p['link'] == path)
             return '<h1>' + p['title']['raw'] + '</h1>' + p['content']['raw'], {}
         self.calls.append(payload)
-        i = int(payload['slug'].split('-')[1])
+        match = e.re.search(r'wp-aiwriter:matrix_id=([0-9]+);', payload['content'])
+        assert match is not None
+        i = int(match.group(1))
         assert self.ledger.data['posts'][str(i)]['phase'] == 'POST_INTENT'
         p = {**payload, 'id': len(self.posts) + 1, 'title': {'raw': payload['title']},
              'content': {'raw': payload['content'], 'rendered': payload['content']},
@@ -61,6 +65,57 @@ def report():
 
 
 class PublicationSafety(unittest.TestCase):
+    def test_clean_vi_slug_has_no_excel_topic_id(self):
+        article = sample()
+        slug = e.article_slug(article)
+        self.assertEqual(slug, e.slugify(article['title']))
+        self.assertNotIn('excel-', slug)
+        self.assertNotIn('172-', slug)
+        self.assertFalse(e.INTERNAL_SLUG_PREFIX_RE.match(slug))
+
+    def test_333_migrated_vi_slugs_match_new_generation(self):
+        approved = e.json.loads((e.ROOT / 'data/seo/vi-excel-slug-migrations.json').read_text())
+        topics = e.matrix()
+        self.assertEqual(len(approved['posts']), 333)
+        for topic_id, identity in approved['posts'].items():
+            article = topics[int(topic_id)]
+            self.assertEqual(e.article_slug(article), identity['new_slug'])
+            self.assertEqual(identity['new_url'], e.WP_URL + '/' + identity['new_slug'] + '/')
+        self.assertEqual(len({e.article_slug(t) for t in topics.values()}), 355)
+
+    def test_block_internal_or_reserved_vi_public_slugs(self):
+        for title in ('Excel 501 My Title', 'Spreadsheet-222 Something', 'en', 'WP JSON'):
+            article = {'id': 501, 'title': title}
+            if title == 'WP JSON':
+                # wp-json is only one of the static reserved public paths.
+                self.assertEqual(e.slugify(title), 'wp-json')
+            with self.assertRaisesRegex(ValueError, 'Unsafe public Vietnamese slug'):
+                e.article_slug(article)
+
+    def test_wordpress_page_collision_blocks_post_before_write_intent(self):
+        ledger = FakeLedger()
+        client = FakeWP(ledger)
+        article = sample()
+        client.pages = [{'id': 620, 'slug': e.article_slug(article), 'status': 'publish'}]
+        result = report()
+        e.sync(client, [article], ledger, 3, result)
+        self.assertEqual(client.calls, [])
+        self.assertEqual(ledger.data['posts'], {})
+        self.assertIn('conflicts with WordPress page 620', result['errors'][0]['reason'])
+
+    def test_post_collision_is_skipped_not_republished(self):
+        ledger = FakeLedger()
+        client = FakeWP(ledger)
+        article = sample()
+        client.posts = [{'id': 601, 'title': {'raw': 'Unrelated title'},
+                         'slug': e.article_slug(article), 'status': 'publish',
+                         'link': e.WP_URL + '/' + e.article_slug(article) + '/',
+                         'categories': [20], 'content': {'raw': ''}}]
+        result = report()
+        e.sync(client, [article], ledger, 3, result)
+        self.assertEqual(client.calls, [])
+        self.assertEqual(result['existing'][0]['wp_id'], 601)
+
     def test_markdown_tables_emphasis_links(self):
         value = e.markdown_to_html('**đậm** [nguồn](https://example.com/)\n\n| A | B |\n|---|---|\n|1|2|')
         self.assertIn('<table>', value)
