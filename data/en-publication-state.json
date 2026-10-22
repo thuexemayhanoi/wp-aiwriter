@@ -4724,10 +4724,11 @@
       "title": "How to Keep Your Passport Safe during a Scooter Rental",
       "slug": "how-to-keep-your-passport-safe-during-a-scooter-rental",
       "source_hash": "e594a9183d324d6cc6021e9065cc073d7305e87ab6dca85de9a02bd23f8a44ab",
-      "checked_at": "2026-10-22T03:45:12.336525+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 55
+      "checked_at": "2026-10-22T03:45:14.349102+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 55,
+      "wp_id": 2713
     }
   },
-  "updated_at": "2026-10-22T03:45:12.336533+00:00"
+  "updated_at": "2026-10-22T03:45:14.349115+00:00"
 }
