@@ -5406,11 +5406,11 @@
       "title": "Safe Parking on Sloped or Uneven Streets",
       "slug": "safe-parking-on-sloped-or-uneven-streets",
       "source_hash": "5248aad4ba3be64c7b56dfc766e40ee15c5cd43bc327dfa56de412db29735e72",
-      "checked_at": "2026-10-22T10:56:05.969276+00:00",
-      "phase": "REGISTERED",
+      "checked_at": "2026-10-22T10:56:08.016131+00:00",
+      "phase": "VERIFY_PENDING",
       "category_id": 56,
       "wp_id": 3450
     }
   },
-  "updated_at": "2026-10-22T10:56:05.969293+00:00"
+  "updated_at": "2026-10-22T10:56:08.016149+00:00"
 }
