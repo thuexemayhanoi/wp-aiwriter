@@ -5164,11 +5164,13 @@
       "title": "What to Do if a Traffic Officer Stops Your Motorbike",
       "slug": "what-to-do-if-a-traffic-officer-stops-your-motorbike",
       "source_hash": "2d0971147984eab6e44b2f65c76296cea7922ac2b0054cd8c66109915820d903",
-      "checked_at": "2026-10-22T10:30:46.614763+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T10:30:51.424684+00:00",
+      "phase": "VERIFIED",
       "category_id": 56,
-      "wp_id": 3404
+      "wp_id": 3404,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/what-to-do-if-a-traffic-officer-stops-your-motorbike/"
     }
   },
-  "updated_at": "2026-10-22T10:30:46.614779+00:00"
+  "updated_at": "2026-10-22T10:30:51.424701+00:00"
 }
