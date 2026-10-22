@@ -4889,11 +4889,13 @@
       "title": "How to Avoid Missing Your Agreed Return Time",
       "slug": "how-to-avoid-missing-your-agreed-return-time",
       "source_hash": "f6b5166d9b22c2100ef0b4600b39fa5d79a7a39a6580e22fb7d23355cb643b10",
-      "checked_at": "2026-10-22T04:16:51.829261+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T04:16:57.088204+00:00",
+      "phase": "VERIFIED",
       "category_id": 55,
-      "wp_id": 2743
+      "wp_id": 2743,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-avoid-missing-your-agreed-return-time/"
     }
   },
-  "updated_at": "2026-10-22T04:16:51.829282+00:00"
+  "updated_at": "2026-10-22T04:16:57.088225+00:00"
 }
