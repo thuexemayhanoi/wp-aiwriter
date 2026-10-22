@@ -5170,7 +5170,15 @@
       "wp_id": 3404,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/what-to-do-if-a-traffic-officer-stops-your-motorbike/"
+    },
+    "471": {
+      "title": "How to Verify the Current Fine for a Traffic Offence",
+      "slug": "how-to-verify-the-current-fine-for-a-traffic-offence",
+      "source_hash": "132ed64158598cd3fe09676b8e945be29bd3b4c96879e7cec74dc25c08ec7ae2",
+      "checked_at": "2026-10-22T10:30:53.188068+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 56
     }
   },
-  "updated_at": "2026-10-22T10:30:51.424701+00:00"
+  "updated_at": "2026-10-22T10:30:53.188076+00:00"
 }
