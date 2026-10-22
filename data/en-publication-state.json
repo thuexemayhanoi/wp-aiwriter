@@ -4686,7 +4686,15 @@
       "wp_id": 2705,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/what-to-do-after-a-serious-accident-on-a-rental-motorbike/"
+    },
+    "427": {
+      "title": "Rental Motorbike Insurance versus Personal Travel Insurance",
+      "slug": "rental-motorbike-insurance-versus-personal-travel-insurance",
+      "source_hash": "c4981d7b1299f3cef259d4ca8a323237fd3863bfd9dcaccf29a9a13bd4edb8e6",
+      "checked_at": "2026-10-22T03:44:34.623856+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 55
     }
   },
-  "updated_at": "2026-10-22T03:44:33.155206+00:00"
+  "updated_at": "2026-10-22T03:44:34.623864+00:00"
 }
