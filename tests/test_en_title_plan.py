@@ -17,7 +17,12 @@ class OptionalEnglishProposals(unittest.TestCase):
         rows, topics, ledger = en_title_plan.check()
         self.assertEqual(len(rows), 478)
         queue = en_title_plan.pending(10)
-        self.assertTrue(queue)
+        unclaimed = [r for r in rows if str(r["topic_id"]) not in ledger
+                     and not (en_title_plan.POSTS / f'{int(r["topic_id"]):04d}.md').exists()]
+        if unclaimed:
+            self.assertTrue(queue)
+        else:  # Every planned topic is authored or ledgered: the queue is legitimately empty.
+            self.assertEqual(queue, [])
         self.assertLessEqual(len(queue), 10)
         for row in queue:
             self.assertTrue(row["canonical_ready"])
@@ -48,9 +53,10 @@ class OptionalEnglishProposals(unittest.TestCase):
             replacement = pathlib.Path(tmp) / "title-plan.csv"
             with en_title_plan.PLAN.open(encoding="utf-8-sig", newline="") as src:
                 original = list(csv.DictReader(src))
-            candidate = next(r for r in original if
-                             str(r["topic_id"]) not in json.loads(en_title_plan.LEDGER.read_text(encoding="utf-8"))["posts"]
-                             and not (en_title_plan.POSTS / f'{int(r["topic_id"]):04d}.md').exists())
+            ledger = json.loads(en_title_plan.LEDGER.read_text(encoding="utf-8"))["posts"]
+            unclaimed = next((r for r in original if str(r["topic_id"]) not in ledger
+                              and not (en_title_plan.POSTS / f'{int(r["topic_id"]):04d}.md').exists()), None)
+            candidate = unclaimed or original[0]
             candidate["planned_title_en"] = "Too short"
             candidate["title_approval"] = "APPROVED"
             with replacement.open("w", encoding="utf-8", newline="") as out:
@@ -58,7 +64,10 @@ class OptionalEnglishProposals(unittest.TestCase):
                 writer.writeheader()
                 writer.writerows(original)
             with patch.object(en_title_plan, "PLAN", replacement):
-                with self.assertRaisesRegex(ValueError, "needs 60"):
+                # An unauthored topic gets its malformed title rejected; once every topic is
+                # authored or ledgered, any approval is refused outright (published content is immutable).
+                pattern = "needs 60" if unclaimed else "Refuse change to authored / ledger topic"
+                with self.assertRaisesRegex(ValueError, pattern):
                     en_title_plan.apply_approved()
 
 

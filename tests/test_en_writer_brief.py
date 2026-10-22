@@ -1,4 +1,5 @@
 """Regression tests for the zero-write English ten-topic canonical writing packet."""
+import csv
 import json
 import pathlib
 import sys
@@ -10,6 +11,13 @@ import en_writer_brief
 
 
 class EnWriterBrief(unittest.TestCase):
+    @staticmethod
+    def _unclaimed_ids(ledger):
+        """Planned IDs with neither a ledger entry nor a manuscript on disk."""
+        with (ROOT / "en" / "title-plan-478.csv").open(encoding="utf-8-sig", newline="") as f:
+            ids = [int(r["topic_id"]) for r in csv.DictReader(f)]
+        return [i for i in ids if str(i) not in ledger and not (ROOT / "en" / "posts" / f"{i:04d}.md").exists()]
+
     def test_only_unclaimed_english_ids_and_exact_source_metadata(self):
         original_topics = (ROOT / "en" / "topics.json").read_bytes()
         original_ledger = (ROOT / "data" / "en-publication-state.json").read_bytes()
@@ -20,7 +28,10 @@ class EnWriterBrief(unittest.TestCase):
         self.assertEqual(packet["mode"], "READ_ONLY_EN_EDITORIAL_BRIEF")
         self.assertFalse(packet["live_wordpress_verified"])
         self.assertLessEqual(len(packet["topics"]), 10)
-        self.assertGreaterEqual(len(packet["topics"]), 1)
+        if self._unclaimed_ids(ledger):
+            self.assertGreaterEqual(len(packet["topics"]), 1)
+        else:  # All planned topics are authored or ledgered: nothing left to hand to a writer.
+            self.assertEqual(packet["topics"], [])
         self.assertEqual(len({p["topic_id"] for p in packet["topics"]}), len(packet["topics"]))
         for item in packet["topics"]:
             i = item["topic_id"]
@@ -57,7 +68,10 @@ class EnWriterBrief(unittest.TestCase):
         packet = en_writer_brief.build_packet(3)
         rendered = en_writer_brief.markdown(packet)
         self.assertIn("Live WordPress", rendered)
-        self.assertIn("CAN WRITE NOW", rendered)
+        if packet["topics"]:
+            self.assertIn("CAN WRITE NOW", rendered)
+        else:
+            self.assertIn("No EN candidates available", rendered)
         self.assertIn("CANONICAL TITLE", en_writer_brief.compact(packet))
         self.assertIn("QA >= 76", rendered)
         self.assertIn("ledger VERIFIED:", en_writer_brief.compact(packet))
