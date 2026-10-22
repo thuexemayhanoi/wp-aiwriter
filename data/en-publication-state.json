@@ -5417,11 +5417,13 @@
       "title": "How to Prevent Your Scooter from Rolling while Parked",
       "slug": "how-to-prevent-your-scooter-from-rolling-while-parked",
       "source_hash": "03256491b6d4a0b69f01f18060b8a3cff10ca00989615143e78f267221283c90",
-      "checked_at": "2026-10-22T10:56:20.397497+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T10:56:24.695525+00:00",
+      "phase": "VERIFIED",
       "category_id": 56,
-      "wp_id": 3452
+      "wp_id": 3452,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-prevent-your-scooter-from-rolling-while-parked/"
     }
   },
-  "updated_at": "2026-10-22T10:56:20.397514+00:00"
+  "updated_at": "2026-10-22T10:56:24.695544+00:00"
 }
