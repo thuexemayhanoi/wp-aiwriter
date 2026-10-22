@@ -5010,11 +5010,13 @@
       "title": "How to Follow a Safe Distance in Hanoi Traffic",
       "slug": "how-to-follow-a-safe-distance-in-hanoi-traffic",
       "source_hash": "df1a4906dc19b5cba5f7f5b4688ed3f858ee6716b55eafbc83f631a32ff25c24",
-      "checked_at": "2026-10-22T10:03:49.118397+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T10:03:54.081257+00:00",
+      "phase": "VERIFIED",
       "category_id": 68,
-      "wp_id": 3376
+      "wp_id": 3376,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-follow-a-safe-distance-in-hanoi-traffic/"
     }
   },
-  "updated_at": "2026-10-22T10:03:49.118418+00:00"
+  "updated_at": "2026-10-22T10:03:54.081277+00:00"
 }
