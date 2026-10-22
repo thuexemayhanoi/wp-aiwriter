@@ -5269,7 +5269,15 @@
       "wp_id": 3424,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/when-to-stop-and-check-a-map-instead-of-looking-down/"
+    },
+    "480": {
+      "title": "Using a Rain Poncho without Obscuring Lights or Wheels",
+      "slug": "using-a-rain-poncho-without-obscuring-lights-or-wheels",
+      "source_hash": "53ef6e9bea747b3c702158a52ddc344dccf3fa8958b1d2aa392c2624de12a5a9",
+      "checked_at": "2026-10-22T10:46:41.656977+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 56
     }
   },
-  "updated_at": "2026-10-22T10:46:40.292312+00:00"
+  "updated_at": "2026-10-22T10:46:41.656985+00:00"
 }
