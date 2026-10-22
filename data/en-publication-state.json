@@ -4801,10 +4801,11 @@
       "title": "What Should Be Written on a Rental Payment Receipt?",
       "slug": "what-should-be-written-on-a-rental-payment-receipt",
       "source_hash": "405d72096fb4cbaef6c28abde33cada6976ce30cfc5468a650fe730e2d3c4d1f",
-      "checked_at": "2026-10-22T03:53:42.916948+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 55
+      "checked_at": "2026-10-22T03:53:45.711389+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 55,
+      "wp_id": 2727
     }
   },
-  "updated_at": "2026-10-22T03:53:42.916956+00:00"
+  "updated_at": "2026-10-22T03:53:45.711406+00:00"
 }
