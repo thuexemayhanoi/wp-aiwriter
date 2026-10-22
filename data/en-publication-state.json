@@ -4845,11 +4845,13 @@
       "title": "What to Do if the Bike You Reserved Is Unavailable",
       "slug": "what-to-do-if-the-bike-you-reserved-is-unavailable",
       "source_hash": "27d1e7ccf972edee77ef1ca8fb75dc068a9a4652cac4577a6dfaeb566c75118e",
-      "checked_at": "2026-10-22T03:54:43.832651+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T03:54:48.317999+00:00",
+      "phase": "VERIFIED",
       "category_id": 55,
-      "wp_id": 2735
+      "wp_id": 2735,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/what-to-do-if-the-bike-you-reserved-is-unavailable/"
     }
   },
-  "updated_at": "2026-10-22T03:54:43.832673+00:00"
+  "updated_at": "2026-10-22T03:54:48.318018+00:00"
 }
