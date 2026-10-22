@@ -5131,10 +5131,11 @@
       "title": "Safe Overtaking Decisions on Two-Wheel Vehicles",
       "slug": "safe-overtaking-decisions-on-two-wheel-vehicles",
       "source_hash": "adec2319da2858df3a32feede1d2baaf032785724029d18a601034a4f917870b",
-      "checked_at": "2026-10-22T10:29:54.211493+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 56
+      "checked_at": "2026-10-22T10:29:56.599307+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 56,
+      "wp_id": 3398
     }
   },
-  "updated_at": "2026-10-22T10:29:54.211501+00:00"
+  "updated_at": "2026-10-22T10:29:56.599323+00:00"
 }
