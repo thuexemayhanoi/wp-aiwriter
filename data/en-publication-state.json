@@ -5153,11 +5153,13 @@
       "title": "Emergency Numbers and Accident Reporting in Vietnam",
       "slug": "emergency-numbers-and-accident-reporting-in-vietnam",
       "source_hash": "6fde18b63fdda941ba175b8a93d5356ba761428a4a24dd3335aac44fe4cc33db",
-      "checked_at": "2026-10-22T10:30:31.881842+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T10:30:37.165849+00:00",
+      "phase": "VERIFIED",
       "category_id": 56,
-      "wp_id": 3402
+      "wp_id": 3402,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/emergency-numbers-and-accident-reporting-in-vietnam/"
     }
   },
-  "updated_at": "2026-10-22T10:30:31.881859+00:00"
+  "updated_at": "2026-10-22T10:30:37.165866+00:00"
 }
