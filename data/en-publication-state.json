@@ -5098,11 +5098,13 @@
       "title": "Checking Mirrors and Blind Spots before Changing Lanes",
       "slug": "checking-mirrors-and-blind-spots-before-changing-lanes",
       "source_hash": "9da9979991ef692a4eead3605f0f55212b00a0d9e405de0e13d580b9d5193236",
-      "checked_at": "2026-10-22T10:29:17.984533+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T10:29:22.924203+00:00",
+      "phase": "VERIFIED",
       "category_id": 56,
-      "wp_id": 3392
+      "wp_id": 3392,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/checking-mirrors-and-blind-spots-before-changing-lanes/"
     }
   },
-  "updated_at": "2026-10-22T10:29:17.984549+00:00"
+  "updated_at": "2026-10-22T10:29:22.924220+00:00"
 }
