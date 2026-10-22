@@ -5049,7 +5049,15 @@
       "wp_id": 3382,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/riding-on-bridges-during-strong-winds/"
+    },
+    "460": {
+      "title": "Safe Scooter Riding when Visibility Drops in Rain",
+      "slug": "safe-scooter-riding-when-visibility-drops-in-rain",
+      "source_hash": "e360ed291606dd6a5ba6607a4b7a9c6d5e29f0fb9203ff8222d9d2392ef20e7f",
+      "checked_at": "2026-10-22T10:04:36.736740+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 56
     }
   },
-  "updated_at": "2026-10-22T10:04:35.298651+00:00"
+  "updated_at": "2026-10-22T10:04:36.736752+00:00"
 }
