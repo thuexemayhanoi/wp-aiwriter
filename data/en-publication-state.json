@@ -4812,11 +4812,13 @@
       "title": "Extending a Monthly Motorbike Rental: Contract Questions",
       "slug": "extending-a-monthly-motorbike-rental-contract-questions",
       "source_hash": "894f4633f0f8bffb4704ac098b05e24966a63335150513e9206b62ed45803eb1",
-      "checked_at": "2026-10-22T03:54:05.003543+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T03:54:09.670096+00:00",
+      "phase": "VERIFIED",
       "category_id": 69,
-      "wp_id": 2729
+      "wp_id": 2729,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/extending-a-monthly-motorbike-rental-contract-questions/"
     }
   },
-  "updated_at": "2026-10-22T03:54:05.003559+00:00"
+  "updated_at": "2026-10-22T03:54:09.670112+00:00"
 }
