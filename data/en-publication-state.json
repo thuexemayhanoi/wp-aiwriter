@@ -5021,11 +5021,13 @@
       "title": "Braking Safely on Wet Road Markings",
       "slug": "braking-safely-on-wet-road-markings",
       "source_hash": "b6ec619f79489325dc1b061b5f93f430752ba8b3068ed7cf78ee2aa48aee5ce2",
-      "checked_at": "2026-10-22T10:04:03.234480+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T10:04:07.954830+00:00",
+      "phase": "VERIFIED",
       "category_id": 56,
-      "wp_id": 3378
+      "wp_id": 3378,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/braking-safely-on-wet-road-markings/"
     }
   },
-  "updated_at": "2026-10-22T10:04:03.234501+00:00"
+  "updated_at": "2026-10-22T10:04:07.954850+00:00"
 }
