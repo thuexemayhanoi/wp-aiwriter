@@ -4708,7 +4708,15 @@
       "wp_id": 2709,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-check-whether-a-rental-allows-an-out-of-city-trip/"
+    },
+    "429": {
+      "title": "Who Is Responsible for Parking and Traffic Fines?",
+      "slug": "who-is-responsible-for-parking-and-traffic-fines",
+      "source_hash": "d96603e8d743027ffef6c5eeead6f57d4cc3e37a05c44cc4c55ed62310791838",
+      "checked_at": "2026-10-22T03:44:59.172066+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 55
     }
   },
-  "updated_at": "2026-10-22T03:44:57.697474+00:00"
+  "updated_at": "2026-10-22T03:44:59.172074+00:00"
 }
