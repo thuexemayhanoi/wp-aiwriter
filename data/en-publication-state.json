@@ -5005,7 +5005,15 @@
       "wp_id": 3374,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/opening-car-doors-a-hazard-for-scooter-riders/"
+    },
+    "456": {
+      "title": "How to Follow a Safe Distance in Hanoi Traffic",
+      "slug": "how-to-follow-a-safe-distance-in-hanoi-traffic",
+      "source_hash": "df1a4906dc19b5cba5f7f5b4688ed3f858ee6716b55eafbc83f631a32ff25c24",
+      "checked_at": "2026-10-22T10:03:41.740710+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 68
     }
   },
-  "updated_at": "2026-10-22T10:03:40.150324+00:00"
+  "updated_at": "2026-10-22T10:03:41.740722+00:00"
 }
