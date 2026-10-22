@@ -5461,11 +5461,13 @@
       "title": "Using Engine Braking without Losing Traction",
       "slug": "using-engine-braking-without-losing-traction",
       "source_hash": "f88a771a2f2ef472832a128fd421945a6399e70828d4dee5c404956cdf54891f",
-      "checked_at": "2026-10-22T11:06:37.377990+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T11:06:41.416162+00:00",
+      "phase": "VERIFIED",
       "category_id": 56,
-      "wp_id": 3460
+      "wp_id": 3460,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/using-engine-braking-without-losing-traction/"
     }
   },
-  "updated_at": "2026-10-22T11:06:37.378007+00:00"
+  "updated_at": "2026-10-22T11:06:41.416179+00:00"
 }
