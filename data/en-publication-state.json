@@ -4570,11 +4570,11 @@
       "title": "What to Do if a Helmet Does Not Fit at Pickup",
       "slug": "what-to-do-if-a-helmet-does-not-fit-at-pickup",
       "source_hash": "55279def326b54247e3bf1649722a70d5f160b9e50aac494affc4be3ffe422f9",
-      "checked_at": "2026-10-22T03:32:28.877490+00:00",
-      "phase": "REGISTERED",
+      "checked_at": "2026-10-22T03:32:31.411097+00:00",
+      "phase": "VERIFY_PENDING",
       "category_id": 55,
       "wp_id": 2685
     }
   },
-  "updated_at": "2026-10-22T03:32:28.877507+00:00"
+  "updated_at": "2026-10-22T03:32:31.411114+00:00"
 }
