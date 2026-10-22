@@ -4955,11 +4955,13 @@
       "title": "Left Turns across Multi-Lane Roads on a Motorbike",
       "slug": "left-turns-across-multi-lane-roads-on-a-motorbike",
       "source_hash": "992f76c694c4eae27107ce8aa39771626bc22a43dfc84d09582a7d0f8abc7424",
-      "checked_at": "2026-10-22T04:18:18.434812+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T04:18:23.766649+00:00",
+      "phase": "VERIFIED",
       "category_id": 56,
-      "wp_id": 2755
+      "wp_id": 2755,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/left-turns-across-multi-lane-roads-on-a-motorbike/"
     }
   },
-  "updated_at": "2026-10-22T04:18:18.434834+00:00"
+  "updated_at": "2026-10-22T04:18:23.766668+00:00"
 }
