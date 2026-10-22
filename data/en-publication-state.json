@@ -4966,10 +4966,11 @@
       "title": "How to Ride through a Hanoi Roundabout",
       "slug": "how-to-ride-through-a-hanoi-roundabout",
       "source_hash": "af3c0c41beb058800df3392ece6b183ee947f986ec988eb86b3d6d680dffda3e",
-      "checked_at": "2026-10-22T04:18:25.383736+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 56
+      "checked_at": "2026-10-22T04:18:27.766425+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 56,
+      "wp_id": 2757
     }
   },
-  "updated_at": "2026-10-22T04:18:25.383745+00:00"
+  "updated_at": "2026-10-22T04:18:27.766446+00:00"
 }
