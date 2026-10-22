@@ -4636,11 +4636,13 @@
       "title": "How to Report a Mechanical Problem to the Rental Shop",
       "slug": "how-to-report-a-mechanical-problem-to-the-rental-shop",
       "source_hash": "1dbab952ccccc3a9a1fa95974a895d7f5bbce74bfb107c87453ec21430f48e87",
-      "checked_at": "2026-10-22T03:34:02.150452+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T03:34:07.539323+00:00",
+      "phase": "VERIFIED",
       "category_id": 55,
-      "wp_id": 2697
+      "wp_id": 2697,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-report-a-mechanical-problem-to-the-rental-shop/"
     }
   },
-  "updated_at": "2026-10-22T03:34:02.150469+00:00"
+  "updated_at": "2026-10-22T03:34:07.539344+00:00"
 }
