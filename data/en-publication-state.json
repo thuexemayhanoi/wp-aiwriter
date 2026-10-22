@@ -4614,11 +4614,11 @@
       "title": "Lost Rental Bike Keys: Reporting and Replacement Steps",
       "slug": "lost-rental-bike-keys-reporting-and-replacement-steps",
       "source_hash": "9c0c309a0e9d4bfa82acb14d69bd63a122b1101a6fc4baa378c2561d41655e72",
-      "checked_at": "2026-10-22T03:33:27.892384+00:00",
-      "phase": "REGISTERED",
+      "checked_at": "2026-10-22T03:33:30.488166+00:00",
+      "phase": "VERIFY_PENDING",
       "category_id": 55,
       "wp_id": 2693
     }
   },
-  "updated_at": "2026-10-22T03:33:27.892401+00:00"
+  "updated_at": "2026-10-22T03:33:30.488184+00:00"
 }
