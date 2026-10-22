@@ -1,10 +1,13 @@
 name: Nguyen Ha Sitewide 404 Audit (read-only)
 # Owner approved full-site link checking; never mutates WordPress.
 on:
+  pull_request:
+    branches: [main]
   push:
     branches: [main]
     paths:
       - 'scripts/sitewide_404_audit.py'
+      - 'tests/test_sitewide_404_audit.py'
       - '.github/workflows/sitewide-404-audit.yml'
   workflow_dispatch:
 permissions:
@@ -21,7 +24,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Compile and test offline crawler contracts
+        run: |
+          python -m py_compile scripts/sitewide_404_audit.py
+          python -m unittest tests.test_sitewide_404_audit -v
       - name: Crawl all published Posts/Pages, HTML, internal links, images and sitemap
+        if: github.event_name != 'pull_request'
         run: python scripts/sitewide_404_audit.py --workers 5
       - name: Preserve URL-to-source failure report
         if: always()
