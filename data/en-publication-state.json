@@ -5214,7 +5214,15 @@
       "wp_id": 3414,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/school-zone-riding-children-and-sudden-pedestrian-movements/"
+    },
+    "475": {
+      "title": "How to Ride near Construction Sites and Temporary Barriers",
+      "slug": "how-to-ride-near-construction-sites-and-temporary-barriers",
+      "source_hash": "93e5373ed4f9e4c4c9f630026f35ef035400af8aea90c2a98cf5dc8bbdcf842a",
+      "checked_at": "2026-10-22T10:45:43.425253+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 56
     }
   },
-  "updated_at": "2026-10-22T10:45:42.152637+00:00"
+  "updated_at": "2026-10-22T10:45:43.425261+00:00"
 }
