@@ -5280,7 +5280,15 @@
       "wp_id": 3426,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/using-a-rain-poncho-without-obscuring-lights-or-wheels/"
+    },
+    "481": {
+      "title": "Why Loose Scarves and Bags Are Dangerous on Motorbikes",
+      "slug": "why-loose-scarves-and-bags-are-dangerous-on-motorbikes",
+      "source_hash": "4bd3407fa860cb08172931d6b120c0703b68582da808a36ec7a59f596280e1d0",
+      "checked_at": "2026-10-22T10:46:53.211484+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 56
     }
   },
-  "updated_at": "2026-10-22T10:46:51.859104+00:00"
+  "updated_at": "2026-10-22T10:46:53.211493+00:00"
 }
