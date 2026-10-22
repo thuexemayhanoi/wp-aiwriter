@@ -5483,11 +5483,13 @@
       "title": "Checking Motorbike Brake Lights and Indicators Daily",
       "slug": "checking-motorbike-brake-lights-and-indicators-daily",
       "source_hash": "cc6cfc47e9317fdf019b0bb875e4055a75c91d0523712cb7a3abbef70d8458f4",
-      "checked_at": "2026-10-22T11:07:01.182153+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T11:07:05.399696+00:00",
+      "phase": "VERIFIED",
       "category_id": 56,
-      "wp_id": 3464
+      "wp_id": 3464,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/checking-motorbike-brake-lights-and-indicators-daily/"
     }
   },
-  "updated_at": "2026-10-22T11:07:01.182170+00:00"
+  "updated_at": "2026-10-22T11:07:05.399710+00:00"
 }
