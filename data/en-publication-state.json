@@ -4823,11 +4823,13 @@
       "title": "How to Check Deposit Return Conditions before Signing",
       "slug": "how-to-check-deposit-return-conditions-before-signing",
       "source_hash": "88f1d7f6c51eced52eaa7c95d47217358d012523211d8d2c48c2725dbb5f108d",
-      "checked_at": "2026-10-22T03:54:17.472301+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T03:54:21.884655+00:00",
+      "phase": "VERIFIED",
       "category_id": 55,
-      "wp_id": 2731
+      "wp_id": 2731,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-check-deposit-return-conditions-before-signing/"
     }
   },
-  "updated_at": "2026-10-22T03:54:17.472318+00:00"
+  "updated_at": "2026-10-22T03:54:21.884670+00:00"
 }
