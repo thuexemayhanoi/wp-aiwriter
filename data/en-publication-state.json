@@ -5252,11 +5252,13 @@
       "title": "Scooter Phone Mounts: Safer Navigation without Distraction",
       "slug": "scooter-phone-mounts-safer-navigation-without-distraction",
       "source_hash": "2dcc9e31549be67340ed289dad74e9ac4b4bc547ec4a91d67b11cbfadf9c9aeb",
-      "checked_at": "2026-10-22T10:46:24.406978+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T10:46:28.401537+00:00",
+      "phase": "VERIFIED",
       "category_id": 67,
-      "wp_id": 3422
+      "wp_id": 3422,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/scooter-phone-mounts-safer-navigation-without-distraction/"
     }
   },
-  "updated_at": "2026-10-22T10:46:24.406992+00:00"
+  "updated_at": "2026-10-22T10:46:28.401550+00:00"
 }
