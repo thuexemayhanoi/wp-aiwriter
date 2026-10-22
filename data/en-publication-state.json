@@ -4966,11 +4966,13 @@
       "title": "How to Ride through a Hanoi Roundabout",
       "slug": "how-to-ride-through-a-hanoi-roundabout",
       "source_hash": "af3c0c41beb058800df3392ece6b183ee947f986ec988eb86b3d6d680dffda3e",
-      "checked_at": "2026-10-22T04:18:33.092960+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T04:18:38.333272+00:00",
+      "phase": "VERIFIED",
       "category_id": 56,
-      "wp_id": 2757
+      "wp_id": 2757,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-ride-through-a-hanoi-roundabout/"
     }
   },
-  "updated_at": "2026-10-22T04:18:33.092981+00:00"
+  "updated_at": "2026-10-22T04:18:38.333293+00:00"
 }
