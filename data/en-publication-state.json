@@ -5340,10 +5340,11 @@
       "title": "Basic Protective Clothing for Short Scooter Trips",
       "slug": "basic-protective-clothing-for-short-scooter-trips",
       "source_hash": "1a742c2968149d02f0fd8947855639358e401657e2cc74b53d2a8db9b7186587",
-      "checked_at": "2026-10-22T10:54:49.025958+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 56
+      "checked_at": "2026-10-22T10:54:50.972170+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 56,
+      "wp_id": 3438
     }
   },
-  "updated_at": "2026-10-22T10:54:49.025971+00:00"
+  "updated_at": "2026-10-22T10:54:50.972187+00:00"
 }
