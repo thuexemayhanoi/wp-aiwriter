@@ -5032,10 +5032,11 @@
       "title": "Dealing with Potholes on a Rental Motorbike",
       "slug": "dealing-with-potholes-on-a-rental-motorbike",
       "source_hash": "38bfa25b989550a2a74d51980a6e1893224e644a140d9e806986de5102cac1a9",
-      "checked_at": "2026-10-22T10:04:09.569353+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 56
+      "checked_at": "2026-10-22T10:04:11.757165+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 56,
+      "wp_id": 3380
     }
   },
-  "updated_at": "2026-10-22T10:04:09.569365+00:00"
+  "updated_at": "2026-10-22T10:04:11.757185+00:00"
 }
