@@ -4746,11 +4746,13 @@
       "title": "What to Do if the Rental Shop Is Closed When You Arrive",
       "slug": "what-to-do-if-the-rental-shop-is-closed-when-you-arrive",
       "source_hash": "dc5a91de73ac667c019a7173fcbf0b00df89fd00428285d4167f0e31f300ccbc",
-      "checked_at": "2026-10-22T03:45:44.116138+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T03:45:48.395278+00:00",
+      "phase": "VERIFIED",
       "category_id": 55,
-      "wp_id": 2717
+      "wp_id": 2717,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/what-to-do-if-the-rental-shop-is-closed-when-you-arrive/"
     }
   },
-  "updated_at": "2026-10-22T03:45:44.116171+00:00"
+  "updated_at": "2026-10-22T03:45:48.395291+00:00"
 }
