@@ -4752,7 +4752,15 @@
       "wp_id": 2717,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/what-to-do-if-the-rental-shop-is-closed-when-you-arrive/"
+    },
+    "433": {
+      "title": "How to Plan a Rental Pickup from Gia Lam Bus Station",
+      "slug": "how-to-plan-a-rental-pickup-from-gia-lam-bus-station",
+      "source_hash": "6aced74aef2d050c6b2f777d84b2e17447b6ee04cd2dd3f73f1a8299f61c2858",
+      "checked_at": "2026-10-22T03:45:49.781510+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 55
     }
   },
-  "updated_at": "2026-10-22T03:45:48.395291+00:00"
+  "updated_at": "2026-10-22T03:45:49.781517+00:00"
 }
