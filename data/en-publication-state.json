@@ -4669,10 +4669,11 @@
       "title": "What to Do after a Minor Collision on a Rental Scooter",
       "slug": "what-to-do-after-a-minor-collision-on-a-rental-scooter",
       "source_hash": "114cafdf73812c225f93429b40142ce125f53600745585441c9d8fd24715bb1c",
-      "checked_at": "2026-10-22T03:44:10.151835+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 55
+      "checked_at": "2026-10-22T03:44:12.192853+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 55,
+      "wp_id": 2703
     }
   },
-  "updated_at": "2026-10-22T03:44:10.151843+00:00"
+  "updated_at": "2026-10-22T03:44:12.192866+00:00"
 }
