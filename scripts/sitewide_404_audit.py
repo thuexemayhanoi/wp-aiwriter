@@ -115,8 +115,12 @@ def wp_collection(name,per_page=20,max_pages=100):
         data,headers=read_json(base+f"?status=publish&per_page={per_page}&page={page}&_fields={fields}")
         if not isinstance(data,list): raise RuntimeError("REST not a list "+name)
         rows.extend(data)
-        total_pages=int(headers.get("X-WP-TotalPages",str(page)))
-        if page>=total_pages:return rows
+        # urllib and proxies may normalize X-WP-TotalPages casing.
+        page_header=next((v for k,v in headers.items() if k.lower()=="x-wp-totalpages"),None)
+        if page_header is not None:
+            if page>=int(page_header):return rows
+        elif len(data)<per_page:
+            return rows
     raise RuntimeError("REST page cap reached "+name)
 
 def wp_categories():
