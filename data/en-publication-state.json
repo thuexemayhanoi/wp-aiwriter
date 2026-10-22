@@ -5120,11 +5120,13 @@
       "title": "How to Ride beside Heavy Trucks in Hanoi",
       "slug": "how-to-ride-beside-heavy-trucks-in-hanoi",
       "source_hash": "cd416a7872c62e3f5c35d22baadeca507dd7db19633c1fc4b6a8bd93a89d9d8b",
-      "checked_at": "2026-10-22T10:29:47.428706+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T10:29:52.445801+00:00",
+      "phase": "VERIFIED",
       "category_id": 56,
-      "wp_id": 3396
+      "wp_id": 3396,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-ride-beside-heavy-trucks-in-hanoi/"
     }
   },
-  "updated_at": "2026-10-22T10:29:47.428723+00:00"
+  "updated_at": "2026-10-22T10:29:52.445818+00:00"
 }
