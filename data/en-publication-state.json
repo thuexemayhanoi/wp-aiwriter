@@ -5412,7 +5412,15 @@
       "wp_id": 3450,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/safe-parking-on-sloped-or-uneven-streets/"
+    },
+    "493": {
+      "title": "How to Prevent Your Scooter from Rolling while Parked",
+      "slug": "how-to-prevent-your-scooter-from-rolling-while-parked",
+      "source_hash": "03256491b6d4a0b69f01f18060b8a3cff10ca00989615143e78f267221283c90",
+      "checked_at": "2026-10-22T10:56:13.835105+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 56
     }
   },
-  "updated_at": "2026-10-22T10:56:12.525366+00:00"
+  "updated_at": "2026-10-22T10:56:13.835116+00:00"
 }
