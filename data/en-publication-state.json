@@ -4818,7 +4818,15 @@
       "wp_id": 2729,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/extending-a-monthly-motorbike-rental-contract-questions/"
+    },
+    "439": {
+      "title": "How to Check Deposit Return Conditions before Signing",
+      "slug": "how-to-check-deposit-return-conditions-before-signing",
+      "source_hash": "88f1d7f6c51eced52eaa7c95d47217358d012523211d8d2c48c2725dbb5f108d",
+      "checked_at": "2026-10-22T03:54:11.057993+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 55
     }
   },
-  "updated_at": "2026-10-22T03:54:09.670112+00:00"
+  "updated_at": "2026-10-22T03:54:11.058002+00:00"
 }
