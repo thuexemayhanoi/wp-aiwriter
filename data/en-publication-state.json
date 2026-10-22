@@ -5401,7 +5401,15 @@
       "wp_id": 3448,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-ride-defensively-around-pedestrians/"
+    },
+    "492": {
+      "title": "Safe Parking on Sloped or Uneven Streets",
+      "slug": "safe-parking-on-sloped-or-uneven-streets",
+      "source_hash": "5248aad4ba3be64c7b56dfc766e40ee15c5cd43bc327dfa56de412db29735e72",
+      "checked_at": "2026-10-22T10:56:01.504327+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 56
     }
   },
-  "updated_at": "2026-10-22T10:56:00.035051+00:00"
+  "updated_at": "2026-10-22T10:56:01.504337+00:00"
 }
