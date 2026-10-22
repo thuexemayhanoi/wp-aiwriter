@@ -4774,7 +4774,15 @@
       "wp_id": 2721,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/comparing-two-rental-quotes-for-the-same-motorbike-class/"
+    },
+    "435": {
+      "title": "Why a Low Advertised Rental Price May Not Be the Final Price",
+      "slug": "why-a-low-advertised-rental-price-may-not-be-the-final-price",
+      "source_hash": "077c3ba36d27a1224d2e2e2d9c21456d28398d704446597b4576d6a2d2860034",
+      "checked_at": "2026-10-22T03:53:16.328059+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 55
     }
   },
-  "updated_at": "2026-10-22T03:53:14.941964+00:00"
+  "updated_at": "2026-10-22T03:53:16.328068+00:00"
 }
