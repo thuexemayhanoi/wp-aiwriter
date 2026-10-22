@@ -5373,11 +5373,13 @@
       "title": "Avoiding Alcohol and Impairment before Riding",
       "slug": "avoiding-alcohol-and-impairment-before-riding",
       "source_hash": "a20b8c9b6578f6792fbf176896a6d79bf470a241d1ca497dd96d8de50597d950",
-      "checked_at": "2026-10-22T10:55:32.246431+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T10:55:36.589807+00:00",
+      "phase": "VERIFIED",
       "category_id": 56,
-      "wp_id": 3444
+      "wp_id": 3444,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/avoiding-alcohol-and-impairment-before-riding/"
     }
   },
-  "updated_at": "2026-10-22T10:55:32.246448+00:00"
+  "updated_at": "2026-10-22T10:55:36.589825+00:00"
 }
