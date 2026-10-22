@@ -5340,11 +5340,13 @@
       "title": "Basic Protective Clothing for Short Scooter Trips",
       "slug": "basic-protective-clothing-for-short-scooter-trips",
       "source_hash": "1a742c2968149d02f0fd8947855639358e401657e2cc74b53d2a8db9b7186587",
-      "checked_at": "2026-10-22T10:54:55.276047+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T10:55:00.065097+00:00",
+      "phase": "VERIFIED",
       "category_id": 56,
-      "wp_id": 3438
+      "wp_id": 3438,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/basic-protective-clothing-for-short-scooter-trips/"
     }
   },
-  "updated_at": "2026-10-22T10:54:55.276063+00:00"
+  "updated_at": "2026-10-22T10:55:00.065115+00:00"
 }
