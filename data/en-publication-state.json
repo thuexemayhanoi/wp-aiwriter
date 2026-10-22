@@ -5395,11 +5395,13 @@
       "title": "How to Ride Defensively around Pedestrians",
       "slug": "how-to-ride-defensively-around-pedestrians",
       "source_hash": "b9719754fcf01bf18cfa86b5c6f2d4241eb433e4eaa4ae1fb9b009b1f0638b76",
-      "checked_at": "2026-10-22T10:55:55.938156+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T10:56:00.035034+00:00",
+      "phase": "VERIFIED",
       "category_id": 56,
-      "wp_id": 3448
+      "wp_id": 3448,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-ride-defensively-around-pedestrians/"
     }
   },
-  "updated_at": "2026-10-22T10:55:55.938173+00:00"
+  "updated_at": "2026-10-22T10:56:00.035051+00:00"
 }
