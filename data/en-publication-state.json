@@ -5368,7 +5368,15 @@
       "wp_id": 3442,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/heat-and-dehydration-on-a-motorbike-day-trip/"
+    },
+    "489": {
+      "title": "Avoiding Alcohol and Impairment before Riding",
+      "slug": "avoiding-alcohol-and-impairment-before-riding",
+      "source_hash": "a20b8c9b6578f6792fbf176896a6d79bf470a241d1ca497dd96d8de50597d950",
+      "checked_at": "2026-10-22T10:55:25.541624+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 56
     }
   },
-  "updated_at": "2026-10-22T10:55:24.309244+00:00"
+  "updated_at": "2026-10-22T10:55:25.541636+00:00"
 }
