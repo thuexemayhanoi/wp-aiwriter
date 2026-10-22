@@ -5357,7 +5357,15 @@
       "wp_id": 3440,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/what-to-do-if-you-feel-fatigued-on-a-long-ride/"
+    },
+    "488": {
+      "title": "Heat and Dehydration on a Motorbike Day Trip",
+      "slug": "heat-and-dehydration-on-a-motorbike-day-trip",
+      "source_hash": "43613eccee03e2197dc4921a0ef91b6c445152dc1422469fbb3c95526127361d",
+      "checked_at": "2026-10-22T10:55:13.511740+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 56
     }
   },
-  "updated_at": "2026-10-22T10:55:12.227162+00:00"
+  "updated_at": "2026-10-22T10:55:13.511750+00:00"
 }
