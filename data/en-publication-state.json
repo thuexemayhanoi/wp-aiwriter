@@ -5175,10 +5175,11 @@
       "title": "How to Verify the Current Fine for a Traffic Offence",
       "slug": "how-to-verify-the-current-fine-for-a-traffic-offence",
       "source_hash": "132ed64158598cd3fe09676b8e945be29bd3b4c96879e7cec74dc25c08ec7ae2",
-      "checked_at": "2026-10-22T10:30:53.188068+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 56
+      "checked_at": "2026-10-22T10:30:55.653552+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 56,
+      "wp_id": 3406
     }
   },
-  "updated_at": "2026-10-22T10:30:53.188076+00:00"
+  "updated_at": "2026-10-22T10:30:55.653568+00:00"
 }
