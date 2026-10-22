@@ -4664,7 +4664,15 @@
       "wp_id": 2701,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/when-a-rental-motorbike-needs-to-be-collected/"
+    },
+    "425": {
+      "title": "What to Do after a Minor Collision on a Rental Scooter",
+      "slug": "what-to-do-after-a-minor-collision-on-a-rental-scooter",
+      "source_hash": "114cafdf73812c225f93429b40142ce125f53600745585441c9d8fd24715bb1c",
+      "checked_at": "2026-10-22T03:44:10.151835+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 55
     }
   },
-  "updated_at": "2026-10-22T03:44:08.703368+00:00"
+  "updated_at": "2026-10-22T03:44:10.151843+00:00"
 }
