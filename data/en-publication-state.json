@@ -4603,11 +4603,11 @@
       "title": "What to Do if Your Rental Motorbike Is Stolen",
       "slug": "what-to-do-if-your-rental-motorbike-is-stolen",
       "source_hash": "1c72d12234e5e5f1492426258ea87fea1f06eed89a76a81d0beb2a868d020674",
-      "checked_at": "2026-10-22T03:33:12.887287+00:00",
-      "phase": "REGISTERED",
+      "checked_at": "2026-10-22T03:33:15.483424+00:00",
+      "phase": "VERIFY_PENDING",
       "category_id": 55,
       "wp_id": 2691
     }
   },
-  "updated_at": "2026-10-22T03:33:12.887303+00:00"
+  "updated_at": "2026-10-22T03:33:15.483441+00:00"
 }
