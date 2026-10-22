@@ -5065,11 +5065,13 @@
       "title": "What to Do during a Sudden Hanoi Thunderstorm",
       "slug": "what-to-do-during-a-sudden-hanoi-thunderstorm",
       "source_hash": "2dbaace21eff1e9483b17f4ba29761203857158be2ca88cc3d25be5d455fc740",
-      "checked_at": "2026-10-22T10:04:57.456381+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T10:05:03.261683+00:00",
+      "phase": "VERIFIED",
       "category_id": 56,
-      "wp_id": 3386
+      "wp_id": 3386,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/what-to-do-during-a-sudden-hanoi-thunderstorm/"
     }
   },
-  "updated_at": "2026-10-22T10:04:57.456403+00:00"
+  "updated_at": "2026-10-22T10:05:03.261703+00:00"
 }
