@@ -1,6 +1,8 @@
 name: Nguyen Ha VI 333 Redirect Audit (read-only)
 # Owner-approved one-time live audit. No secrets, WP mutations or scheduled jobs.
 on:
+  pull_request:
+    branches: [main]
   push:
     branches: [main]
     paths:
@@ -25,6 +27,7 @@ jobs:
       - name: Verify manifest and audit logic offline
         run: python -m unittest tests.test_vi_redirect_audit -v
       - name: Audit all 333 redirects and destination canonicals
+        if: github.event_name != 'pull_request'
         run: python scripts/vi_redirect_audit.py --workers 5
       - name: Preserve per-URL results
         if: always()
