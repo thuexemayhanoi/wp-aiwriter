@@ -4724,11 +4724,13 @@
       "title": "How to Keep Your Passport Safe during a Scooter Rental",
       "slug": "how-to-keep-your-passport-safe-during-a-scooter-rental",
       "source_hash": "e594a9183d324d6cc6021e9065cc073d7305e87ab6dca85de9a02bd23f8a44ab",
-      "checked_at": "2026-10-22T03:45:18.857848+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T03:45:23.018427+00:00",
+      "phase": "VERIFIED",
       "category_id": 55,
-      "wp_id": 2713
+      "wp_id": 2713,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-keep-your-passport-safe-during-a-scooter-rental/"
     }
   },
-  "updated_at": "2026-10-22T03:45:18.857861+00:00"
+  "updated_at": "2026-10-22T03:45:23.018439+00:00"
 }
