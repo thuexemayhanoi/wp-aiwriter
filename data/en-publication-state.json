@@ -4554,7 +4554,15 @@
       "wp_id": 2681,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-record-the-fuel-level-at-handover/"
+    },
+    "415": {
+      "title": "How to Document Existing Scratches on a Rental Bike",
+      "slug": "how-to-document-existing-scratches-on-a-rental-bike",
+      "source_hash": "4aaf865b95d2467424307e9743f4267dbe47ecb69969c502b12a55f17c3c6086",
+      "checked_at": "2026-10-22T03:32:07.603492+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 55
     }
   },
-  "updated_at": "2026-10-22T03:32:05.872162+00:00"
+  "updated_at": "2026-10-22T03:32:07.603501+00:00"
 }
