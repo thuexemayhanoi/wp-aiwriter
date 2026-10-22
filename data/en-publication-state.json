@@ -4581,10 +4581,11 @@
       "title": "Requesting a Replacement Bike after Finding a Safety Defect",
       "slug": "requesting-a-replacement-bike-after-finding-a-safety-defect",
       "source_hash": "75459a90cc54da36eb33f6891e28e6cfaa3e46543e100d41568cfacf7300291c",
-      "checked_at": "2026-10-22T03:32:38.374982+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 55
+      "checked_at": "2026-10-22T03:32:40.841378+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 55,
+      "wp_id": 2687
     }
   },
-  "updated_at": "2026-10-22T03:32:38.374991+00:00"
+  "updated_at": "2026-10-22T03:32:40.841394+00:00"
 }
