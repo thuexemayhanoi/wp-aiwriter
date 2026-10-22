@@ -4779,10 +4779,11 @@
       "title": "Why a Low Advertised Rental Price May Not Be the Final Price",
       "slug": "why-a-low-advertised-rental-price-may-not-be-the-final-price",
       "source_hash": "077c3ba36d27a1224d2e2e2d9c21456d28398d704446597b4576d6a2d2860034",
-      "checked_at": "2026-10-22T03:53:16.328059+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 55
+      "checked_at": "2026-10-22T03:53:18.446465+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 55,
+      "wp_id": 2723
     }
   },
-  "updated_at": "2026-10-22T03:53:16.328068+00:00"
+  "updated_at": "2026-10-22T03:53:18.446483+00:00"
 }
