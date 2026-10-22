@@ -5247,7 +5247,15 @@
       "wp_id": 3420,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-avoid-riding-on-footpaths-and-pedestrian-streets/"
+    },
+    "478": {
+      "title": "Scooter Phone Mounts: Safer Navigation without Distraction",
+      "slug": "scooter-phone-mounts-safer-navigation-without-distraction",
+      "source_hash": "2dcc9e31549be67340ed289dad74e9ac4b4bc547ec4a91d67b11cbfadf9c9aeb",
+      "checked_at": "2026-10-22T10:46:18.164413+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 67
     }
   },
-  "updated_at": "2026-10-22T10:46:16.759934+00:00"
+  "updated_at": "2026-10-22T10:46:18.164454+00:00"
 }
