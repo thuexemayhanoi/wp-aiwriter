@@ -5241,11 +5241,13 @@
       "title": "How to Avoid Riding on Footpaths and Pedestrian Streets",
       "slug": "how-to-avoid-riding-on-footpaths-and-pedestrian-streets",
       "source_hash": "a7cd5bee924998679607a78d56b517667ad94eed2b63d4fea33e06629b586db1",
-      "checked_at": "2026-10-22T10:46:12.739698+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T10:46:16.759921+00:00",
+      "phase": "VERIFIED",
       "category_id": 56,
-      "wp_id": 3420
+      "wp_id": 3420,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-avoid-riding-on-footpaths-and-pedestrian-streets/"
     }
   },
-  "updated_at": "2026-10-22T10:46:12.739714+00:00"
+  "updated_at": "2026-10-22T10:46:16.759934+00:00"
 }
