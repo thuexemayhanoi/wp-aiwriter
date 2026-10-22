@@ -5489,7 +5489,15 @@
       "wp_id": 3464,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/checking-motorbike-brake-lights-and-indicators-daily/"
+    },
+    "500": {
+      "title": "Should You Ride when Heavy Rain Floods a Road?",
+      "slug": "should-you-ride-when-heavy-rain-floods-a-road",
+      "source_hash": "47051d0e64abf18c53dd3b441d9eae8c7dc0d509005e333bbf234df752530216",
+      "checked_at": "2026-10-22T11:07:06.994551+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 56
     }
   },
-  "updated_at": "2026-10-22T11:07:05.399710+00:00"
+  "updated_at": "2026-10-22T11:07:06.994560+00:00"
 }
