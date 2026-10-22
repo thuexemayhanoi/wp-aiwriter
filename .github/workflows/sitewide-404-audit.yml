@@ -1,0 +1,33 @@
+name: Nguyen Ha Sitewide 404 Audit (read-only)
+# Owner approved full-site link checking; never mutates WordPress.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/sitewide_404_audit.py'
+      - '.github/workflows/sitewide-404-audit.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: nguyen-ha-sitewide-404-audit
+  cancel-in-progress: false
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Crawl all published Posts/Pages, HTML, internal links, images and sitemap
+        run: python scripts/sitewide_404_audit.py --workers 5
+      - name: Preserve URL-to-source failure report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nguyen-ha-fullsite-404-${{ github.run_id }}
+          path: reports/seo/sitewide-404/
+          if-no-files-found: ignore
+          retention-days: 30
