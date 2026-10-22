@@ -4768,11 +4768,13 @@
       "title": "Comparing Two Rental Quotes for the Same Motorbike Class",
       "slug": "comparing-two-rental-quotes-for-the-same-motorbike-class",
       "source_hash": "e8e274cb0e18b1ab0559a97a3e05ce6657594d968cd107b8b60c65c4739c1aa4",
-      "checked_at": "2026-10-22T03:53:10.556276+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T03:53:14.941945+00:00",
+      "phase": "VERIFIED",
       "category_id": 55,
-      "wp_id": 2721
+      "wp_id": 2721,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/comparing-two-rental-quotes-for-the-same-motorbike-class/"
     }
   },
-  "updated_at": "2026-10-22T03:53:10.556294+00:00"
+  "updated_at": "2026-10-22T03:53:14.941964+00:00"
 }
