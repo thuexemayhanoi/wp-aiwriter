@@ -4741,7 +4741,15 @@
       "wp_id": 2715,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/what-identity-documents-a-rental-shop-may-ask-to-see/"
+    },
+    "432": {
+      "title": "What to Do if the Rental Shop Is Closed When You Arrive",
+      "slug": "what-to-do-if-the-rental-shop-is-closed-when-you-arrive",
+      "source_hash": "dc5a91de73ac667c019a7173fcbf0b00df89fd00428285d4167f0e31f300ccbc",
+      "checked_at": "2026-10-22T03:45:37.224362+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 55
     }
   },
-  "updated_at": "2026-10-22T03:45:35.785755+00:00"
+  "updated_at": "2026-10-22T03:45:37.224369+00:00"
 }
