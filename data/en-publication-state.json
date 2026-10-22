@@ -4878,11 +4878,11 @@
       "title": "What Happens at the Final Motorbike Return Inspection",
       "slug": "what-happens-at-the-final-motorbike-return-inspection",
       "source_hash": "87d17be07d94b84d4d5683904c833b5bcf4eb08612fe97021d00da15aa94d1af",
-      "checked_at": "2026-10-22T04:16:35.407497+00:00",
-      "phase": "REGISTERED",
+      "checked_at": "2026-10-22T04:16:37.774023+00:00",
+      "phase": "VERIFY_PENDING",
       "category_id": 55,
       "wp_id": 2741
     }
   },
-  "updated_at": "2026-10-22T04:16:35.407519+00:00"
+  "updated_at": "2026-10-22T04:16:37.774044+00:00"
 }
