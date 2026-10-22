@@ -1,0 +1,2339 @@
+{
+  "version": 1,
+  "site": "https://blog.rentbikehanoi.com",
+  "approved_on": "2026-10-22",
+  "reason": "Owner-approved legacy Vietnamese Excel permalink cleanup",
+  "posts": {
+    "168": {
+      "wp_id": 833,
+      "old_slug": "excel-168-honda-va-yamaha-hang-nao-co-nhieu-lua-chon-xe-so-pho-thong-hon",
+      "new_slug": "honda-va-yamaha-hang-nao-co-nhieu-lua-chon-xe-so-pho-thong-hon",
+      "old_url": "https://blog.rentbikehanoi.com/excel-168-honda-va-yamaha-hang-nao-co-nhieu-lua-chon-xe-so-pho-thong-hon/",
+      "new_url": "https://blog.rentbikehanoi.com/honda-va-yamaha-hang-nao-co-nhieu-lua-chon-xe-so-pho-thong-hon/"
+    },
+    "169": {
+      "wp_id": 880,
+      "old_slug": "excel-169-honda-va-yamaha-hang-nao-co-nhieu-lua-chon-xe-ga-do-thi-hon",
+      "new_slug": "honda-va-yamaha-hang-nao-co-nhieu-lua-chon-xe-ga-do-thi-hon",
+      "old_url": "https://blog.rentbikehanoi.com/excel-169-honda-va-yamaha-hang-nao-co-nhieu-lua-chon-xe-ga-do-thi-hon/",
+      "new_url": "https://blog.rentbikehanoi.com/honda-va-yamaha-hang-nao-co-nhieu-lua-chon-xe-ga-do-thi-hon/"
+    },
+    "170": {
+      "wp_id": 835,
+      "old_slug": "excel-170-xe-honda-thuong-duoc-danh-gia-cao-o-diem-nao-khi-su-dung-lau-dai",
+      "new_slug": "xe-honda-thuong-duoc-danh-gia-cao-o-diem-nao-khi-su-dung-lau-dai",
+      "old_url": "https://blog.rentbikehanoi.com/excel-170-xe-honda-thuong-duoc-danh-gia-cao-o-diem-nao-khi-su-dung-lau-dai/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-honda-thuong-duoc-danh-gia-cao-o-diem-nao-khi-su-dung-lau-dai/"
+    },
+    "171": {
+      "wp_id": 836,
+      "old_slug": "excel-171-xe-yamaha-co-diem-manh-gi-ve-cam-giac-lai-trong-do-thi",
+      "new_slug": "xe-yamaha-co-diem-manh-gi-ve-cam-giac-lai-trong-do-thi",
+      "old_url": "https://blog.rentbikehanoi.com/excel-171-xe-yamaha-co-diem-manh-gi-ve-cam-giac-lai-trong-do-thi/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-yamaha-co-diem-manh-gi-ve-cam-giac-lai-trong-do-thi/"
+    },
+    "172": {
+      "wp_id": 837,
+      "old_slug": "excel-172-phu-tung-honda-pho-bien-den-muc-nao-khi-can-sua-chua-nhanh",
+      "new_slug": "phu-tung-honda-pho-bien-den-muc-nao-khi-can-sua-chua-nhanh",
+      "old_url": "https://blog.rentbikehanoi.com/excel-172-phu-tung-honda-pho-bien-den-muc-nao-khi-can-sua-chua-nhanh/",
+      "new_url": "https://blog.rentbikehanoi.com/phu-tung-honda-pho-bien-den-muc-nao-khi-can-sua-chua-nhanh/"
+    },
+    "173": {
+      "wp_id": 838,
+      "old_slug": "excel-173-phu-tung-yamaha-co-de-tim-khi-di-lai-o-ha-noi-khong",
+      "new_slug": "phu-tung-yamaha-co-de-tim-khi-di-lai-o-ha-noi-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-173-phu-tung-yamaha-co-de-tim-khi-di-lai-o-ha-noi-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/phu-tung-yamaha-co-de-tim-khi-di-lai-o-ha-noi-khong/"
+    },
+    "174": {
+      "wp_id": 851,
+      "old_slug": "excel-174-vi-sao-honda-wave-thuong-xuat-hien-nhieu-trong-nhom-xe-di-lai-hang-ngay",
+      "new_slug": "vi-sao-honda-wave-thuong-xuat-hien-nhieu-trong-nhom-xe-di-lai-hang-ngay",
+      "old_url": "https://blog.rentbikehanoi.com/excel-174-vi-sao-honda-wave-thuong-xuat-hien-nhieu-trong-nhom-xe-di-lai-hang-ngay/",
+      "new_url": "https://blog.rentbikehanoi.com/vi-sao-honda-wave-thuong-xuat-hien-nhieu-trong-nhom-xe-di-lai-hang-ngay/"
+    },
+    "175": {
+      "wp_id": 852,
+      "old_slug": "excel-175-vi-sao-yamaha-sirius-duoc-nhieu-nguoi-chon-cho-quang-duong-hon-hop",
+      "new_slug": "vi-sao-yamaha-sirius-duoc-nhieu-nguoi-chon-cho-quang-duong-hon-hop",
+      "old_url": "https://blog.rentbikehanoi.com/excel-175-vi-sao-yamaha-sirius-duoc-nhieu-nguoi-chon-cho-quang-duong-hon-hop/",
+      "new_url": "https://blog.rentbikehanoi.com/vi-sao-yamaha-sirius-duoc-nhieu-nguoi-chon-cho-quang-duong-hon-hop/"
+    },
+    "176": {
+      "wp_id": 853,
+      "old_slug": "excel-176-honda-vision-co-phu-hop-voi-nguoi-moi-chuyen-tu-xe-so-sang-xe-ga",
+      "new_slug": "honda-vision-co-phu-hop-voi-nguoi-moi-chuyen-tu-xe-so-sang-xe-ga",
+      "old_url": "https://blog.rentbikehanoi.com/excel-176-honda-vision-co-phu-hop-voi-nguoi-moi-chuyen-tu-xe-so-sang-xe-ga/",
+      "new_url": "https://blog.rentbikehanoi.com/honda-vision-co-phu-hop-voi-nguoi-moi-chuyen-tu-xe-so-sang-xe-ga/"
+    },
+    "177": {
+      "wp_id": 854,
+      "old_slug": "excel-177-air-blade-va-vision-khac-nhau-the-nao-ve-kich-thuoc-va-tu-the-lai",
+      "new_slug": "air-blade-va-vision-khac-nhau-the-nao-ve-kich-thuoc-va-tu-the-lai",
+      "old_url": "https://blog.rentbikehanoi.com/excel-177-air-blade-va-vision-khac-nhau-the-nao-ve-kich-thuoc-va-tu-the-lai/",
+      "new_url": "https://blog.rentbikehanoi.com/air-blade-va-vision-khac-nhau-the-nao-ve-kich-thuoc-va-tu-the-lai/"
+    },
+    "178": {
+      "wp_id": 855,
+      "old_slug": "excel-178-lead-va-vision-mau-nao-thuan-tien-hon-khi-can-mang-nhieu-do",
+      "new_slug": "lead-va-vision-mau-nao-thuan-tien-hon-khi-can-mang-nhieu-do",
+      "old_url": "https://blog.rentbikehanoi.com/excel-178-lead-va-vision-mau-nao-thuan-tien-hon-khi-can-mang-nhieu-do/",
+      "new_url": "https://blog.rentbikehanoi.com/lead-va-vision-mau-nao-thuan-tien-hon-khi-can-mang-nhieu-do/"
+    },
+    "179": {
+      "wp_id": 856,
+      "old_slug": "excel-179-janus-va-vision-hai-mau-xe-ga-pho-thong-khac-nhau-o-dau",
+      "new_slug": "janus-va-vision-hai-mau-xe-ga-pho-thong-khac-nhau-o-dau",
+      "old_url": "https://blog.rentbikehanoi.com/excel-179-janus-va-vision-hai-mau-xe-ga-pho-thong-khac-nhau-o-dau/",
+      "new_url": "https://blog.rentbikehanoi.com/janus-va-vision-hai-mau-xe-ga-pho-thong-khac-nhau-o-dau/"
+    },
+    "180": {
+      "wp_id": 857,
+      "old_slug": "excel-180-grande-va-lead-so-sanh-theo-nhu-cau-di-lam-hang-ngay",
+      "new_slug": "grande-va-lead-so-sanh-theo-nhu-cau-di-lam-hang-ngay",
+      "old_url": "https://blog.rentbikehanoi.com/excel-180-grande-va-lead-so-sanh-theo-nhu-cau-di-lam-hang-ngay/",
+      "new_url": "https://blog.rentbikehanoi.com/grande-va-lead-so-sanh-theo-nhu-cau-di-lam-hang-ngay/"
+    },
+    "181": {
+      "wp_id": 858,
+      "old_slug": "excel-181-freego-va-air-blade-khac-biet-nao-dang-chu-y-khi-di-pho",
+      "new_slug": "freego-va-air-blade-khac-biet-nao-dang-chu-y-khi-di-pho",
+      "old_url": "https://blog.rentbikehanoi.com/excel-181-freego-va-air-blade-khac-biet-nao-dang-chu-y-khi-di-pho/",
+      "new_url": "https://blog.rentbikehanoi.com/freego-va-air-blade-khac-biet-nao-dang-chu-y-khi-di-pho/"
+    },
+    "182": {
+      "wp_id": 859,
+      "old_slug": "excel-182-nvx-va-air-blade-nen-hieu-khac-biet-ve-thiet-ke-the-nao",
+      "new_slug": "nvx-va-air-blade-nen-hieu-khac-biet-ve-thiet-ke-the-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-182-nvx-va-air-blade-nen-hieu-khac-biet-ve-thiet-ke-the-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/nvx-va-air-blade-nen-hieu-khac-biet-ve-thiet-ke-the-nao/"
+    },
+    "183": {
+      "wp_id": 860,
+      "old_slug": "excel-183-liberty-va-sh-mode-hai-phong-cach-xe-ga-do-thi-khac-nhau-ra-sao",
+      "new_slug": "liberty-va-sh-mode-hai-phong-cach-xe-ga-do-thi-khac-nhau-ra-sao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-183-liberty-va-sh-mode-hai-phong-cach-xe-ga-do-thi-khac-nhau-ra-sao/",
+      "new_url": "https://blog.rentbikehanoi.com/liberty-va-sh-mode-hai-phong-cach-xe-ga-do-thi-khac-nhau-ra-sao/"
+    },
+    "184": {
+      "wp_id": 861,
+      "old_slug": "excel-184-wave-va-sirius-khac-nhau-o-tu-the-lai-va-cach-van-hanh-the-nao",
+      "new_slug": "wave-va-sirius-khac-nhau-o-tu-the-lai-va-cach-van-hanh-the-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-184-wave-va-sirius-khac-nhau-o-tu-the-lai-va-cach-van-hanh-the-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/wave-va-sirius-khac-nhau-o-tu-the-lai-va-cach-van-hanh-the-nao/"
+    },
+    "185": {
+      "wp_id": 862,
+      "old_slug": "excel-185-blade-va-sirius-dau-la-nhung-diem-nguoi-moi-dung-de-nhan-ra",
+      "new_slug": "blade-va-sirius-dau-la-nhung-diem-nguoi-moi-dung-de-nhan-ra",
+      "old_url": "https://blog.rentbikehanoi.com/excel-185-blade-va-sirius-dau-la-nhung-diem-nguoi-moi-dung-de-nhan-ra/",
+      "new_url": "https://blog.rentbikehanoi.com/blade-va-sirius-dau-la-nhung-diem-nguoi-moi-dung-de-nhan-ra/"
+    },
+    "186": {
+      "wp_id": 863,
+      "old_slug": "excel-186-future-va-jupiter-so-sanh-hai-dong-xe-so-thien-ve-su-thoai-mai",
+      "new_slug": "future-va-jupiter-so-sanh-hai-dong-xe-so-thien-ve-su-thoai-mai",
+      "old_url": "https://blog.rentbikehanoi.com/excel-186-future-va-jupiter-so-sanh-hai-dong-xe-so-thien-ve-su-thoai-mai/",
+      "new_url": "https://blog.rentbikehanoi.com/future-va-jupiter-so-sanh-hai-dong-xe-so-thien-ve-su-thoai-mai/"
+    },
+    "187": {
+      "wp_id": 864,
+      "old_slug": "excel-187-xe-ga-honda-co-nhung-dac-diem-chung-nao-trong-thiet-ke-do-thi",
+      "new_slug": "xe-ga-honda-co-nhung-dac-diem-chung-nao-trong-thiet-ke-do-thi",
+      "old_url": "https://blog.rentbikehanoi.com/excel-187-xe-ga-honda-co-nhung-dac-diem-chung-nao-trong-thiet-ke-do-thi/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-ga-honda-co-nhung-dac-diem-chung-nao-trong-thiet-ke-do-thi/"
+    },
+    "188": {
+      "wp_id": 865,
+      "old_slug": "excel-188-xe-ga-yamaha-co-nhung-dac-diem-chung-nao-de-nhan-biet",
+      "new_slug": "xe-ga-yamaha-co-nhung-dac-diem-chung-nao-de-nhan-biet",
+      "old_url": "https://blog.rentbikehanoi.com/excel-188-xe-ga-yamaha-co-nhung-dac-diem-chung-nao-de-nhan-biet/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-ga-yamaha-co-nhung-dac-diem-chung-nao-de-nhan-biet/"
+    },
+    "189": {
+      "wp_id": 867,
+      "old_slug": "excel-189-xe-so-honda-thuong-khac-xe-so-yamaha-o-nhung-diem-nao",
+      "new_slug": "xe-so-honda-thuong-khac-xe-so-yamaha-o-nhung-diem-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-189-xe-so-honda-thuong-khac-xe-so-yamaha-o-nhung-diem-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-so-honda-thuong-khac-xe-so-yamaha-o-nhung-diem-nao/"
+    },
+    "190": {
+      "wp_id": 868,
+      "old_slug": "excel-190-cac-dong-xe-50cc-cua-sym-co-gi-dang-chu-y-voi-nguoi-dung-do-thi",
+      "new_slug": "cac-dong-xe-50cc-cua-sym-co-gi-dang-chu-y-voi-nguoi-dung-do-thi",
+      "old_url": "https://blog.rentbikehanoi.com/excel-190-cac-dong-xe-50cc-cua-sym-co-gi-dang-chu-y-voi-nguoi-dung-do-thi/",
+      "new_url": "https://blog.rentbikehanoi.com/cac-dong-xe-50cc-cua-sym-co-gi-dang-chu-y-voi-nguoi-dung-do-thi/"
+    },
+    "191": {
+      "wp_id": 869,
+      "old_slug": "excel-191-kymco-50cc-phu-hop-voi-nhom-nguoi-dung-nao",
+      "new_slug": "kymco-50cc-phu-hop-voi-nhom-nguoi-dung-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-191-kymco-50cc-phu-hop-voi-nhom-nguoi-dung-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/kymco-50cc-phu-hop-voi-nhom-nguoi-dung-nao/"
+    },
+    "192": {
+      "wp_id": 870,
+      "old_slug": "excel-192-piaggio-va-vespa-khac-nhau-the-nao-trong-cach-dinh-vi-san-pham",
+      "new_slug": "piaggio-va-vespa-khac-nhau-the-nao-trong-cach-dinh-vi-san-pham",
+      "old_url": "https://blog.rentbikehanoi.com/excel-192-piaggio-va-vespa-khac-nhau-the-nao-trong-cach-dinh-vi-san-pham/",
+      "new_url": "https://blog.rentbikehanoi.com/piaggio-va-vespa-khac-nhau-the-nao-trong-cach-dinh-vi-san-pham/"
+    },
+    "193": {
+      "wp_id": 871,
+      "old_slug": "excel-193-nhung-dong-xe-honda-co-cop-rong-dang-chu-y-cho-nguoi-di-pho",
+      "new_slug": "nhung-dong-xe-honda-co-cop-rong-dang-chu-y-cho-nguoi-di-pho",
+      "old_url": "https://blog.rentbikehanoi.com/excel-193-nhung-dong-xe-honda-co-cop-rong-dang-chu-y-cho-nguoi-di-pho/",
+      "new_url": "https://blog.rentbikehanoi.com/nhung-dong-xe-honda-co-cop-rong-dang-chu-y-cho-nguoi-di-pho/"
+    },
+    "194": {
+      "wp_id": 872,
+      "old_slug": "excel-194-nhung-dong-xe-yamaha-co-trong-luong-de-lam-quen-cho-nguoi-moi",
+      "new_slug": "nhung-dong-xe-yamaha-co-trong-luong-de-lam-quen-cho-nguoi-moi",
+      "old_url": "https://blog.rentbikehanoi.com/excel-194-nhung-dong-xe-yamaha-co-trong-luong-de-lam-quen-cho-nguoi-moi/",
+      "new_url": "https://blog.rentbikehanoi.com/nhung-dong-xe-yamaha-co-trong-luong-de-lam-quen-cho-nguoi-moi/"
+    },
+    "195": {
+      "wp_id": 873,
+      "old_slug": "excel-195-cach-phan-biet-cac-doi-honda-vision-khi-nhin-ngoai-hinh",
+      "new_slug": "cach-phan-biet-cac-doi-honda-vision-khi-nhin-ngoai-hinh",
+      "old_url": "https://blog.rentbikehanoi.com/excel-195-cach-phan-biet-cac-doi-honda-vision-khi-nhin-ngoai-hinh/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-phan-biet-cac-doi-honda-vision-khi-nhin-ngoai-hinh/"
+    },
+    "196": {
+      "wp_id": 874,
+      "old_slug": "excel-196-cach-phan-biet-mot-so-doi-air-blade-qua-thiet-ke-ben-ngoai",
+      "new_slug": "cach-phan-biet-mot-so-doi-air-blade-qua-thiet-ke-ben-ngoai",
+      "old_url": "https://blog.rentbikehanoi.com/excel-196-cach-phan-biet-mot-so-doi-air-blade-qua-thiet-ke-ben-ngoai/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-phan-biet-mot-so-doi-air-blade-qua-thiet-ke-ben-ngoai/"
+    },
+    "197": {
+      "wp_id": 875,
+      "old_slug": "excel-197-cach-nhan-biet-cac-phien-ban-yamaha-sirius-pho-bien",
+      "new_slug": "cach-nhan-biet-cac-phien-ban-yamaha-sirius-pho-bien",
+      "old_url": "https://blog.rentbikehanoi.com/excel-197-cach-nhan-biet-cac-phien-ban-yamaha-sirius-pho-bien/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-nhan-biet-cac-phien-ban-yamaha-sirius-pho-bien/"
+    },
+    "198": {
+      "wp_id": 876,
+      "old_slug": "excel-198-cach-nhan-biet-cac-the-he-honda-wave-pho-bien-tren-duong-pho",
+      "new_slug": "cach-nhan-biet-cac-the-he-honda-wave-pho-bien-tren-duong-pho",
+      "old_url": "https://blog.rentbikehanoi.com/excel-198-cach-nhan-biet-cac-the-he-honda-wave-pho-bien-tren-duong-pho/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-nhan-biet-cac-the-he-honda-wave-pho-bien-tren-duong-pho/"
+    },
+    "199": {
+      "wp_id": 878,
+      "old_slug": "excel-199-nhung-mau-xe-may-nhat-ban-thuong-gap-nhat-tai-ha-noi",
+      "new_slug": "nhung-mau-xe-may-nhat-ban-thuong-gap-nhat-tai-ha-noi",
+      "old_url": "https://blog.rentbikehanoi.com/excel-199-nhung-mau-xe-may-nhat-ban-thuong-gap-nhat-tai-ha-noi/",
+      "new_url": "https://blog.rentbikehanoi.com/nhung-mau-xe-may-nhat-ban-thuong-gap-nhat-tai-ha-noi/"
+    },
+    "200": {
+      "wp_id": 879,
+      "old_slug": "excel-200-chon-hang-xe-theo-tieu-chi-de-su-dung-de-sua-hay-kieu-dang-nen-uu-tien-gi",
+      "new_slug": "chon-hang-xe-theo-tieu-chi-de-su-dung-de-sua-hay-kieu-dang-nen-uu-tien-gi",
+      "old_url": "https://blog.rentbikehanoi.com/excel-200-chon-hang-xe-theo-tieu-chi-de-su-dung-de-sua-hay-kieu-dang-nen-uu-tien-gi/",
+      "new_url": "https://blog.rentbikehanoi.com/chon-hang-xe-theo-tieu-chi-de-su-dung-de-sua-hay-kieu-dang-nen-uu-tien-gi/"
+    },
+    "201": {
+      "wp_id": 890,
+      "old_slug": "excel-201-vinfast-co-nhung-dong-xe-may-dien-nao-phu-hop-di-lai-trong-do-thi",
+      "new_slug": "vinfast-co-nhung-dong-xe-may-dien-nao-phu-hop-di-lai-trong-do-thi",
+      "old_url": "https://blog.rentbikehanoi.com/excel-201-vinfast-co-nhung-dong-xe-may-dien-nao-phu-hop-di-lai-trong-do-thi/",
+      "new_url": "https://blog.rentbikehanoi.com/vinfast-co-nhung-dong-xe-may-dien-nao-phu-hop-di-lai-trong-do-thi/"
+    },
+    "202": {
+      "wp_id": 891,
+      "old_slug": "excel-202-vinfast-evo-series-khac-nhau-o-nhung-diem-nao",
+      "new_slug": "vinfast-evo-series-khac-nhau-o-nhung-diem-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-202-vinfast-evo-series-khac-nhau-o-nhung-diem-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/vinfast-evo-series-khac-nhau-o-nhung-diem-nao/"
+    },
+    "203": {
+      "wp_id": 892,
+      "old_slug": "excel-203-vinfast-feliz-phu-hop-voi-kieu-nguoi-dung-nao",
+      "new_slug": "vinfast-feliz-phu-hop-voi-kieu-nguoi-dung-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-203-vinfast-feliz-phu-hop-voi-kieu-nguoi-dung-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/vinfast-feliz-phu-hop-voi-kieu-nguoi-dung-nao/"
+    },
+    "204": {
+      "wp_id": 893,
+      "old_slug": "excel-204-vinfast-klara-huong-den-nhu-cau-su-dung-ra-sao",
+      "new_slug": "vinfast-klara-huong-den-nhu-cau-su-dung-ra-sao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-204-vinfast-klara-huong-den-nhu-cau-su-dung-ra-sao/",
+      "new_url": "https://blog.rentbikehanoi.com/vinfast-klara-huong-den-nhu-cau-su-dung-ra-sao/"
+    },
+    "205": {
+      "wp_id": 894,
+      "old_slug": "excel-205-yadea-co-nhung-mau-xe-dien-nao-dang-chu-y-tai-viet-nam",
+      "new_slug": "yadea-co-nhung-mau-xe-dien-nao-dang-chu-y-tai-viet-nam",
+      "old_url": "https://blog.rentbikehanoi.com/excel-205-yadea-co-nhung-mau-xe-dien-nao-dang-chu-y-tai-viet-nam/",
+      "new_url": "https://blog.rentbikehanoi.com/yadea-co-nhung-mau-xe-dien-nao-dang-chu-y-tai-viet-nam/"
+    },
+    "206": {
+      "wp_id": 895,
+      "old_slug": "excel-206-dat-bike-khac-xe-may-dien-pho-thong-o-nhung-diem-nao",
+      "new_slug": "dat-bike-khac-xe-may-dien-pho-thong-o-nhung-diem-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-206-dat-bike-khac-xe-may-dien-pho-thong-o-nhung-diem-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/dat-bike-khac-xe-may-dien-pho-thong-o-nhung-diem-nao/"
+    },
+    "207": {
+      "wp_id": 896,
+      "old_slug": "excel-207-selex-motors-tap-trung-vao-kieu-su-dung-xe-dien-nao",
+      "new_slug": "selex-motors-tap-trung-vao-kieu-su-dung-xe-dien-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-207-selex-motors-tap-trung-vao-kieu-su-dung-xe-dien-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/selex-motors-tap-trung-vao-kieu-su-dung-xe-dien-nao/"
+    },
+    "208": {
+      "wp_id": 897,
+      "old_slug": "excel-208-pega-co-nhung-dong-xe-dien-do-thi-nao-de-gap",
+      "new_slug": "pega-co-nhung-dong-xe-dien-do-thi-nao-de-gap",
+      "old_url": "https://blog.rentbikehanoi.com/excel-208-pega-co-nhung-dong-xe-dien-do-thi-nao-de-gap/",
+      "new_url": "https://blog.rentbikehanoi.com/pega-co-nhung-dong-xe-dien-do-thi-nao-de-gap/"
+    },
+    "209": {
+      "wp_id": 898,
+      "old_slug": "excel-209-vinfast-va-yadea-khac-nhau-the-nao-ve-cach-xay-dung-he-sinh-thai-xe-dien",
+      "new_slug": "vinfast-va-yadea-khac-nhau-the-nao-ve-cach-xay-dung-he-sinh-thai-xe-dien",
+      "old_url": "https://blog.rentbikehanoi.com/excel-209-vinfast-va-yadea-khac-nhau-the-nao-ve-cach-xay-dung-he-sinh-thai-xe-dien/",
+      "new_url": "https://blog.rentbikehanoi.com/vinfast-va-yadea-khac-nhau-the-nao-ve-cach-xay-dung-he-sinh-thai-xe-dien/"
+    },
+    "210": {
+      "wp_id": 899,
+      "old_slug": "excel-210-vinfast-va-dat-bike-hai-huong-tiep-can-xe-may-dien-khac-nhau-ra-sao",
+      "new_slug": "vinfast-va-dat-bike-hai-huong-tiep-can-xe-may-dien-khac-nhau-ra-sao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-210-vinfast-va-dat-bike-hai-huong-tiep-can-xe-may-dien-khac-nhau-ra-sao/",
+      "new_url": "https://blog.rentbikehanoi.com/vinfast-va-dat-bike-hai-huong-tiep-can-xe-may-dien-khac-nhau-ra-sao/"
+    },
+    "211": {
+      "wp_id": 901,
+      "old_slug": "excel-211-xe-dien-vinfast-phu-hop-voi-nguoi-thuong-xuyen-di-trong-noi-do-nhu-the-nao",
+      "new_slug": "xe-dien-vinfast-phu-hop-voi-nguoi-thuong-xuyen-di-trong-noi-do-nhu-the-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-211-xe-dien-vinfast-phu-hop-voi-nguoi-thuong-xuyen-di-trong-noi-do-nhu-the-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-dien-vinfast-phu-hop-voi-nguoi-thuong-xuyen-di-trong-noi-do-nhu-the-nao/"
+    },
+    "212": {
+      "wp_id": 902,
+      "old_slug": "excel-212-xe-dien-yadea-co-nhung-diem-nao-de-lam-quen-voi-nguoi-moi",
+      "new_slug": "xe-dien-yadea-co-nhung-diem-nao-de-lam-quen-voi-nguoi-moi",
+      "old_url": "https://blog.rentbikehanoi.com/excel-212-xe-dien-yadea-co-nhung-diem-nao-de-lam-quen-voi-nguoi-moi/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-dien-yadea-co-nhung-diem-nao-de-lam-quen-voi-nguoi-moi/"
+    },
+    "213": {
+      "wp_id": 903,
+      "old_slug": "excel-213-dat-bike-phu-hop-voi-nguoi-can-quang-duong-di-chuyen-dai-ra-sao",
+      "new_slug": "dat-bike-phu-hop-voi-nguoi-can-quang-duong-di-chuyen-dai-ra-sao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-213-dat-bike-phu-hop-voi-nguoi-can-quang-duong-di-chuyen-dai-ra-sao/",
+      "new_url": "https://blog.rentbikehanoi.com/dat-bike-phu-hop-voi-nguoi-can-quang-duong-di-chuyen-dai-ra-sao/"
+    },
+    "214": {
+      "wp_id": 904,
+      "old_slug": "excel-214-nhung-dong-xe-dien-co-thiet-ke-gan-giong-xe-ga-truyen-thong",
+      "new_slug": "nhung-dong-xe-dien-co-thiet-ke-gan-giong-xe-ga-truyen-thong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-214-nhung-dong-xe-dien-co-thiet-ke-gan-giong-xe-ga-truyen-thong/",
+      "new_url": "https://blog.rentbikehanoi.com/nhung-dong-xe-dien-co-thiet-ke-gan-giong-xe-ga-truyen-thong/"
+    },
+    "215": {
+      "wp_id": 905,
+      "old_slug": "excel-215-nhung-dong-xe-dien-nho-gon-phu-hop-di-pho-dong",
+      "new_slug": "nhung-dong-xe-dien-nho-gon-phu-hop-di-pho-dong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-215-nhung-dong-xe-dien-nho-gon-phu-hop-di-pho-dong/",
+      "new_url": "https://blog.rentbikehanoi.com/nhung-dong-xe-dien-nho-gon-phu-hop-di-pho-dong/"
+    },
+    "216": {
+      "wp_id": 906,
+      "old_slug": "excel-216-cach-phan-biet-cac-dong-vinfast-evo-khi-nhin-ngoai-hinh",
+      "new_slug": "cach-phan-biet-cac-dong-vinfast-evo-khi-nhin-ngoai-hinh",
+      "old_url": "https://blog.rentbikehanoi.com/excel-216-cach-phan-biet-cac-dong-vinfast-evo-khi-nhin-ngoai-hinh/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-phan-biet-cac-dong-vinfast-evo-khi-nhin-ngoai-hinh/"
+    },
+    "217": {
+      "wp_id": 907,
+      "old_slug": "excel-217-vinfast-feliz-va-klara-khac-nhau-the-nao-ve-kieu-dang-va-tu-the-lai",
+      "new_slug": "vinfast-feliz-va-klara-khac-nhau-the-nao-ve-kieu-dang-va-tu-the-lai",
+      "old_url": "https://blog.rentbikehanoi.com/excel-217-vinfast-feliz-va-klara-khac-nhau-the-nao-ve-kieu-dang-va-tu-the-lai/",
+      "new_url": "https://blog.rentbikehanoi.com/vinfast-feliz-va-klara-khac-nhau-the-nao-ve-kieu-dang-va-tu-the-lai/"
+    },
+    "218": {
+      "wp_id": 908,
+      "old_slug": "excel-218-yadea-va-vinfast-nen-so-sanh-nhung-tieu-chi-nao-truoc-khi-chon-xe",
+      "new_slug": "yadea-va-vinfast-nen-so-sanh-nhung-tieu-chi-nao-truoc-khi-chon-xe",
+      "old_url": "https://blog.rentbikehanoi.com/excel-218-yadea-va-vinfast-nen-so-sanh-nhung-tieu-chi-nao-truoc-khi-chon-xe/",
+      "new_url": "https://blog.rentbikehanoi.com/yadea-va-vinfast-nen-so-sanh-nhung-tieu-chi-nao-truoc-khi-chon-xe/"
+    },
+    "219": {
+      "wp_id": 909,
+      "old_slug": "excel-219-xe-dien-dung-pin-roi-va-pin-co-dinh-khac-nhau-the-nao-trong-thuc-te",
+      "new_slug": "xe-dien-dung-pin-roi-va-pin-co-dinh-khac-nhau-the-nao-trong-thuc-te",
+      "old_url": "https://blog.rentbikehanoi.com/excel-219-xe-dien-dung-pin-roi-va-pin-co-dinh-khac-nhau-the-nao-trong-thuc-te/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-dien-dung-pin-roi-va-pin-co-dinh-khac-nhau-the-nao-trong-thuc-te/"
+    },
+    "220": {
+      "wp_id": 910,
+      "old_slug": "excel-220-cac-hang-xe-dien-dang-giai-quyet-bai-toan-sac-pin-theo-nhung-cach-nao",
+      "new_slug": "cac-hang-xe-dien-dang-giai-quyet-bai-toan-sac-pin-theo-nhung-cach-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-220-cac-hang-xe-dien-dang-giai-quyet-bai-toan-sac-pin-theo-nhung-cach-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/cac-hang-xe-dien-dang-giai-quyet-bai-toan-sac-pin-theo-nhung-cach-nao/"
+    },
+    "221": {
+      "wp_id": 911,
+      "old_slug": "excel-221-vi-sao-he-sinh-thai-tram-sac-quan-trong-voi-nguoi-su-dung-xe-dien",
+      "new_slug": "vi-sao-he-sinh-thai-tram-sac-quan-trong-voi-nguoi-su-dung-xe-dien",
+      "old_url": "https://blog.rentbikehanoi.com/excel-221-vi-sao-he-sinh-thai-tram-sac-quan-trong-voi-nguoi-su-dung-xe-dien/",
+      "new_url": "https://blog.rentbikehanoi.com/vi-sao-he-sinh-thai-tram-sac-quan-trong-voi-nguoi-su-dung-xe-dien/"
+    },
+    "222": {
+      "wp_id": 912,
+      "old_slug": "excel-222-xe-dien-thuong-hieu-viet-co-nhung-loi-the-nao-khi-su-dung-trong-nuoc",
+      "new_slug": "xe-dien-thuong-hieu-viet-co-nhung-loi-the-nao-khi-su-dung-trong-nuoc",
+      "old_url": "https://blog.rentbikehanoi.com/excel-222-xe-dien-thuong-hieu-viet-co-nhung-loi-the-nao-khi-su-dung-trong-nuoc/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-dien-thuong-hieu-viet-co-nhung-loi-the-nao-khi-su-dung-trong-nuoc/"
+    },
+    "223": {
+      "wp_id": 913,
+      "old_slug": "excel-223-xe-dien-thuong-hieu-quoc-te-co-diem-manh-gi-ve-mau-ma-va-cong-nghe",
+      "new_slug": "xe-dien-thuong-hieu-quoc-te-co-diem-manh-gi-ve-mau-ma-va-cong-nghe",
+      "old_url": "https://blog.rentbikehanoi.com/excel-223-xe-dien-thuong-hieu-quoc-te-co-diem-manh-gi-ve-mau-ma-va-cong-nghe/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-dien-thuong-hieu-quoc-te-co-diem-manh-gi-ve-mau-ma-va-cong-nghe/"
+    },
+    "224": {
+      "wp_id": 914,
+      "old_slug": "excel-224-nhung-tieu-chi-nen-dung-de-so-sanh-hai-hang-xe-may-dien",
+      "new_slug": "nhung-tieu-chi-nen-dung-de-so-sanh-hai-hang-xe-may-dien",
+      "old_url": "https://blog.rentbikehanoi.com/excel-224-nhung-tieu-chi-nen-dung-de-so-sanh-hai-hang-xe-may-dien/",
+      "new_url": "https://blog.rentbikehanoi.com/nhung-tieu-chi-nen-dung-de-so-sanh-hai-hang-xe-may-dien/"
+    },
+    "225": {
+      "wp_id": 915,
+      "old_slug": "excel-225-kha-nang-chong-nuoc-cua-xe-dien-nen-duoc-hieu-nhu-the-nao",
+      "new_slug": "kha-nang-chong-nuoc-cua-xe-dien-nen-duoc-hieu-nhu-the-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-225-kha-nang-chong-nuoc-cua-xe-dien-nen-duoc-hieu-nhu-the-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/kha-nang-chong-nuoc-cua-xe-dien-nen-duoc-hieu-nhu-the-nao/"
+    },
+    "226": {
+      "wp_id": 916,
+      "old_slug": "excel-226-phanh-tai-sinh-tren-xe-may-dien-hoat-dong-ra-sao",
+      "new_slug": "phanh-tai-sinh-tren-xe-may-dien-hoat-dong-ra-sao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-226-phanh-tai-sinh-tren-xe-may-dien-hoat-dong-ra-sao/",
+      "new_url": "https://blog.rentbikehanoi.com/phanh-tai-sinh-tren-xe-may-dien-hoat-dong-ra-sao/"
+    },
+    "227": {
+      "wp_id": 917,
+      "old_slug": "excel-227-che-do-lai-eco-tren-xe-dien-phu-hop-khi-nao",
+      "new_slug": "che-do-lai-eco-tren-xe-dien-phu-hop-khi-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-227-che-do-lai-eco-tren-xe-dien-phu-hop-khi-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/che-do-lai-eco-tren-xe-dien-phu-hop-khi-nao/"
+    },
+    "228": {
+      "wp_id": 918,
+      "old_slug": "excel-228-che-do-sport-tren-xe-dien-nen-dung-trong-tinh-huong-nao",
+      "new_slug": "che-do-sport-tren-xe-dien-nen-dung-trong-tinh-huong-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-228-che-do-sport-tren-xe-dien-nen-dung-trong-tinh-huong-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/che-do-sport-tren-xe-dien-nen-dung-trong-tinh-huong-nao/"
+    },
+    "229": {
+      "wp_id": 919,
+      "old_slug": "excel-229-man-hinh-dien-tu-tren-xe-may-dien-thuong-hien-thi-nhung-thong-tin-gi",
+      "new_slug": "man-hinh-dien-tu-tren-xe-may-dien-thuong-hien-thi-nhung-thong-tin-gi",
+      "old_url": "https://blog.rentbikehanoi.com/excel-229-man-hinh-dien-tu-tren-xe-may-dien-thuong-hien-thi-nhung-thong-tin-gi/",
+      "new_url": "https://blog.rentbikehanoi.com/man-hinh-dien-tu-tren-xe-may-dien-thuong-hien-thi-nhung-thong-tin-gi/"
+    },
+    "230": {
+      "wp_id": 920,
+      "old_slug": "excel-230-khoa-thong-minh-tren-xe-dien-khac-khoa-co-truyen-thong-nhu-the-nao",
+      "new_slug": "khoa-thong-minh-tren-xe-dien-khac-khoa-co-truyen-thong-nhu-the-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-230-khoa-thong-minh-tren-xe-dien-khac-khoa-co-truyen-thong-nhu-the-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/khoa-thong-minh-tren-xe-dien-khac-khoa-co-truyen-thong-nhu-the-nao/"
+    },
+    "231": {
+      "wp_id": 921,
+      "old_slug": "excel-231-ung-dung-dien-thoai-cua-hang-xe-dien-co-the-ho-tro-nhung-chuc-nang-gi",
+      "new_slug": "ung-dung-dien-thoai-cua-hang-xe-dien-co-the-ho-tro-nhung-chuc-nang-gi",
+      "old_url": "https://blog.rentbikehanoi.com/excel-231-ung-dung-dien-thoai-cua-hang-xe-dien-co-the-ho-tro-nhung-chuc-nang-gi/",
+      "new_url": "https://blog.rentbikehanoi.com/ung-dung-dien-thoai-cua-hang-xe-dien-co-the-ho-tro-nhung-chuc-nang-gi/"
+    },
+    "232": {
+      "wp_id": 922,
+      "old_slug": "excel-232-xe-dien-co-cap-nhat-phan-mem-hay-khong-va-dieu-do-anh-huong-gi-den-nguoi-du",
+      "new_slug": "xe-dien-co-cap-nhat-phan-mem-hay-khong-va-dieu-do-anh-huong-gi-den-nguoi-du",
+      "old_url": "https://blog.rentbikehanoi.com/excel-232-xe-dien-co-cap-nhat-phan-mem-hay-khong-va-dieu-do-anh-huong-gi-den-nguoi-du/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-dien-co-cap-nhat-phan-mem-hay-khong-va-dieu-do-anh-huong-gi-den-nguoi-du/"
+    },
+    "233": {
+      "wp_id": 923,
+      "old_slug": "excel-233-nhung-thong-so-pin-nao-quan-trong-nhat-khi-tim-hieu-mot-mau-xe-dien",
+      "new_slug": "nhung-thong-so-pin-nao-quan-trong-nhat-khi-tim-hieu-mot-mau-xe-dien",
+      "old_url": "https://blog.rentbikehanoi.com/excel-233-nhung-thong-so-pin-nao-quan-trong-nhat-khi-tim-hieu-mot-mau-xe-dien/",
+      "new_url": "https://blog.rentbikehanoi.com/nhung-thong-so-pin-nao-quan-trong-nhat-khi-tim-hieu-mot-mau-xe-dien/"
+    },
+    "234": {
+      "wp_id": 924,
+      "old_slug": "excel-234-dung-luong-pin-va-quang-duong-cong-bo-nen-doc-thong-so-the-nao",
+      "new_slug": "dung-luong-pin-va-quang-duong-cong-bo-nen-doc-thong-so-the-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-234-dung-luong-pin-va-quang-duong-cong-bo-nen-doc-thong-so-the-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/dung-luong-pin-va-quang-duong-cong-bo-nen-doc-thong-so-the-nao/"
+    },
+    "235": {
+      "wp_id": 925,
+      "old_slug": "excel-235-cach-so-sanh-xe-dien-theo-quang-duong-toc-do-va-thoi-gian-sac",
+      "new_slug": "cach-so-sanh-xe-dien-theo-quang-duong-toc-do-va-thoi-gian-sac",
+      "old_url": "https://blog.rentbikehanoi.com/excel-235-cach-so-sanh-xe-dien-theo-quang-duong-toc-do-va-thoi-gian-sac/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-so-sanh-xe-dien-theo-quang-duong-toc-do-va-thoi-gian-sac/"
+    },
+    "236": {
+      "wp_id": 926,
+      "old_slug": "excel-236-google-maps-cho-nguoi-di-xe-may-o-ha-noi-10-thiet-lap-nen-kiem-tra",
+      "new_slug": "google-maps-cho-nguoi-di-xe-may-o-ha-noi-10-thiet-lap-nen-kiem-tra",
+      "old_url": "https://blog.rentbikehanoi.com/excel-236-google-maps-cho-nguoi-di-xe-may-o-ha-noi-10-thiet-lap-nen-kiem-tra/",
+      "new_url": "https://blog.rentbikehanoi.com/google-maps-cho-nguoi-di-xe-may-o-ha-noi-10-thiet-lap-nen-kiem-tra/"
+    },
+    "237": {
+      "wp_id": 927,
+      "old_slug": "excel-237-cach-chon-tuyen-duong-phu-hop-cho-xe-may-tren-google-maps",
+      "new_slug": "cach-chon-tuyen-duong-phu-hop-cho-xe-may-tren-google-maps",
+      "old_url": "https://blog.rentbikehanoi.com/excel-237-cach-chon-tuyen-duong-phu-hop-cho-xe-may-tren-google-maps/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-chon-tuyen-duong-phu-hop-cho-xe-may-tren-google-maps/"
+    },
+    "238": {
+      "wp_id": 928,
+      "old_slug": "excel-238-cach-luu-nhieu-diem-dung-tren-ban-do-khi-di-xe-may-ca-ngay",
+      "new_slug": "cach-luu-nhieu-diem-dung-tren-ban-do-khi-di-xe-may-ca-ngay",
+      "old_url": "https://blog.rentbikehanoi.com/excel-238-cach-luu-nhieu-diem-dung-tren-ban-do-khi-di-xe-may-ca-ngay/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-luu-nhieu-diem-dung-tren-ban-do-khi-di-xe-may-ca-ngay/"
+    },
+    "239": {
+      "wp_id": 929,
+      "old_slug": "excel-239-cach-tai-ban-do-ngoai-tuyen-de-dung-khi-mang-yeu",
+      "new_slug": "cach-tai-ban-do-ngoai-tuyen-de-dung-khi-mang-yeu",
+      "old_url": "https://blog.rentbikehanoi.com/excel-239-cach-tai-ban-do-ngoai-tuyen-de-dung-khi-mang-yeu/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-tai-ban-do-ngoai-tuyen-de-dung-khi-mang-yeu/"
+    },
+    "240": {
+      "wp_id": 930,
+      "old_slug": "excel-240-cach-chia-se-vi-tri-truc-tiep-khi-di-xe-may-mot-minh",
+      "new_slug": "cach-chia-se-vi-tri-truc-tiep-khi-di-xe-may-mot-minh",
+      "old_url": "https://blog.rentbikehanoi.com/excel-240-cach-chia-se-vi-tri-truc-tiep-khi-di-xe-may-mot-minh/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-chia-se-vi-tri-truc-tiep-khi-di-xe-may-mot-minh/"
+    },
+    "241": {
+      "wp_id": 931,
+      "old_slug": "excel-241-cach-ghim-vi-tri-bai-gui-xe-tren-dien-thoai-de-de-tim-lai",
+      "new_slug": "cach-ghim-vi-tri-bai-gui-xe-tren-dien-thoai-de-de-tim-lai",
+      "old_url": "https://blog.rentbikehanoi.com/excel-241-cach-ghim-vi-tri-bai-gui-xe-tren-dien-thoai-de-de-tim-lai/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-ghim-vi-tri-bai-gui-xe-tren-dien-thoai-de-de-tim-lai/"
+    },
+    "242": {
+      "wp_id": 932,
+      "old_slug": "excel-242-ung-dung-ban-do-nao-huu-ich-khi-can-tranh-duong-tac-o-ha-noi",
+      "new_slug": "ung-dung-ban-do-nao-huu-ich-khi-can-tranh-duong-tac-o-ha-noi",
+      "old_url": "https://blog.rentbikehanoi.com/excel-242-ung-dung-ban-do-nao-huu-ich-khi-can-tranh-duong-tac-o-ha-noi/",
+      "new_url": "https://blog.rentbikehanoi.com/ung-dung-ban-do-nao-huu-ich-khi-can-tranh-duong-tac-o-ha-noi/"
+    },
+    "243": {
+      "wp_id": 933,
+      "old_slug": "excel-243-cach-dung-canh-bao-giao-thong-tren-ung-dung-ban-do-hieu-qua-hon",
+      "new_slug": "cach-dung-canh-bao-giao-thong-tren-ung-dung-ban-do-hieu-qua-hon",
+      "old_url": "https://blog.rentbikehanoi.com/excel-243-cach-dung-canh-bao-giao-thong-tren-ung-dung-ban-do-hieu-qua-hon/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-dung-canh-bao-giao-thong-tren-ung-dung-ban-do-hieu-qua-hon/"
+    },
+    "244": {
+      "wp_id": 934,
+      "old_slug": "excel-244-cach-luu-dia-chi-cua-hang-thue-xe-trong-ung-dung-ban-do",
+      "new_slug": "cach-luu-dia-chi-cua-hang-thue-xe-trong-ung-dung-ban-do",
+      "old_url": "https://blog.rentbikehanoi.com/excel-244-cach-luu-dia-chi-cua-hang-thue-xe-trong-ung-dung-ban-do/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-luu-dia-chi-cua-hang-thue-xe-trong-ung-dung-ban-do/"
+    },
+    "245": {
+      "wp_id": 935,
+      "old_slug": "excel-245-cach-dung-lich-tren-dien-thoai-de-nhac-gio-tra-xe",
+      "new_slug": "cach-dung-lich-tren-dien-thoai-de-nhac-gio-tra-xe",
+      "old_url": "https://blog.rentbikehanoi.com/excel-245-cach-dung-lich-tren-dien-thoai-de-nhac-gio-tra-xe/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-dung-lich-tren-dien-thoai-de-nhac-gio-tra-xe/"
+    },
+    "246": {
+      "wp_id": 936,
+      "old_slug": "excel-246-cach-dat-nhac-gio-do-xang-khi-dung-xe-thue-nhieu-ngay",
+      "new_slug": "cach-dat-nhac-gio-do-xang-khi-dung-xe-thue-nhieu-ngay",
+      "old_url": "https://blog.rentbikehanoi.com/excel-246-cach-dat-nhac-gio-do-xang-khi-dung-xe-thue-nhieu-ngay/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-dat-nhac-gio-do-xang-khi-dung-xe-thue-nhieu-ngay/"
+    },
+    "247": {
+      "wp_id": 937,
+      "old_slug": "excel-247-ung-dung-ghi-chu-nao-tien-de-luu-thong-tin-hop-dong-thue-xe",
+      "new_slug": "ung-dung-ghi-chu-nao-tien-de-luu-thong-tin-hop-dong-thue-xe",
+      "old_url": "https://blog.rentbikehanoi.com/excel-247-ung-dung-ghi-chu-nao-tien-de-luu-thong-tin-hop-dong-thue-xe/",
+      "new_url": "https://blog.rentbikehanoi.com/ung-dung-ghi-chu-nao-tien-de-luu-thong-tin-hop-dong-thue-xe/"
+    },
+    "248": {
+      "wp_id": 938,
+      "old_slug": "excel-248-cach-luu-anh-hien-trang-xe-theo-album-rieng-tren-dien-thoai",
+      "new_slug": "cach-luu-anh-hien-trang-xe-theo-album-rieng-tren-dien-thoai",
+      "old_url": "https://blog.rentbikehanoi.com/excel-248-cach-luu-anh-hien-trang-xe-theo-album-rieng-tren-dien-thoai/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-luu-anh-hien-trang-xe-theo-album-rieng-tren-dien-thoai/"
+    },
+    "249": {
+      "wp_id": 939,
+      "old_slug": "excel-249-cach-quet-va-luu-ban-sao-giay-to-thue-xe-tren-dien-thoai",
+      "new_slug": "cach-quet-va-luu-ban-sao-giay-to-thue-xe-tren-dien-thoai",
+      "old_url": "https://blog.rentbikehanoi.com/excel-249-cach-quet-va-luu-ban-sao-giay-to-thue-xe-tren-dien-thoai/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-quet-va-luu-ban-sao-giay-to-thue-xe-tren-dien-thoai/"
+    },
+    "250": {
+      "wp_id": 940,
+      "old_slug": "excel-250-ung-dung-theo-doi-chi-tieu-giup-quan-ly-tien-xang-va-gui-xe-the-nao",
+      "new_slug": "ung-dung-theo-doi-chi-tieu-giup-quan-ly-tien-xang-va-gui-xe-the-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-250-ung-dung-theo-doi-chi-tieu-giup-quan-ly-tien-xang-va-gui-xe-the-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/ung-dung-theo-doi-chi-tieu-giup-quan-ly-tien-xang-va-gui-xe-the-nao/"
+    },
+    "251": {
+      "wp_id": 941,
+      "old_slug": "excel-251-cach-theo-doi-chi-phi-di-lai-hang-ngay-bang-ung-dung-ngan-sach",
+      "new_slug": "cach-theo-doi-chi-phi-di-lai-hang-ngay-bang-ung-dung-ngan-sach",
+      "old_url": "https://blog.rentbikehanoi.com/excel-251-cach-theo-doi-chi-phi-di-lai-hang-ngay-bang-ung-dung-ngan-sach/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-theo-doi-chi-phi-di-lai-hang-ngay-bang-ung-dung-ngan-sach/"
+    },
+    "252": {
+      "wp_id": 942,
+      "old_slug": "excel-252-ung-dung-thoi-tiet-nao-huu-ich-truoc-khi-di-xe-may-o-ha-noi",
+      "new_slug": "ung-dung-thoi-tiet-nao-huu-ich-truoc-khi-di-xe-may-o-ha-noi",
+      "old_url": "https://blog.rentbikehanoi.com/excel-252-ung-dung-thoi-tiet-nao-huu-ich-truoc-khi-di-xe-may-o-ha-noi/",
+      "new_url": "https://blog.rentbikehanoi.com/ung-dung-thoi-tiet-nao-huu-ich-truoc-khi-di-xe-may-o-ha-noi/"
+    },
+    "253": {
+      "wp_id": 943,
+      "old_slug": "excel-253-cach-bat-canh-bao-mua-truoc-khi-bat-dau-hanh-trinh-bang-xe-may",
+      "new_slug": "cach-bat-canh-bao-mua-truoc-khi-bat-dau-hanh-trinh-bang-xe-may",
+      "old_url": "https://blog.rentbikehanoi.com/excel-253-cach-bat-canh-bao-mua-truoc-khi-bat-dau-hanh-trinh-bang-xe-may/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-bat-canh-bao-mua-truoc-khi-bat-dau-hanh-trinh-bang-xe-may/"
+    },
+    "254": {
+      "wp_id": 944,
+      "old_slug": "excel-254-ung-dung-nao-giup-tim-cay-xang-gan-vi-tri-hien-tai",
+      "new_slug": "ung-dung-nao-giup-tim-cay-xang-gan-vi-tri-hien-tai",
+      "old_url": "https://blog.rentbikehanoi.com/excel-254-ung-dung-nao-giup-tim-cay-xang-gan-vi-tri-hien-tai/",
+      "new_url": "https://blog.rentbikehanoi.com/ung-dung-nao-giup-tim-cay-xang-gan-vi-tri-hien-tai/"
+    },
+    "255": {
+      "wp_id": 945,
+      "old_slug": "excel-255-cach-tim-bai-gui-xe-gan-diem-den-bang-ung-dung-ban-do",
+      "new_slug": "cach-tim-bai-gui-xe-gan-diem-den-bang-ung-dung-ban-do",
+      "old_url": "https://blog.rentbikehanoi.com/excel-255-cach-tim-bai-gui-xe-gan-diem-den-bang-ung-dung-ban-do/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-tim-bai-gui-xe-gan-diem-den-bang-ung-dung-ban-do/"
+    },
+    "256": {
+      "wp_id": 946,
+      "old_slug": "excel-256-cach-dung-dien-thoai-dan-duong-ma-van-han-che-mat-tap-trung-khi-lai",
+      "new_slug": "cach-dung-dien-thoai-dan-duong-ma-van-han-che-mat-tap-trung-khi-lai",
+      "old_url": "https://blog.rentbikehanoi.com/excel-256-cach-dung-dien-thoai-dan-duong-ma-van-han-che-mat-tap-trung-khi-lai/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-dung-dien-thoai-dan-duong-ma-van-han-che-mat-tap-trung-khi-lai/"
+    },
+    "257": {
+      "wp_id": 947,
+      "old_slug": "excel-257-gia-do-dien-thoai-va-ung-dung-dan-duong-dung-the-nao-cho-an-toan",
+      "new_slug": "gia-do-dien-thoai-va-ung-dung-dan-duong-dung-the-nao-cho-an-toan",
+      "old_url": "https://blog.rentbikehanoi.com/excel-257-gia-do-dien-thoai-va-ung-dung-dan-duong-dung-the-nao-cho-an-toan/",
+      "new_url": "https://blog.rentbikehanoi.com/gia-do-dien-thoai-va-ung-dung-dan-duong-dung-the-nao-cho-an-toan/"
+    },
+    "258": {
+      "wp_id": 950,
+      "old_slug": "excel-258-cach-tiet-kiem-pin-dien-thoai-khi-bat-ban-do-lien-tuc",
+      "new_slug": "cach-tiet-kiem-pin-dien-thoai-khi-bat-ban-do-lien-tuc",
+      "old_url": "https://blog.rentbikehanoi.com/excel-258-cach-tiet-kiem-pin-dien-thoai-khi-bat-ban-do-lien-tuc/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-tiet-kiem-pin-dien-thoai-khi-bat-ban-do-lien-tuc/"
+    },
+    "259": {
+      "wp_id": 948,
+      "old_slug": "excel-259-ung-dung-dich-thuat-huu-ich-the-nao-voi-khach-nuoc-ngoai-thue-xe-may",
+      "new_slug": "ung-dung-dich-thuat-huu-ich-the-nao-voi-khach-nuoc-ngoai-thue-xe-may",
+      "old_url": "https://blog.rentbikehanoi.com/excel-259-ung-dung-dich-thuat-huu-ich-the-nao-voi-khach-nuoc-ngoai-thue-xe-may/",
+      "new_url": "https://blog.rentbikehanoi.com/ung-dung-dich-thuat-huu-ich-the-nao-voi-khach-nuoc-ngoai-thue-xe-may/"
+    },
+    "260": {
+      "wp_id": 949,
+      "old_slug": "excel-260-cach-tao-danh-sach-dia-diem-muon-den-roi-toi-uu-thu-tu-di-chuyen",
+      "new_slug": "cach-tao-danh-sach-dia-diem-muon-den-roi-toi-uu-thu-tu-di-chuyen",
+      "old_url": "https://blog.rentbikehanoi.com/excel-260-cach-tao-danh-sach-dia-diem-muon-den-roi-toi-uu-thu-tu-di-chuyen/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-tao-danh-sach-dia-diem-muon-den-roi-toi-uu-thu-tu-di-chuyen/"
+    },
+    "261": {
+      "wp_id": 951,
+      "old_slug": "excel-261-ung-dung-xe-dien-thuong-hien-thi-nhung-thong-tin-pin-nao",
+      "new_slug": "ung-dung-xe-dien-thuong-hien-thi-nhung-thong-tin-pin-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-261-ung-dung-xe-dien-thuong-hien-thi-nhung-thong-tin-pin-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/ung-dung-xe-dien-thuong-hien-thi-nhung-thong-tin-pin-nao/"
+    },
+    "262": {
+      "wp_id": 952,
+      "old_slug": "excel-262-cach-kiem-tra-phan-tram-pin-xe-dien-tren-ung-dung-dien-thoai",
+      "new_slug": "cach-kiem-tra-phan-tram-pin-xe-dien-tren-ung-dung-dien-thoai",
+      "old_url": "https://blog.rentbikehanoi.com/excel-262-cach-kiem-tra-phan-tram-pin-xe-dien-tren-ung-dung-dien-thoai/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-kiem-tra-phan-tram-pin-xe-dien-tren-ung-dung-dien-thoai/"
+    },
+    "263": {
+      "wp_id": 953,
+      "old_slug": "excel-263-cach-tim-tram-sac-xe-dien-gan-nhat-bang-ung-dung",
+      "new_slug": "cach-tim-tram-sac-xe-dien-gan-nhat-bang-ung-dung",
+      "old_url": "https://blog.rentbikehanoi.com/excel-263-cach-tim-tram-sac-xe-dien-gan-nhat-bang-ung-dung/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-tim-tram-sac-xe-dien-gan-nhat-bang-ung-dung/"
+    },
+    "264": {
+      "wp_id": 954,
+      "old_slug": "excel-264-cach-luu-cac-diem-sac-thuong-dung-tren-ban-do",
+      "new_slug": "cach-luu-cac-diem-sac-thuong-dung-tren-ban-do",
+      "old_url": "https://blog.rentbikehanoi.com/excel-264-cach-luu-cac-diem-sac-thuong-dung-tren-ban-do/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-luu-cac-diem-sac-thuong-dung-tren-ban-do/"
+    },
+    "265": {
+      "wp_id": 955,
+      "old_slug": "excel-265-cach-lap-ke-hoach-hanh-trinh-xe-dien-dua-tren-muc-pin-con-lai",
+      "new_slug": "cach-lap-ke-hoach-hanh-trinh-xe-dien-dua-tren-muc-pin-con-lai",
+      "old_url": "https://blog.rentbikehanoi.com/excel-265-cach-lap-ke-hoach-hanh-trinh-xe-dien-dua-tren-muc-pin-con-lai/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-lap-ke-hoach-hanh-trinh-xe-dien-dua-tren-muc-pin-con-lai/"
+    },
+    "266": {
+      "wp_id": 962,
+      "old_slug": "excel-266-ung-dung-hang-xe-dien-co-the-ho-tro-tim-xe-trong-bai-nhu-the-nao",
+      "new_slug": "ung-dung-hang-xe-dien-co-the-ho-tro-tim-xe-trong-bai-nhu-the-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-266-ung-dung-hang-xe-dien-co-the-ho-tro-tim-xe-trong-bai-nhu-the-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/ung-dung-hang-xe-dien-co-the-ho-tro-tim-xe-trong-bai-nhu-the-nao/"
+    },
+    "267": {
+      "wp_id": 963,
+      "old_slug": "excel-267-cach-bat-thong-bao-sac-day-tren-ung-dung-xe-dien",
+      "new_slug": "cach-bat-thong-bao-sac-day-tren-ung-dung-xe-dien",
+      "old_url": "https://blog.rentbikehanoi.com/excel-267-cach-bat-thong-bao-sac-day-tren-ung-dung-xe-dien/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-bat-thong-bao-sac-day-tren-ung-dung-xe-dien/"
+    },
+    "268": {
+      "wp_id": 964,
+      "old_slug": "excel-268-cach-theo-doi-lich-su-sac-pin-bang-ung-dung",
+      "new_slug": "cach-theo-doi-lich-su-sac-pin-bang-ung-dung",
+      "old_url": "https://blog.rentbikehanoi.com/excel-268-cach-theo-doi-lich-su-sac-pin-bang-ung-dung/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-theo-doi-lich-su-sac-pin-bang-ung-dung/"
+    },
+    "269": {
+      "wp_id": 965,
+      "old_slug": "excel-269-cach-kiem-tra-quang-duong-da-di-cua-xe-dien-tren-dien-thoai",
+      "new_slug": "cach-kiem-tra-quang-duong-da-di-cua-xe-dien-tren-dien-thoai",
+      "old_url": "https://blog.rentbikehanoi.com/excel-269-cach-kiem-tra-quang-duong-da-di-cua-xe-dien-tren-dien-thoai/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-kiem-tra-quang-duong-da-di-cua-xe-dien-tren-dien-thoai/"
+    },
+    "270": {
+      "wp_id": 966,
+      "old_slug": "excel-270-ung-dung-xe-dien-co-the-giup-theo-doi-tieu-thu-nang-luong-ra-sao",
+      "new_slug": "ung-dung-xe-dien-co-the-giup-theo-doi-tieu-thu-nang-luong-ra-sao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-270-ung-dung-xe-dien-co-the-giup-theo-doi-tieu-thu-nang-luong-ra-sao/",
+      "new_url": "https://blog.rentbikehanoi.com/ung-dung-xe-dien-co-the-giup-theo-doi-tieu-thu-nang-luong-ra-sao/"
+    },
+    "271": {
+      "wp_id": 967,
+      "old_slug": "excel-271-cach-dung-ban-do-de-tinh-khoang-cach-giua-hai-diem-sac",
+      "new_slug": "cach-dung-ban-do-de-tinh-khoang-cach-giua-hai-diem-sac",
+      "old_url": "https://blog.rentbikehanoi.com/excel-271-cach-dung-ban-do-de-tinh-khoang-cach-giua-hai-diem-sac/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-dung-ban-do-de-tinh-khoang-cach-giua-hai-diem-sac/"
+    },
+    "272": {
+      "wp_id": 968,
+      "old_slug": "excel-272-cach-luu-vi-tri-nhan-va-tra-xe-dien-tren-dien-thoai",
+      "new_slug": "cach-luu-vi-tri-nhan-va-tra-xe-dien-tren-dien-thoai",
+      "old_url": "https://blog.rentbikehanoi.com/excel-272-cach-luu-vi-tri-nhan-va-tra-xe-dien-tren-dien-thoai/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-luu-vi-tri-nhan-va-tra-xe-dien-tren-dien-thoai/"
+    },
+    "273": {
+      "wp_id": 969,
+      "old_slug": "excel-273-ung-dung-nao-huu-ich-khi-can-tim-o-cam-hoac-diem-sac-quanh-ha-noi",
+      "new_slug": "ung-dung-nao-huu-ich-khi-can-tim-o-cam-hoac-diem-sac-quanh-ha-noi",
+      "old_url": "https://blog.rentbikehanoi.com/excel-273-ung-dung-nao-huu-ich-khi-can-tim-o-cam-hoac-diem-sac-quanh-ha-noi/",
+      "new_url": "https://blog.rentbikehanoi.com/ung-dung-nao-huu-ich-khi-can-tim-o-cam-hoac-diem-sac-quanh-ha-noi/"
+    },
+    "274": {
+      "wp_id": 970,
+      "old_slug": "excel-274-cach-kiem-tra-tinh-trang-tram-sac-truoc-khi-di-chuyen",
+      "new_slug": "cach-kiem-tra-tinh-trang-tram-sac-truoc-khi-di-chuyen",
+      "old_url": "https://blog.rentbikehanoi.com/excel-274-cach-kiem-tra-tinh-trang-tram-sac-truoc-khi-di-chuyen/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-kiem-tra-tinh-trang-tram-sac-truoc-khi-di-chuyen/"
+    },
+    "275": {
+      "wp_id": 971,
+      "old_slug": "excel-275-cach-xu-ly-khi-ung-dung-xe-dien-khong-dong-bo-du-lieu-pin",
+      "new_slug": "cach-xu-ly-khi-ung-dung-xe-dien-khong-dong-bo-du-lieu-pin",
+      "old_url": "https://blog.rentbikehanoi.com/excel-275-cach-xu-ly-khi-ung-dung-xe-dien-khong-dong-bo-du-lieu-pin/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-xu-ly-khi-ung-dung-xe-dien-khong-dong-bo-du-lieu-pin/"
+    },
+    "276": {
+      "wp_id": 956,
+      "old_slug": "excel-276-cach-dang-nhap-ung-dung-xe-dien-an-toan-tren-dien-thoai-ca-nhan",
+      "new_slug": "cach-dang-nhap-ung-dung-xe-dien-an-toan-tren-dien-thoai-ca-nhan",
+      "old_url": "https://blog.rentbikehanoi.com/excel-276-cach-dang-nhap-ung-dung-xe-dien-an-toan-tren-dien-thoai-ca-nhan/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-dang-nhap-ung-dung-xe-dien-an-toan-tren-dien-thoai-ca-nhan/"
+    },
+    "277": {
+      "wp_id": 957,
+      "old_slug": "excel-277-co-nen-bat-dinh-vi-lien-tuc-cho-ung-dung-xe-dien-khong",
+      "new_slug": "co-nen-bat-dinh-vi-lien-tuc-cho-ung-dung-xe-dien-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-277-co-nen-bat-dinh-vi-lien-tuc-cho-ung-dung-xe-dien-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/co-nen-bat-dinh-vi-lien-tuc-cho-ung-dung-xe-dien-khong/"
+    },
+    "278": {
+      "wp_id": 958,
+      "old_slug": "excel-278-cach-bao-ve-tai-khoan-ung-dung-xe-dien-khi-dung-xe-khong-phai-cua-minh",
+      "new_slug": "cach-bao-ve-tai-khoan-ung-dung-xe-dien-khi-dung-xe-khong-phai-cua-minh",
+      "old_url": "https://blog.rentbikehanoi.com/excel-278-cach-bao-ve-tai-khoan-ung-dung-xe-dien-khi-dung-xe-khong-phai-cua-minh/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-bao-ve-tai-khoan-ung-dung-xe-dien-khi-dung-xe-khong-phai-cua-minh/"
+    },
+    "279": {
+      "wp_id": 959,
+      "old_slug": "excel-279-ung-dung-thoi-tiet-co-ich-the-nao-khi-len-ke-hoach-di-xe-dien",
+      "new_slug": "ung-dung-thoi-tiet-co-ich-the-nao-khi-len-ke-hoach-di-xe-dien",
+      "old_url": "https://blog.rentbikehanoi.com/excel-279-ung-dung-thoi-tiet-co-ich-the-nao-khi-len-ke-hoach-di-xe-dien/",
+      "new_url": "https://blog.rentbikehanoi.com/ung-dung-thoi-tiet-co-ich-the-nao-khi-len-ke-hoach-di-xe-dien/"
+    },
+    "280": {
+      "wp_id": 960,
+      "old_slug": "excel-280-cach-ket-hop-ung-dung-ban-do-va-ung-dung-xe-dien-de-tranh-het-pin-giua-duon",
+      "new_slug": "cach-ket-hop-ung-dung-ban-do-va-ung-dung-xe-dien-de-tranh-het-pin-giua-duon",
+      "old_url": "https://blog.rentbikehanoi.com/excel-280-cach-ket-hop-ung-dung-ban-do-va-ung-dung-xe-dien-de-tranh-het-pin-giua-duon/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-ket-hop-ung-dung-ban-do-va-ung-dung-xe-dien-de-tranh-het-pin-giua-duon/"
+    },
+    "281": {
+      "wp_id": 972,
+      "old_slug": "excel-281-xe-so-co-phu-hop-de-di-lam-hang-ngay-trong-noi-do-ha-noi-khong",
+      "new_slug": "xe-so-co-phu-hop-de-di-lam-hang-ngay-trong-noi-do-ha-noi-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-281-xe-so-co-phu-hop-de-di-lam-hang-ngay-trong-noi-do-ha-noi-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-so-co-phu-hop-de-di-lam-hang-ngay-trong-noi-do-ha-noi-khong/"
+    },
+    "282": {
+      "wp_id": 973,
+      "old_slug": "excel-282-honda-wave-phu-hop-voi-quang-duong-di-lam-ngan-hay-dai",
+      "new_slug": "honda-wave-phu-hop-voi-quang-duong-di-lam-ngan-hay-dai",
+      "old_url": "https://blog.rentbikehanoi.com/excel-282-honda-wave-phu-hop-voi-quang-duong-di-lam-ngan-hay-dai/",
+      "new_url": "https://blog.rentbikehanoi.com/honda-wave-phu-hop-voi-quang-duong-di-lam-ngan-hay-dai/"
+    },
+    "283": {
+      "wp_id": 974,
+      "old_slug": "excel-283-yamaha-sirius-co-uu-diem-gi-khi-di-lai-trong-pho-dong",
+      "new_slug": "yamaha-sirius-co-uu-diem-gi-khi-di-lai-trong-pho-dong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-283-yamaha-sirius-co-uu-diem-gi-khi-di-lai-trong-pho-dong/",
+      "new_url": "https://blog.rentbikehanoi.com/yamaha-sirius-co-uu-diem-gi-khi-di-lai-trong-pho-dong/"
+    },
+    "284": {
+      "wp_id": 975,
+      "old_slug": "excel-284-honda-blade-phu-hop-voi-nguoi-moi-dung-xe-so-nhu-the-nao",
+      "new_slug": "honda-blade-phu-hop-voi-nguoi-moi-dung-xe-so-nhu-the-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-284-honda-blade-phu-hop-voi-nguoi-moi-dung-xe-so-nhu-the-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/honda-blade-phu-hop-voi-nguoi-moi-dung-xe-so-nhu-the-nao/"
+    },
+    "285": {
+      "wp_id": 976,
+      "old_slug": "excel-285-honda-future-co-thoai-mai-khi-di-quang-duong-dai-trong-ngay-khong",
+      "new_slug": "honda-future-co-thoai-mai-khi-di-quang-duong-dai-trong-ngay-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-285-honda-future-co-thoai-mai-khi-di-quang-duong-dai-trong-ngay-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/honda-future-co-thoai-mai-khi-di-quang-duong-dai-trong-ngay-khong/"
+    },
+    "286": {
+      "wp_id": 977,
+      "old_slug": "excel-286-yamaha-jupiter-phu-hop-voi-nhu-cau-di-hoc-va-di-lam-ra-sao",
+      "new_slug": "yamaha-jupiter-phu-hop-voi-nhu-cau-di-hoc-va-di-lam-ra-sao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-286-yamaha-jupiter-phu-hop-voi-nhu-cau-di-hoc-va-di-lam-ra-sao/",
+      "new_url": "https://blog.rentbikehanoi.com/yamaha-jupiter-phu-hop-voi-nhu-cau-di-hoc-va-di-lam-ra-sao/"
+    },
+    "287": {
+      "wp_id": 978,
+      "old_slug": "excel-287-wave-va-sirius-mau-nao-de-lam-quen-hon-voi-nguoi-it-di-xe-so",
+      "new_slug": "wave-va-sirius-mau-nao-de-lam-quen-hon-voi-nguoi-it-di-xe-so",
+      "old_url": "https://blog.rentbikehanoi.com/excel-287-wave-va-sirius-mau-nao-de-lam-quen-hon-voi-nguoi-it-di-xe-so/",
+      "new_url": "https://blog.rentbikehanoi.com/wave-va-sirius-mau-nao-de-lam-quen-hon-voi-nguoi-it-di-xe-so/"
+    },
+    "288": {
+      "wp_id": 979,
+      "old_slug": "excel-288-blade-va-wave-khac-nhau-the-nao-khi-su-dung-hang-ngay",
+      "new_slug": "blade-va-wave-khac-nhau-the-nao-khi-su-dung-hang-ngay",
+      "old_url": "https://blog.rentbikehanoi.com/excel-288-blade-va-wave-khac-nhau-the-nao-khi-su-dung-hang-ngay/",
+      "new_url": "https://blog.rentbikehanoi.com/blade-va-wave-khac-nhau-the-nao-khi-su-dung-hang-ngay/"
+    },
+    "289": {
+      "wp_id": 980,
+      "old_slug": "excel-289-future-va-jupiter-mau-nao-phu-hop-nguoi-can-tu-the-ngoi-thoai-mai",
+      "new_slug": "future-va-jupiter-mau-nao-phu-hop-nguoi-can-tu-the-ngoi-thoai-mai",
+      "old_url": "https://blog.rentbikehanoi.com/excel-289-future-va-jupiter-mau-nao-phu-hop-nguoi-can-tu-the-ngoi-thoai-mai/",
+      "new_url": "https://blog.rentbikehanoi.com/future-va-jupiter-mau-nao-phu-hop-nguoi-can-tu-the-ngoi-thoai-mai/"
+    },
+    "290": {
+      "wp_id": 981,
+      "old_slug": "excel-290-xe-so-110cc-co-du-dung-cho-nhu-cau-di-lai-trong-ha-noi-khong",
+      "new_slug": "xe-so-110cc-co-du-dung-cho-nhu-cau-di-lai-trong-ha-noi-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-290-xe-so-110cc-co-du-dung-cho-nhu-cau-di-lai-trong-ha-noi-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-so-110cc-co-du-dung-cho-nhu-cau-di-lai-trong-ha-noi-khong/"
+    },
+    "291": {
+      "wp_id": 982,
+      "old_slug": "excel-291-xe-so-125cc-khac-xe-so-pho-thong-o-diem-nao-khi-van-hanh",
+      "new_slug": "xe-so-125cc-khac-xe-so-pho-thong-o-diem-nao-khi-van-hanh",
+      "old_url": "https://blog.rentbikehanoi.com/excel-291-xe-so-125cc-khac-xe-so-pho-thong-o-diem-nao-khi-van-hanh/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-so-125cc-khac-xe-so-pho-thong-o-diem-nao-khi-van-hanh/"
+    },
+    "292": {
+      "wp_id": 983,
+      "old_slug": "excel-292-xe-so-co-tiet-kiem-xang-hon-xe-ga-trong-dieu-kien-pho-dong-khong",
+      "new_slug": "xe-so-co-tiet-kiem-xang-hon-xe-ga-trong-dieu-kien-pho-dong-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-292-xe-so-co-tiet-kiem-xang-hon-xe-ga-trong-dieu-kien-pho-dong-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-so-co-tiet-kiem-xang-hon-xe-ga-trong-dieu-kien-pho-dong-khong/"
+    },
+    "293": {
+      "wp_id": 984,
+      "old_slug": "excel-293-di-xe-so-gio-cao-diem-co-bat-tien-khong",
+      "new_slug": "di-xe-so-gio-cao-diem-co-bat-tien-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-293-di-xe-so-gio-cao-diem-co-bat-tien-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-so-gio-cao-diem-co-bat-tien-khong/"
+    },
+    "294": {
+      "wp_id": 985,
+      "old_slug": "excel-294-xe-so-co-phu-hop-voi-nguoi-thuong-xuyen-di-qua-duong-nho-va-ngo-hep",
+      "new_slug": "xe-so-co-phu-hop-voi-nguoi-thuong-xuyen-di-qua-duong-nho-va-ngo-hep",
+      "old_url": "https://blog.rentbikehanoi.com/excel-294-xe-so-co-phu-hop-voi-nguoi-thuong-xuyen-di-qua-duong-nho-va-ngo-hep/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-so-co-phu-hop-voi-nguoi-thuong-xuyen-di-qua-duong-nho-va-ngo-hep/"
+    },
+    "295": {
+      "wp_id": 986,
+      "old_slug": "excel-295-xe-so-co-de-dieu-khien-khi-troi-mua-khong",
+      "new_slug": "xe-so-co-de-dieu-khien-khi-troi-mua-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-295-xe-so-co-de-dieu-khien-khi-troi-mua-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-so-co-de-dieu-khien-khi-troi-mua-khong/"
+    },
+    "296": {
+      "wp_id": 987,
+      "old_slug": "excel-296-cach-lam-quen-voi-chuyen-so-khi-moi-thue-xe-so",
+      "new_slug": "cach-lam-quen-voi-chuyen-so-khi-moi-thue-xe-so",
+      "old_url": "https://blog.rentbikehanoi.com/excel-296-cach-lam-quen-voi-chuyen-so-khi-moi-thue-xe-so/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-lam-quen-voi-chuyen-so-khi-moi-thue-xe-so/"
+    },
+    "297": {
+      "wp_id": 988,
+      "old_slug": "excel-297-khi-nao-nen-ve-so-thap-khi-di-xe-so-trong-pho",
+      "new_slug": "khi-nao-nen-ve-so-thap-khi-di-xe-so-trong-pho",
+      "old_url": "https://blog.rentbikehanoi.com/excel-297-khi-nao-nen-ve-so-thap-khi-di-xe-so-trong-pho/",
+      "new_url": "https://blog.rentbikehanoi.com/khi-nao-nen-ve-so-thap-khi-di-xe-so-trong-pho/"
+    },
+    "298": {
+      "wp_id": 989,
+      "old_slug": "excel-298-cach-dung-phanh-truoc-va-phanh-sau-tren-xe-so-an-toan-hon",
+      "new_slug": "cach-dung-phanh-truoc-va-phanh-sau-tren-xe-so-an-toan-hon",
+      "old_url": "https://blog.rentbikehanoi.com/excel-298-cach-dung-phanh-truoc-va-phanh-sau-tren-xe-so-an-toan-hon/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-dung-phanh-truoc-va-phanh-sau-tren-xe-so-an-toan-hon/"
+    },
+    "299": {
+      "wp_id": 990,
+      "old_slug": "excel-299-xe-so-di-cau-doc-can-chu-y-gi-khi-chuyen-so",
+      "new_slug": "xe-so-di-cau-doc-can-chu-y-gi-khi-chuyen-so",
+      "old_url": "https://blog.rentbikehanoi.com/excel-299-xe-so-di-cau-doc-can-chu-y-gi-khi-chuyen-so/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-so-di-cau-doc-can-chu-y-gi-khi-chuyen-so/"
+    },
+    "300": {
+      "wp_id": 991,
+      "old_slug": "excel-300-xe-so-co-phu-hop-voi-nguoi-mang-it-hanh-ly-khong",
+      "new_slug": "xe-so-co-phu-hop-voi-nguoi-mang-it-hanh-ly-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-300-xe-so-co-phu-hop-voi-nguoi-mang-it-hanh-ly-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-so-co-phu-hop-voi-nguoi-mang-it-hanh-ly-khong/"
+    },
+    "301": {
+      "wp_id": 992,
+      "old_slug": "excel-301-cop-xe-so-thuong-du-cho-nhung-vat-dung-nao",
+      "new_slug": "cop-xe-so-thuong-du-cho-nhung-vat-dung-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-301-cop-xe-so-thuong-du-cho-nhung-vat-dung-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/cop-xe-so-thuong-du-cho-nhung-vat-dung-nao/"
+    },
+    "302": {
+      "wp_id": 993,
+      "old_slug": "excel-302-nguoi-thap-co-de-chong-chan-tren-honda-wave-va-yamaha-sirius-khong",
+      "new_slug": "nguoi-thap-co-de-chong-chan-tren-honda-wave-va-yamaha-sirius-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-302-nguoi-thap-co-de-chong-chan-tren-honda-wave-va-yamaha-sirius-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/nguoi-thap-co-de-chong-chan-tren-honda-wave-va-yamaha-sirius-khong/"
+    },
+    "303": {
+      "wp_id": 994,
+      "old_slug": "excel-303-nguoi-cao-di-xe-so-pho-thong-co-thoai-mai-khong",
+      "new_slug": "nguoi-cao-di-xe-so-pho-thong-co-thoai-mai-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-303-nguoi-cao-di-xe-so-pho-thong-co-thoai-mai-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/nguoi-cao-di-xe-so-pho-thong-co-thoai-mai-khong/"
+    },
+    "304": {
+      "wp_id": 995,
+      "old_slug": "excel-304-xe-so-phu-hop-hon-xe-ga-trong-truong-hop-nao",
+      "new_slug": "xe-so-phu-hop-hon-xe-ga-trong-truong-hop-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-304-xe-so-phu-hop-hon-xe-ga-trong-truong-hop-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-so-phu-hop-hon-xe-ga-trong-truong-hop-nao/"
+    },
+    "305": {
+      "wp_id": 996,
+      "old_slug": "excel-305-di-nhieu-kilomet-moi-ngay-co-nen-uu-tien-xe-so",
+      "new_slug": "di-nhieu-kilomet-moi-ngay-co-nen-uu-tien-xe-so",
+      "old_url": "https://blog.rentbikehanoi.com/excel-305-di-nhieu-kilomet-moi-ngay-co-nen-uu-tien-xe-so/",
+      "new_url": "https://blog.rentbikehanoi.com/di-nhieu-kilomet-moi-ngay-co-nen-uu-tien-xe-so/"
+    },
+    "306": {
+      "wp_id": 997,
+      "old_slug": "excel-306-thue-xe-so-dai-ngay-can-kiem-tra-nhung-bo-phan-nao-thuong-xuyen",
+      "new_slug": "thue-xe-so-dai-ngay-can-kiem-tra-nhung-bo-phan-nao-thuong-xuyen",
+      "old_url": "https://blog.rentbikehanoi.com/excel-306-thue-xe-so-dai-ngay-can-kiem-tra-nhung-bo-phan-nao-thuong-xuyen/",
+      "new_url": "https://blog.rentbikehanoi.com/thue-xe-so-dai-ngay-can-kiem-tra-nhung-bo-phan-nao-thuong-xuyen/"
+    },
+    "307": {
+      "wp_id": 998,
+      "old_slug": "excel-307-di-xe-so-trong-pho-co-co-bat-tien-khong",
+      "new_slug": "di-xe-so-trong-pho-co-co-bat-tien-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-307-di-xe-so-trong-pho-co-co-bat-tien-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-so-trong-pho-co-co-bat-tien-khong/"
+    },
+    "308": {
+      "wp_id": 999,
+      "old_slug": "excel-308-xe-so-co-phu-hop-voi-nguoi-can-di-nhieu-khu-vuc-trong-mot-ngay",
+      "new_slug": "xe-so-co-phu-hop-voi-nguoi-can-di-nhieu-khu-vuc-trong-mot-ngay",
+      "old_url": "https://blog.rentbikehanoi.com/excel-308-xe-so-co-phu-hop-voi-nguoi-can-di-nhieu-khu-vuc-trong-mot-ngay/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-so-co-phu-hop-voi-nguoi-can-di-nhieu-khu-vuc-trong-mot-ngay/"
+    },
+    "309": {
+      "wp_id": 1000,
+      "old_slug": "excel-309-honda-wave-di-duong-hon-hop-noi-do-va-ngoai-thanh-ra-sao",
+      "new_slug": "honda-wave-di-duong-hon-hop-noi-do-va-ngoai-thanh-ra-sao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-309-honda-wave-di-duong-hon-hop-noi-do-va-ngoai-thanh-ra-sao/",
+      "new_url": "https://blog.rentbikehanoi.com/honda-wave-di-duong-hon-hop-noi-do-va-ngoai-thanh-ra-sao/"
+    },
+    "310": {
+      "wp_id": 1001,
+      "old_slug": "excel-310-yamaha-sirius-di-duong-hon-hop-co-gi-dang-chu-y",
+      "new_slug": "yamaha-sirius-di-duong-hon-hop-co-gi-dang-chu-y",
+      "old_url": "https://blog.rentbikehanoi.com/excel-310-yamaha-sirius-di-duong-hon-hop-co-gi-dang-chu-y/",
+      "new_url": "https://blog.rentbikehanoi.com/yamaha-sirius-di-duong-hon-hop-co-gi-dang-chu-y/"
+    },
+    "311": {
+      "wp_id": 1002,
+      "old_slug": "excel-311-honda-blade-co-phu-hop-voi-nguoi-can-xe-nhe-de-xoay-tro-khong",
+      "new_slug": "honda-blade-co-phu-hop-voi-nguoi-can-xe-nhe-de-xoay-tro-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-311-honda-blade-co-phu-hop-voi-nguoi-can-xe-nhe-de-xoay-tro-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/honda-blade-co-phu-hop-voi-nguoi-can-xe-nhe-de-xoay-tro-khong/"
+    },
+    "312": {
+      "wp_id": 1003,
+      "old_slug": "excel-312-honda-future-phu-hop-voi-nguoi-uu-tien-cop-va-su-thoai-mai-ra-sao",
+      "new_slug": "honda-future-phu-hop-voi-nguoi-uu-tien-cop-va-su-thoai-mai-ra-sao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-312-honda-future-phu-hop-voi-nguoi-uu-tien-cop-va-su-thoai-mai-ra-sao/",
+      "new_url": "https://blog.rentbikehanoi.com/honda-future-phu-hop-voi-nguoi-uu-tien-cop-va-su-thoai-mai-ra-sao/"
+    },
+    "313": {
+      "wp_id": 1004,
+      "old_slug": "excel-313-yamaha-jupiter-co-phu-hop-voi-nguoi-di-lam-moi-ngay-khong",
+      "new_slug": "yamaha-jupiter-co-phu-hop-voi-nguoi-di-lam-moi-ngay-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-313-yamaha-jupiter-co-phu-hop-voi-nguoi-di-lam-moi-ngay-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/yamaha-jupiter-co-phu-hop-voi-nguoi-di-lam-moi-ngay-khong/"
+    },
+    "314": {
+      "wp_id": 1005,
+      "old_slug": "excel-314-xe-so-co-phu-hop-de-cho-them-mot-nguoi-thuong-xuyen",
+      "new_slug": "xe-so-co-phu-hop-de-cho-them-mot-nguoi-thuong-xuyen",
+      "old_url": "https://blog.rentbikehanoi.com/excel-314-xe-so-co-phu-hop-de-cho-them-mot-nguoi-thuong-xuyen/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-so-co-phu-hop-de-cho-them-mot-nguoi-thuong-xuyen/"
+    },
+    "315": {
+      "wp_id": 1006,
+      "old_slug": "excel-315-xe-so-nao-co-tu-the-ngoi-de-chiu-cho-hanh-trinh-dai",
+      "new_slug": "xe-so-nao-co-tu-the-ngoi-de-chiu-cho-hanh-trinh-dai",
+      "old_url": "https://blog.rentbikehanoi.com/excel-315-xe-so-nao-co-tu-the-ngoi-de-chiu-cho-hanh-trinh-dai/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-so-nao-co-tu-the-ngoi-de-chiu-cho-hanh-trinh-dai/"
+    },
+    "316": {
+      "wp_id": 1007,
+      "old_slug": "excel-316-cach-chon-xe-so-theo-chieu-cao-va-the-trang-nguoi-lai",
+      "new_slug": "cach-chon-xe-so-theo-chieu-cao-va-the-trang-nguoi-lai",
+      "old_url": "https://blog.rentbikehanoi.com/excel-316-cach-chon-xe-so-theo-chieu-cao-va-the-trang-nguoi-lai/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-chon-xe-so-theo-chieu-cao-va-the-trang-nguoi-lai/"
+    },
+    "317": {
+      "wp_id": 1008,
+      "old_slug": "excel-317-xe-so-dung-phanh-dia-va-phanh-co-khac-nhau-the-nao-khi-di-pho",
+      "new_slug": "xe-so-dung-phanh-dia-va-phanh-co-khac-nhau-the-nao-khi-di-pho",
+      "old_url": "https://blog.rentbikehanoi.com/excel-317-xe-so-dung-phanh-dia-va-phanh-co-khac-nhau-the-nao-khi-di-pho/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-so-dung-phanh-dia-va-phanh-co-khac-nhau-the-nao-khi-di-pho/"
+    },
+    "318": {
+      "wp_id": 1009,
+      "old_slug": "excel-318-xe-so-va-xe-50cc-khac-nhau-the-nao-ve-cam-giac-van-hanh",
+      "new_slug": "xe-so-va-xe-50cc-khac-nhau-the-nao-ve-cam-giac-van-hanh",
+      "old_url": "https://blog.rentbikehanoi.com/excel-318-xe-so-va-xe-50cc-khac-nhau-the-nao-ve-cam-giac-van-hanh/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-so-va-xe-50cc-khac-nhau-the-nao-ve-cam-giac-van-hanh/"
+    },
+    "319": {
+      "wp_id": 1010,
+      "old_slug": "excel-319-xe-so-co-phu-hop-voi-nguoi-thue-lan-dau-tai-ha-noi-khong",
+      "new_slug": "xe-so-co-phu-hop-voi-nguoi-thue-lan-dau-tai-ha-noi-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-319-xe-so-co-phu-hop-voi-nguoi-thue-lan-dau-tai-ha-noi-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-so-co-phu-hop-voi-nguoi-thue-lan-dau-tai-ha-noi-khong/"
+    },
+    "320": {
+      "wp_id": 1011,
+      "old_slug": "excel-320-di-xe-so-vao-mua-dong-ha-noi-can-luu-y-gi",
+      "new_slug": "di-xe-so-vao-mua-dong-ha-noi-can-luu-y-gi",
+      "old_url": "https://blog.rentbikehanoi.com/excel-320-di-xe-so-vao-mua-dong-ha-noi-can-luu-y-gi/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-so-vao-mua-dong-ha-noi-can-luu-y-gi/"
+    },
+    "321": {
+      "wp_id": 1012,
+      "old_slug": "excel-321-di-xe-so-duoi-mua-lon-can-chu-y-gi-o-bo-phan-phanh-va-lop",
+      "new_slug": "di-xe-so-duoi-mua-lon-can-chu-y-gi-o-bo-phan-phanh-va-lop",
+      "old_url": "https://blog.rentbikehanoi.com/excel-321-di-xe-so-duoi-mua-lon-can-chu-y-gi-o-bo-phan-phanh-va-lop/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-so-duoi-mua-lon-can-chu-y-gi-o-bo-phan-phanh-va-lop/"
+    },
+    "322": {
+      "wp_id": 1013,
+      "old_slug": "excel-322-xe-so-co-de-gui-o-bai-xe-chat-khong",
+      "new_slug": "xe-so-co-de-gui-o-bai-xe-chat-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-322-xe-so-co-de-gui-o-bai-xe-chat-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-so-co-de-gui-o-bai-xe-chat-khong/"
+    },
+    "323": {
+      "wp_id": 1014,
+      "old_slug": "excel-323-xe-so-dung-khoa-co-hay-khoa-tu-thuan-tien-hon-voi-nguoi-thue",
+      "new_slug": "xe-so-dung-khoa-co-hay-khoa-tu-thuan-tien-hon-voi-nguoi-thue",
+      "old_url": "https://blog.rentbikehanoi.com/excel-323-xe-so-dung-khoa-co-hay-khoa-tu-thuan-tien-hon-voi-nguoi-thue/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-so-dung-khoa-co-hay-khoa-tu-thuan-tien-hon-voi-nguoi-thue/"
+    },
+    "324": {
+      "wp_id": 1015,
+      "old_slug": "excel-324-thue-xe-so-theo-tuan-nen-chon-theo-tieu-chi-nao",
+      "new_slug": "thue-xe-so-theo-tuan-nen-chon-theo-tieu-chi-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-324-thue-xe-so-theo-tuan-nen-chon-theo-tieu-chi-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/thue-xe-so-theo-tuan-nen-chon-theo-tieu-chi-nao/"
+    },
+    "325": {
+      "wp_id": 1016,
+      "old_slug": "excel-325-thue-xe-so-dai-han-nen-uu-tien-do-ben-muc-xang-hay-su-thoai-mai",
+      "new_slug": "thue-xe-so-dai-han-nen-uu-tien-do-ben-muc-xang-hay-su-thoai-mai",
+      "old_url": "https://blog.rentbikehanoi.com/excel-325-thue-xe-so-dai-han-nen-uu-tien-do-ben-muc-xang-hay-su-thoai-mai/",
+      "new_url": "https://blog.rentbikehanoi.com/thue-xe-so-dai-han-nen-uu-tien-do-ben-muc-xang-hay-su-thoai-mai/"
+    },
+    "326": {
+      "wp_id": 1017,
+      "old_slug": "excel-326-xe-ga-co-phu-hop-de-di-lam-hang-ngay-trong-noi-do-ha-noi-khong",
+      "new_slug": "xe-ga-co-phu-hop-de-di-lam-hang-ngay-trong-noi-do-ha-noi-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-326-xe-ga-co-phu-hop-de-di-lam-hang-ngay-trong-noi-do-ha-noi-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-ga-co-phu-hop-de-di-lam-hang-ngay-trong-noi-do-ha-noi-khong/"
+    },
+    "327": {
+      "wp_id": 1018,
+      "old_slug": "excel-327-honda-vision-phu-hop-voi-nguoi-can-xe-nhe-va-de-dieu-khien-nhu-the-nao",
+      "new_slug": "honda-vision-phu-hop-voi-nguoi-can-xe-nhe-va-de-dieu-khien-nhu-the-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-327-honda-vision-phu-hop-voi-nguoi-can-xe-nhe-va-de-dieu-khien-nhu-the-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/honda-vision-phu-hop-voi-nguoi-can-xe-nhe-va-de-dieu-khien-nhu-the-nao/"
+    },
+    "328": {
+      "wp_id": 1019,
+      "old_slug": "excel-328-honda-air-blade-phu-hop-voi-nguoi-di-nhieu-kilomet-moi-ngay-khong",
+      "new_slug": "honda-air-blade-phu-hop-voi-nguoi-di-nhieu-kilomet-moi-ngay-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-328-honda-air-blade-phu-hop-voi-nguoi-di-nhieu-kilomet-moi-ngay-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/honda-air-blade-phu-hop-voi-nguoi-di-nhieu-kilomet-moi-ngay-khong/"
+    },
+    "329": {
+      "wp_id": 1020,
+      "old_slug": "excel-329-honda-lead-co-tien-cho-nguoi-thuong-xuyen-mang-nhieu-do-khong",
+      "new_slug": "honda-lead-co-tien-cho-nguoi-thuong-xuyen-mang-nhieu-do-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-329-honda-lead-co-tien-cho-nguoi-thuong-xuyen-mang-nhieu-do-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/honda-lead-co-tien-cho-nguoi-thuong-xuyen-mang-nhieu-do-khong/"
+    },
+    "330": {
+      "wp_id": 1021,
+      "old_slug": "excel-330-honda-sh-mode-phu-hop-voi-quang-duong-do-thi-ra-sao",
+      "new_slug": "honda-sh-mode-phu-hop-voi-quang-duong-do-thi-ra-sao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-330-honda-sh-mode-phu-hop-voi-quang-duong-do-thi-ra-sao/",
+      "new_url": "https://blog.rentbikehanoi.com/honda-sh-mode-phu-hop-voi-quang-duong-do-thi-ra-sao/"
+    },
+    "331": {
+      "wp_id": 1022,
+      "old_slug": "excel-331-yamaha-janus-co-phu-hop-voi-nguoi-moi-dung-xe-ga-khong",
+      "new_slug": "yamaha-janus-co-phu-hop-voi-nguoi-moi-dung-xe-ga-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-331-yamaha-janus-co-phu-hop-voi-nguoi-moi-dung-xe-ga-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/yamaha-janus-co-phu-hop-voi-nguoi-moi-dung-xe-ga-khong/"
+    },
+    "332": {
+      "wp_id": 1023,
+      "old_slug": "excel-332-yamaha-grande-phu-hop-voi-nguoi-uu-tien-su-em-ai-nhu-the-nao",
+      "new_slug": "yamaha-grande-phu-hop-voi-nguoi-uu-tien-su-em-ai-nhu-the-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-332-yamaha-grande-phu-hop-voi-nguoi-uu-tien-su-em-ai-nhu-the-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/yamaha-grande-phu-hop-voi-nguoi-uu-tien-su-em-ai-nhu-the-nao/"
+    },
+    "333": {
+      "wp_id": 1024,
+      "old_slug": "excel-333-yamaha-freego-co-phu-hop-voi-nguoi-di-lam-hang-ngay-khong",
+      "new_slug": "yamaha-freego-co-phu-hop-voi-nguoi-di-lam-hang-ngay-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-333-yamaha-freego-co-phu-hop-voi-nguoi-di-lam-hang-ngay-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/yamaha-freego-co-phu-hop-voi-nguoi-di-lam-hang-ngay-khong/"
+    },
+    "334": {
+      "wp_id": 1025,
+      "old_slug": "excel-334-yamaha-nvx-phu-hop-voi-nguoi-thich-tu-the-lai-the-thao-ra-sao",
+      "new_slug": "yamaha-nvx-phu-hop-voi-nguoi-thich-tu-the-lai-the-thao-ra-sao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-334-yamaha-nvx-phu-hop-voi-nguoi-thich-tu-the-lai-the-thao-ra-sao/",
+      "new_url": "https://blog.rentbikehanoi.com/yamaha-nvx-phu-hop-voi-nguoi-thich-tu-the-lai-the-thao-ra-sao/"
+    },
+    "335": {
+      "wp_id": 1026,
+      "old_slug": "excel-335-honda-vision-va-yamaha-janus-mau-nao-de-lam-quen-hon",
+      "new_slug": "honda-vision-va-yamaha-janus-mau-nao-de-lam-quen-hon",
+      "old_url": "https://blog.rentbikehanoi.com/excel-335-honda-vision-va-yamaha-janus-mau-nao-de-lam-quen-hon/",
+      "new_url": "https://blog.rentbikehanoi.com/honda-vision-va-yamaha-janus-mau-nao-de-lam-quen-hon/"
+    },
+    "336": {
+      "wp_id": 1027,
+      "old_slug": "excel-336-honda-lead-va-yamaha-grande-mau-nao-tien-hon-khi-can-cop-rong",
+      "new_slug": "honda-lead-va-yamaha-grande-mau-nao-tien-hon-khi-can-cop-rong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-336-honda-lead-va-yamaha-grande-mau-nao-tien-hon-khi-can-cop-rong/",
+      "new_url": "https://blog.rentbikehanoi.com/honda-lead-va-yamaha-grande-mau-nao-tien-hon-khi-can-cop-rong/"
+    },
+    "337": {
+      "wp_id": 1028,
+      "old_slug": "excel-337-air-blade-va-freego-nen-so-sanh-nhung-tieu-chi-nao-khi-di-pho",
+      "new_slug": "air-blade-va-freego-nen-so-sanh-nhung-tieu-chi-nao-khi-di-pho",
+      "old_url": "https://blog.rentbikehanoi.com/excel-337-air-blade-va-freego-nen-so-sanh-nhung-tieu-chi-nao-khi-di-pho/",
+      "new_url": "https://blog.rentbikehanoi.com/air-blade-va-freego-nen-so-sanh-nhung-tieu-chi-nao-khi-di-pho/"
+    },
+    "338": {
+      "wp_id": 1029,
+      "old_slug": "excel-338-sh-mode-va-grande-hai-mau-xe-ga-do-thi-khac-nhau-the-nao",
+      "new_slug": "sh-mode-va-grande-hai-mau-xe-ga-do-thi-khac-nhau-the-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-338-sh-mode-va-grande-hai-mau-xe-ga-do-thi-khac-nhau-the-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/sh-mode-va-grande-hai-mau-xe-ga-do-thi-khac-nhau-the-nao/"
+    },
+    "339": {
+      "wp_id": 1030,
+      "old_slug": "excel-339-vision-va-lead-mau-nao-phu-hop-nguoi-thuong-xuyen-di-quang-duong-ngan",
+      "new_slug": "vision-va-lead-mau-nao-phu-hop-nguoi-thuong-xuyen-di-quang-duong-ngan",
+      "old_url": "https://blog.rentbikehanoi.com/excel-339-vision-va-lead-mau-nao-phu-hop-nguoi-thuong-xuyen-di-quang-duong-ngan/",
+      "new_url": "https://blog.rentbikehanoi.com/vision-va-lead-mau-nao-phu-hop-nguoi-thuong-xuyen-di-quang-duong-ngan/"
+    },
+    "340": {
+      "wp_id": 1031,
+      "old_slug": "excel-340-air-blade-va-vision-mau-nao-phu-hop-nguoi-cao-hon",
+      "new_slug": "air-blade-va-vision-mau-nao-phu-hop-nguoi-cao-hon",
+      "old_url": "https://blog.rentbikehanoi.com/excel-340-air-blade-va-vision-mau-nao-phu-hop-nguoi-cao-hon/",
+      "new_url": "https://blog.rentbikehanoi.com/air-blade-va-vision-mau-nao-phu-hop-nguoi-cao-hon/"
+    },
+    "341": {
+      "wp_id": 1032,
+      "old_slug": "excel-341-janus-va-grande-khac-nhau-the-nao-ve-trong-luong-va-cam-giac-lai",
+      "new_slug": "janus-va-grande-khac-nhau-the-nao-ve-trong-luong-va-cam-giac-lai",
+      "old_url": "https://blog.rentbikehanoi.com/excel-341-janus-va-grande-khac-nhau-the-nao-ve-trong-luong-va-cam-giac-lai/",
+      "new_url": "https://blog.rentbikehanoi.com/janus-va-grande-khac-nhau-the-nao-ve-trong-luong-va-cam-giac-lai/"
+    },
+    "342": {
+      "wp_id": 1033,
+      "old_slug": "excel-342-freego-va-janus-mau-nao-phu-hop-duong-pho-dong-hon",
+      "new_slug": "freego-va-janus-mau-nao-phu-hop-duong-pho-dong-hon",
+      "old_url": "https://blog.rentbikehanoi.com/excel-342-freego-va-janus-mau-nao-phu-hop-duong-pho-dong-hon/",
+      "new_url": "https://blog.rentbikehanoi.com/freego-va-janus-mau-nao-phu-hop-duong-pho-dong-hon/"
+    },
+    "343": {
+      "wp_id": 1034,
+      "old_slug": "excel-343-nvx-va-air-blade-khac-nhau-the-nao-ve-tu-the-lai",
+      "new_slug": "nvx-va-air-blade-khac-nhau-the-nao-ve-tu-the-lai",
+      "old_url": "https://blog.rentbikehanoi.com/excel-343-nvx-va-air-blade-khac-nhau-the-nao-ve-tu-the-lai/",
+      "new_url": "https://blog.rentbikehanoi.com/nvx-va-air-blade-khac-nhau-the-nao-ve-tu-the-lai/"
+    },
+    "344": {
+      "wp_id": 1035,
+      "old_slug": "excel-344-xe-ga-110cc-co-du-dung-cho-nhu-cau-di-lai-trong-ha-noi-khong",
+      "new_slug": "xe-ga-110cc-co-du-dung-cho-nhu-cau-di-lai-trong-ha-noi-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-344-xe-ga-110cc-co-du-dung-cho-nhu-cau-di-lai-trong-ha-noi-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-ga-110cc-co-du-dung-cho-nhu-cau-di-lai-trong-ha-noi-khong/"
+    },
+    "345": {
+      "wp_id": 1036,
+      "old_slug": "excel-345-xe-ga-125cc-phu-hop-voi-kieu-hanh-trinh-nao",
+      "new_slug": "xe-ga-125cc-phu-hop-voi-kieu-hanh-trinh-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-345-xe-ga-125cc-phu-hop-voi-kieu-hanh-trinh-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-ga-125cc-phu-hop-voi-kieu-hanh-trinh-nao/"
+    },
+    "346": {
+      "wp_id": 1037,
+      "old_slug": "excel-346-xe-ga-150cc-co-can-thiet-neu-chu-yeu-di-trong-noi-do-khong",
+      "new_slug": "xe-ga-150cc-co-can-thiet-neu-chu-yeu-di-trong-noi-do-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-346-xe-ga-150cc-co-can-thiet-neu-chu-yeu-di-trong-noi-do-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-ga-150cc-co-can-thiet-neu-chu-yeu-di-trong-noi-do-khong/"
+    },
+    "347": {
+      "wp_id": 1038,
+      "old_slug": "excel-347-xe-ga-co-ton-xang-nhieu-hon-xe-so-khi-chay-gio-cao-diem-khong",
+      "new_slug": "xe-ga-co-ton-xang-nhieu-hon-xe-so-khi-chay-gio-cao-diem-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-347-xe-ga-co-ton-xang-nhieu-hon-xe-so-khi-chay-gio-cao-diem-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-ga-co-ton-xang-nhieu-hon-xe-so-khi-chay-gio-cao-diem-khong/"
+    },
+    "348": {
+      "wp_id": 1039,
+      "old_slug": "excel-348-xe-ga-co-phu-hop-voi-nguoi-thuong-xuyen-di-ngo-nho-khong",
+      "new_slug": "xe-ga-co-phu-hop-voi-nguoi-thuong-xuyen-di-ngo-nho-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-348-xe-ga-co-phu-hop-voi-nguoi-thuong-xuyen-di-ngo-nho-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-ga-co-phu-hop-voi-nguoi-thuong-xuyen-di-ngo-nho-khong/"
+    },
+    "349": {
+      "wp_id": 1040,
+      "old_slug": "excel-349-xe-ga-co-de-dieu-khien-khi-troi-mua-khong",
+      "new_slug": "xe-ga-co-de-dieu-khien-khi-troi-mua-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-349-xe-ga-co-de-dieu-khien-khi-troi-mua-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-ga-co-de-dieu-khien-khi-troi-mua-khong/"
+    },
+    "350": {
+      "wp_id": 1041,
+      "old_slug": "excel-350-cach-dung-phanh-truoc-va-phanh-sau-tren-xe-ga-an-toan-hon",
+      "new_slug": "cach-dung-phanh-truoc-va-phanh-sau-tren-xe-ga-an-toan-hon",
+      "old_url": "https://blog.rentbikehanoi.com/excel-350-cach-dung-phanh-truoc-va-phanh-sau-tren-xe-ga-an-toan-hon/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-dung-phanh-truoc-va-phanh-sau-tren-xe-ga-an-toan-hon/"
+    },
+    "351": {
+      "wp_id": 1042,
+      "old_slug": "excel-351-xe-ga-co-phu-hop-voi-nguoi-moi-chuyen-tu-xe-so-sang-khong",
+      "new_slug": "xe-ga-co-phu-hop-voi-nguoi-moi-chuyen-tu-xe-so-sang-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-351-xe-ga-co-phu-hop-voi-nguoi-moi-chuyen-tu-xe-so-sang-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-ga-co-phu-hop-voi-nguoi-moi-chuyen-tu-xe-so-sang-khong/"
+    },
+    "352": {
+      "wp_id": 1043,
+      "old_slug": "excel-352-cach-lam-quen-voi-ga-va-phanh-khi-moi-dung-xe-tay-ga",
+      "new_slug": "cach-lam-quen-voi-ga-va-phanh-khi-moi-dung-xe-tay-ga",
+      "old_url": "https://blog.rentbikehanoi.com/excel-352-cach-lam-quen-voi-ga-va-phanh-khi-moi-dung-xe-tay-ga/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-lam-quen-voi-ga-va-phanh-khi-moi-dung-xe-tay-ga/"
+    },
+    "353": {
+      "wp_id": 1044,
+      "old_slug": "excel-353-nguoi-thap-nen-chon-xe-ga-theo-chieu-cao-yen-the-nao",
+      "new_slug": "nguoi-thap-nen-chon-xe-ga-theo-chieu-cao-yen-the-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-353-nguoi-thap-nen-chon-xe-ga-theo-chieu-cao-yen-the-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/nguoi-thap-nen-chon-xe-ga-theo-chieu-cao-yen-the-nao/"
+    },
+    "354": {
+      "wp_id": 1045,
+      "old_slug": "excel-354-nguoi-cao-nen-chon-xe-ga-theo-tu-the-ngoi-ra-sao",
+      "new_slug": "nguoi-cao-nen-chon-xe-ga-theo-tu-the-ngoi-ra-sao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-354-nguoi-cao-nen-chon-xe-ga-theo-tu-the-ngoi-ra-sao/",
+      "new_url": "https://blog.rentbikehanoi.com/nguoi-cao-nen-chon-xe-ga-theo-tu-the-ngoi-ra-sao/"
+    },
+    "355": {
+      "wp_id": 1046,
+      "old_slug": "excel-355-xe-ga-co-phu-hop-de-cho-them-mot-nguoi-thuong-xuyen-khong",
+      "new_slug": "xe-ga-co-phu-hop-de-cho-them-mot-nguoi-thuong-xuyen-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-355-xe-ga-co-phu-hop-de-cho-them-mot-nguoi-thuong-xuyen-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-ga-co-phu-hop-de-cho-them-mot-nguoi-thuong-xuyen-khong/"
+    },
+    "356": {
+      "wp_id": 1047,
+      "old_slug": "excel-356-xe-ga-nao-co-cop-rong-phu-hop-nguoi-mang-laptop-va-do-ca-nhan",
+      "new_slug": "xe-ga-nao-co-cop-rong-phu-hop-nguoi-mang-laptop-va-do-ca-nhan",
+      "old_url": "https://blog.rentbikehanoi.com/excel-356-xe-ga-nao-co-cop-rong-phu-hop-nguoi-mang-laptop-va-do-ca-nhan/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-ga-nao-co-cop-rong-phu-hop-nguoi-mang-laptop-va-do-ca-nhan/"
+    },
+    "357": {
+      "wp_id": 1048,
+      "old_slug": "excel-357-xe-ga-nho-gon-phu-hop-voi-bai-gui-xe-chat-nhu-the-nao",
+      "new_slug": "xe-ga-nho-gon-phu-hop-voi-bai-gui-xe-chat-nhu-the-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-357-xe-ga-nho-gon-phu-hop-voi-bai-gui-xe-chat-nhu-the-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-ga-nho-gon-phu-hop-voi-bai-gui-xe-chat-nhu-the-nao/"
+    },
+    "358": {
+      "wp_id": 1049,
+      "old_slug": "excel-358-xe-ga-co-thuan-tien-khi-phai-dung-va-di-lien-tuc-trong-pho-dong-khong",
+      "new_slug": "xe-ga-co-thuan-tien-khi-phai-dung-va-di-lien-tuc-trong-pho-dong-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-358-xe-ga-co-thuan-tien-khi-phai-dung-va-di-lien-tuc-trong-pho-dong-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-ga-co-thuan-tien-khi-phai-dung-va-di-lien-tuc-trong-pho-dong-khong/"
+    },
+    "359": {
+      "wp_id": 1050,
+      "old_slug": "excel-359-honda-vision-di-pho-co-co-de-xoay-tro-khong",
+      "new_slug": "honda-vision-di-pho-co-co-de-xoay-tro-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-359-honda-vision-di-pho-co-co-de-xoay-tro-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/honda-vision-di-pho-co-co-de-xoay-tro-khong/"
+    },
+    "360": {
+      "wp_id": 1051,
+      "old_slug": "excel-360-honda-lead-co-phu-hop-voi-nguoi-o-can-ho-va-can-mang-nhieu-do-khong",
+      "new_slug": "honda-lead-co-phu-hop-voi-nguoi-o-can-ho-va-can-mang-nhieu-do-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-360-honda-lead-co-phu-hop-voi-nguoi-o-can-ho-va-can-mang-nhieu-do-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/honda-lead-co-phu-hop-voi-nguoi-o-can-ho-va-can-mang-nhieu-do-khong/"
+    },
+    "361": {
+      "wp_id": 1052,
+      "old_slug": "excel-361-air-blade-co-phu-hop-voi-nguoi-thuong-xuyen-di-cau-va-duong-lon-khong",
+      "new_slug": "air-blade-co-phu-hop-voi-nguoi-thuong-xuyen-di-cau-va-duong-lon-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-361-air-blade-co-phu-hop-voi-nguoi-thuong-xuyen-di-cau-va-duong-lon-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/air-blade-co-phu-hop-voi-nguoi-thuong-xuyen-di-cau-va-duong-lon-khong/"
+    },
+    "362": {
+      "wp_id": 1053,
+      "old_slug": "excel-362-janus-co-phu-hop-voi-lich-hoc-va-di-lam-hang-ngay-khong",
+      "new_slug": "janus-co-phu-hop-voi-lich-hoc-va-di-lam-hang-ngay-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-362-janus-co-phu-hop-voi-lich-hoc-va-di-lam-hang-ngay-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/janus-co-phu-hop-voi-lich-hoc-va-di-lam-hang-ngay-khong/"
+    },
+    "363": {
+      "wp_id": 1054,
+      "old_slug": "excel-363-grande-co-phu-hop-voi-nguoi-uu-tien-su-nhe-nhang-khi-van-hanh-khong",
+      "new_slug": "grande-co-phu-hop-voi-nguoi-uu-tien-su-nhe-nhang-khi-van-hanh-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-363-grande-co-phu-hop-voi-nguoi-uu-tien-su-nhe-nhang-khi-van-hanh-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/grande-co-phu-hop-voi-nguoi-uu-tien-su-nhe-nhang-khi-van-hanh-khong/"
+    },
+    "364": {
+      "wp_id": 1055,
+      "old_slug": "excel-364-freego-co-phu-hop-voi-nguoi-can-xe-thuc-dung-va-cop-rong-khong",
+      "new_slug": "freego-co-phu-hop-voi-nguoi-can-xe-thuc-dung-va-cop-rong-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-364-freego-co-phu-hop-voi-nguoi-can-xe-thuc-dung-va-cop-rong-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/freego-co-phu-hop-voi-nguoi-can-xe-thuc-dung-va-cop-rong-khong/"
+    },
+    "365": {
+      "wp_id": 1056,
+      "old_slug": "excel-365-nvx-co-phu-hop-voi-nguoi-chu-yeu-di-pho-dong-khong",
+      "new_slug": "nvx-co-phu-hop-voi-nguoi-chu-yeu-di-pho-dong-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-365-nvx-co-phu-hop-voi-nguoi-chu-yeu-di-pho-dong-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/nvx-co-phu-hop-voi-nguoi-chu-yeu-di-pho-dong-khong/"
+    },
+    "366": {
+      "wp_id": 1057,
+      "old_slug": "excel-366-xe-ga-dung-khoa-thong-minh-co-thuan-tien-voi-nguoi-thue-khong",
+      "new_slug": "xe-ga-dung-khoa-thong-minh-co-thuan-tien-voi-nguoi-thue-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-366-xe-ga-dung-khoa-thong-minh-co-thuan-tien-voi-nguoi-thue-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-ga-dung-khoa-thong-minh-co-thuan-tien-voi-nguoi-thue-khong/"
+    },
+    "367": {
+      "wp_id": 1058,
+      "old_slug": "excel-367-xe-ga-dung-khoa-co-co-uu-diem-gi-khi-su-dung-ngan-ngay",
+      "new_slug": "xe-ga-dung-khoa-co-co-uu-diem-gi-khi-su-dung-ngan-ngay",
+      "old_url": "https://blog.rentbikehanoi.com/excel-367-xe-ga-dung-khoa-co-co-uu-diem-gi-khi-su-dung-ngan-ngay/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-ga-dung-khoa-co-co-uu-diem-gi-khi-su-dung-ngan-ngay/"
+    },
+    "368": {
+      "wp_id": 1059,
+      "old_slug": "excel-368-thue-xe-ga-dai-ngay-can-kiem-tra-nhung-bo-phan-nao-thuong-xuyen",
+      "new_slug": "thue-xe-ga-dai-ngay-can-kiem-tra-nhung-bo-phan-nao-thuong-xuyen",
+      "old_url": "https://blog.rentbikehanoi.com/excel-368-thue-xe-ga-dai-ngay-can-kiem-tra-nhung-bo-phan-nao-thuong-xuyen/",
+      "new_url": "https://blog.rentbikehanoi.com/thue-xe-ga-dai-ngay-can-kiem-tra-nhung-bo-phan-nao-thuong-xuyen/"
+    },
+    "369": {
+      "wp_id": 1060,
+      "old_slug": "excel-369-di-xe-ga-vao-mua-dong-ha-noi-can-luu-y-gi",
+      "new_slug": "di-xe-ga-vao-mua-dong-ha-noi-can-luu-y-gi",
+      "old_url": "https://blog.rentbikehanoi.com/excel-369-di-xe-ga-vao-mua-dong-ha-noi-can-luu-y-gi/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-ga-vao-mua-dong-ha-noi-can-luu-y-gi/"
+    },
+    "370": {
+      "wp_id": 1061,
+      "old_slug": "excel-370-di-xe-ga-duoi-mua-lon-can-chu-y-gi-o-lop-va-phanh",
+      "new_slug": "di-xe-ga-duoi-mua-lon-can-chu-y-gi-o-lop-va-phanh",
+      "old_url": "https://blog.rentbikehanoi.com/excel-370-di-xe-ga-duoi-mua-lon-can-chu-y-gi-o-lop-va-phanh/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-ga-duoi-mua-lon-can-chu-y-gi-o-lop-va-phanh/"
+    },
+    "371": {
+      "wp_id": 1062,
+      "old_slug": "excel-371-xe-ga-co-phu-hop-voi-nguoi-thue-lan-dau-tai-ha-noi-khong",
+      "new_slug": "xe-ga-co-phu-hop-voi-nguoi-thue-lan-dau-tai-ha-noi-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-371-xe-ga-co-phu-hop-voi-nguoi-thue-lan-dau-tai-ha-noi-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-ga-co-phu-hop-voi-nguoi-thue-lan-dau-tai-ha-noi-khong/"
+    },
+    "372": {
+      "wp_id": 1063,
+      "old_slug": "excel-372-xe-ga-di-ngoai-thanh-trong-ngay-co-phu-hop-khong",
+      "new_slug": "xe-ga-di-ngoai-thanh-trong-ngay-co-phu-hop-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-372-xe-ga-di-ngoai-thanh-trong-ngay-co-phu-hop-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-ga-di-ngoai-thanh-trong-ngay-co-phu-hop-khong/"
+    },
+    "373": {
+      "wp_id": 1064,
+      "old_slug": "excel-373-xe-ga-co-thuan-tien-khi-di-nhieu-diem-mua-sam-trong-ngay-khong",
+      "new_slug": "xe-ga-co-thuan-tien-khi-di-nhieu-diem-mua-sam-trong-ngay-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-373-xe-ga-co-thuan-tien-khi-di-nhieu-diem-mua-sam-trong-ngay-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-ga-co-thuan-tien-khi-di-nhieu-diem-mua-sam-trong-ngay-khong/"
+    },
+    "374": {
+      "wp_id": 1065,
+      "old_slug": "excel-374-xe-ga-phu-hop-hon-xe-so-trong-truong-hop-nao",
+      "new_slug": "xe-ga-phu-hop-hon-xe-so-trong-truong-hop-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-374-xe-ga-phu-hop-hon-xe-so-trong-truong-hop-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-ga-phu-hop-hon-xe-so-trong-truong-hop-nao/"
+    },
+    "375": {
+      "wp_id": 1066,
+      "old_slug": "excel-375-thue-xe-ga-theo-tuan-nen-chon-theo-tieu-chi-nao",
+      "new_slug": "thue-xe-ga-theo-tuan-nen-chon-theo-tieu-chi-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-375-thue-xe-ga-theo-tuan-nen-chon-theo-tieu-chi-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/thue-xe-ga-theo-tuan-nen-chon-theo-tieu-chi-nao/"
+    },
+    "376": {
+      "wp_id": 1067,
+      "old_slug": "excel-376-thue-xe-ga-dai-han-nen-uu-tien-cop-muc-xang-hay-su-thoai-mai",
+      "new_slug": "thue-xe-ga-dai-han-nen-uu-tien-cop-muc-xang-hay-su-thoai-mai",
+      "old_url": "https://blog.rentbikehanoi.com/excel-376-thue-xe-ga-dai-han-nen-uu-tien-cop-muc-xang-hay-su-thoai-mai/",
+      "new_url": "https://blog.rentbikehanoi.com/thue-xe-ga-dai-han-nen-uu-tien-cop-muc-xang-hay-su-thoai-mai/"
+    },
+    "377": {
+      "wp_id": 1068,
+      "old_slug": "excel-377-vision-doi-khac-nhau-co-anh-huong-nhieu-den-trai-nghiem-di-pho-khong",
+      "new_slug": "vision-doi-khac-nhau-co-anh-huong-nhieu-den-trai-nghiem-di-pho-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-377-vision-doi-khac-nhau-co-anh-huong-nhieu-den-trai-nghiem-di-pho-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/vision-doi-khac-nhau-co-anh-huong-nhieu-den-trai-nghiem-di-pho-khong/"
+    },
+    "378": {
+      "wp_id": 1069,
+      "old_slug": "excel-378-air-blade-doi-khac-nhau-khac-biet-dang-ke-o-nhung-diem-nao",
+      "new_slug": "air-blade-doi-khac-nhau-khac-biet-dang-ke-o-nhung-diem-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-378-air-blade-doi-khac-nhau-khac-biet-dang-ke-o-nhung-diem-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/air-blade-doi-khac-nhau-khac-biet-dang-ke-o-nhung-diem-nao/"
+    },
+    "379": {
+      "wp_id": 1070,
+      "old_slug": "excel-379-lead-doi-khac-nhau-co-thay-doi-nhieu-ve-cop-va-tu-the-lai-khong",
+      "new_slug": "lead-doi-khac-nhau-co-thay-doi-nhieu-ve-cop-va-tu-the-lai-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-379-lead-doi-khac-nhau-co-thay-doi-nhieu-ve-cop-va-tu-the-lai-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/lead-doi-khac-nhau-co-thay-doi-nhieu-ve-cop-va-tu-the-lai-khong/"
+    },
+    "380": {
+      "wp_id": 1071,
+      "old_slug": "excel-380-janus-vision-hay-grande-cach-chon-theo-voc-dang-nguoi-lai",
+      "new_slug": "janus-vision-hay-grande-cach-chon-theo-voc-dang-nguoi-lai",
+      "old_url": "https://blog.rentbikehanoi.com/excel-380-janus-vision-hay-grande-cach-chon-theo-voc-dang-nguoi-lai/",
+      "new_url": "https://blog.rentbikehanoi.com/janus-vision-hay-grande-cach-chon-theo-voc-dang-nguoi-lai/"
+    },
+    "381": {
+      "wp_id": 1072,
+      "old_slug": "excel-381-xe-may-dien-co-phu-hop-de-di-lam-hang-ngay-o-ha-noi-khong",
+      "new_slug": "xe-may-dien-co-phu-hop-de-di-lam-hang-ngay-o-ha-noi-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-381-xe-may-dien-co-phu-hop-de-di-lam-hang-ngay-o-ha-noi-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-may-dien-co-phu-hop-de-di-lam-hang-ngay-o-ha-noi-khong/"
+    },
+    "382": {
+      "wp_id": 1073,
+      "old_slug": "excel-382-thue-xe-dien-de-di-hoc-hang-ngay-can-quan-tam-nhung-thong-so-nao",
+      "new_slug": "thue-xe-dien-de-di-hoc-hang-ngay-can-quan-tam-nhung-thong-so-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-382-thue-xe-dien-de-di-hoc-hang-ngay-can-quan-tam-nhung-thong-so-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/thue-xe-dien-de-di-hoc-hang-ngay-can-quan-tam-nhung-thong-so-nao/"
+    },
+    "383": {
+      "wp_id": 1074,
+      "old_slug": "excel-383-xe-dien-phu-hop-voi-quang-duong-ngan-trong-noi-do-nhu-the-nao",
+      "new_slug": "xe-dien-phu-hop-voi-quang-duong-ngan-trong-noi-do-nhu-the-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-383-xe-dien-phu-hop-voi-quang-duong-ngan-trong-noi-do-nhu-the-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-dien-phu-hop-voi-quang-duong-ngan-trong-noi-do-nhu-the-nao/"
+    },
+    "384": {
+      "wp_id": 1075,
+      "old_slug": "excel-384-xe-dien-co-phu-hop-voi-nguoi-thuong-xuyen-di-nhieu-diem-trong-ngay-khong",
+      "new_slug": "xe-dien-co-phu-hop-voi-nguoi-thuong-xuyen-di-nhieu-diem-trong-ngay-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-384-xe-dien-co-phu-hop-voi-nguoi-thuong-xuyen-di-nhieu-diem-trong-ngay-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-dien-co-phu-hop-voi-nguoi-thuong-xuyen-di-nhieu-diem-trong-ngay-khong/"
+    },
+    "385": {
+      "wp_id": 1076,
+      "old_slug": "excel-385-quang-duong-thuc-te-cua-xe-dien-phu-thuoc-vao-nhung-yeu-to-nao",
+      "new_slug": "quang-duong-thuc-te-cua-xe-dien-phu-thuoc-vao-nhung-yeu-to-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-385-quang-duong-thuc-te-cua-xe-dien-phu-thuoc-vao-nhung-yeu-to-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/quang-duong-thuc-te-cua-xe-dien-phu-thuoc-vao-nhung-yeu-to-nao/"
+    },
+    "386": {
+      "wp_id": 1077,
+      "old_slug": "excel-386-di-xe-dien-gio-cao-diem-co-anh-huong-nhieu-den-muc-pin-khong",
+      "new_slug": "di-xe-dien-gio-cao-diem-co-anh-huong-nhieu-den-muc-pin-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-386-di-xe-dien-gio-cao-diem-co-anh-huong-nhieu-den-muc-pin-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-dien-gio-cao-diem-co-anh-huong-nhieu-den-muc-pin-khong/"
+    },
+    "387": {
+      "wp_id": 1078,
+      "old_slug": "excel-387-troi-lanh-co-anh-huong-den-quang-duong-cua-xe-dien-khong",
+      "new_slug": "troi-lanh-co-anh-huong-den-quang-duong-cua-xe-dien-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-387-troi-lanh-co-anh-huong-den-quang-duong-cua-xe-dien-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/troi-lanh-co-anh-huong-den-quang-duong-cua-xe-dien-khong/"
+    },
+    "388": {
+      "wp_id": 1079,
+      "old_slug": "excel-388-troi-nong-co-anh-huong-den-pin-xe-may-dien-khong",
+      "new_slug": "troi-nong-co-anh-huong-den-pin-xe-may-dien-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-388-troi-nong-co-anh-huong-den-pin-xe-may-dien-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/troi-nong-co-anh-huong-den-pin-xe-may-dien-khong/"
+    },
+    "389": {
+      "wp_id": 1080,
+      "old_slug": "excel-389-di-xe-dien-duoi-mua-can-luu-y-nhung-gi",
+      "new_slug": "di-xe-dien-duoi-mua-can-luu-y-nhung-gi",
+      "old_url": "https://blog.rentbikehanoi.com/excel-389-di-xe-dien-duoi-mua-can-luu-y-nhung-gi/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-dien-duoi-mua-can-luu-y-nhung-gi/"
+    },
+    "390": {
+      "wp_id": 1081,
+      "old_slug": "excel-390-xe-dien-co-phu-hop-voi-nguoi-o-chung-cu-khong",
+      "new_slug": "xe-dien-co-phu-hop-voi-nguoi-o-chung-cu-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-390-xe-dien-co-phu-hop-voi-nguoi-o-chung-cu-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-dien-co-phu-hop-voi-nguoi-o-chung-cu-khong/"
+    },
+    "391": {
+      "wp_id": 1082,
+      "old_slug": "excel-391-o-nha-tro-va-dung-xe-dien-nen-kiem-tra-cho-sac-the-nao",
+      "new_slug": "o-nha-tro-va-dung-xe-dien-nen-kiem-tra-cho-sac-the-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-391-o-nha-tro-va-dung-xe-dien-nen-kiem-tra-cho-sac-the-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/o-nha-tro-va-dung-xe-dien-nen-kiem-tra-cho-sac-the-nao/"
+    },
+    "392": {
+      "wp_id": 1083,
+      "old_slug": "excel-392-xe-dien-dung-pin-roi-co-tien-hon-khi-o-tang-cao-khong",
+      "new_slug": "xe-dien-dung-pin-roi-co-tien-hon-khi-o-tang-cao-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-392-xe-dien-dung-pin-roi-co-tien-hon-khi-o-tang-cao-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-dien-dung-pin-roi-co-tien-hon-khi-o-tang-cao-khong/"
+    },
+    "393": {
+      "wp_id": 1084,
+      "old_slug": "excel-393-xe-dien-pin-co-dinh-phu-hop-voi-nguoi-co-cho-sac-rieng-ra-sao",
+      "new_slug": "xe-dien-pin-co-dinh-phu-hop-voi-nguoi-co-cho-sac-rieng-ra-sao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-393-xe-dien-pin-co-dinh-phu-hop-voi-nguoi-co-cho-sac-rieng-ra-sao/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-dien-pin-co-dinh-phu-hop-voi-nguoi-co-cho-sac-rieng-ra-sao/"
+    },
+    "394": {
+      "wp_id": 1085,
+      "old_slug": "excel-394-cach-uoc-tinh-pin-can-dung-cho-mot-ngay-di-chuyen-o-ha-noi",
+      "new_slug": "cach-uoc-tinh-pin-can-dung-cho-mot-ngay-di-chuyen-o-ha-noi",
+      "old_url": "https://blog.rentbikehanoi.com/excel-394-cach-uoc-tinh-pin-can-dung-cho-mot-ngay-di-chuyen-o-ha-noi/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-uoc-tinh-pin-can-dung-cho-mot-ngay-di-chuyen-o-ha-noi/"
+    },
+    "395": {
+      "wp_id": 1086,
+      "old_slug": "excel-395-cach-len-ke-hoach-sac-khi-thue-xe-dien-nhieu-ngay",
+      "new_slug": "cach-len-ke-hoach-sac-khi-thue-xe-dien-nhieu-ngay",
+      "old_url": "https://blog.rentbikehanoi.com/excel-395-cach-len-ke-hoach-sac-khi-thue-xe-dien-nhieu-ngay/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-len-ke-hoach-sac-khi-thue-xe-dien-nhieu-ngay/"
+    },
+    "396": {
+      "wp_id": 1087,
+      "old_slug": "excel-396-khi-nao-nen-sac-xe-dien-thay-vi-cho-pin-gan-can",
+      "new_slug": "khi-nao-nen-sac-xe-dien-thay-vi-cho-pin-gan-can",
+      "old_url": "https://blog.rentbikehanoi.com/excel-396-khi-nao-nen-sac-xe-dien-thay-vi-cho-pin-gan-can/",
+      "new_url": "https://blog.rentbikehanoi.com/khi-nao-nen-sac-xe-dien-thay-vi-cho-pin-gan-can/"
+    },
+    "397": {
+      "wp_id": 1088,
+      "old_slug": "excel-397-co-nen-sac-xe-dien-qua-dem-khong",
+      "new_slug": "co-nen-sac-xe-dien-qua-dem-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-397-co-nen-sac-xe-dien-qua-dem-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/co-nen-sac-xe-dien-qua-dem-khong/"
+    },
+    "398": {
+      "wp_id": 1089,
+      "old_slug": "excel-398-cach-doc-phan-tram-pin-de-tranh-het-dien-giua-duong",
+      "new_slug": "cach-doc-phan-tram-pin-de-tranh-het-dien-giua-duong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-398-cach-doc-phan-tram-pin-de-tranh-het-dien-giua-duong/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-doc-phan-tram-pin-de-tranh-het-dien-giua-duong/"
+    },
+    "399": {
+      "wp_id": 1090,
+      "old_slug": "excel-399-xe-dien-co-phu-hop-voi-nguoi-moi-lai-khong",
+      "new_slug": "xe-dien-co-phu-hop-voi-nguoi-moi-lai-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-399-xe-dien-co-phu-hop-voi-nguoi-moi-lai-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-dien-co-phu-hop-voi-nguoi-moi-lai-khong/"
+    },
+    "400": {
+      "wp_id": 1091,
+      "old_slug": "excel-400-xe-dien-co-de-dieu-khien-trong-ngo-nho-va-pho-dong-khong",
+      "new_slug": "xe-dien-co-de-dieu-khien-trong-ngo-nho-va-pho-dong-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-400-xe-dien-co-de-dieu-khien-trong-ngo-nho-va-pho-dong-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-dien-co-de-dieu-khien-trong-ngo-nho-va-pho-dong-khong/"
+    },
+    "401": {
+      "wp_id": 1092,
+      "old_slug": "excel-401-xe-dien-co-em-hon-xe-xang-khi-di-trong-noi-do-khong",
+      "new_slug": "xe-dien-co-em-hon-xe-xang-khi-di-trong-noi-do-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-401-xe-dien-co-em-hon-xe-xang-khi-di-trong-noi-do-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-dien-co-em-hon-xe-xang-khi-di-trong-noi-do-khong/"
+    },
+    "402": {
+      "wp_id": 1093,
+      "old_slug": "excel-402-xe-dien-va-xe-ga-loai-nao-thuan-tien-hon-cho-quang-duong-ngan",
+      "new_slug": "xe-dien-va-xe-ga-loai-nao-thuan-tien-hon-cho-quang-duong-ngan",
+      "old_url": "https://blog.rentbikehanoi.com/excel-402-xe-dien-va-xe-ga-loai-nao-thuan-tien-hon-cho-quang-duong-ngan/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-dien-va-xe-ga-loai-nao-thuan-tien-hon-cho-quang-duong-ngan/"
+    },
+    "403": {
+      "wp_id": 1094,
+      "old_slug": "excel-403-xe-dien-va-xe-so-nen-chon-loai-nao-neu-uu-tien-chi-phi-van-hanh",
+      "new_slug": "xe-dien-va-xe-so-nen-chon-loai-nao-neu-uu-tien-chi-phi-van-hanh",
+      "old_url": "https://blog.rentbikehanoi.com/excel-403-xe-dien-va-xe-so-nen-chon-loai-nao-neu-uu-tien-chi-phi-van-hanh/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-dien-va-xe-so-nen-chon-loai-nao-neu-uu-tien-chi-phi-van-hanh/"
+    },
+    "404": {
+      "wp_id": 1095,
+      "old_slug": "excel-404-xe-dien-co-phu-hop-de-cho-them-mot-nguoi-khong",
+      "new_slug": "xe-dien-co-phu-hop-de-cho-them-mot-nguoi-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-404-xe-dien-co-phu-hop-de-cho-them-mot-nguoi-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-dien-co-phu-hop-de-cho-them-mot-nguoi-khong/"
+    },
+    "405": {
+      "wp_id": 1096,
+      "old_slug": "excel-405-xe-dien-co-phu-hop-voi-nguoi-can-mang-nhieu-do-hang-ngay-khong",
+      "new_slug": "xe-dien-co-phu-hop-voi-nguoi-can-mang-nhieu-do-hang-ngay-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-405-xe-dien-co-phu-hop-voi-nguoi-can-mang-nhieu-do-hang-ngay-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-dien-co-phu-hop-voi-nguoi-can-mang-nhieu-do-hang-ngay-khong/"
+    },
+    "406": {
+      "wp_id": 1097,
+      "old_slug": "excel-406-thue-xe-dien-theo-tuan-nen-kiem-tra-pin-va-bo-sac-the-nao",
+      "new_slug": "thue-xe-dien-theo-tuan-nen-kiem-tra-pin-va-bo-sac-the-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-406-thue-xe-dien-theo-tuan-nen-kiem-tra-pin-va-bo-sac-the-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/thue-xe-dien-theo-tuan-nen-kiem-tra-pin-va-bo-sac-the-nao/"
+    },
+    "407": {
+      "wp_id": 1098,
+      "old_slug": "excel-407-thue-xe-dien-dai-han-can-hoi-ro-nhung-dieu-gi-ve-sac-va-pin",
+      "new_slug": "thue-xe-dien-dai-han-can-hoi-ro-nhung-dieu-gi-ve-sac-va-pin",
+      "old_url": "https://blog.rentbikehanoi.com/excel-407-thue-xe-dien-dai-han-can-hoi-ro-nhung-dieu-gi-ve-sac-va-pin/",
+      "new_url": "https://blog.rentbikehanoi.com/thue-xe-dien-dai-han-can-hoi-ro-nhung-dieu-gi-ve-sac-va-pin/"
+    },
+    "408": {
+      "wp_id": 1099,
+      "old_slug": "excel-408-xe-dien-co-phu-hop-de-di-tu-long-bien-vao-trung-tam-moi-ngay-khong",
+      "new_slug": "xe-dien-co-phu-hop-de-di-tu-long-bien-vao-trung-tam-moi-ngay-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-408-xe-dien-co-phu-hop-de-di-tu-long-bien-vao-trung-tam-moi-ngay-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-dien-co-phu-hop-de-di-tu-long-bien-vao-trung-tam-moi-ngay-khong/"
+    },
+    "409": {
+      "wp_id": 1100,
+      "old_slug": "excel-409-di-xe-dien-qua-cau-o-ha-noi-can-luu-y-gi-ve-pin-va-toc-do",
+      "new_slug": "di-xe-dien-qua-cau-o-ha-noi-can-luu-y-gi-ve-pin-va-toc-do",
+      "old_url": "https://blog.rentbikehanoi.com/excel-409-di-xe-dien-qua-cau-o-ha-noi-can-luu-y-gi-ve-pin-va-toc-do/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-dien-qua-cau-o-ha-noi-can-luu-y-gi-ve-pin-va-toc-do/"
+    },
+    "410": {
+      "wp_id": 1101,
+      "old_slug": "excel-410-xe-dien-co-phu-hop-voi-lich-trinh-thay-doi-nhieu-trong-ngay-khong",
+      "new_slug": "xe-dien-co-phu-hop-voi-lich-trinh-thay-doi-nhieu-trong-ngay-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-410-xe-dien-co-phu-hop-voi-lich-trinh-thay-doi-nhieu-trong-ngay-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-dien-co-phu-hop-voi-lich-trinh-thay-doi-nhieu-trong-ngay-khong/"
+    },
+    "411": {
+      "wp_id": 1102,
+      "old_slug": "excel-411-di-xe-dien-ban-dem-can-chu-y-gi-ve-den-va-muc-pin",
+      "new_slug": "di-xe-dien-ban-dem-can-chu-y-gi-ve-den-va-muc-pin",
+      "old_url": "https://blog.rentbikehanoi.com/excel-411-di-xe-dien-ban-dem-can-chu-y-gi-ve-den-va-muc-pin/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-dien-ban-dem-can-chu-y-gi-ve-den-va-muc-pin/"
+    },
+    "412": {
+      "wp_id": 1103,
+      "old_slug": "excel-412-xe-dien-co-phu-hop-voi-khach-luu-tru-dai-ngay-o-ha-noi-khong",
+      "new_slug": "xe-dien-co-phu-hop-voi-khach-luu-tru-dai-ngay-o-ha-noi-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-412-xe-dien-co-phu-hop-voi-khach-luu-tru-dai-ngay-o-ha-noi-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-dien-co-phu-hop-voi-khach-luu-tru-dai-ngay-o-ha-noi-khong/"
+    },
+    "413": {
+      "wp_id": 1104,
+      "old_slug": "excel-413-xe-dien-nho-gon-co-loi-the-gi-khi-gui-xe-o-trung-tam",
+      "new_slug": "xe-dien-nho-gon-co-loi-the-gi-khi-gui-xe-o-trung-tam",
+      "old_url": "https://blog.rentbikehanoi.com/excel-413-xe-dien-nho-gon-co-loi-the-gi-khi-gui-xe-o-trung-tam/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-dien-nho-gon-co-loi-the-gi-khi-gui-xe-o-trung-tam/"
+    },
+    "414": {
+      "wp_id": 1105,
+      "old_slug": "excel-414-chon-xe-dien-theo-quang-duong-hay-theo-dung-luong-pin-tieu-chi-nao-quan-tro",
+      "new_slug": "chon-xe-dien-theo-quang-duong-hay-theo-dung-luong-pin-tieu-chi-nao-quan-tro",
+      "old_url": "https://blog.rentbikehanoi.com/excel-414-chon-xe-dien-theo-quang-duong-hay-theo-dung-luong-pin-tieu-chi-nao-quan-tro/",
+      "new_url": "https://blog.rentbikehanoi.com/chon-xe-dien-theo-quang-duong-hay-theo-dung-luong-pin-tieu-chi-nao-quan-tro/"
+    },
+    "415": {
+      "wp_id": 1106,
+      "old_slug": "excel-415-thue-xe-dien-cach-chon-mau-xe-dua-tren-noi-o-quang-duong-va-kha-nang-sac",
+      "new_slug": "thue-xe-dien-cach-chon-mau-xe-dua-tren-noi-o-quang-duong-va-kha-nang-sac",
+      "old_url": "https://blog.rentbikehanoi.com/excel-415-thue-xe-dien-cach-chon-mau-xe-dua-tren-noi-o-quang-duong-va-kha-nang-sac/",
+      "new_url": "https://blog.rentbikehanoi.com/thue-xe-dien-cach-chon-mau-xe-dua-tren-noi-o-quang-duong-va-kha-nang-sac/"
+    },
+    "416": {
+      "wp_id": 1107,
+      "old_slug": "excel-416-xe-50cc-phu-hop-voi-nhu-cau-di-lai-nao-trong-ha-noi",
+      "new_slug": "xe-50cc-phu-hop-voi-nhu-cau-di-lai-nao-trong-ha-noi",
+      "old_url": "https://blog.rentbikehanoi.com/excel-416-xe-50cc-phu-hop-voi-nhu-cau-di-lai-nao-trong-ha-noi/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-50cc-phu-hop-voi-nhu-cau-di-lai-nao-trong-ha-noi/"
+    },
+    "417": {
+      "wp_id": 1108,
+      "old_slug": "excel-417-xe-50cc-co-de-dieu-khien-voi-nguoi-moi-khong",
+      "new_slug": "xe-50cc-co-de-dieu-khien-voi-nguoi-moi-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-417-xe-50cc-co-de-dieu-khien-voi-nguoi-moi-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-50cc-co-de-dieu-khien-voi-nguoi-moi-khong/"
+    },
+    "418": {
+      "wp_id": 1109,
+      "old_slug": "excel-418-xe-50cc-so-va-xe-ga-50cc-khac-nhau-the-nao-khi-di-pho",
+      "new_slug": "xe-50cc-so-va-xe-ga-50cc-khac-nhau-the-nao-khi-di-pho",
+      "old_url": "https://blog.rentbikehanoi.com/excel-418-xe-50cc-so-va-xe-ga-50cc-khac-nhau-the-nao-khi-di-pho/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-50cc-so-va-xe-ga-50cc-khac-nhau-the-nao-khi-di-pho/"
+    },
+    "419": {
+      "wp_id": 1110,
+      "old_slug": "excel-419-cub-50cc-co-phu-hop-de-di-hoc-va-di-lam-hang-ngay-khong",
+      "new_slug": "cub-50cc-co-phu-hop-de-di-hoc-va-di-lam-hang-ngay-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-419-cub-50cc-co-phu-hop-de-di-hoc-va-di-lam-hang-ngay-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/cub-50cc-co-phu-hop-de-di-hoc-va-di-lam-hang-ngay-khong/"
+    },
+    "420": {
+      "wp_id": 1111,
+      "old_slug": "excel-420-wave-50cc-phu-hop-voi-quang-duong-ngan-trong-do-thi-ra-sao",
+      "new_slug": "wave-50cc-phu-hop-voi-quang-duong-ngan-trong-do-thi-ra-sao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-420-wave-50cc-phu-hop-voi-quang-duong-ngan-trong-do-thi-ra-sao/",
+      "new_url": "https://blog.rentbikehanoi.com/wave-50cc-phu-hop-voi-quang-duong-ngan-trong-do-thi-ra-sao/"
+    },
+    "421": {
+      "wp_id": 1112,
+      "old_slug": "excel-421-xe-ga-50cc-co-phu-hop-voi-nguoi-thap-khong",
+      "new_slug": "xe-ga-50cc-co-phu-hop-voi-nguoi-thap-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-421-xe-ga-50cc-co-phu-hop-voi-nguoi-thap-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-ga-50cc-co-phu-hop-voi-nguoi-thap-khong/"
+    },
+    "422": {
+      "wp_id": 1113,
+      "old_slug": "excel-422-xe-50cc-co-tien-khi-di-trong-ngo-nho-va-pho-dong-khong",
+      "new_slug": "xe-50cc-co-tien-khi-di-trong-ngo-nho-va-pho-dong-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-422-xe-50cc-co-tien-khi-di-trong-ngo-nho-va-pho-dong-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-50cc-co-tien-khi-di-trong-ngo-nho-va-pho-dong-khong/"
+    },
+    "423": {
+      "wp_id": 1114,
+      "old_slug": "excel-423-xe-50cc-co-phu-hop-voi-nguoi-it-kinh-nghiem-di-xe-may-khong",
+      "new_slug": "xe-50cc-co-phu-hop-voi-nguoi-it-kinh-nghiem-di-xe-may-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-423-xe-50cc-co-phu-hop-voi-nguoi-it-kinh-nghiem-di-xe-may-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-50cc-co-phu-hop-voi-nguoi-it-kinh-nghiem-di-xe-may-khong/"
+    },
+    "424": {
+      "wp_id": 1115,
+      "old_slug": "excel-424-di-xe-50cc-gio-cao-diem-can-luu-y-gi",
+      "new_slug": "di-xe-50cc-gio-cao-diem-can-luu-y-gi",
+      "old_url": "https://blog.rentbikehanoi.com/excel-424-di-xe-50cc-gio-cao-diem-can-luu-y-gi/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-50cc-gio-cao-diem-can-luu-y-gi/"
+    },
+    "425": {
+      "wp_id": 1116,
+      "old_slug": "excel-425-xe-50cc-co-du-dung-cho-quang-duong-10-15-km-moi-ngay-khong",
+      "new_slug": "xe-50cc-co-du-dung-cho-quang-duong-10-15-km-moi-ngay-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-425-xe-50cc-co-du-dung-cho-quang-duong-10-15-km-moi-ngay-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-50cc-co-du-dung-cho-quang-duong-10-15-km-moi-ngay-khong/"
+    },
+    "426": {
+      "wp_id": 1117,
+      "old_slug": "excel-426-xe-50cc-co-phu-hop-de-cho-them-mot-nguoi-khong",
+      "new_slug": "xe-50cc-co-phu-hop-de-cho-them-mot-nguoi-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-426-xe-50cc-co-phu-hop-de-cho-them-mot-nguoi-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-50cc-co-phu-hop-de-cho-them-mot-nguoi-khong/"
+    },
+    "427": {
+      "wp_id": 1118,
+      "old_slug": "excel-427-xe-50cc-co-tiet-kiem-xang-khi-di-noi-do-khong",
+      "new_slug": "xe-50cc-co-tiet-kiem-xang-khi-di-noi-do-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-427-xe-50cc-co-tiet-kiem-xang-khi-di-noi-do-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-50cc-co-tiet-kiem-xang-khi-di-noi-do-khong/"
+    },
+    "428": {
+      "wp_id": 1119,
+      "old_slug": "excel-428-cach-chon-xe-50cc-theo-chieu-cao-va-voc-dang-nguoi-lai",
+      "new_slug": "cach-chon-xe-50cc-theo-chieu-cao-va-voc-dang-nguoi-lai",
+      "old_url": "https://blog.rentbikehanoi.com/excel-428-cach-chon-xe-50cc-theo-chieu-cao-va-voc-dang-nguoi-lai/",
+      "new_url": "https://blog.rentbikehanoi.com/cach-chon-xe-50cc-theo-chieu-cao-va-voc-dang-nguoi-lai/"
+    },
+    "429": {
+      "wp_id": 1120,
+      "old_slug": "excel-429-xe-50cc-co-cop-rong-khong-va-phu-hop-mang-do-the-nao",
+      "new_slug": "xe-50cc-co-cop-rong-khong-va-phu-hop-mang-do-the-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-429-xe-50cc-co-cop-rong-khong-va-phu-hop-mang-do-the-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-50cc-co-cop-rong-khong-va-phu-hop-mang-do-the-nao/"
+    },
+    "430": {
+      "wp_id": 1121,
+      "old_slug": "excel-430-xe-50cc-di-duoi-mua-can-chu-y-gi-ve-phanh-va-lop",
+      "new_slug": "xe-50cc-di-duoi-mua-can-chu-y-gi-ve-phanh-va-lop",
+      "old_url": "https://blog.rentbikehanoi.com/excel-430-xe-50cc-di-duoi-mua-can-chu-y-gi-ve-phanh-va-lop/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-50cc-di-duoi-mua-can-chu-y-gi-ve-phanh-va-lop/"
+    },
+    "431": {
+      "wp_id": 1122,
+      "old_slug": "excel-431-xe-50cc-di-cau-o-ha-noi-can-luu-y-gi",
+      "new_slug": "xe-50cc-di-cau-o-ha-noi-can-luu-y-gi",
+      "old_url": "https://blog.rentbikehanoi.com/excel-431-xe-50cc-di-cau-o-ha-noi-can-luu-y-gi/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-50cc-di-cau-o-ha-noi-can-luu-y-gi/"
+    },
+    "432": {
+      "wp_id": 1123,
+      "old_slug": "excel-432-xe-50cc-co-phu-hop-voi-nguoi-o-khu-vuc-trung-tam-khong",
+      "new_slug": "xe-50cc-co-phu-hop-voi-nguoi-o-khu-vuc-trung-tam-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-432-xe-50cc-co-phu-hop-voi-nguoi-o-khu-vuc-trung-tam-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-50cc-co-phu-hop-voi-nguoi-o-khu-vuc-trung-tam-khong/"
+    },
+    "433": {
+      "wp_id": 1124,
+      "old_slug": "excel-433-thue-xe-50cc-theo-tuan-nen-kiem-tra-nhung-gi-truoc-khi-nhan",
+      "new_slug": "thue-xe-50cc-theo-tuan-nen-kiem-tra-nhung-gi-truoc-khi-nhan",
+      "old_url": "https://blog.rentbikehanoi.com/excel-433-thue-xe-50cc-theo-tuan-nen-kiem-tra-nhung-gi-truoc-khi-nhan/",
+      "new_url": "https://blog.rentbikehanoi.com/thue-xe-50cc-theo-tuan-nen-kiem-tra-nhung-gi-truoc-khi-nhan/"
+    },
+    "434": {
+      "wp_id": 1125,
+      "old_slug": "excel-434-thue-xe-50cc-dai-han-can-quan-tam-nhung-bo-phan-nao",
+      "new_slug": "thue-xe-50cc-dai-han-can-quan-tam-nhung-bo-phan-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-434-thue-xe-50cc-dai-han-can-quan-tam-nhung-bo-phan-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/thue-xe-50cc-dai-han-can-quan-tam-nhung-bo-phan-nao/"
+    },
+    "435": {
+      "wp_id": 1126,
+      "old_slug": "excel-435-xe-50cc-va-xe-dien-loai-nao-phu-hop-hon-cho-quang-duong-ngan",
+      "new_slug": "xe-50cc-va-xe-dien-loai-nao-phu-hop-hon-cho-quang-duong-ngan",
+      "old_url": "https://blog.rentbikehanoi.com/excel-435-xe-50cc-va-xe-dien-loai-nao-phu-hop-hon-cho-quang-duong-ngan/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-50cc-va-xe-dien-loai-nao-phu-hop-hon-cho-quang-duong-ngan/"
+    },
+    "436": {
+      "wp_id": 1127,
+      "old_slug": "excel-436-xe-50cc-va-xe-so-pho-thong-khac-nhau-the-nao-ve-cam-giac-lai",
+      "new_slug": "xe-50cc-va-xe-so-pho-thong-khac-nhau-the-nao-ve-cam-giac-lai",
+      "old_url": "https://blog.rentbikehanoi.com/excel-436-xe-50cc-va-xe-so-pho-thong-khac-nhau-the-nao-ve-cam-giac-lai/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-50cc-va-xe-so-pho-thong-khac-nhau-the-nao-ve-cam-giac-lai/"
+    },
+    "437": {
+      "wp_id": 1128,
+      "old_slug": "excel-437-xe-ga-50cc-va-honda-vision-khac-nhau-the-nao-ve-kich-thuoc-va-suc-manh",
+      "new_slug": "xe-ga-50cc-va-honda-vision-khac-nhau-the-nao-ve-kich-thuoc-va-suc-manh",
+      "old_url": "https://blog.rentbikehanoi.com/excel-437-xe-ga-50cc-va-honda-vision-khac-nhau-the-nao-ve-kich-thuoc-va-suc-manh/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-ga-50cc-va-honda-vision-khac-nhau-the-nao-ve-kich-thuoc-va-suc-manh/"
+    },
+    "438": {
+      "wp_id": 1129,
+      "old_slug": "excel-438-cub-50cc-va-wave-50cc-nen-so-sanh-nhung-tieu-chi-nao",
+      "new_slug": "cub-50cc-va-wave-50cc-nen-so-sanh-nhung-tieu-chi-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-438-cub-50cc-va-wave-50cc-nen-so-sanh-nhung-tieu-chi-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/cub-50cc-va-wave-50cc-nen-so-sanh-nhung-tieu-chi-nao/"
+    },
+    "439": {
+      "wp_id": 1130,
+      "old_slug": "excel-439-xe-50cc-co-de-gui-o-bai-xe-chat-trong-trung-tam-khong",
+      "new_slug": "xe-50cc-co-de-gui-o-bai-xe-chat-trong-trung-tam-khong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-439-xe-50cc-co-de-gui-o-bai-xe-chat-trong-trung-tam-khong/",
+      "new_url": "https://blog.rentbikehanoi.com/xe-50cc-co-de-gui-o-bai-xe-chat-trong-trung-tam-khong/"
+    },
+    "440": {
+      "wp_id": 1131,
+      "old_slug": "excel-440-chon-xe-50cc-theo-kieu-dang-hay-do-de-su-dung-nen-uu-tien-gi",
+      "new_slug": "chon-xe-50cc-theo-kieu-dang-hay-do-de-su-dung-nen-uu-tien-gi",
+      "old_url": "https://blog.rentbikehanoi.com/excel-440-chon-xe-50cc-theo-kieu-dang-hay-do-de-su-dung-nen-uu-tien-gi/",
+      "new_url": "https://blog.rentbikehanoi.com/chon-xe-50cc-theo-kieu-dang-hay-do-de-su-dung-nen-uu-tien-gi/"
+    },
+    "441": {
+      "wp_id": 1132,
+      "old_slug": "excel-441-di-xe-may-quanh-lang-chu-tich-ho-chi-minh-luu-y-ve-tuyen-duong-va-cho-gui-x",
+      "new_slug": "di-xe-may-quanh-lang-chu-tich-ho-chi-minh-luu-y-ve-tuyen-duong-va-cho-gui-x",
+      "old_url": "https://blog.rentbikehanoi.com/excel-441-di-xe-may-quanh-lang-chu-tich-ho-chi-minh-luu-y-ve-tuyen-duong-va-cho-gui-x/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-quanh-lang-chu-tich-ho-chi-minh-luu-y-ve-tuyen-duong-va-cho-gui-x/"
+    },
+    "442": {
+      "wp_id": 1133,
+      "old_slug": "excel-442-di-xe-may-den-van-mieu-tu-ba-dinh-cach-chon-tuyen-tranh-gio-dong",
+      "new_slug": "di-xe-may-den-van-mieu-tu-ba-dinh-cach-chon-tuyen-tranh-gio-dong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-442-di-xe-may-den-van-mieu-tu-ba-dinh-cach-chon-tuyen-tranh-gio-dong/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-den-van-mieu-tu-ba-dinh-cach-chon-tuyen-tranh-gio-dong/"
+    },
+    "443": {
+      "wp_id": 1134,
+      "old_slug": "excel-443-di-xe-may-quanh-ho-tay-tu-phia-ba-dinh-goi-y-lo-trinh-ngan",
+      "new_slug": "di-xe-may-quanh-ho-tay-tu-phia-ba-dinh-goi-y-lo-trinh-ngan",
+      "old_url": "https://blog.rentbikehanoi.com/excel-443-di-xe-may-quanh-ho-tay-tu-phia-ba-dinh-goi-y-lo-trinh-ngan/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-quanh-ho-tay-tu-phia-ba-dinh-goi-y-lo-trinh-ngan/"
+    },
+    "444": {
+      "wp_id": 1135,
+      "old_slug": "excel-444-di-xe-may-qua-kim-ma-gio-cao-diem-nhung-doan-de-un-tac",
+      "new_slug": "di-xe-may-qua-kim-ma-gio-cao-diem-nhung-doan-de-un-tac",
+      "old_url": "https://blog.rentbikehanoi.com/excel-444-di-xe-may-qua-kim-ma-gio-cao-diem-nhung-doan-de-un-tac/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-qua-kim-ma-gio-cao-diem-nhung-doan-de-un-tac/"
+    },
+    "445": {
+      "wp_id": 1136,
+      "old_slug": "excel-445-di-xe-may-qua-doi-can-luu-y-khi-duong-dong-va-nhieu-ngo-nho",
+      "new_slug": "di-xe-may-qua-doi-can-luu-y-khi-duong-dong-va-nhieu-ngo-nho",
+      "old_url": "https://blog.rentbikehanoi.com/excel-445-di-xe-may-qua-doi-can-luu-y-khi-duong-dong-va-nhieu-ngo-nho/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-qua-doi-can-luu-y-khi-duong-dong-va-nhieu-ngo-nho/"
+    },
+    "446": {
+      "wp_id": 1137,
+      "old_slug": "excel-446-di-xe-may-quanh-khu-vuc-giang-vo-cach-tim-cho-gui-xe-thuan-tien",
+      "new_slug": "di-xe-may-quanh-khu-vuc-giang-vo-cach-tim-cho-gui-xe-thuan-tien",
+      "old_url": "https://blog.rentbikehanoi.com/excel-446-di-xe-may-quanh-khu-vuc-giang-vo-cach-tim-cho-gui-xe-thuan-tien/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-quanh-khu-vuc-giang-vo-cach-tim-cho-gui-xe-thuan-tien/"
+    },
+    "447": {
+      "wp_id": 1138,
+      "old_slug": "excel-447-di-xe-may-den-cong-vien-thu-le-tu-ba-dinh-nen-di-tuyen-nao",
+      "new_slug": "di-xe-may-den-cong-vien-thu-le-tu-ba-dinh-nen-di-tuyen-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-447-di-xe-may-den-cong-vien-thu-le-tu-ba-dinh-nen-di-tuyen-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-den-cong-vien-thu-le-tu-ba-dinh-nen-di-tuyen-nao/"
+    },
+    "448": {
+      "wp_id": 1139,
+      "old_slug": "excel-448-di-xe-may-quanh-quan-thanh-va-truc-bach-luu-y-ve-pho-nho-va-mot-chieu",
+      "new_slug": "di-xe-may-quanh-quan-thanh-va-truc-bach-luu-y-ve-pho-nho-va-mot-chieu",
+      "old_url": "https://blog.rentbikehanoi.com/excel-448-di-xe-may-quanh-quan-thanh-va-truc-bach-luu-y-ve-pho-nho-va-mot-chieu/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-quanh-quan-thanh-va-truc-bach-luu-y-ve-pho-nho-va-mot-chieu/"
+    },
+    "449": {
+      "wp_id": 1140,
+      "old_slug": "excel-449-mot-ngay-kham-pha-ba-dinh-bang-xe-may-goi-y-cac-diem-dung-gan-nhau",
+      "new_slug": "mot-ngay-kham-pha-ba-dinh-bang-xe-may-goi-y-cac-diem-dung-gan-nhau",
+      "old_url": "https://blog.rentbikehanoi.com/excel-449-mot-ngay-kham-pha-ba-dinh-bang-xe-may-goi-y-cac-diem-dung-gan-nhau/",
+      "new_url": "https://blog.rentbikehanoi.com/mot-ngay-kham-pha-ba-dinh-bang-xe-may-goi-y-cac-diem-dung-gan-nhau/"
+    },
+    "450": {
+      "wp_id": 1141,
+      "old_slug": "excel-450-di-xe-may-o-ba-dinh-cuoi-tuan-cach-sap-xep-lo-trinh-va-cho-gui-xe",
+      "new_slug": "di-xe-may-o-ba-dinh-cuoi-tuan-cach-sap-xep-lo-trinh-va-cho-gui-xe",
+      "old_url": "https://blog.rentbikehanoi.com/excel-450-di-xe-may-o-ba-dinh-cuoi-tuan-cach-sap-xep-lo-trinh-va-cho-gui-xe/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-o-ba-dinh-cuoi-tuan-cach-sap-xep-lo-trinh-va-cho-gui-xe/"
+    },
+    "451": {
+      "wp_id": 1142,
+      "old_slug": "excel-451-di-xe-may-tu-gia-lam-vao-trung-tam-ha-noi-nen-chon-cau-nao",
+      "new_slug": "di-xe-may-tu-gia-lam-vao-trung-tam-ha-noi-nen-chon-cau-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-451-di-xe-may-tu-gia-lam-vao-trung-tam-ha-noi-nen-chon-cau-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-tu-gia-lam-vao-trung-tam-ha-noi-nen-chon-cau-nao/"
+    },
+    "452": {
+      "wp_id": 1143,
+      "old_slug": "excel-452-di-xe-may-tu-ben-xe-gia-lam-den-ho-hoan-kiem-goi-y-lo-trinh-de-di",
+      "new_slug": "di-xe-may-tu-ben-xe-gia-lam-den-ho-hoan-kiem-goi-y-lo-trinh-de-di",
+      "old_url": "https://blog.rentbikehanoi.com/excel-452-di-xe-may-tu-ben-xe-gia-lam-den-ho-hoan-kiem-goi-y-lo-trinh-de-di/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-tu-ben-xe-gia-lam-den-ho-hoan-kiem-goi-y-lo-trinh-de-di/"
+    },
+    "453": {
+      "wp_id": 1144,
+      "old_slug": "excel-453-di-xe-may-quanh-ngoc-lam-nhung-tuyen-duong-thuan-tien-cho-nguoi-moi",
+      "new_slug": "di-xe-may-quanh-ngoc-lam-nhung-tuyen-duong-thuan-tien-cho-nguoi-moi",
+      "old_url": "https://blog.rentbikehanoi.com/excel-453-di-xe-may-quanh-ngoc-lam-nhung-tuyen-duong-thuan-tien-cho-nguoi-moi/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-quanh-ngoc-lam-nhung-tuyen-duong-thuan-tien-cho-nguoi-moi/"
+    },
+    "454": {
+      "wp_id": 1145,
+      "old_slug": "excel-454-di-xe-may-tu-gia-lam-sang-long-bien-cach-chon-tuyen-ngan",
+      "new_slug": "di-xe-may-tu-gia-lam-sang-long-bien-cach-chon-tuyen-ngan",
+      "old_url": "https://blog.rentbikehanoi.com/excel-454-di-xe-may-tu-gia-lam-sang-long-bien-cach-chon-tuyen-ngan/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-tu-gia-lam-sang-long-bien-cach-chon-tuyen-ngan/"
+    },
+    "455": {
+      "wp_id": 1146,
+      "old_slug": "excel-455-di-xe-may-qua-nguyen-van-cu-gio-cao-diem-nen-luu-y-gi",
+      "new_slug": "di-xe-may-qua-nguyen-van-cu-gio-cao-diem-nen-luu-y-gi",
+      "old_url": "https://blog.rentbikehanoi.com/excel-455-di-xe-may-qua-nguyen-van-cu-gio-cao-diem-nen-luu-y-gi/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-qua-nguyen-van-cu-gio-cao-diem-nen-luu-y-gi/"
+    },
+    "456": {
+      "wp_id": 1147,
+      "old_slug": "excel-456-di-xe-may-tu-gia-lam-den-ga-ha-noi-cach-tranh-tuyen-qua-dong",
+      "new_slug": "di-xe-may-tu-gia-lam-den-ga-ha-noi-cach-tranh-tuyen-qua-dong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-456-di-xe-may-tu-gia-lam-den-ga-ha-noi-cach-tranh-tuyen-qua-dong/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-tu-gia-lam-den-ga-ha-noi-cach-tranh-tuyen-qua-dong/"
+    },
+    "457": {
+      "wp_id": 1148,
+      "old_slug": "excel-457-di-xe-may-tu-gia-lam-den-ho-tay-nen-di-theo-huong-nao",
+      "new_slug": "di-xe-may-tu-gia-lam-den-ho-tay-nen-di-theo-huong-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-457-di-xe-may-tu-gia-lam-den-ho-tay-nen-di-theo-huong-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-tu-gia-lam-den-ho-tay-nen-di-theo-huong-nao/"
+    },
+    "458": {
+      "wp_id": 1149,
+      "old_slug": "excel-458-di-xe-may-tu-gia-lam-den-ba-dinh-goi-y-tuyen-de-nho",
+      "new_slug": "di-xe-may-tu-gia-lam-den-ba-dinh-goi-y-tuyen-de-nho",
+      "old_url": "https://blog.rentbikehanoi.com/excel-458-di-xe-may-tu-gia-lam-den-ba-dinh-goi-y-tuyen-de-nho/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-tu-gia-lam-den-ba-dinh-goi-y-tuyen-de-nho/"
+    },
+    "459": {
+      "wp_id": 1150,
+      "old_slug": "excel-459-di-xe-may-quanh-khu-vuc-ben-xe-gia-lam-luu-y-khi-nhap-lan-va-quay-dau",
+      "new_slug": "di-xe-may-quanh-khu-vuc-ben-xe-gia-lam-luu-y-khi-nhap-lan-va-quay-dau",
+      "old_url": "https://blog.rentbikehanoi.com/excel-459-di-xe-may-quanh-khu-vuc-ben-xe-gia-lam-luu-y-khi-nhap-lan-va-quay-dau/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-quanh-khu-vuc-ben-xe-gia-lam-luu-y-khi-nhap-lan-va-quay-dau/"
+    },
+    "460": {
+      "wp_id": 1151,
+      "old_slug": "excel-460-mot-ngay-di-xe-may-tu-gia-lam-kham-pha-trung-tam-ha-noi",
+      "new_slug": "mot-ngay-di-xe-may-tu-gia-lam-kham-pha-trung-tam-ha-noi",
+      "old_url": "https://blog.rentbikehanoi.com/excel-460-mot-ngay-di-xe-may-tu-gia-lam-kham-pha-trung-tam-ha-noi/",
+      "new_url": "https://blog.rentbikehanoi.com/mot-ngay-di-xe-may-tu-gia-lam-kham-pha-trung-tam-ha-noi/"
+    },
+    "461": {
+      "wp_id": 1152,
+      "old_slug": "excel-461-di-xe-may-tu-gia-lam-den-pho-co-nen-gui-xe-o-dau-truoc-khi-di-bo",
+      "new_slug": "di-xe-may-tu-gia-lam-den-pho-co-nen-gui-xe-o-dau-truoc-khi-di-bo",
+      "old_url": "https://blog.rentbikehanoi.com/excel-461-di-xe-may-tu-gia-lam-den-pho-co-nen-gui-xe-o-dau-truoc-khi-di-bo/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-tu-gia-lam-den-pho-co-nen-gui-xe-o-dau-truoc-khi-di-bo/"
+    },
+    "462": {
+      "wp_id": 1153,
+      "old_slug": "excel-462-o-gia-lam-va-di-lam-trong-noi-do-bang-xe-may-cach-tinh-thoi-gian-di-chuyen",
+      "new_slug": "o-gia-lam-va-di-lam-trong-noi-do-bang-xe-may-cach-tinh-thoi-gian-di-chuyen",
+      "old_url": "https://blog.rentbikehanoi.com/excel-462-o-gia-lam-va-di-lam-trong-noi-do-bang-xe-may-cach-tinh-thoi-gian-di-chuyen/",
+      "new_url": "https://blog.rentbikehanoi.com/o-gia-lam-va-di-lam-trong-noi-do-bang-xe-may-cach-tinh-thoi-gian-di-chuyen/"
+    },
+    "463": {
+      "wp_id": 1154,
+      "old_slug": "excel-463-di-xe-may-quanh-ho-hoan-kiem-nhung-tuyen-mot-chieu-can-chu-y",
+      "new_slug": "di-xe-may-quanh-ho-hoan-kiem-nhung-tuyen-mot-chieu-can-chu-y",
+      "old_url": "https://blog.rentbikehanoi.com/excel-463-di-xe-may-quanh-ho-hoan-kiem-nhung-tuyen-mot-chieu-can-chu-y/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-quanh-ho-hoan-kiem-nhung-tuyen-mot-chieu-can-chu-y/"
+    },
+    "464": {
+      "wp_id": 1155,
+      "old_slug": "excel-464-di-xe-may-den-ho-hoan-kiem-cuoi-tuan-nen-kiem-tra-phan-luong-the-nao",
+      "new_slug": "di-xe-may-den-ho-hoan-kiem-cuoi-tuan-nen-kiem-tra-phan-luong-the-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-464-di-xe-may-den-ho-hoan-kiem-cuoi-tuan-nen-kiem-tra-phan-luong-the-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-den-ho-hoan-kiem-cuoi-tuan-nen-kiem-tra-phan-luong-the-nao/"
+    },
+    "465": {
+      "wp_id": 1156,
+      "old_slug": "excel-465-di-xe-may-tu-long-bien-sang-hoan-kiem-nen-chon-cau-nao",
+      "new_slug": "di-xe-may-tu-long-bien-sang-hoan-kiem-nen-chon-cau-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-465-di-xe-may-tu-long-bien-sang-hoan-kiem-nen-chon-cau-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-tu-long-bien-sang-hoan-kiem-nen-chon-cau-nao/"
+    },
+    "466": {
+      "wp_id": 1157,
+      "old_slug": "excel-466-di-xe-may-den-nha-hat-lon-ha-noi-goi-y-cho-gui-xe-va-tuyen-vao",
+      "new_slug": "di-xe-may-den-nha-hat-lon-ha-noi-goi-y-cho-gui-xe-va-tuyen-vao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-466-di-xe-may-den-nha-hat-lon-ha-noi-goi-y-cho-gui-xe-va-tuyen-vao/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-den-nha-hat-lon-ha-noi-goi-y-cho-gui-xe-va-tuyen-vao/"
+    },
+    "467": {
+      "wp_id": 1158,
+      "old_slug": "excel-467-di-xe-may-den-nha-tho-lon-ha-noi-luu-y-pho-nho-va-cho-gui-xe",
+      "new_slug": "di-xe-may-den-nha-tho-lon-ha-noi-luu-y-pho-nho-va-cho-gui-xe",
+      "old_url": "https://blog.rentbikehanoi.com/excel-467-di-xe-may-den-nha-tho-lon-ha-noi-luu-y-pho-nho-va-cho-gui-xe/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-den-nha-tho-lon-ha-noi-luu-y-pho-nho-va-cho-gui-xe/"
+    },
+    "468": {
+      "wp_id": 1159,
+      "old_slug": "excel-468-di-xe-may-den-trang-tien-cach-tranh-vong-lai-vi-duong-mot-chieu",
+      "new_slug": "di-xe-may-den-trang-tien-cach-tranh-vong-lai-vi-duong-mot-chieu",
+      "old_url": "https://blog.rentbikehanoi.com/excel-468-di-xe-may-den-trang-tien-cach-tranh-vong-lai-vi-duong-mot-chieu/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-den-trang-tien-cach-tranh-vong-lai-vi-duong-mot-chieu/"
+    },
+    "469": {
+      "wp_id": 1160,
+      "old_slug": "excel-469-di-xe-may-quanh-khu-vuc-hang-bai-nen-luu-y-gi-vao-gio-cao-diem",
+      "new_slug": "di-xe-may-quanh-khu-vuc-hang-bai-nen-luu-y-gi-vao-gio-cao-diem",
+      "old_url": "https://blog.rentbikehanoi.com/excel-469-di-xe-may-quanh-khu-vuc-hang-bai-nen-luu-y-gi-vao-gio-cao-diem/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-quanh-khu-vuc-hang-bai-nen-luu-y-gi-vao-gio-cao-diem/"
+    },
+    "470": {
+      "wp_id": 1161,
+      "old_slug": "excel-470-di-xe-may-qua-tran-hung-dao-va-ly-thuong-kiet-cach-chon-tuyen-de-di",
+      "new_slug": "di-xe-may-qua-tran-hung-dao-va-ly-thuong-kiet-cach-chon-tuyen-de-di",
+      "old_url": "https://blog.rentbikehanoi.com/excel-470-di-xe-may-qua-tran-hung-dao-va-ly-thuong-kiet-cach-chon-tuyen-de-di/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-qua-tran-hung-dao-va-ly-thuong-kiet-cach-chon-tuyen-de-di/"
+    },
+    "471": {
+      "wp_id": 1162,
+      "old_slug": "excel-471-di-xe-may-den-ga-ha-noi-tu-hoan-kiem-nhung-tuyen-ngan-de-nho",
+      "new_slug": "di-xe-may-den-ga-ha-noi-tu-hoan-kiem-nhung-tuyen-ngan-de-nho",
+      "old_url": "https://blog.rentbikehanoi.com/excel-471-di-xe-may-den-ga-ha-noi-tu-hoan-kiem-nhung-tuyen-ngan-de-nho/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-den-ga-ha-noi-tu-hoan-kiem-nhung-tuyen-ngan-de-nho/"
+    },
+    "472": {
+      "wp_id": 1163,
+      "old_slug": "excel-472-mot-ngay-kham-pha-hoan-kiem-bang-xe-may-cach-sap-xep-diem-dung",
+      "new_slug": "mot-ngay-kham-pha-hoan-kiem-bang-xe-may-cach-sap-xep-diem-dung",
+      "old_url": "https://blog.rentbikehanoi.com/excel-472-mot-ngay-kham-pha-hoan-kiem-bang-xe-may-cach-sap-xep-diem-dung/",
+      "new_url": "https://blog.rentbikehanoi.com/mot-ngay-kham-pha-hoan-kiem-bang-xe-may-cach-sap-xep-diem-dung/"
+    },
+    "473": {
+      "wp_id": 1164,
+      "old_slug": "excel-473-di-xe-may-o-hoan-kiem-buoi-toi-nen-gui-xe-o-dau-roi-di-bo",
+      "new_slug": "di-xe-may-o-hoan-kiem-buoi-toi-nen-gui-xe-o-dau-roi-di-bo",
+      "old_url": "https://blog.rentbikehanoi.com/excel-473-di-xe-may-o-hoan-kiem-buoi-toi-nen-gui-xe-o-dau-roi-di-bo/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-o-hoan-kiem-buoi-toi-nen-gui-xe-o-dau-roi-di-bo/"
+    },
+    "474": {
+      "wp_id": 1165,
+      "old_slug": "excel-474-di-xe-may-quanh-ho-guom-ngay-le-nhung-dieu-nen-kiem-tra-truoc",
+      "new_slug": "di-xe-may-quanh-ho-guom-ngay-le-nhung-dieu-nen-kiem-tra-truoc",
+      "old_url": "https://blog.rentbikehanoi.com/excel-474-di-xe-may-quanh-ho-guom-ngay-le-nhung-dieu-nen-kiem-tra-truoc/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-quanh-ho-guom-ngay-le-nhung-dieu-nen-kiem-tra-truoc/"
+    },
+    "475": {
+      "wp_id": 1166,
+      "old_slug": "excel-475-di-xe-may-tu-hoan-kiem-sang-ba-dinh-goi-y-tuyen-tranh-pho-qua-dong",
+      "new_slug": "di-xe-may-tu-hoan-kiem-sang-ba-dinh-goi-y-tuyen-tranh-pho-qua-dong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-475-di-xe-may-tu-hoan-kiem-sang-ba-dinh-goi-y-tuyen-tranh-pho-qua-dong/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-tu-hoan-kiem-sang-ba-dinh-goi-y-tuyen-tranh-pho-qua-dong/"
+    },
+    "476": {
+      "wp_id": 1167,
+      "old_slug": "excel-476-di-xe-may-tu-hoan-kiem-sang-long-bien-cach-chon-cau-va-khung-gio",
+      "new_slug": "di-xe-may-tu-hoan-kiem-sang-long-bien-cach-chon-cau-va-khung-gio",
+      "old_url": "https://blog.rentbikehanoi.com/excel-476-di-xe-may-tu-hoan-kiem-sang-long-bien-cach-chon-cau-va-khung-gio/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-tu-hoan-kiem-sang-long-bien-cach-chon-cau-va-khung-gio/"
+    },
+    "477": {
+      "wp_id": 1168,
+      "old_slug": "excel-477-di-xe-may-o-hoan-kiem-khi-troi-mua-luu-y-duong-tron-va-diem-ngap-cuc-bo",
+      "new_slug": "di-xe-may-o-hoan-kiem-khi-troi-mua-luu-y-duong-tron-va-diem-ngap-cuc-bo",
+      "old_url": "https://blog.rentbikehanoi.com/excel-477-di-xe-may-o-hoan-kiem-khi-troi-mua-luu-y-duong-tron-va-diem-ngap-cuc-bo/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-o-hoan-kiem-khi-troi-mua-luu-y-duong-tron-va-diem-ngap-cuc-bo/"
+    },
+    "478": {
+      "wp_id": 1169,
+      "old_slug": "excel-478-di-xe-may-trong-pho-co-ha-noi-cach-xu-ly-mang-luoi-pho-mot-chieu",
+      "new_slug": "di-xe-may-trong-pho-co-ha-noi-cach-xu-ly-mang-luoi-pho-mot-chieu",
+      "old_url": "https://blog.rentbikehanoi.com/excel-478-di-xe-may-trong-pho-co-ha-noi-cach-xu-ly-mang-luoi-pho-mot-chieu/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-trong-pho-co-ha-noi-cach-xu-ly-mang-luoi-pho-mot-chieu/"
+    },
+    "479": {
+      "wp_id": 1170,
+      "old_slug": "excel-479-di-xe-may-quanh-hang-ma-va-dong-xuan-nen-gui-xe-o-dau",
+      "new_slug": "di-xe-may-quanh-hang-ma-va-dong-xuan-nen-gui-xe-o-dau",
+      "old_url": "https://blog.rentbikehanoi.com/excel-479-di-xe-may-quanh-hang-ma-va-dong-xuan-nen-gui-xe-o-dau/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-quanh-hang-ma-va-dong-xuan-nen-gui-xe-o-dau/"
+    },
+    "480": {
+      "wp_id": 1171,
+      "old_slug": "excel-480-di-xe-may-den-cho-dong-xuan-cach-chon-tuyen-va-diem-dung-hop-ly",
+      "new_slug": "di-xe-may-den-cho-dong-xuan-cach-chon-tuyen-va-diem-dung-hop-ly",
+      "old_url": "https://blog.rentbikehanoi.com/excel-480-di-xe-may-den-cho-dong-xuan-cach-chon-tuyen-va-diem-dung-hop-ly/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-den-cho-dong-xuan-cach-chon-tuyen-va-diem-dung-hop-ly/"
+    },
+    "481": {
+      "wp_id": 1172,
+      "old_slug": "excel-481-di-xe-may-quanh-ta-hien-buoi-toi-nen-gui-xe-truoc-khi-vao-pho-nho",
+      "new_slug": "di-xe-may-quanh-ta-hien-buoi-toi-nen-gui-xe-truoc-khi-vao-pho-nho",
+      "old_url": "https://blog.rentbikehanoi.com/excel-481-di-xe-may-quanh-ta-hien-buoi-toi-nen-gui-xe-truoc-khi-vao-pho-nho/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-quanh-ta-hien-buoi-toi-nen-gui-xe-truoc-khi-vao-pho-nho/"
+    },
+    "482": {
+      "wp_id": 1173,
+      "old_slug": "excel-482-di-xe-may-qua-hang-ngang-hang-dao-luu-y-khi-khu-vuc-dong-nguoi-di-bo",
+      "new_slug": "di-xe-may-qua-hang-ngang-hang-dao-luu-y-khi-khu-vuc-dong-nguoi-di-bo",
+      "old_url": "https://blog.rentbikehanoi.com/excel-482-di-xe-may-qua-hang-ngang-hang-dao-luu-y-khi-khu-vuc-dong-nguoi-di-bo/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-qua-hang-ngang-hang-dao-luu-y-khi-khu-vuc-dong-nguoi-di-bo/"
+    },
+    "483": {
+      "wp_id": 1174,
+      "old_slug": "excel-483-mot-buoi-kham-pha-pho-co-bang-xe-may-nen-dung-xe-o-nhung-diem-nao",
+      "new_slug": "mot-buoi-kham-pha-pho-co-bang-xe-may-nen-dung-xe-o-nhung-diem-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-483-mot-buoi-kham-pha-pho-co-bang-xe-may-nen-dung-xe-o-nhung-diem-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/mot-buoi-kham-pha-pho-co-bang-xe-may-nen-dung-xe-o-nhung-diem-nao/"
+    },
+    "484": {
+      "wp_id": 1175,
+      "old_slug": "excel-484-di-xe-may-tu-long-bien-vao-pho-co-tuyen-nao-de-nho-cho-nguoi-moi",
+      "new_slug": "di-xe-may-tu-long-bien-vao-pho-co-tuyen-nao-de-nho-cho-nguoi-moi",
+      "old_url": "https://blog.rentbikehanoi.com/excel-484-di-xe-may-tu-long-bien-vao-pho-co-tuyen-nao-de-nho-cho-nguoi-moi/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-tu-long-bien-vao-pho-co-tuyen-nao-de-nho-cho-nguoi-moi/"
+    },
+    "485": {
+      "wp_id": 1176,
+      "old_slug": "excel-485-di-xe-may-o-pho-co-cuoi-tuan-cach-tranh-duong-han-che-va-pho-di-bo",
+      "new_slug": "di-xe-may-o-pho-co-cuoi-tuan-cach-tranh-duong-han-che-va-pho-di-bo",
+      "old_url": "https://blog.rentbikehanoi.com/excel-485-di-xe-may-o-pho-co-cuoi-tuan-cach-tranh-duong-han-che-va-pho-di-bo/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-o-pho-co-cuoi-tuan-cach-tranh-duong-han-che-va-pho-di-bo/"
+    },
+    "486": {
+      "wp_id": 1177,
+      "old_slug": "excel-486-di-xe-may-tu-long-bien-vao-ho-hoan-kiem-nen-chon-cau-nao",
+      "new_slug": "di-xe-may-tu-long-bien-vao-ho-hoan-kiem-nen-chon-cau-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-486-di-xe-may-tu-long-bien-vao-ho-hoan-kiem-nen-chon-cau-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-tu-long-bien-vao-ho-hoan-kiem-nen-chon-cau-nao/"
+    },
+    "487": {
+      "wp_id": 1178,
+      "old_slug": "excel-487-di-xe-may-tu-bo-de-vao-trung-tam-ha-noi-goi-y-tuyen-de-di",
+      "new_slug": "di-xe-may-tu-bo-de-vao-trung-tam-ha-noi-goi-y-tuyen-de-di",
+      "old_url": "https://blog.rentbikehanoi.com/excel-487-di-xe-may-tu-bo-de-vao-trung-tam-ha-noi-goi-y-tuyen-de-di/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-tu-bo-de-vao-trung-tam-ha-noi-goi-y-tuyen-de-di/"
+    },
+    "488": {
+      "wp_id": 1179,
+      "old_slug": "excel-488-di-xe-may-quanh-nguyen-van-cu-luu-y-khi-nhap-lan-gio-cao-diem",
+      "new_slug": "di-xe-may-quanh-nguyen-van-cu-luu-y-khi-nhap-lan-gio-cao-diem",
+      "old_url": "https://blog.rentbikehanoi.com/excel-488-di-xe-may-quanh-nguyen-van-cu-luu-y-khi-nhap-lan-gio-cao-diem/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-quanh-nguyen-van-cu-luu-y-khi-nhap-lan-gio-cao-diem/"
+    },
+    "489": {
+      "wp_id": 1180,
+      "old_slug": "excel-489-di-xe-may-qua-cau-chuong-duong-tu-long-bien-nen-di-khung-gio-nao",
+      "new_slug": "di-xe-may-qua-cau-chuong-duong-tu-long-bien-nen-di-khung-gio-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-489-di-xe-may-qua-cau-chuong-duong-tu-long-bien-nen-di-khung-gio-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-qua-cau-chuong-duong-tu-long-bien-nen-di-khung-gio-nao/"
+    },
+    "490": {
+      "wp_id": 1181,
+      "old_slug": "excel-490-di-xe-may-qua-cau-long-bien-goi-y-tuyen-cho-nguoi-thich-ngam-canh",
+      "new_slug": "di-xe-may-qua-cau-long-bien-goi-y-tuyen-cho-nguoi-thich-ngam-canh",
+      "old_url": "https://blog.rentbikehanoi.com/excel-490-di-xe-may-qua-cau-long-bien-goi-y-tuyen-cho-nguoi-thich-ngam-canh/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-qua-cau-long-bien-goi-y-tuyen-cho-nguoi-thich-ngam-canh/"
+    },
+    "491": {
+      "wp_id": 1182,
+      "old_slug": "excel-491-di-xe-may-tu-long-bien-den-ba-dinh-cach-chon-tuyen-it-doi-huong",
+      "new_slug": "di-xe-may-tu-long-bien-den-ba-dinh-cach-chon-tuyen-it-doi-huong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-491-di-xe-may-tu-long-bien-den-ba-dinh-cach-chon-tuyen-it-doi-huong/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-tu-long-bien-den-ba-dinh-cach-chon-tuyen-it-doi-huong/"
+    },
+    "492": {
+      "wp_id": 1183,
+      "old_slug": "excel-492-di-xe-may-tu-long-bien-den-ho-tay-nen-di-qua-cau-nao",
+      "new_slug": "di-xe-may-tu-long-bien-den-ho-tay-nen-di-qua-cau-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-492-di-xe-may-tu-long-bien-den-ho-tay-nen-di-qua-cau-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-tu-long-bien-den-ho-tay-nen-di-qua-cau-nao/"
+    },
+    "493": {
+      "wp_id": 1184,
+      "old_slug": "excel-493-di-xe-may-tu-long-bien-den-ga-ha-noi-goi-y-lo-trinh-de-nho",
+      "new_slug": "di-xe-may-tu-long-bien-den-ga-ha-noi-goi-y-lo-trinh-de-nho",
+      "old_url": "https://blog.rentbikehanoi.com/excel-493-di-xe-may-tu-long-bien-den-ga-ha-noi-goi-y-lo-trinh-de-nho/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-tu-long-bien-den-ga-ha-noi-goi-y-lo-trinh-de-nho/"
+    },
+    "494": {
+      "wp_id": 1185,
+      "old_slug": "excel-494-di-xe-may-tu-bo-de-den-pho-co-cach-chon-tuyen-ngan",
+      "new_slug": "di-xe-may-tu-bo-de-den-pho-co-cach-chon-tuyen-ngan",
+      "old_url": "https://blog.rentbikehanoi.com/excel-494-di-xe-may-tu-bo-de-den-pho-co-cach-chon-tuyen-ngan/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-tu-bo-de-den-pho-co-cach-chon-tuyen-ngan/"
+    },
+    "495": {
+      "wp_id": 1186,
+      "old_slug": "excel-495-di-xe-may-quanh-ngoc-lam-va-bo-de-nhung-tuyen-thuan-tien-cho-nguoi-moi",
+      "new_slug": "di-xe-may-quanh-ngoc-lam-va-bo-de-nhung-tuyen-thuan-tien-cho-nguoi-moi",
+      "old_url": "https://blog.rentbikehanoi.com/excel-495-di-xe-may-quanh-ngoc-lam-va-bo-de-nhung-tuyen-thuan-tien-cho-nguoi-moi/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-quanh-ngoc-lam-va-bo-de-nhung-tuyen-thuan-tien-cho-nguoi-moi/"
+    },
+    "496": {
+      "wp_id": 1187,
+      "old_slug": "excel-496-o-long-bien-va-di-lam-trong-noi-do-cach-du-tru-thoi-gian-bang-xe-may",
+      "new_slug": "o-long-bien-va-di-lam-trong-noi-do-cach-du-tru-thoi-gian-bang-xe-may",
+      "old_url": "https://blog.rentbikehanoi.com/excel-496-o-long-bien-va-di-lam-trong-noi-do-cach-du-tru-thoi-gian-bang-xe-may/",
+      "new_url": "https://blog.rentbikehanoi.com/o-long-bien-va-di-lam-trong-noi-do-cach-du-tru-thoi-gian-bang-xe-may/"
+    },
+    "497": {
+      "wp_id": 1188,
+      "old_slug": "excel-497-mot-ngay-kham-pha-long-bien-bang-xe-may-goi-y-diem-dung-gan-nhau",
+      "new_slug": "mot-ngay-kham-pha-long-bien-bang-xe-may-goi-y-diem-dung-gan-nhau",
+      "old_url": "https://blog.rentbikehanoi.com/excel-497-mot-ngay-kham-pha-long-bien-bang-xe-may-goi-y-diem-dung-gan-nhau/",
+      "new_url": "https://blog.rentbikehanoi.com/mot-ngay-kham-pha-long-bien-bang-xe-may-goi-y-diem-dung-gan-nhau/"
+    },
+    "498": {
+      "wp_id": 1189,
+      "old_slug": "excel-498-di-xe-may-quanh-aeon-mall-long-bien-luu-y-bai-gui-va-gio-dong",
+      "new_slug": "di-xe-may-quanh-aeon-mall-long-bien-luu-y-bai-gui-va-gio-dong",
+      "old_url": "https://blog.rentbikehanoi.com/excel-498-di-xe-may-quanh-aeon-mall-long-bien-luu-y-bai-gui-va-gio-dong/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-quanh-aeon-mall-long-bien-luu-y-bai-gui-va-gio-dong/"
+    },
+    "499": {
+      "wp_id": 1190,
+      "old_slug": "excel-499-di-xe-may-tu-long-bien-sang-gia-lam-nhung-tuyen-ngan-de-di",
+      "new_slug": "di-xe-may-tu-long-bien-sang-gia-lam-nhung-tuyen-ngan-de-di",
+      "old_url": "https://blog.rentbikehanoi.com/excel-499-di-xe-may-tu-long-bien-sang-gia-lam-nhung-tuyen-ngan-de-di/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-tu-long-bien-sang-gia-lam-nhung-tuyen-ngan-de-di/"
+    },
+    "500": {
+      "wp_id": 1191,
+      "old_slug": "excel-500-di-xe-may-o-long-bien-khi-mua-lon-nen-luu-y-doan-duong-va-cau-nao",
+      "new_slug": "di-xe-may-o-long-bien-khi-mua-lon-nen-luu-y-doan-duong-va-cau-nao",
+      "old_url": "https://blog.rentbikehanoi.com/excel-500-di-xe-may-o-long-bien-khi-mua-lon-nen-luu-y-doan-duong-va-cau-nao/",
+      "new_url": "https://blog.rentbikehanoi.com/di-xe-may-o-long-bien-khi-mua-lon-nen-luu-y-doan-duong-va-cau-nao/"
+    }
+  }
+}
