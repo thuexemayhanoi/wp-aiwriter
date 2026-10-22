@@ -5087,11 +5087,13 @@
       "title": "Why Motorbike Headlight Alignment Matters at Night",
       "slug": "why-motorbike-headlight-alignment-matters-at-night",
       "source_hash": "cffc5f46e14279318fcedc1b9e6ff4ef2e74887a63e9224176b5feaaf017340b",
-      "checked_at": "2026-10-22T10:07:49.332149+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T10:07:53.378266+00:00",
+      "phase": "VERIFIED",
       "category_id": 56,
-      "wp_id": 3390
+      "wp_id": 3390,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/why-motorbike-headlight-alignment-matters-at-night/"
     }
   },
-  "updated_at": "2026-10-22T10:07:49.332165+00:00"
+  "updated_at": "2026-10-22T10:07:53.378325+00:00"
 }
