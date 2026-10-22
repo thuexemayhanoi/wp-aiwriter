@@ -4977,10 +4977,11 @@
       "title": "Sharing the Road with Buses while Riding a Scooter",
       "slug": "sharing-the-road-with-buses-while-riding-a-scooter",
       "source_hash": "17c9202ea033a0b91b1684625bb320dc366b0a13e902e6ed6c962c0a8e93a4b4",
-      "checked_at": "2026-10-22T04:18:39.934888+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 56
+      "checked_at": "2026-10-22T04:18:42.321744+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 56,
+      "wp_id": 2759
     }
   },
-  "updated_at": "2026-10-22T04:18:39.934897+00:00"
+  "updated_at": "2026-10-22T04:18:42.321766+00:00"
 }
