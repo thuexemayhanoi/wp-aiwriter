@@ -4812,10 +4812,11 @@
       "title": "Extending a Monthly Motorbike Rental: Contract Questions",
       "slug": "extending-a-monthly-motorbike-rental-contract-questions",
       "source_hash": "894f4633f0f8bffb4704ac098b05e24966a63335150513e9206b62ed45803eb1",
-      "checked_at": "2026-10-22T03:53:58.135781+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 69
+      "checked_at": "2026-10-22T03:54:00.193098+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 69,
+      "wp_id": 2729
     }
   },
-  "updated_at": "2026-10-22T03:53:58.135792+00:00"
+  "updated_at": "2026-10-22T03:54:00.193114+00:00"
 }
