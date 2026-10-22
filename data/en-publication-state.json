@@ -5032,11 +5032,13 @@
       "title": "Dealing with Potholes on a Rental Motorbike",
       "slug": "dealing-with-potholes-on-a-rental-motorbike",
       "source_hash": "38bfa25b989550a2a74d51980a6e1893224e644a140d9e806986de5102cac1a9",
-      "checked_at": "2026-10-22T10:04:16.825568+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T10:04:21.670064+00:00",
+      "phase": "VERIFIED",
       "category_id": 56,
-      "wp_id": 3380
+      "wp_id": 3380,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/dealing-with-potholes-on-a-rental-motorbike/"
     }
   },
-  "updated_at": "2026-10-22T10:04:16.825588+00:00"
+  "updated_at": "2026-10-22T10:04:21.670084+00:00"
 }
