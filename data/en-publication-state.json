@@ -4922,11 +4922,13 @@
       "title": "How to Read Motorbike Lane Markings in Hanoi",
       "slug": "how-to-read-motorbike-lane-markings-in-hanoi",
       "source_hash": "1b6582c86435cad5759d586817c8dcce99fe2bc044c1f548ca11972bb5750eec",
-      "checked_at": "2026-10-22T04:17:35.046852+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T04:17:40.451659+00:00",
+      "phase": "VERIFIED",
       "category_id": 56,
-      "wp_id": 2749
+      "wp_id": 2749,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-read-motorbike-lane-markings-in-hanoi/"
     }
   },
-  "updated_at": "2026-10-22T04:17:35.046870+00:00"
+  "updated_at": "2026-10-22T04:17:40.451679+00:00"
 }
