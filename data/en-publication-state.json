@@ -4796,7 +4796,15 @@
       "wp_id": 2725,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-confirm-payment-methods-before-pickup/"
+    },
+    "437": {
+      "title": "What Should Be Written on a Rental Payment Receipt?",
+      "slug": "what-should-be-written-on-a-rental-payment-receipt",
+      "source_hash": "405d72096fb4cbaef6c28abde33cada6976ce30cfc5468a650fe730e2d3c4d1f",
+      "checked_at": "2026-10-22T03:53:42.916948+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 55
     }
   },
-  "updated_at": "2026-10-22T03:53:39.958942+00:00"
+  "updated_at": "2026-10-22T03:53:42.916956+00:00"
 }
