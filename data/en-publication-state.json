@@ -4642,7 +4642,15 @@
       "wp_id": 2697,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-report-a-mechanical-problem-to-the-rental-shop/"
+    },
+    "423": {
+      "title": "How to Keep Receipts for Repairs on a Rental Motorbike",
+      "slug": "how-to-keep-receipts-for-repairs-on-a-rental-motorbike",
+      "source_hash": "b124eacfce29a80a58dba791bbafcfe98e470fe3faf6e40712617f10b6ea06c7",
+      "checked_at": "2026-10-22T03:34:09.120089+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 55
     }
   },
-  "updated_at": "2026-10-22T03:34:07.539344+00:00"
+  "updated_at": "2026-10-22T03:34:09.120100+00:00"
 }
