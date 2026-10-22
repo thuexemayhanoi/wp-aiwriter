@@ -5428,11 +5428,13 @@
       "title": "Motorbike Safety at Petrol Station Entrances",
       "slug": "motorbike-safety-at-petrol-station-entrances",
       "source_hash": "970a465204c271ee38087951414aa6cae70037ad4402fb0f553fd9a0685ce943",
-      "checked_at": "2026-10-22T11:06:01.220496+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T11:06:05.412761+00:00",
+      "phase": "VERIFIED",
       "category_id": 56,
-      "wp_id": 3454
+      "wp_id": 3454,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/motorbike-safety-at-petrol-station-entrances/"
     }
   },
-  "updated_at": "2026-10-22T11:06:01.220513+00:00"
+  "updated_at": "2026-10-22T11:06:05.412778+00:00"
 }
