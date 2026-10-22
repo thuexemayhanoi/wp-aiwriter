@@ -5109,11 +5109,13 @@
       "title": "Signalling Turns while Keeping Control of a Scooter",
       "slug": "signalling-turns-while-keeping-control-of-a-scooter",
       "source_hash": "e5feecdb562a78000cea547a2466283bd651b4ecb7e6ac1036d0e716e67278fd",
-      "checked_at": "2026-10-22T10:29:32.821705+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T10:29:37.828399+00:00",
+      "phase": "VERIFIED",
       "category_id": 56,
-      "wp_id": 3394
+      "wp_id": 3394,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/signalling-turns-while-keeping-control-of-a-scooter/"
     }
   },
-  "updated_at": "2026-10-22T10:29:32.821721+00:00"
+  "updated_at": "2026-10-22T10:29:37.828416+00:00"
 }
