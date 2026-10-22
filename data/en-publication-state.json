@@ -4735,10 +4735,11 @@
       "title": "What Identity Documents a Rental Shop May Ask to See",
       "slug": "what-identity-documents-a-rental-shop-may-ask-to-see",
       "source_hash": "f1e47c0b7e3137ff5bf4512901ac0b9b4df0bc988154ef48d5d31cf7105a27e7",
-      "checked_at": "2026-10-22T03:45:24.481984+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 55
+      "checked_at": "2026-10-22T03:45:26.638452+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 55,
+      "wp_id": 2715
     }
   },
-  "updated_at": "2026-10-22T03:45:24.481991+00:00"
+  "updated_at": "2026-10-22T03:45:26.638466+00:00"
 }
