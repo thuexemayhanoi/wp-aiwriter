@@ -144,9 +144,20 @@ def load_posts(topics):
         except ValueError as exc:
             errors.append({'file': str(path.relative_to(ROOT)), 'reason': str(exc)})
     accepted, signatures = [], []
+    used_slugs = {}
     for article in articles:
         if not article['ready']:
             continue
+        try:
+            candidate = article_slug(article)
+        except ValueError as exc:
+            errors.append({'id': article['id'], 'reason': str(exc)})
+            continue
+        if candidate in used_slugs:
+            errors.append({'id': article['id'],
+                           'reason': f'Duplicate clean URL slug for matrix #{used_slugs[candidate]}'})
+            continue
+        used_slugs[candidate] = article['id']
         sig = shingles(article['body'])
         duplicate = next((other for other, prior in signatures
                           if len(sig & prior) / max(1, min(len(sig), len(prior))) > .70), None)
@@ -164,8 +175,17 @@ def slugify(text):
     return re.sub(r'[^a-z0-9]+', '-', text).strip('-')[:75].rstrip('-')
 
 
+# Excel IDs stay in the immutable source matrix, never in public permalinks.
+# Reject accidental internal spreadsheet/matrix tokens before a WordPress write.
+INTERNAL_SLUG_PREFIX_RE = re.compile(r'^(?:excel|sheet-[0-9]+|spreadsheet-[0-9]+|matrix-[0-9]+)(?:-|$)', re.I)
+RESERVED_PUBLIC_SLUGS = {'en', 'wp-json', 'feed', 'category', 'tag', 'author', 'search', 'sitemap_index'}
+
+
 def article_slug(article):
-    return f"excel-{article['id']}-{slugify(article['title'])}"
+    slug = slugify(article['title'])
+    if not slug or INTERNAL_SLUG_PREFIX_RE.match(slug) or slug in RESERVED_PUBLIC_SLUGS:
+        raise ValueError(f'Unsafe public Vietnamese slug for matrix #{article["id"]}: {slug!r}')
+    return slug
 
 
 class SafeRedirect(urllib.request.HTTPRedirectHandler):
@@ -254,7 +274,7 @@ def duplicates(article, inventory):
     slug = article_slug(article)
     marker = f"wp-aiwriter:matrix_id={article['id']};"
     return [p for p in inventory if normalized(title_of(p)) == normalized(article['title'])
-            or p['slug'] in (slug, slugify(article['title']))
+            or p.get('slug') == slug
             or marker in p.get('content', {}).get('raw', '')]
 
 
@@ -347,6 +367,11 @@ def sync(client, ready, ledger, limit, report, scope=None):
     client.get('users/me?context=edit&_fields=id')  # validate credentials before all writes
     paths = category_paths(client.all('categories', hide_empty='false', _fields='id,name,parent'))
     inventory = client.all('posts', context='edit', status='any', _fields='id,title,slug,status,link,categories,content')
+    # WordPress post slugs can collide with static pages and EN route pages.
+    # The site must reject the collision before any write-ahead POST intent.
+    page_slugs = {p.get('slug'): p.get('id') for p in
+                  client.all('pages', context='edit', status='any', _fields='id,slug,status')
+                  if p.get('slug')}
     report['auth_ok'] = True
     report['site_published'] = sum(p['status'] == 'publish' for p in inventory)
     topics = matrix()
@@ -394,6 +419,8 @@ def sync(client, ready, ledger, limit, report, scope=None):
             status = 'publish' if category_id is not None else 'draft'
             reason = None if category_id else 'Missing or ambiguous full Excel category ancestry'
             slug = article_slug(article)
+            if slug in page_slugs:
+                raise ValueError(f'Clean slug conflicts with WordPress page {page_slugs[slug]}; no POST sent')
             payload = {'title': article['title'], 'slug': slug, 'status': status,
                        'content': f"<!-- wp-aiwriter:matrix_id={article['id']};sha256={article['hash']} -->\n" + markdown_to_html(article['body'])}
             if category_id is not None:

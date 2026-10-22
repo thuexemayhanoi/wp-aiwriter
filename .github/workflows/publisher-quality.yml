@@ -1,5 +1,9 @@
 name: WP AIWriter QA (No WordPress Writes)
 on:
+  # Run the same read-only QA on proposed fixes before merging. The separate
+  # Publisher only accepts a successful *push on main*, never pull_request.
+  pull_request:
+    branches: [main]
   push:
     branches: [main]
     paths:
