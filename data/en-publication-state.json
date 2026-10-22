@@ -5082,7 +5082,15 @@
       "wp_id": 3388,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-ride-after-dark-with-limited-street-lighting/"
+    },
+    "463": {
+      "title": "Why Motorbike Headlight Alignment Matters at Night",
+      "slug": "why-motorbike-headlight-alignment-matters-at-night",
+      "source_hash": "cffc5f46e14279318fcedc1b9e6ff4ef2e74887a63e9224176b5feaaf017340b",
+      "checked_at": "2026-10-22T10:07:42.860171+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 56
     }
   },
-  "updated_at": "2026-10-22T10:07:41.525012+00:00"
+  "updated_at": "2026-10-22T10:07:42.860181+00:00"
 }
