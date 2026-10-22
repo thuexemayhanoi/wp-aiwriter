@@ -4713,11 +4713,13 @@
       "title": "Who Is Responsible for Parking and Traffic Fines?",
       "slug": "who-is-responsible-for-parking-and-traffic-fines",
       "source_hash": "d96603e8d743027ffef6c5eeead6f57d4cc3e37a05c44cc4c55ed62310791838",
-      "checked_at": "2026-10-22T03:45:06.722555+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T03:45:10.873565+00:00",
+      "phase": "VERIFIED",
       "category_id": 55,
-      "wp_id": 2711
+      "wp_id": 2711,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/who-is-responsible-for-parking-and-traffic-fines/"
     }
   },
-  "updated_at": "2026-10-22T03:45:06.722572+00:00"
+  "updated_at": "2026-10-22T03:45:10.873579+00:00"
 }
