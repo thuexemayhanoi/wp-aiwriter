@@ -4851,7 +4851,15 @@
       "wp_id": 2735,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/what-to-do-if-the-bike-you-reserved-is-unavailable/"
+    },
+    "442": {
+      "title": "How to Report Damage That Appears during Your Rental",
+      "slug": "how-to-report-damage-that-appears-during-your-rental",
+      "source_hash": "62827dd06e0abf6b5a5c93669a39fd43c884b137826d26051393da3ec42dc43e",
+      "checked_at": "2026-10-22T03:54:49.703256+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 55
     }
   },
-  "updated_at": "2026-10-22T03:54:48.318018+00:00"
+  "updated_at": "2026-10-22T03:54:49.703265+00:00"
 }
