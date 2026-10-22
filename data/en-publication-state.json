@@ -4697,7 +4697,15 @@
       "wp_id": 2707,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/rental-motorbike-insurance-versus-personal-travel-insurance/"
+    },
+    "428": {
+      "title": "How to Check Whether a Rental Allows an Out-of-City Trip",
+      "slug": "how-to-check-whether-a-rental-allows-an-out-of-city-trip",
+      "source_hash": "7675db3adce90c5be4faff53dd16d5f67d7e0e7bd0581302878922746bbcdce3",
+      "checked_at": "2026-10-22T03:44:47.010311+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 55
     }
   },
-  "updated_at": "2026-10-22T03:44:45.515731+00:00"
+  "updated_at": "2026-10-22T03:44:47.010320+00:00"
 }
