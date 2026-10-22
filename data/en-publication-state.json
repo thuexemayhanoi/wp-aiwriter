@@ -4576,7 +4576,15 @@
       "wp_id": 2685,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/what-to-do-if-a-helmet-does-not-fit-at-pickup/"
+    },
+    "417": {
+      "title": "Requesting a Replacement Bike after Finding a Safety Defect",
+      "slug": "requesting-a-replacement-bike-after-finding-a-safety-defect",
+      "source_hash": "75459a90cc54da36eb33f6891e28e6cfaa3e46543e100d41568cfacf7300291c",
+      "checked_at": "2026-10-22T03:32:38.374982+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 55
     }
   },
-  "updated_at": "2026-10-22T03:32:36.724972+00:00"
+  "updated_at": "2026-10-22T03:32:38.374991+00:00"
 }
