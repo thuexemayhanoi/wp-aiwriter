@@ -5324,7 +5324,15 @@
       "wp_id": 3434,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-fit-and-fasten-a-motorbike-helmet-properly/"
+    },
+    "485": {
+      "title": "What to Check if a Helmet Has Been Dropped",
+      "slug": "what-to-check-if-a-helmet-has-been-dropped",
+      "source_hash": "c3666812a84835b996650cd30a3651e4618599706d2265babcc1284bef9e639c",
+      "checked_at": "2026-10-22T10:47:41.337669+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 56
     }
   },
-  "updated_at": "2026-10-22T10:47:40.013902+00:00"
+  "updated_at": "2026-10-22T10:47:41.337678+00:00"
 }
