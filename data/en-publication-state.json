@@ -5148,7 +5148,15 @@
       "wp_id": 3400,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/where-to-stop-safely-after-a-motorbike-breaks-down/"
+    },
+    "469": {
+      "title": "Emergency Numbers and Accident Reporting in Vietnam",
+      "slug": "emergency-numbers-and-accident-reporting-in-vietnam",
+      "source_hash": "6fde18b63fdda941ba175b8a93d5356ba761428a4a24dd3335aac44fe4cc33db",
+      "checked_at": "2026-10-22T10:30:24.022617+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 56
     }
   },
-  "updated_at": "2026-10-22T10:30:22.375279+00:00"
+  "updated_at": "2026-10-22T10:30:24.022625+00:00"
 }
