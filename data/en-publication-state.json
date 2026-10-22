@@ -4735,11 +4735,13 @@
       "title": "What Identity Documents a Rental Shop May Ask to See",
       "slug": "what-identity-documents-a-rental-shop-may-ask-to-see",
       "source_hash": "f1e47c0b7e3137ff5bf4512901ac0b9b4df0bc988154ef48d5d31cf7105a27e7",
-      "checked_at": "2026-10-22T03:45:31.478907+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T03:45:35.785743+00:00",
+      "phase": "VERIFIED",
       "category_id": 55,
-      "wp_id": 2715
+      "wp_id": 2715,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/what-identity-documents-a-rental-shop-may-ask-to-see/"
     }
   },
-  "updated_at": "2026-10-22T03:45:31.478921+00:00"
+  "updated_at": "2026-10-22T03:45:35.785755+00:00"
 }
