@@ -5181,7 +5181,15 @@
       "wp_id": 3406,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-verify-the-current-fine-for-a-traffic-offence/"
+    },
+    "472": {
+      "title": "How to Check Which Roads Restrict Motorbikes",
+      "slug": "how-to-check-which-roads-restrict-motorbikes",
+      "source_hash": "3914e425f0c91f43b8e1139cfbd0dd12370ffb6e04bc13a165142c26848bae90",
+      "checked_at": "2026-10-22T10:31:07.584648+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 56
     }
   },
-  "updated_at": "2026-10-22T10:31:05.787983+00:00"
+  "updated_at": "2026-10-22T10:31:07.584657+00:00"
 }
