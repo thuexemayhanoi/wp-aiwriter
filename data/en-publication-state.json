@@ -5329,11 +5329,11 @@
       "title": "What to Check if a Helmet Has Been Dropped",
       "slug": "what-to-check-if-a-helmet-has-been-dropped",
       "source_hash": "c3666812a84835b996650cd30a3651e4618599706d2265babcc1284bef9e639c",
-      "checked_at": "2026-10-22T10:47:45.621943+00:00",
-      "phase": "REGISTERED",
+      "checked_at": "2026-10-22T10:47:47.678707+00:00",
+      "phase": "VERIFY_PENDING",
       "category_id": 56,
       "wp_id": 3436
     }
   },
-  "updated_at": "2026-10-22T10:47:45.621957+00:00"
+  "updated_at": "2026-10-22T10:47:47.678723+00:00"
 }
