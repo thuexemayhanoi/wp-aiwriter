@@ -4862,7 +4862,15 @@
       "wp_id": 2737,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/how-to-report-damage-that-appears-during-your-rental/"
+    },
+    "443": {
+      "title": "What to Photograph When Returning a Rental Scooter",
+      "slug": "what-to-photograph-when-returning-a-rental-scooter",
+      "source_hash": "3f46f86373f64fee9005f21da1d923640a29ceb790a59bffab235848c9f5ea2d",
+      "checked_at": "2026-10-22T03:55:02.066706+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 55
     }
   },
-  "updated_at": "2026-10-22T03:55:00.692114+00:00"
+  "updated_at": "2026-10-22T03:55:02.066715+00:00"
 }
