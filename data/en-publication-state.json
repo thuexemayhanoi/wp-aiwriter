@@ -5472,11 +5472,13 @@
       "title": "What to Do if Your Tyre Loses Air during a Ride",
       "slug": "what-to-do-if-your-tyre-loses-air-during-a-ride",
       "source_hash": "c948932a8888fe85150173b4d508edac8459ddd37e330644318a73cdf9106a5b",
-      "checked_at": "2026-10-22T11:06:49.118307+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T11:06:53.270240+00:00",
+      "phase": "VERIFIED",
       "category_id": 56,
-      "wp_id": 3462
+      "wp_id": 3462,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/what-to-do-if-your-tyre-loses-air-during-a-ride/"
     }
   },
-  "updated_at": "2026-10-22T11:06:49.118323+00:00"
+  "updated_at": "2026-10-22T11:06:53.270256+00:00"
 }
