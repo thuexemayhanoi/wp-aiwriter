@@ -5131,11 +5131,13 @@
       "title": "Safe Overtaking Decisions on Two-Wheel Vehicles",
       "slug": "safe-overtaking-decisions-on-two-wheel-vehicles",
       "source_hash": "adec2319da2858df3a32feede1d2baaf032785724029d18a601034a4f917870b",
-      "checked_at": "2026-10-22T10:30:02.036618+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T10:30:07.435564+00:00",
+      "phase": "VERIFIED",
       "category_id": 56,
-      "wp_id": 3398
+      "wp_id": 3398,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/safe-overtaking-decisions-on-two-wheel-vehicles/"
     }
   },
-  "updated_at": "2026-10-22T10:30:02.036635+00:00"
+  "updated_at": "2026-10-22T10:30:07.435581+00:00"
 }
