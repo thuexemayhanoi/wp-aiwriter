@@ -5362,11 +5362,13 @@
       "title": "Heat and Dehydration on a Motorbike Day Trip",
       "slug": "heat-and-dehydration-on-a-motorbike-day-trip",
       "source_hash": "43613eccee03e2197dc4921a0ef91b6c445152dc1422469fbb3c95526127361d",
-      "checked_at": "2026-10-22T10:55:20.284136+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T10:55:24.309226+00:00",
+      "phase": "VERIFIED",
       "category_id": 56,
-      "wp_id": 3442
+      "wp_id": 3442,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/heat-and-dehydration-on-a-motorbike-day-trip/"
     }
   },
-  "updated_at": "2026-10-22T10:55:20.284154+00:00"
+  "updated_at": "2026-10-22T10:55:24.309244+00:00"
 }
