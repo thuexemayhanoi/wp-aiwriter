@@ -5373,10 +5373,11 @@
       "title": "Avoiding Alcohol and Impairment before Riding",
       "slug": "avoiding-alcohol-and-impairment-before-riding",
       "source_hash": "a20b8c9b6578f6792fbf176896a6d79bf470a241d1ca497dd96d8de50597d950",
-      "checked_at": "2026-10-22T10:55:25.541624+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 56
+      "checked_at": "2026-10-22T10:55:27.664935+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 56,
+      "wp_id": 3444
     }
   },
-  "updated_at": "2026-10-22T10:55:25.541636+00:00"
+  "updated_at": "2026-10-22T10:55:27.664951+00:00"
 }
