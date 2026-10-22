@@ -5142,11 +5142,13 @@
       "title": "Where to Stop Safely after a Motorbike Breaks Down",
       "slug": "where-to-stop-safely-after-a-motorbike-breaks-down",
       "source_hash": "e463da8aaad9552d67f25728352f9e7cebb72fe844439ef0f4bec821e4fe0fd9",
-      "checked_at": "2026-10-22T10:30:17.444331+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T10:30:22.375262+00:00",
+      "phase": "VERIFIED",
       "category_id": 56,
-      "wp_id": 3400
+      "wp_id": 3400,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/where-to-stop-safely-after-a-motorbike-breaks-down/"
     }
   },
-  "updated_at": "2026-10-22T10:30:17.444347+00:00"
+  "updated_at": "2026-10-22T10:30:22.375279+00:00"
 }
