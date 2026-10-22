@@ -5346,7 +5346,15 @@
       "wp_id": 3438,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/basic-protective-clothing-for-short-scooter-trips/"
+    },
+    "487": {
+      "title": "What to Do if You Feel Fatigued on a Long Ride",
+      "slug": "what-to-do-if-you-feel-fatigued-on-a-long-ride",
+      "source_hash": "449120a782dfe7cf0c1b1c868c0c4c00895aac2f155883817b816930f1551c19",
+      "checked_at": "2026-10-22T10:55:01.377342+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 56
     }
   },
-  "updated_at": "2026-10-22T10:55:00.065115+00:00"
+  "updated_at": "2026-10-22T10:55:01.377352+00:00"
 }
