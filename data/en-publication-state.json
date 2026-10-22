@@ -4702,11 +4702,13 @@
       "title": "How to Check Whether a Rental Allows an Out-of-City Trip",
       "slug": "how-to-check-whether-a-rental-allows-an-out-of-city-trip",
       "source_hash": "7675db3adce90c5be4faff53dd16d5f67d7e0e7bd0581302878922746bbcdce3",
-      "checked_at": "2026-10-22T03:44:53.696065+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T03:44:57.697463+00:00",
+      "phase": "VERIFIED",
       "category_id": 55,
-      "wp_id": 2709
+      "wp_id": 2709,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-check-whether-a-rental-allows-an-out-of-city-trip/"
     }
   },
-  "updated_at": "2026-10-22T03:44:53.696078+00:00"
+  "updated_at": "2026-10-22T03:44:57.697474+00:00"
 }
