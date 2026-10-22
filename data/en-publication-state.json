@@ -5439,11 +5439,13 @@
       "title": "How to Navigate an Unfamiliar Intersection without Panic",
       "slug": "how-to-navigate-an-unfamiliar-intersection-without-panic",
       "source_hash": "a43ba572eb15423db9dc264b6e0b29db533e19d41200f460b7265ec9e3b31d0e",
-      "checked_at": "2026-10-22T11:06:13.200615+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T11:06:17.412525+00:00",
+      "phase": "VERIFIED",
       "category_id": 56,
-      "wp_id": 3456
+      "wp_id": 3456,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-navigate-an-unfamiliar-intersection-without-panic/"
     }
   },
-  "updated_at": "2026-10-22T11:06:13.200630+00:00"
+  "updated_at": "2026-10-22T11:06:17.412542+00:00"
 }
