@@ -4620,7 +4620,15 @@
       "wp_id": 2693,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/lost-rental-bike-keys-reporting-and-replacement-steps/"
+    },
+    "421": {
+      "title": "Punctured Tyre during a Rental: Who to Contact",
+      "slug": "punctured-tyre-during-a-rental-who-to-contact",
+      "source_hash": "c6ba500e2a74079bae03f498feb128dd024a1e8ed78a619fb6d91b04d6baf891",
+      "checked_at": "2026-10-22T03:33:37.609633+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 55
     }
   },
-  "updated_at": "2026-10-22T03:33:35.921773+00:00"
+  "updated_at": "2026-10-22T03:33:37.609645+00:00"
 }
