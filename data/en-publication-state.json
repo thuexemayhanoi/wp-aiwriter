@@ -4790,10 +4790,11 @@
       "title": "How to Confirm Payment Methods before Pickup",
       "slug": "how-to-confirm-payment-methods-before-pickup",
       "source_hash": "595f349aa6ff6af4c6c1175a050a7622a873175924f2ea3e2ff7922dc8c4a0b7",
-      "checked_at": "2026-10-22T03:53:28.897231+00:00",
-      "phase": "POST_INTENT",
-      "category_id": 55
+      "checked_at": "2026-10-22T03:53:30.927759+00:00",
+      "phase": "DRAFT_CREATED",
+      "category_id": 55,
+      "wp_id": 2725
     }
   },
-  "updated_at": "2026-10-22T03:53:28.897260+00:00"
+  "updated_at": "2026-10-22T03:53:30.927775+00:00"
 }
