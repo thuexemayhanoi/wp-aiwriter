@@ -4933,11 +4933,13 @@
       "title": "What Different Traffic-Light Arrows Mean for Riders",
       "slug": "what-different-traffic-light-arrows-mean-for-riders",
       "source_hash": "1e6c31ecca5da4e0a08d0bce54b88d179f054a03d79636e7fc7399bbac6945da",
-      "checked_at": "2026-10-22T04:17:49.604771+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T04:17:54.712530+00:00",
+      "phase": "VERIFIED",
       "category_id": 68,
-      "wp_id": 2751
+      "wp_id": 2751,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/what-different-traffic-light-arrows-mean-for-riders/"
     }
   },
-  "updated_at": "2026-10-22T04:17:49.604789+00:00"
+  "updated_at": "2026-10-22T04:17:54.712549+00:00"
 }
