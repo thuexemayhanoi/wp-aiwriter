@@ -4790,11 +4790,13 @@
       "title": "How to Confirm Payment Methods before Pickup",
       "slug": "how-to-confirm-payment-methods-before-pickup",
       "source_hash": "595f349aa6ff6af4c6c1175a050a7622a873175924f2ea3e2ff7922dc8c4a0b7",
-      "checked_at": "2026-10-22T03:53:35.471655+00:00",
-      "phase": "VERIFY_PENDING",
+      "checked_at": "2026-10-22T03:53:39.958925+00:00",
+      "phase": "VERIFIED",
       "category_id": 55,
-      "wp_id": 2725
+      "wp_id": 2725,
+      "status": "publish",
+      "url": "https://blog.rentbikehanoi.com/en/how-to-confirm-payment-methods-before-pickup/"
     }
   },
-  "updated_at": "2026-10-22T03:53:35.471673+00:00"
+  "updated_at": "2026-10-22T03:53:39.958942+00:00"
 }
