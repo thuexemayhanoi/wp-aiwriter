@@ -5104,7 +5104,15 @@
       "wp_id": 3392,
       "status": "publish",
       "url": "https://blog.rentbikehanoi.com/en/checking-mirrors-and-blind-spots-before-changing-lanes/"
+    },
+    "465": {
+      "title": "Signalling Turns while Keeping Control of a Scooter",
+      "slug": "signalling-turns-while-keeping-control-of-a-scooter",
+      "source_hash": "e5feecdb562a78000cea547a2466283bd651b4ecb7e6ac1036d0e716e67278fd",
+      "checked_at": "2026-10-22T10:29:24.815860+00:00",
+      "phase": "POST_INTENT",
+      "category_id": 56
     }
   },
-  "updated_at": "2026-10-22T10:29:22.924220+00:00"
+  "updated_at": "2026-10-22T10:29:24.815868+00:00"
 }
